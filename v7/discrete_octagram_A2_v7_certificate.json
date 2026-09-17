@@ -1,0 +1,28 @@
+{
+  "phase": "v7_discrete_octagram_A2",
+  "status": "PASS_TYPED_LOCAL_MODEL",
+  "objects": {
+    "state": "S_N=(deltaLambda_N,Xi_N)",
+    "increments": "ell_j=Lambda_j-Lambda_{j-1}; xi_j=Xi_j-Xi_{j-1}",
+    "golden_q": "phi/2"
+  },
+  "exact_results": [
+    "DeltaLambda_N=(chi*w_{N+1}/2)*(R_{N+1}^2+b_{N+1}^2/2)>=0",
+    "DeltaXi_N=zeta*w_{N+1}*(z_{N+1}^3+(3/2)b_{N+1}^2*z_{N+1})",
+    "under R,b,z -> q(R,b,z) and w_{j+1}=rho_j*w_j: increment cocycle diag(rho_j*q^2,rho_j*q^3)",
+    "constant rho gives autonomous discrete semigroup; contraction iff rho*q^2<1",
+    "constant weights give ratio gap q^2-q^3=1/8",
+    "weight-normalized increments give 1/8 for arbitrary positive weights",
+    "octagram 8/2 block length 4 gives A2 discriminant factor q^24",
+    "octagram 8/3 block length 8 gives A2 discriminant factor q^48",
+    "on nu=0, mu_N is monotone and the A2 threshold is crossed at most once",
+    "off-axis discriminant monotonicity requires the explicit DeltaD inequality"
+  ],
+  "no_go_or_guards": [
+    "octagrammatic resonance alone does not imply golden metric self-similarity",
+    "raw DeltaLambda-DeltaXi is not a typed subtraction",
+    "homogeneous A2 contraction preserves discriminant sign and cannot itself cause crossing",
+    "variable common weight ratio rho breaks exact A2 quasi-homogeneous covariance unless normalized or rho=1"
+  ],
+  "verifier": "verify_discrete_octagram_A2_v7.py"
+}
