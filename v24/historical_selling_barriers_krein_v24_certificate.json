@@ -1,0 +1,327 @@
+{
+  "phase": "v24-historical-selling-barriers-krein-selector",
+  "status": "PASS",
+  "checks": {
+    "Selling_adjacent_move_det_minus1": true,
+    "Selling_adjacent_move_involution": true,
+    "Selling_S4_conjugacy_class_size_12": true,
+    "Selling_all_moves_involutions": true,
+    "Selling_all_moves_det_minus1": true,
+    "Selling_elementary_product_witnesses": true,
+    "Selling_plus_contains_all_elementaries": true,
+    "Selling_hist_closure_GL3Z": true,
+    "Selling_plus_ab_mod2_zero": true,
+    "Selling_stabilizer_images_in_ab_zero": true,
+    "Selling_coarse_H1_zero_for_adjacent_closure": true,
+    "quartic_stationary_equation": true,
+    "critical_value_identity": true,
+    "barrier_left_gap_formula": true,
+    "barrier_right_gap_formula": true,
+    "barriers_positive_in_bistable_region": true,
+    "symmetric_barrier_mu2_over_4beta": true,
+    "router_a2_increment": true,
+    "router_discriminant_increment": true,
+    "barrier_envelope_left_derivative": true,
+    "barrier_envelope_right_derivative": true,
+    "barrier_not_conserved_under_router_generically": true,
+    "barrier_transport_closed_by_nu_and_M": true,
+    "Fano_GL32_order_168": true,
+    "Fano_action_transitive_on_7_lines": true,
+    "Fano_no_absolute_invariant_single_line": true,
+    "conditional_Krein_plane_signature_11_from_12": true,
+    "conditional_Krein_plane_signature_11_from_21": true,
+    "Krein_selector_requires_cross_carrier_adapter": true,
+    "Krein_absolute_selector_from_Fano_alone_refuted": true
+  },
+  "historical_group": {
+    "source_move": "adjacent superbase v1 -> -v1, v2 -> v1+v2, v3 -> v3",
+    "representative_matrix": [
+      [
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "S4_conjugacy_class_size": 12,
+    "generators": [
+      [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          -1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    "elementary_witnesses": {
+      "E12": [
+        3,
+        1
+      ],
+      "E13": [
+        3,
+        2
+      ],
+      "E21": [
+        12,
+        7
+      ],
+      "E23": [
+        12,
+        11
+      ],
+      "E31": [
+        10,
+        8
+      ],
+      "E32": [
+        10,
+        9
+      ]
+    },
+    "closure": "GL3(Z)",
+    "plus_subgroup": "SL3(Z)",
+    "plus_abelianization_mod2": "0",
+    "coarse_H1": "0 for the adjacent-superbase closure"
+  },
+  "barriers": {
+    "bistable_condition": "mu>0 and 4 mu^3 - 27 beta a^2 > 0",
+    "critical_value": "V(r)=mu r^2/2 - 3 beta r^4/4",
+    "left_barrier": "beta*dL^3*(dL+2*dR)/12",
+    "right_barrier": "beta*dR^3*(2*dL+dR)/12",
+    "symmetric_barrier": "mu^2/(4 beta)",
+    "router": "a_{N+1}^2=a_N^2-(1-kappa_3^2)nu_N^2; Delta increases accordingly",
+    "conservation_verdict": "barrier itself is not conserved; transport is closed/deterministic from active nu and conserved M3 ledger"
+  },
+  "krein_selector": {
+    "Fano_absolute_selector": "REFUTED by transitivity of GL(3,2) on seven lines",
+    "relative_line": "PROVEN source-native for each elementary Selling move from v13",
+    "conditional_plane": "if a cross-carrier adapter sends the source line to a nonisotropic majority-sign line, its indefinite orthogonal complement has signature (1,1)",
+    "Selling_equals_Krein": "SEPARATED_PENDING_MORPHISM"
+  },
+  "statuses": {
+    "adjacent_superbase_matrix_family": "PROVEN_SOURCE_ANCHORED_MODERN_SELLING_VORONOI_FORMULATION",
+    "historical_adjacent_closure_equals_GL3Z": "PROVEN_EXACT",
+    "plus_ab_mod2_zero": "PROVEN_EXACT",
+    "coarse_H1_adjacent_closure_zero": "PROVEN_EXACT",
+    "identification_with_indefinite_hyperboloid_Gamma_f": "SEPARATED_PENDING_ACTION_ADAPTER",
+    "barrier_values_and_heights_lambda_negative": "PROVEN_EXACT",
+    "barrier_invariance_under_router": "REFUTED",
+    "barrier_closed_transport_under_router": "PROVEN_EXACT",
+    "absolute_Fano_Krein_selector": "REFUTED",
+    "relative_conditional_Krein_plane": "PROVEN_CONDITIONAL",
+    "Selling_Krein_metric_identification": "SEPARATED_PENDING_MORPHISM"
+  },
+  "guards": [
+    "The 12-generator group is the S4-relabeling closure of the exact adjacent-superbase Selling-Voronoi move. Calling it the historical hyperboloid action requires an explicit action adapter.",
+    "Barrier conservation is stronger than ledger conservation and is false generically; the barrier is a nonlinear observable transported deterministically by the conserved/active state.",
+    "Fano incidence alone cannot select one absolute line because GL(3,2) acts transitively on all seven lines.",
+    "The conditional Krein plane uses Sylvester inertia after a cross-carrier identification of the source-native Selling axis with the indefinite ternary space."
+  ]
+}
