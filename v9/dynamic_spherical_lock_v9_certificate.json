@@ -1,0 +1,41 @@
+{
+  "phase": "v9-dynamic-spherical-lock",
+  "status": "PASS",
+  "q": "1/4 + sqrt(5)/4",
+  "q2": "sqrt(5)/8 + 3/8",
+  "q3": "1/4 + sqrt(5)/8",
+  "q2_minus_q3": "1/8",
+  "relaxer": "Pi_plus + kappa Pi_minus",
+  "lift_eigenvalues": [
+    "kappa",
+    "q^2"
+  ],
+  "full_shape_center_eigenvalues": [
+    "kappa_even",
+    "kappa_odd",
+    "q^2",
+    "q^3"
+  ],
+  "radial_linearized_eigenvalue": "1-2*tau*alpha*R_*^2",
+  "checks": {
+    "projector_sum": true,
+    "projector_orthogonal": true,
+    "relaxer_decomposition": true,
+    "semigroup": true,
+    "sum_preserved": true,
+    "difference_scaled": true,
+    "geom_convolution_identity": true,
+    "golden_gap": true,
+    "closed_recurrence": true,
+    "common_radius_formula": true,
+    "shell_linearization": true,
+    "lift_charpoly": true
+  },
+  "guards": [
+    "Soft relaxation makes isotropy asymptotically attractive but not exactly invariant at finite N while anisotropic forcing remains nonzero.",
+    "Hard locking kappa=0 is an extra projection, not derived from Selling.",
+    "The choice kappa=q^3 is a typed golden matching assumption; only the resulting gap q^2-q^3=1/8 is exact.",
+    "Shape relaxation alone leaves a neutral common-radius direction; the shell potential is needed to isolate a unique stable sphere radius.",
+    "Centered spherical stability also requires contraction or vanishing of the odd bias nu/Xi."
+  ]
+}
