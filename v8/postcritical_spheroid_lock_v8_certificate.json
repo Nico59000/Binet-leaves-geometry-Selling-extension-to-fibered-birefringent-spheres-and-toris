@@ -1,0 +1,29 @@
+{
+  "phase": "v8-postcritical-spheroid-lock",
+  "status": "PASS",
+  "q": "1/4 + sqrt(5)/4",
+  "q2": "sqrt(5)/8 + 3/8",
+  "q3": "1/4 + sqrt(5)/8",
+  "q2_minus_q3": "1/8",
+  "Lambda_N": "ell0*(2**(3*N + 3) - (sqrt(5) + 3)**(N + 1))/(8**N*(5 - sqrt(5)))",
+  "Rpol2_N": "-g*(8**N*Ls*(5 - sqrt(5)) - ell0*(2**(3*N + 3) - (sqrt(5) + 3)**(N + 1)))/(8**N*beta4*(5 - sqrt(5)))",
+  "Req_moment2_N": "2**(1 - 3*N)*ell0*(2**(3*N + 3) - (sqrt(5) + 3)**(N + 1))/(chi*(5 - sqrt(5)))",
+  "Lambda_lock_moment": "Ls*chi*g/(-2*beta4 + chi*g)",
+  "checks": {
+    "golden_jump_1_8": true,
+    "polar_square_increment": true,
+    "equatorial_moment_square_increment": true,
+    "moment_lock_value": true,
+    "aspect_ratio_formula": true,
+    "envelope_lock_quadratic": true,
+    "envelope_radicand": true,
+    "same_weight2_no_new_1_8": true
+  },
+  "guards": [
+    "R_pol exact growth is proved on the symmetric slice nu_N=0.",
+    "R_eq is not fixed by the A2 dynamics alone; moment-matched and outward-envelope closures are explicit additional adapters.",
+    "Exact spherical locking at an integer N requires an arithmetic hit of the discrete golden lattice; otherwise only a crossing between levels is proved.",
+    "For nu_N != 0 the outer stationary branches are not symmetric about zero, so a sphere centered on the original propagation disk is not obtained without symmetry restoration/recentering.",
+    "No new 1/8 occurs between R_pol^2 and R_eq^2 under the moment closure because both are weight-2 observables; the existing 1/8 remains the weight-2 versus weight-3 contrast."
+  ]
+}
