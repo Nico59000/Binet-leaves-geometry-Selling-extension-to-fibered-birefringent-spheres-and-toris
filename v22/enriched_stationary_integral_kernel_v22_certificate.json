@@ -1,0 +1,64 @@
+{
+  "phase": "v22-enriched-stationary-integral-kernel",
+  "status": "PASS",
+  "checks": {
+    "scalar_discriminant_formula": true,
+    "scalar_no_cross_forces_a_zero": true,
+    "scalar_then_no_M2": true,
+    "Aplus_square": true,
+    "Aminus_square": true,
+    "matrix_disc_plus": true,
+    "matrix_disc_minus": true,
+    "channel_cubic_discriminant": true,
+    "C2_covariance": true,
+    "golden_covariance": true,
+    "M0_recovers_pm_nu": true,
+    "Aplus_Krein_selfadjoint": true,
+    "Aminus_symmetric": true,
+    "kernel_mod4_generated_size_512": true,
+    "kernel_mod4_all_size_512": true,
+    "kernel_mod4_generation_exact": true,
+    "Eij_det_plus": true,
+    "Fi_det_minus": true,
+    "minusI_mod2_identity": true,
+    "minusI_det_minus": true,
+    "minusI_fixes_quadratic_form": true,
+    "projective_det_not_well_defined": true,
+    "GL32_order_168": true
+  },
+  "dynamic": {
+    "scalar_regular_cubic": "REFUTED_FOR_NONZERO_LAMBDA6",
+    "matrix_stationary_doublet": "PROVEN_CONSTRUCTED",
+    "lambda_positive_control": "A^2=(nu^2-c^2 M^2) I, Krein signature (1,1)",
+    "lambda_negative_control": "A^2=(nu^2+c^2 M^2) I, Euclidean symmetric",
+    "common_channel_discriminant": "beta * (4 mu^3 -27 beta nu^2 + lambda6 M^2)",
+    "C2": "exact",
+    "golden_weights": "exact",
+    "real_channels_lambda_positive": "only when nu^2 >= c^2 M^2",
+    "source_native_energy": "NT"
+  },
+  "topology": {
+    "exact_sequence": "1 -> G_2(3) -> GL3(Z) -> GL3(2) -> 1",
+    "kernel_generators": "six I+2e_ij plus three diagonal sign flips F_i",
+    "mod4_replay": "512/512 generated",
+    "determinant_on_kernel": "surjective via F_i",
+    "minus_identity": "in kernel, determinant -1, fixes every quadratic form",
+    "coarse_determinant_background": "REFUTED_IF_GAMMA_F_CONTAINS_MINUS_I",
+    "effective_projective_determinant": "NOT_WELL_DEFINED_IN_ODD_DIMENSION",
+    "other_historical_C2_characters": "NT_PENDING_GAMMA_F_PRESENTATION"
+  },
+  "statuses": {
+    "true_shifted_stationary_discriminant": "PROVEN_IN_2X2_DOUBLEt_MODEL",
+    "ordinary_scalar_cubic_realization": "REFUTED",
+    "integral_reduction_kernel": "PROVEN_STANDARD_PLUS_MOD4_REPLAY",
+    "determinant_coarse_background": "REFUTED_FOR_NATURAL_FULL_AUTOMORPHISM_ACTION",
+    "full_historical_coarse_H1": "NT"
+  },
+  "guards": [
+    "The 2x2 stationary doublet is a constructed enrichment; the source has not yet selected the coupling c or an internal doublet metric.",
+    "For lambda6>0, algebraic discriminant zero can leave the real eigenchannel cone; real nucleation then requires nu^2 >= c^2 M^2.",
+    "The principal congruence kernel generators are a standard external group-theoretic result, independently replayed modulo 4 in the verifier.",
+    "K_f=Gamma_f intersect G_2(3) still requires an explicit historical Gamma_f presentation.",
+    "Killing the determinant character does not prove the entire coarse H1 vanishes."
+  ]
+}
