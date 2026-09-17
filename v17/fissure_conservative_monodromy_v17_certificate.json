@@ -1,0 +1,53 @@
+{
+  "phase": "v17-fissure-conservative-monodromy",
+  "status": "PASS",
+  "checks": {
+    "J_square_identity": true,
+    "router_commutes_with_fissure_monodromy": true,
+    "D_ledger_conserved": true,
+    "U_ledger_conserved": true,
+    "third_ledger_conserved": true,
+    "D_ledger_even": true,
+    "U_ledger_even": true,
+    "third_ledger_odd": true,
+    "golden_commutes_router": true,
+    "golden_commutes_monodromy": true,
+    "golden_gap_one_eighth": true,
+    "polar_radius_even": true,
+    "equatorial_radius_even": true,
+    "nu_axis_vector_invariant": true,
+    "reservoir_axis_vector_invariant": true,
+    "donor_axis_vector_invariant": true,
+    "third_total_axis_vector_invariant": true,
+    "polar_potential_invariant": true,
+    "stationary_cubic_equivariant": true,
+    "Jordan_positive_lift_commutes": true,
+    "Jordan_swap_square": true,
+    "active_direct_router_commutes": true,
+    "active_energy_monodromy_invariant": true
+  },
+  "monodromy_matrix": "Matrix([[1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, -1, 0, 0], [0, 0, 0, 0, 0, 0, 0, -1, 0], [0, 0, 0, 0, 0, 0, 0, 0, -1]])",
+  "statuses": {
+    "fissure_action_on_active_D_U_nu": "PROVEN_FROM_V16_C2_REPRESENTATION",
+    "even_reservoir_gluing": "PROVEN_EXACT",
+    "odd_reservoir_and_donor_gluing": "PROVEN_REQUIRED_AND_EXACT",
+    "router_monodromy_commutation": "PROVEN_EXACT",
+    "even_ledgers_global_scalars": "PROVEN_EXACT",
+    "third_ledger_as_global_scalar": "REFUTED_TYPED_SIGN_FLIPS",
+    "third_ledger_as_sign_local_system": "PROVEN_CONSTRUCTED",
+    "third_physical_vector_balance": "PROVEN_INVARIANT",
+    "radii_geometry_after_fissure_loop": "PROVEN_INVARIANT",
+    "polar_potential_and_stationary_cubic": "PROVEN_EQUIVARIANT",
+    "golden_router_topology_triple_commutation": "PROVEN_EXACT",
+    "positive_Jordan_lift": "PROVEN_EXACT",
+    "fissure_as_conservative_topological_defect": "PROVEN_IN_CONSTRUCTED_LOCAL_SYSTEM",
+    "global_all_historical_fissures_same_class": "NT_REQUIRES_EXHAUSTIVE_ATLAS"
+  },
+  "guards": [
+    "The odd ledger M3 changes sign as a local coordinate; only the twisted section or M3*n is globally invariant.",
+    "The donor T3 must carry the same odd monodromy as nu and R3 for the v11 ledger and router to glue.",
+    "Router coefficients are assumed C2-even as declared in v11; sheet-dependent coefficients would need a separate descent condition.",
+    "Direct-routing active energy is monotone when |kappa_i|<1; for theta_i>0 donors can make instantaneous active energy nonmonotone although asymptotic locking remains compatible.",
+    "The Binet doublet realizes the constructed C2 representation; no external physical sheet interpretation is promoted."
+  ]
+}
