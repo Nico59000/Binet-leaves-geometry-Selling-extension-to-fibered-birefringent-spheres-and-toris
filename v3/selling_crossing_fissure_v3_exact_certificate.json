@@ -1,0 +1,1002 @@
+{
+  "source_anchored_models": {
+    "X6_historical_crossing_h_eq_k_eq_0": {
+      "wall_normal_form": [
+        "u=0",
+        "v=0",
+        "u+v=0"
+      ],
+      "fields": 6,
+      "local_prongs": 6,
+      "incidence_B2": [
+        [
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "local_down_laplacian": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "spectrum": [
+        "0",
+        "1",
+        "1",
+        "3",
+        "3",
+        "4"
+      ],
+      "four_field_K4_audit": [
+        {
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            1,
+            3,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              -1
+            ],
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              0,
+              0,
+              -1
+            ],
+            [
+              0,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              -1,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "induced_internal_edges": 2,
+          "cut_edges": 4,
+          "LP": [
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        },
+        {
+          "subset": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "induced_internal_edges": 3,
+          "cut_edges": 2,
+          "LP": [
+            [
+              2,
+              -1,
+              0,
+              0
+            ],
+            [
+              -1,
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              2,
+              -1
+            ],
+            [
+              0,
+              0,
+              -1,
+              2
+            ]
+          ],
+          "LP_row_sums": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "Dspec_zero_possible_K4": false,
+          "Dpartial_zero_possible_closed_four_field_target": false,
+          "reason_Dspec": "LP*1 != 0 because omitted adjacent fields generate boundary potential, whereas every K4(a,b) Laplacian kills 1",
+          "reason_Dpartial": "cut-interface rows of B6 F2 have coordinate sum +/-1, but every row in the span of a closed graph incidence matrix has coordinate sum 0"
+        }
+      ],
+      "joint_zero_status": "REFUTED_FOR_EVERY_ACTUAL_FOUR_FIELD_SUBPATCH_OF_THIS_C6_GERM"
+    },
+    "Y3_historical_fissure_h_eq_m_eq_0": {
+      "wall_normal_form": [
+        "three one-sided rays"
+      ],
+      "fields": 3,
+      "local_prongs": 3,
+      "incidence_B2": [
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "local_down_laplacian": [
+        [
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2
+        ]
+      ],
+      "spectrum": [
+        "0",
+        "3",
+        "3"
+      ],
+      "K4_Dpartial_Dspec_status": "NOT_APPLICABLE_DIMENSION_MISMATCH_3_FIELDS_VS_4_FIELD_DIAGNOSTIC",
+      "polar_cusp_prongs": 2,
+      "germ_equivalent_to_polar_cusp": false,
+      "germ_status": "REFUTED_BY_LINK_CARDINALITY_3_VS_2"
+    }
+  },
+  "conditional_local_model": {
+    "X4_two_transverse_wall_germ": {
+      "fields": 4,
+      "incidence_B2": [
+        [
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "local_down_laplacian": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "spectrum": [
+        "0",
+        "2",
+        "2",
+        "4"
+      ],
+      "K4_parameters": {
+        "a": 1,
+        "b": 0
+      },
+      "Dpartial": 0,
+      "Dspec": 0,
+      "status": "PASS_EXACT_FOR_SUPPORT_REDUCED_K4_1_0_GERM_NOT_PROMOTED_TO_NAMED_HISTORICAL_SELLING_CROSSING"
+    }
+  },
+  "cusp_degree4_control": {
+    "polar_normalized": {
+      "G": "-u**3 + v**2",
+      "gradient_at_origin": [
+        "0",
+        "0"
+      ],
+      "hessian": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "hessian_rank": 1,
+      "kernel_cubic_derivative": "-6",
+      "A2_jet_test": true
+    },
+    "quartic_A2": {
+      "G": "-u**4 - u**3 + v**2",
+      "gradient_at_origin": [
+        "0",
+        "0"
+      ],
+      "hessian": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "hessian_rank": 1,
+      "kernel_cubic_derivative": "-6",
+      "A2_jet_test": true
+    },
+    "quartic_tacnode_A3": {
+      "G": "-u**4 + v**2",
+      "gradient_at_origin": [
+        "0",
+        "0"
+      ],
+      "hessian": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "hessian_rank": 1,
+      "kernel_cubic_derivative": "0",
+      "A2_jet_test": false
+    }
+  },
+  "global_conclusions": {
+    "historical_six_field_crossing_to_exact_K4_four_field_patch": "REFUTED",
+    "historical_three_field_fissure_to_polar_A2_cusp": "REFUTED",
+    "degree_four_equation_alone_implies_polar_cusp": "REFUTED",
+    "existence_of_other_Selling_fissures_with_A2_cusp_auxiliary_discriminant": "NT_NOT_CLASSIFIED_BY_RETRIEVED_CORPUS"
+  }
+}
