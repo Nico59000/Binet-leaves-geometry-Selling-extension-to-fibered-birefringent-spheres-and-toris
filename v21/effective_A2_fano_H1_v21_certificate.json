@@ -1,0 +1,55 @@
+{
+  "phase": "v21-effective-A2-and-Fano-H1",
+  "status": "PASS",
+  "checks": {
+    "weighted_homogeneity": true,
+    "gradient_formula": true,
+    "jacobian_milnor_dimension_2": true,
+    "fixed_nonzero_M_slice_smooth": true,
+    "symmetric_slice_threshold": true,
+    "stationary_cubic_discriminant": true,
+    "effective_not_same_cubic_discriminant": true,
+    "branch_correction_even_order2": true,
+    "GL32_order_168": true,
+    "GL32_derived_order_168": true,
+    "GL32_H1_F2_zero": true,
+    "point_stabilizer_order_24": true,
+    "point_stabilizer_derived_order_12": true,
+    "point_stabilizer_ab_C2": true,
+    "mod2_forgets_integer_det_sign": true
+  },
+  "dynamic": {
+    "effective_discriminant": "F=4 mu^3-27 beta nu^2+lambda M^2",
+    "singularity": "quadratic suspension of A2; Jacobian quotient dimension 2",
+    "fixed_M_nonzero": "smooth discriminant slice",
+    "symmetric_effective_threshold": "mu_c^3=-lambda M^2/4",
+    "physical_guard": "F is not the discriminant of the unchanged stationary cubic when lambda M^2 != 0",
+    "branch": "M=0 at regular ramification, so no exact shift at branch point"
+  },
+  "topology": {
+    "Fano_group": "GL(3,2), order 168",
+    "Fano_derived_order": 168,
+    "Fano_H1_F2": "0",
+    "anchored_point_stabilizer_order": 24,
+    "anchored_derived_order": 12,
+    "anchored_H1_F2": "F2",
+    "historical_Gamma_f": "NT: no complete presentation/stabilizer list in source",
+    "literal_GL3Z_determinant": "separate integral layer, invisible after mod-2 reduction"
+  },
+  "statuses": {
+    "effective_weight6_homogeneity": "PROVEN_EXACT",
+    "effective_singularity_type": "A2_SUSPENSION_PROVEN",
+    "new_higher_singular_stratum": "REFUTED",
+    "fixed_M_effective_threshold_shift": "PROVEN",
+    "physical_stationary_threshold_shift": "NT_REQUIRES_MODIFIED_STATIONARY_EQUATION",
+    "Fano_global_background_C2": "REFUTED_H1_ZERO",
+    "anchored_chart_C2": "PROVEN_H1_F2",
+    "historical_quotient_background": "NT_PENDING_GAMMA_F_AND_STABILIZERS"
+  },
+  "guards": [
+    "Do not identify an effective discriminant criterion with the actual discriminant of the unchanged stationary cubic.",
+    "The Fano automorphism quotient and the historical Selling hyperboloid quotient are different carriers until an explicit group morphism is supplied.",
+    "A C2 character on the anchored point stabilizer does not extend to GL(3,2).",
+    "The determinant character of GL3(Z) belongs to the integral layer and is lost under reduction mod 2."
+  ]
+}
