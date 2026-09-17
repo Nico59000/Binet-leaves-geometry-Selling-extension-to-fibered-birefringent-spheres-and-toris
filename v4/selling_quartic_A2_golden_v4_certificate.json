@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "quartic_coefficients": {
+    "a4": "A + B + C + 2*G + 2*H + 2*K",
+    "a3": "2*A*h + 2*A*k + 2*B*g + 2*B*k + 2*C*g + 2*C*h + 4*G*g + 2*G*h + 2*G*k + 2*H*g + 4*H*h + 2*H*k + I0 + 2*K*g + 2*K*h + 4*K*k",
+    "a2": "A*h**2 + 4*A*h*k + A*k**2 + B*g**2 + 4*B*g*k + B*k**2 + C*g**2 + 4*C*g*h + C*h**2 + 2*G*g**2 + 4*G*g*h + 4*G*g*k + 2*G*h*k + 4*H*g*h + 2*H*g*k + 2*H*h**2 + 4*H*h*k + I0*g + I0*h + I0*k + 2*K*g*h + 4*K*g*k + 4*K*h*k + 2*K*k**2",
+    "a1": "2*A*h**2*k + 2*A*h*k**2 + 2*B*g**2*k + 2*B*g*k**2 + 2*C*g**2*h + 2*C*g*h**2 + 2*G*g**2*h + 2*G*g**2*k + 4*G*g*h*k + 2*H*g*h**2 + 4*H*g*h*k + 2*H*h**2*k + I0*g*h + I0*g*k + I0*h*k + 4*K*g*h*k + 2*K*g*k**2 + 2*K*h*k**2",
+    "a0": "A*h**2*k**2 + B*g**2*k**2 + C*g**2*h**2 + 2*G*g**2*h*k + 2*H*g*h**2*k + I0*g*h*k + 2*K*g*h*k**2"
+  },
+  "quartic_invariants": {
+    "I2": "12*a4*a0 - 3*a3*a1 + a2^2",
+    "J3": "72*a4*a2*a0 + 9*a3*a2*a1 - 27*a4*a1^2 - 27*a3^2*a0 - 2*a2^3",
+    "discriminant": "(4*I2^3 - J3^2)/27",
+    "triple_root": "I2=J3=0 for (u-r)^3(u-s)"
+  },
+  "golden": {
+    "phi^2_equals_phi_plus_1": true,
+    "q": "phi/2",
+    "q2_minus_q3": "1/8",
+    "Delta_n": "phi^(n-2)/2^(n+1)",
+    "orthant_ladder": {
+      "1": "1/2",
+      "2": "1/4",
+      "3": "1/8"
+    },
+    "samples": {
+      "q^2": 0.6545084971874737,
+      "q^(phi^2)": 0.5741561024673794,
+      "q^e": 0.5620862193372105,
+      "q^3": 0.5295084971874737
+    },
+    "annulus_positions": {
+      "phi^2": 0.6428191577607549,
+      "e": 0.739378222802106
+    }
+  },
+  "A2_weighted_scaling": {
+    "map": "(mu,nu)->(s^2 mu,s^3 nu)",
+    "D_scaling": "D->s^6 D",
+    "golden_step": "s=q gives q^2,q^3"
+  }
+}
