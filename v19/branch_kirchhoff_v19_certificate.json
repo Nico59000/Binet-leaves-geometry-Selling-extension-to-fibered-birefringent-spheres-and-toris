@@ -1,0 +1,39 @@
+{
+  "phase": "v19-branch-kirchhoff",
+  "status": "PASS",
+  "checks": {
+    "router_ledger_conservation": true,
+    "router_C2_commutation": true,
+    "odd_Dirichlet": true,
+    "even_Neumann": true,
+    "odd_derivative_even": true,
+    "linear_odd_to_even_no_go": true,
+    "sheet_swap_commutant": true,
+    "odd_scattering_no_even_port": true,
+    "quadratic_energy_conservation": true,
+    "quadratic_C2_even": true,
+    "quadratic_golden_weight6": true,
+    "branch_zero_preserved": true
+  },
+  "statuses": {
+    "odd_value_zero_at_branch": "PROVEN_FROM_C2_CONTINUITY",
+    "even_normal_derivative_zero": "PROVEN_FROM_C2_C1_REGULARITY",
+    "odd_Kirchhoff_transmission": "PROVEN_IN_DECLARED_NORMAL_SLICE_FLUX_MODEL",
+    "router_preserves_branch_conditions": "PROVEN_EXACT",
+    "linear_C2_odd_to_even_transfer": "REFUTED",
+    "linear_sheet_scattering_odd_to_even_reservoir": "REFUTED_BY_COMMUTANT",
+    "quadratic_energy_conversion": "PROVEN_CONSTRUCTED_OPTIONAL",
+    "canonical_quadratic_conversion_coefficient": "NT_NOT_SOURCE_SELECTED",
+    "quadratic_energy_reservoir_weight": "WEIGHT_6_PROVEN",
+    "direct_weight6_to_DU_weight2_adapter": "NT_PENDING_DEGREE_MINUS_4_ADAPTER",
+    "minimal_regular_branch_closure": "PURE_TRANSMISSION_ALPHA_0"
+  },
+  "guards": [
+    "The flux law J=-Lambda_3 d_t y is a declared local closure, not a historical Selling equation.",
+    "Pointwise vanishing of an odd field at the branch point is not itself loss of an integrated conserved quantity.",
+    "Signed third-moment conservation and quadratic energy conservation are different graded ledgers.",
+    "C2 forbids linear odd-to-even conversion, but permits even nonlinear invariants such as j^2.",
+    "Alpha>0 introduces a new branch interaction; alpha=0 is the minimal smooth transmission closure.",
+    "Quadratic conversion has golden weight 6 and cannot be identified with the weight-2 D/U channels without an extra degree -4 adapter."
+  ]
+}
