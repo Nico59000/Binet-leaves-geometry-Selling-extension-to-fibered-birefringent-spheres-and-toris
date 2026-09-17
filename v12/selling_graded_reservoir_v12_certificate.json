@@ -1,0 +1,125 @@
+{
+  "phase": "v12-selling-graded-reservoir",
+  "status": "PASS",
+  "fano_lines": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      6
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      5,
+      6
+    ],
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      3,
+      4,
+      6
+    ]
+  ],
+  "line_table": {
+    "(0, 1, 3)": {
+      "through_zero": true,
+      "E_s": "16/3",
+      "E_d": "0",
+      "R_U": "1",
+      "R_D": "0"
+    },
+    "(0, 2, 6)": {
+      "through_zero": true,
+      "E_s": "16/3",
+      "E_d": "0",
+      "R_U": "1",
+      "R_D": "0"
+    },
+    "(0, 4, 5)": {
+      "through_zero": true,
+      "E_s": "16/3",
+      "E_d": "0",
+      "R_U": "1",
+      "R_D": "0"
+    },
+    "(1, 2, 4)": {
+      "through_zero": false,
+      "E_s": "0",
+      "E_d": "6",
+      "R_U": "0",
+      "R_D": "1"
+    },
+    "(1, 5, 6)": {
+      "through_zero": false,
+      "E_s": "0",
+      "E_d": "6",
+      "R_U": "0",
+      "R_D": "1"
+    },
+    "(2, 3, 5)": {
+      "through_zero": false,
+      "E_s": "0",
+      "E_d": "6",
+      "R_U": "0",
+      "R_D": "1"
+    },
+    "(3, 4, 6)": {
+      "through_zero": false,
+      "E_s": "0",
+      "E_d": "6",
+      "R_U": "0",
+      "R_D": "1"
+    }
+  },
+  "checks": {
+    "seven_line_even_partition": true,
+    "line_class_3_plus_4": true,
+    "Fano_difference_set_7_3_1": true,
+    "Fourier_line_norm_squared": true,
+    "scalar_to_odd_C2_no_go": true,
+    "golden_eighth": true,
+    "ungraded_conservation_no_go": true
+  },
+  "morphism": {
+    "R_U_2": "(3/16) E_s",
+    "R_D_2": "(1/6) E_d",
+    "even_budget": "R_U_2 + R_D_2 = epsilon^2 = (r_Sell/4)^2",
+    "R_3_3": "Omega_sigma(L) epsilon^3",
+    "Omega_sigma": "Im(Z_sigma(L)^3)/(16 sqrt(2))",
+    "golden_scaling": "(R_D,R_U,R_3) -> (q^2 R_D,q^2 R_U,q^3 R_3)"
+  },
+  "statuses": {
+    "even_3_plus_4_line_projector": "PROVEN_EXACT",
+    "even_budget_conservation": "PROVEN_EXACT",
+    "Singer_orientation_odd_cubic": "PROVEN_CONSTRUCTED",
+    "C2_Singer_equivariance": "PROVEN_EXACT",
+    "golden_weight_2_3_compatibility": "PROVEN_EXACT",
+    "scalar_only_to_odd_channel": "REFUTED",
+    "canonical_Singer_C2_to_polar_C2": "NT_PENDING_FRAMING",
+    "canonical_even_channel_to_geometric_D_U_names": "NT_PENDING_GEOMETRIC_ADAPTER"
+  },
+  "guards": [
+    "The 3+4 split of Fano line classes is distinct from the 3+4 sign split inside one Selling move.",
+    "Degree-1 vonorm descent, degree-2 reservoirs, and the degree-3 pseudoscalar are conserved in a graded direct sum, not added as like-typed scalars.",
+    "The odd cubic requires an oriented Singer order; quotienting by orientation inversion kills every odd observable.",
+    "Assigning line-mass to radial size and residue/non-residue polarization to shape is a declared geometric adapter, not a theorem of Selling reduction alone."
+  ]
+}
