@@ -1,0 +1,39 @@
+{
+  "phase": "v11-conservative-toric-polar-radial-transfer",
+  "status": "PASS",
+  "router_matrix": "Matrix([[k, 0, k*theta*(1 - r)], [1 - k, 1, (1 - r)*(-k*theta + 1)], [0, 0, r]])",
+  "spectrum": [
+    "1",
+    "kappa",
+    "rho"
+  ],
+  "golden_q": "1/4 + sqrt(5)/4",
+  "q2": "sqrt(5)/8 + 3/8",
+  "q3": "1/4 + sqrt(5)/8",
+  "q2_minus_q3": "1/8",
+  "checks": {
+    "column_sum_conservation": true,
+    "determinant": true,
+    "charpoly": true,
+    "active_solution_n1": true,
+    "theta0_exact_invariance": true,
+    "golden_eighth": true,
+    "C2_equivariance": true,
+    "golden_commutation": true,
+    "selling_ledger": true
+  },
+  "statuses": {
+    "three_port_moment_conservation": "PROVEN",
+    "active_lock_with_golden_donors": "PROVEN",
+    "C2_equivariance": "PROVEN",
+    "golden_weight_2_3_commutation": "PROVEN",
+    "selling_scalar_conservative_lift": "PROVEN",
+    "canonical_Selling_to_geometric_reservoir_identification": "NT_PENDING_MORPHISM"
+  },
+  "guards": [
+    "The full conservative system retains eigenvalue 1 in reservoir directions; the sphere is an attractor of the active subsystem, not a unique global point.",
+    "Signed moments may be realized positively by Jordan splitting into positive and negative reservoir channels.",
+    "Octagrammatic phase resonance alone does not identify a unique physical reservoir.",
+    "The Selling ledger conservation is exact at the vonorm-descent level; mapping that reservoir to D, U, or nu remains typed and unproved."
+  ]
+}
