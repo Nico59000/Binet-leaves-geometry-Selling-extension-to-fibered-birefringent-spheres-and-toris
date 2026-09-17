@@ -1,0 +1,116 @@
+{
+  "phase": "v15-historical-crossing-fano-holonomy",
+  "status": "PASS",
+  "checks": {
+    "six_chamber_projective_labels": true,
+    "omitted_face_f3": true,
+    "induced_edge_transports": true,
+    "historical_crossing_holonomy_plus": true,
+    "refined_C12_graph_map": true,
+    "raw_C6_to_K34_edge_map_refuted": true,
+    "S3_chart_gauge_holonomy_invariant": true,
+    "cycle_reversal_invariant": true,
+    "crossing_pair_defect_zero": true,
+    "fissure_pair_defect_three": true,
+    "crossing_vs_fissure_separated": true,
+    "Binet_swap_not_forced": true
+  },
+  "historical_crossing": {
+    "walls": [
+      "h=0",
+      "k=0",
+      "h+k=0"
+    ],
+    "chamber_signs": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1
+      ]
+    ],
+    "projective_face_labels": [
+      "f0",
+      "f2",
+      "f1",
+      "f0",
+      "f2",
+      "f1"
+    ],
+    "wall_rows": [
+      "u2",
+      "u3",
+      "u1",
+      "u2",
+      "u3",
+      "u1"
+    ],
+    "edge_transports": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+    ],
+    "holonomy": 1,
+    "correct_graph_map": "Sd(C6)=C12 -> K3,4",
+    "raw_C6_vertex_map": "NOT_EDGE_PRESERVING"
+  },
+  "historical_fissure": {
+    "walls": [
+      "h=0",
+      "m=0",
+      "h-m=0"
+    ],
+    "half_branch_counts": [
+      1,
+      1,
+      1
+    ],
+    "pairing_defect": 3,
+    "regular_two_sided_extension": false
+  },
+  "statuses": {
+    "historical_sign_chamber_reconstruction": "PROVEN_EXACT",
+    "named_Fano_labeling": "PROVEN_RELATIVE_TO_S3_CHART_GAUGE",
+    "raw_C6_to_K34_graph_morphism": "REFUTED_TYPED",
+    "incidence_refined_C12_to_K34": "PROVEN_CONSTRUCTED",
+    "historical_crossing_C2_holonomy": "PLUS_ONE_PROVEN",
+    "historical_crossing_forces_Binet_sheet_swap": "REFUTED",
+    "historical_fissure_regular_two_sided_label_transport": "REFUTED",
+    "fissure_implies_local_regular_transport_failure": "PROVEN_FOR_SOURCE_TERMINATION_BRANCHING_SEMANTICS",
+    "all_global_regular_transport_failures_are_fissures": "NT_NOT_CLASSIFIED"
+  },
+  "guards": [
+    "The historical equations determine the Fano labels only up to a simultaneous S3 chart gauge; the holonomy is gauge independent.",
+    "The correct graph map is on the barycentric/incidence refinement C12, not directly on the chamber-only C6.",
+    "Holonomy +1 means the local historical crossing does not realize the nontrivial C2 class found on other loops of the finite K3,4 axis atlas.",
+    "At the historical fissure the source specifies only one half-branch for each of three wall types; the punctured neighborhood can still be labeled after choices, but no regular two-sided extension through the singular point exists.",
+    "The corpus does not classify every singularity of the global Selling field complex, so the converse regularity-failure => fissure is not claimed."
+  ]
+}
