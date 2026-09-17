@@ -1,0 +1,71 @@
+{
+  "phase": "v23-variational-effective-quotient",
+  "status": "PASS",
+  "checks": {
+    "matrix_potential_primitive_minus": true,
+    "matrix_potential_primitive_plus": true,
+    "Aminus_symmetric": true,
+    "Phi_matrix_C2_even": true,
+    "potential_weight4": true,
+    "euclidean_rayleigh_identity": true,
+    "euclidean_eta_stationary": true,
+    "spectral_potential_eta_stationary": true,
+    "spectral_potential_C2_even": true,
+    "spectral_potential_weight4": true,
+    "rayleigh_spurious_zero_expectation": true,
+    "rayleigh_spurious_not_eigenprojector": true,
+    "rayleigh_global_equivalence_refuted": true,
+    "channel_discriminant_formula": true,
+    "router_discriminant_increment": true,
+    "Aplus_G_selfadjoint": true,
+    "krein_norm_plus1": true,
+    "krein_rayleigh_identity": true,
+    "Aplus_charpoly": true,
+    "Selling_signature_21_contains_Krein_11": true,
+    "Selling_signature_12_contains_Krein_11": true,
+    "minusI_det_minus1": true,
+    "minusI_not_in_SL3": true,
+    "Steinberg_commutators_all_distinct": true,
+    "det_normalization_example": true,
+    "odd_dimension_sign_flip_changes_det": true,
+    "full_effective_generators_commutators": true
+  },
+  "dynamic": {
+    "matrix_potential": "V_eps(eta)=h(eta)I-eta A_eps, derivative exactly P_eps",
+    "lambda_negative": "global real algebraic scalar potential on spectral cone Sigma_-; Rayleigh chart exact only for eta != 0",
+    "lambda_negative_discriminant": "exact shifted stationary discriminant",
+    "router_direct": "at fixed mu,M, Delta increment = 27 beta (1-kappa^2) nu^2",
+    "lambda_positive": "real matrix primitive global; Krein Rayleigh principle only on non-null real projective sectors",
+    "lambda_positive_exceptional": "nu^2=c^2 M^2; no global positive scalar energy across this set",
+    "Selling_Krein_plane_existence": "PROVEN_EXISTENTIAL_FROM_SIGNATURE",
+    "Selling_Krein_adapter": "SEPARATED_PENDING_MORPHISM"
+  },
+  "topology": {
+    "general_effectivization": "if -I in Gamma_f, Gamma_f/{+-I} canonically isomorphic to Gamma_f intersect SL3(Z)",
+    "generator_normalization": "g_hat=(det g)g",
+    "full_envelope": "PGL3(Z) isomorphic to SL3(Z)",
+    "SL3_generators": "elementary E_ij(1)",
+    "perfectness_witness": "E_ij(1)=[E_ik(1),E_kj(1)] for distinct i,j,k",
+    "full_H1_F2": "0",
+    "full_coarse_background": "0 under the standard quotient hypotheses used since v20",
+    "historical_instance": "NT until a concrete Gamma_f generator/relations and effective stabilizers are supplied"
+  },
+  "statuses": {
+    "spectral_cover_potential_lambda_negative": "PROVEN_CONSTRUCTED_EXACT_IN_DOUBLET",
+    "rayleigh_global_base_potential_lambda_negative": "REFUTED_BY_SPURIOUS_ETA_ZERO_CRITICAL_POINTS",
+    "global_positive_energy_lambda_positive": "REFUTED_IN_GLOBAL_EUCLIDEAN_SENSE",
+    "local_Krein_variation_lambda_positive": "PROVEN_CONDITIONAL_REAL_CONE",
+    "Selling_indefinite_contains_Krein_11_planes": "PROVEN_EXACT_EXISTENTIAL",
+    "Krein_to_Selling_identification": "SEPARATED_PENDING_MORPHISM",
+    "effective_group_isomorphism": "PROVEN_EXACT",
+    "full_literal_PGL3_H1": "PROVEN_ZERO",
+    "fissures_only_full_literal_model": "PROVEN_CONDITIONAL_ON_V18_PUNCTURE_DECOMPOSITION",
+    "fissures_only_historical_instance": "NT_PENDING_GAMMA_F"
+  },
+  "guards": [
+    "The Selling HT+NT v3 source explicitly treats Gamma as instantiation data; v23 does not invent a historical generator set.",
+    "For lambda6<0 the exact scalar potential lives on the real spectral cone; the naive smooth Rayleigh carrier R x RP1 has spurious critical points at eta=0.",
+    "The indefinite Selling signature guarantees existence of (1,1) subplanes, but does not canonically select the axial Krein doublet or its metric.",
+    "Vanishing H1 for the full PGL3(Z) envelope does not imply vanishing H1 for an arbitrary proper subgroup Gamma_f."
+  ]
+}
