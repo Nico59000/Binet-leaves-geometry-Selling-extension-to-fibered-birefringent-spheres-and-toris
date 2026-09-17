@@ -1,0 +1,109 @@
+{
+  "phase": "v14-axis-transport-holonomy-axisymmetry",
+  "status": "PASS",
+  "checks": {
+    "u_basis_orthonormal": true,
+    "mixed_abs_overlap": true,
+    "sign_matrix": true,
+    "four_cycle_count": true,
+    "four_cycle_distribution": true,
+    "fundamental_holonomy_vector": true,
+    "holonomy_class_nontrivial": true,
+    "six_cycle_count": true,
+    "six_cycle_distribution": true,
+    "mu4_rotation_matrix": true,
+    "mu4_order3": true,
+    "mu4_det1": true,
+    "Reynolds_image_axisymmetric": true,
+    "Reynolds_idempotent": true,
+    "zero_orbit_sum": true,
+    "face_three_sum": true,
+    "face_nonfixed_sum": true,
+    "two_axis_discriminant": true,
+    "golden_weighted_triaxial_discriminant": true,
+    "golden_gap": true,
+    "Binet_deck_group_C2": true,
+    "K34_no_triangle": true
+  },
+  "axis_atlas": {
+    "square_normal_lines": 3,
+    "triangle_normal_lines": 4,
+    "oriented_normals": "6+8=14",
+    "quotient_adjacency": "K_3,4"
+  },
+  "connection": {
+    "sign_matrix": [
+      [
+        1,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        -1
+      ]
+    ],
+    "beta1_K34": 6,
+    "fundamental_holonomies": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "four_cycles": {
+      "total": 18,
+      "holonomy_minus": 12,
+      "holonomy_plus": 6
+    },
+    "six_cycles": {
+      "total": 24,
+      "holonomy_minus": 8,
+      "holonomy_plus": 16
+    },
+    "class": "NONTRIVIAL_C2"
+  },
+  "mu4": {
+    "matrix": "Matrix([[0, 1, 0], [0, 0, 1], [1, 0, 0]])",
+    "order": 3,
+    "fixed_axis": "f0=(1,1,1)/sqrt(3)",
+    "Reynolds_image": "span Q(f0)"
+  },
+  "accumulation": {
+    "two_axis_discriminant": "729*aa**2*bb**2*(cc - 1)**2*(aa**2 + 4*aa*bb*cc - 2*aa*bb + bb**2)",
+    "golden_weighted_three_cycle_discriminant": "729*amp**6*rr**2*(rr - 1)**6*(rr + 1)**2",
+    "generic_switching": "TRIAXIAL",
+    "golden_weighting_alone": "NOT_AXISYMMETRIZING",
+    "mu4_Reynolds": "AXISYMMETRIC_PROJECTOR"
+  },
+  "statuses": {
+    "seven_lines_to_cuboctahedral_normal_atlas": "PROVEN_EXACT",
+    "K34_overlap_connection": "PROVEN_CONSTRUCTED",
+    "C2_holonomy_nontrivial": "PROVEN_EXACT",
+    "globally_oriented_flat_axis": "REFUTED_ON_FINITE_ATLAS",
+    "Binet_double_twist_cancellation": "PROVEN_CONSTRUCTED",
+    "arbitrary_Selling_sum_axisymmetric": "REFUTED_GENERICALLY",
+    "golden_contraction_alone_axisymmetrizes": "REFUTED",
+    "mu4_Reynolds_axisymmetric_sector": "PROVEN_EXACT",
+    "historical_fissure_C3_injective_pullback": "REFUTED_GRAPH_THEORETIC",
+    "historical_crossing_C6_holonomy": "NT_NEEDS_FANO_AXIS_LABEL_MAP",
+    "global_historical_chamber_connection": "NT_PENDING_CHAMBER_TO_AXIS_MORPHISM"
+  },
+  "guards": [
+    "The cuboctahedral K3,4 graph is the exact finite axis-adjacency atlas, not identified with the full historical Selling chamber graph.",
+    "The mu4 order-three incidence transport has trivial R^3 holonomy and must not be confused with the nontrivial C2 orientation holonomy of the overlap connection.",
+    "The Binet comparison is an isomorphism of C2 local systems, unique up to one global sheet swap; it does not select an absolute B+ label.",
+    "A C6 incidence alone permits both C2 holonomies in K3,4, so the historical crossing needs an explicit line-label transport before a verdict.",
+    "The historical fissure C3 cannot inject as an adjacency cycle into bipartite K3,4."
+  ]
+}
