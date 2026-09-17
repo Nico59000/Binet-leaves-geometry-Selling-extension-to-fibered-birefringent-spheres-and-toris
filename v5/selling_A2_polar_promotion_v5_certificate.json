@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "packet": {
+    "M_star": [
+      [
+        "136/31",
+        "-4",
+        "-2"
+      ],
+      [
+        "-4",
+        "-26/29",
+        "-1"
+      ],
+      [
+        "-2",
+        "-1",
+        "-47/46"
+      ]
+    ],
+    "adj_M_star": [
+      [
+        "-56/667",
+        "-48/23",
+        "64/29"
+      ],
+      [
+        "-48/23",
+        "-6048/713",
+        "384/31"
+      ],
+      [
+        "64/29",
+        "384/31",
+        "-17920/899"
+      ]
+    ],
+    "det_M_star": "73728/20677",
+    "I0_star": "-221184/20677",
+    "LDL_pivots": [
+      "136/31",
+      "-2240/493",
+      "-144/805"
+    ],
+    "signature": "(1,2)",
+    "fixed": {
+      "c": "-47/46",
+      "g": "-1",
+      "h": "-2",
+      "k": "-4"
+    },
+    "controls": {
+      "a_star": "136/31",
+      "b_star": "-26/29"
+    }
+  },
+  "triple_root": {
+    "u0": "0",
+    "P_u0": "-8",
+    "Q_factor": "-504*u**3*(143*u - 112)/20677",
+    "Q3_u0": "338688/20677",
+    "simple_fourth_root": "112/143",
+    "poles": [
+      "1",
+      "2",
+      "4"
+    ],
+    "genuine_rational_root": true
+  },
+  "A2_versality": {
+    "local_algebra_basis": [
+      "1",
+      "u"
+    ],
+    "control_jet_matrix": [
+      [
+        "-3968/667",
+        "-133632/713"
+      ],
+      [
+        "7440/667",
+        "183744/713"
+      ]
+    ],
+    "determinant": "294912/529",
+    "rank": 2
+  },
+  "invariant_transversality": {
+    "I2_star": "0",
+    "J3_star": "0",
+    "Jacobian_ab": [
+      [
+        "70060032/444889",
+        "2912329728/508369"
+      ],
+      [
+        "11012117889024/9198969853",
+        "396436244004864/10511545813"
+      ]
+    ],
+    "determinant": "-4296582355504620109824/4676471105199757",
+    "rank": 2
+  },
+  "polar_transport": {
+    "stationary_normal_form": "beta*(y^3+p*y+q)=0",
+    "control_map": "mu=-beta*p, nu=-beta*q",
+    "polar_discriminant_pullback": "-beta^3*(4*p^3+27*q^2)",
+    "status": "PROVEN_LOCAL_CONTACT_EQUIVALENCE_FOR_BETA_POSITIVE"
+  },
+  "typing": {
+    "Selling_structured_quartic_to_A2": "PROVEN_LOCAL",
+    "A2_to_declared_polar_nucleation_model": "PROVEN_LOCAL_TYPED",
+    "source_native_identification_mu_with_Binet_hypertensor_observable": "NT_PENDING_MORPHISM"
+  }
+}
