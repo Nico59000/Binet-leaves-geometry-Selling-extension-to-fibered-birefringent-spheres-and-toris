@@ -1,0 +1,133 @@
+{
+  "phase": "v16-selling-chart-cocycle",
+  "status": "PASS",
+  "checks": {
+    "S3_order": true,
+    "three_reflections": true,
+    "sign_homomorphism": true,
+    "S3_Cech_cocycle": true,
+    "C2_Cech_cocycle": true,
+    "C2_loop_gauge_invariant": true,
+    "crossing_all_orders_S3_identity": true,
+    "crossing_C2_plus": true,
+    "fissure_all_orders_transposition": true,
+    "fissure_C2_minus": true,
+    "fissure_orientation_reversal_same_C2": true,
+    "crossing_wall_count": true,
+    "fissure_wall_count": 3,
+    "fissure_shorter_than_crossing": true,
+    "local_fissure_class_nonzero": true,
+    "Binet_deck_C2": true,
+    "crossing_no_Binet_swap": true,
+    "fissure_forces_Binet_swap_in_model": true
+  },
+  "S3": {
+    "reflections": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ]
+    ],
+    "crossing_products": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "fissure_products": [
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ]
+  },
+  "local_monodromy": {
+    "historical_crossing": "+1 / identity",
+    "historical_fissure": "-1 / transposition",
+    "shortest_source_supported_nontrivial_meridian_wall_count": 3
+  },
+  "statuses": {
+    "local_A2_Weyl_chart_atlas": "PROVEN_CONSTRUCTED_UNDER_EXPLICIT_LOCAL_CHART_HYPOTHESIS",
+    "S3_transition_cocycle": "PROVEN_EXACT",
+    "C2_sign_cocycle": "PROVEN_EXACT",
+    "crossing_S3_holonomy": "IDENTITY_PROVEN",
+    "crossing_C2_holonomy": "PLUS_ONE_PROVEN",
+    "fissure_S3_meridian": "TRANSPOSITION_PROVEN_IN_WEYL_MODEL",
+    "fissure_C2_meridian": "MINUS_ONE_PROVEN_IN_WEYL_MODEL",
+    "fissure_as_branch_locus": "PROVEN_FOR_LOCAL_DOUBLE_COVER_MODEL",
+    "Binet_sheet_representation": "PROVEN_CONSTRUCTED",
+    "exhaustive_global_historical_atlas": "NT_SOURCE_DOES_NOT_SUPPLY_ALL_OVERLAPS",
+    "shortest_global_nontrivial_loop_beyond_local_germs": "NT_NOT_ENUMERATED"
+  },
+  "guards": [
+    "The HT+NT v3 source explicitly says wall equations are chart-dependent and does not provide one global canonical triple of equations.",
+    "The S3 bundle is the Weyl-A2 lift of the three-line local arrangement; it is a construction, not a verbatim historical object.",
+    "The sign character and its local meridian values are invariant under S3 relabeling/conjugation.",
+    "The historical crossing has each of three full wall families twice, giving trivial S3 and C2 monodromy.",
+    "The historical fissure has three one-sided branches, giving one encounter with each A2 reflection and nontrivial C2 monodromy in the constructed atlas.",
+    "The Binet identification represents the C2 local system but does not select an absolute B+ sheet."
+  ]
+}
