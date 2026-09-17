@@ -1,0 +1,31 @@
+{
+  "phase": "v10-global-dynamic-spherical-lock",
+  "status": "PASS",
+  "checks": {
+    "shell_Z_linear": true,
+    "shell_semigroup": true,
+    "shell_fixed_difference": true,
+    "shell_fixed_factor": true,
+    "delta_scaled": true,
+    "sum_preserved": true,
+    "even_compensation": true,
+    "odd_compensation": true,
+    "radial_forcing_identity": true,
+    "golden_gap": true,
+    "radial_match_exponent": true
+  },
+  "exact_shell_map": "Phi_t(Y)=K Y/[Y+(K-Y) exp(-2 alpha K t)]",
+  "global_linear_coordinate": "Z=K/Y-1; Z(Phi_t(Y))=exp(-2 alpha K t) Z(Y)",
+  "shape_coordinate": "delta=(P-E)/(P+E); delta -> kappa delta",
+  "even_compensator": "subtract (kappa C h/2)*(1,-1) after relaxed injection",
+  "odd_compensator": "subtract kappa_3 G g from the odd channel",
+  "radial_fixed_point_guard": "under additive size forcing Hh, exact R_* locking requires rho=Hh",
+  "golden_matching": "a_R=q^2, kappa=q^3 gives a_R-kappa=1/8",
+  "guards": [
+    "The compensators are declared feedback/feed-forward operators; they are not derived from Selling.",
+    "Global radial attraction is proved on the positive radius sector for the exact shell flow, not for arbitrary discrete integrators.",
+    "Shape and odd compensation can preserve centered isotropy while allowing the common radius to continue growing.",
+    "An exact fixed radius during nonzero isotropic injection requires cancellation or rerouting of that radial injection.",
+    "The golden choices a_R=q^2 and kappa=q^3 are typed closures, not canonical consequences of Binet/Selling/octagram resonance."
+  ]
+}
