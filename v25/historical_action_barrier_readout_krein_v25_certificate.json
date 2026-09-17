@@ -1,0 +1,557 @@
+{
+  "phase": "v25-historical-action-barrier-readout-krein-bridge",
+  "status": "PASS",
+  "checks": {
+    "historical_coefficient_action_representative": true,
+    "congruence_det_invariant_representative": true,
+    "twelve_moves": true,
+    "all_congruences_preserve_det": true,
+    "all_moves_unimodular": true,
+    "minusI_trivial_on_coefficients": true,
+    "conorm_inverse_relations": true,
+    "S1_conorm_action": true,
+    "S2_conorm_action": true,
+    "A2_reflection_alpha_involution": true,
+    "A2_reflection_beta_involution": true,
+    "A2_braid_order3": true,
+    "A2_Weyl_order6": true,
+    "A2_open_chamber_orbit6_stab1": true,
+    "A2_wall_orbit3_stab2": true,
+    "A2_crossing_stab6": true,
+    "historical_wall_identification": true,
+    "trace_centered_mu_formula": true,
+    "odd_source_formula": true,
+    "augmented_a_formula": true,
+    "history_free_barrier_readout_refuted": true,
+    "J_annihilates_constant_gauge": true,
+    "J_rank3": true,
+    "J_maps_seven_axes_to_seven_vonorm_lines": true,
+    "superbase_transition_preserves_relation": true,
+    "J_adjacent_transition_matches_Sstar": true,
+    "adjugate_contravariant_covariance": true,
+    "majority_line_gives_Krein_21": true,
+    "majority_line_gives_Krein_12": true,
+    "minority_line_not_Krein_21": true,
+    "minority_line_not_Krein_12": true
+  },
+  "historical_action": {
+    "matrix": "Q(a,b,c,g,h,k)=[[a,k,h],[k,b,g],[h,g,c]]",
+    "action": "Q -> S^T Q S",
+    "representative_Sstar_action": {
+      "a": "a",
+      "b": "a + b + 2*k",
+      "c": "c",
+      "g": "g + h",
+      "h": "-h",
+      "k": "-a - k"
+    },
+    "conorms": {
+      "p01": "a+k+h",
+      "p02": "b+k+g",
+      "p03": "c+h+g",
+      "p12": "-k",
+      "p13": "-h",
+      "p23": "-g"
+    },
+    "marked_obtuse_chamber": "all six conorms >=0 (positive Selling-Voronoi carrier)",
+    "local_crossing_roots": [
+      "alpha=p12=-k",
+      "beta=p13=-h",
+      "alpha+beta=-(h+k)"
+    ],
+    "local_Weyl_group": "W(A2)=S3, order 6",
+    "local_stabilizers": {
+      "open_chamber": "1",
+      "wall_interior": "C2",
+      "crossing_origin": "S3"
+    },
+    "fissure_status": "NT: historical m has no source-certified linear expression in the six coefficient coordinates in the current corpus",
+    "all_12_actions": [
+      {
+        "S": 1,
+        "matrix": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "b",
+          "c": "a + c + 2*h",
+          "g": "g + k",
+          "h": "-a - h",
+          "k": "-k"
+        },
+        "conorms": [
+          "p12 + p13",
+          "p02 + p12",
+          "p03 - p12",
+          "-p12",
+          "p01 + p12",
+          "p12 + p23"
+        ]
+      },
+      {
+        "S": 2,
+        "matrix": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "a + b + 2*k",
+          "c": "c",
+          "g": "g + h",
+          "h": "-h",
+          "k": "-a - k"
+        },
+        "conorms": [
+          "p12 + p13",
+          "p02 - p13",
+          "p03 + p13",
+          "p01 + p13",
+          "-p13",
+          "p13 + p23"
+        ]
+      },
+      {
+        "S": 3,
+        "matrix": [
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "a + b + 2*k",
+          "c": "a + c + 2*h",
+          "g": "a + g + h + k",
+          "h": "-a - h",
+          "k": "-a - k"
+        },
+        "conorms": [
+          "-p01",
+          "p01 + p02",
+          "p01 + p03",
+          "p01 + p13",
+          "p01 + p12",
+          "-p01 + p23"
+        ]
+      },
+      {
+        "S": 4,
+        "matrix": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "b + c + 2*g",
+          "b": "a + c + 2*h",
+          "c": "c",
+          "g": "-c - h",
+          "h": "-c - g",
+          "k": "c + g + h + k"
+        },
+        "conorms": [
+          "p02 + p03",
+          "p01 + p03",
+          "-p03",
+          "-p03 + p12",
+          "p03 + p13",
+          "p03 + p23"
+        ]
+      },
+      {
+        "S": 5,
+        "matrix": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "coefficients": {
+          "a": "b + c + 2*g",
+          "b": "b",
+          "c": "a + b + 2*k",
+          "g": "-b - k",
+          "h": "b + g + h + k",
+          "k": "-b - g"
+        },
+        "conorms": [
+          "p02 + p03",
+          "-p02",
+          "p01 + p02",
+          "p02 + p12",
+          "-p02 + p13",
+          "p02 + p23"
+        ]
+      },
+      {
+        "S": 6,
+        "matrix": [
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "a + c + 2*h",
+          "c": "a + b + 2*k",
+          "g": "a + g + h + k",
+          "h": "-a - k",
+          "k": "-a - h"
+        },
+        "conorms": [
+          "-p01",
+          "p01 + p03",
+          "p01 + p02",
+          "p01 + p12",
+          "p01 + p13",
+          "-p01 + p23"
+        ]
+      },
+      {
+        "S": 7,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "b",
+          "c": "b + c + 2*g",
+          "g": "-b - g",
+          "h": "h + k",
+          "k": "-k"
+        },
+        "conorms": [
+          "p01 + p12",
+          "p12 + p23",
+          "p03 - p12",
+          "-p12",
+          "p12 + p13",
+          "p02 + p12"
+        ]
+      },
+      {
+        "S": 8,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            -1
+          ]
+        ],
+        "coefficients": {
+          "a": "a",
+          "b": "b + c + 2*g",
+          "c": "c",
+          "g": "-c - g",
+          "h": "-h",
+          "k": "h + k"
+        },
+        "conorms": [
+          "p01 + p13",
+          "p02 - p13",
+          "p13 + p23",
+          "p12 + p13",
+          "-p13",
+          "p03 + p13"
+        ]
+      },
+      {
+        "S": 9,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            -1
+          ]
+        ],
+        "coefficients": {
+          "a": "a + c + 2*h",
+          "b": "b",
+          "c": "c",
+          "g": "-g",
+          "h": "-c - h",
+          "k": "g + k"
+        },
+        "conorms": [
+          "p01 - p23",
+          "p02 + p23",
+          "p13 + p23",
+          "p12 + p23",
+          "p03 + p23",
+          "-p23"
+        ]
+      },
+      {
+        "S": 10,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "coefficients": {
+          "a": "a + c + 2*h",
+          "b": "b + c + 2*g",
+          "c": "c",
+          "g": "-c - g",
+          "h": "-c - h",
+          "k": "c + g + h + k"
+        },
+        "conorms": [
+          "p01 + p03",
+          "p02 + p03",
+          "-p03",
+          "-p03 + p12",
+          "p03 + p23",
+          "p03 + p13"
+        ]
+      },
+      {
+        "S": 11,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a + b + 2*k",
+          "b": "b",
+          "c": "c",
+          "g": "-g",
+          "h": "g + h",
+          "k": "-b - k"
+        },
+        "conorms": [
+          "p01 - p23",
+          "p12 + p23",
+          "p03 + p23",
+          "p02 + p23",
+          "p13 + p23",
+          "-p23"
+        ]
+      },
+      {
+        "S": 12,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "coefficients": {
+          "a": "a + b + 2*k",
+          "b": "b",
+          "c": "b + c + 2*g",
+          "g": "-b - g",
+          "h": "b + g + h + k",
+          "k": "-b - k"
+        },
+        "conorms": [
+          "p01 + p02",
+          "-p02",
+          "p02 + p03",
+          "p02 + p23",
+          "-p02 + p13",
+          "p02 + p12"
+        ]
+      }
+    ]
+  },
+  "barrier_readout": {
+    "U_tilde": "kappa_star/3 * (trG - 12 sqrt(3))",
+    "D_L": "(kappa_star/2)<A_traceless,Q_L> (from v13; selects/embeds basin axis but does not enter scalar barrier height directly)",
+    "nu_sell": "kappa3 Omega_sigma(L) eps^3",
+    "mu_trace_adapter": "mu_tr = gamma_tr U_tilde (constructed typed calibration, not historical Selling identity)",
+    "a_augmented": "a^2=nu^2+c^2 M3^2",
+    "history_free_source_only": "REFUTED: M3 is an independent conserved router ledger/state variable",
+    "augmented_with_M3": "PROVEN_CLOSED_READOUT once M3 and the trace calibration are supplied"
+  },
+  "krein_bridge": {
+    "J_B": "R^4/<1> -> V, [x] -> sum_i x_i v_i; in basis (v1,v2,v3), J=[[-1,1,0,0],[-1,0,1,0],[-1,0,0,1]]",
+    "seven_axis_images": {
+      "u1": "[v2+v3]=[v0+v1]",
+      "u2": "[v1+v3]=[v0+v2]",
+      "u3": "[v1+v2]=[v0+v3]",
+      "f0": "[v3]",
+      "f1": "[v2]",
+      "f2": "[v1]",
+      "f3": "[v0]"
+    },
+    "adjugate_candidate": "REFUTED_TYPED as a stand-alone H->V bridge; it is contravariant on the ternary carrier and already presupposes a carrier identification",
+    "spectral_projector_candidate": "PROVEN_SELECTOR_ONLY; P_L selects ell_L in H but does not itself cross carriers",
+    "superbase_chamber_candidate": "PROVEN_CONSTRUCTED: J_B supplies the missing cross-carrier map and is functorial under chart changes",
+    "Krein_locus": "q_L=f(J_B ell_L) has majority sign of the ternary signature",
+    "on_Krein_locus": "K_L=(J_B ell_L)^perp has signature (1,1); restriction is congruent to diag(1,-1) up to O(1,1) gauge",
+    "global_all_seven_moves": "NT/REFUTED_AS_UNCONDITIONAL: selected line can be minority-sign or isotropic for a given indefinite form"
+  },
+  "statuses": {
+    "explicit_coefficient_action": "PROVEN_EXACT",
+    "action_preserves_determinant_signature_strata": "PROVEN_BY_CONGRUENCE",
+    "historical_crossing_fan_from_adjacent_moves": "PROVEN_EXACT",
+    "historical_crossing_local_stabilizers": "PROVEN_EXACT",
+    "positive_marked_reduction_chamber": "PROVEN_SOURCE_COMPATIBLE",
+    "indefinite_global_fundamental_domain_identification": "NT_NOT_PROVEN",
+    "historical_fissure_action_adapter": "NT_M_VARIABLE_NOT_TYPED_IN_COEFFICIENT_ACTION",
+    "Gamma_f_global_identification": "PARTIAL_LOCAL_CROSSING_PROVEN_GLOBAL_COMPLEX_NT",
+    "source_invariants_to_mu": "PROVEN_CONSTRUCTED_AFTER_TRACE_CALIBRATION_NOT_HISTORICAL_IDENTITY",
+    "source_invariants_to_a_without_ledger": "REFUTED",
+    "augmented_barrier_readout_with_M3": "PROVEN_EXACT",
+    "adjugate_as_JL": "REFUTED_TYPED",
+    "PL_as_JL": "REFUTED_TYPED_STANDALONE_BUT_PROVEN_SELECTOR_COMPONENT",
+    "superbase_realization_JB": "PROVEN_CONSTRUCTED_NATURAL",
+    "Selling_equals_Krein_on_majority_sign_locus": "PROVEN_UP_TO_O11_GAUGE",
+    "Selling_equals_Krein_globally_for_all_moves": "NT/REFUTED_UNCONDITIONAL"
+  },
+  "guards": [
+    "The historical crossing walls are the source-audited triplet h=0, k=0, h+k=0; a duplicated h+k in the user shorthand is not treated as a fourth wall.",
+    "The nonnegative conorm cone is a marked obtuse-superbase reduction chamber for the positive Selling-Voronoi carrier, not a proved global fundamental domain for the indefinite hyperboloid.",
+    "The local A2/S3 stabilizers are stabilizers of the normal chamber fan, not generic point stabilizers of the full six-dimensional coefficient tuple.",
+    "The historical fissure variable m is not identified with a source-certified linear functional of (a,b,c,g,h,k) in the current corpus.",
+    "A_traceless supplies the source-native axis/shape embedding; scalar barrier heights depend on mu and a, and the conserved M3 ledger cannot be reconstructed from instantaneous Selling invariants alone.",
+    "The superbase realization bridge is chart-relative but natural under chart transitions; a global Krein plane exists only on the majority-sign nonisotropic locus."
+  ]
+}
