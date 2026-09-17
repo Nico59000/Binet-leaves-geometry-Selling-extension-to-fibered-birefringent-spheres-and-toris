@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "selling_to_A2_jet": {
+    "J_pq": [
+      [
+        "64387/49392",
+        "9251/1372"
+      ],
+      [
+        "-961/441",
+        "-3364/49"
+      ]
+    ],
+    "det_J_pq": "-1616402/21609",
+    "rank": 2,
+    "dmu_dnu_rule": "(dmu,dnu)=-beta_pol * J_pq * (da,db)"
+  },
+  "spectral_morphism": {
+    "even_coordinate": "delta_Lambda = mu/gamma",
+    "odd_companion": "Xi = nu/delta",
+    "linear_map_da_db_to_deltaLambda_Xi": [
+      [
+        "-64387*beta/(49392*gamma)",
+        "-9251*beta/(1372*gamma)"
+      ],
+      [
+        "961*beta/(441*delta)",
+        "3364*beta/(49*delta)"
+      ]
+    ],
+    "determinant": "-1616402*beta**2/(21609*delta*gamma)",
+    "rank": 2
+  },
+  "active_shell_realization": {
+    "R_mu_squared": "R0^2 + 2*mu/(gamma*chi*w)",
+    "exact_spectral_shift": "chi*(m_mu-m_base)=mu/gamma"
+  },
+  "odd_cubic_moment": {
+    "moment": "z^3 + (3/2)b0^2 z",
+    "derivative_at_zero": "3*b0**2*w*zeta/2",
+    "local_invertibility_for_b0_w_zeta_positive": true
+  },
+  "C2_equivariance": {
+    "even": [
+      "mu",
+      "delta_Lambda",
+      "H_N"
+    ],
+    "odd": [
+      "nu",
+      "Xi",
+      "axial displacement z"
+    ],
+    "scalar_spectrum_alone_cannot_encode_nu": "PROVEN_LINEAR_NO_GO"
+  },
+  "golden_q": {
+    "q": "phi/2",
+    "second_moment_weight": 2,
+    "third_moment_weight": 3,
+    "q2_minus_q3": "1/8",
+    "intertwining": "(mu,nu)->(q^2 mu,q^3 nu) matches (delta_Lambda,Xi)->(q^2 delta_Lambda,q^3 Xi) when threshold/background co-scales"
+  },
+  "typing": {
+    "Selling_jet_to_mu_nu": "PROVEN_LOCAL_SOURCE_ANCHORED",
+    "mu_to_hypertensor_spectral_displacement": "PROVEN_LOCAL_CONSTRUCTED_IN_DECLARED_GEOMETRIC_MODEL",
+    "nu_to_scalar_Lambda": "REFUTED_BY_PARITY_AND_DIMENSION",
+    "nu_to_odd_cubic_polar_companion": "PROVEN_LOCAL_CONSTRUCTED",
+    "full_enriched_morphism": "PROVEN_LOCAL_CONSTRUCTED_EQUIVARIANT",
+    "historical_Selling_source_native_physical_identification": "NT_NOT_CLAIMED"
+  }
+}
