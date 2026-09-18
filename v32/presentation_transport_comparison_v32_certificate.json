@@ -1,0 +1,406 @@
+{
+  "phase": "v32-finite-presentation-transport-comparison",
+  "status": "PASS",
+  "checks": {
+    "adj_S1_involution": true,
+    "adj_S2_involution": true,
+    "adj_S3_involution": true,
+    "adj_S4_involution": true,
+    "adj_S5_involution": true,
+    "adj_S6_involution": true,
+    "adj_S7_involution": true,
+    "adj_S8_involution": true,
+    "adj_S9_involution": true,
+    "adj_S10_involution": true,
+    "adj_S11_involution": true,
+    "adj_S12_involution": true,
+    "R_source_ordered_decomposition": true,
+    "S_source_ordered_decomposition": true,
+    "R1_adjacent_refinement": true,
+    "R2_adjacent_refinement": true,
+    "R3_adjacent_refinement": true,
+    "R4_adjacent_refinement": true,
+    "R5_adjacent_refinement": true,
+    "S1_adjacent_refinement": true,
+    "S2_adjacent_refinement": true,
+    "S3_adjacent_refinement": true,
+    "P_source_two_step": true,
+    "Q_source_four_step": true,
+    "P1_adjacent_word": true,
+    "P2_adjacent_word": true,
+    "Q1_adjacent_word": true,
+    "Q2_adjacent_word": true,
+    "Q4_adjacent_word": true,
+    "adjacent_parity_conflicts_with_v30_boundary_tau": true,
+    "relation_Gamma2": true,
+    "relation_Delta2": true,
+    "relation_T2": true,
+    "relation_U2": true,
+    "relation_GammaDelta_comm": true,
+    "relation_TU_comm": true,
+    "relation_Gamma_V_inversion": true,
+    "relation_Delta_V_inversion": true,
+    "relation_Gamma_W_fixed": true,
+    "relation_Delta_W_inversion": true,
+    "T_U_commute_source_relation": true,
+    "Gamma_conjugates_V_inverse": true,
+    "Gamma_fixes_W": true,
+    "Delta_conjugates_V_inverse": true,
+    "Delta_conjugates_W_inverse": true,
+    "JPQ_Q0_isometry": true,
+    "JPQ_involution": true,
+    "JPQ_det_minus_one": true,
+    "JPQ_pseudoframe_coordinate_transport_identity": true,
+    "JPQ_O11_compatible": true,
+    "gV_common_SO11": true,
+    "gW_common_SO11": true,
+    "time_character_V": true,
+    "time_character_W": true,
+    "time_character_Gamma": true,
+    "time_character_Delta": true,
+    "time_character_T": true,
+    "time_character_U": true,
+    "scalar_time_local_system_is_representation": true,
+    "single_scalar_chi_candidate_not_closed": true,
+    "GammaW_relation_forces_scalar_chiW_zero": true,
+    "vector_chi_V_closed": true,
+    "vector_chi_W_closed": true,
+    "vector_d0_rank_2": true,
+    "vector_d1_rank_8": true,
+    "vector_H1_dimension_2": true,
+    "vector_V_nonexact": true,
+    "vector_W_nonexact": true,
+    "vector_VW_independent_mod_exact": true,
+    "core_D_rank_zero": true,
+    "core_memory_aug_rank_one": true,
+    "core_boost_aug_rank_one": true,
+    "v29_GL32_BFS_168": true,
+    "comparison_V_collapses_to_vertex": true,
+    "comparison_W_collapses_to_vertex": true,
+    "comparison_Gamma_collapses_to_vertex": true,
+    "comparison_Delta_collapses_to_vertex": true,
+    "v29_square_period_nonzero": true,
+    "same_mod2_endpoint_after_square": true,
+    "square_is_identity_mod2": true,
+    "P_paths_same_endpoint": true,
+    "v29_path_comparison_not_path_independent": true
+  },
+  "tooling": {
+    "exact_backend": "SymPy exact integer/rational/algebraic arithmetic",
+    "python_flint": "UNAVAILABLE_IN_RUNTIME",
+    "sage": "UNAVAILABLE_IN_RUNTIME",
+    "lean_native_replay": "UNAVAILABLE_IN_RUNTIME; KEP Lean source used only as contextual proof-ABI precedent"
+  },
+  "primitive_decomposition": {
+    "R_source_steps": 5,
+    "S_source_steps": 3,
+    "matrix_products": "PROVEN_EXACT",
+    "adjacent_superbase_algebraic_refinement": "PROVEN_EXACT",
+    "geometric_wall_path_identification": "REFUTED_FROM_MATRIX_WORD_ALONE / PENDING_EXPLICIT_WALL_PATH_ADAPTER",
+    "decisive_guard": "P and Q have even-length v24 algebraic words (8 and 10) although v30 historical boundary tau(P)=tau(Q)=-1; therefore algebraic word parity cannot define Binet wall monodromy."
+  },
+  "presentation_complex": {
+    "name": "X32_source_supported_relation_skeleton",
+    "cells": {
+      "0": [
+        "*"
+      ],
+      "1": [
+        "V",
+        "W",
+        "Gamma",
+        "Delta",
+        "T",
+        "U"
+      ],
+      "2": [
+        "Gamma2",
+        "Delta2",
+        "T2",
+        "U2",
+        "GammaDelta_comm",
+        "TU_comm",
+        "Gamma_V_inversion",
+        "Delta_V_inversion",
+        "Gamma_W_fixed",
+        "Delta_W_inversion"
+      ]
+    },
+    "relators": {
+      "Gamma2": [
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "Gamma",
+          1
+        ]
+      ],
+      "Delta2": [
+        [
+          "Delta",
+          1
+        ],
+        [
+          "Delta",
+          1
+        ]
+      ],
+      "T2": [
+        [
+          "T",
+          1
+        ],
+        [
+          "T",
+          1
+        ]
+      ],
+      "U2": [
+        [
+          "U",
+          1
+        ],
+        [
+          "U",
+          1
+        ]
+      ],
+      "GammaDelta_comm": [
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "Delta",
+          1
+        ],
+        [
+          "Gamma",
+          -1
+        ],
+        [
+          "Delta",
+          -1
+        ]
+      ],
+      "TU_comm": [
+        [
+          "T",
+          1
+        ],
+        [
+          "U",
+          1
+        ],
+        [
+          "T",
+          -1
+        ],
+        [
+          "U",
+          -1
+        ]
+      ],
+      "Gamma_V_inversion": [
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "V",
+          1
+        ],
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "V",
+          1
+        ]
+      ],
+      "Delta_V_inversion": [
+        [
+          "Delta",
+          1
+        ],
+        [
+          "V",
+          1
+        ],
+        [
+          "Delta",
+          1
+        ],
+        [
+          "V",
+          1
+        ]
+      ],
+      "Gamma_W_fixed": [
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "W",
+          1
+        ],
+        [
+          "Gamma",
+          1
+        ],
+        [
+          "W",
+          -1
+        ]
+      ],
+      "Delta_W_inversion": [
+        [
+          "Delta",
+          1
+        ],
+        [
+          "W",
+          1
+        ],
+        [
+          "Delta",
+          1
+        ],
+        [
+          "W",
+          1
+        ]
+      ]
+    },
+    "normal_form_core": {
+      "carrier": "alternating integral powers of V and W, source unique-path/tree grammar",
+      "topological_model": "rose R_2 for the V/W core after quotienting the source tree by the base form",
+      "status": "PROVEN_SOURCE_SUPPORTED_CORE"
+    },
+    "completeness": {
+      "known_relations": "PROVEN_EXACT",
+      "full_presentation_of_entire_historical_automorphism_group": "NT_PENDING_REWRITE_COMPLETENESS",
+      "reason": "No unproved T/U-to-V/W relations are inserted; finite relation skeleton is not silently promoted to a complete group presentation."
+    }
+  },
+  "krein_transport": {
+    "J_PQ": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "sqrt(5)"
+      ],
+      [
+        "0",
+        "1/sqrt(5)",
+        "0"
+      ]
+    ],
+    "properties": [
+      "J_PQ^T Q0 J_PQ=Q0",
+      "J_PQ^2=I",
+      "J_PQ(K_P)=K_Q",
+      "pseudo-frame coordinate transport=I_2"
+    ],
+    "field_extension": "Q(sqrt(5)) subset R",
+    "golden_guard": "sqrt(5) is algebraically necessary for this natural isometry; no identification with a golden/irrational-rotation carrier is made without a separate morphism."
+  },
+  "cohomology": {
+    "VW_core": {
+      "rank_D": 0,
+      "rank_aug_nonzero_memory": 1,
+      "rank_aug_nonzero_boost": 1,
+      "decision": "NONEXACT_CORE_CLASSES"
+    },
+    "scalar_time_system": {
+      "rank_D0": 1,
+      "rank_D1": 3,
+      "simultaneous_VW_scalar_chi": "REFUTED_NOT_CLOSED",
+      "witness_relation": "Gamma W Gamma W^-1=1 forces chi_W=0 under scalar time character"
+    },
+    "rank2_rapidity_bundle": {
+      "rank_D0": 2,
+      "rank_D1": 8,
+      "H1_dimension": 2,
+      "V_W_classes": "CLOSED_NONEXACT_INDEPENDENT; basis of H1 on X32 relation skeleton",
+      "scope": "T,U coefficient action is the minimal trivial extension on the currently verified independent T/U 2-cells; full historical coefficient action remains PENDING if new cross-relations are added."
+    },
+    "memory_full_presentation": "PENDING because a source-exact global Binet C2 action on Gamma,Delta,T,U and primitive R/S wall paths is not materialized."
+  },
+  "comparison": {
+    "quotient": "rho2 : historical lifts -> GL_3(2)",
+    "canonical_shortest_paths_in_v29_generators": {
+      "P": [
+        "S11",
+        "S2"
+      ],
+      "Q": [
+        "S5",
+        "S12"
+      ],
+      "R": [
+        "S5",
+        "S12"
+      ],
+      "S": [
+        "S4",
+        "S10"
+      ],
+      "T": [
+        "S6"
+      ],
+      "U": [
+        "S3",
+        "S6"
+      ],
+      "V": [],
+      "W": [],
+      "Gamma": [],
+      "Delta": []
+    },
+    "normalized_bar_cochain_pullback": {
+      "formula": "(rho2^* f)(g1,...,gn)=f(rho2(g1),...,rho2(gn))",
+      "kernel_degree1": "normalized degree-1 quotient cochains vanish on V,W,Gamma,Delta because rho2=I",
+      "status": "CANONICAL_AT_GROUP_BAR_COCHAIN_LEVEL"
+    },
+    "v29_cayley_graph_comparison": {
+      "canonical_path_section": "BFS shortest path in ordered generators S1,...,S12",
+      "status": "EXPLICIT_BUT_SECTION_DEPENDENT",
+      "obstruction_square": [
+        "S1",
+        "S2",
+        "S1",
+        "S2"
+      ],
+      "square_twisted_period": -0.7231006823013386,
+      "P_canonical_integral": 0.5663600334609729,
+      "P_with_square_integral": -0.1567406488403657,
+      "decision": "V29_GRAPH_COCHAIN_DOES_NOT_DESCEND_TO_A_PATH_INDEPENDENT_GROUP_COCHAIN_WHILE_THE_NONZERO_SQUARE_PERIOD_IS_RETAINED"
+    },
+    "kernel_consequence": {
+      "V": "PURE_LIFT_COMPONENT_RELATIVE_TO_CANONICAL_GROUP_COCHAIN_PULLBACK",
+      "W": "PURE_LIFT_COMPONENT_RELATIVE_TO_CANONICAL_GROUP_COCHAIN_PULLBACK",
+      "v29_graph_charges_vs_v32_lift_classes": "SEPARATED_UNTIL_A_2_CELL_COMPATIBLE_COMPARISON_IS_SUPPLIED"
+    }
+  },
+  "decisions": {
+    "finite_relation_complex": "PROVEN_CONSTRUCTED",
+    "complete_group_presentation": "NT_PENDING_REWRITE_COMPLETENESS",
+    "R_S_primitive_matrix_decomposition": "PROVEN",
+    "R_S_edgewise_epsilon_tau_s_chi": "PENDING_MORPHISM",
+    "O11_transport_KP_KQ": "PROVEN_OVER_Q_SQRT5",
+    "single_global_scalar_chi": "REFUTED_ON_NAIVE_TIME_LOCAL_SYSTEM; REPLACED_BY_RANK2_BUNDLE_ON_CURRENT_SKELETON",
+    "v29_graph_charge_direct_identification": "SEPARATED",
+    "V_W_congruence_kernel_components": "PROVEN_PURE_LIFT_RELATIVE_TO_GROUP_COCHAIN_PULLBACK"
+  },
+  "safe_successor": "v33 -- retain all v32 carriers and no-go results; complete the source rewrite/normal-form proof for the finite relation skeleton or add only source-exact missing cross-relations; materialize a geometric wall-path adapter from the ordered R/S source decompositions to primitive Selling chamber crossings and thereby determine the genuine Binet C2 action on Gamma,Delta,T,U; lift the rank-2 rapidity bundle from the current relation skeleton to that completed groupoid and test whether it splits canonically into scalar characters or remains irreducibly channel-valued; construct a 2-cell-compatible comparison from the v29 Cayley graph to the completed presentation (or prove an obstruction), and only then classify normalized v29 graph periods against historical memory classes beyond the already proven pure-kernel V/W components."
+}

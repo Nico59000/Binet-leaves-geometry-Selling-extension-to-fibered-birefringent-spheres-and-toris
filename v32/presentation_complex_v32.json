@@ -1,0 +1,188 @@
+{
+  "name": "X32_source_supported_relation_skeleton",
+  "cells": {
+    "0": [
+      "*"
+    ],
+    "1": [
+      "V",
+      "W",
+      "Gamma",
+      "Delta",
+      "T",
+      "U"
+    ],
+    "2": [
+      "Gamma2",
+      "Delta2",
+      "T2",
+      "U2",
+      "GammaDelta_comm",
+      "TU_comm",
+      "Gamma_V_inversion",
+      "Delta_V_inversion",
+      "Gamma_W_fixed",
+      "Delta_W_inversion"
+    ]
+  },
+  "relators": {
+    "Gamma2": [
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "Gamma",
+        1
+      ]
+    ],
+    "Delta2": [
+      [
+        "Delta",
+        1
+      ],
+      [
+        "Delta",
+        1
+      ]
+    ],
+    "T2": [
+      [
+        "T",
+        1
+      ],
+      [
+        "T",
+        1
+      ]
+    ],
+    "U2": [
+      [
+        "U",
+        1
+      ],
+      [
+        "U",
+        1
+      ]
+    ],
+    "GammaDelta_comm": [
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "Delta",
+        1
+      ],
+      [
+        "Gamma",
+        -1
+      ],
+      [
+        "Delta",
+        -1
+      ]
+    ],
+    "TU_comm": [
+      [
+        "T",
+        1
+      ],
+      [
+        "U",
+        1
+      ],
+      [
+        "T",
+        -1
+      ],
+      [
+        "U",
+        -1
+      ]
+    ],
+    "Gamma_V_inversion": [
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "V",
+        1
+      ],
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "V",
+        1
+      ]
+    ],
+    "Delta_V_inversion": [
+      [
+        "Delta",
+        1
+      ],
+      [
+        "V",
+        1
+      ],
+      [
+        "Delta",
+        1
+      ],
+      [
+        "V",
+        1
+      ]
+    ],
+    "Gamma_W_fixed": [
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "W",
+        1
+      ],
+      [
+        "Gamma",
+        1
+      ],
+      [
+        "W",
+        -1
+      ]
+    ],
+    "Delta_W_inversion": [
+      [
+        "Delta",
+        1
+      ],
+      [
+        "W",
+        1
+      ],
+      [
+        "Delta",
+        1
+      ],
+      [
+        "W",
+        1
+      ]
+    ]
+  },
+  "normal_form_core": {
+    "carrier": "alternating integral powers of V and W, source unique-path/tree grammar",
+    "topological_model": "rose R_2 for the V/W core after quotienting the source tree by the base form",
+    "status": "PROVEN_SOURCE_SUPPORTED_CORE"
+  },
+  "completeness": {
+    "known_relations": "PROVEN_EXACT",
+    "full_presentation_of_entire_historical_automorphism_group": "NT_PENDING_REWRITE_COMPLETENESS",
+    "reason": "No unproved T/U-to-V/W relations are inserted; finite relation skeleton is not silently promoted to a complete group presentation."
+  }
+}

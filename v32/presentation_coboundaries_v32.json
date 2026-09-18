@@ -1,0 +1,235 @@
+{
+  "scalar_time_attempt": {
+    "generator_order": [
+      "V",
+      "W",
+      "Gamma",
+      "Delta",
+      "T",
+      "U"
+    ],
+    "tau": {
+      "V": 1,
+      "W": 1,
+      "Gamma": -1,
+      "Delta": -1,
+      "T": -1,
+      "U": -1
+    },
+    "D0_shape": [
+      6,
+      1
+    ],
+    "D0": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "-2"
+      ],
+      [
+        "-2"
+      ],
+      [
+        "-2"
+      ],
+      [
+        "-2"
+      ]
+    ],
+    "D1_shape": [
+      10,
+      6
+    ],
+    "D1": [
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "2",
+        "-2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "-2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "rank_D0": 1,
+    "rank_D1": 3,
+    "candidate_VW_residual": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ],
+      [
+        "-2"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "decision": "REFUTED_GLOBAL_SCALAR_FOR_SIMULTANEOUS_V_AND_W_ON_THIS_RELATION_COMPLEX"
+  },
+  "rank2_rapidity_bundle": {
+    "generator_order": [
+      "V",
+      "W",
+      "Gamma",
+      "Delta",
+      "T",
+      "U"
+    ],
+    "rho_Gamma": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "rho_Delta": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "rho_V": "I2",
+    "rho_W": "I2",
+    "rho_T": "I2_TYPED_MINIMAL",
+    "rho_U": "I2_TYPED_MINIMAL",
+    "D0_shape": [
+      12,
+      2
+    ],
+    "D1_shape": [
+      20,
+      12
+    ],
+    "rank_D0": 2,
+    "rank_D1": 8,
+    "H1_dimension": 2,
+    "V_class": "NONZERO",
+    "W_class": "NONZERO",
+    "classes_independent": true,
+    "status": "PROVEN_ON_X32_RELATION_SKELETON__T_U_ACTION_TYPED_MINIMAL"
+  },
+  "VW_core": {
+    "D_memory": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "D_boost": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "rank": 0,
+    "rank_aug_nonzero_observable": 1,
+    "decision": "BOTH_CORE_CLASSES_NONEXACT"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quotient": "rho2 : historical lifts -> GL_3(2)",
+  "canonical_shortest_paths_in_v29_generators": {
+    "P": [
+      "S11",
+      "S2"
+    ],
+    "Q": [
+      "S5",
+      "S12"
+    ],
+    "R": [
+      "S5",
+      "S12"
+    ],
+    "S": [
+      "S4",
+      "S10"
+    ],
+    "T": [
+      "S6"
+    ],
+    "U": [
+      "S3",
+      "S6"
+    ],
+    "V": [],
+    "W": [],
+    "Gamma": [],
+    "Delta": []
+  },
+  "normalized_bar_cochain_pullback": {
+    "formula": "(rho2^* f)(g1,...,gn)=f(rho2(g1),...,rho2(gn))",
+    "kernel_degree1": "normalized degree-1 quotient cochains vanish on V,W,Gamma,Delta because rho2=I",
+    "status": "CANONICAL_AT_GROUP_BAR_COCHAIN_LEVEL"
+  },
+  "v29_cayley_graph_comparison": {
+    "canonical_path_section": "BFS shortest path in ordered generators S1,...,S12",
+    "status": "EXPLICIT_BUT_SECTION_DEPENDENT",
+    "obstruction_square": [
+      "S1",
+      "S2",
+      "S1",
+      "S2"
+    ],
+    "square_twisted_period": -0.7231006823013386,
+    "P_canonical_integral": 0.5663600334609729,
+    "P_with_square_integral": -0.1567406488403657,
+    "decision": "V29_GRAPH_COCHAIN_DOES_NOT_DESCEND_TO_A_PATH_INDEPENDENT_GROUP_COCHAIN_WHILE_THE_NONZERO_SQUARE_PERIOD_IS_RETAINED"
+  },
+  "kernel_consequence": {
+    "V": "PURE_LIFT_COMPONENT_RELATIVE_TO_CANONICAL_GROUP_COCHAIN_PULLBACK",
+    "W": "PURE_LIFT_COMPONENT_RELATIVE_TO_CANONICAL_GROUP_COCHAIN_PULLBACK",
+    "v29_graph_charges_vs_v32_lift_classes": "SEPARATED_UNTIL_A_2_CELL_COMPATIBLE_COMPARISON_IS_SUPPLIED"
+  }
+}
