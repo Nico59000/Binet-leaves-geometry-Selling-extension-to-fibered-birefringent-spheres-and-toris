@@ -1,0 +1,289 @@
+{
+  "phase": "v30-explicit-selling-form",
+  "status": "PASS",
+  "primary_form": {
+    "name": "Selling fig.1 explicit ternary form",
+    "Q0": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "signature": "(1,2)",
+    "conorms": {
+      "p01": 12,
+      "p02": -1,
+      "p03": -5,
+      "p12": 0,
+      "p13": 0,
+      "p23": 0
+    }
+  },
+  "primary_substitutions": {
+    "P": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Q": [
+      [
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        8
+      ]
+    ],
+    "Y": [
+      [
+        7,
+        2,
+        0
+      ],
+      [
+        24,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "P_target": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        -4,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "Q_target": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -20
+      ]
+    ],
+    "Y_preserves_Q0": true,
+    "Y_factorization": "Y=P*D*P^{-1}*D, D=diag(1,-1,1)"
+  },
+  "historical_amplitudes": {
+    "epsilon_P_forward": 1,
+    "epsilon_P_repeated_side": 4,
+    "epsilon_Q_forward": 5,
+    "epsilon_Q_repeated_side": 20,
+    "s_P_forward": 0.39943727590997463,
+    "s_P_repeated_side": 25.563985658238376,
+    "s_Q_forward": 4.735866844913168,
+    "s_Q_repeated_side": 303.0954780744427,
+    "P_period_memory": 25.1645483823284,
+    "P_period_formula": "Omega(u1)*(4^3-1^3)=63 Omega(u1)"
+  },
+  "Krein": {
+    "gP": "Matrix([[2, -sqrt(3)], [-sqrt(3), 2]])",
+    "gQ": "Matrix([[4, -sqrt(15)], [-sqrt(15), 4]])",
+    "gY": "Matrix([[7, -4*sqrt(3)], [-4*sqrt(3), 7]])",
+    "chi_P": "acosh(2)=log(2+sqrt(3))",
+    "chi_Q": "acosh(4)=log(4+sqrt(15))",
+    "chi_Y": "acosh(7)=log(7+4sqrt(3))=2 acosh(2)",
+    "chi_Y_numeric": 2.6339157938496336,
+    "historical_boost_nonzero": true
+  },
+  "congruence_descent_obstruction": {
+    "K": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "K_mod2": "I",
+    "QK": [
+      [
+        12,
+        24,
+        0
+      ],
+      [
+        24,
+        47,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "conorms_Q0": {
+      "p01": 12,
+      "p02": -1,
+      "p03": -5,
+      "p12": 0,
+      "p13": 0,
+      "p23": 0
+    },
+    "conorms_QK": {
+      "p01": 36,
+      "p02": 71,
+      "p03": -5,
+      "p12": -24,
+      "p13": 0,
+      "p23": 0
+    },
+    "epsilon_not_function_on_GL32_vertex": true,
+    "Y_mod2": "I",
+    "Y_nonzero_boost": "acosh(7)",
+    "Krein_boost_not_function_on_GL32_vertex": true
+  },
+  "Omega": {
+    "u1": {
+      "Z_re": 2.801937735804839,
+      "Z_im": 0.38619285942758697,
+      "Omega": 0.39943727590997463,
+      "norm2": 8.000000000000004
+    },
+    "u2": {
+      "Z_re": 1.4450418679126296,
+      "Z_im": 2.4314304431711764,
+      "Omega": 0.03788693475930534,
+      "norm2": 8.000000000000004
+    },
+    "u3": {
+      "Z_re": -0.24697960371746763,
+      "Z_im": -2.817623302598763,
+      "Omega": 0.9657973093709475,
+      "norm2": 7.999999999999998
+    }
+  },
+  "edges": [
+    {
+      "edge": "P",
+      "u": "C0",
+      "v": "CP",
+      "matrix": "[[1, 1, 0], [3, 4, 0], [0, 0, 1]]",
+      "source_page": "Selling 1877 p.189 (PDF p.37)",
+      "form_from": "diag(12,-1,-5)",
+      "form_to": "diag(3,-4,-5)",
+      "active_conorm": "p02",
+      "epsilon_from": 1,
+      "epsilon_opposite_side": 4,
+      "L": "u1",
+      "sigma": "sigma_minus=(0,4,1,5,2,6,3)",
+      "tau": "-1 (declared Binet boundary-lift gauge)",
+      "s_from": 0.39943727590997463,
+      "gKrein_plus_exact": "[[2,-sqrt(3)],[-sqrt(3),2]]",
+      "chi_exact": "-acosh(2)=-log(2+sqrt(3))",
+      "chi_numeric": -1.3169578969248168,
+      "status": "PRIMARY-MATRIX + PROJECT-ADAPTER"
+    },
+    {
+      "edge": "Q",
+      "u": "C0",
+      "v": "CQ",
+      "matrix": "[[2, 0, 5], [0, 1, 0], [3, 0, 8]]",
+      "source_page": "Selling 1877 p.189 (PDF p.37)",
+      "form_from": "diag(12,-1,-5)",
+      "form_to": "diag(3,-1,-20)",
+      "active_conorm": "p03",
+      "epsilon_from": 5,
+      "epsilon_opposite_side": 20,
+      "L": "u2",
+      "sigma": "sigma_minus=(0,4,1,5,2,6,3)",
+      "tau": "-1 (declared Binet boundary-lift gauge)",
+      "s_from": 4.735866844913168,
+      "gKrein_plus_exact": "[[4,-sqrt(15)],[-sqrt(15),4]]",
+      "chi_exact": "-acosh(4)=-log(4+sqrt(15))",
+      "chi_numeric": -2.0634370688955608,
+      "status": "PRIMARY-MATRIX + PROJECT-ADAPTER"
+    },
+    {
+      "edge": "Y",
+      "u": "C0",
+      "v": "C0",
+      "matrix": "[[7, 2, 0], [24, 7, 0], [0, 0, 1]]",
+      "source_page": "Selling 1877 p.191 (PDF p.39)",
+      "form_from": "diag(12,-1,-5)",
+      "form_to": "diag(12,-1,-5)",
+      "active_conorm": "composite P-period",
+      "epsilon_from": "[1,4] on the two P crossings",
+      "epsilon_opposite_side": "",
+      "L": "u1",
+      "sigma": "sigma_minus=(0,4,1,5,2,6,3)",
+      "tau": "+1 total in the two-crossing lift",
+      "s_from": 25.1645483823284,
+      "gKrein_plus_exact": "[[7,-4sqrt(3)],[-4sqrt(3),7]]",
+      "chi_exact": "-acosh(7)=-log(7+4sqrt(3))=-2acosh(2)",
+      "chi_numeric": -2.6339157938496336,
+      "status": "PRIMARY-SELF-AUTOMORPHISM + CONORM-LIFT-MEMORY"
+    }
+  ],
+  "guards": [
+    "P, Q and Y are primary historical substitutions; the Binet tau labels and Fano/Singer source term are project adapters layered on top of Selling.",
+    "The P-period memory 63 Omega(u1) is certified in the declared two-crossing conorm-lift model Y=P D P^{-1} D; Selling 1877 itself does not contain the later Binet/Singer observable.",
+    "Actual epsilon and continuous Krein boost do not descend to the v29 GL3(2) quotient; they live in the congruence-kernel/lift data.",
+    "The three-edge source skeleton is source-supported but is not claimed to be the exhaustive chamber graph of fig.1."
+  ]
+}

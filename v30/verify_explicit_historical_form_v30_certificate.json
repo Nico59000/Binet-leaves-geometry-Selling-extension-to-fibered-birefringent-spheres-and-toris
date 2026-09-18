@@ -1,0 +1,141 @@
+{
+  "phase": "v30-explicit-historical-selling-form",
+  "status": "PASS",
+  "checks": {
+    "P_target_exact": true,
+    "Q_target_exact": true,
+    "Y_preserves_Q0": true,
+    "Y_factorization": true,
+    "det_P": true,
+    "det_Q": true,
+    "det_Y": true,
+    "conorms_Q0": true,
+    "conorms_QP": true,
+    "conorms_QQ": true,
+    "historical_eps_P_1_to_4": true,
+    "historical_eps_Q_5_to_20": true,
+    "gP_exact": true,
+    "gP_O11": true,
+    "gQ_exact": true,
+    "gQ_O11": true,
+    "gY_exact": true,
+    "gY_SOplus11": true,
+    "chiY_double_chiP": true,
+    "sinh_chiY": true,
+    "Omega_norm_u1": true,
+    "P_period_memory_nonzero": true,
+    "P_period_formula_63Omega": true,
+    "K_mod2_identity": true,
+    "K_changes_form": true,
+    "K_changes_conorm_amplitude_data": true,
+    "Y_mod2_identity": true,
+    "Y_has_nonzero_historical_boost": true,
+    "epsilon_not_descend_GL32": true,
+    "chi_not_descend_GL32": true
+  },
+  "historical_form": {
+    "Q0": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "P": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Q": [
+      [
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        8
+      ]
+    ],
+    "Y": [
+      [
+        7,
+        2,
+        0
+      ],
+      [
+        24,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "actual_amplitudes": {
+    "P_side": [
+      1,
+      4
+    ],
+    "Q_side": [
+      5,
+      20
+    ],
+    "P_period_memory": "63 Omega_sigma_minus(u1)",
+    "P_period_memory_numeric": 25.1645483823284
+  },
+  "actual_krein": {
+    "gP": "[[2,-sqrt(3)],[-sqrt(3),2]]",
+    "chiP": "-acosh(2)",
+    "gQ": "[[4,-sqrt(15)],[-sqrt(15),4]]",
+    "chiQ": "-acosh(4)",
+    "gY": "[[7,-4sqrt(3)],[-4sqrt(3),7]]",
+    "chiY": "-acosh(7)",
+    "abs_chiY_numeric": 2.6339157938496336
+  },
+  "decisions": {
+    "v29_unit_epsilon_can_be_replaced_on_same_GL32_quotient": "REFUTED",
+    "v29_flat_krein_can_be_replaced_on_same_GL32_quotient": "REFUTED",
+    "reason": "both data live in congruence-kernel/lift fibers",
+    "historical_Y_boost": "PROVEN_NONZERO",
+    "historical_P_period_memory_in_declared_conorm_lift": "PROVEN_NONZERO",
+    "full_fig1_chamber_census": "NT_NOT_EXHAUSTED"
+  },
+  "guards": [
+    "Selling 1877 supplies Q0, P, Q and Y; the Binet/Singer tau and odd cochain are later project adapters.",
+    "The period 63 Omega(u1) is proved in the declared two-crossing conorm-lift model Y=P D P^{-1} D, not claimed as a formula written by Selling.",
+    "The explicit kernel matrices show that mod-2 congruence forgets exactly the data needed for physical amplitudes and continuous Krein rapidity.",
+    "No claim is made that the three-edge skeleton exhausts figure 1."
+  ]
+}
