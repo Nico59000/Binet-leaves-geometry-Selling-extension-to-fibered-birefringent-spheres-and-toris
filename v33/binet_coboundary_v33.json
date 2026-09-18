@@ -1,0 +1,138 @@
+{
+  "generator_order": [
+    "V",
+    "W",
+    "Gamma",
+    "Delta",
+    "T",
+    "U"
+  ],
+  "tau_Binet": {
+    "V": 1,
+    "W": 1,
+    "Gamma": -1,
+    "Delta": -1,
+    "T": -1,
+    "U": -1
+  },
+  "Dc_shape": [
+    6,
+    1
+  ],
+  "Dc": [
+    [
+      "0"
+    ],
+    [
+      "0"
+    ],
+    [
+      "-2"
+    ],
+    [
+      "-2"
+    ],
+    [
+      "-2"
+    ],
+    [
+      "-2"
+    ]
+  ],
+  "rank_Dc": 1,
+  "D1_shape": [
+    10,
+    6
+  ],
+  "D1": [
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "2",
+      "-2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "2",
+      "-2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-2",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "rank_D1": 3,
+  "scalar_H1_dimension": 2,
+  "scalar_cocycle_constraint": "Gamma W Gamma W^-1 forces scalar W component to zero",
+  "historical_memory_periods": {
+    "V": 25.1645483823284,
+    "W": 298.35961122952955
+  },
+  "scalar_memory_decision": "REFUTED_AS_GLOBAL_SCALAR_1_COCYCLE_ON_X32_2_CELLS",
+  "Binet_promotion_basis": "v27 theorem w1^time=[c]_Binet on U_time + exact timelike factor-path adapter in v33"
+}

@@ -1,0 +1,47 @@
+{
+  "v29_square": [
+    "S1",
+    "S2",
+    "S1",
+    "S2"
+  ],
+  "integer_lift_matrix": [
+    [
+      1,
+      -2,
+      2
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "mod2": "identity",
+  "Q0_image": [
+    [
+      12,
+      -24,
+      24
+    ],
+    [
+      -24,
+      47,
+      -48
+    ],
+    [
+      24,
+      -48,
+      43
+    ]
+  ],
+  "stabilizes_Q0": false,
+  "twisted_period": -0.7231006823013386,
+  "decision_one_vertex": "REFUTED: no integer-lift-preserving 2-cell-compatible comparator from the raw v29 Cayley graph to the one-object historical automorphism presentation can fill this square at Q0.",
+  "remaining_route": "OPEN: enlarge target to a multi-object lift groupoid containing the distinct form Q_K; then the square lifts to an open deck path rather than a filled loop."
+}

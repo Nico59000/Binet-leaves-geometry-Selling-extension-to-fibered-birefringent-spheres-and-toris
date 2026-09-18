@@ -1,0 +1,130 @@
+{
+  "normalized_metric": "eta=diag(1,-1,-1)",
+  "basis": [
+    "K_V=Ky",
+    "K_W=Kz",
+    "J_phase=[Ky,Kz]"
+  ],
+  "brackets": {
+    "[Ky,Kz]": "J",
+    "[J,Ky]": "-Kz",
+    "[J,Kz]": "Ky"
+  },
+  "Ad": {
+    "V": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "7",
+        "4*sqrt(3)"
+      ],
+      [
+        "0",
+        "4*sqrt(3)",
+        "7"
+      ]
+    ],
+    "W": [
+      [
+        "31",
+        "0",
+        "-8*sqrt(15)"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-8*sqrt(15)",
+        "0",
+        "31"
+      ]
+    ],
+    "Gamma": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "Delta": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "T": [
+      [
+        "4",
+        "-3*sqrt(5)",
+        "2*sqrt(15)"
+      ],
+      [
+        "-3*sqrt(5)",
+        "8",
+        "-6*sqrt(3)"
+      ],
+      [
+        "-2*sqrt(15)",
+        "6*sqrt(3)",
+        "-13"
+      ]
+    ],
+    "U": [
+      [
+        "14",
+        "-3*sqrt(5)",
+        "4*sqrt(15)"
+      ],
+      [
+        "-3*sqrt(5)",
+        "2",
+        "-4*sqrt(3)"
+      ],
+      [
+        "-4*sqrt(15)",
+        "4*sqrt(3)",
+        "-17"
+      ]
+    ]
+  },
+  "rank2_boost_plane": "REFUTED_AS_NATURAL_INVARIANT_SUBBUNDLE_UNDER_T_U",
+  "minimal_natural_closure": "rank 3 = so(1,2)",
+  "D0_rank": 3,
+  "D1_rank": 10,
+  "H1_dimension_on_X32_relators": 5,
+  "V_W_classes": "CLOSED_NONEXACT_INDEPENDENT_ON_X32_RELATORS",
+  "historical_mixed_relations_guard": "Specific V/W cohomology classes remain PENDING on the full historical once-only normal-form quotient until the missing mixed relations are explicitly materialized and tested.",
+  "lorentz_bridge_file": "lorentz_bridge_v33.json",
+  "phase_candidate": {
+    "compact_generator": "J",
+    "exponential": "exp(theta J) in SO(2) is mathematically isomorphic to e^{i theta} in U(1)",
+    "de_Broglie_identification": "SEPARATED_PENDING_SYNCHRONIZATION_AND_PHYSICAL_PHASE_MAP"
+  }
+}

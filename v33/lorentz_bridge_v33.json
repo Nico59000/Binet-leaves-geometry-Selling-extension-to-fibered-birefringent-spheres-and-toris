@@ -1,0 +1,142 @@
+{
+  "normalization": "S0^T Q0 S0 = eta = diag(1,-1,-1)",
+  "normalized_generators": {
+    "V": [
+      [
+        "7",
+        "4*sqrt(3)",
+        "0"
+      ],
+      [
+        "4*sqrt(3)",
+        "7",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "W": [
+      [
+        "31",
+        "0",
+        "8*sqrt(15)"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "8*sqrt(15)",
+        "0",
+        "31"
+      ]
+    ],
+    "T": [
+      [
+        "-13",
+        "6*sqrt(3)",
+        "2*sqrt(15)"
+      ],
+      [
+        "-6*sqrt(3)",
+        "8",
+        "3*sqrt(5)"
+      ],
+      [
+        "-2*sqrt(15)",
+        "3*sqrt(5)",
+        "4"
+      ]
+    ],
+    "U": [
+      [
+        "-17",
+        "4*sqrt(3)",
+        "4*sqrt(15)"
+      ],
+      [
+        "-4*sqrt(3)",
+        "2",
+        "3*sqrt(5)"
+      ],
+      [
+        "-4*sqrt(15)",
+        "3*sqrt(5)",
+        "14"
+      ]
+    ],
+    "Gamma": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "Delta": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "V": {
+    "component": "SO^+(1,2)",
+    "type": "standard boost in (t,y)-plane",
+    "cosh_chi": "7",
+    "sinh_chi": "4*sqrt(3)",
+    "chi": "acosh(7)"
+  },
+  "W": {
+    "component": "SO^+(1,2)",
+    "type": "standard boost in (t,z)-plane",
+    "cosh_chi": "31",
+    "sinh_chi": "8*sqrt(15)",
+    "chi": "acosh(31)"
+  },
+  "T": {
+    "component": "SO(1,2), det=+1, time-reversing",
+    "involution": true
+  },
+  "U": {
+    "component": "SO(1,2), det=+1, time-reversing",
+    "involution": true
+  },
+  "Gamma": {
+    "component": "SO(1,2), det=+1, time-reversing",
+    "involution": true
+  },
+  "Delta": {
+    "component": "O(1,2), det=-1, time-reversing",
+    "involution": true
+  },
+  "Thomas_Wigner": {
+    "statement": "Ky and Kz are orthogonal boost generators; [Ky,Kz]=J is the infinitesimal Thomas-Wigner spatial-rotation generator.",
+    "finite_physical_identification": "SEPARATED: this is an exact Lorentz-group representation of the Selling stabilizer, not by itself a spacetime dynamics or particle kinematics."
+  },
+  "status": "PROVEN_MATHEMATICAL_LORENTZ_GROUP_BRIDGE__PHYSICAL_INTERPRETATION_SEPARATED"
+}

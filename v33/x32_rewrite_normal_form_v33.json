@@ -1,0 +1,11 @@
+{
+  "presentation": "X32^pres",
+  "group_decomposition": "(F(V,W) \\rtimes (C2_Gamma x C2_Delta)) * (C2_T x C2_U)",
+  "A_normal_form": "freely reduced word in V^{±1},W^{±1}, followed by Gamma^g Delta^d, g,d in {0,1}",
+  "K_normal_form": "T^t U^u, t,u in {0,1}",
+  "X32_normal_form": "reduced free-product alternating sequence of nonidentity A- and K-blocks",
+  "completeness": "PROVEN_FOR_ABSTRACT_X32_PRESENTATION",
+  "confluence": "PROVEN_BY_UNIQUE_NORMAL_FORM_FOR_SEMIDIRECT_AND_FREE_PRODUCTS",
+  "exhaustive_sanity_words_length_le_5": 37449,
+  "historical_group_warning": "Selling primary source gives a stricter once-only normal-form grammar for the actual historical transformations; therefore abstract X32 must not be silently identified with the full historical matrix group until the missing mixed cross-relations are materialized."
+}
