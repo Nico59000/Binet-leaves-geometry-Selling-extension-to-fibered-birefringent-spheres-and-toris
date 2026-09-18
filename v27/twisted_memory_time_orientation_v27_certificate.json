@@ -1,0 +1,100 @@
+{
+  "phase": "v27-twisted-memory-time-orientation",
+  "status": "PASS",
+  "checks": {
+    "crossing_affine_period_zero": true,
+    "crossing_holonomy_plus": true,
+    "fissure_affine_period_formula": true,
+    "fissure_holonomy_minus": true,
+    "even_loop_exact_requires_zero": true,
+    "odd_loop_exact_allows_any_period": true,
+    "local_fissure_twisted_H1_zero": true,
+    "plane_m1_twisted_H1_dim": true,
+    "plane_m2_twisted_H1_dim": true,
+    "plane_m3_twisted_H1_dim": true,
+    "plane_m4_twisted_H1_dim": true,
+    "plane_m5_twisted_H1_dim": true,
+    "plane_m6_twisted_H1_dim": true,
+    "plane_m7_twisted_H1_dim": true,
+    "relative_period_generators": true,
+    "bouquet_exact_if_all_equal": true,
+    "mixed_exactness_even_condition": true,
+    "mixed_nonzero_even_obstructs": true,
+    "mixed_odd_difference_obstructs": true,
+    "time_vector_in_Krein_plane": true,
+    "time_vector_formula": true,
+    "Singer_reversal_flips_time_vector": true,
+    "metric_line_stabilizer_preserves_Q": true,
+    "metric_line_stabilizer_fixes_axis": true,
+    "metric_line_stabilizer_minus_identity_on_K": true,
+    "time_selector_basis_naturality": true,
+    "time_norm_formula": true,
+    "example_time_vector_is_minor_sign": true,
+    "time_reversal_swaps_component": true,
+    "time_crossing_holonomy_plus": true,
+    "time_fissure_holonomy_minus": true,
+    "history_coefficient_type_real_sign": true,
+    "time_class_equals_Binet_on_selected_locus": true,
+    "continuous_SOplus11_holonomy_not_computed": true,
+    "global_instance_periods_not_computed": true
+  },
+  "twisted_memory": {
+    "coboundary": "delta_c Phi(e)=Phi(head)-tau_e Phi(tail)",
+    "affine_period": "P_s(gamma)=sum_j (prod_{ell>j} tau_ell) s(e_j)",
+    "exact_loop_law": "P_s(gamma)=(1-Hol(gamma))*Phi(base)",
+    "historical_crossing": {
+      "holonomy": "+1",
+      "period": "0"
+    },
+    "historical_fissure": {
+      "holonomy": "-1",
+      "affine_period": "a-b+c",
+      "local_H1_Rsign": "0"
+    },
+    "plane_m_fissures": {
+      "H1_twisted": "R^(m-1) for m>=1",
+      "coordinates": "P_i-P_1"
+    },
+    "plane_exactness": "all odd-meridian affine periods equal; all +1-holonomy periods zero",
+    "finite_graph_test": "rank(D_c)=rank([D_c|s])",
+    "global_historical_instance": "NT until finite dual graph / quotient edge table and s(e) values are materialized"
+  },
+  "time_orientation": {
+    "metric_line_only_selector": "REFUTED by stabilizer diag(1,-1,-1)",
+    "selector": "t_sigma,L = u_sigma,B - Q(u_sigma,B,w_L)/Q(w_L,w_L) w_L",
+    "natural_under_superbase": "PROVEN_CONSTRUCTED",
+    "Singer_reversal": "t -> -t",
+    "admissible_locus": "t nonzero and of minority sign in K_L",
+    "time_C2": "equals Binet/Singer C2 on admissible locus",
+    "crossing_holonomy": "+1",
+    "fissure_holonomy": "-1",
+    "independent_time_C2": "REFUTED on admissible locus",
+    "continuous_SOplus11_holonomy": "NT"
+  },
+  "comparison": {
+    "C2_Binet": "Z2 local system [c]",
+    "history": "real twisted class [s] in H1(X;R_sign), not a C2 class",
+    "C2_time": "same as C2_Binet on U_time",
+    "new_possible_obstruction": "relative real history memory and continuous Krein holonomy"
+  },
+  "statuses": {
+    "twisted_loop_criterion": "PROVEN_EXACT",
+    "crossing_history_local_class": "ZERO_PROVEN",
+    "single_fissure_real_twisted_H1": "ZERO_PROVEN",
+    "planar_m_fissure_real_twisted_H1": "R^(m-1)_PROVEN",
+    "global_history_exactness": "NT_NEEDS_GLOBAL_EDGE_CENSUS",
+    "future_cone_from_metric_and_axis_only": "REFUTED",
+    "Singer_superbase_future_selector": "PROVEN_CONSTRUCTED_ON_TIME_ADMISSIBLE_LOCUS",
+    "time_C2_equals_Binet": "PROVEN_CONSTRUCTED_ON_TIME_ADMISSIBLE_LOCUS",
+    "independent_time_C2": "REFUTED_ON_TIME_ADMISSIBLE_LOCUS",
+    "continuous_Krein_holonomy": "NT"
+  },
+  "guards": [
+    "For -1 holonomy, a raw period is not gauge invariant; only relative odd-loop periods are global invariants.",
+    "The planar R^(m-1) result assumes the non-quotiented sheet X~R^2 and finitely many fissures, each with Binet monodromy -1.",
+    "The global historical quotient still needs its finite dual graph / edge identifications and source amplitudes to evaluate [s].",
+    "The time selector uses the already declared Singer framing; it is not available from the Krein metric and the unoriented axis alone.",
+    "The selector can fail where its projected vector vanishes or becomes isotropic; no new C2 is inferred across that failure locus.",
+    "The continuous SO^+(1,1) boost holonomy is not computed here."
+  ]
+}
