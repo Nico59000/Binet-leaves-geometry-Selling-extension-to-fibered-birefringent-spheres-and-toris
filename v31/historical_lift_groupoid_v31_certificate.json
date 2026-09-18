@@ -1,0 +1,252 @@
+{
+  "phase": "v31-historical-lift-groupoid",
+  "status": "PASS",
+  "checks": {
+    "T_exact": true,
+    "U_exact": true,
+    "TU_commute": true,
+    "V_source_alias_equals_Y_v30": true,
+    "W_exact": true,
+    "det_P_one": true,
+    "det_Q_one": true,
+    "det_R_one": true,
+    "det_S_one": true,
+    "det_T_one": true,
+    "det_U_one": true,
+    "det_V_one": true,
+    "det_W_one": true,
+    "P_target": true,
+    "Q_target": true,
+    "R_target": true,
+    "S_target": true,
+    "T_preserves_Q0": true,
+    "U_preserves_Q0": true,
+    "V_preserves_Q0": true,
+    "W_preserves_Q0": true,
+    "mod2_image_size_168": true,
+    "R_mod2_equals_Q_mod2": true,
+    "V_mod2_identity": true,
+    "W_mod2_identity": true,
+    "gV_exact": true,
+    "gV_SO11": true,
+    "gW_exact": true,
+    "gW_SO11": true,
+    "chiV_nonzero": true,
+    "chiW_nonzero": true,
+    "Omega_u1_norm2_8": true,
+    "Omega_u2_norm2_8": true,
+    "V_memory_63Omega_nonzero": true,
+    "W_memory_7875Omega_nonzero": true,
+    "R_not_single_axis_conorm_transition": true,
+    "S_not_single_axis_conorm_transition": true
+  },
+  "source_normalization": {
+    "Q0": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "P": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Q": [
+      [
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        8
+      ]
+    ],
+    "R": [
+      [
+        -4,
+        0,
+        5
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -3,
+        0,
+        4
+      ]
+    ],
+    "S": [
+      [
+        -2,
+        1,
+        0
+      ],
+      [
+        -3,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "T": [
+      [
+        -13,
+        3,
+        5
+      ],
+      [
+        -36,
+        8,
+        15
+      ],
+      [
+        -12,
+        3,
+        4
+      ]
+    ],
+    "U": [
+      [
+        -17,
+        2,
+        10
+      ],
+      [
+        -24,
+        2,
+        15
+      ],
+      [
+        -24,
+        3,
+        14
+      ]
+    ],
+    "V": [
+      [
+        7,
+        2,
+        0
+      ],
+      [
+        24,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "W": [
+      [
+        31,
+        0,
+        20
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        48,
+        0,
+        31
+      ]
+    ],
+    "legacy_alias": "V_Selling = Y_v30",
+    "relations_proved": [
+      "T=P R P^-1",
+      "U=Q S Q^-1",
+      "T U=U T",
+      "V=P DP P^-1 DP",
+      "W=Q DQ Q^-1 DQ"
+    ]
+  },
+  "finite_vs_infinite": {
+    "finite_statement": "Selling supports finite field development modulo repetition for a fixed form.",
+    "infinite_statement": "The lifted line/automorphism system is ramified and infinite; its morphisms are alternating integer words in V,W with further R/S-linked systems.",
+    "decision": "REFUTED_AS_FINITE_EDGE_CENSUS__PROMOTED_AS_FINITE_GENERATOR_PRESENTATION_WITH_INFINITE_MORPHISMS"
+  },
+  "mod2": {
+    "image_order": 168,
+    "image": "GL_3(2)",
+    "R_equals_Q_in_mod2": true,
+    "kernel_witnesses": [
+      "V",
+      "W"
+    ],
+    "V_mod2": "I",
+    "W_mod2": "I"
+  },
+  "kernel_observables": {
+    "V": {
+      "legacy_name": "Y_v30",
+      "chi_abs_exact": "acosh(7)=log(7+4sqrt(3))",
+      "chi_abs_numeric": 2.6339157938496336,
+      "memory_exact": "63 Omega_sigma_minus(u1)",
+      "memory_numeric": 25.1645483823284,
+      "memory_status": "PROVEN_CONSTRUCTED_IN_DECLARED_CONORM_LIFT"
+    },
+    "W": {
+      "chi_abs_exact": "acosh(31)=log(31+8sqrt(15))",
+      "chi_abs_numeric": 4.1268741377911216,
+      "memory_exact": "7875 Omega_sigma_minus(u2)",
+      "memory_numeric": 298.35961122952955,
+      "memory_status": "PROVEN_CONSTRUCTED_IN_DECLARED_CONORM_LIFT"
+    }
+  },
+  "rank_tests": {
+    "v29_finite_quotient": "INHERITED: rank Dc=168 < rank[Dc|s]=169; rank D0=rank[D0|chi]=167",
+    "complete_lifted_census": "NT_NOT_A_FINITE_MATRIX_PROBLEM_WITHOUT_A_FINITE_FUNDAMENTAL_DOMAIN_OR_PRESENTATION_COMPLEX",
+    "generator_level_kernel_test": "PASS_NONZERO_LIFT_OBSERVABLES"
+  },
+  "typing_guards": [
+    "P,Q,R,S are source matrices. T,U,V,W are exact source-supported compositions/self-transformations.",
+    "The letter V in the primary scan is retained; v30 legacy label Y is preserved as an alias, not silently rewritten.",
+    "R and S are multi-step historical substitutions. No single epsilon_R or epsilon_S is promoted without an explicit primitive path decomposition.",
+    "V and W boosts live on differently selected Krein (1,1) planes. Their separate nonzero rapidities prove failure of mod-2 descent, but a single global scalar chi cocycle across mixed fibers remains PENDING-MORPHISM until a common trivialization/transport is supplied.",
+    "The W memory formula is the exact analogue of the v30 V/Y two-crossing construction inside the declared Singer/Binet conorm-lift; it is not claimed as a formula written by Selling.",
+    "The v29 normalized quotient charge and v31 historical lift charges remain SEPARATED until an explicit cochain pullback/comparison map is constructed."
+  ]
+}
