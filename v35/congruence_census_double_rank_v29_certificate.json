@@ -1,0 +1,103 @@
+{
+  "phase": "v29-congruence-census-double-rank",
+  "status": "PASS",
+  "checks": {
+    "all_integer_generators_involutions": true,
+    "all_integer_generators_det_minus": true,
+    "GL32_order_168": true,
+    "twelve_reductions_generate_GL32": true,
+    "triangle_S1S2S3": true,
+    "generator_line_partition_4_4_4": true,
+    "fourier_norm_u1": true,
+    "fourier_norm_u2": true,
+    "fourier_norm_u3": true,
+    "Omega_u1_neq_u2_exact": true,
+    "Omega_u1_neq_u3_exact": true,
+    "Omega_u2_neq_u3_exact": true,
+    "edge_count_1008": true,
+    "rank_Dc_168": true,
+    "rank_Dc_aug_169": true,
+    "rank_D0_167": true,
+    "rank_D0_aug_167": true,
+    "crossing_tau_gauge_reconciliation": true,
+    "commute_S1_S2_mod2": true,
+    "commute_S1_S3_mod2": true,
+    "commute_S2_S3_mod2": true,
+    "all_three_square_periods_nonzero": true,
+    "history_nonexact_in_normalized_mod2_quotient": true,
+    "krein_boost_zero_in_flat_normalized_model": true
+  },
+  "scope": {
+    "primary_selling_global_census": "NT without a fixed-form chamber enumeration",
+    "instantiated_quotient": "rho_2(Gamma_Sell^adj)=GL(3,2)",
+    "normalization": "tau=-1 lift gauge, epsilon=1, kappa_hist=1, fixed Singer sigma_minus",
+    "continuous_krein_component": "flat normalized B(0) model only; not a primary-Selling measured boost"
+  },
+  "census": {
+    "vertices": 168,
+    "edges": 1008,
+    "generator_count": 12
+  },
+  "ranks": {
+    "Dc": 168,
+    "Dc_aug_s": 169,
+    "D0": 167,
+    "D0_aug_chi": 167
+  },
+  "decisions": {
+    "history_class_in_instantiated_quotient": "NONZERO",
+    "krein_continuous_class_in_flat_normalized_quotient": "ZERO",
+    "historical_instance_history_class": "NT",
+    "historical_instance_krein_boost": "NT"
+  },
+  "Omega": {
+    "u1": 0.39943727590997463,
+    "u2": 0.03788693475930534,
+    "u3": 0.9657973093709475
+  },
+  "first_real_memory_charges": [
+    {
+      "word": [
+        "S1",
+        "S2",
+        "S1",
+        "S2"
+      ],
+      "line_i": "u2",
+      "line_j": "u1",
+      "period": 0.7231006823013386,
+      "exact_formula": "2*(Omega(u1)-Omega(u2))"
+    },
+    {
+      "word": [
+        "S1",
+        "S3",
+        "S1",
+        "S3"
+      ],
+      "line_i": "u2",
+      "line_j": "u3",
+      "period": 1.8558207492232843,
+      "exact_formula": "2*(Omega(u3)-Omega(u2))"
+    },
+    {
+      "word": [
+        "S2",
+        "S3",
+        "S2",
+        "S3"
+      ],
+      "line_i": "u1",
+      "line_j": "u3",
+      "period": 1.1327200669219457,
+      "exact_formula": "2*(Omega(u3)-Omega(u1))"
+    }
+  ],
+  "guards": [
+    "The 168/1008 census is an explicit congruence quotient of the source-anchored adjacent-superbase group, not the exhaustive chamber census of an arbitrary indefinite Selling form.",
+    "The unit amplitude epsilon=1 and flat continuous Krein component B(0) are declared quotient normalizations.",
+    "Non-exactness of s in this finite quotient is proved by gauge-invariant even commuting squares.",
+    "No numerical claim about the actual historical amplitudes or continuous Krein boosts is inferred from the normalized quotient.",
+    "The all-minus tau gauge is explicitly gauge-equivalent to the v15 crossing transport pattern."
+  ]
+}
