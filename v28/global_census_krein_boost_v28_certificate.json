@@ -1,0 +1,88 @@
+{
+  "phase": "v28-global-census-and-krein-boost",
+  "status": "PASS",
+  "checks": {
+    "X6_Dc_rank_5": true,
+    "X6_augmented_rank_5_for_repeated_halfturn_sources": true,
+    "X6_left_obstruction_vector": true,
+    "X6_alternating_period_zero": true,
+    "Y3_Dc_full_rank_3": true,
+    "Y3_any_source_locally_exact": true,
+    "planar_m1_H1_dim_mminus1": true,
+    "planar_m2_H1_dim_mminus1": true,
+    "planar_m3_H1_dim_mminus1": true,
+    "planar_m4_H1_dim_mminus1": true,
+    "planar_m5_H1_dim_mminus1": true,
+    "planar_m6_H1_dim_mminus1": true,
+    "planar_m7_H1_dim_mminus1": true,
+    "planar_m8_H1_dim_mminus1": true,
+    "planar_equal_odd_periods_exact": true,
+    "planar_unequal_odd_periods_obstruct": true,
+    "fixed_u_lines_are_Fano_lines": true,
+    "sigma_minus_is_permutation": true,
+    "sigma_minus_is_multiplier_4": true,
+    "boost_preserves_eta": true,
+    "boost_det_one": true,
+    "boost_additivity": true,
+    "boost_inverse": true,
+    "boost_cycle_sum_gauge_invariant": true,
+    "X6_Weyl_word_identity": true,
+    "X6_continuous_boost_zero": true,
+    "Y3_Weyl_word_order2": true,
+    "time_reverse_square_is_B2chi": true,
+    "time_reverse_involution_forces_zero_rapidity": true,
+    "Y3_continuous_boost_zero": true,
+    "boost_incidence_rank_nminus1": true,
+    "boost_exact_if_cycle_sum_zero": true,
+    "boost_obstructed_if_cycle_sum_nonzero": true,
+    "census_declares_global_incompleteness": true,
+    "census_has_all_local_edge_tuples": true,
+    "global_rank_not_silently_claimed": true
+  },
+  "census": {
+    "global_complete": false,
+    "local_edge_count": 9,
+    "crossing_Dc_rank": 5,
+    "crossing_augmented_rank": 5,
+    "fissure_Dc_rank": 3,
+    "fissure_augmented_rank": 3,
+    "global_rank": "NT: complete chamber/edge census and source amplitudes absent from corpus",
+    "artifacts": [
+      "historical_dual_census_v28.json",
+      "historical_dual_census_v28.csv"
+    ]
+  },
+  "twisted_memory": {
+    "crossing": "rank equality PROVEN for source repeated-halfturn pattern",
+    "fissure": "rank equality PROVEN for arbitrary local source values",
+    "global": "NT until global census completion",
+    "planar_relative_memory": "R^(m-1) remains the exact abstract result"
+  },
+  "krein_boost": {
+    "group": "SO^+(1,1) ~= (R,+) via rapidity",
+    "gauge": "chi_e -> chi_e + psi_tail - psi_head",
+    "cohomology": "[chi] in H^1(lifted regular graph;R)",
+    "crossing_local_boost": "0 PROVEN",
+    "fissure_local_boost": "0 PROVEN after discrete time reversal factorization",
+    "global_boost": "NT_NEEDS_GLOBAL_O11_TRANSITIONS"
+  },
+  "statuses": {
+    "machine_readable_edge_schema": "PROVEN_CONSTRUCTED",
+    "source_audited_local_census": "PROVEN_MAXIMAL_FROM_CURRENT_CORPUS",
+    "complete_global_historical_census": "NT_NOT_SUPPLIED_BY_CURRENT_CORPUS",
+    "global_history_rank_test": "NT_NOT_EXECUTABLE_YET",
+    "local_crossing_history_exactness": "PROVEN_BY_RANK",
+    "local_fissure_history_exactness": "PROVEN_BY_FULL_RANK",
+    "SOplus11_rapidity_cocycle": "PROVEN_EXACT",
+    "local_crossing_continuous_Krein_holonomy": "ZERO_PROVEN",
+    "local_fissure_continuous_Krein_holonomy": "ZERO_PROVEN",
+    "global_continuous_Krein_holonomy": "NT_NEEDS_GLOBAL_TRANSITIONS"
+  },
+  "guards": [
+    "The current corpus defines the global dual graph abstractly but does not enumerate every historical chamber and edge; local germs must not be relabeled as a complete global census.",
+    "Fano line labels and the anchored golden Singer order in the census are a fixed chart gauge/selected framing, not an absolute historical choice.",
+    "Historical amplitudes epsilon_e are symbolic because no exhaustive numeric amplitude table is supplied.",
+    "The continuous boost class is defined only after factoring the already-audited discrete determinant/time components, equivalently on the common double cover where the time character is trivial.",
+    "Zero boost on the audited crossing/fissure germs does not imply zero global boost on quotient cycles."
+  ]
+}

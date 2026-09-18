@@ -1,0 +1,440 @@
+{
+  "phase": "v28-historical-dual-census",
+  "status": "MAXIMAL_SOURCE_SUPPORTED_PARTIAL_CENSUS",
+  "global_complete": false,
+  "global_completion_blocker": "The corpus supplies the dual-graph definition and local historical crossing/fissure germs, but not an exhaustive global chamber/edge enumeration, all edge amplitudes epsilon_e, or a global transported Singer framing.",
+  "required_edge_tuple": [
+    "tau_e",
+    "L_e",
+    "sigma_e",
+    "epsilon_e"
+  ],
+  "fixed_chart_gauge": {
+    "u1": [
+      0,
+      1,
+      3
+    ],
+    "u2": [
+      0,
+      4,
+      5
+    ],
+    "u3": [
+      0,
+      2,
+      6
+    ],
+    "sigma_minus": [
+      0,
+      4,
+      1,
+      5,
+      2,
+      6,
+      3
+    ],
+    "gauge_status": "S3/Fano chart choice; rank conclusions below are gauge-independent."
+  },
+  "source_audited_germs": {
+    "historical_crossing_X6": {
+      "vertices": [
+        "X6_C0",
+        "X6_C1",
+        "X6_C2",
+        "X6_C3",
+        "X6_C4",
+        "X6_C5"
+      ],
+      "edges": [
+        {
+          "edge_id": "X6_e0",
+          "tail": "X6_C0",
+          "head": "X6_C1",
+          "tau_e": -1,
+          "wall": "k=0",
+          "axis_label": "u2",
+          "L_e": [
+            0,
+            4,
+            5
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_k",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u2)*eps_k^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "X6_e1",
+          "tail": "X6_C1",
+          "head": "X6_C2",
+          "tau_e": -1,
+          "wall": "h+k=0",
+          "axis_label": "u3",
+          "L_e": [
+            0,
+            2,
+            6
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_hk",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u3)*eps_hk^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "X6_e2",
+          "tail": "X6_C2",
+          "head": "X6_C3",
+          "tau_e": -1,
+          "wall": "h=0",
+          "axis_label": "u1",
+          "L_e": [
+            0,
+            1,
+            3
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_h",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u1)*eps_h^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "X6_e3",
+          "tail": "X6_C3",
+          "head": "X6_C4",
+          "tau_e": -1,
+          "wall": "k=0",
+          "axis_label": "u2",
+          "L_e": [
+            0,
+            4,
+            5
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_k",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u2)*eps_k^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "X6_e4",
+          "tail": "X6_C4",
+          "head": "X6_C5",
+          "tau_e": -1,
+          "wall": "h+k=0",
+          "axis_label": "u3",
+          "L_e": [
+            0,
+            2,
+            6
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_hk",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u3)*eps_hk^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "X6_e5",
+          "tail": "X6_C5",
+          "head": "X6_C0",
+          "tau_e": -1,
+          "wall": "h=0",
+          "axis_label": "u1",
+          "L_e": [
+            0,
+            1,
+            3
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_h",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u1)*eps_h^3",
+          "source_status": "HISTORICAL_CROSSING_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        }
+      ],
+      "Dc": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_Dc": 5,
+      "source_vector": "(s_k,s_hk,s_h,s_k,s_hk,s_h)",
+      "rank_augmented_for_source_pattern": 5,
+      "verdict": "LOCAL_EXACTNESS_PROVEN"
+    },
+    "historical_fissure_Y3": {
+      "vertices": [
+        "Y3_C0",
+        "Y3_C1",
+        "Y3_C2"
+      ],
+      "edges": [
+        {
+          "edge_id": "Y3_e0",
+          "tail": "Y3_C0",
+          "head": "Y3_C1",
+          "tau_e": -1,
+          "wall": "h=0",
+          "axis_label": "u1",
+          "L_e": [
+            0,
+            1,
+            3
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_h",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u1)*eps_h^3",
+          "source_status": "HISTORICAL_FISSURE_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "Y3_e1",
+          "tail": "Y3_C1",
+          "head": "Y3_C2",
+          "tau_e": -1,
+          "wall": "m=0",
+          "axis_label": "u2",
+          "L_e": [
+            0,
+            4,
+            5
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_m",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u2)*eps_m^3",
+          "source_status": "HISTORICAL_FISSURE_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        },
+        {
+          "edge_id": "Y3_e2",
+          "tail": "Y3_C2",
+          "head": "Y3_C0",
+          "tau_e": -1,
+          "wall": "h-m=0",
+          "axis_label": "u3",
+          "L_e": [
+            0,
+            2,
+            6
+          ],
+          "L_status": "CONSTRUCTED_RELATIVE_TO_FIXED_S3_CHART_GAUGE",
+          "sigma_e": [
+            0,
+            4,
+            1,
+            5,
+            2,
+            6,
+            3
+          ],
+          "sigma_status": "SELECTED_ANCHORED_GOLDEN_FRAMING_TRANSPORTED_BY_CHART",
+          "epsilon_e": "eps_hm",
+          "epsilon_status": "SYMBOLIC_SOURCE_AMPLITUDE_NOT_NUMERICALLY_CENSUSED",
+          "s_e": "kappa_hist*Omega_sigma(u3)*eps_hm^3",
+          "source_status": "HISTORICAL_FISSURE_SOURCE_AUDITED; FANO/SINGER DATA CONSTRUCTED IN FIXED GAUGE"
+        }
+      ],
+      "Dc": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "rank_Dc": 3,
+      "source_vector": "(s_h,s_m,s_hm) arbitrary",
+      "rank_augmented_generic": 3,
+      "verdict": "LOCAL_EXACTNESS_PROVEN"
+    }
+  },
+  "planar_m_fissure_skeleton": {
+    "formula": "Dc=2*1_m, rank=1, H1(R^2\\F;R_sign)=R^(m-1)",
+    "relative_charges": "P_i-P_1",
+    "rank_samples_m1_to_m8": {
+      "1": {
+        "rank_Dc": 1,
+        "H1_dim": 0
+      },
+      "2": {
+        "rank_Dc": 1,
+        "H1_dim": 1
+      },
+      "3": {
+        "rank_Dc": 1,
+        "H1_dim": 2
+      },
+      "4": {
+        "rank_Dc": 1,
+        "H1_dim": 3
+      },
+      "5": {
+        "rank_Dc": 1,
+        "H1_dim": 4
+      },
+      "6": {
+        "rank_Dc": 1,
+        "H1_dim": 5
+      },
+      "7": {
+        "rank_Dc": 1,
+        "H1_dim": 6
+      },
+      "8": {
+        "rank_Dc": 1,
+        "H1_dim": 7
+      }
+    }
+  },
+  "global_rank_target": {
+    "formula": "rank(D_c) ?= rank([D_c|s])",
+    "verdict": "NT_NOT_EVALUABLE_WITHOUT_COMPLETE_GLOBAL_CENSUS"
+  },
+  "krein_boost": {
+    "discrete_reduction": "factor determinant/time characters; on the Binet/time double cover transitions reduce to SO^+(1,1)",
+    "edge_parameter": "g_e^+=B(chi_e)",
+    "gauge_law": "chi_e -> chi_e + psi_tail - psi_head",
+    "cycle_holonomy": "chi(gamma)=sum_e chi_e",
+    "historical_crossing": "chi=0 PROVEN from exact Weyl word identity",
+    "historical_fissure": "chi=0 PROVEN: time-reversing holonomy is an involution, hence -B(0)",
+    "global": "NT_NEEDS_COMPLETE_O11_EDGE_TRANSITIONS"
+  }
+}
