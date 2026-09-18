@@ -1,0 +1,361 @@
+{
+  "phase": "v26-historical-m-ledger-krein-bundle",
+  "status": "PASS",
+  "checks": {
+    "m_positive_from_homogeneous_relation": true,
+    "m_equals_minus_p02": true,
+    "m_hyperboloid_pullback": true,
+    "fissure_three_wall_functions_typed": true,
+    "twelve_adjacent_moves": true,
+    "all_moves_det_minus_one": true,
+    "all_moves_involutions": true,
+    "twelve_m_transforms": true,
+    "S2_h_reflection": true,
+    "S5_m_reflection": true,
+    "Rh_involution": true,
+    "Rm_involution": true,
+    "A2_braid": true,
+    "third_integer_reflection_matrix": true,
+    "third_reflection_swaps_h_m": true,
+    "fissure_normal_Weyl_order6": true,
+    "router_column_sum_conservation": true,
+    "donor_injection_unit_ledger": true,
+    "driven_ledger_update": true,
+    "three_step_history_accumulator": true,
+    "history_source_odd_under_Singer": true,
+    "endpoint_state_exactness_not_assumed": true,
+    "representative_orthogonal_transport": true,
+    "representative_Krein_metric_preserved": true,
+    "representative_Krein_signature_11": true,
+    "ambient_transition_cocycle": true,
+    "Krein_det_holonomy_crossing_plus": true,
+    "Krein_det_holonomy_fissure_plus": true,
+    "no_new_plane_orientation_C2_on_audited_germs": true,
+    "time_orientation_not_silently_selected": true
+  },
+  "historical_m": {
+    "positive_corresponding_form": "m_plus=-b_plus-g_plus-k_plus=-p_02",
+    "indefinite_hyperboloid_pullback": "m_plus=b+g+k-2 eta (xi+eta+zeta)",
+    "typed_guard": "m is not a function of the fixed indefinite sextuple alone; hyperboloid coordinates are required",
+    "twelve_actions": [
+      {
+        "S": 1,
+        "matrix": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "-b - g",
+        "h_prime": "-a - h"
+      },
+      {
+        "S": 2,
+        "matrix": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "-b - g - h - k",
+        "h_prime": "-h"
+      },
+      {
+        "S": 3,
+        "matrix": [
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "-a - b - g - h - 2*k",
+        "h_prime": "-a - h"
+      },
+      {
+        "S": 4,
+        "matrix": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1
+          ]
+        ],
+        "m_prime": "-a - c - g - 2*h - k",
+        "h_prime": "-c - g"
+      },
+      {
+        "S": 5,
+        "matrix": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "m_prime": "b + g + k",
+        "h_prime": "b + g + h + k"
+      },
+      {
+        "S": 6,
+        "matrix": [
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "m_prime": "-a - c - g - 2*h - k",
+        "h_prime": "-a - k"
+      },
+      {
+        "S": 7,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "g + k",
+        "h_prime": "h + k"
+      },
+      {
+        "S": 8,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            -1
+          ]
+        ],
+        "m_prime": "-b - g - h - k",
+        "h_prime": "-h"
+      },
+      {
+        "S": 9,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            -1
+          ]
+        ],
+        "m_prime": "-b - k",
+        "h_prime": "-c - h"
+      },
+      {
+        "S": 10,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "m_prime": "-b - c - 2*g - h - k",
+        "h_prime": "-c - h"
+      },
+      {
+        "S": 11,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "g + k",
+        "h_prime": "g + h"
+      },
+      {
+        "S": 12,
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "m_prime": "b + g + k",
+        "h_prime": "b + g + h + k"
+      }
+    ],
+    "fissure_normal_reflections": {
+      "h_wall": "(h,m)->(-h,m-h)",
+      "m_wall": "(h,m)->(h-m,-m)",
+      "h_equals_m_wall": "(h,m)->(m,h)"
+    },
+    "normal_group": "W(A2)=S3",
+    "half_branch_guard": "source one-sided Y3 truncation is reduction-domain data, not implied by the full linear A2 arrangement"
+  },
+  "Gamma_status": {
+    "adjacent_reduction_envelope": "GL3(Z) from v24",
+    "local_historical_crossing_and_fissure_actions": "PROVEN_IN_SAME_INTEGER_ACTION",
+    "if_Gamma_f_defined_as_full_reduction_equivalence_envelope": "Gamma_f=GL3(Z), CONDITIONAL_BY_DEFINITION",
+    "instance_specific_HTNT_quotient_Gamma_f": "NT until subgroup/action/stabilizers are explicitly instantiated"
+  },
+  "history_ledger": {
+    "odd_source": "s_j=kappa_hist Omega_sigma_j(L_j) epsilon_j^3",
+    "history_accumulator": "H3(gamma_tilde_N)=M3_0+sum_j s_j",
+    "driven_router": "y_{N+1}=C3 y_N + e_T s_N",
+    "ledger_law": "M3_{N+1}=M3_N+s_N",
+    "endpoint_state_function": "NT; requires vanishing twisted periods / exact odd 1-cochain",
+    "barrier_control": "a_sp^2=nu_sigma,L^2+c^2 H3(gamma_tilde)^2"
+  },
+  "krein_bundle": {
+    "fiber": "K_L=(J_B ell_L)^{perp_Qf} on majority-sign nonisotropic locus",
+    "transition": "g_ab=F_b^{-1} S_ab^{-1} F_a in O(1,1)",
+    "cocycle": "g_bg g_ab = g_ag",
+    "det_character_relation": "det(g_ab)=det(S_ab)*tau_ab up to frame gauge coboundary",
+    "historical_crossing_det_holonomy": "+1",
+    "historical_fissure_det_holonomy": "+1",
+    "new_plane_orientation_C2": "REFUTED_ON_TWO_AUDITED_GERMS",
+    "time_orientation_C2": "NT: no canonical future-cone selector supplied by Selling carrier",
+    "continuous_SOplus11_holonomy": "NT"
+  },
+  "statuses": {
+    "m_positive_extraction": "PROVEN_SOURCE_PRIMARY",
+    "m_indefinite_pullback": "PROVEN_SOURCE_PRIMARY_PLUS_SUBSTITUTION",
+    "m_from_indefinite_sextuple_only": "REFUTED_TYPED",
+    "twelve_m_transformations": "PROVEN_EXACT",
+    "fissure_A2_integer_action": "PROVEN_EXACT",
+    "global_Gamma_f_identification": "CONDITIONAL_OR_NT_DEPENDING_ON_DEFINITION",
+    "Selling_history_to_M3": "PROVEN_CONSTRUCTED_ON_ORIENTED_DOUBLE_COVER",
+    "M3_endpoint_only_invariant": "NT_TWISTED_EXACTNESS_NOT_PROVEN",
+    "Krein_O11_bundle": "PROVEN_CONSTRUCTED_ON_MAJORITY_SIGN_LOCUS",
+    "Krein_det_C2_crossing": "TRIVIAL_PROVEN",
+    "Krein_det_C2_fissure": "TRIVIAL_PROVEN",
+    "Krein_time_C2": "NT_PENDING_FUTURE_CONE_SELECTOR"
+  },
+  "guards": [
+    "Primary Selling m belongs to the homogeneous coefficient system of the positive corresponding form.",
+    "The pullback m_plus on the fixed indefinite form depends on hyperboloid coordinates (xi,eta,zeta).",
+    "The full A2 normal arrangement does not by itself encode the one-sided half-branch truncation of a fissure.",
+    "The driven router is an explicit extension: between injections the original v11 ledger conservation is recovered.",
+    "History realization does not imply path independence; endpoint descent is a twisted H1/exactness question.",
+    "The determinant component of O(1,1) is only one of two discrete components; time orientation remains untyped without a future-cone selector."
+  ]
+}
