@@ -1,0 +1,4 @@
+word,line_i,line_j,holonomy_tau,exact_formula,period
+S1 S2 S1 S2,u2,u1,1,2*(Omega(u1)-Omega(u2)),0.7231006823013386
+S1 S3 S1 S3,u2,u3,1,2*(Omega(u3)-Omega(u2)),1.8558207492232843
+S2 S3 S2 S3,u1,u3,1,2*(Omega(u3)-Omega(u1)),1.1327200669219457
