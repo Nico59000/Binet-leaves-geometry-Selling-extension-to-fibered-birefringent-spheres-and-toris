@@ -1,0 +1,74 @@
+{
+  "version": "v38",
+  "status": "PASS_WITH_TYPED_OPEN_FRONTIERS",
+  "parent": "v37 CLOSED/APPEND-ONLY",
+  "math": {
+    "photo_registration": "PROVEN",
+    "photo_support_partition": "PROVEN_DIAGNOSTIC_97_3_5",
+    "historical_incidence": "NT",
+    "field_functor": "PENDING-MORPHISM",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "fox_4cells": "PROVEN_6_EXPLICIT_GROUP_RING_CYCLES",
+    "fox_free_submodule_rank": 6,
+    "full_fox_module": "NT",
+    "projective_ternary_bracket": "PROVEN_ALL_K_ARGUMENT_FINITE_REPLAY_K1_TO_K12",
+    "roof_reversal_transpose": "REFUTED-TYPED",
+    "lorentz_orientation": "NT",
+    "physical_phase": "SEPARATED/PENDING-MORPHISM",
+    "Noether_1908": "SOURCE_CONTEXT_ONLY_NOT_IDENTIFIED_WITH_GAMMA3_OR_SELLING_FIELDS",
+    "stratified_reality": "GUARD_APPLIED_OBSERVED_VS_ACTIONABLE_AND_TRUTH_VS_CERTIFICATION_SEPARATED"
+  },
+  "verify": {
+    "status": "PASS",
+    "parent_checks": 383,
+    "new_checks": 231,
+    "combined": 614,
+    "failed": [],
+    "photo_support": {
+      "CONFIRMED": 97,
+      "PARTIAL": 3,
+      "WEAK": 5
+    },
+    "fox_4cell_cycles": 6,
+    "binder_levels": 12,
+    "complete_historical_incidence": "NT",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "complete_Fox_module": "NT"
+  },
+  "pdf_qa": {
+    "status": "PASS",
+    "pages_rendered": 213,
+    "page_range": [
+      1,
+      213
+    ],
+    "automated_thresholds": {
+      "mean_luma_min": 180,
+      "black_ratio_max": 0.08,
+      "border_dark_ratio_max": 0.03,
+      "ink_ratio_min": 0.002
+    },
+    "suspicious": [],
+    "summary": {
+      "min_mean_luma": 239.08085760393453,
+      "max_black_ratio": 0.012903335980259056,
+      "max_border_dark_ratio": 0.0,
+      "min_ink_ratio": 0.02727443496674266
+    },
+    "visual_contact_review": [
+      "pages 1-12",
+      "pages 25-36",
+      "pages 193-213"
+    ],
+    "new_v38_section_visual_review": "pages 202-205 inspected in contact render; no clipping/overlap/broken glyphs observed",
+    "final_pages_visual_review": "pages 205-213 inspected in contact render; no clipping/overlap/broken glyphs observed",
+    "canonicalization_replay": {
+      "source_raw_sha256": "c0e7dc9e3eb9368b2863f823b3e0ea5233be15fbe1a419672a1a50fa5e1bf11d",
+      "canonical_sha256": "d31f8c3fbd7c09e6d6c22daec103af6d5b4bebea2b1fdae9ed2e632dd3e70411",
+      "two_independent_canonicalizations_byte_identical": true,
+      "all_213_pages_render_pixel_identical_raw_vs_canonical_at_0.8_scale": true
+    }
+  },
+  "pdf_sha256": "d31f8c3fbd7c09e6d6c22daec103af6d5b4bebea2b1fdae9ed2e632dd3e70411",
+  "publication_guard": "CLOSED may be assigned to the v38 transaction while individual mathematical objects remain NT/PENDING/SEPARATED exactly as recorded; no open object is promoted by cycle closure."
+}

@@ -1,0 +1,131 @@
+{
+  "level_ring": "R_k = Z/(2*3^k)Z",
+  "crt": "R_k ≅ F2 × Z/3^kZ",
+  "matrix_binder": "B_k=M3(R_k) ≅ M3(F2) × M3(Z/3^kZ)",
+  "projective_limit": "lim_k B_k ≅ M3(F2) × M3(Z_3)",
+  "parity_section": {
+    "e_k": "3^k mod 2*3^k",
+    "properties": [
+      "e_k^2=e_k",
+      "e_k mod2=1",
+      "e_k mod3^k=0",
+      "e_{k+1}->e_k"
+    ],
+    "map": "s_k(a)=a e_k is a compatible non-unital ring section F2 -> R_k"
+  },
+  "lambda2_nine_labels": "The nine matrix units e_ij remain the parity coordinates; each carries an independent 3-adic/hyperfine fibre through M3(Z_3).",
+  "Thomas_Wigner": {
+    "integral_generators": {
+      "Ky": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "Kz": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "J": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "relations": [
+      "[Ky,Kz]=J",
+      "[J,Ky]=-Kz",
+      "[J,Kz]=Ky"
+    ],
+    "tower_status": "PROVEN_AT_EVERY_FINITE_LEVEL_BY_INTEGER_REDUCTION",
+    "mod2_shadow": "recovers v36 parity bracket, where - becomes +",
+    "ternary_component": "retains the distinction J versus -J for every k>=1"
+  },
+  "orientation": {
+    "Gamma_action": "Gamma J Gamma^{-1}=-J at every level",
+    "decision": "The tower distinguishes the two orientations but does not canonically select one; O(2)/Real phase remains natural."
+  },
+  "roof_relation": {
+    "12345678987654321": "ordered nine-address visualization for the 3x3 parity coordinates after a chosen row-major chart",
+    "status": "POINTED_CONTEXT_ADAPTER_ONLY; roof reversal is still not matrix transpose and no intrinsic permutation equivalence is introduced."
+  },
+  "levels_checked": [
+    {
+      "k": 1,
+      "modulus": 6,
+      "parity_idempotent_e_k": 3
+    },
+    {
+      "k": 2,
+      "modulus": 18,
+      "parity_idempotent_e_k": 9
+    },
+    {
+      "k": 3,
+      "modulus": 54,
+      "parity_idempotent_e_k": 27
+    },
+    {
+      "k": 4,
+      "modulus": 162,
+      "parity_idempotent_e_k": 81
+    },
+    {
+      "k": 5,
+      "modulus": 486,
+      "parity_idempotent_e_k": 243
+    },
+    {
+      "k": 6,
+      "modulus": 1458,
+      "parity_idempotent_e_k": 729
+    },
+    {
+      "k": 7,
+      "modulus": 4374,
+      "parity_idempotent_e_k": 2187
+    },
+    {
+      "k": 8,
+      "modulus": 13122,
+      "parity_idempotent_e_k": 6561
+    }
+  ],
+  "status": "PROVEN_PROJECTIVE_CRT_TERNARY_REFINEMENT"
+}

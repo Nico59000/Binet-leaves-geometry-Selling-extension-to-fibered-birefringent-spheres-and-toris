@@ -1,0 +1,126 @@
+{
+  "presentation": "43 Kobayashi relators specialized to n=3 from v36/v37",
+  "free_group": "F_9 on E12,E13,E21,E23,E31,E32,F1,F2,F3",
+  "boundary_map": "partial_3(e_r) = Fox gradient of relator r",
+  "theorem": "If r_b=r_a^{-1} as a free word, z=e_a+r_a e_b lies in ker(partial_3), since D(r_a)+r_a D(r_a^{-1})=0.",
+  "cycles": [
+    {
+      "relator_a": "R3a1_123",
+      "relator_b": "R3a1_132",
+      "free_inverse": true,
+      "cycle": "e_R3a1_123 + (R3a1_123) e_R3a1_132",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    },
+    {
+      "relator_a": "R3a2_123",
+      "relator_b": "R3a2_321",
+      "free_inverse": true,
+      "cycle": "e_R3a2_123 + (R3a2_123) e_R3a2_321",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    },
+    {
+      "relator_a": "R3a2_132",
+      "relator_b": "R3a2_231",
+      "free_inverse": true,
+      "cycle": "e_R3a2_132 + (R3a2_132) e_R3a2_231",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    },
+    {
+      "relator_a": "R3a1_213",
+      "relator_b": "R3a1_231",
+      "free_inverse": true,
+      "cycle": "e_R3a1_213 + (R3a1_213) e_R3a1_231",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    },
+    {
+      "relator_a": "R3a2_213",
+      "relator_b": "R3a2_312",
+      "free_inverse": true,
+      "cycle": "e_R3a2_213 + (R3a2_213) e_R3a2_312",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    },
+    {
+      "relator_a": "R3a1_312",
+      "relator_b": "R3a1_321",
+      "free_inverse": true,
+      "cycle": "e_R3a1_312 + (R3a1_312) e_R3a1_321",
+      "fox_identity": "D(r_a)+r_a D(r_b)=0 in Z[F_9] for every generator",
+      "generator_checks": {
+        "E12": true,
+        "E13": true,
+        "E21": true,
+        "E23": true,
+        "E31": true,
+        "E32": true,
+        "F1": true,
+        "F2": true,
+        "F3": true
+      },
+      "all_generators_pass": true
+    }
+  ],
+  "cycle_count": 6,
+  "independence": "PROVEN_FREE_Z[GAMMA]-SUBMODULE_RANK_6_BY_DISJOINT_RELATOR_COORDINATE_PAIRS",
+  "complete_module": "NT_PENDING_FULL_GROUP_RING_FOX_RESOLUTION_OR_CONTRACTING_HOMOTOPY",
+  "Noether_context": "Double reduction is used only as a structural analogy for overlap/independence control, not as the proof of these Fox identities."
+}

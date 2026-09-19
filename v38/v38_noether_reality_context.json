@@ -1,0 +1,62 @@
+{
+  "Noether_1908": {
+    "file": "Noether_1908_ternary_biquadratic_forms.pdf",
+    "sha256": "ad9da4266cf035a25c3ca0a27cf87a9c06d9fa980edacae2994b725237532968",
+    "title": "Über die Bildung des Formensystems der ternären biquadratischen Form",
+    "author": "Emmy Noether",
+    "journal": "Journal für die reine und angewandte Mathematik 134 (1908), pp. 23ff.",
+    "role": "STRUCTURAL_CONTEXT_ONLY",
+    "source_supported_points": [
+      "relatively complete systems are built recursively by reduction to higher modules/forms",
+      "double reduction of an expression with two independent reducers produces relations among the higher forms",
+      "systematic double reduction is presented both as a relation-producing method and as a calculation/independence control"
+    ],
+    "guard": "Noether 1908 is not asserted to contain Selling field incidence, Thomas-Wigner physics, or the Gamma_3(2) presentation used here."
+  },
+  "stratified_reality": {
+    "file": "operateur_realite_stratifiee_fr.pdf",
+    "sha256": "99970d2d32d789eb2ca72d707ba774af34b665806472464e928550943ca768c5",
+    "role": "CERTIFICATION_GUARD",
+    "requirements": [
+      "non-vacuous admissible realization chains",
+      "explicit context/development/manifestation hierarchy",
+      "observed versus actionable separation",
+      "logical truth versus certification status separation"
+    ],
+    "four_status_interface": [
+      "F",
+      "NF",
+      "NT",
+      "T"
+    ]
+  },
+  "v38_frame": {
+    "I": [
+      "v37 closed bundle",
+      "BSB-derived Tafel III JPG",
+      "Selling 1874/1877 source semantics",
+      "Noether 1908 structural context",
+      "HT+NT and stratified-reality corpus"
+    ],
+    "E": [
+      "photo/raster registration",
+      "typed geometric crosscheck",
+      "Fox free-group-ring identities",
+      "projective CRT tower proofs and finite replay"
+    ],
+    "M_obs": [
+      "source hashes",
+      "registration metrics",
+      "97/3/5 segment support partition",
+      "six exact Fox 4-cell cycles",
+      "oriented projective bracket carrier"
+    ],
+    "M_act": [
+      "complete historical field incidence",
+      "field-level functor lift",
+      "historical H1/H2 recomputation",
+      "complete group-ring identity-among-relations module",
+      "source-native Lorentz/phase orientation adapter"
+    ]
+  }
+}

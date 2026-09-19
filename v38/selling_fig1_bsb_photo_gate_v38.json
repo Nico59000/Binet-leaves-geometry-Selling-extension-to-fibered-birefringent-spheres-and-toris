@@ -1,0 +1,131 @@
+{
+  "source": "BSB-derived high-quality JPG supplied by user; original viewer https://www.digitale-sammlungen.de/de/view/bsb11179195?page=244%2C245",
+  "source_file": "Tafel-III-fig1.jpg",
+  "source_sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+  "source_bytes": 1583110,
+  "source_dimensions": [
+    3639,
+    3194
+  ],
+  "canonical_crop": {
+    "file": "selling_fig1_photo_crop_v38.png",
+    "sha256": "f7eaed859be572a69c0933ef940603062c9d2e2b100ddce813f3ac0a9e14c4a6",
+    "dimensions": [
+      2090,
+      2880
+    ]
+  },
+  "registration_to_v37": {
+    "method": "SIFT + Lowe 0.70 + RANSAC homography",
+    "raw_good_matches": 184,
+    "inliers": 142,
+    "inlier_fraction": 0.7717391304347826,
+    "median_reprojection_error_px_v37_300": 1.3390905432234317,
+    "mean_reprojection_error_px_v37_300": 1.5150961296513012,
+    "p95_reprojection_error_px_v37_300": 3.3024010852490564,
+    "H_photo_to_v37_300": [
+      [
+        0.9826837237942171,
+        0.010652230969521479,
+        109.99241116539137
+      ],
+      [
+        -0.011671218274105298,
+        0.9764949835547548,
+        5.562938534563553
+      ],
+      [
+        -4.941640803590994e-07,
+        -7.414200516609068e-07,
+        1.0
+      ]
+    ]
+  },
+  "v37_segment_support_thresholds": {
+    "CONFIRMED": ">=0.75",
+    "PARTIAL": "0.35..0.75",
+    "WEAK": "<0.35"
+  },
+  "v37_segment_support_counts": {
+    "CONFIRMED": 97,
+    "PARTIAL": 3,
+    "WEAK": 5
+  },
+  "by_layer": {
+    "ordinary": {
+      "CONFIRMED": 72,
+      "PARTIAL": 1
+    },
+    "reinforced": {
+      "CONFIRMED": 23,
+      "WEAK": 2
+    },
+    "serpentine": {
+      "CONFIRMED": 2
+    },
+    "symmetry_candidate": {
+      "WEAK": 3,
+      "PARTIAL": 2
+    }
+  },
+  "weak_or_partial_segments": [
+    {
+      "index": 36,
+      "segment_id": "S036",
+      "layer": "ordinary",
+      "photo_support_fraction": 0.428571429,
+      "photo_support_class": "PARTIAL"
+    },
+    {
+      "index": 96,
+      "segment_id": "S096",
+      "layer": "reinforced",
+      "photo_support_fraction": 0.252336449,
+      "photo_support_class": "WEAK"
+    },
+    {
+      "index": 97,
+      "segment_id": "S097",
+      "layer": "reinforced",
+      "photo_support_fraction": 0.256410256,
+      "photo_support_class": "WEAK"
+    },
+    {
+      "index": 100,
+      "segment_id": "Y000",
+      "layer": "symmetry_candidate",
+      "photo_support_fraction": 0.212317666,
+      "photo_support_class": "WEAK"
+    },
+    {
+      "index": 101,
+      "segment_id": "Y001",
+      "layer": "symmetry_candidate",
+      "photo_support_fraction": 0.720994475,
+      "photo_support_class": "PARTIAL"
+    },
+    {
+      "index": 102,
+      "segment_id": "Y002",
+      "layer": "symmetry_candidate",
+      "photo_support_fraction": 0.141414141,
+      "photo_support_class": "WEAK"
+    },
+    {
+      "index": 103,
+      "segment_id": "Y003",
+      "layer": "symmetry_candidate",
+      "photo_support_fraction": 0.472,
+      "photo_support_class": "PARTIAL"
+    },
+    {
+      "index": 104,
+      "segment_id": "Y004",
+      "layer": "symmetry_candidate",
+      "photo_support_fraction": 0.345882353,
+      "photo_support_class": "WEAK"
+    }
+  ],
+  "decision": "PHOTO_PRIMARY_GEOMETRIC_WITNESS; V37_RASTER_CROSSCHECK; SUPPORT_CLASSIFICATION_DIAGNOSTIC_ONLY; COMPLETE_HISTORICAL_FIELD_INCIDENCE_NT",
+  "guard": "Geometric support does not name a historical field, fissure, crossing, repetition or stabilizer without source-semantic matching."
+}
