@@ -1,0 +1,62 @@
+{
+  "presentation_functor_v36": {
+    "source": "K_hist^pres(Q0)=W(C6) transformation presentation/orbifold",
+    "target": "F29_can canonical 168-object congruence chart",
+    "generator_paths": {
+      "a": "constant",
+      "h": "constant",
+      "g": "constant",
+      "b": "constant",
+      "t": "S6",
+      "u": "S3 S6"
+    },
+    "image": "<rho2(T),rho2(U)> ~= C2 x C2, order 4",
+    "two_cell_compatibility": "all six involution cells and six C6 commuting-square cells map to closed mod-2 loops fillable by the 841 fundamental cells of F29_can",
+    "faithfulness": "NO: four of six C6 generators lie in the level-2 kernel and are collapsed at quotient level",
+    "field_level_functor": "NT_PENDING_EXACT_PLATE_TRANSCRIPTION: the presentation-level functor is not promoted to F_Sell^field(Q0)->F29_can."
+  },
+  "source_vectorization": {
+    "source_pdf": "LOG_0016.pdf",
+    "source_pdf_sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+    "embedded_image_sha256": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437",
+    "canonical_crop": "selling_fig1_full_600.png",
+    "canonical_crop_sha256": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf",
+    "crop_dimensions_600": [
+      4450,
+      5400
+    ],
+    "tables": {
+      "selling_fig1_nodes_v37.csv": {
+        "rows": 136,
+        "sha256": "942b91656f60d6f3e84891d819b5327580c67f042b35602972a9e2cfa900476d"
+      },
+      "selling_fig1_segments_v37.csv": {
+        "rows": 105,
+        "sha256": "d866c35bae2e33b335af8e1818e75351ed890dbd47c44321855616c37106fa96"
+      },
+      "selling_fig1_fields_v37.csv": {
+        "rows": 34,
+        "sha256": "4827dd0cad2c17ce6995f5fc7c1966a3365d856a9755a30dcb1ae7cbc0636bd6"
+      },
+      "selling_fig1_layers_v37.geojson": {
+        "features": 105,
+        "sha256": "8a410c44b8d98be828a76eefbb47e6534b083b7665411227ad51d8daaa055559"
+      }
+    },
+    "layer_counts": {
+      "ordinary": 73,
+      "reinforced": 25,
+      "serpentine": 2,
+      "symmetry_candidate": 5
+    },
+    "field_region_class_counts": {
+      "STABLE_CLOSED_REGION_HIGH": 3,
+      "STABLE_CLOSED_REGION_MEDIUM": 4,
+      "MORPHOLOGICAL_CANDIDATE": 27
+    },
+    "decision": "SOURCE_BYTES_PROVEN; VECTOR_LAYERS_SOURCE_ANCHORED; COMPLETE_HISTORICAL_FIELD_INCIDENCE_NOT_YET_PROMOTED",
+    "guard": "automatic region closure and dashed-line candidates are diagnostics, not historical incidence facts until manually/source-geometrically matched."
+  },
+  "decision": "FIELD_LEVEL_LIFT_NT: source bytes and typed vector layers are proven, but field-by-field semantics, all six symmetry axes, repetitions and stabilizers are not yet completely matched.",
+  "cohomology_decision": "NO_FIELD_H1_H2_RECOMPUTATION_IN_V37; retain v36 transformation-orbifold Binet (1,0), Ad (3,0), and v35 F29_can (0,0) as separately typed computations."
+}
