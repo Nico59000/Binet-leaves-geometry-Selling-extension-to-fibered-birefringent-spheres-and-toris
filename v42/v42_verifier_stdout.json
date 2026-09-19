@@ -1,0 +1,33 @@
+{
+  "phase": "v42-selling-gates-pointed-envelope-group-ring-squier-second-syzygies-J-sign-torsor",
+  "status": "PASS",
+  "predecessor_v41_checks": 5646,
+  "new_check_count": 186,
+  "combined_check_count": 5832,
+  "failed": [],
+  "selling": {
+    "new_source_geometric_promotions": 0,
+    "C2_89_census": "NOT_ACTIVATED",
+    "field_functor": "PENDING",
+    "historical_H1_H2": "NT"
+  },
+  "envelope": {
+    "graph_canonical_candidate": "R5",
+    "Gamma_adapter": "SEPARATED/PENDING-MORPHISM"
+  },
+  "gamma3": {
+    "diamonds": 52,
+    "old_seed_diamonds": 28,
+    "hidden_group_ring_diamonds": 24,
+    "new_canonical_4cycles": 6,
+    "new_second_syzygies": 6,
+    "complete_resolution": "NT"
+  },
+  "projective_J": {
+    "radius6_objects": 22183,
+    "radius6_edges": 27024,
+    "sign_uniqueness": "REFUTED-TYPED_FROM_CURRENT_RELATIONS",
+    "Lorentz_orientation": "NT"
+  },
+  "pending_registry": "pending_morphism_registry_v42.json"
+}

@@ -1,0 +1,16 @@
+{
+  "source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie, tome 3 (1877), seconde partie, pp. 153-206",
+  "url": "https://www.numdam.org/item/JMPA_1877_3_3__153_0/",
+  "relevant_pages": {
+    "191": "T=PRP^{-1}, U=QSQ^{-1}, and TU=UT",
+    "192": "V/W ramified unique-path system and alternating E grammar",
+    "193-194": "Gamma and Delta are displayed; combinations involving E, Gamma^gamma Delta^delta, T^t U^u are stated to cover the transformations once in the declared example"
+  },
+  "derived_not_quoted": [
+    "R Gamma = Gamma R",
+    "S (Gamma Delta) = (Gamma Delta) S",
+    "[T,V Gamma]=1",
+    "[U,W Gamma Delta]=1"
+  ],
+  "guard": "The derived commutators are exact consequences of the source matrices; they are not presented as verbatim printed equations. The C6 presentation is scoped to the declared Q0/Figure-1 branch, not all indefinite ternary forms."
+}

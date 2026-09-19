@@ -1,0 +1,56 @@
+{
+  "version": "v42",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v41 CLOSED/APPEND-ONLY",
+  "sources": [
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v41.tex",
+      "bytes": 637808,
+      "sha256": "246a98305dc7175bebf8d236b18f0d0ab91f65ee2a1cd7a1ef74dd9bf81b93ea",
+      "role": "append-only predecessor text"
+    },
+    {
+      "path": "selling_axis_binding_gate_v41.json",
+      "bytes": 1215,
+      "sha256": "0d8df4649b2bb96fdfce197a100da7ae7d18b595e5ddfd5fb51a2cd042037634",
+      "role": "strict BSB binding predecessor gate"
+    },
+    {
+      "path": "selling_fig1_nodes_v40.csv",
+      "bytes": 20377,
+      "sha256": "5b9443c6a24ee3475db8265f359cf601bfb159946d52cfc162a9b313239377f1",
+      "role": "89 degree-one diagnostic node carrier"
+    },
+    {
+      "path": "multiobject_lift_groupoid_v34.json",
+      "bytes": 13262,
+      "sha256": "bf00a897a58be89ead47927ab758a2d55cdad3f46982e847cd7052ae532bf003",
+      "role": "17-object Selling/deck witness"
+    },
+    {
+      "path": "gamma3_level2_relative_3cells_v36.json",
+      "bytes": 8164,
+      "sha256": "293ba103df3395e429a281e2e2ada4f2ea0a1af35298b27191fa598b04e5fca8",
+      "role": "43 specialized Gamma3(2) relators"
+    },
+    {
+      "path": "gamma3_group_ring_4cells_v38.json",
+      "bytes": 3619,
+      "sha256": "1ab9b2a482230fa6ad344edb7dbb961ae3a8f90845b46f2accbd6c8781d81a9e",
+      "role": "six exact inverse-relator seed 4-cycles"
+    },
+    {
+      "path": "gamma3_length2_squier_v41.json",
+      "bytes": 4762,
+      "sha256": "fa18f3327d3d0e6cfe6b68b6bd8d84562a52da6993b3ba84ac120429ece91349",
+      "role": "52 length-two diamonds and augmentation shadow"
+    },
+    {
+      "path": "projective_J_historical_holonomy_v41.json",
+      "bytes": 2511,
+      "sha256": "2a1593a8bdb41fa8528985a854b099da4d368d1241dc1e48357e14e7e5c3ff72",
+      "role": "radius-five J section and declared historical holonomy"
+    }
+  ],
+  "source_policy": "No BSB geometry is promoted from diagnostics; the group-ring lift uses exact integral-matrix Gamma3(2) coefficients; graph-canonical R5 is not called a historical Selling boundary object."
+}
