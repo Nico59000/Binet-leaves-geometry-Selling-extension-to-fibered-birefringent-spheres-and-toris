@@ -1,0 +1,67 @@
+{
+  "version": "v46",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v45 CLOSED/APPEND-ONLY",
+  "predecessor_gate": {
+    "ledger": "v45_SHA256SUMS.txt",
+    "ledger_entries": 248,
+    "ledger_status": "PASS_248_OF_248",
+    "verification": "7976/7976 PASS",
+    "atomic_token": "v45_ATOMIC_COMPLETION_TOKEN.json"
+  },
+  "sources": [
+    {
+      "path": "LOG_0016.pdf",
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "canonical Selling Tafel III source bytes"
+    },
+    {
+      "path": "Tafel-III-fig1.jpg",
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "role": "BSB plate witness"
+    },
+    {
+      "path": "selling_fig1_bsb_photo_gate_v38.json",
+      "sha256": "b8e04cdb0f28f5b1c5d43e9b4d9117314d7d1e129ddb9ba315a03fbc6172cff9",
+      "role": "BSB-to-v37 registration and p95 error budget"
+    },
+    {
+      "path": "selling_fig1_semantic_contract_v39.json",
+      "sha256": "8bbedb2963bf668fbe3dc7acb8459817fbe789d4a0e12b3f53a0c50f4989f4d4",
+      "role": "source-exact six external axes / six centres / P,Q,R,S semantics"
+    },
+    {
+      "path": "selling_q0_historical_domain_v36.json",
+      "sha256": "0e266bb1f49c5c567cf150c1c7d96118ba631c057902e7d033f9e599e2d37ffe",
+      "role": "historical Q0 branch and separation of field incidence from presentation orbifold"
+    },
+    {
+      "path": "selling_dotted_axis_traces_v45.csv",
+      "sha256": "a56af13ad40b957e264522f9fa3f85a422d750173cc4d3215d6b754840601fed",
+      "role": "seven dual-source diagnostic straight trace fragments"
+    },
+    {
+      "path": "gamma3_partial_resolution_v43.json",
+      "sha256": "3aad6a2ba23f54ab0ad1853dcc69266b2c94afd053234ae0554e50c6fe8b32be",
+      "role": "certified M43 partial resolution and residual-character histogram"
+    },
+    {
+      "path": "gamma3_level2_relative_3cells_v36.json",
+      "sha256": "293ba103df3395e429a281e2e2ada4f2ea0a1af35298b27191fa598b04e5fca8",
+      "role": "43-relator Gamma3(2) relative 3-cell system"
+    },
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v45.tex",
+      "sha256": "7fb323e5218fe9ca92b45197e7397f56e01ed7a86a54fda474fea1dae4e6422f",
+      "role": "append-only predecessor text"
+    }
+  ],
+  "primary_source_review_v46": {
+    "Selling1877_pp163_164": "four of six external boundaries are of the numerical-coincidence symmetry-axis species; boundary letters name the vanishing variable",
+    "Selling1877_p175": "six external boundary lines are bipartite symmetry axes and six intersections are quadripartite centres",
+    "Selling1877_p182": "dotted lines denote symmetry axes",
+    "Selling1877_p184": "six indicated axis intersections are quadripartite centres; relevant axes are treated as perpendicular",
+    "Selling1877_pp189_191": "P,Q,R,S correspond to explicit external-boundary routes in Fig.1"
+  },
+  "source_policy": "No DAX straight fit is promoted to a full historical HAX curve. No C2 orbit census, field functor or H1/H2 is activated before source-certified centre/axis stitching and total historical cell data."
+}

@@ -1,0 +1,38 @@
+{
+  "work": "E. Selling, Ueber die binären und ternären quadratischen Formen, J. reine angew. Math. 77 (1874), 143-229",
+  "plate": "Tafel III; source PDF LOG_0016.pdf, page 2; Fig. 1 at right, Figs. 2--6 at left",
+  "source_pdf": "LOG_0016.pdf",
+  "source_pdf_bytes": 1991876,
+  "source_pdf_sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+  "embedded_raster": {
+    "dimensions": [
+      6716,
+      5752
+    ],
+    "dpi": [
+      600,
+      600
+    ],
+    "sha256": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437"
+  },
+  "fig1_crop": {
+    "file": "selling_fig1_full_600.png",
+    "dimensions": [
+      4450,
+      5400
+    ],
+    "sha256": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf"
+  },
+  "source_status": {
+    "plate_raster_bytes": "PROVEN_SOURCE_BYTES",
+    "vector_layers": "PROVEN_SOURCE_ANCHORED_GEOMETRY_WITH_TYPED_DIAGNOSTIC_CLASSIFICATION",
+    "complete_historical_field_incidence": "NT_PENDING_SOURCE_GEOMETRIC_MATCHING_OF_AXES_SERPENTINES_REPETITIONS_STABILIZERS"
+  },
+  "typing": [
+    "E_ordinary",
+    "E_serpentine",
+    "E_reinforced",
+    "E_symmetry_candidate"
+  ],
+  "publication_guard": "No morphological closure or line-detection tolerance is promoted by itself to a historical field, wall, fissure, crossing, repetition or stabilizer."
+}

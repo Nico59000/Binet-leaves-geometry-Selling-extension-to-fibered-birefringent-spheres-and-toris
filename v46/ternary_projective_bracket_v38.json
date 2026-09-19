@@ -1,0 +1,263 @@
+{
+  "ring": "R_k=Z/(2*3^k)Z",
+  "matrix_binder": "B_k=M3(R_k)",
+  "reduction": "pi_{k+1,k}",
+  "oriented_scalar_group": "U_k^+={u in R_k^x : u == 1 (mod 3)}",
+  "projective_bracket_carrier": "P_k^+=B_k/U_k^+ (scalar-unit orbit set; not asserted to be an additive quotient ring)",
+  "facts_proven": [
+    "every u in U_k^+ is odd, hence u mod2=1",
+    "-1 is not in U_k^+ because -1 mod3=2",
+    "reduction U_{k+1}^+ -> U_k^+ is surjective, so P_k^+ forms an inverse system",
+    "[uA,vB]=uv[A,B] and uv in U_k^+, hence the commutator class is well-defined on P_k^+",
+    "rho_2([A,B])=[rho_2(A),rho_2(B)], and rho_2 is well-defined on P_k^+",
+    "therefore the Thomas-Wigner parity shadow descends projectively while J and -J remain distinct in the ternary component"
+  ],
+  "Thomas_Wigner": {
+    "Ky": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "Kz": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "J": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "integer_relations": [
+      "[Ky,Kz]=J",
+      "[J,Ky]=-Kz",
+      "[J,Kz]=Ky"
+    ],
+    "mod2_shadow": [
+      "[Kybar,Kzbar]=Jbar",
+      "[Jbar,Kybar]=Kzbar",
+      "[Jbar,Kzbar]=Kybar"
+    ]
+  },
+  "levels_checked": [
+    {
+      "k": 1,
+      "modulus": 6,
+      "e_k": 3,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 1,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 2,
+      "modulus": 18,
+      "e_k": 9,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 3,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 3,
+      "modulus": 54,
+      "e_k": 27,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 9,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 4,
+      "modulus": 162,
+      "e_k": 81,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 27,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 5,
+      "modulus": 486,
+      "e_k": 243,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 81,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 6,
+      "modulus": 1458,
+      "e_k": 729,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 243,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 7,
+      "modulus": 4374,
+      "e_k": 2187,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 729,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 8,
+      "modulus": 13122,
+      "e_k": 6561,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 2187,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 9,
+      "modulus": 39366,
+      "e_k": 19683,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 6561,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 10,
+      "modulus": 118098,
+      "e_k": 59049,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 19683,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 11,
+      "modulus": 354294,
+      "e_k": 177147,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 59049,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    },
+    {
+      "k": 12,
+      "modulus": 1062882,
+      "e_k": 531441,
+      "e_idempotent": true,
+      "e_mod2": 1,
+      "e_mod3k": 0,
+      "Uplus_cardinality": 177147,
+      "minus_one_in_Uplus": false,
+      "brackets_modulus": {
+        "KyKz_eq_J": true,
+        "JKy_eq_minusKz": true,
+        "JKz_eq_Ky": true
+      }
+    }
+  ],
+  "inverse_limit": "CONSTRUCTED_AS_COMPATIBLE_ORBIT_SYSTEM; no claim that inverse limit commutes with every quotient construction beyond the stated maps",
+  "roof_guard": "roof reversal != matrix transpose remains REFUTED by v36 cycle-type no-go; no Lorentz orientation or physical phase is selected.",
+  "status": "PROVEN_ORIENTED_PROJECTIVE_BRACKET_REFINEMENT_WITH_MOD2_SHADOW"
+}

@@ -1,0 +1,6 @@
+PDF: formalisation_feuillets_binet_birefringence_selling_polaire_v46.pdf
+Pages: 246
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

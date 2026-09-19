@@ -1,0 +1,15 @@
+{
+  "version": "v45",
+  "predecessor": "selling_singer_injection_gate_v44.json",
+  "historical_reflection_source_bound": false,
+  "source_native_line_L": false,
+  "source_native_Singer_framing_sigma": false,
+  "Gamma_equals_framing_inversion_certified": false,
+  "path_and_face_equivariance_certified": false,
+  "current_scalar_injection": "REFUTED-TYPED_RETAINED",
+  "Singer_odd_pseudoscalar": "SEPARATED_CONDITIONAL_CANDIDATE_RETAINED",
+  "injection_to_J_line": "NT_PENDING_SOURCE_NATIVE_L_SIGMA_GAMMA_AND_CELL_EQUIVARIANCE",
+  "Lorentz_orientation": "NT",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM",
+  "decision": "NO_SOURCE_NATIVE_ODD_INJECTION_PROMOTION_IN_V45"
+}

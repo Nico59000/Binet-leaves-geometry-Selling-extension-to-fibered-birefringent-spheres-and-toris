@@ -1,0 +1,23 @@
+{
+  "version": "v46",
+  "status": "PASS",
+  "guards": {
+    "append_only_v45": true,
+    "direct_DAX_to_HAX_search_refuted_typed_only": true,
+    "historical_six_axes_not_refuted": true,
+    "curved_axis_stitching_remains_NT": true,
+    "C2_89_fail_closed": true,
+    "H12_not_recomputed": true,
+    "character_directions_typed_as_shadows": true,
+    "radius1_no_go_scope_bounded": true,
+    "M43_not_declared_complete": true,
+    "Singer_stays_separated": true,
+    "R5_strict_adapter_refuted_typed_retained": true,
+    "opposite_variance_retained": true,
+    "roof_transpose_refuted_typed_retained": true,
+    "physical_phase_separated": true
+  },
+  "key_selling_result": "All seven 6-subsets fail the direct whole-straight-DAX = whole-HAX model because no DAX pair is compatible with a right-angle fourfold-centre intersection within a conservative error bound. This forces a fragment-stitching/source-transcription model rather than an arbitrary 7->6 deletion.",
+  "key_gamma_result": "At chi(Eij)=+1, chi(Fi)=-1, ker D_chi has dimension 35 and the M43 shadow rank is 21, leaving 14 residual directions. Exact radius-one coefficient-support search has a 129-dimensional exact kernel but zero image in the 14-dimensional residual quotient.",
+  "no_go_scope": "Radius-one bounded no-go only; word-length >=2 coefficient support remains open."
+}
