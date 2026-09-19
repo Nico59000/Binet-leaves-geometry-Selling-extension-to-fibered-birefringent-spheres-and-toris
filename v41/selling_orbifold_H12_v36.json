@@ -1,0 +1,29 @@
+{
+  "carrier": "Selling Q0 transformation-orbifold / Davis quotient of W(C6), not the untranscribed microscopic field complex",
+  "cells_with_stabilizer_invariants": {
+    "Binet": {
+      "C0": 1,
+      "C1": 4,
+      "C2": 2
+    },
+    "Adjoint": {
+      "C0": 3,
+      "C1": 12,
+      "C2": 6
+    }
+  },
+  "Binet": {
+    "rank_d0": 1,
+    "rank_d1": 2,
+    "H1_dimension": 1,
+    "H2_dimension": 0
+  },
+  "Adjoint": {
+    "rank_d0": 3,
+    "rank_d1": 6,
+    "H1_dimension": 3,
+    "H2_dimension": 0
+  },
+  "consistency": "H1 dimensions reproduce v34 (1 scalar, 3 adjoint); new H2=0 on the transformation-orbifold carrier.",
+  "historical_field_H1_H2": "NT_PENDING_EXACT_FIELD_INCIDENCE; not inferred from these orbifold values."
+}

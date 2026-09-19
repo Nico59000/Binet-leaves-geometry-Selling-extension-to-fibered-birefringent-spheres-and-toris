@@ -1,0 +1,100 @@
+{
+  "version": "v41",
+  "transport": "T_M(X)=M^{-1} X M",
+  "finite_RACG_ball": {
+    "raw_words_length_le_5": 9331,
+    "unique_normal_forms": 4504,
+    "edge_naturality_checks": 5484,
+    "matrix_image_distinct_count": 1711,
+    "matrix_fiber_multiplicity_profile": {
+      "1": 1405,
+      "2": 179,
+      "3": 6,
+      "13": 14,
+      "15": 5,
+      "16": 34,
+      "17": 3,
+      "18": 22,
+      "19": 6,
+      "20": 14,
+      "21": 8,
+      "23": 2,
+      "24": 2,
+      "34": 4,
+      "55": 1,
+      "102": 2,
+      "105": 2,
+      "107": 2
+    },
+    "status": "PROVEN_ROOT-GAUGED_J_SECTION_ON_RADIUS5_NORMAL-FORM_BALL; NO_GLOBAL_FAITHFULNESS_CLAIM"
+  },
+  "historical_source_relators": {
+    "Gamma2": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "Delta2": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "T2": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "U2": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "GammaDelta_comm": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "TU_comm": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "Gamma_V_inversion": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "Delta_V_inversion": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "Gamma_W_fixed": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "Delta_W_inversion": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "T_comm_VGamma": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    },
+    "U_comm_WGammaDelta": {
+      "matrix_identity": true,
+      "tower_k1_12": true
+    }
+  },
+  "historical_relation_holonomy": "PROVEN_EXACT_OVER_Z_FOR_ALL_12_DECLARED_RELATIONS_AND_THEREFORE_AT_EVERY_2*3^k_REDUCTION",
+  "RACG_C6_defining_relators": {
+    "a2": true,
+    "h2": true,
+    "g2": true,
+    "b2": true,
+    "u2": true,
+    "t2": true,
+    "comm_a_h": true,
+    "comm_h_g": true,
+    "comm_g_b": true,
+    "comm_b_u": true,
+    "comm_u_t": true,
+    "comm_t_a": true
+  },
+  "tower": "K1_12_MACHINE_REPLAY_AND_FORMALLY_ALL_K_BY_INTEGER_IDENTITY",
+  "canonical_Lorentz_orientation": "NT: root sign choices remain gauge data and no Selling source datum selects them",
+  "opposite_variance": "MXM^{-1} remains the opposite-groupoid action under the stored right-composition convention; v40 deck-cycle defect is preserved.",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM"
+}

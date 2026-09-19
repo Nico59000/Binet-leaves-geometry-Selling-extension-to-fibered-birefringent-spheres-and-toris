@@ -1,0 +1,37 @@
+{
+  "phase": "v41-source-binding-crosscontext89-envelope17-16-length2-squier-historical-J-holonomy",
+  "status": "PASS",
+  "predecessor_v40_checks": 5386,
+  "new_check_count": 260,
+  "combined_check_count": 5646,
+  "failed": [],
+  "selling": {
+    "source_certified_geometric_promotions": 0,
+    "field_functor": "PENDING_NOT_PROMOTED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "degree1_diagnostic_nodes": 89,
+    "crosscontext89": "CATALOGUED_TYPED_SEPARATED"
+  },
+  "envelope17_16": {
+    "selling_objects": 17,
+    "gamma_oriented_occurrences": 16,
+    "adapter": "SEPARATED/PENDING-MORPHISM"
+  },
+  "gamma3_length2": {
+    "overlaps": 126,
+    "diamonds": 52,
+    "orbit_types": 14,
+    "augmentation_rank": 6,
+    "new_augmentation_directions": 0,
+    "full_group_ring_module": "NT"
+  },
+  "projective_J": {
+    "normal_form_ball_objects": 4504,
+    "edge_checks": 5484,
+    "historical_relators": 12,
+    "relation_holonomy": "PROVEN",
+    "Lorentz_orientation": "NT",
+    "physical_phase": "SEPARATED/PENDING-MORPHISM"
+  },
+  "pending_registry": "pending_morphism_registry_v41.json"
+}
