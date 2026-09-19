@@ -1,0 +1,23 @@
+{
+  "version": "v42",
+  "transport": "T_M(X)=M^{-1}XM; generators are involutions in the RACG chart",
+  "radius6": {
+    "raw_words": 55987,
+    "normal_forms": 22183,
+    "internal_generator_edges": 27024,
+    "naturality": "PROVEN"
+  },
+  "extension_beyond_v41": "radius 5 -> radius 6",
+  "root_sign_torsor": {
+    "sections": [
+      "J_s",
+      "-J_s"
+    ],
+    "relation": "global sign flip commutes with every conjugation transport and therefore preserves every current historical/RACG relation constraint",
+    "projective_tower": "the two signs remain distinct in every P_k^+ because -1 is not in U_k^+",
+    "uniqueness_from_current_relational_data": "REFUTED-TYPED",
+    "source_selected_Lorentz_orientation": "NT_REQUIRES_ADDITIONAL_SOURCE_MARK"
+  },
+  "opposite_variance": "MXM^{-1} retained only as opposite-groupoid action",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM"
+}

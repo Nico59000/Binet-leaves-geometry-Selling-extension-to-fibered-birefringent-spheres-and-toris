@@ -1,0 +1,17 @@
+{
+  "version": "v43",
+  "current_historical_selling_deck_carrier": {
+    "source_search_v36": "NO_NEW_GAMMA_BREAKING_MARK_FOUND_IN_SOURCE_TEXT_EXTRACTION",
+    "serialized_odd_mark": "NONE",
+    "decision": "NO_ODD_MARK_IN_CURRENT_HISTORICAL_CARRIER; SIGN_NONUNIQUENESS_PRESERVED"
+  },
+  "separate_candidate": {
+    "source": "formalisation v22 retained context",
+    "mark": "oriented cubic pseudoscalar R_3^(3)=Omega_sigma(L) epsilon^3",
+    "oddness": "changes sign under inversion of Singer framing sigma",
+    "preconditions": "conservation of line L plus an explicitly chosen Singer framing sigma",
+    "status": "SEPARATED/CONDITIONAL-CANDIDATE_NOT_NATIVE_TO_CURRENT_SELLING-DECK_CARRIER"
+  },
+  "conclusion": "Current data refute uniqueness from relational/groupoid data but do not refute existence of a future source-selected orientation once an additional odd mark is supplied.",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM"
+}
