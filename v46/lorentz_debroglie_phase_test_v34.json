@@ -1,9 +1,0 @@
-{
-  "compact_subgroup": "exp(theta J) in SO(2) subset SO^+(1,2)",
-  "typed_U1_binder": "sigma_J(exp(theta J)) = exp(i theta), after the declared orientation binder J -> +i",
-  "group_status": "PROVEN_ISOMORPHISM_OF_ABSTRACT_COMPACT_LIE_GROUPS_AFTER_ORIENTATION_CHOICE",
-  "orientation_ambiguity": "without the binder there are two inverse choices theta -> +/- theta",
-  "de_Broglie_phase": "Phi_dB=S/hbar; stored phase-fibre documents use exp(i Phi) but supply no source-exact map S(Q,word) from Selling data to physical action",
-  "physical_synchronization": "SEPARATED/PENDING-MORPHISM; no identification theta=Phi_dB is promoted",
-  "cohomological_note": "the completed adjoint H1 contains a nonexact phase-direction cocycle with J-components on T/U; this is a mathematical phase candidate, not a physical de Broglie clock."
-}
