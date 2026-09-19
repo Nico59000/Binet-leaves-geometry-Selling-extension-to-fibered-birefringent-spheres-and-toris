@@ -1,0 +1,19 @@
+{
+  "version": "v43",
+  "oriented_instances": 396,
+  "length1_pairs": 3770,
+  "residual_groups": 2108,
+  "factorization_profile": {
+    "1": 954,
+    "2": 888,
+    "3": 24,
+    "4": 242
+  },
+  "multi_residual_groups": 1154,
+  "comparison_cycles": 1662,
+  "v42_absorbed": 918,
+  "v42_survivors": 744,
+  "new_canonical_generators": 12,
+  "v43_absorbed": 1662,
+  "decision": "ALL_LENGTH1_COMPARISON_CYCLES_ABSORBED_BY_ENLARGED_PARTIAL_MODULE"
+}

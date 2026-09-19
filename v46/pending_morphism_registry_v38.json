@@ -1,0 +1,91 @@
+{
+  "version": "v38",
+  "items": [
+    {
+      "id": "PM38-01",
+      "object": "BSB-derived high-quality Tafel III JPG registration",
+      "status": "PROVEN_SOURCE_BYTES_AND_CROSSREGISTRATION",
+      "next_gate": "Retain as primary geometric witness; semantics still comes from Selling text."
+    },
+    {
+      "id": "PM38-02",
+      "object": "Complete F_Sell^field(Q0) incidence",
+      "status": "IN_PROGRESS_SOURCE_ANCHORED / NT_COMPLETE_INCIDENCE",
+      "next_gate": "Resolve six historical axes, all field boundaries, fissures/crossings, repetitions and stabilizers source-semantically."
+    },
+    {
+      "id": "PM38-03",
+      "object": "Field-level functor F_Sell^field(Q0)->F29_can",
+      "status": "PENDING-MORPHISM",
+      "next_gate": "Promote only after PM38-02 and verify 0-,1-,2-cell incidence."
+    },
+    {
+      "id": "PM38-04",
+      "object": "Historical field H1/H2",
+      "status": "NT_BLOCKED_BY_PM38-02_03",
+      "next_gate": "Recompute only after field complex and functor close."
+    },
+    {
+      "id": "PM38-05",
+      "object": "Six explicit group-ring Fox 4-cell cycles",
+      "status": "PROVEN_ZGAMMA_FREE_SUBMODULE_RANK_6",
+      "next_gate": "Use as seeds/critical-pair controls for the full identity-among-relations module."
+    },
+    {
+      "id": "PM38-06",
+      "object": "Complete nonabelian identity-among-relations module",
+      "status": "NT_PENDING_FULL_GROUP_RING_FOX",
+      "next_gate": "Construct full Fox/Squier-style resolution or contracting homotopy; do not substitute augmented rank 34."
+    },
+    {
+      "id": "PM38-07",
+      "object": "Oriented projective ternary bracket refinement",
+      "status": "PROVEN_PROJECTIVE_BRACKET_SHADOW",
+      "next_gate": "Test naturality under the historical/Selling groupoid and source-native orientation data."
+    },
+    {
+      "id": "PM38-08",
+      "object": "Roof reversal -> matrix transpose",
+      "status": "REFUTED-TYPED",
+      "next_gate": "Retain v36 cycle-type no-go; only a richer equivariant operation could replace it."
+    },
+    {
+      "id": "PM38-09",
+      "object": "Historical source-native Lorentz orientation",
+      "status": "NT",
+      "next_gate": "Search only after complete field/stabilizer incidence; -1 is deliberately not quotiented in U_k^+."
+    },
+    {
+      "id": "PM38-10",
+      "object": "Oriented SO(2)->U(1) / physical de Broglie phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "next_gate": "Requires explicit orientation and physical action/scale adapter."
+    },
+    {
+      "id": "PM38-11",
+      "object": "Noether double-reduction carrier",
+      "status": "PROVEN_SOURCE_CONTEXT / SEPARATED_FROM_GAMMA3_PROOF",
+      "next_gate": "Use as methodology/analogy for critical overlaps; no historical identification is implied."
+    },
+    {
+      "id": "PM38-12",
+      "object": "Stratified reality certification layer",
+      "status": "PROVEN_GUARD",
+      "next_gate": "Keep observed and actionable layers distinct; promote only on non-vacuous fully traced chains."
+    }
+  ],
+  "counts": {
+    "PROVEN_SOURCE_BYTES_AND_CROSSREGISTRATION": 1,
+    "IN_PROGRESS_SOURCE_ANCHORED / NT_COMPLETE_INCIDENCE": 1,
+    "PENDING-MORPHISM": 1,
+    "NT_BLOCKED_BY_PM38-02_03": 1,
+    "PROVEN_ZGAMMA_FREE_SUBMODULE_RANK_6": 1,
+    "NT_PENDING_FULL_GROUP_RING_FOX": 1,
+    "PROVEN_PROJECTIVE_BRACKET_SHADOW": 1,
+    "REFUTED-TYPED": 1,
+    "NT": 1,
+    "SEPARATED/PENDING-MORPHISM": 1,
+    "PROVEN_SOURCE_CONTEXT / SEPARATED_FROM_GAMMA3_PROOF": 1,
+    "PROVEN_GUARD": 1
+  }
+}
