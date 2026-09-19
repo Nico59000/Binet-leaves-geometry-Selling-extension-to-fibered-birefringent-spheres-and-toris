@@ -1,0 +1,8 @@
+{
+  "defect": "The bullet listing historical_axis_id, historical_wall_label and historical_substitution_label was set as one unbreakable monospace run and crossed the right text border.",
+  "guard": "No mathematical content or historical status is changed by the typographic repair.",
+  "repair": "Replace the three long texttt identifiers by breakable path tokens and insert an explicit line break before historical_substitution_label.",
+  "source_fix_status": "PROVEN_IN_TEX; FINAL_PDF_RENDER_QA_REQUIRED_BEFORE_PUBLICATION",
+  "source_page_in_v43": 210,
+  "version": "v44"
+}

@@ -1,0 +1,40 @@
+v44 DELIVERY INDEX -- PRESEAL CONTENT
+
+VERSION: v44
+PREDECESSOR: v43 CLOSED / APPEND-ONLY
+MATH: PASS
+VERIFY: PASS 7917/7917 = 7566 inherited + 351 new
+PDF-QA: PASS -- 240 pages; page 210 right-border overflow repaired and visually verified
+
+PRIMARY ARTIFACTS
+- formalisation_feuillets_binet_birefringence_selling_polaire_v44.pdf
+- formalisation_feuillets_binet_birefringence_selling_polaire_v44.tex
+- verify_field_fox_projective_v44.py
+
+V44 MATHEMATICAL CERTIFICATES
+- selling_bsb_C2_action_protocol_v44.json
+- selling_h12_recompute_requirements_v44.json
+- selling_field_functor_gate_v44.json
+- gamma3_triple_peiffer_v44.json
+- gamma3_second_syzygy_relations_v44.json
+- gamma3_periodic_5_6cells_v44.csv
+- selling_singer_injection_gate_v44.json
+- pending_morphism_registry_v44.json
+
+TYPED GATES RETAINED
+- Selling/BSB historical action: NT; explicit source-certification protocol materialized
+- 89-node C2 census: NOT_ACTIVATED_FAIL_CLOSED
+- strict R5/Gamma 16-to-16 critical-diamond incidence adapter: REFUTED-TYPED
+- minimal sequential triple Peiffer census: 248/248 absorbed by M43; no new direction
+- 18 order-two sectors: exact 2-periodic 5/6-cell tails PROVEN
+- complete Gamma3 resolution: NT; residual finite-character lower bound 14 retained
+- current scalar-to-orientation injection: REFUTED-TYPED
+- Singer-framed odd pseudoscalar injection: SEPARATED/NT/PENDING-MORPHISM
+- historical field functor: PENDING-MORPHISM
+- historical H1/H2: NT_NOT_RECOMPUTED
+- Lorentz orientation: NT
+- roof reversal versus transpose: REFUTED-TYPED
+- physical phase: SEPARATED/PENDING-MORPHISM
+
+FINAL CLOSED status is issued only after deterministic seal, clean extraction,
+ledger replay, canonical PDF replay, deterministic ZIP rebuild, and post-seal verification.

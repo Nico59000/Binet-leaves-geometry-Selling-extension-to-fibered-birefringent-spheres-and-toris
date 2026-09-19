@@ -1,0 +1,16 @@
+{
+  "source": "K_hist^pres(Q0)=W(C6) transformation presentation/orbifold",
+  "target": "F29_can canonical 168-object congruence chart",
+  "generator_paths": {
+    "a": "constant",
+    "h": "constant",
+    "g": "constant",
+    "b": "constant",
+    "t": "S6",
+    "u": "S3 S6"
+  },
+  "image": "<rho2(T),rho2(U)> ~= C2 x C2, order 4",
+  "two_cell_compatibility": "all six involution cells and six C6 commuting-square cells map to closed mod-2 loops fillable by the 841 fundamental cells of F29_can",
+  "faithfulness": "NO: four of six C6 generators lie in the level-2 kernel and are collapsed at quotient level",
+  "field_level_functor": "NT_PENDING_EXACT_PLATE_TRANSCRIPTION: the presentation-level functor is not promoted to F_Sell^field(Q0)->F29_can."
+}

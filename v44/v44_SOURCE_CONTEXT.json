@@ -1,0 +1,50 @@
+{
+  "version": "v44",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v43 CLOSED/APPEND-ONLY",
+  "predecessor_gate": {
+    "token": "v43_ATOMIC_COMPLETION_TOKEN.json",
+    "ledger": "v43_SHA256SUMS.txt",
+    "ledger_entries": 195,
+    "ledger_status": "PASS_195_OF_195_BEFORE_V44"
+  },
+  "sources": [
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v43.tex",
+      "sha256": "5979d80c958eea73ffd0f583a00f051707d3b05343945ac3e1afe6aac492dd77",
+      "role": "append-only predecessor text"
+    },
+    {
+      "path": "LOG_0016.pdf",
+      "bytes": 1991876,
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "canonical Selling Tafel III source bytes"
+    },
+    {
+      "path": "selling_fig1_semantic_contract_v39.json",
+      "sha256": "8bbedb2963bf668fbe3dc7acb8459817fbe789d4a0e12b3f53a0c50f4989f4d4",
+      "role": "source-semantic rules for field/symmetry binding"
+    },
+    {
+      "path": "selling_fig1_bsb_photo_gate_v38.json",
+      "sha256": "b8e04cdb0f28f5b1c5d43e9b4d9117314d7d1e129ddb9ba315a03fbc6172cff9",
+      "role": "BSB/photo registration witness"
+    },
+    {
+      "path": "gamma3_partial_resolution_v43.json",
+      "sha256": "3aad6a2ba23f54ab0ad1853dcc69266b2c94afd053234ae0554e50c6fe8b32be",
+      "role": "certified partial group-ring resolution M43"
+    },
+    {
+      "path": "gamma3_second_syzygies_v43.json",
+      "sha256": "5b230ff28037e9d589a6542ab1a3e9119bf192989174e6588b4e5ffc022088f2",
+      "role": "18 exact second syzygies"
+    },
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v22.tex",
+      "sha256": "fabc7d1a0b695be4af9ec483bf4b10947bd8954046bb7efd70de938bc014ab10",
+      "role": "separate Singer-framed conditional odd pseudoscalar context"
+    }
+  ],
+  "source_policy": "No image-only candidate, graph cardinality analogy, or separate Singer framing is promoted to a historical Selling assignment without explicit source-certified incidence/equivariance."
+}
