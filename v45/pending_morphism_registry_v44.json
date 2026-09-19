@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "PM44-01",
+      "object": "page 210 right-border overflow",
+      "status": "FIXED_IN_TEX_PENDING_FINAL_PDF_QA"
+    },
+    {
+      "id": "PM44-02",
+      "object": "Selling/BSB six-axis source-certified reflection actions",
+      "status": "NT; PROTOCOL_MATERIALIZED"
+    },
+    {
+      "id": "PM44-03",
+      "object": "89-node historical C2 orbit census",
+      "status": "NOT_ACTIVATED_FAIL_CLOSED"
+    },
+    {
+      "id": "PM44-04",
+      "object": "strict R5-Gamma 16-to-16 critical-diamond incidence adapter",
+      "status": "REFUTED-TYPED"
+    },
+    {
+      "id": "PM44-05",
+      "object": "minimal sequential three-relator Peiffer comparison cycles",
+      "status": "248/248 ABSORBED_BY_M43; NO_NEW_DIRECTION"
+    },
+    {
+      "id": "PM44-06",
+      "object": "relations among 18 second syzygies",
+      "status": "PROVEN_18_2_PERIODIC_TAILS"
+    },
+    {
+      "id": "PM44-07",
+      "object": "complete Gamma3 group-ring resolution",
+      "status": "NT; finite-character residual min dimension 14 retained"
+    },
+    {
+      "id": "PM44-08",
+      "object": "nonzero injection from current unpointed Selling scalar marks to J-sign line",
+      "status": "REFUTED-TYPED"
+    },
+    {
+      "id": "PM44-09",
+      "object": "Singer-framed odd pseudoscalar injection",
+      "status": "SEPARATED/NT/PENDING-MORPHISM"
+    },
+    {
+      "id": "PM44-10",
+      "object": "historical field functor",
+      "status": "PENDING-MORPHISM"
+    },
+    {
+      "id": "PM44-11",
+      "object": "historical H1/H2",
+      "status": "NT_NOT_RECOMPUTED"
+    },
+    {
+      "id": "PM44-12",
+      "object": "roof reversal vs transpose",
+      "status": "REFUTED-TYPED"
+    },
+    {
+      "id": "PM44-13",
+      "object": "physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    }
+  ],
+  "version": "v44"
+}
