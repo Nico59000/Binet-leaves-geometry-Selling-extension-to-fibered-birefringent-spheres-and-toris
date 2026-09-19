@@ -1,0 +1,99 @@
+{
+  "version": "v43",
+  "candidate": "R5",
+  "R5_exact_object": {
+    "chart": [
+      [
+        -4,
+        0,
+        5
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -3,
+        0,
+        4
+      ]
+    ],
+    "Q": [
+      [
+        147,
+        0,
+        -180
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -180,
+        0,
+        220
+      ]
+    ],
+    "det_Q": 60
+  },
+  "R5_incident_edge": {
+    "source": "R4",
+    "target": "R5",
+    "label": "R5",
+    "matrix": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "unlabelled_graph_automorphism_group_size": 40,
+  "R5_stabilizer_size_in_unlabelled_graph": 40,
+  "Q_decorated_automorphism_group_size": 1,
+  "chart_decorated_automorphism_group_size": 1,
+  "R5_deleted_selling_incidence": {
+    "vertices": 16,
+    "edges": 14,
+    "components": 3,
+    "cycle_rank": 1,
+    "component_sizes": [
+      4,
+      5,
+      7
+    ]
+  },
+  "Gamma3_critical_diamond_incidence": {
+    "vertices": 16,
+    "edges": 8,
+    "components": 8,
+    "cycle_rank": 0,
+    "component_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "strict_incidence_preserving_16_to_16_adapter": "REFUTED-TYPED_BY_GRAPH_INVARIANTS",
+  "cardinality_bijection": "EXISTS_NONCANONICALLY_BUT_HAS_NO_TYPED_FORCE",
+  "historical_stabilizer_label_for_R5": "NT_NOT_SERIALIZED_IN_CURRENT_SELLING_FIELD_COMPLEX",
+  "historical_boundary_status": "NT_NOT_SOURCE-DISTINGUISHED",
+  "guard": "The refutation applies to the declared natural critical-diamond incidence graph, not to every conceivable future Gamma/Selling adapter."
+}

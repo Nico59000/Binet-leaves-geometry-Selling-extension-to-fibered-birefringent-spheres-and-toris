@@ -1,0 +1,5 @@
+openable: True
+pages: 243
+encrypted: False
+size_bytes: 2266532
+sha256: 05e7370ef8129d141fb5fec3bedc993a85d8f1ba1d7d869a66b9a7836af8300a

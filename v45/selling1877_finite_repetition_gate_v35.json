@@ -1,0 +1,14 @@
+{
+  "primary": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), pp.153-206",
+  "numdam_pdf": "https://www.numdam.org/item/JMPA_1877_3_3__153_0.pdf",
+  "finite_repetition": {
+    "source_pages": "pp.169-170 (Numdam PDF pp.17-18)",
+    "statement": "for fixed invariant/class there are finitely many reduced integral forms; after sufficient field development every new field repeats an existing one, so later development repeats indefinitely."
+  },
+  "transform_recovery": "p.170: a self-transformation corresponds to each repeated field and can be found from consecutive substitutions.",
+  "case_dependence": {
+    "source_pages": "pp.189,193-198 (Numdam PDF pp.37,41-46)",
+    "statement": "Selling says a universal once-only expression across classes is not easy; he gives case-by-case once-only grammars and emphasizes their variety."
+  },
+  "decision": "FINITE_MODULO_REPETITION_EXISTENCE_PROVEN_FOR_FIXED_FORM; COMPLETE_Q0_FIELD_INCIDENCE_CENSUS_NOT_EXTRACTED, SO HISTORICAL_FINITE_DOMAIN_H1/H2 REMAIN NT."
+}
