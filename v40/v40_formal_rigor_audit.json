@@ -1,0 +1,69 @@
+{
+  "version": "v40",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v39 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "Minimal Selling Fig.1 historical schema",
+      "status": "PROVEN_SCHEMA_CLOSED",
+      "basis": "six abstract external axes and six centres; required node/segment/field columns materialized"
+    },
+    {
+      "object": "Raster/source assignment of axes/nodes/walls/fields",
+      "status": "NT",
+      "basis": "no diagnostic Y segment or degree candidate promoted without source-geometric matching"
+    },
+    {
+      "object": "Field functor F_Sell^field -> F29_can",
+      "status": "PENDING-MORPHISM",
+      "basis": "0/1/2-cell assignments not closed"
+    },
+    {
+      "object": "Historical field H1/H2",
+      "status": "NT_NOT_RECOMPUTED",
+      "basis": "blocked by exact field-functor gate"
+    },
+    {
+      "object": "Four length-three Gamma3 interfaces",
+      "status": "PROVEN_PEIFFER_CENSUS",
+      "basis": "16 oriented occurrences, 8 residual diamonds, 4 inverse residual classes"
+    },
+    {
+      "object": "New independent 4/5-cell from length-three interfaces",
+      "status": "ZERO_IN_BOUNDED_CENSUS",
+      "basis": "all diamonds factor through two existing inverse-relator seed 4-cell families"
+    },
+    {
+      "object": "Full Z[Gamma3(2)] identity module",
+      "status": "NT",
+      "basis": "bounded critical-pair factorization does not imply complete resolution"
+    },
+    {
+      "object": "Object-varying J_s on 15-edge witness",
+      "status": "PROVEN_AFTER_ROOT_GAUGE",
+      "basis": "17 objects, 15 edges, 3 components, one fundamental cycle; v34 transport M^-1 X M closes exactly"
+    },
+    {
+      "object": "v39 left conjugation M X M^-1 used covariantly on stored groupoid",
+      "status": "REFUTED-TYPED_FOR_PATH_COHERENCE",
+      "basis": "K-chain vs deck differs in every P_k^+ for k>=1, though mod2 shadow agrees"
+    },
+    {
+      "object": "Canonical Lorentz orientation",
+      "status": "NT",
+      "basis": "three components leave 8 independent root-sign choices and -1 is not quotiented by U_k^+"
+    },
+    {
+      "object": "Roof reversal = transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "prior cycle-type no-go retained"
+    },
+    {
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no source-equivariant physical action/observable map"
+    }
+  ],
+  "reality_stratified_guard": "Observed schema/Peiffer/J-section claims remain separate from actionable source matching, full resolution and orientation obligations.",
+  "conclusion": "v40 removes the schema obstruction without pretending the historical field complex is assigned; explains all maximal length-three overlaps through existing Fox seeds; and upgrades the J question from a constant-section no-go to a variance-corrected, root-gauged natural section on the finite witness."
+}

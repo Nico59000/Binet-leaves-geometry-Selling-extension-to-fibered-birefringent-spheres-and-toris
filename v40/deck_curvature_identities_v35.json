@@ -1,0 +1,20 @@
+{
+  "tau_gauge": "all-minus on v29 edges",
+  "fundamental_cycles": 841,
+  "even_gauge_invariant_cycles": 373,
+  "odd_noninvariant_cycles": 468,
+  "even_period_coefficient_space": {
+    "basis": "Omega(u1), Omega(u2), Omega(u3)",
+    "rank": 2,
+    "constraint": "c1+c2+c3=0",
+    "zero_cycles": 62,
+    "nonzero_cycles": 311
+  },
+  "commuting_square_generators": {
+    "q12": "2*(Omega(u1)-Omega(u2))",
+    "q13": "2*(Omega(u3)-Omega(u2))",
+    "q23": "2*(Omega(u3)-Omega(u1))",
+    "identity": "q13=q12+q23"
+  },
+  "decision": "THE_NORMALIZED_V29_SCALAR_CURVATURE_HAS_TWO_INDEPENDENT_EVEN_SQUARE_DIRECTIONS; odd loops have tau=-1 and no gauge-invariant scalar period."
+}

@@ -1,0 +1,525 @@
+{
+  "source": "R. Kobayashi, Kodai Math. J. 38 (2015), Theorem 1.1, specialized to n=3.",
+  "generator_order": [
+    "E12",
+    "E13",
+    "E21",
+    "E23",
+    "E31",
+    "E32",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "relative_dimension": "the nine v35 generator defects are treated as relative 2-cells; each presentation relator is attached as a relative 3-cell among them",
+  "count": 43,
+  "length_profile": {
+    "2": 3,
+    "4": 33,
+    "6": 6,
+    "24": 1
+  },
+  "cells": [
+    {
+      "name": "R1_F1^2",
+      "family": "1",
+      "word": [
+        "F1",
+        "F1"
+      ],
+      "length": 2
+    },
+    {
+      "name": "R1_F2^2",
+      "family": "1",
+      "word": [
+        "F2",
+        "F2"
+      ],
+      "length": 2
+    },
+    {
+      "name": "R1_F3^2",
+      "family": "1",
+      "word": [
+        "F3",
+        "F3"
+      ],
+      "length": 2
+    },
+    {
+      "name": "R2a_E12F1",
+      "family": "2",
+      "word": [
+        "E12",
+        "F1",
+        "E12",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E12F2",
+      "family": "2",
+      "word": [
+        "E12",
+        "F2",
+        "E12",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2a_E13F1",
+      "family": "2",
+      "word": [
+        "E13",
+        "F1",
+        "E13",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E13F3",
+      "family": "2",
+      "word": [
+        "E13",
+        "F3",
+        "E13",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2a_E21F2",
+      "family": "2",
+      "word": [
+        "E21",
+        "F2",
+        "E21",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E21F1",
+      "family": "2",
+      "word": [
+        "E21",
+        "F1",
+        "E21",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2a_E23F2",
+      "family": "2",
+      "word": [
+        "E23",
+        "F2",
+        "E23",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E23F3",
+      "family": "2",
+      "word": [
+        "E23",
+        "F3",
+        "E23",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2a_E31F3",
+      "family": "2",
+      "word": [
+        "E31",
+        "F3",
+        "E31",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E31F1",
+      "family": "2",
+      "word": [
+        "E31",
+        "F1",
+        "E31",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2a_E32F3",
+      "family": "2",
+      "word": [
+        "E32",
+        "F3",
+        "E32",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2b_E32F2",
+      "family": "2",
+      "word": [
+        "E32",
+        "F2",
+        "E32",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2c_F1F2",
+      "family": "2",
+      "word": [
+        "F1",
+        "F2",
+        "F1",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2c_F1F3",
+      "family": "2",
+      "word": [
+        "F1",
+        "F3",
+        "F1",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R2c_F2F3",
+      "family": "2",
+      "word": [
+        "F2",
+        "F3",
+        "F2",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a1_123",
+      "family": "3a",
+      "word": [
+        "E12^-1",
+        "E13^-1",
+        "E12",
+        "E13"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_123",
+      "family": "3a",
+      "word": [
+        "E12^-1",
+        "E32^-1",
+        "E12",
+        "E32"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_123",
+      "family": "3a",
+      "word": [
+        "E12^-1",
+        "F3^-1",
+        "E12",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_123",
+      "family": "3a",
+      "word": [
+        "E12^-1",
+        "E31^-1",
+        "E12",
+        "E31",
+        "E32",
+        "E32"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3a1_132",
+      "family": "3a",
+      "word": [
+        "E13^-1",
+        "E12^-1",
+        "E13",
+        "E12"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_132",
+      "family": "3a",
+      "word": [
+        "E13^-1",
+        "E23^-1",
+        "E13",
+        "E23"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_132",
+      "family": "3a",
+      "word": [
+        "E13^-1",
+        "F2^-1",
+        "E13",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_132",
+      "family": "3a",
+      "word": [
+        "E13^-1",
+        "E21^-1",
+        "E13",
+        "E21",
+        "E23",
+        "E23"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3a1_213",
+      "family": "3a",
+      "word": [
+        "E21^-1",
+        "E23^-1",
+        "E21",
+        "E23"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_213",
+      "family": "3a",
+      "word": [
+        "E21^-1",
+        "E31^-1",
+        "E21",
+        "E31"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_213",
+      "family": "3a",
+      "word": [
+        "E21^-1",
+        "F3^-1",
+        "E21",
+        "F3"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_213",
+      "family": "3a",
+      "word": [
+        "E21^-1",
+        "E32^-1",
+        "E21",
+        "E32",
+        "E31",
+        "E31"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3a1_231",
+      "family": "3a",
+      "word": [
+        "E23^-1",
+        "E21^-1",
+        "E23",
+        "E21"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_231",
+      "family": "3a",
+      "word": [
+        "E23^-1",
+        "E13^-1",
+        "E23",
+        "E13"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_231",
+      "family": "3a",
+      "word": [
+        "E23^-1",
+        "F1^-1",
+        "E23",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_231",
+      "family": "3a",
+      "word": [
+        "E23^-1",
+        "E12^-1",
+        "E23",
+        "E12",
+        "E13",
+        "E13"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3a1_312",
+      "family": "3a",
+      "word": [
+        "E31^-1",
+        "E32^-1",
+        "E31",
+        "E32"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_312",
+      "family": "3a",
+      "word": [
+        "E31^-1",
+        "E21^-1",
+        "E31",
+        "E21"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_312",
+      "family": "3a",
+      "word": [
+        "E31^-1",
+        "F2^-1",
+        "E31",
+        "F2"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_312",
+      "family": "3a",
+      "word": [
+        "E31^-1",
+        "E23^-1",
+        "E31",
+        "E23",
+        "E21",
+        "E21"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3a1_321",
+      "family": "3a",
+      "word": [
+        "E32^-1",
+        "E31^-1",
+        "E32",
+        "E31"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a2_321",
+      "family": "3a",
+      "word": [
+        "E32^-1",
+        "E12^-1",
+        "E32",
+        "E12"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a3_321",
+      "family": "3a",
+      "word": [
+        "E32^-1",
+        "F1^-1",
+        "E32",
+        "F1"
+      ],
+      "length": 4
+    },
+    {
+      "name": "R3a4_321",
+      "family": "3a",
+      "word": [
+        "E32^-1",
+        "E13^-1",
+        "E32",
+        "E13",
+        "E12",
+        "E12"
+      ],
+      "length": 6
+    },
+    {
+      "name": "R3b_123",
+      "family": "3b",
+      "word": [
+        "E32^-1",
+        "E31",
+        "F1^-1",
+        "E12^-1",
+        "F2^-1",
+        "E21^-1",
+        "E23^-1",
+        "E21",
+        "F1^-1",
+        "E13^-1",
+        "F3^-1",
+        "E31^-1",
+        "E21",
+        "F2",
+        "E12",
+        "F1",
+        "E31^-1",
+        "E32",
+        "E31",
+        "F3",
+        "E13",
+        "F1",
+        "E21^-1",
+        "E23"
+      ],
+      "length": 24
+    }
+  ],
+  "matrix_verification": "43/43 evaluate to I_3 exactly over Z",
+  "scope": "PROVEN_ARITHMETIC_COHERENCE_FOR_Gamma3(2); these are not declared to be Selling field 3-cells."
+}
