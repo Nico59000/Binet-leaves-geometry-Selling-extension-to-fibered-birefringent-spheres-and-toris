@@ -1,0 +1,75 @@
+{
+  "version": "v43",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v42 CLOSED/APPEND-ONLY",
+  "predecessor_gate": {
+    "token": "v42_ATOMIC_COMPLETION_TOKEN.json",
+    "token_sha256": "f09667b379386e56e8bc19dd6339c6830f68e6943df77d7e87cf84508f729d1d",
+    "ledger": "v42_SHA256SUMS.txt",
+    "ledger_entries": 170,
+    "ledger_status": "PASS_170_OF_170_BEFORE_V43"
+  },
+  "sources": [
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v42.tex",
+      "bytes": 649715,
+      "sha256": "7420477dd1d8011f5de983a87bcb0066da8927fa90d5edeb8834393c2dab2807",
+      "role": "append-only predecessor text"
+    },
+    {
+      "path": "LOG_0016.pdf",
+      "bytes": 1991876,
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "canonical hash-locked Selling Tafel III primary source; source bytes unchanged"
+    },
+    {
+      "path": "selling_source_binding_gate_v42.json",
+      "bytes": 666,
+      "sha256": "4506078ebe75c6c45f02c9535a5f4f524826c2df22c3a7ea2adccb1136a59eb3",
+      "role": "strict BSB source-binding predecessor gate"
+    },
+    {
+      "path": "multiobject_lift_groupoid_v34.json",
+      "bytes": 13262,
+      "sha256": "bf00a897a58be89ead47927ab758a2d55cdad3f46982e847cd7052ae532bf003",
+      "role": "17-object Selling/deck witness used for R5 incidence test"
+    },
+    {
+      "path": "gamma3_level2_relative_3cells_v36.json",
+      "bytes": 8164,
+      "sha256": "293ba103df3395e429a281e2e2ada4f2ea0a1af35298b27191fa598b04e5fca8",
+      "role": "43 specialized Gamma3(2) relators"
+    },
+    {
+      "path": "gamma3_group_ring_4cells_v38.json",
+      "bytes": 3619,
+      "sha256": "1ab9b2a482230fa6ad344edb7dbb961ae3a8f90845b46f2accbd6c8781d81a9e",
+      "role": "six free inverse-relator seed 4-cycles"
+    },
+    {
+      "path": "gamma3_group_ring_squier_v42.json",
+      "bytes": 4223,
+      "sha256": "5c472c8c9721c4d426b4f8c578f4cebb53c3c29593c0e7bf237292ce3294902a",
+      "role": "exact length-two group-ring Squier lift"
+    },
+    {
+      "path": "gamma3_new_4cell_generators_v42.csv",
+      "bytes": 883,
+      "sha256": "927c08674e7352d003daeadcbc417f4ef4eb4a926cf0b1b4b4ec806ed742dd32",
+      "role": "six v42 order-two 4-syzygies"
+    },
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v22.tex",
+      "bytes": 322011,
+      "sha256": "fabc7d1a0b695be4af9ec483bf4b10947bd8954046bb7efd70de938bc014ab10",
+      "role": "separate Selling-Fano/Singer-framed context for conditional odd pseudoscalar candidate"
+    },
+    {
+      "path": "verify_selling_domain_roof_gamma3_v36.py",
+      "bytes": 23053,
+      "sha256": "dc50178a1422dc064558f924b6b03a8ff46b1ba75ae6b299d948b8b7e28ba656",
+      "role": "historical phase gate: no Gamma-breaking source mark in current Selling extraction"
+    }
+  ],
+  "source_policy": "No diagnostic BSB geometry is promoted; v22 Singer framing remains a separate conditional carrier and is not inserted into the current historical Selling/deck groupoid; v43 uses exact group-ring and graph computations only."
+}

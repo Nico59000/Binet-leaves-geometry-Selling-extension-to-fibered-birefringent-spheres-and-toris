@@ -1,0 +1,36 @@
+{
+  "phase": "v43-R5-incidence-refutation-length1-partial-resolution-odd-mark-gate",
+  "status": "PASS",
+  "predecessor_v42_checks": 5832,
+  "new_check_count": 1734,
+  "combined_check_count": 7566,
+  "failed": [],
+  "selling": {
+    "new_source_geometric_promotions": 0,
+    "C2_89_census": "NOT_ACTIVATED",
+    "field_functor": "PENDING",
+    "historical_H1_H2": "NT"
+  },
+  "envelope": {
+    "candidate": "R5",
+    "strict_critical_diamond_incidence_adapter": "REFUTED-TYPED",
+    "historical_boundary": "NT"
+  },
+  "gamma3": {
+    "old_free_modules": 6,
+    "order_two_modules": 18,
+    "new_length1_modules": 12,
+    "length1_cycles": 1662,
+    "v42_survivors": 744,
+    "v43_survivors": 0,
+    "pairwise_overlap_L1_L4_survivors": 0,
+    "finite_shadow_residual_min": 14,
+    "complete_resolution": "NT"
+  },
+  "projective_J": {
+    "current_historical_odd_mark": "NONE",
+    "separate_Singer_framed_candidate": "SEPARATED/CONDITIONAL",
+    "Lorentz_orientation": "NT"
+  },
+  "pending_registry": "pending_morphism_registry_v43.json"
+}
