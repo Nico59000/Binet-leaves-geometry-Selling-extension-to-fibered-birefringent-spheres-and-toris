@@ -1,0 +1,39 @@
+{
+  "phase": "v39-source-semantic-field-gate-critical-fox-shadow-projective-groupoid-naturality",
+  "status": "PASS",
+  "predecessor_v38_checks": 614,
+  "new_check_count": 4411,
+  "combined_check_count": 5025,
+  "failed": [],
+  "selling": {
+    "semantic_contract": "PROVEN_CLOSED",
+    "microscopic_incidence": "NT_SCHEMA_AND_MATCHING",
+    "field_functor": "PENDING_NOT_PROMOTED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED"
+  },
+  "gamma3": {
+    "exact_seed_4cycles": 6,
+    "underlying_two_relator_free_identity_pairs": 6,
+    "bare_three_relator_identities": 0,
+    "mod4_character_rank_histogram": {
+      "8": 511,
+      "9": 1
+    },
+    "complete_module": "NT"
+  },
+  "projective_groupoid": {
+    "edge_count": 15,
+    "full_carrier_naturality": "PROVEN",
+    "fixed_matrix_unit_chart_preserved_edges": [
+      "Q",
+      "kappa_12_deck"
+    ],
+    "constant_J_integral_preserved_edge_count": 0,
+    "Jbar_mod2_preserved_edges": [
+      "kappa_12_deck"
+    ],
+    "Lorentz_orientation": "NT",
+    "physical_phase": "SEPARATED/PENDING-MORPHISM"
+  },
+  "pending_registry": "pending_morphism_registry_v39.json"
+}

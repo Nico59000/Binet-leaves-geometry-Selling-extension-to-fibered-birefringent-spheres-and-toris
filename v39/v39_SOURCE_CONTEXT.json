@@ -1,0 +1,63 @@
+{
+  "version": "v39",
+  "status": "PASS_HASH_LOCKED_CONTEXT",
+  "files": {
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v38.pdf": {
+      "sha256": "d31f8c3fbd7c09e6d6c22daec103af6d5b4bebea2b1fdae9ed2e632dd3e70411",
+      "bytes": 2078554
+    },
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v38.tex": {
+      "sha256": "9825199ccd1a8c2a9ee85eb419447e10e481df2cc7c04fceec32905a74ed5f6f",
+      "bytes": 598832
+    },
+    "Tafel-III-fig1.jpg": {
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "bytes": 1583110
+    },
+    "selling_fig1_segments_v37.csv": {
+      "sha256": "d866c35bae2e33b335af8e1818e75351ed890dbd47c44321855616c37106fa96",
+      "bytes": 14308
+    },
+    "selling_fig1_nodes_v37.csv": {
+      "sha256": "942b91656f60d6f3e84891d819b5327580c67f042b35602972a9e2cfa900476d",
+      "bytes": 10675
+    },
+    "selling_fig1_fields_v37.csv": {
+      "sha256": "4827dd0cad2c17ce6995f5fc7c1966a3365d856a9755a30dcb1ae7cbc0636bd6",
+      "bytes": 4486
+    },
+    "selling_to_F29_functor_v36.json": {
+      "sha256": "2c2d8d21535059a3b1e7e74e3d60776b520e9690f853b88de37628cc2342595d",
+      "bytes": 754
+    },
+    "selling_mixed_groupoid_phase_v34_certificate.json": {
+      "sha256": "f8eb53196f3ccfa10265b57065eb03c5ab9444c84548feb40e07067a4edb1198",
+      "bytes": 27017
+    },
+    "gamma3_level2_relative_3cells_v36.json": {
+      "sha256": "293ba103df3395e429a281e2e2ada4f2ea0a1af35298b27191fa598b04e5fca8",
+      "bytes": 8164
+    },
+    "gamma3_group_ring_4cells_v38.json": {
+      "sha256": "1ab9b2a482230fa6ad344edb7dbb961ae3a8f90845b46f2accbd6c8781d81a9e",
+      "bytes": 3619
+    },
+    "ternary_projective_bracket_v38.json": {
+      "sha256": "ac8548f0da5e40c3a7ba67c330617d8eb5899241d4c345319994a8e2d2b8835c",
+      "bytes": 5790
+    },
+    "Noether_1908_ternary_biquadratic_forms.pdf": {
+      "sha256": "ad9da4266cf035a25c3ca0a27cf87a9c06d9fa980edacae2994b725237532968",
+      "bytes": 6179290
+    },
+    "operateur_realite_stratifiee_fr.pdf": {
+      "sha256": "99970d2d32d789eb2ca72d707ba774af34b665806472464e928550943ca768c5",
+      "bytes": 346365
+    }
+  },
+  "external_primary_text": {
+    "Selling1877": "Numdam, Des formes quadratiques binaires et ternaires, printed pp.169-170,175,184,190-191 used only for source-semantic contract; constraints transcribed in selling_fig1_semantic_contract_v39.json.",
+    "Selling1874": "BSB bsb11179195 remains original-image provenance; geometry anchored by Tafel-III-fig1.jpg."
+  },
+  "separation_guard": "External text constrains semantics; diagnostic image geometry remains a separate carrier until explicit historical cell assignments are encoded."
+}

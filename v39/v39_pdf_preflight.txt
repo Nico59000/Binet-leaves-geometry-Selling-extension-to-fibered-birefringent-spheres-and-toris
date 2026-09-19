@@ -1,0 +1,6 @@
+PDF: /mnt/data/v39build/formalisation_feuillets_binet_birefringence_selling_polaire_v39.pdf
+Pages: 216
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False
