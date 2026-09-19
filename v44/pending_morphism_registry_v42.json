@@ -1,0 +1,62 @@
+{
+  "version": "v42",
+  "predecessor": "v41 CLOSED/APPEND-ONLY",
+  "entries": [
+    {
+      "id": "PM42-SELL-BIND",
+      "status": "NT",
+      "subject": "source-certified BSB assignment of HAX/HC/fissures/crossings/walls/fields"
+    },
+    {
+      "id": "PM42-89-C2",
+      "status": "SEPARATED/PENDING-PRECONDITION",
+      "subject": "C2 orbit census on the 89 degree-one candidates; historical action absent"
+    },
+    {
+      "id": "PM42-ENV",
+      "status": "PROVEN-GRAPH-CANDIDATE/SEPARATED-PENDING-MORPHISM",
+      "subject": "R5 unique graph-canonical deletion candidate under declared 16-envelope criterion; no Gamma adapter"
+    },
+    {
+      "id": "PM42-G3-4",
+      "status": "PROVEN",
+      "subject": "six new exact group-ring 4-cycles z_i=(1-g_i)e_ri beyond v38 seed submodule"
+    },
+    {
+      "id": "PM42-G3-5",
+      "status": "PROVEN-SECOND-SYZYGY/NT-COMPLETE",
+      "subject": "six exact (1+g_i)f_i 5-cycles after adjoining the new 4-cells"
+    },
+    {
+      "id": "PM42-G3-FULL",
+      "status": "NT",
+      "subject": "complete Z[Gamma3(2)] resolution"
+    },
+    {
+      "id": "PM42-J",
+      "status": "PROVEN-RADIUS6/REFUTED-TYPED-UNIQUE-SIGN",
+      "subject": "J_s transport; current relations cannot select between +/- sections"
+    },
+    {
+      "id": "PM42-SELL-FUN",
+      "status": "PENDING-MORPHISM",
+      "subject": "F_Sell^field -> F29_can"
+    },
+    {
+      "id": "PM42-H12",
+      "status": "NT",
+      "subject": "historical field H1/H2"
+    },
+    {
+      "id": "PM42-ROOF-TRANSPOSE",
+      "status": "REFUTED-TYPED",
+      "subject": "roof reversal = transpose"
+    },
+    {
+      "id": "PM42-PHASE",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "subject": "physical phase"
+    }
+  ],
+  "stratified_reality_guard": "No diagnostic similarity or arithmetic coincidence is upgraded without an explicit typed morphism."
+}

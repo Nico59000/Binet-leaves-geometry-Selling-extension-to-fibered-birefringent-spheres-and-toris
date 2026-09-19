@@ -1,0 +1,57 @@
+{
+  "version": "v43",
+  "predecessor": "v42 CLOSED/APPEND-ONLY",
+  "entries": [
+    {
+      "id": "PM43-SELL-BIND",
+      "status": "NT",
+      "subject": "source-certified BSB HAX/HC/fissure/crossing/wall/field assignment"
+    },
+    {
+      "id": "PM43-89-C2",
+      "status": "SEPARATED/PENDING-PRECONDITION",
+      "subject": "89-node historical C2 orbit census"
+    },
+    {
+      "id": "PM43-R5",
+      "status": "PROVEN-GRAPH-CANDIDATE/REFUTED-TYPED-STRICT-INCIDENCE/NT-HISTORICAL",
+      "subject": "R5 pointed envelope versus 16 Gamma critical-diamond incidence"
+    },
+    {
+      "id": "PM43-G3-PARTIAL",
+      "status": "PROVEN",
+      "subject": "partial resolution R^6 direct sum 18 order-two cyclic modules; all pairwise cyclic overlap comparison cycles L1-L4 absorbed"
+    },
+    {
+      "id": "PM43-G3-FULL",
+      "status": "NT",
+      "subject": "complete group-ring resolution; finite-character residual dimension at least 14"
+    },
+    {
+      "id": "PM43-J-MARK",
+      "status": "NO-CURRENT-MARK/SEPARATED-CONDITIONAL-CANDIDATE",
+      "subject": "Singer-framed odd pseudoscalar exists separately but is not a current historical Selling/deck source mark"
+    },
+    {
+      "id": "PM43-SELL-FUN",
+      "status": "PENDING-MORPHISM",
+      "subject": "F_Sell^field -> F29_can"
+    },
+    {
+      "id": "PM43-H12",
+      "status": "NT",
+      "subject": "historical field H1/H2"
+    },
+    {
+      "id": "PM43-ROOF-TRANSPOSE",
+      "status": "REFUTED-TYPED",
+      "subject": "roof reversal = transpose"
+    },
+    {
+      "id": "PM43-PHASE",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "subject": "physical phase"
+    }
+  ],
+  "guard": "Pairwise overlap closure is not a complete resolution; conditional Singer framing is not silently inserted into the historical groupoid."
+}

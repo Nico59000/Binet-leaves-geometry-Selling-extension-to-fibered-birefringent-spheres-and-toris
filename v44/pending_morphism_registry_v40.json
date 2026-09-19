@@ -1,0 +1,84 @@
+{
+  "version": "v40",
+  "items": [
+    {
+      "id": "PM40-01",
+      "object": "Minimal Selling Fig.1 historical-cell schema",
+      "status": "PROVEN_SCHEMA_CLOSED",
+      "next_gate": "Assign source geometry; schema columns and abstract six-axis/six-centre skeleton now exist."
+    },
+    {
+      "id": "PM40-02",
+      "object": "Six historical external axes as abstract source cells",
+      "status": "PROVEN_SOURCE_SEMANTIC_INSTANTIATION",
+      "next_gate": "Match each HAX_i to raster/vector geometry; old Y000..Y004 remain diagnostic only."
+    },
+    {
+      "id": "PM40-03",
+      "object": "Fissure/crossing, wall labels, field cycles, repetitions, stabilizers",
+      "status": "NT_SOURCE_GEOMETRIC_ASSIGNMENT",
+      "next_gate": "Targeted transcription/matching only; no further general vectorization."
+    },
+    {
+      "id": "PM40-04",
+      "object": "Field-level functor and historical H1/H2",
+      "status": "PENDING/NT_BLOCKED_BY_PM40-03",
+      "next_gate": "Test every 0/1/2-cell only after assignments close; then and only then compute H1/H2."
+    },
+    {
+      "id": "PM40-05",
+      "object": "Four v39 length-three Gamma3 critical interfaces",
+      "status": "PROVEN_PEIFFER_CENSUS_FACTOR_THROUGH_EXISTING_SEEDS",
+      "next_gate": "No new independent 4/5-cell from these interfaces; continue only with other overlaps or full resolution machinery."
+    },
+    {
+      "id": "PM40-06",
+      "object": "Full Z[Gamma3(2)] identity module",
+      "status": "NT_PENDING_GROUP_RING_RESOLUTION",
+      "next_gate": "Contracting homotopy / complete crossed-module rewriting remains required."
+    },
+    {
+      "id": "PM40-07",
+      "object": "Object-varying J_s on 15-edge witness",
+      "status": "PROVEN_AFTER_ROOT_GAUGE_V34_COVARIANT_TRANSPORT",
+      "next_gate": "Extend to larger/full historical groupoid and test additional holonomy."
+    },
+    {
+      "id": "PM40-08",
+      "object": "v39 left-conjugation as covariant stored-groupoid action",
+      "status": "REFUTED_BY_K_DECK_PATH_COHERENCE_FOR_K>=1",
+      "next_gate": "Interpret as opposite-groupoid action or use v34 M^{-1}XM convention."
+    },
+    {
+      "id": "PM40-09",
+      "object": "Lorentz orientation",
+      "status": "NT_ROOT_SIGN_NOT_SOURCE_SELECTED",
+      "next_gate": "Need source-equivariant sign/orientation selector; 3 witness components leave 8 root-sign choices."
+    },
+    {
+      "id": "PM40-10",
+      "object": "Fixed nine-unit roof chart / roof reversal = transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "next_gate": "Do not identify."
+    },
+    {
+      "id": "PM40-11",
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "next_gate": "Requires explicit action/observable morphism."
+    }
+  ],
+  "counts": {
+    "PROVEN_SCHEMA_CLOSED": 1,
+    "PROVEN_SOURCE_SEMANTIC_INSTANTIATION": 1,
+    "NT_SOURCE_GEOMETRIC_ASSIGNMENT": 1,
+    "PENDING/NT_BLOCKED_BY_PM40-03": 1,
+    "PROVEN_PEIFFER_CENSUS_FACTOR_THROUGH_EXISTING_SEEDS": 1,
+    "NT_PENDING_GROUP_RING_RESOLUTION": 1,
+    "PROVEN_AFTER_ROOT_GAUGE_V34_COVARIANT_TRANSPORT": 1,
+    "REFUTED_BY_K_DECK_PATH_COHERENCE_FOR_K>=1": 1,
+    "NT_ROOT_SIGN_NOT_SOURCE_SELECTED": 1,
+    "REFUTED-TYPED_RETAINED": 1,
+    "SEPARATED/PENDING-MORPHISM": 1
+  }
+}

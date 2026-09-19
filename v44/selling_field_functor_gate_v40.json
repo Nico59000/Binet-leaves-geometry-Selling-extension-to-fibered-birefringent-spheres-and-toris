@@ -1,0 +1,20 @@
+{
+  "version": "v40",
+  "schema": "selling_fig1_minimal_schema_v40.json",
+  "schema_sha256": "e3fdd51e41ee223485a5d2bdbb96cfeb42a1f5e389edcefaa7583c40c2518631",
+  "presentation_functor": "selling_to_F29_functor_v36.json",
+  "schema_support": {
+    "external_axes_and_centres": "CLOSED_ABSTRACTLY",
+    "fissure_crossing_columns": "MATERIALIZED_BUT_UNASSIGNED",
+    "wall_substitution_columns": "MATERIALIZED_BUT_UNASSIGNED",
+    "ordered_field_boundary_cycle_column": "MATERIALIZED_BUT_UNASSIGNED",
+    "repetition_and_stabilizer_columns": "MATERIALIZED_BUT_UNASSIGNED"
+  },
+  "zero_cell_compatibility": "NT_ASSIGNMENT_NOT_CLOSED",
+  "one_cell_compatibility": "NT_WALL_LABEL_ASSIGNMENT_NOT_CLOSED",
+  "two_cell_compatibility": "NT_FIELD_CYCLES_REPETITIONS_STABILIZERS_NOT_CLOSED",
+  "field_level_functor": "PENDING-MORPHISM_NOT_PROMOTED",
+  "historical_field_H1_H2": "NT_NOT_RECOMPUTED_EXACT_GATE_OPEN",
+  "decision": "SCHEMA_OBSTRUCTION_REMOVED; SOURCE_GEOMETRIC_ASSIGNMENT_OBSTRUCTION_REMAINS",
+  "guard": "Closing the data schema is not closing the field complex. H1/H2 remain uncomputed."
+}

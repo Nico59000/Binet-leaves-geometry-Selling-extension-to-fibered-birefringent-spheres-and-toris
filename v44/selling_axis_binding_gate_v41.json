@@ -1,0 +1,34 @@
+{
+  "version": "v41",
+  "source": "v40 minimal schema + v39 semantic contract + v38 BSB photo registration",
+  "abstract_skeleton": {
+    "axes": 6,
+    "centres": 6,
+    "status": "PROVEN_SOURCE_SEMANTIC"
+  },
+  "source_certified_geometric_matches": {
+    "axes_to_vector_segments": 0,
+    "centres_to_vector_nodes": 0,
+    "fissures_to_vector_nodes": 0,
+    "crossings_to_vector_nodes": 0,
+    "wall_substitution_labels": 0,
+    "historical_field_boundary_cycles": 0,
+    "repetition_pairs": 0,
+    "stabilizer_words": 0
+  },
+  "diagnostic_only": {
+    "degree1_nodes": 89,
+    "degree2_nodes": 36,
+    "degree_ge3_nodes": 11,
+    "legacy_symmetry_candidates": 5,
+    "photo_support_counts": {
+      "CONFIRMED": 97,
+      "PARTIAL": 3,
+      "WEAK": 5
+    }
+  },
+  "field_functor": "PENDING-MORPHISM_NOT_PROMOTED",
+  "historical_H1_H2": "NT_NOT_RECOMPUTED",
+  "decision": "NO_SOURCE_CERTIFIED_GEOMETRIC_ASSIGNMENT_AVAILABLE_IN_CURRENT_MACHINE_READABLE_INPUT; ZERO_PROMOTIONS_BY_DESIGN",
+  "guard": "Absence of a certified assignment in the current tables is not a theorem that no historical assignment exists. Diagnostic degree, Hough, hull, or symmetry-candidate evidence is not promoted to source semantics."
+}
