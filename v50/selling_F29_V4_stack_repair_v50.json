@@ -1,0 +1,3243 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS-EXACT-V4-STACK-REPAIR-2CELL-COMPATIBILITY",
+  "target": "[F29_can / V4_left] action-groupoid/stack completion; not the strict free 168-object F29_can chart",
+  "V4_closure_histogram": {
+    "I": 59,
+    "TU": 1,
+    "T": 1,
+    "U": 1
+  },
+  "links": [
+    {
+      "vertex": 0,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 678,
+          "sign": -1,
+          "chord": [
+            106,
+            104,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 185,
+          "sign": -1,
+          "chord": [
+            104,
+            23,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 1,
+      "V4_closure": "I",
+      "source_link_step_count": 2,
+      "connector_word": [],
+      "closed_F29_step_count": 2,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 2,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 3,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 4,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 532,
+          "sign": 1,
+          "chord": [
+            78,
+            127,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 532,
+          "sign": -1,
+          "chord": [
+            127,
+            78,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 5,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 532,
+          "sign": 1,
+          "chord": [
+            78,
+            127,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 776,
+          "sign": -1,
+          "chord": [
+            127,
+            125,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 776,
+          "sign": 1,
+          "chord": [
+            125,
+            127,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 532,
+          "sign": -1,
+          "chord": [
+            127,
+            78,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 6,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 712,
+          "sign": -1,
+          "chord": [
+            143,
+            110,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 713,
+          "sign": 1,
+          "chord": [
+            110,
+            119,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 687,
+          "sign": -1,
+          "chord": [
+            119,
+            105,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 685,
+          "sign": 1,
+          "chord": [
+            105,
+            106,
+            4
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 7,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 776,
+          "sign": -1,
+          "chord": [
+            127,
+            125,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 707,
+          "sign": -1,
+          "chord": [
+            141,
+            109,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 708,
+          "sign": 1,
+          "chord": [
+            109,
+            117,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 698,
+          "sign": -1,
+          "chord": [
+            117,
+            107,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 185,
+          "sign": -1,
+          "chord": [
+            104,
+            23,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 532,
+          "sign": 1,
+          "chord": [
+            78,
+            127,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 8,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 778,
+          "sign": 1,
+          "chord": [
+            126,
+            150,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": -1,
+          "chord": [
+            150,
+            44,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 310,
+          "sign": -1,
+          "chord": [
+            44,
+            40,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 312,
+          "sign": 1,
+          "chord": [
+            40,
+            166,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 839,
+          "sign": -1,
+          "chord": [
+            166,
+            143,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 5,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 9,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 778,
+          "sign": 1,
+          "chord": [
+            126,
+            150,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": -1,
+          "chord": [
+            150,
+            103,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": 1,
+          "chord": [
+            103,
+            150,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 778,
+          "sign": -1,
+          "chord": [
+            150,
+            126,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 10,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 550,
+          "sign": -1,
+          "chord": [
+            106,
+            82,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 47,
+          "sign": -1,
+          "chord": [
+            82,
+            5,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 34,
+          "sign": -1,
+          "chord": [
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 38,
+          "sign": 1,
+          "chord": [
+            4,
+            80,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 537,
+          "sign": 1,
+          "chord": [
+            80,
+            104,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 678,
+          "sign": 1,
+          "chord": [
+            104,
+            106,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 11,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 685,
+          "sign": -1,
+          "chord": [
+            106,
+            105,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 685,
+          "sign": 1,
+          "chord": [
+            105,
+            106,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 550,
+          "sign": -1,
+          "chord": [
+            106,
+            82,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 550,
+          "sign": 1,
+          "chord": [
+            82,
+            106,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 12,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 752,
+          "sign": -1,
+          "chord": [
+            141,
+            121,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 633,
+          "sign": -1,
+          "chord": [
+            121,
+            97,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 634,
+          "sign": 1,
+          "chord": [
+            97,
+            117,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 656,
+          "sign": 1,
+          "chord": [
+            101,
+            125,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 13,
+      "V4_closure": "I",
+      "source_link_step_count": 2,
+      "connector_word": [],
+      "closed_F29_step_count": 2,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 656,
+          "sign": -1,
+          "chord": [
+            125,
+            101,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 656,
+          "sign": 1,
+          "chord": [
+            101,
+            125,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 14,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 537,
+          "sign": -1,
+          "chord": [
+            104,
+            80,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 537,
+          "sign": 1,
+          "chord": [
+            80,
+            104,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 15,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 668,
+          "sign": -1,
+          "chord": [
+            150,
+            103,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": 1,
+          "chord": [
+            103,
+            150,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": -1,
+          "chord": [
+            150,
+            44,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": 1,
+          "chord": [
+            44,
+            150,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 16,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 712,
+          "sign": -1,
+          "chord": [
+            143,
+            110,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 713,
+          "sign": 1,
+          "chord": [
+            110,
+            119,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 687,
+          "sign": -1,
+          "chord": [
+            119,
+            105,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 687,
+          "sign": 1,
+          "chord": [
+            105,
+            119,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 713,
+          "sign": -1,
+          "chord": [
+            119,
+            110,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 712,
+          "sign": 1,
+          "chord": [
+            110,
+            143,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 17,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 839,
+          "sign": 1,
+          "chord": [
+            143,
+            166,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 839,
+          "sign": -1,
+          "chord": [
+            166,
+            143,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 766,
+          "sign": -1,
+          "chord": [
+            143,
+            123,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 766,
+          "sign": 1,
+          "chord": [
+            123,
+            143,
+            4
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 18,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 766,
+          "sign": -1,
+          "chord": [
+            143,
+            123,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 767,
+          "sign": 1,
+          "chord": [
+            123,
+            134,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 743,
+          "sign": -1,
+          "chord": [
+            134,
+            119,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 670,
+          "sign": 1,
+          "chord": [
+            103,
+            110,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 712,
+          "sign": 1,
+          "chord": [
+            110,
+            143,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 19,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 550,
+          "sign": 1,
+          "chord": [
+            82,
+            106,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 685,
+          "sign": -1,
+          "chord": [
+            106,
+            105,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 687,
+          "sign": 1,
+          "chord": [
+            105,
+            119,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 713,
+          "sign": -1,
+          "chord": [
+            119,
+            110,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 670,
+          "sign": -1,
+          "chord": [
+            110,
+            103,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": 1,
+          "chord": [
+            103,
+            119,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 59,
+          "sign": -1,
+          "chord": [
+            119,
+            6,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 45,
+          "sign": -1,
+          "chord": [
+            6,
+            5,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 47,
+          "sign": 1,
+          "chord": [
+            5,
+            82,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 9,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 20,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 655,
+          "sign": 1,
+          "chord": [
+            101,
+            149,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 655,
+          "sign": -1,
+          "chord": [
+            149,
+            101,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 21,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 655,
+          "sign": 1,
+          "chord": [
+            101,
+            149,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 773,
+          "sign": -1,
+          "chord": [
+            149,
+            125,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 773,
+          "sign": 1,
+          "chord": [
+            125,
+            149,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 655,
+          "sign": -1,
+          "chord": [
+            149,
+            101,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 22,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 707,
+          "sign": -1,
+          "chord": [
+            141,
+            109,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 708,
+          "sign": 1,
+          "chord": [
+            109,
+            117,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 698,
+          "sign": -1,
+          "chord": [
+            117,
+            107,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 537,
+          "sign": -1,
+          "chord": [
+            104,
+            80,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 620,
+          "sign": 1,
+          "chord": [
+            94,
+            139,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 756,
+          "sign": -1,
+          "chord": [
+            139,
+            121,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 752,
+          "sign": 1,
+          "chord": [
+            121,
+            141,
+            4
+          ]
+        }
+      ],
+      "fundamental_cell_count": 7,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 23,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 38,
+          "sign": -1,
+          "chord": [
+            80,
+            4,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 41,
+          "sign": 1,
+          "chord": [
+            4,
+            118,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 13,
+          "sign": 1,
+          "chord": [
+            1,
+            94,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 3,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 24,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 668,
+          "sign": 1,
+          "chord": [
+            103,
+            150,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": -1,
+          "chord": [
+            150,
+            44,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 310,
+          "sign": -1,
+          "chord": [
+            44,
+            40,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 310,
+          "sign": 1,
+          "chord": [
+            40,
+            44,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": 1,
+          "chord": [
+            44,
+            150,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": -1,
+          "chord": [
+            150,
+            103,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 25,
+      "V4_closure": "I",
+      "source_link_step_count": 0,
+      "connector_word": [],
+      "closed_F29_step_count": 0,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 26,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 312,
+          "sign": -1,
+          "chord": [
+            166,
+            40,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 312,
+          "sign": 1,
+          "chord": [
+            40,
+            166,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 711,
+          "sign": -1,
+          "chord": [
+            166,
+            110,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 711,
+          "sign": 1,
+          "chord": [
+            110,
+            166,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 27,
+      "V4_closure": "I",
+      "source_link_step_count": 8,
+      "connector_word": [],
+      "closed_F29_step_count": 8,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 839,
+          "sign": -1,
+          "chord": [
+            166,
+            143,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 766,
+          "sign": -1,
+          "chord": [
+            143,
+            123,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 767,
+          "sign": 1,
+          "chord": [
+            123,
+            134,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 812,
+          "sign": 1,
+          "chord": [
+            134,
+            162,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 742,
+          "sign": -1,
+          "chord": [
+            162,
+            119,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 670,
+          "sign": 1,
+          "chord": [
+            103,
+            110,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 711,
+          "sign": 1,
+          "chord": [
+            110,
+            166,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 8,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 28,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 46,
+          "sign": 1,
+          "chord": [
+            5,
+            154,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 46,
+          "sign": -1,
+          "chord": [
+            154,
+            5,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 34,
+          "sign": -1,
+          "chord": [
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 34,
+          "sign": 1,
+          "chord": [
+            4,
+            5,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 29,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 45,
+          "sign": 1,
+          "chord": [
+            5,
+            6,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 55,
+          "sign": 1,
+          "chord": [
+            6,
+            155,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 241,
+          "sign": -1,
+          "chord": [
+            155,
+            30,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 232,
+          "sign": -1,
+          "chord": [
+            30,
+            29,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 234,
+          "sign": 1,
+          "chord": [
+            29,
+            154,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 46,
+          "sign": -1,
+          "chord": [
+            154,
+            5,
+            4
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 30,
+      "V4_closure": "I",
+      "source_link_step_count": 8,
+      "connector_word": [],
+      "closed_F29_step_count": 8,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 773,
+          "sign": -1,
+          "chord": [
+            149,
+            125,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 752,
+          "sign": -1,
+          "chord": [
+            141,
+            121,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 751,
+          "sign": 1,
+          "chord": [
+            121,
+            145,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 632,
+          "sign": -1,
+          "chord": [
+            145,
+            97,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 634,
+          "sign": 1,
+          "chord": [
+            97,
+            117,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 655,
+          "sign": 1,
+          "chord": [
+            101,
+            149,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 31,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 756,
+          "sign": 1,
+          "chord": [
+            121,
+            139,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 756,
+          "sign": -1,
+          "chord": [
+            139,
+            121,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 633,
+          "sign": -1,
+          "chord": [
+            121,
+            97,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 633,
+          "sign": 1,
+          "chord": [
+            97,
+            121,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 32,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 620,
+          "sign": 1,
+          "chord": [
+            94,
+            139,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 620,
+          "sign": -1,
+          "chord": [
+            139,
+            94,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 13,
+          "sign": -1,
+          "chord": [
+            94,
+            1,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 13,
+          "sign": 1,
+          "chord": [
+            1,
+            94,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 33,
+      "V4_closure": "I",
+      "source_link_step_count": 8,
+      "connector_word": [],
+      "closed_F29_step_count": 8,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 34,
+          "sign": 1,
+          "chord": [
+            4,
+            5,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 46,
+          "sign": 1,
+          "chord": [
+            5,
+            154,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 486,
+          "sign": -1,
+          "chord": [
+            154,
+            68,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 376,
+          "sign": -1,
+          "chord": [
+            68,
+            51,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 369,
+          "sign": -1,
+          "chord": [
+            51,
+            50,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 373,
+          "sign": 1,
+          "chord": [
+            50,
+            163,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 41,
+          "sign": -1,
+          "chord": [
+            118,
+            4,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 7,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 34,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 312,
+          "sign": 1,
+          "chord": [
+            40,
+            166,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 711,
+          "sign": -1,
+          "chord": [
+            166,
+            110,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 670,
+          "sign": -1,
+          "chord": [
+            110,
+            103,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 670,
+          "sign": 1,
+          "chord": [
+            103,
+            110,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 711,
+          "sign": 1,
+          "chord": [
+            110,
+            166,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 312,
+          "sign": -1,
+          "chord": [
+            166,
+            40,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 35,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 668,
+          "sign": 1,
+          "chord": [
+            103,
+            150,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 386,
+          "sign": -1,
+          "chord": [
+            150,
+            52,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 382,
+          "sign": 1,
+          "chord": [
+            52,
+            53,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 233,
+          "sign": 1,
+          "chord": [
+            29,
+            82,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 552,
+          "sign": 1,
+          "chord": [
+            82,
+            155,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 55,
+          "sign": -1,
+          "chord": [
+            155,
+            6,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 59,
+          "sign": 1,
+          "chord": [
+            6,
+            119,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 8,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 36,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 671,
+          "sign": 1,
+          "chord": [
+            103,
+            119,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": 1,
+          "chord": [
+            103,
+            150,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": -1,
+          "chord": [
+            150,
+            103,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 37,
+      "V4_closure": "I",
+      "source_link_step_count": 9,
+      "connector_word": [],
+      "closed_F29_step_count": 9,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 812,
+          "sign": 1,
+          "chord": [
+            134,
+            162,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 742,
+          "sign": -1,
+          "chord": [
+            162,
+            119,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 608,
+          "sign": -1,
+          "chord": [
+            119,
+            91,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 143,
+          "sign": -1,
+          "chord": [
+            91,
+            16,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 71,
+          "sign": -1,
+          "chord": [
+            16,
+            8,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 73,
+          "sign": 1,
+          "chord": [
+            8,
+            150,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 668,
+          "sign": -1,
+          "chord": [
+            150,
+            103,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": 1,
+          "chord": [
+            103,
+            119,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 743,
+          "sign": 1,
+          "chord": [
+            119,
+            134,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 9,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 38,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 234,
+          "sign": -1,
+          "chord": [
+            154,
+            29,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 235,
+          "sign": 1,
+          "chord": [
+            29,
+            44,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": 1,
+          "chord": [
+            44,
+            150,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 386,
+          "sign": -1,
+          "chord": [
+            150,
+            52,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 385,
+          "sign": 1,
+          "chord": [
+            52,
+            68,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 486,
+          "sign": 1,
+          "chord": [
+            68,
+            154,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 39,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 707,
+          "sign": -1,
+          "chord": [
+            141,
+            109,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 707,
+          "sign": 1,
+          "chord": [
+            109,
+            141,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 40,
+      "V4_closure": "I",
+      "source_link_step_count": 0,
+      "connector_word": [],
+      "closed_F29_step_count": 0,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 41,
+      "V4_closure": "I",
+      "source_link_step_count": 14,
+      "connector_word": [],
+      "closed_F29_step_count": 14,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 633,
+          "sign": 1,
+          "chord": [
+            97,
+            121,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 756,
+          "sign": 1,
+          "chord": [
+            121,
+            139,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 620,
+          "sign": -1,
+          "chord": [
+            139,
+            94,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 13,
+          "sign": -1,
+          "chord": [
+            94,
+            1,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 21,
+          "sign": 1,
+          "chord": [
+            2,
+            26,
+            6
+          ]
+        },
+        {
+          "fundamental_cell": 209,
+          "sign": 1,
+          "chord": [
+            26,
+            159,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 728,
+          "sign": -1,
+          "chord": [
+            159,
+            114,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 161,
+          "sign": -1,
+          "chord": [
+            114,
+            18,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 135,
+          "sign": -1,
+          "chord": [
+            18,
+            15,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 137,
+          "sign": 1,
+          "chord": [
+            15,
+            84,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 566,
+          "sign": 1,
+          "chord": [
+            84,
+            108,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 703,
+          "sign": 1,
+          "chord": [
+            108,
+            109,
+            7
+          ]
+        },
+        {
+          "fundamental_cell": 635,
+          "sign": -1,
+          "chord": [
+            109,
+            97,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 13,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 42,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 635,
+          "sign": 1,
+          "chord": [
+            97,
+            109,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 635,
+          "sign": -1,
+          "chord": [
+            109,
+            97,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 632,
+          "sign": 1,
+          "chord": [
+            97,
+            145,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 632,
+          "sign": -1,
+          "chord": [
+            145,
+            97,
+            2
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 43,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 305,
+          "sign": -1,
+          "chord": [
+            163,
+            39,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 1,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 44,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 671,
+          "sign": 1,
+          "chord": [
+            103,
+            119,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 742,
+          "sign": 1,
+          "chord": [
+            119,
+            162,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 742,
+          "sign": -1,
+          "chord": [
+            162,
+            119,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 45,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 671,
+          "sign": 1,
+          "chord": [
+            103,
+            119,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 642,
+          "sign": -1,
+          "chord": [
+            119,
+            98,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 642,
+          "sign": 1,
+          "chord": [
+            98,
+            119,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 671,
+          "sign": -1,
+          "chord": [
+            119,
+            103,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 46,
+      "V4_closure": "I",
+      "source_link_step_count": 8,
+      "connector_word": [],
+      "closed_F29_step_count": 8,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 73,
+          "sign": -1,
+          "chord": [
+            150,
+            8,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 72,
+          "sign": 1,
+          "chord": [
+            8,
+            20,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 61,
+          "sign": -1,
+          "chord": [
+            20,
+            6,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 55,
+          "sign": 1,
+          "chord": [
+            6,
+            155,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 495,
+          "sign": -1,
+          "chord": [
+            155,
+            71,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 398,
+          "sign": -1,
+          "chord": [
+            71,
+            54,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 383,
+          "sign": -1,
+          "chord": [
+            54,
+            52,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 386,
+          "sign": 1,
+          "chord": [
+            52,
+            150,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 8,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 47,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 552,
+          "sign": -1,
+          "chord": [
+            155,
+            82,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 550,
+          "sign": 1,
+          "chord": [
+            82,
+            106,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 455,
+          "sign": -1,
+          "chord": [
+            106,
+            62,
+            10
+          ]
+        },
+        {
+          "fundamental_cell": 420,
+          "sign": -1,
+          "chord": [
+            62,
+            58,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 422,
+          "sign": 1,
+          "chord": [
+            58,
+            71,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 495,
+          "sign": 1,
+          "chord": [
+            71,
+            155,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 48,
+      "V4_closure": "TU",
+      "source_link_step_count": 8,
+      "connector_word": [
+        "S9",
+        "S11"
+      ],
+      "closed_F29_step_count": 10,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 495,
+          "sign": -1,
+          "chord": [
+            155,
+            71,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 398,
+          "sign": -1,
+          "chord": [
+            71,
+            54,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 391,
+          "sign": -1,
+          "chord": [
+            54,
+            53,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 228,
+          "sign": -1,
+          "chord": [
+            46,
+            28,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 224,
+          "sign": 1,
+          "chord": [
+            28,
+            31,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 246,
+          "sign": 1,
+          "chord": [
+            31,
+            153,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 489,
+          "sign": -1,
+          "chord": [
+            153,
+            69,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 490,
+          "sign": 1,
+          "chord": [
+            69,
+            155,
+            11
+          ]
+        }
+      ],
+      "fundamental_cell_count": 8,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 49,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 232,
+          "sign": 1,
+          "chord": [
+            29,
+            30,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 232,
+          "sign": -1,
+          "chord": [
+            30,
+            29,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 235,
+          "sign": 1,
+          "chord": [
+            29,
+            44,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 235,
+          "sign": -1,
+          "chord": [
+            44,
+            29,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 50,
+      "V4_closure": "I",
+      "source_link_step_count": 14,
+      "connector_word": [],
+      "closed_F29_step_count": 14,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 752,
+          "sign": -1,
+          "chord": [
+            141,
+            121,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 751,
+          "sign": 1,
+          "chord": [
+            121,
+            145,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 632,
+          "sign": -1,
+          "chord": [
+            145,
+            97,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 635,
+          "sign": 1,
+          "chord": [
+            97,
+            109,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 574,
+          "sign": -1,
+          "chord": [
+            109,
+            85,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 570,
+          "sign": -1,
+          "chord": [
+            85,
+            84,
+            7
+          ]
+        },
+        {
+          "fundamental_cell": 137,
+          "sign": -1,
+          "chord": [
+            84,
+            15,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 134,
+          "sign": 1,
+          "chord": [
+            15,
+            23,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 156,
+          "sign": -1,
+          "chord": [
+            23,
+            18,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 157,
+          "sign": 1,
+          "chord": [
+            18,
+            164,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 568,
+          "sign": -1,
+          "chord": [
+            164,
+            84,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 566,
+          "sign": 1,
+          "chord": [
+            84,
+            108,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 703,
+          "sign": 1,
+          "chord": [
+            108,
+            109,
+            7
+          ]
+        },
+        {
+          "fundamental_cell": 707,
+          "sign": 1,
+          "chord": [
+            109,
+            141,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 14,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 51,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 59,
+          "sign": -1,
+          "chord": [
+            119,
+            6,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 61,
+          "sign": 1,
+          "chord": [
+            6,
+            20,
+            11
+          ]
+        },
+        {
+          "fundamental_cell": 72,
+          "sign": -1,
+          "chord": [
+            20,
+            8,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 71,
+          "sign": 1,
+          "chord": [
+            8,
+            16,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 143,
+          "sign": 1,
+          "chord": [
+            16,
+            91,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 608,
+          "sign": 1,
+          "chord": [
+            91,
+            119,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 52,
+      "V4_closure": "I",
+      "source_link_step_count": 4,
+      "connector_word": [],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 642,
+          "sign": -1,
+          "chord": [
+            119,
+            98,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 642,
+          "sign": 1,
+          "chord": [
+            98,
+            119,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 59,
+          "sign": -1,
+          "chord": [
+            119,
+            6,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 59,
+          "sign": 1,
+          "chord": [
+            6,
+            119,
+            9
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 53,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 383,
+          "sign": 1,
+          "chord": [
+            52,
+            54,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 391,
+          "sign": -1,
+          "chord": [
+            54,
+            53,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 232,
+          "sign": 1,
+          "chord": [
+            29,
+            30,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 223,
+          "sign": -1,
+          "chord": [
+            30,
+            28,
+            2
+          ]
+        },
+        {
+          "fundamental_cell": 227,
+          "sign": 1,
+          "chord": [
+            28,
+            52,
+            7
+          ]
+        }
+      ],
+      "fundamental_cell_count": 5,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 54,
+      "V4_closure": "I",
+      "source_link_step_count": 10,
+      "connector_word": [],
+      "closed_F29_step_count": 10,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 227,
+          "sign": -1,
+          "chord": [
+            52,
+            28,
+            7
+          ]
+        },
+        {
+          "fundamental_cell": 222,
+          "sign": 1,
+          "chord": [
+            28,
+            29,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 392,
+          "sign": 1,
+          "chord": [
+            53,
+            58,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 420,
+          "sign": 1,
+          "chord": [
+            58,
+            62,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 455,
+          "sign": 1,
+          "chord": [
+            62,
+            106,
+            10
+          ]
+        },
+        {
+          "fundamental_cell": 550,
+          "sign": -1,
+          "chord": [
+            106,
+            82,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 233,
+          "sign": -1,
+          "chord": [
+            82,
+            29,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 382,
+          "sign": -1,
+          "chord": [
+            53,
+            52,
+            1
+          ]
+        }
+      ],
+      "fundamental_cell_count": 8,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 55,
+      "V4_closure": "I",
+      "source_link_step_count": 2,
+      "connector_word": [],
+      "closed_F29_step_count": 2,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 338,
+          "sign": 1,
+          "chord": [
+            44,
+            150,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 338,
+          "sign": -1,
+          "chord": [
+            150,
+            44,
+            5
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 56,
+      "V4_closure": "I",
+      "source_link_step_count": 8,
+      "connector_word": [],
+      "closed_F29_step_count": 8,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 55,
+          "sign": 1,
+          "chord": [
+            6,
+            155,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 552,
+          "sign": -1,
+          "chord": [
+            155,
+            82,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 233,
+          "sign": -1,
+          "chord": [
+            82,
+            29,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 233,
+          "sign": 1,
+          "chord": [
+            29,
+            82,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 552,
+          "sign": 1,
+          "chord": [
+            82,
+            155,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 55,
+          "sign": -1,
+          "chord": [
+            155,
+            6,
+            4
+          ]
+        }
+      ],
+      "fundamental_cell_count": 6,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 57,
+      "V4_closure": "I",
+      "source_link_step_count": 0,
+      "connector_word": [],
+      "closed_F29_step_count": 0,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 58,
+      "V4_closure": "I",
+      "source_link_step_count": 6,
+      "connector_word": [],
+      "closed_F29_step_count": 6,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 398,
+          "sign": 1,
+          "chord": [
+            54,
+            71,
+            5
+          ]
+        },
+        {
+          "fundamental_cell": 495,
+          "sign": 1,
+          "chord": [
+            71,
+            155,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 552,
+          "sign": -1,
+          "chord": [
+            155,
+            82,
+            3
+          ]
+        },
+        {
+          "fundamental_cell": 233,
+          "sign": -1,
+          "chord": [
+            82,
+            29,
+            4
+          ]
+        },
+        {
+          "fundamental_cell": 391,
+          "sign": 1,
+          "chord": [
+            53,
+            54,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 5,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 59,
+      "V4_closure": "T",
+      "source_link_step_count": 1,
+      "connector_word": [
+        "S7"
+      ],
+      "closed_F29_step_count": 2,
+      "fundamental_cell_occurrences": [],
+      "fundamental_cell_count": 0,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 60,
+      "V4_closure": "I",
+      "source_link_step_count": 7,
+      "connector_word": [],
+      "closed_F29_step_count": 7,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 212,
+          "sign": -1,
+          "chord": [
+            39,
+            26,
+            9
+          ]
+        },
+        {
+          "fundamental_cell": 198,
+          "sign": -1,
+          "chord": [
+            26,
+            25,
+            3
+          ]
+        }
+      ],
+      "fundamental_cell_count": 2,
+      "tree_rewrite_reduces_to_empty": true
+    },
+    {
+      "vertex": 61,
+      "V4_closure": "U",
+      "source_link_step_count": 2,
+      "connector_word": [
+        "S1",
+        "S7"
+      ],
+      "closed_F29_step_count": 4,
+      "fundamental_cell_occurrences": [
+        {
+          "fundamental_cell": 574,
+          "sign": -1,
+          "chord": [
+            109,
+            85,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 570,
+          "sign": -1,
+          "chord": [
+            85,
+            84,
+            7
+          ]
+        },
+        {
+          "fundamental_cell": 566,
+          "sign": 1,
+          "chord": [
+            84,
+            108,
+            1
+          ]
+        },
+        {
+          "fundamental_cell": 703,
+          "sign": 1,
+          "chord": [
+            108,
+            109,
+            7
+          ]
+        }
+      ],
+      "fundamental_cell_count": 4,
+      "tree_rewrite_reduces_to_empty": true
+    }
+  ],
+  "checks": {
+    "all_62_links_close_after_canonical_V4_connector": true,
+    "all_62_closed_lifts_fill_by_841_fundamental_cells": true,
+    "F29_fundamental_cell_count": 841
+  },
+  "interpretation": "For 59 links the connector is constant. For the three deck links, the connector records T, U or TU isotropy. After adding that stack isotropy, the lifted loop is filled constructively by the existing 841 F29 fundamental 2-cells.",
+  "strict_functor_status": "REFUTED-TYPED remains unchanged; this is a typed target repair, not a promotion of F_Sell^field -> F29_can.",
+  "cohomology_gate": "LOCKED pending a decision to accept the repaired stack target as the intended comparison object and a naturality audit for Binet/Ad transports."
+}

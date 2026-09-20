@@ -1,0 +1,6581 @@
+{
+  "version": "v50",
+  "status": "PASS-EXACT-DUAL-ARROWS/LOCAL-RELATION-DIAGNOSTIC",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "objects": 62,
+  "arrows": [
+    {
+      "id": 0,
+      "primal_endpoints": [
+        1,
+        3
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 0,
+      "target": 0,
+      "wall": "g+k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 1,
+      "primal_endpoints": [
+        3,
+        2
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 2,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        0,
+        1
+      ],
+      "factor": "7*q**2 + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 2,
+      "primal_endpoints": [
+        2,
+        0
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 3,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        0,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 3,
+      "primal_endpoints": [
+        0,
+        1
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 1,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        0,
+        3
+      ],
+      "factor": "q"
+    },
+    {
+      "id": 4,
+      "primal_endpoints": [
+        5,
+        1
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 1,
+      "target": 1,
+      "wall": "g+k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 5,
+      "primal_endpoints": [
+        0,
+        4
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 1,
+      "target": 5,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        1,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 6,
+      "primal_endpoints": [
+        4,
+        5
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 1,
+      "target": 4,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        1,
+        3
+      ],
+      "factor": "13*q**2 + 24*q - 60*r**2 + 8"
+    },
+    {
+      "id": 7,
+      "primal_endpoints": [
+        3,
+        6
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 2,
+      "target": 6,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        2,
+        1
+      ],
+      "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 8,
+      "primal_endpoints": [
+        6,
+        2
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 2,
+      "target": 3,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        2,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+    },
+    {
+      "id": 9,
+      "primal_endpoints": [
+        6,
+        0
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 3,
+      "target": 7,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        3,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 10,
+      "primal_endpoints": [
+        7,
+        5
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 4,
+      "target": 8,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        4,
+        0
+      ],
+      "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+    },
+    {
+      "id": 11,
+      "primal_endpoints": [
+        4,
+        7
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 4,
+      "target": 5,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        4,
+        2
+      ],
+      "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+    },
+    {
+      "id": 12,
+      "primal_endpoints": [
+        0,
+        7
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 5,
+      "target": 9,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        5,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 13,
+      "primal_endpoints": [
+        3,
+        9
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 6,
+      "target": 6,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 14,
+      "primal_endpoints": [
+        9,
+        8
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 6,
+      "target": 10,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        6,
+        1
+      ],
+      "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+    },
+    {
+      "id": 15,
+      "primal_endpoints": [
+        8,
+        6
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 6,
+      "target": 11,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        6,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 16,
+      "primal_endpoints": [
+        6,
+        11
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 13,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        7,
+        1
+      ],
+      "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 17,
+      "primal_endpoints": [
+        11,
+        10
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 12,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        7,
+        2
+      ],
+      "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 18,
+      "primal_endpoints": [
+        10,
+        0
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 9,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        7,
+        3
+      ],
+      "factor": "q"
+    },
+    {
+      "id": 19,
+      "primal_endpoints": [
+        13,
+        5
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 8,
+      "target": 8,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 20,
+      "primal_endpoints": [
+        7,
+        12
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 8,
+      "target": 15,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        8,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 21,
+      "primal_endpoints": [
+        12,
+        13
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 8,
+      "target": 14,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        8,
+        3
+      ],
+      "factor": "2*q + 1"
+    },
+    {
+      "id": 22,
+      "primal_endpoints": [
+        10,
+        14
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 9,
+      "target": 16,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        9,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 23,
+      "primal_endpoints": [
+        14,
+        7
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 9,
+      "target": 17,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        9,
+        3
+      ],
+      "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+    },
+    {
+      "id": 24,
+      "primal_endpoints": [
+        9,
+        15
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 10,
+      "target": 18,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        10,
+        1
+      ],
+      "factor": "7*q**2 - 28*q + 60*r**2 + 16"
+    },
+    {
+      "id": 25,
+      "primal_endpoints": [
+        15,
+        8
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 10,
+      "target": 19,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        10,
+        2
+      ],
+      "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+    },
+    {
+      "id": 26,
+      "primal_endpoints": [
+        8,
+        17
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 20,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        11,
+        1
+      ],
+      "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+    },
+    {
+      "id": 27,
+      "primal_endpoints": [
+        17,
+        18
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 22,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        11,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 28,
+      "primal_endpoints": [
+        18,
+        16
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 21,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        11,
+        3
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 29,
+      "primal_endpoints": [
+        16,
+        6
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 13,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        11,
+        4
+      ],
+      "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+    },
+    {
+      "id": 30,
+      "primal_endpoints": [
+        11,
+        19
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 12,
+      "target": 13,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        12,
+        1
+      ],
+      "factor": "q - r"
+    },
+    {
+      "id": 31,
+      "primal_endpoints": [
+        19,
+        10
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 12,
+      "target": 23,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        12,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 32,
+      "primal_endpoints": [
+        16,
+        19
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 13,
+      "target": 21,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 17,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        13,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 33,
+      "primal_endpoints": [
+        21,
+        13
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 14,
+      "target": 14,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 34,
+      "primal_endpoints": [
+        12,
+        20
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 14,
+      "target": 25,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        14,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 35,
+      "primal_endpoints": [
+        20,
+        21
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 14,
+      "target": 24,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        14,
+        3
+      ],
+      "factor": "73*q**2 + 124*q - 60*r**2 + 48"
+    },
+    {
+      "id": 36,
+      "primal_endpoints": [
+        7,
+        22
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 15,
+      "target": 17,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        15,
+        1
+      ],
+      "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+    },
+    {
+      "id": 37,
+      "primal_endpoints": [
+        22,
+        12
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 15,
+      "target": 26,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        15,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 38,
+      "primal_endpoints": [
+        22,
+        14
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 17,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        16,
+        0
+      ],
+      "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+    },
+    {
+      "id": 39,
+      "primal_endpoints": [
+        10,
+        23
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 28,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        16,
+        2
+      ],
+      "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 40,
+      "primal_endpoints": [
+        23,
+        22
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 27,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        16,
+        3
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 41,
+      "primal_endpoints": [
+        9,
+        25
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 18,
+      "target": 18,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 42,
+      "primal_endpoints": [
+        25,
+        24
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 18,
+      "target": 18,
+      "wall": "k+l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "11",
+          "60",
+          "0"
+        ],
+        [
+          "-2",
+          "-11",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q - 1"
+    },
+    {
+      "id": 43,
+      "primal_endpoints": [
+        24,
+        15
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 18,
+      "target": 19,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        18,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 240*r - 8"
+    },
+    {
+      "id": 44,
+      "primal_endpoints": [
+        24,
+        8
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 19,
+      "target": 29,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        19,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 45,
+      "primal_endpoints": [
+        27,
+        17
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 22,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        20,
+        0
+      ],
+      "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+    },
+    {
+      "id": 46,
+      "primal_endpoints": [
+        8,
+        26
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 29,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        20,
+        2
+      ],
+      "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+    },
+    {
+      "id": 47,
+      "primal_endpoints": [
+        26,
+        27
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 30,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        20,
+        3
+      ],
+      "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+    },
+    {
+      "id": 48,
+      "primal_endpoints": [
+        18,
+        19
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 21,
+      "target": 31,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        21,
+        1
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 49,
+      "primal_endpoints": [
+        27,
+        18
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 22,
+      "target": 32,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        22,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 50,
+      "primal_endpoints": [
+        19,
+        29
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 33,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        23,
+        1
+      ],
+      "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 51,
+      "primal_endpoints": [
+        29,
+        28
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 34,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        23,
+        2
+      ],
+      "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+    },
+    {
+      "id": 52,
+      "primal_endpoints": [
+        28,
+        10
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 28,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        23,
+        3
+      ],
+      "factor": "q"
+    },
+    {
+      "id": 53,
+      "primal_endpoints": [
+        30,
+        21
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 24,
+      "target": 35,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        24,
+        0
+      ],
+      "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+    },
+    {
+      "id": 54,
+      "primal_endpoints": [
+        20,
+        30
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 24,
+      "target": 25,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        24,
+        2
+      ],
+      "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+    },
+    {
+      "id": 55,
+      "primal_endpoints": [
+        12,
+        30
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 25,
+      "target": 36,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        25,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 56,
+      "primal_endpoints": [
+        22,
+        31
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 26,
+      "target": 37,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        26,
+        1
+      ],
+      "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+    },
+    {
+      "id": 57,
+      "primal_endpoints": [
+        31,
+        12
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 26,
+      "target": 36,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        26,
+        2
+      ],
+      "factor": "2*q + 1"
+    },
+    {
+      "id": 58,
+      "primal_endpoints": [
+        32,
+        22
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 27,
+      "target": 37,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        27,
+        0
+      ],
+      "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+    },
+    {
+      "id": 59,
+      "primal_endpoints": [
+        23,
+        32
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 27,
+      "target": 38,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        27,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+    },
+    {
+      "id": 60,
+      "primal_endpoints": [
+        28,
+        33
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 28,
+      "target": 34,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        28,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+    },
+    {
+      "id": 61,
+      "primal_endpoints": [
+        33,
+        23
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 28,
+      "target": 39,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        28,
+        3
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+    },
+    {
+      "id": 62,
+      "primal_endpoints": [
+        24,
+        34
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 29,
+      "target": 29,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "11",
+          "60",
+          "0"
+        ],
+        [
+          "-2",
+          "-11",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "q - 1"
+    },
+    {
+      "id": 63,
+      "primal_endpoints": [
+        34,
+        26
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 29,
+      "target": 30,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        29,
+        2
+      ],
+      "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 64,
+      "primal_endpoints": [
+        34,
+        27
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 30,
+      "target": 40,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        30,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 65,
+      "primal_endpoints": [
+        18,
+        36
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 42,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        31,
+        1
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 66,
+      "primal_endpoints": [
+        36,
+        35
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 41,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        31,
+        2
+      ],
+      "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+    },
+    {
+      "id": 67,
+      "primal_endpoints": [
+        35,
+        19
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 33,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 21,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        31,
+        3
+      ],
+      "factor": "q - r"
+    },
+    {
+      "id": 68,
+      "primal_endpoints": [
+        27,
+        37
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 32,
+      "target": 43,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        32,
+        1
+      ],
+      "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+    },
+    {
+      "id": 69,
+      "primal_endpoints": [
+        37,
+        18
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 32,
+      "target": 42,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        32,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 70,
+      "primal_endpoints": [
+        35,
+        29
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 33,
+      "target": 44,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        33,
+        2
+      ],
+      "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+    },
+    {
+      "id": 71,
+      "primal_endpoints": [
+        29,
+        38
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 34,
+      "target": 45,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        34,
+        2
+      ],
+      "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+    },
+    {
+      "id": 72,
+      "primal_endpoints": [
+        38,
+        33
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 34,
+      "target": 34,
+      "wall": "g",
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": -1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "source_segment": [
+        34,
+        3
+      ],
+      "factor": "q - 3*r + 1"
+    },
+    {
+      "id": 73,
+      "primal_endpoints": [
+        40,
+        21
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 35,
+      "target": 35,
+      "wall": "l+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      "factor": "r"
+    },
+    {
+      "id": 74,
+      "primal_endpoints": [
+        30,
+        39
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 35,
+      "target": 46,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        35,
+        2
+      ],
+      "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 75,
+      "primal_endpoints": [
+        39,
+        40
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 35,
+      "target": 35,
+      "wall": "g+n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-19",
+          "-60",
+          "0"
+        ],
+        [
+          "6",
+          "19",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ]
+      ],
+      "factor": "3*q + 2"
+    },
+    {
+      "id": 76,
+      "primal_endpoints": [
+        31,
+        41
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 37,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 16,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        36,
+        2
+      ],
+      "factor": "23*q**2 + 30*q*r + 34*q - 120*r**2 + 60*r + 8"
+    },
+    {
+      "id": 77,
+      "primal_endpoints": [
+        41,
+        42
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 48,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        36,
+        3
+      ],
+      "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 78,
+      "primal_endpoints": [
+        42,
+        30
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 47,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        36,
+        4
+      ],
+      "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+    },
+    {
+      "id": 79,
+      "primal_endpoints": [
+        32,
+        41
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 37,
+      "target": 38,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        37,
+        3
+      ],
+      "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+    },
+    {
+      "id": 80,
+      "primal_endpoints": [
+        23,
+        60
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 38,
+      "target": 49,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        38,
+        2
+      ],
+      "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+    },
+    {
+      "id": 81,
+      "primal_endpoints": [
+        33,
+        43
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 39,
+      "target": 39,
+      "wall": "h",
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": -1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "source_segment": [
+        39,
+        1
+      ],
+      "factor": "q - 3*r + 1"
+    },
+    {
+      "id": 82,
+      "primal_endpoints": [
+        43,
+        23
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 39,
+      "target": 49,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        39,
+        2
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+    },
+    {
+      "id": 83,
+      "primal_endpoints": [
+        34,
+        45
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 40,
+      "target": 40,
+      "wall": "k+l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "11",
+          "60",
+          "0"
+        ],
+        [
+          "-2",
+          "-11",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q - 1"
+    },
+    {
+      "id": 84,
+      "primal_endpoints": [
+        45,
+        44
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 40,
+      "target": 50,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        40,
+        2
+      ],
+      "factor": "7*q**2 - 40*q*r - 4*q - 60*r**2 + 80*r - 8"
+    },
+    {
+      "id": 85,
+      "primal_endpoints": [
+        44,
+        27
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 40,
+      "target": 43,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        40,
+        3
+      ],
+      "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+    },
+    {
+      "id": 86,
+      "primal_endpoints": [
+        36,
+        37
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 42,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        41,
+        1
+      ],
+      "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+    },
+    {
+      "id": 87,
+      "primal_endpoints": [
+        37,
+        46
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 52,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        41,
+        2
+      ],
+      "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+    },
+    {
+      "id": 88,
+      "primal_endpoints": [
+        46,
+        35
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 51,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        41,
+        3
+      ],
+      "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+    },
+    {
+      "id": 89,
+      "primal_endpoints": [
+        44,
+        37
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 43,
+      "target": 50,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        43,
+        2
+      ],
+      "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+    },
+    {
+      "id": 90,
+      "primal_endpoints": [
+        35,
+        47
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 53,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        44,
+        1
+      ],
+      "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+    },
+    {
+      "id": 91,
+      "primal_endpoints": [
+        47,
+        48
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 44,
+      "wall": "g",
+      "deck": "T",
+      "deck_exponents": [
+        1,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-1",
+          "30",
+          "90"
+        ],
+        [
+          "0",
+          "-8",
+          "-21"
+        ],
+        [
+          "0",
+          "3",
+          "8"
+        ]
+      ],
+      "source_segment": [
+        44,
+        2
+      ],
+      "factor": "3*r - 1"
+    },
+    {
+      "id": 92,
+      "primal_endpoints": [
+        48,
+        29
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 54,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        44,
+        3
+      ],
+      "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+    },
+    {
+      "id": 93,
+      "primal_endpoints": [
+        29,
+        49
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 45,
+      "target": 54,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        45,
+        1
+      ],
+      "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+    },
+    {
+      "id": 94,
+      "primal_endpoints": [
+        49,
+        38
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 45,
+      "target": 55,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        45,
+        2
+      ],
+      "factor": "7*q**2 - 360*q*r + 116*q + 1860*r**2 - 1320*r + 232"
+    },
+    {
+      "id": 95,
+      "primal_endpoints": [
+        30,
+        50
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 46,
+      "target": 47,
+      "wall": "k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        46,
+        1
+      ],
+      "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+    },
+    {
+      "id": 96,
+      "primal_endpoints": [
+        50,
+        39
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 46,
+      "target": 56,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        46,
+        2
+      ],
+      "factor": "7*q**2 - 240*q*r - 4*q - 60*r**2 - 120*r - 8"
+    },
+    {
+      "id": 97,
+      "primal_endpoints": [
+        42,
+        50
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 47,
+      "target": 48,
+      "wall": "m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        47,
+        2
+      ],
+      "factor": "233*q**2 - 360*q*r + 364*q - 300*r**2 - 120*r + 128"
+    },
+    {
+      "id": 98,
+      "primal_endpoints": [
+        45,
+        52
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 58,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        50,
+        2
+      ],
+      "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+    },
+    {
+      "id": 99,
+      "primal_endpoints": [
+        52,
+        51
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 57,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        50,
+        3
+      ],
+      "factor": "7*q**2 + 120*q*r - 44*q + 420*r**2 - 360*r + 72"
+    },
+    {
+      "id": 100,
+      "primal_endpoints": [
+        51,
+        37
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 52,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 7,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        50,
+        4
+      ],
+      "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+    },
+    {
+      "id": 101,
+      "primal_endpoints": [
+        46,
+        53
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 59,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        51,
+        1
+      ],
+      "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+    },
+    {
+      "id": 102,
+      "primal_endpoints": [
+        53,
+        54
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 51,
+      "wall": "k",
+      "deck": "T",
+      "deck_exponents": [
+        1,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 21,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-1",
+          "30",
+          "90"
+        ],
+        [
+          "0",
+          "-8",
+          "-21"
+        ],
+        [
+          "0",
+          "3",
+          "8"
+        ]
+      ],
+      "source_segment": [
+        51,
+        2
+      ],
+      "factor": "3*r - 1"
+    },
+    {
+      "id": 103,
+      "primal_endpoints": [
+        54,
+        35
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 53,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 23,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        51,
+        3
+      ],
+      "factor": "q - r"
+    },
+    {
+      "id": 104,
+      "primal_endpoints": [
+        51,
+        46
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 52,
+      "target": 57,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 17,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        52,
+        2
+      ],
+      "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+    },
+    {
+      "id": 105,
+      "primal_endpoints": [
+        48,
+        49
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 54,
+      "target": 55,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 16,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        54,
+        2
+      ],
+      "factor": "7*q**2 - 200*q*r + 76*q + 660*r**2 - 440*r + 72"
+    },
+    {
+      "id": 106,
+      "primal_endpoints": [
+        48,
+        55
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 55,
+      "target": 55,
+      "wall": "m",
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": -1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "source_segment": [
+        55,
+        2
+      ],
+      "factor": "3*r - 1"
+    },
+    {
+      "id": 107,
+      "primal_endpoints": [
+        55,
+        38
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 55,
+      "target": 55,
+      "wall": "m",
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": -1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "source_segment": [
+        55,
+        3
+      ],
+      "factor": "q - 3*r + 1"
+    },
+    {
+      "id": 108,
+      "primal_endpoints": [
+        39,
+        61
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 56,
+      "target": 56,
+      "wall": "g+m",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "-19",
+          "-60",
+          "0"
+        ],
+        [
+          "6",
+          "19",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "3*q + 2"
+    },
+    {
+      "id": 109,
+      "primal_endpoints": [
+        52,
+        56
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 57,
+      "target": 57,
+      "wall": "h+k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "29",
+          "180",
+          "120"
+        ],
+        [
+          "-6",
+          "-37",
+          "-24"
+        ],
+        [
+          "2",
+          "12",
+          "7"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q + 4*r - 2"
+    },
+    {
+      "id": 110,
+      "primal_endpoints": [
+        56,
+        46
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 57,
+      "target": 60,
+      "wall": "n",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        57,
+        3
+      ],
+      "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+    },
+    {
+      "id": 111,
+      "primal_endpoints": [
+        45,
+        57
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 58,
+      "target": 58,
+      "wall": "k+l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "11",
+          "60",
+          "0"
+        ],
+        [
+          "-2",
+          "-11",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q - 1"
+    },
+    {
+      "id": 112,
+      "primal_endpoints": [
+        57,
+        52
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 58,
+      "target": 58,
+      "wall": "g+k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "29",
+          "180",
+          "120"
+        ],
+        [
+          "-6",
+          "-37",
+          "-24"
+        ],
+        [
+          "2",
+          "12",
+          "7"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q + 4*r - 2"
+    },
+    {
+      "id": 113,
+      "primal_endpoints": [
+        46,
+        58
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 59,
+      "target": 60,
+      "wall": "g",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": -1,
+      "relabel_index": 21,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        59,
+        1
+      ],
+      "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+    },
+    {
+      "id": 114,
+      "primal_endpoints": [
+        58,
+        53
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 59,
+      "target": 61,
+      "wall": "l",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 0,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        59,
+        2
+      ],
+      "factor": "7*q**2 + 150*q*r - 64*q + 660*r**2 - 540*r + 112"
+    },
+    {
+      "id": 115,
+      "primal_endpoints": [
+        56,
+        58
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 60,
+      "target": 61,
+      "wall": "h",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 10,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "source_segment": [
+        60,
+        1
+      ],
+      "factor": "7*q**2 + 360*q*r - 124*q + 2220*r**2 - 1800*r + 352"
+    },
+    {
+      "id": 116,
+      "primal_endpoints": [
+        56,
+        59
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 61,
+      "target": 61,
+      "wall": "h+k",
+      "deck": "I",
+      "deck_exponents": [
+        0,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": 1,
+      "ad_transport": [
+        [
+          "29",
+          "180",
+          "120"
+        ],
+        [
+          "-6",
+          "-37",
+          "-24"
+        ],
+        [
+          "2",
+          "12",
+          "7"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor": "q + 4*r - 2"
+    },
+    {
+      "id": 117,
+      "primal_endpoints": [
+        59,
+        53
+      ],
+      "primal_kind": "BOUNDARY-ORBIT",
+      "kind": "ORDINARY-CROSSING",
+      "source": 61,
+      "target": 61,
+      "wall": "k",
+      "deck": "T",
+      "deck_exponents": [
+        1,
+        0
+      ],
+      "projective_sign": 1,
+      "relabel_index": 21,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-1",
+          "30",
+          "90"
+        ],
+        [
+          "0",
+          "-8",
+          "-21"
+        ],
+        [
+          "0",
+          "3",
+          "8"
+        ]
+      ],
+      "source_segment": [
+        61,
+        3
+      ],
+      "factor": "3*r - 1"
+    },
+    {
+      "id": 118,
+      "primal_endpoints": [
+        60,
+        41
+      ],
+      "primal_kind": "DECK-FIXED-MIRROR",
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 38,
+      "target": 38,
+      "wall": null,
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": 1,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 119,
+      "primal_endpoints": [
+        41,
+        50
+      ],
+      "primal_kind": "DECK-FIXED-MIRROR",
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 48,
+      "target": 48,
+      "wall": null,
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": 1,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "id": 120,
+      "primal_endpoints": [
+        60,
+        43
+      ],
+      "primal_kind": "DECK-FIXED-MIRROR",
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 49,
+      "target": 49,
+      "wall": null,
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": 1,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 121,
+      "primal_endpoints": [
+        54,
+        47
+      ],
+      "primal_kind": "DECK-FIXED-MIRROR",
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 53,
+      "target": 53,
+      "wall": null,
+      "deck": "T",
+      "deck_exponents": [
+        1,
+        0
+      ],
+      "projective_sign": 1,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-1",
+          "30",
+          "90"
+        ],
+        [
+          "0",
+          "-8",
+          "-21"
+        ],
+        [
+          "0",
+          "3",
+          "8"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "0",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "id": 122,
+      "primal_endpoints": [
+        61,
+        50
+      ],
+      "primal_kind": "DECK-FIXED-MIRROR",
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 56,
+      "target": 56,
+      "wall": null,
+      "deck": "U",
+      "deck_exponents": [
+        0,
+        1
+      ],
+      "projective_sign": 1,
+      "binet_transport": -1,
+      "ad_transport": [
+        [
+          "-11",
+          "-30",
+          "30"
+        ],
+        [
+          "3",
+          "8",
+          "-9"
+        ],
+        [
+          "-1",
+          "-3",
+          "2"
+        ]
+      ],
+      "field_matrix": [
+        [
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "arrow_counts": {
+    "MULTIWALL-ISOTROPY": 16,
+    "ORDINARY-CROSSING": 102,
+    "DECK-MIRROR-ISOTROPY": 5
+  },
+  "base_soQ_basis": [
+    [
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "7",
+        "0",
+        "2"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "0",
+        "4",
+        "0"
+      ],
+      [
+        "30",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    [
+      [
+        "-2",
+        "0",
+        "8"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "7",
+        "0",
+        "2"
+      ]
+    ]
+  ],
+  "deck_ad": {
+    "I": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "T": [
+      [
+        "-1",
+        "30",
+        "90"
+      ],
+      [
+        "0",
+        "-8",
+        "-21"
+      ],
+      [
+        "0",
+        "3",
+        "8"
+      ]
+    ],
+    "U": [
+      [
+        "-11",
+        "-30",
+        "30"
+      ],
+      [
+        "3",
+        "8",
+        "-9"
+      ],
+      [
+        "-1",
+        "-3",
+        "2"
+      ]
+    ],
+    "TU": [
+      [
+        "11",
+        "0",
+        "-120"
+      ],
+      [
+        "-3",
+        "-1",
+        "30"
+      ],
+      [
+        "1",
+        "0",
+        "-11"
+      ]
+    ]
+  },
+  "d0_unrestricted_ranks": {
+    "Binet": 62,
+    "Ad": 186
+  },
+  "local_relation_diagnostics": [
+    {
+      "vertex": 0,
+      "edges": [
+        2,
+        3,
+        5,
+        9,
+        12,
+        18
+      ],
+      "faces": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 1,
+      "edges": [
+        0,
+        3,
+        4
+      ],
+      "faces": [
+        0,
+        1
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 2,
+      "edges": [
+        1,
+        2,
+        8
+      ],
+      "faces": [
+        0,
+        2,
+        3
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 3,
+      "edges": [
+        0,
+        1,
+        7,
+        13
+      ],
+      "faces": [
+        0,
+        2,
+        6
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 4,
+      "edges": [
+        5,
+        6,
+        11
+      ],
+      "faces": [
+        1,
+        4,
+        5
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 5,
+      "edges": [
+        4,
+        6,
+        10,
+        19
+      ],
+      "faces": [
+        1,
+        4,
+        8
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 6,
+      "edges": [
+        7,
+        8,
+        9,
+        15,
+        16,
+        29
+      ],
+      "faces": [
+        2,
+        3,
+        6,
+        7,
+        11,
+        13
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 7,
+      "edges": [
+        10,
+        11,
+        12,
+        20,
+        23,
+        36
+      ],
+      "faces": [
+        4,
+        5,
+        8,
+        9,
+        15,
+        17
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 8,
+      "edges": [
+        14,
+        15,
+        25,
+        26,
+        44,
+        46
+      ],
+      "faces": [
+        6,
+        10,
+        11,
+        19,
+        20,
+        29
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 9,
+      "edges": [
+        13,
+        14,
+        24,
+        41
+      ],
+      "faces": [
+        6,
+        10,
+        18
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 10,
+      "edges": [
+        17,
+        18,
+        22,
+        31,
+        39,
+        52
+      ],
+      "faces": [
+        7,
+        9,
+        12,
+        16,
+        23,
+        28
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 11,
+      "edges": [
+        16,
+        17,
+        30
+      ],
+      "faces": [
+        7,
+        12,
+        13
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 12,
+      "edges": [
+        20,
+        21,
+        34,
+        37,
+        55,
+        57
+      ],
+      "faces": [
+        8,
+        14,
+        15,
+        25,
+        26,
+        36
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 13,
+      "edges": [
+        19,
+        21,
+        33
+      ],
+      "faces": [
+        8,
+        14
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 14,
+      "edges": [
+        22,
+        23,
+        38
+      ],
+      "faces": [
+        9,
+        16,
+        17
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 15,
+      "edges": [
+        24,
+        25,
+        43
+      ],
+      "faces": [
+        10,
+        18,
+        19
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 16,
+      "edges": [
+        28,
+        29,
+        32
+      ],
+      "faces": [
+        11,
+        13,
+        21
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 17,
+      "edges": [
+        26,
+        27,
+        45
+      ],
+      "faces": [
+        11,
+        20,
+        22
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 18,
+      "edges": [
+        27,
+        28,
+        48,
+        49,
+        65,
+        69
+      ],
+      "faces": [
+        11,
+        21,
+        22,
+        31,
+        32,
+        42
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 19,
+      "edges": [
+        30,
+        31,
+        32,
+        48,
+        50,
+        67
+      ],
+      "faces": [
+        12,
+        13,
+        21,
+        23,
+        31,
+        33
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 20,
+      "edges": [
+        34,
+        35,
+        54
+      ],
+      "faces": [
+        14,
+        24,
+        25
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 21,
+      "edges": [
+        33,
+        35,
+        53,
+        73
+      ],
+      "faces": [
+        14,
+        24,
+        35
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 22,
+      "edges": [
+        36,
+        37,
+        38,
+        40,
+        56,
+        58
+      ],
+      "faces": [
+        15,
+        16,
+        17,
+        26,
+        27,
+        37
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 23,
+      "edges": [
+        39,
+        40,
+        59,
+        61,
+        80,
+        82
+      ],
+      "faces": [
+        16,
+        27,
+        28,
+        38,
+        39,
+        49
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 24,
+      "edges": [
+        42,
+        43,
+        44,
+        62
+      ],
+      "faces": [
+        18,
+        19,
+        29
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 25,
+      "edges": [
+        41,
+        42
+      ],
+      "faces": [
+        18
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 26,
+      "edges": [
+        46,
+        47,
+        63
+      ],
+      "faces": [
+        20,
+        29,
+        30
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 27,
+      "edges": [
+        45,
+        47,
+        49,
+        64,
+        68,
+        85
+      ],
+      "faces": [
+        20,
+        22,
+        30,
+        32,
+        40,
+        43
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 28,
+      "edges": [
+        51,
+        52,
+        60
+      ],
+      "faces": [
+        23,
+        28,
+        34
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 29,
+      "edges": [
+        50,
+        51,
+        70,
+        71,
+        92,
+        93
+      ],
+      "faces": [
+        23,
+        33,
+        34,
+        44,
+        45,
+        54
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 30,
+      "edges": [
+        53,
+        54,
+        55,
+        74,
+        78,
+        95
+      ],
+      "faces": [
+        24,
+        25,
+        35,
+        36,
+        46,
+        47
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 31,
+      "edges": [
+        56,
+        57,
+        76
+      ],
+      "faces": [
+        26,
+        36,
+        37
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 32,
+      "edges": [
+        58,
+        59,
+        79
+      ],
+      "faces": [
+        27,
+        37,
+        38
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 33,
+      "edges": [
+        60,
+        61,
+        72,
+        81
+      ],
+      "faces": [
+        28,
+        34,
+        39
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 34,
+      "edges": [
+        62,
+        63,
+        64,
+        83
+      ],
+      "faces": [
+        29,
+        30,
+        40
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 35,
+      "edges": [
+        66,
+        67,
+        70,
+        88,
+        90,
+        103
+      ],
+      "faces": [
+        31,
+        33,
+        41,
+        44,
+        51,
+        53
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 36,
+      "edges": [
+        65,
+        66,
+        86
+      ],
+      "faces": [
+        31,
+        41,
+        42
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 37,
+      "edges": [
+        68,
+        69,
+        86,
+        87,
+        89,
+        100
+      ],
+      "faces": [
+        32,
+        41,
+        42,
+        43,
+        50,
+        52
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 38,
+      "edges": [
+        71,
+        72,
+        94,
+        107
+      ],
+      "faces": [
+        34,
+        45,
+        55
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 39,
+      "edges": [
+        74,
+        75,
+        96,
+        108
+      ],
+      "faces": [
+        35,
+        46,
+        56
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 40,
+      "edges": [
+        73,
+        75
+      ],
+      "faces": [
+        35
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 41,
+      "edges": [
+        76,
+        77,
+        79,
+        118,
+        119
+      ],
+      "faces": [
+        36,
+        37,
+        38,
+        48
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 42,
+      "edges": [
+        77,
+        78,
+        97
+      ],
+      "faces": [
+        36,
+        47,
+        48
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 43,
+      "edges": [
+        81,
+        82,
+        120
+      ],
+      "faces": [
+        39,
+        49
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 44,
+      "edges": [
+        84,
+        85,
+        89
+      ],
+      "faces": [
+        40,
+        43,
+        50
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 45,
+      "edges": [
+        83,
+        84,
+        98,
+        111
+      ],
+      "faces": [
+        40,
+        50,
+        58
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 46,
+      "edges": [
+        87,
+        88,
+        101,
+        104,
+        110,
+        113
+      ],
+      "faces": [
+        41,
+        51,
+        52,
+        57,
+        59,
+        60
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 47,
+      "edges": [
+        90,
+        91,
+        121
+      ],
+      "faces": [
+        44,
+        53
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 48,
+      "edges": [
+        91,
+        92,
+        105,
+        106
+      ],
+      "faces": [
+        44,
+        54,
+        55
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 49,
+      "edges": [
+        93,
+        94,
+        105
+      ],
+      "faces": [
+        45,
+        54,
+        55
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 50,
+      "edges": [
+        95,
+        96,
+        97,
+        119,
+        122
+      ],
+      "faces": [
+        46,
+        47,
+        48,
+        56
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 51,
+      "edges": [
+        99,
+        100,
+        104
+      ],
+      "faces": [
+        50,
+        52,
+        57
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 52,
+      "edges": [
+        98,
+        99,
+        109,
+        112
+      ],
+      "faces": [
+        50,
+        57,
+        58
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 53,
+      "edges": [
+        101,
+        102,
+        114,
+        117
+      ],
+      "faces": [
+        51,
+        59,
+        61
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 54,
+      "edges": [
+        102,
+        103,
+        121
+      ],
+      "faces": [
+        51,
+        53
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 55,
+      "edges": [
+        106,
+        107
+      ],
+      "faces": [
+        55
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 56,
+      "edges": [
+        109,
+        110,
+        115,
+        116
+      ],
+      "faces": [
+        57,
+        60,
+        61
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 57,
+      "edges": [
+        111,
+        112
+      ],
+      "faces": [
+        58
+      ],
+      "binet_local_relation_dim_unrestricted": 2,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 58,
+      "edges": [
+        113,
+        114,
+        115
+      ],
+      "faces": [
+        59,
+        60,
+        61
+      ],
+      "binet_local_relation_dim_unrestricted": 0,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 59,
+      "edges": [
+        116,
+        117
+      ],
+      "faces": [
+        61
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    },
+    {
+      "vertex": 60,
+      "edges": [
+        80,
+        118,
+        120
+      ],
+      "faces": [
+        38,
+        49
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 4
+    },
+    {
+      "vertex": 61,
+      "edges": [
+        108,
+        122
+      ],
+      "faces": [
+        56
+      ],
+      "binet_local_relation_dim_unrestricted": 1,
+      "ad_local_relation_dim_unrestricted": 3
+    }
+  ],
+  "guards": [
+    "unrestricted d0 is diagnostic only until stabilizer/orientation modules are imposed",
+    "H1/H2 forbidden"
+  ]
+}

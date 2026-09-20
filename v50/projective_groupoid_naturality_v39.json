@@ -1,0 +1,182 @@
+{
+  "version": "v39",
+  "carrier": "P_k^+ = M_3(Z/(2*3^k))/U_k^+, U_k^+={u unit: u=1 mod 3}",
+  "historical_groupoid": "15-edge finite witness sub-groupoid materialized in v34, acting by integer conjugation A -> M A M^{-1}",
+  "theorem": {
+    "scalar_orbit_well_defined": "PROVEN: U_k^+ consists of central scalars, hence Ad_M(uA)=u Ad_M(A).",
+    "bracket_naturality": "PROVEN: Ad_M([A,B])=[Ad_M(A),Ad_M(B)] for every unimodular groupoid edge.",
+    "tower_naturality": "PROVEN: reduction k+1 -> k commutes with integer conjugation.",
+    "mod2_shadow_naturality": "PROVEN: parity reduction commutes with the same conjugation action."
+  },
+  "edge_count": 15,
+  "edge_records": [
+    {
+      "source": "R0",
+      "target": "R1",
+      "label": "R1",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R1",
+      "target": "R2",
+      "label": "R2",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R2",
+      "target": "R3",
+      "label": "R3",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R3",
+      "target": "R4",
+      "label": "R4",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R4",
+      "target": "R5",
+      "label": "R5",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "S0",
+      "target": "S1",
+      "label": "S1p",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "S1",
+      "target": "S2",
+      "label": "S2p",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "S2",
+      "target": "S3",
+      "label": "S3p",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "K0",
+      "target": "K1",
+      "label": "v29_S1",
+      "det": -1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "K1",
+      "target": "K2",
+      "label": "v29_S2",
+      "det": -1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "K2",
+      "target": "K3",
+      "label": "v29_S1",
+      "det": -1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "K3",
+      "target": "K4",
+      "label": "v29_S2",
+      "det": -1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R0",
+      "target": "P1",
+      "label": "P",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": false,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "R0",
+      "target": "Q1",
+      "label": "Q",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": false,
+      "matrix_units_mod2_preserved_as_set": true,
+      "all_projective_naturality_checks": true
+    },
+    {
+      "source": "K0",
+      "target": "K4",
+      "label": "kappa_12_deck",
+      "det": 1,
+      "J_line_image": "OTHER",
+      "J_mod2_fixed": true,
+      "matrix_units_mod2_preserved_as_set": true,
+      "all_projective_naturality_checks": true
+    }
+  ],
+  "pointed_chart_no_go": {
+    "matrix_unit_set_preserved_mod2_edge_count": 2,
+    "matrix_unit_set_preserved_mod2_edges": [
+      "Q",
+      "kappa_12_deck"
+    ],
+    "matrix_unit_set_not_preserved_edge_count": 13,
+    "constant_J_line_preserved_integrally_edge_count": 0,
+    "constant_J_line_preserved_integrally_edges": [],
+    "Jbar_fixed_mod2_edge_count": 1,
+    "Jbar_fixed_mod2_edges": [
+      "kappa_12_deck"
+    ],
+    "decision": "FULL_PROJECTIVE_CARRIER_NATURAL; POINTED_NINE_MATRIX_UNIT_CHART_AND_CONSTANT_J_DIRECTION_NOT_NATURAL_UNDER_FULL_WITNESS_GROUPOID"
+  },
+  "orientation": "NT: the groupoid transports the carrier but does not provide a canonical globally fixed Thomas-Wigner J direction or Lorentz orientation.",
+  "roof": "REFUTED/PENDING as before: the row-major roof nine-address is not a natural full-groupoid matrix-unit chart, independently of the earlier reversal-vs-transpose cycle-type no-go.",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM"
+}
