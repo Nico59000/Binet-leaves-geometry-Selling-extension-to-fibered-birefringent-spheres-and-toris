@@ -1,0 +1,53 @@
+{
+  "version": "v48",
+  "target": "CHIRES_14 = R3b_123",
+  "exact_group_ball_radius3": {
+    "size": 1376,
+    "depth_profile": {
+      "0": 1,
+      "1": 15,
+      "2": 147,
+      "3": 1213
+    }
+  },
+  "finite_quotient": {
+    "name": "Gamma_3(2) mod Gamma_3(4)",
+    "model": "I+2A mod 4",
+    "group_size": 512,
+    "isomorphic_additively_to": "(Z/2)^9"
+  },
+  "radius3_image_in_mod4": {
+    "distinct_group_elements": 130
+  },
+  "bounded_mod4_Fox_matrix": {
+    "rows": 3624,
+    "columns": 5590
+  },
+  "dual_certificate": {
+    "nonzero_boundary_rows": 127,
+    "denominator": "1",
+    "coefficient_range": "integers in [-3,4]",
+    "identity": "y^T D_mod4 = l_CHIRES14 exactly over Q",
+    "certificate_file": "gamma3_radius3_mod4_dual_certificate_v48.json"
+  },
+  "logical_implication": "Any exact radius<=3 group-ring Fox cycle maps to a radius<=3 mod4 quotient cycle. The exact dual identity forces its chi-weighted R3b_123 amplitude to zero. Therefore CHIRES_14 cannot be lifted exactly with coefficient-support radius <=3.",
+  "radius3_lift_status": "REFUTED-TYPED / BOUNDED-NO-GO",
+  "minimal_radius_if_lift_exists": ">=4",
+  "retained_radius2_lifts": [
+    "R2PURE_01",
+    "R2PURE_02",
+    "R2PURE_03",
+    "R2PURE_04",
+    "R2PURE_05",
+    "R2PURE_06",
+    "R2PURE_07",
+    "R2PURE_08",
+    "R2PURE_09",
+    "R2PURE_10",
+    "R2PURE_11",
+    "R2PURE_12",
+    "R2PURE_13"
+  ],
+  "complete_identity_module": "NT",
+  "status": "PROVEN-EXACT-RADIUS3-NO-GO-VIA-FINITE-QUOTIENT-DUAL-CERTIFICATE"
+}

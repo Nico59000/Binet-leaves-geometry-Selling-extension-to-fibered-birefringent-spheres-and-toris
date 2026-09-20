@@ -1,0 +1,81 @@
+{
+  "version": "v43",
+  "v42_second_syzygies": 6,
+  "new_length1_second_syzygies": 12,
+  "total_order_two_second_syzygies": 18,
+  "new": [
+    {
+      "id": "Z5L1_1",
+      "four_cell": "Z4L1_1",
+      "boundary_formula": "(1+gL1_1) fL1_1",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_2",
+      "four_cell": "Z4L1_2",
+      "boundary_formula": "(1+gL1_2) fL1_2",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_3",
+      "four_cell": "Z4L1_3",
+      "boundary_formula": "(1+gL1_3) fL1_3",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_4",
+      "four_cell": "Z4L1_4",
+      "boundary_formula": "(1+gL1_4) fL1_4",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_5",
+      "four_cell": "Z4L1_5",
+      "boundary_formula": "(1+gL1_5) fL1_5",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_6",
+      "four_cell": "Z4L1_6",
+      "boundary_formula": "(1+gL1_6) fL1_6",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_7",
+      "four_cell": "Z4L1_7",
+      "boundary_formula": "(1+gL1_7) fL1_7",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_8",
+      "four_cell": "Z4L1_8",
+      "boundary_formula": "(1+gL1_8) fL1_8",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_9",
+      "four_cell": "Z4L1_9",
+      "boundary_formula": "(1+gL1_9) fL1_9",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_10",
+      "four_cell": "Z4L1_10",
+      "boundary_formula": "(1+gL1_10) fL1_10",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_11",
+      "four_cell": "Z4L1_11",
+      "boundary_formula": "(1+gL1_11) fL1_11",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    },
+    {
+      "id": "Z5L1_12",
+      "four_cell": "Z4L1_12",
+      "boundary_formula": "(1+gL1_12) fL1_12",
+      "status": "PROVEN_SECOND_SYZYGY_IN_EXTENDED_COMPLEX"
+    }
+  ],
+  "complete_5cell_module": "NT"
+}

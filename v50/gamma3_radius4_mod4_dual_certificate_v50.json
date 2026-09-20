@@ -1,0 +1,6750 @@
+{
+  "version": "v50",
+  "status": "PROVEN_EXACT_FINITE_QUOTIENT_DUAL",
+  "source_relative_complex": "gamma3_level2_relative_3cells_v36.json",
+  "target_relator": "R3b_123",
+  "target_alias": "CHIRES_14",
+  "quotient": "Gamma_3(2) -> image modulo 4",
+  "support_radius": 4,
+  "exact_ball_size": 10640,
+  "radius4_image_mod4_size": 256,
+  "matrix_shape": [
+    4424,
+    11008
+  ],
+  "matrix_nnz": 50688,
+  "critical_character": {
+    "generator_order": [
+      "E12",
+      "E13",
+      "E21",
+      "E23",
+      "E31",
+      "E32",
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "bits": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  "dual_denominator": 2,
+  "dual_term_count": 319,
+  "dual_terms": [
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -6
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E12",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E13",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -5
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -1
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E21",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E23",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -6
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 1
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E31",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -6
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -1
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -6
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": -6
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 4
+    },
+    {
+      "generator": "E32",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": -2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    },
+    {
+      "generator": "F1",
+      "group_mod4": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "coefficient_numerator_over_2": 2
+    }
+  ],
+  "identity": "y^T D_4 = l_14 exactly over Q, stored as (2y)^T D_4 = 2 l_14 over Z",
+  "decision": {
+    "CHIRES_14_lift_supported_in_radius_le_4": "REFUTED-TYPED_BOUNDED-NO-GO",
+    "minimum_radius_if_any": ">=5",
+    "complete_global_resolution": "NT"
+  },
+  "guard": "The numerical LP was discovery only. Publication depends exclusively on the deterministic exact integer identity verified from semantic quotient-row keys. This does not prove nonexistence beyond radius four."
+}
