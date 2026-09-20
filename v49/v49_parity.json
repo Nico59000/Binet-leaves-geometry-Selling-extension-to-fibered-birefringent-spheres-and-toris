@@ -1,0 +1,10 @@
+{
+  "version": "v49",
+  "status": "PASS",
+  "renderer": "pdftoppm 60 dpi",
+  "pages_compared": 258,
+  "preseal_pdf_sha256": "a7618da16155da2239041ccbe58b74af51dde41fcc01a6a966dcdfd5ca42a53d",
+  "canonical_pdf_sha256": "491a2be9b3722565e52c4c89641df2c5516862fc10616cb21dda788a4c5c8c8b",
+  "all_rendered_pages_pixel_identical": true,
+  "canonicalizer_repeat_byte_identical": true
+}

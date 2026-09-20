@@ -1,0 +1,32 @@
+{
+  "version": "v47",
+  "status": "PROVEN_SOURCE_ROUTE_SEMANTICS / RASTER_BINDING_NT",
+  "routes": {
+    "P": {
+      "source_description": "lower-right external boundary route",
+      "source_status": "PROVEN",
+      "raster_polyline": null
+    },
+    "Q": {
+      "source_description": "extreme-right external boundary route, traversed from lower to upper endpoint",
+      "source_status": "PROVEN",
+      "raster_polyline": null
+    },
+    "R": {
+      "source_description": "leftward external boundary route interpreted after crossing/doubling across a symmetry axis",
+      "source_status": "PROVEN",
+      "raster_polyline": null
+    },
+    "S": {
+      "source_description": "analogous doubled leftward external boundary route",
+      "source_status": "PROVEN",
+      "raster_polyline": null
+    }
+  },
+  "relations": {
+    "T": "P R P^-1",
+    "U": "Q S Q^-1",
+    "TU_equals_UT": "PROVEN_SOURCE_RELATION"
+  },
+  "decision": "SEMANTIC ROUTE ANCHORS ARE SOURCE-CERTIFIED, BUT NO P/Q/R/S LABEL IS YET ATTACHED TO A MACHINE-READABLE FIG.1 ARC."
+}

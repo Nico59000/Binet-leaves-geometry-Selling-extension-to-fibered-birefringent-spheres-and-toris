@@ -1,0 +1,38 @@
+{
+  "version": "v46",
+  "table_sizes": {
+    "C0": 136,
+    "C1": 105,
+    "C2": 34
+  },
+  "missing": {
+    "historical_node_assignments": 136,
+    "historical_segment_assignments": 105,
+    "historical_field_assignments": 34,
+    "ordered_boundary_cycles": 34,
+    "repetition_pairs": 34,
+    "stabilizer_words": 34
+  },
+  "axis_model_update": "DIRECT_DAX_TO_HAX_6-SUBSET_REFUTED-TYPED; CURVED/STITCHED_HAX_TRANSCRIPTION_NEEDED",
+  "historical_reflections": 0,
+  "C2_89_census": "NOT_ACTIVATED_FAIL_CLOSED",
+  "d0": "NOT_FORMED",
+  "d1": "NOT_FORMED",
+  "d1d0_test": "NOT_FORMED",
+  "face_holonomy_stabilizer_test": "NOT_FORMED",
+  "F29_object_edge_face_functor": "PENDING-MORPHISM",
+  "H1_hist": "NT_NOT_RECOMPUTED",
+  "H2_hist": "NT_NOT_RECOMPUTED",
+  "next_required_source_data": [
+    "transcribe the six fourfold centre marks directly from the source plate",
+    "for each centre, identify the two dotted symmetry-axis branches crossing there and preserve the right-angle incidence",
+    "stitch local dotted fragments through consecutive certified centres into six HAX_i curves",
+    "attach boundary letters (vanishing variables) to the six external branches",
+    "attach the P,Q,R,S external-boundary routes from the historical text to the certified boundary arcs",
+    "only then derive reflection involutions and act on the 136-node/105-edge diagnostic carrier",
+    "historically type all 136 C0 nodes after axis/centre anchors are fixed",
+    "historically type/orient all 105 C1 arcs and attach their substitution matrices",
+    "serialize every one of the 34 C2 ordered boundary cycles, repetition targets, and stabilizer words"
+  ],
+  "decision": "HISTORICAL_COMPLEX_NOT_TOTAL; D0_D1_AND_H1_H2_REMAIN_FAIL_CLOSED"
+}

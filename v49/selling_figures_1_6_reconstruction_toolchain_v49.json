@@ -1,0 +1,43 @@
+{
+  "version": "v49",
+  "goal": "Reconstruct Selling Figs.1-6 by Selling construction rather than by tracing the printed raster.",
+  "toolchain": [
+    {
+      "tool": "source-transcription registry",
+      "artifact": "selling_figure_recipe_registry_v49.json",
+      "role": "figure-specific seed forms, symmetry data, external macro substitutions and source page anchors"
+    },
+    {
+      "tool": "algebraic constructor",
+      "artifact": "selling_reconstruction_engine_v49.py",
+      "role": "exact Qplus, homogeneous coefficients/conorms, reduction test, wall detection, adjacent transformations, canonical marked-form comparison"
+    },
+    {
+      "tool": "feasibility/crossing solver",
+      "status": "NEXT-IMPLEMENTATION",
+      "role": "solve Selling sign/product/reduced-binary-form tests for the next crossing on each boundary branch"
+    },
+    {
+      "tool": "field BFS / repetition quotient",
+      "status": "SCHEMA-READY",
+      "role": "develop fields until all new fields repeat source-numerically and record stabilizer words"
+    },
+    {
+      "tool": "adjoint-division builder",
+      "status": "SCHEMA-READY",
+      "role": "reuse common crossing set and local interleaving rule to construct adjoint boundaries"
+    },
+    {
+      "tool": "raster validator",
+      "status": "SECONDARY-ONLY",
+      "role": "register generated HC/HAX/walls against Tafel III; never supplies missing combinatorics"
+    },
+    {
+      "tool": "cohomology compiler",
+      "artifact": "selling_reconstruction_to_H12_contract_v49.json",
+      "role": "emit total C0/C1/C2, d0,d1, exact d1d0 check and H1/H2"
+    }
+  ],
+  "functional_conclusion": "YES_IN_PRINCIPLE_AND_PARTIALLY_IMPLEMENTED: the historical construction algorithm supplies exactly the data types missing from the raster-first pipeline. Full H1/H2 becomes a deterministic downstream computation once the finite reconstructed field complex closes.",
+  "current_bottleneck": "source-exact transcription/implementation of the branch-feasibility tests and exact figure-specific initial data, not image resolution."
+}

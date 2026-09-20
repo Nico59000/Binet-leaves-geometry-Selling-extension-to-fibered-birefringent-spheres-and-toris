@@ -1,0 +1,27 @@
+{
+  "primary_source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e série 3 (1877), pp.153-206, Numdam.",
+  "Q0_branch": "declared figure-1 historical branch inherited from v30-v35",
+  "source_exact_constraints": [
+    "fig.1 is a field division for an integral class/invariant example; only finite-extent fields are inscribed",
+    "the six external boundary lines are bipartite symmetry axes and their six intersection points are quadripartite symmetry centres",
+    "every field boundary line starts/ends at fissure points and passes through one or more crossings; the final boundary reconnects to the first",
+    "the A/a territory construction contains a closed alternating six-sided boundary in the cited example",
+    "after sufficiently far development, all new forms numerically repeat earlier forms, and each repeated field determines a self-transformation",
+    "self-transformations are generated from local symmetries together with finitely many external-boundary substitutions P,Q,R,S"
+  ],
+  "three_distinct_C6_carriers_guard": {
+    "outer_mirror_skeleton": "six external symmetry lines / six quadripartite intersections",
+    "local_crossing": "six local fields at a triple-line crossing, already audited in v5/v28",
+    "Aa_territory_hexagon": "alternating A/a territory-boundary hexagon",
+    "decision": "SEPARATED: equal cardinality C6 does not identify the three incidences."
+  },
+  "presentation_orbifold": {
+    "group": "W(C6) on a-h-g-b-u-t-a from v34 exact transformation relations",
+    "status": "PROVEN_FOR_TRANSFORMATION_BRANCH"
+  },
+  "field_incidence": {
+    "status": "NT_PENDING_EXACT_PLATE_TRANSCRIPTION",
+    "reason": "the prose fixes boundary/symmetry/repetition constraints but does not enumerate every bounded field, edge, crossing, fissure and repeated-field identification of the plate in machine-readable form; the transformation presentation alone does not determine that microscopic cell decomposition."
+  },
+  "no_silent_identification": "F_Sell^field(Q0) is not identified with the W(C6) presentation orbifold or with F29_can."
+}

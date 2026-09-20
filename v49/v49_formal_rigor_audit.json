@@ -1,0 +1,20 @@
+{
+  "version": "v49",
+  "status": "PASS",
+  "typed_separations": {
+    "FULL_FIG1_NUMERICAL_RECONSTRUCTION": "NT",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "HC_HAX_raster_binding": "NT_PENDING_CONSTRUCTIVE_COMPILE",
+    "C2_D89": "NOT_ACTIVATED_FAIL_CLOSED",
+    "CHIRES14_radius4": "NT_OPEN",
+    "v48_dual_extension_to_radius4": "REFUTED-TYPED",
+    "R2PURE_13_critical_shadow_independence": "PROVEN",
+    "R_module_relations_annihilators": "NT",
+    "R5_Gamma3_incidence_adapter": "REFUTED-TYPED_RETAINED",
+    "roof_reversal_transposition": "REFUTED-TYPED_RETAINED",
+    "Singer_injection_physical_phase": "SEPARATED/PENDING-MORPHISM_RETAINED",
+    "Lorentz_orientation": "NT_RETAINED"
+  },
+  "latex_overfull_count": 0,
+  "verifier": "PASS_8246_OF_8246"
+}

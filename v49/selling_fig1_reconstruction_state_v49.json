@@ -1,0 +1,161 @@
+{
+  "version": "v49",
+  "generated_during_final_seal": true,
+  "status": "PARTIAL-SEED-PROVEN / FULL-FIG1-NUMERICAL-RECONSTRUCTION-NT",
+  "fig1_seed": {
+    "figure": "Fig.1",
+    "invariant": 60,
+    "Q0": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "P": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Q": [
+      [
+        2,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        8
+      ]
+    ],
+    "R": [
+      [
+        -4,
+        0,
+        5
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -3,
+        0,
+        4
+      ]
+    ],
+    "S": [
+      [
+        -2,
+        1,
+        0
+      ],
+      [
+        -3,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "T": [
+      [
+        -13,
+        3,
+        5
+      ],
+      [
+        -36,
+        8,
+        15
+      ],
+      [
+        -12,
+        3,
+        4
+      ]
+    ],
+    "U": [
+      [
+        -17,
+        2,
+        10
+      ],
+      [
+        -24,
+        2,
+        15
+      ],
+      [
+        -24,
+        3,
+        14
+      ]
+    ],
+    "checks": {
+      "det_Q0": 60,
+      "det_P": 1,
+      "det_Q": 1,
+      "det_R": 1,
+      "det_S": 1,
+      "T_stabilizes_Q0": true,
+      "U_stabilizes_Q0": true,
+      "TU_commute": true
+    }
+  },
+  "historical_complex_schema": {
+    "C0_vertices": [],
+    "C1_oriented_boundary_arcs": [],
+    "C2_fields": [],
+    "ordered_boundary_cycles": {},
+    "repetition_identifications": {},
+    "stabilizer_words": {},
+    "Binet_sign_transports": {},
+    "Ad_transports": {},
+    "guards": [
+      "A field/edge/vertex is historical only after source construction or source-pointed validation.",
+      "Raster morphology alone never promotes a historical cell.",
+      "H1/H2 are forbidden until every C2 boundary is ordered and d1*d0=0 is exact."
+    ]
+  },
+  "missing": [
+    "source-exact branch-feasibility tests",
+    "complete ordered wall-letter routes",
+    "closure by repetition"
+  ],
+  "HC_i": "NT/PENDING-CONSTRUCTIVE-FIG1-COMPILE",
+  "HAX_i": "NT/PENDING-CONSTRUCTIVE-FIG1-COMPILE",
+  "historical_H1_H2": "NT"
+}
