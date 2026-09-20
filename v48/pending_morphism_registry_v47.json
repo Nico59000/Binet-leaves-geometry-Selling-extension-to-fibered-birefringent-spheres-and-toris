@@ -1,0 +1,95 @@
+{
+  "version": "v47",
+  "items": [
+    {
+      "id": "V47-01",
+      "object": "historical abstract HC/HAX carrier",
+      "status": "PROVEN_SOURCE_SEMANTIC_C6"
+    },
+    {
+      "id": "V47-02",
+      "object": "DAX-only center-to-center stitching",
+      "status": "REFUTED-TYPED_FOR_CURRENT_TRACE_GRAPH_NO_C6"
+    },
+    {
+      "id": "V47-03",
+      "object": "direct source-plate HC/HAX raster transcription",
+      "status": "NT/PENDING-SOURCE-PLATE-TRANSCRIPTION"
+    },
+    {
+      "id": "V47-04",
+      "object": "P,Q,R,S route semantics",
+      "status": "PROVEN_SOURCE_TEXT / RASTER_BINDING_NT"
+    },
+    {
+      "id": "V47-05",
+      "object": "89-node historical C2 action",
+      "status": "NT_NOT_ACTIVATED_FAIL_CLOSED"
+    },
+    {
+      "id": "V47-06",
+      "object": "historical C0/C1/C2 totalization",
+      "status": "NT"
+    },
+    {
+      "id": "V47-07",
+      "object": "F_Sell_field -> F29_can",
+      "status": "PENDING-MORPHISM"
+    },
+    {
+      "id": "V47-08",
+      "object": "historical H1/H2",
+      "status": "NT_NOT_RECOMPUTED"
+    },
+    {
+      "id": "V47-09",
+      "object": "13 exact radius-two residual lifts",
+      "status": "PROVEN_EXACT_FOX_CYCLES_MINIMAL_RADIUS_2"
+    },
+    {
+      "id": "V47-10",
+      "object": "CHIRES_14 = R3b_123 radius<=2 lift",
+      "status": "REFUTED-TYPED/BOUNDED-NO-GO"
+    },
+    {
+      "id": "V47-11",
+      "object": "full R-module structure after adding 13 cycles",
+      "status": "NT"
+    },
+    {
+      "id": "V47-12",
+      "object": "complete Gamma3 group-ring resolution",
+      "status": "NT; ONE CHARACTER DIRECTION REMAINS AT RADIUS>=3"
+    },
+    {
+      "id": "V47-13",
+      "object": "strict R5-Gamma incidence adapter",
+      "status": "REFUTED-TYPED_RETAINED"
+    },
+    {
+      "id": "V47-14",
+      "object": "Singer odd injection",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    },
+    {
+      "id": "V47-15",
+      "object": "MXM^-1 covariant use",
+      "status": "OPPOSITE_VARIANCE_RETAINED"
+    },
+    {
+      "id": "V47-16",
+      "object": "roof reversal = transpose",
+      "status": "REFUTED-TYPED_RETAINED"
+    },
+    {
+      "id": "V47-17",
+      "object": "Lorentz orientation",
+      "status": "NT"
+    },
+    {
+      "id": "V47-18",
+      "object": "physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    }
+  ]
+}

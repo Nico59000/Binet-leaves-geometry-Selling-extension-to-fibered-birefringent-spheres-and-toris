@@ -1,0 +1,192 @@
+{
+  "version": "v47",
+  "character": {
+    "E12": 1,
+    "E13": 1,
+    "E21": 1,
+    "E23": 1,
+    "E31": 1,
+    "E32": 1,
+    "F1": -1,
+    "F2": -1,
+    "F3": -1
+  },
+  "radius2_ball": {
+    "unique_group_elements": 163,
+    "depth_profile": {
+      "0": 1,
+      "1": 15,
+      "2": 147
+    }
+  },
+  "exact_boundary": {
+    "rows": 13690,
+    "columns": 7009,
+    "rank_Q": 5430,
+    "kernel_dimension": 1579,
+    "kernel_basis_rows": 1579
+  },
+  "v46_residual_quotient_dimension": 14,
+  "residual_image_dimension_of_exact_radius2_kernel_mod_M43": 13,
+  "residual_annihilator_relation": {
+    "coordinates": [
+      "CHIRES_01",
+      "CHIRES_02",
+      "CHIRES_03",
+      "CHIRES_04",
+      "CHIRES_05",
+      "CHIRES_06",
+      "CHIRES_07",
+      "CHIRES_08",
+      "CHIRES_09",
+      "CHIRES_10",
+      "CHIRES_11",
+      "CHIRES_12",
+      "CHIRES_13",
+      "CHIRES_14"
+    ],
+    "primitive_relation": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "interpretation": "CHIRES_14 coordinate is zero on every exact radius<=2 cycle modulo M43 shadow"
+  },
+  "pure_exact_lifts": [
+    {
+      "lift_id": "R2PURE_01",
+      "target": "CHIRES_01",
+      "term_count": 28,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_02",
+      "target": "CHIRES_02",
+      "term_count": 8,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_03",
+      "target": "CHIRES_03",
+      "term_count": 8,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_04",
+      "target": "CHIRES_04",
+      "term_count": 8,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_05",
+      "target": "CHIRES_05",
+      "term_count": 30,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_06",
+      "target": "CHIRES_06",
+      "term_count": 8,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_07",
+      "target": "CHIRES_07",
+      "term_count": 50,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_08",
+      "target": "CHIRES_08",
+      "term_count": 48,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_09",
+      "target": "CHIRES_09",
+      "term_count": 30,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_10",
+      "target": "CHIRES_10",
+      "term_count": 70,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_11",
+      "target": "CHIRES_11",
+      "term_count": 72,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_12",
+      "target": "CHIRES_12",
+      "term_count": 66,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    },
+    {
+      "lift_id": "R2PURE_13",
+      "target": "CHIRES_13",
+      "term_count": 40,
+      "max_group_word_radius": 2,
+      "residual_amplitude": 2,
+      "exact_Fox_boundary": "ZERO"
+    }
+  ],
+  "lifted_directions": [
+    "CHIRES_01",
+    "CHIRES_02",
+    "CHIRES_03",
+    "CHIRES_04",
+    "CHIRES_05",
+    "CHIRES_06",
+    "CHIRES_07",
+    "CHIRES_08",
+    "CHIRES_09",
+    "CHIRES_10",
+    "CHIRES_11",
+    "CHIRES_12",
+    "CHIRES_13"
+  ],
+  "unlifted_direction_radius2": "CHIRES_14",
+  "unlifted_direction_support": "R3b_123",
+  "minimal_radius_conclusion": "Because v46 proved zero residual image at radius 1, the thirteen lifted directions have exact minimal coefficient-support radius 2. CHIRES_14 has no exact lift at radius <=2 and therefore requires radius >=3 if it lifts at all.",
+  "decision": "PROVEN: EXACT RADIUS-2 GROUP-RING CYCLES LIFT 13 OF THE 14 CHARACTER-RESIDUAL DIRECTIONS; CHIRES_14 REMAINS A BOUNDED NO-GO THROUGH RADIUS 2.",
+  "scope_guard": "Character-shadow independence proves the thirteen cycles are new modulo M43 after chi-specialization. It does not by itself prove a free rank-13 R-submodule or completeness of the full identity module."
+}

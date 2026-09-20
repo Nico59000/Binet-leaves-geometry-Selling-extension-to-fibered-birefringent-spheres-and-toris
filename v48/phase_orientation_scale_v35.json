@@ -1,0 +1,21 @@
+{
+  "compact_generator": "J=[Ky,Kz]",
+  "compact_subgroup": "K=exp(theta J) ~= SO(2)",
+  "mathematical_scale": {
+    "period": "2*pi is the primitive period in the matrix representation",
+    "continuous_characters": "theta -> exp(i n theta), n in Z",
+    "faithful_isomorphisms": "n=+1 or n=-1",
+    "decision": "absolute winding scale fixed to |n|=1 once faithfulness/isomorphism is required"
+  },
+  "orientation": {
+    "Gamma_action": "Gamma J Gamma^{-1}=-J",
+    "Delta_action": "Delta J Delta^{-1}=J",
+    "decision": "REFUTED as an unpointed source-natural choice under the full Selling symmetry containing Gamma"
+  },
+  "minimal_repair": {
+    "group": "<SO(2),Gamma> ~= SO(2) semidirect C2 ~= O(2)",
+    "phase_target": "U(1) semidirect C2 with C2 acting by complex conjugation",
+    "status": "PROVEN_AS_AN_UNORIENTED_REAL/DIHEDRAL_PHASE_BINDER_UP_TO_CANONICAL_ISOMORPHISM"
+  },
+  "de_broglie": "SEPARATED/PENDING-MORPHISM: no Selling-derived action S and no hbar normalization."
+}

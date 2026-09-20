@@ -1,0 +1,9 @@
+{
+  "version": "v45-probe",
+  "scope": "six-relator free identities assembled as inverse residual pairs of v44 sequential positive-cancellation triples, six distinct base relators",
+  "raw_sequences": 1536,
+  "dihedral_classes": 384,
+  "absorbed_by_M43": 384,
+  "survivors_mod_M43": 0,
+  "decision": "NO_NEW_DIRECTION"
+}

@@ -1,0 +1,206 @@
+{
+  "version": "v47",
+  "primary_source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), pp.153-206; Fig.1 / Tafel III",
+  "source_rules": [
+    {
+      "printed_page": "175",
+      "statement": "The six external boundary lines of Fig.1 are bipartite symmetry axes and their six intersections are fourfold symmetry centres.",
+      "status": "PROVEN_SOURCE_TEXT"
+    },
+    {
+      "printed_pages": "182-184",
+      "statement": "Dotted lines denote symmetry axes; the six indicated axis intersections are fourfold centres; the drawing may be bent when imagining the corresponding perpendicular axes as straight.",
+      "status": "PROVEN_SOURCE_DRAWING_AND_TOPOLOGICAL_RULE"
+    },
+    {
+      "printed_pages": "189-191",
+      "statement": "External-boundary routes P,Q,R,S generate the repeated-boundary transformation grammar; P is attached to the lower-right boundary and Q to the extreme-right boundary; R,S use doubled leftward routes across symmetry axes.",
+      "status": "PROVEN_SOURCE_ROUTE_SEMANTICS"
+    }
+  ],
+  "historical_abstract_axis_centre_carrier": {
+    "vertices": [
+      "HC0",
+      "HC1",
+      "HC2",
+      "HC3",
+      "HC4",
+      "HC5"
+    ],
+    "edges": [
+      {
+        "axis": "HAX0",
+        "boundary": [
+          "HC0",
+          "HC1"
+        ]
+      },
+      {
+        "axis": "HAX1",
+        "boundary": [
+          "HC1",
+          "HC2"
+        ]
+      },
+      {
+        "axis": "HAX2",
+        "boundary": [
+          "HC2",
+          "HC3"
+        ]
+      },
+      {
+        "axis": "HAX3",
+        "boundary": [
+          "HC3",
+          "HC4"
+        ]
+      },
+      {
+        "axis": "HAX4",
+        "boundary": [
+          "HC4",
+          "HC5"
+        ]
+      },
+      {
+        "axis": "HAX5",
+        "boundary": [
+          "HC5",
+          "HC0"
+        ]
+      }
+    ],
+    "topology": "C6",
+    "status": "PROVEN_SOURCE_SEMANTIC_INCIDENCE"
+  },
+  "plate_transcription_model": "HAX_i are source boundary/symmetry curves. DAX_j are local straight diagnostic traces only; Euclidean straightness/angle of a DAX is not a source invariant.",
+  "diagnostic_DAX_graph": {
+    "vertices": [
+      "DAX00",
+      "DAX01",
+      "DAX02",
+      "DAX03",
+      "DAX04",
+      "DAX05",
+      "DAX06"
+    ],
+    "edges": [
+      {
+        "a": "DAX01",
+        "b": "DAX04",
+        "point_px300": [
+          1146.778,
+          1494.501
+        ]
+      },
+      {
+        "a": "DAX01",
+        "b": "DAX05",
+        "point_px300": [
+          1022.177,
+          1552.958
+        ]
+      },
+      {
+        "a": "DAX02",
+        "b": "DAX05",
+        "point_px300": [
+          1326.589,
+          1072.203
+        ]
+      },
+      {
+        "a": "DAX02",
+        "b": "DAX06",
+        "point_px300": [
+          1325.303,
+          1694.286
+        ]
+      },
+      {
+        "a": "DAX03",
+        "b": "DAX05",
+        "point_px300": [
+          1194.503,
+          1280.805
+        ]
+      },
+      {
+        "a": "DAX03",
+        "b": "DAX06",
+        "point_px300": [
+          1215.115,
+          1866.021
+        ]
+      },
+      {
+        "a": "DAX04",
+        "b": "DAX06",
+        "point_px300": [
+          1143.579,
+          1977.515
+        ]
+      }
+    ],
+    "degrees": {
+      "DAX00": 0,
+      "DAX01": 2,
+      "DAX02": 2,
+      "DAX03": 2,
+      "DAX04": 2,
+      "DAX05": 3,
+      "DAX06": 3
+    },
+    "connected_components": [
+      [
+        "DAX00"
+      ],
+      [
+        "DAX01",
+        "DAX02",
+        "DAX03",
+        "DAX04",
+        "DAX05",
+        "DAX06"
+      ]
+    ],
+    "simple_cycle_lengths": {
+      "4": 1,
+      "5": 2
+    },
+    "simple_cycles": [
+      [
+        "DAX02",
+        "DAX05",
+        "DAX03",
+        "DAX06"
+      ],
+      [
+        "DAX01",
+        "DAX04",
+        "DAX06",
+        "DAX02",
+        "DAX05"
+      ],
+      [
+        "DAX01",
+        "DAX04",
+        "DAX06",
+        "DAX03",
+        "DAX05"
+      ]
+    ],
+    "has_six_cycle": false,
+    "isolated_traces": [
+      "DAX00"
+    ]
+  },
+  "raster_HC_coordinates": null,
+  "raster_HAX_curves": null,
+  "boundary_letter_attachment": null,
+  "PQRS_raster_routes": null,
+  "decision": "SOURCE ABSTRACT C6 CARRIER RETAINED, BUT CURRENT SEVEN DAX FRAGMENTS DO NOT CONTAIN A SIX-CYCLE OF PAIRWISE EXTENT INTERSECTIONS AND DAX00 IS ISOLATED; THEREFORE DAX-ONLY STITCHING CANNOT SOURCE-CERTIFY THE SIX HC/HAX. DIRECT PLATE TRANSCRIPTION OF THE SIX INDICATED CENTRES AND THEIR LOCAL DOTTED BRANCHES IS STILL REQUIRED.",
+  "status": "NT/PENDING-SOURCE-PLATE-TRANSCRIPTION",
+  "guard": "Absence of a C6 in the diagnostic DAX graph is a no-go only for stitching the currently detected straight trace extents. It does not refute the historical curved axes visible in the source."
+}

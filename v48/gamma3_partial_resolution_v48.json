@@ -1,0 +1,13 @@
+{
+  "version": "v48",
+  "base": "M43 plus R2PURE_01..R2PURE_13 retained as exact cycles",
+  "character_residual_before_v47": 14,
+  "radius2_lifted_directions": 13,
+  "remaining_character_direction": "CHIRES_14 = R3b_123",
+  "radius3_result": "NO exact lift at radius <=3",
+  "remaining_minimal_radius_if_any": ">=4",
+  "full_R_module_intersections_among_R2PURE": "NT",
+  "higher_syzygies_from_R2PURE": "NT",
+  "complete_resolution": "NT",
+  "status": "PROVEN-BOUNDED-REFINEMENT / FULL-R-MODULE-STRUCTURE-NT"
+}

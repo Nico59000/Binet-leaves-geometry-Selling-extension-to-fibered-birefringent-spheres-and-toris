@@ -1,0 +1,80 @@
+{
+  "version": "v45",
+  "items": [
+    {
+      "id": "V45-01",
+      "object": "seven dual-source dotted traces",
+      "status": "PROVEN_DIAGNOSTIC"
+    },
+    {
+      "id": "V45-02",
+      "object": "six external HAX subset / six HC cyclic binding",
+      "status": "NT_NONUNIQUE_SOURCE_BINDING"
+    },
+    {
+      "id": "V45-03",
+      "object": "89-node historical C2 action",
+      "status": "NT_NOT_ACTIVATED_FAIL_CLOSED"
+    },
+    {
+      "id": "V45-04",
+      "object": "historical C0/C1/C2 totalization",
+      "status": "NT"
+    },
+    {
+      "id": "V45-05",
+      "object": "F_Sell_field -> F29_can",
+      "status": "PENDING-MORPHISM"
+    },
+    {
+      "id": "V45-06",
+      "object": "historical H1/H2",
+      "status": "NT_NOT_RECOMPUTED"
+    },
+    {
+      "id": "V45-07",
+      "object": "4-relator declared free identities",
+      "status": "PROVEN_ALL_1920_CLASSES_ABSORBED_BY_M43"
+    },
+    {
+      "id": "V45-08",
+      "object": "5-relator declared 3+2 grammar",
+      "status": "ZERO_IDENTITIES"
+    },
+    {
+      "id": "V45-09",
+      "object": "6-relator declared 3+3 grammar",
+      "status": "PROVEN_ALL_384_CLASSES_ABSORBED_BY_M43"
+    },
+    {
+      "id": "V45-10",
+      "object": "complete group-ring resolution",
+      "status": "NT_RESIDUAL_CHARACTER_MIN14"
+    },
+    {
+      "id": "V45-11",
+      "object": "Singer odd injection",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    },
+    {
+      "id": "V45-12",
+      "object": "strict R5-Gamma incidence adapter",
+      "status": "REFUTED-TYPED_RETAINED"
+    },
+    {
+      "id": "V45-13",
+      "object": "MXM^-1 covariant use",
+      "status": "OPPOSITE_VARIANCE_RETAINED"
+    },
+    {
+      "id": "V45-14",
+      "object": "roof reversal = transpose",
+      "status": "REFUTED-TYPED_RETAINED"
+    },
+    {
+      "id": "V45-15",
+      "object": "physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    }
+  ]
+}
