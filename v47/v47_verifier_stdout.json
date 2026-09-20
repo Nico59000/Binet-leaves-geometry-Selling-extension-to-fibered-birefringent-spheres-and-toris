@@ -1,0 +1,9 @@
+{
+  "version": "v47",
+  "predecessor_checks": 8034,
+  "new_checks": 80,
+  "combined_checks": 8114,
+  "new_passed": 80,
+  "status": "PASS",
+  "failed": []
+}

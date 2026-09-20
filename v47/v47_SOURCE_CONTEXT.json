@@ -1,0 +1,75 @@
+{
+  "version": "v47",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v46 CLOSED/APPEND-ONLY",
+  "predecessor_gate": {
+    "ledger": "v46_SHA256SUMS.txt",
+    "ledger_entries": 276,
+    "ledger_status": "PASS_276_OF_276",
+    "verification": "8034/8034 PASS",
+    "atomic_token": "v46_ATOMIC_COMPLETION_TOKEN.json"
+  },
+  "sources": [
+    {
+      "path": "LOG_0016.pdf",
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "canonical Selling Tafel III source bytes"
+    },
+    {
+      "path": "Tafel-III-fig1.jpg",
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "role": "BSB plate witness"
+    },
+    {
+      "path": "selling_fig1_semantic_contract_v39.json",
+      "sha256": "8bbedb2963bf668fbe3dc7acb8459817fbe789d4a0e12b3f53a0c50f4989f4d4",
+      "role": "source-exact symmetry/field semantics"
+    },
+    {
+      "path": "selling_q0_historical_domain_v36.json",
+      "sha256": "0e266bb1f49c5c567cf150c1c7d96118ba631c057902e7d033f9e599e2d37ffe",
+      "role": "historical Q0 carrier separation"
+    },
+    {
+      "path": "selling_dotted_axis_traces_v45.csv",
+      "sha256": "a56af13ad40b957e264522f9fa3f85a422d750173cc4d3215d6b754840601fed",
+      "role": "seven dual-source diagnostic DAX fragments"
+    },
+    {
+      "path": "selling_bsb_axis_binding_attempt_v45.json",
+      "sha256": "8808058e0b74b0f6ed229d1b615593592a822d7bacbb269eb9c28bd925e27706",
+      "role": "DAX extent-intersection witness"
+    },
+    {
+      "path": "selling_axis_subset_census_v46.json",
+      "sha256": "1e9430e0c9d8f45e469831f062682d925bc9a23cc4298807510666fe23c75f0a",
+      "role": "v46 direct straight-DAX no-go"
+    },
+    {
+      "path": "gamma3_character_residual_basis_v46.csv",
+      "sha256": "3ffc571b37a50823bc3b5c7985dcbf126aa5a18f8d0c2b67602f97cd66a5c22c",
+      "role": "14-dimensional character residual target"
+    },
+    {
+      "path": "gamma3_character_radius1_no_go_v46.json",
+      "sha256": "d73977b34cc6b5ee2645d36c18c23987abce2ffff4f5ca1b6b42b08cbf2583ae",
+      "role": "radius-one exact bounded no-go"
+    },
+    {
+      "path": "gamma3_level2_relative_3cells_v36.json",
+      "sha256": "293ba103df3395e429a281e2e2ada4f2ea0a1af35298b27191fa598b04e5fca8",
+      "role": "43-relator Gamma3(2) system"
+    },
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v46.tex",
+      "sha256": "f98b63df6b3aaebbed3a22b7c0464bed478692fd10474d67b726aadc6bd0ecf7",
+      "role": "append-only predecessor text"
+    }
+  ],
+  "primary_source_review_v47": {
+    "Selling1877_p175": "six external boundary lines are bipartite symmetry axes; six intersections are fourfold centres",
+    "Selling1877_pp182_184": "dotted lines denote symmetry axes; six indicated intersections are fourfold centres; source explicitly allows bending the drawing when imagining perpendicular axes as straight",
+    "Selling1877_pp189_191": "P is lower-right external route; Q is extreme-right lower-to-upper route; R and S are doubled leftward routes across symmetry axes; T=PRP^-1 and U=QSQ^-1 commute"
+  },
+  "source_policy": "Abstract C6 incidence can be source-certified independently of Euclidean raster geometry. No HC/HAX raster coordinate, reflection, 89-node C2 action, historical cell label, cochain matrix or H1/H2 is promoted until direct plate transcription closes."
+}

@@ -1,0 +1,102 @@
+{
+  "version": "v39",
+  "primary_source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), pp.153-206, second part; French translation of the 1874 memoir.",
+  "original_source": "E. Selling, Ueber die binaeren und ternaeren quadratischen Formen, J. reine angew. Math. 77 (1874), pp.143-229; BSB bsb11179195.",
+  "figure": "Tafel III, Fig. 1 (zu S. 188 u.f.)",
+  "source_semantic_rules": [
+    {
+      "id": "S39-R1",
+      "printed_pages": "169",
+      "statement": "Every field boundary line begins and ends at fissure points and passes through one or more crossing points; after all crossings of a field are found, the last boundary reconnects to the first.",
+      "status": "PROVEN_SOURCE_RULE"
+    },
+    {
+      "id": "S39-R2",
+      "printed_pages": "169",
+      "statement": "The crossing points of the primal and adjoint field divisions coincide; away from crossings, boundary lines of the two systems do not intersect.",
+      "status": "PROVEN_SOURCE_RULE"
+    },
+    {
+      "id": "S39-R3",
+      "printed_pages": "169",
+      "statement": "At a crossing, each of the six boundary lines of one division lies between two of the six boundary lines of the adjoint division; selected adjoint lines are drawn serpentine.",
+      "status": "PROVEN_SOURCE_LOCAL_INCIDENCE"
+    },
+    {
+      "id": "S39-R4",
+      "printed_pages": "170",
+      "statement": "After sufficiently far development, every newly added field is a numerical repetition of a previously existing field; all later development repeats the finite part.",
+      "status": "PROVEN_SOURCE_REPETITION"
+    },
+    {
+      "id": "S39-R5",
+      "printed_pages": "170",
+      "statement": "In the completed Fig. 1 example, every boundary of the developed field system is a symmetry axis and the intersections of these outer axes have fourfold symmetry.",
+      "status": "PROVEN_SOURCE_SYMMETRY"
+    },
+    {
+      "id": "S39-R6",
+      "printed_pages": "170",
+      "statement": "Each field numerically equal to the initial form determines a self-transformation obtained as the product of consecutive substitutions along adjacent-field transitions.",
+      "status": "PROVEN_SOURCE_STABILIZER_RULE"
+    },
+    {
+      "id": "S39-R7",
+      "printed_pages": "175",
+      "statement": "In Fig. 1, all but one boundaries of positive-A territories coincide with field-boundary lines and are drawn as serpentine lines; one exceptional connection is represented by an existing field-boundary line rather than introducing a foreign line.",
+      "status": "PROVEN_SOURCE_DRAWING_CONVENTION"
+    },
+    {
+      "id": "S39-R8",
+      "printed_pages": "175",
+      "statement": "The six external boundary lines are bipartite symmetry axes and their six intersections are fourfold-symmetry centres.",
+      "status": "PROVEN_SOURCE_COUNT_AND_TYPE"
+    },
+    {
+      "id": "S39-R9",
+      "printed_pages": "184",
+      "statement": "The six indicated symmetry-axis intersections are fourfold centres; an additional sixfold symmetry exists around the centre of the figure but is deliberately not used to reduce the drawing.",
+      "status": "PROVEN_SOURCE_GLOBAL_SYMMETRY"
+    },
+    {
+      "id": "S39-R10",
+      "printed_pages": "190-191",
+      "statement": "For the Fig. 1 example, four external-boundary substitution types P,Q,R,S bound the quadruplicated figure; T=P R P^{-1} and U=Q S Q^{-1} satisfy TU=UT.",
+      "status": "PROVEN_SOURCE_STABILIZER_PRESENTATION"
+    }
+  ],
+  "semantic_closure": "PROVEN_SOURCE_SEMANTIC_CONTRACT_CLOSED",
+  "diagnostic_geometry": {
+    "nodes": 136,
+    "segments": 105,
+    "regions": 34,
+    "layer_counts": {
+      "reinforced": 25,
+      "ordinary": 73,
+      "serpentine": 2,
+      "symmetry_candidate": 5
+    },
+    "field_class_counts": {
+      "MORPHOLOGICAL_CANDIDATE": 27,
+      "STABLE_CLOSED_REGION_MEDIUM": 4,
+      "STABLE_CLOSED_REGION_HIGH": 3
+    },
+    "photo_support_counts": {
+      "CONFIRMED": 97,
+      "PARTIAL": 3,
+      "WEAK": 5
+    }
+  },
+  "schema_obstructions": {
+    "source_requires_external_axes": 6,
+    "typed_symmetry_candidates_present": 5,
+    "segment_has_historical_wall_or_substitution_label": false,
+    "node_has_fissure_crossing_semantic_type": false,
+    "field_has_historical_field_id_or_form_label": false,
+    "all_34_regions_currently_unpromoted": true,
+    "repetition_pairs_machine_encoded": false,
+    "stabilizer_generators_machine_encoded_per_field": false
+  },
+  "decision": "SOURCE_SEMANTICS_CLOSED; MICROSCOPIC_GEOMETRIC_INSTANTIATION_NT_SCHEMA_AND_MATCHING_OBSTRUCTION",
+  "guard": "The source semantic contract is complete enough to state certification conditions, but it does not itself assign the 136 diagnostic nodes, 105 diagnostic segments and 34 region candidates to the historical cells. No field functor or field cohomology is inferred."
+}
