@@ -1,0 +1,27 @@
+{
+  "version": "v47",
+  "base_module": "M43 = R^6 direct-sum 18 order-two cyclic sectors (certified partial resolution)",
+  "new_exact_cycles": [
+    "R2PURE_01",
+    "R2PURE_02",
+    "R2PURE_03",
+    "R2PURE_04",
+    "R2PURE_05",
+    "R2PURE_06",
+    "R2PURE_07",
+    "R2PURE_08",
+    "R2PURE_09",
+    "R2PURE_10",
+    "R2PURE_11",
+    "R2PURE_12",
+    "R2PURE_13"
+  ],
+  "new_cycle_count": 13,
+  "shadow_independence_mod_M43": 13,
+  "character_quotient_before": 14,
+  "character_quotient_after_adjoining_new_cycles": 1,
+  "remaining_character_generator": "CHIRES_14 = R3b_123",
+  "full_R_module_intersections_among_new_generators": "NT",
+  "complete_resolution": "NT",
+  "status": "PROVEN-EXTENSION-AT-CHARACTER-SHADOW / FULL-R-MODULE-STRUCTURE-NT"
+}

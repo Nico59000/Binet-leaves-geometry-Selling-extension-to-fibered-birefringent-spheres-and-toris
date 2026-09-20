@@ -1,0 +1,23 @@
+{
+  "version": "v46",
+  "character": {
+    "E12": 1,
+    "E13": 1,
+    "E21": 1,
+    "E23": 1,
+    "E31": 1,
+    "E32": 1,
+    "F1": -1,
+    "F2": -1,
+    "F3": -1
+  },
+  "group_ball": "B1={1} union {Eij^+-1, Fi}; deduplicated in the faithful 3x3 integer matrix representation",
+  "ball_unique_elements": 16,
+  "variables_43_relators_times_ball": 688,
+  "exact_boundary_rows": 1498,
+  "exact_boundary_rank": 559,
+  "exact_kernel_dimension": 129,
+  "residual_shadow_image_dimension_of_exact_radius1_kernel_mod_M43": 0,
+  "decision": "PROVEN BOUNDED NO-GO: EVERY EXACT CYCLE WITH ALL GROUP-RING COEFFICIENTS SUPPORTED IN B1 HAS CHARACTER SHADOW INSIDE M43; NO ONE OF THE 14 RESIDUAL DIRECTIONS LIFTS AT RADIUS ONE.",
+  "scope_guard": "This is a bounded coefficient-support theorem. It does not exclude exact residual syzygies using group elements of word length >=2."
+}

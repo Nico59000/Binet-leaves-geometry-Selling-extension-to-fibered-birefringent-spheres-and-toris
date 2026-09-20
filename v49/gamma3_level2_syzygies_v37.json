@@ -1,0 +1,63 @@
+{
+  "source": "Kobayashi presentation specialized to n=3; 43 v36 relators",
+  "chain_level": "augmentation / Fox boundary followed by augmentation Z[Gamma]->Z",
+  "boundary_shape": [
+    9,
+    43
+  ],
+  "rank_over_Q": 9,
+  "kernel_rank_over_Z": 34,
+  "smith_nonzero_diagonal": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "cokernel": "(Z/2)^9",
+  "kernel_basis_csv": "gamma3_augmented_syzygy_basis_v37.csv",
+  "kernel_basis_sha256": "197d92d67019565ea675ad0541594526f0a436ae8d042ec92edd715035149ac8",
+  "exact_free_inverse_pair_4cells": [
+    {
+      "relator_a": "R3a1_123",
+      "relator_b": "R3a1_132",
+      "identity": "R3a1_123 * R3a1_132 freely reduces to empty word"
+    },
+    {
+      "relator_a": "R3a2_123",
+      "relator_b": "R3a2_321",
+      "identity": "R3a2_123 * R3a2_321 freely reduces to empty word"
+    },
+    {
+      "relator_a": "R3a2_132",
+      "relator_b": "R3a2_231",
+      "identity": "R3a2_132 * R3a2_231 freely reduces to empty word"
+    },
+    {
+      "relator_a": "R3a1_213",
+      "relator_b": "R3a1_231",
+      "identity": "R3a1_213 * R3a1_231 freely reduces to empty word"
+    },
+    {
+      "relator_a": "R3a2_213",
+      "relator_b": "R3a2_312",
+      "identity": "R3a2_213 * R3a2_312 freely reduces to empty word"
+    },
+    {
+      "relator_a": "R3a1_312",
+      "relator_b": "R3a1_321",
+      "identity": "R3a1_312 * R3a1_321 freely reduces to empty word"
+    }
+  ],
+  "exact_free_inverse_pair_count": 6,
+  "status": {
+    "augmented_syzygy_module": "PROVEN_Z_KERNEL_RANK_34_WITH_SMITH_BASIS",
+    "six_free_cancellation_4cells": "PROVEN_NONABELIAN_FREE_WORD_IDENTITIES",
+    "complete_nonabelian_identity_among_relations_module": "NT_PENDING_GROUP_RING_FOX_RESOLUTION_OR_CONTRACTING_HOMOTOPY"
+  },
+  "guard": "The 34-dimensional augmented kernel is not silently identified with the full pi_2/identity-among-relations module."
+}

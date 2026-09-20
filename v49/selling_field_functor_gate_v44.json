@@ -1,0 +1,12 @@
+{
+  "decision": "FAIL_CLOSED",
+  "field_functor": "PENDING-MORPHISM",
+  "historical_H1_H2": "NT_NOT_RECOMPUTED",
+  "one_cell_gate": "NT",
+  "predecessor": "selling_field_functor_gate_v43.json",
+  "requirements_file": "selling_h12_recompute_requirements_v44.json",
+  "source_certified_axis_action": "NOT_MATERIALIZED",
+  "two_cell_gate": "NT",
+  "version": "v44",
+  "zero_cell_gate": "NT"
+}
