@@ -1,0 +1,39 @@
+{
+  "checks": [
+    "status",
+    "Binet_dims_up",
+    "Binet_dims_inv",
+    "Binet_dims_down",
+    "Binet_upper_d1d0",
+    "Binet_d0_descent",
+    "Binet_d1_descent",
+    "Binet_L_full_rank",
+    "Binet_objects_equivariance",
+    "Binet_arrows_equivariance",
+    "Ad_dims_up",
+    "Ad_dims_inv",
+    "Ad_dims_down",
+    "Ad_upper_d1d0",
+    "Ad_d0_descent",
+    "Ad_d1_descent",
+    "Ad_L_full_rank",
+    "Ad_objects_equivariance",
+    "Ad_arrows_equivariance",
+    "Binet_nontrivial_geometric_lifts",
+    "Ad_nontrivial_geometric_lifts",
+    "Binet_TU_transfer_two",
+    "Binet_T_U_zero_C2",
+    "Ad_nontrivial_transfer_rank_one"
+  ],
+  "checks_passed": 24,
+  "checks_total": 24,
+  "decision_gate": "Rational cohomology descent may now be opened; integral descent remains separately guarded.",
+  "deterministic_replay_byte_identical": true,
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "sha256": {
+    "build_cover_local_system_descent_v50.py": "afd81300ec09baa275687b75508632f273aee42f3da917114321e5c692fa81e4",
+    "selling_cover_local_system_descent_v50.json": "59c450001d6d78a2dce714828f643e25451d577ac264d46246ac9a6f72ec0117"
+  },
+  "status": "PASS",
+  "version": "v50"
+}

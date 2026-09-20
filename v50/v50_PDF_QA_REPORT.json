@@ -1,0 +1,24 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "pdf_pages": 263,
+  "renderer": "pdfium via render_pdf.py at 60 dpi",
+  "all_pages_rendered": true,
+  "automated_render_scan": {
+    "flags": [],
+    "min_ink": 0.01831613107503749,
+    "max_ink": 0.06156412245890286,
+    "max_dark": 0.013476872631802209,
+    "max_border_dark": 0.0
+  },
+  "precanon_canonical_pixel_identical_all_263_pages": true,
+  "visual_contact_sheets": [
+    "contact_246_255.jpg",
+    "contact_256_263.jpg"
+  ],
+  "visual_inspection": "PASS: v49-v50 transition, v50 formulas/tables, certification, conclusion, provenance and bibliography inspected; no clipping/overlap/black squares/broken glyphs observed.",
+  "latex_overfull_count": 0,
+  "section_order_audit": "PASS",
+  "bibliography_physically_final": true,
+  "preflight_file": "v50_pdf_preflight.txt"
+}

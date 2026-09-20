@@ -1,0 +1,1068 @@
+{
+  "version": "v50",
+  "renderer": "pdfium via render_pdf.py at 60 dpi",
+  "pages": 263,
+  "all_pages_rendered": true,
+  "precanon_canonical_pixel_identical_all": true,
+  "parity": [
+    {
+      "page": 1,
+      "identical": true
+    },
+    {
+      "page": 2,
+      "identical": true
+    },
+    {
+      "page": 3,
+      "identical": true
+    },
+    {
+      "page": 4,
+      "identical": true
+    },
+    {
+      "page": 5,
+      "identical": true
+    },
+    {
+      "page": 6,
+      "identical": true
+    },
+    {
+      "page": 7,
+      "identical": true
+    },
+    {
+      "page": 8,
+      "identical": true
+    },
+    {
+      "page": 9,
+      "identical": true
+    },
+    {
+      "page": 10,
+      "identical": true
+    },
+    {
+      "page": 11,
+      "identical": true
+    },
+    {
+      "page": 12,
+      "identical": true
+    },
+    {
+      "page": 13,
+      "identical": true
+    },
+    {
+      "page": 14,
+      "identical": true
+    },
+    {
+      "page": 15,
+      "identical": true
+    },
+    {
+      "page": 16,
+      "identical": true
+    },
+    {
+      "page": 17,
+      "identical": true
+    },
+    {
+      "page": 18,
+      "identical": true
+    },
+    {
+      "page": 19,
+      "identical": true
+    },
+    {
+      "page": 20,
+      "identical": true
+    },
+    {
+      "page": 21,
+      "identical": true
+    },
+    {
+      "page": 22,
+      "identical": true
+    },
+    {
+      "page": 23,
+      "identical": true
+    },
+    {
+      "page": 24,
+      "identical": true
+    },
+    {
+      "page": 25,
+      "identical": true
+    },
+    {
+      "page": 26,
+      "identical": true
+    },
+    {
+      "page": 27,
+      "identical": true
+    },
+    {
+      "page": 28,
+      "identical": true
+    },
+    {
+      "page": 29,
+      "identical": true
+    },
+    {
+      "page": 30,
+      "identical": true
+    },
+    {
+      "page": 31,
+      "identical": true
+    },
+    {
+      "page": 32,
+      "identical": true
+    },
+    {
+      "page": 33,
+      "identical": true
+    },
+    {
+      "page": 34,
+      "identical": true
+    },
+    {
+      "page": 35,
+      "identical": true
+    },
+    {
+      "page": 36,
+      "identical": true
+    },
+    {
+      "page": 37,
+      "identical": true
+    },
+    {
+      "page": 38,
+      "identical": true
+    },
+    {
+      "page": 39,
+      "identical": true
+    },
+    {
+      "page": 40,
+      "identical": true
+    },
+    {
+      "page": 41,
+      "identical": true
+    },
+    {
+      "page": 42,
+      "identical": true
+    },
+    {
+      "page": 43,
+      "identical": true
+    },
+    {
+      "page": 44,
+      "identical": true
+    },
+    {
+      "page": 45,
+      "identical": true
+    },
+    {
+      "page": 46,
+      "identical": true
+    },
+    {
+      "page": 47,
+      "identical": true
+    },
+    {
+      "page": 48,
+      "identical": true
+    },
+    {
+      "page": 49,
+      "identical": true
+    },
+    {
+      "page": 50,
+      "identical": true
+    },
+    {
+      "page": 51,
+      "identical": true
+    },
+    {
+      "page": 52,
+      "identical": true
+    },
+    {
+      "page": 53,
+      "identical": true
+    },
+    {
+      "page": 54,
+      "identical": true
+    },
+    {
+      "page": 55,
+      "identical": true
+    },
+    {
+      "page": 56,
+      "identical": true
+    },
+    {
+      "page": 57,
+      "identical": true
+    },
+    {
+      "page": 58,
+      "identical": true
+    },
+    {
+      "page": 59,
+      "identical": true
+    },
+    {
+      "page": 60,
+      "identical": true
+    },
+    {
+      "page": 61,
+      "identical": true
+    },
+    {
+      "page": 62,
+      "identical": true
+    },
+    {
+      "page": 63,
+      "identical": true
+    },
+    {
+      "page": 64,
+      "identical": true
+    },
+    {
+      "page": 65,
+      "identical": true
+    },
+    {
+      "page": 66,
+      "identical": true
+    },
+    {
+      "page": 67,
+      "identical": true
+    },
+    {
+      "page": 68,
+      "identical": true
+    },
+    {
+      "page": 69,
+      "identical": true
+    },
+    {
+      "page": 70,
+      "identical": true
+    },
+    {
+      "page": 71,
+      "identical": true
+    },
+    {
+      "page": 72,
+      "identical": true
+    },
+    {
+      "page": 73,
+      "identical": true
+    },
+    {
+      "page": 74,
+      "identical": true
+    },
+    {
+      "page": 75,
+      "identical": true
+    },
+    {
+      "page": 76,
+      "identical": true
+    },
+    {
+      "page": 77,
+      "identical": true
+    },
+    {
+      "page": 78,
+      "identical": true
+    },
+    {
+      "page": 79,
+      "identical": true
+    },
+    {
+      "page": 80,
+      "identical": true
+    },
+    {
+      "page": 81,
+      "identical": true
+    },
+    {
+      "page": 82,
+      "identical": true
+    },
+    {
+      "page": 83,
+      "identical": true
+    },
+    {
+      "page": 84,
+      "identical": true
+    },
+    {
+      "page": 85,
+      "identical": true
+    },
+    {
+      "page": 86,
+      "identical": true
+    },
+    {
+      "page": 87,
+      "identical": true
+    },
+    {
+      "page": 88,
+      "identical": true
+    },
+    {
+      "page": 89,
+      "identical": true
+    },
+    {
+      "page": 90,
+      "identical": true
+    },
+    {
+      "page": 91,
+      "identical": true
+    },
+    {
+      "page": 92,
+      "identical": true
+    },
+    {
+      "page": 93,
+      "identical": true
+    },
+    {
+      "page": 94,
+      "identical": true
+    },
+    {
+      "page": 95,
+      "identical": true
+    },
+    {
+      "page": 96,
+      "identical": true
+    },
+    {
+      "page": 97,
+      "identical": true
+    },
+    {
+      "page": 98,
+      "identical": true
+    },
+    {
+      "page": 99,
+      "identical": true
+    },
+    {
+      "page": 100,
+      "identical": true
+    },
+    {
+      "page": 101,
+      "identical": true
+    },
+    {
+      "page": 102,
+      "identical": true
+    },
+    {
+      "page": 103,
+      "identical": true
+    },
+    {
+      "page": 104,
+      "identical": true
+    },
+    {
+      "page": 105,
+      "identical": true
+    },
+    {
+      "page": 106,
+      "identical": true
+    },
+    {
+      "page": 107,
+      "identical": true
+    },
+    {
+      "page": 108,
+      "identical": true
+    },
+    {
+      "page": 109,
+      "identical": true
+    },
+    {
+      "page": 110,
+      "identical": true
+    },
+    {
+      "page": 111,
+      "identical": true
+    },
+    {
+      "page": 112,
+      "identical": true
+    },
+    {
+      "page": 113,
+      "identical": true
+    },
+    {
+      "page": 114,
+      "identical": true
+    },
+    {
+      "page": 115,
+      "identical": true
+    },
+    {
+      "page": 116,
+      "identical": true
+    },
+    {
+      "page": 117,
+      "identical": true
+    },
+    {
+      "page": 118,
+      "identical": true
+    },
+    {
+      "page": 119,
+      "identical": true
+    },
+    {
+      "page": 120,
+      "identical": true
+    },
+    {
+      "page": 121,
+      "identical": true
+    },
+    {
+      "page": 122,
+      "identical": true
+    },
+    {
+      "page": 123,
+      "identical": true
+    },
+    {
+      "page": 124,
+      "identical": true
+    },
+    {
+      "page": 125,
+      "identical": true
+    },
+    {
+      "page": 126,
+      "identical": true
+    },
+    {
+      "page": 127,
+      "identical": true
+    },
+    {
+      "page": 128,
+      "identical": true
+    },
+    {
+      "page": 129,
+      "identical": true
+    },
+    {
+      "page": 130,
+      "identical": true
+    },
+    {
+      "page": 131,
+      "identical": true
+    },
+    {
+      "page": 132,
+      "identical": true
+    },
+    {
+      "page": 133,
+      "identical": true
+    },
+    {
+      "page": 134,
+      "identical": true
+    },
+    {
+      "page": 135,
+      "identical": true
+    },
+    {
+      "page": 136,
+      "identical": true
+    },
+    {
+      "page": 137,
+      "identical": true
+    },
+    {
+      "page": 138,
+      "identical": true
+    },
+    {
+      "page": 139,
+      "identical": true
+    },
+    {
+      "page": 140,
+      "identical": true
+    },
+    {
+      "page": 141,
+      "identical": true
+    },
+    {
+      "page": 142,
+      "identical": true
+    },
+    {
+      "page": 143,
+      "identical": true
+    },
+    {
+      "page": 144,
+      "identical": true
+    },
+    {
+      "page": 145,
+      "identical": true
+    },
+    {
+      "page": 146,
+      "identical": true
+    },
+    {
+      "page": 147,
+      "identical": true
+    },
+    {
+      "page": 148,
+      "identical": true
+    },
+    {
+      "page": 149,
+      "identical": true
+    },
+    {
+      "page": 150,
+      "identical": true
+    },
+    {
+      "page": 151,
+      "identical": true
+    },
+    {
+      "page": 152,
+      "identical": true
+    },
+    {
+      "page": 153,
+      "identical": true
+    },
+    {
+      "page": 154,
+      "identical": true
+    },
+    {
+      "page": 155,
+      "identical": true
+    },
+    {
+      "page": 156,
+      "identical": true
+    },
+    {
+      "page": 157,
+      "identical": true
+    },
+    {
+      "page": 158,
+      "identical": true
+    },
+    {
+      "page": 159,
+      "identical": true
+    },
+    {
+      "page": 160,
+      "identical": true
+    },
+    {
+      "page": 161,
+      "identical": true
+    },
+    {
+      "page": 162,
+      "identical": true
+    },
+    {
+      "page": 163,
+      "identical": true
+    },
+    {
+      "page": 164,
+      "identical": true
+    },
+    {
+      "page": 165,
+      "identical": true
+    },
+    {
+      "page": 166,
+      "identical": true
+    },
+    {
+      "page": 167,
+      "identical": true
+    },
+    {
+      "page": 168,
+      "identical": true
+    },
+    {
+      "page": 169,
+      "identical": true
+    },
+    {
+      "page": 170,
+      "identical": true
+    },
+    {
+      "page": 171,
+      "identical": true
+    },
+    {
+      "page": 172,
+      "identical": true
+    },
+    {
+      "page": 173,
+      "identical": true
+    },
+    {
+      "page": 174,
+      "identical": true
+    },
+    {
+      "page": 175,
+      "identical": true
+    },
+    {
+      "page": 176,
+      "identical": true
+    },
+    {
+      "page": 177,
+      "identical": true
+    },
+    {
+      "page": 178,
+      "identical": true
+    },
+    {
+      "page": 179,
+      "identical": true
+    },
+    {
+      "page": 180,
+      "identical": true
+    },
+    {
+      "page": 181,
+      "identical": true
+    },
+    {
+      "page": 182,
+      "identical": true
+    },
+    {
+      "page": 183,
+      "identical": true
+    },
+    {
+      "page": 184,
+      "identical": true
+    },
+    {
+      "page": 185,
+      "identical": true
+    },
+    {
+      "page": 186,
+      "identical": true
+    },
+    {
+      "page": 187,
+      "identical": true
+    },
+    {
+      "page": 188,
+      "identical": true
+    },
+    {
+      "page": 189,
+      "identical": true
+    },
+    {
+      "page": 190,
+      "identical": true
+    },
+    {
+      "page": 191,
+      "identical": true
+    },
+    {
+      "page": 192,
+      "identical": true
+    },
+    {
+      "page": 193,
+      "identical": true
+    },
+    {
+      "page": 194,
+      "identical": true
+    },
+    {
+      "page": 195,
+      "identical": true
+    },
+    {
+      "page": 196,
+      "identical": true
+    },
+    {
+      "page": 197,
+      "identical": true
+    },
+    {
+      "page": 198,
+      "identical": true
+    },
+    {
+      "page": 199,
+      "identical": true
+    },
+    {
+      "page": 200,
+      "identical": true
+    },
+    {
+      "page": 201,
+      "identical": true
+    },
+    {
+      "page": 202,
+      "identical": true
+    },
+    {
+      "page": 203,
+      "identical": true
+    },
+    {
+      "page": 204,
+      "identical": true
+    },
+    {
+      "page": 205,
+      "identical": true
+    },
+    {
+      "page": 206,
+      "identical": true
+    },
+    {
+      "page": 207,
+      "identical": true
+    },
+    {
+      "page": 208,
+      "identical": true
+    },
+    {
+      "page": 209,
+      "identical": true
+    },
+    {
+      "page": 210,
+      "identical": true
+    },
+    {
+      "page": 211,
+      "identical": true
+    },
+    {
+      "page": 212,
+      "identical": true
+    },
+    {
+      "page": 213,
+      "identical": true
+    },
+    {
+      "page": 214,
+      "identical": true
+    },
+    {
+      "page": 215,
+      "identical": true
+    },
+    {
+      "page": 216,
+      "identical": true
+    },
+    {
+      "page": 217,
+      "identical": true
+    },
+    {
+      "page": 218,
+      "identical": true
+    },
+    {
+      "page": 219,
+      "identical": true
+    },
+    {
+      "page": 220,
+      "identical": true
+    },
+    {
+      "page": 221,
+      "identical": true
+    },
+    {
+      "page": 222,
+      "identical": true
+    },
+    {
+      "page": 223,
+      "identical": true
+    },
+    {
+      "page": 224,
+      "identical": true
+    },
+    {
+      "page": 225,
+      "identical": true
+    },
+    {
+      "page": 226,
+      "identical": true
+    },
+    {
+      "page": 227,
+      "identical": true
+    },
+    {
+      "page": 228,
+      "identical": true
+    },
+    {
+      "page": 229,
+      "identical": true
+    },
+    {
+      "page": 230,
+      "identical": true
+    },
+    {
+      "page": 231,
+      "identical": true
+    },
+    {
+      "page": 232,
+      "identical": true
+    },
+    {
+      "page": 233,
+      "identical": true
+    },
+    {
+      "page": 234,
+      "identical": true
+    },
+    {
+      "page": 235,
+      "identical": true
+    },
+    {
+      "page": 236,
+      "identical": true
+    },
+    {
+      "page": 237,
+      "identical": true
+    },
+    {
+      "page": 238,
+      "identical": true
+    },
+    {
+      "page": 239,
+      "identical": true
+    },
+    {
+      "page": 240,
+      "identical": true
+    },
+    {
+      "page": 241,
+      "identical": true
+    },
+    {
+      "page": 242,
+      "identical": true
+    },
+    {
+      "page": 243,
+      "identical": true
+    },
+    {
+      "page": 244,
+      "identical": true
+    },
+    {
+      "page": 245,
+      "identical": true
+    },
+    {
+      "page": 246,
+      "identical": true
+    },
+    {
+      "page": 247,
+      "identical": true
+    },
+    {
+      "page": 248,
+      "identical": true
+    },
+    {
+      "page": 249,
+      "identical": true
+    },
+    {
+      "page": 250,
+      "identical": true
+    },
+    {
+      "page": 251,
+      "identical": true
+    },
+    {
+      "page": 252,
+      "identical": true
+    },
+    {
+      "page": 253,
+      "identical": true
+    },
+    {
+      "page": 254,
+      "identical": true
+    },
+    {
+      "page": 255,
+      "identical": true
+    },
+    {
+      "page": 256,
+      "identical": true
+    },
+    {
+      "page": 257,
+      "identical": true
+    },
+    {
+      "page": 258,
+      "identical": true
+    },
+    {
+      "page": 259,
+      "identical": true
+    },
+    {
+      "page": 260,
+      "identical": true
+    },
+    {
+      "page": 261,
+      "identical": true
+    },
+    {
+      "page": 262,
+      "identical": true
+    },
+    {
+      "page": 263,
+      "identical": true
+    }
+  ],
+  "scan": {
+    "flags": [],
+    "min_ink": 0.01831613107503749,
+    "max_ink": 0.06156412245890286,
+    "max_dark": 0.013476872631802209,
+    "max_border_dark": 0.0
+  }
+}

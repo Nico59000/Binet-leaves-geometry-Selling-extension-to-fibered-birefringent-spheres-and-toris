@@ -1,0 +1,23 @@
+{
+  "integral_descent": {
+    "Ad": "IDENTICAL downstairs/upstairs V4-invariants",
+    "Binet": "H1 identical; upstairs V4-invariant H2=Z^15 \u2295 Z/2 while downstairs H2=Z^15; discrepancy is exactly TU transfer index 2 at V48"
+  },
+  "integral_downstairs": {
+    "Ad": "H1=Z^3 \u2295 Z/2; H2=Z^15",
+    "Binet": "H1=Z^23 \u2295 Z/2; H2=Z^15"
+  },
+  "next": "single industrial consolidation pass covering documentation, cumulative verifier/formal-rigor audit, PDF QA, seal/bundle, clean round-trip/postseal/atomic token",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "rational": {
+    "Ad": "H1=Q^3; H2=Q^15",
+    "Binet": "H1=Q^23; H2=Q^15"
+  },
+  "source_sha256": {
+    "Q": "fc22379e48c8a77e9cfbeb363cca7822b4800c3c5b412537527c4d4a33c059d5",
+    "Z": "9ab1b5c2e5262d857c007c857736c9dac06f519ff613ee812e75257fb02834e0",
+    "verification": "be7e9960d49d7229ba589400ee18553ebe961cfc4123b1ca736db77d3369c723"
+  },
+  "status": "MATH-GATES-PASS/PREINDUSTRIAL",
+  "version": "v50"
+}

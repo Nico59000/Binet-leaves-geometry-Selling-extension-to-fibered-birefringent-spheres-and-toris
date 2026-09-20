@@ -1,0 +1,48 @@
+{
+  "version": "v49",
+  "purpose": "Machine contract connecting a reconstructed Selling field complex to historical twisted H1/H2.",
+  "required_total_outputs": {
+    "C0": [
+      "vertex_id",
+      "kind(crossing/fissure/symmetry-centre)",
+      "source_coordinate_or_exact_parameter",
+      "vanishing_coefficients",
+      "incident_C1"
+    ],
+    "C1": [
+      "edge_id",
+      "source_C0",
+      "target_C0",
+      "oriented_wall_letter",
+      "source_field",
+      "target_field",
+      "transition_matrix_Me",
+      "Binet_sign_epsilon"
+    ],
+    "C2": [
+      "field_id",
+      "marked_reduced_form",
+      "ordered_oriented_boundary_cycle",
+      "repetition_target_if_any",
+      "stabilizer_word_if_repeated"
+    ]
+  },
+  "derived_transports": {
+    "Binet_rank1": "epsilon_e",
+    "adjoint_rank3": "Ad(M_e): X -> M_e^{-1} X M_e",
+    "opposite_variance_guard": "M_e X M_e^{-1} remains opposite variance and is not substituted."
+  },
+  "cochains": {
+    "d0": "for edge e:v->w, (d0 s)_e = s_w - T_e s_v",
+    "d1": "ordered signed transported sum along each historical field boundary",
+    "mandatory_identity": "d1*d0 = 0 exactly before any cohomology is published",
+    "H1": "ker(d1)/im(d0)",
+    "H2": "C2/im(d1)"
+  },
+  "F29_gate": [
+    "object image for every historical field/cell object",
+    "explicit F29 route for every historical edge",
+    "explicit filler for every historical 2-cell with identical boundary"
+  ],
+  "current_v49_state": "COMPILER-SCHEMA-PROVEN; INPUT_COMPLEX_NOT_YET_TOTAL; HISTORICAL_H1_H2_NT"
+}

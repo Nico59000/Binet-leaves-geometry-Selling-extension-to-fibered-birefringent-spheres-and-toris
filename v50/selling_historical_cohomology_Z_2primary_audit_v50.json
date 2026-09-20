@@ -1,0 +1,1780 @@
+{
+  "decision": {
+    "Ad_downstairs": "H1 = Z^3 + Z/2; H2 = Z^15",
+    "Binet_downstairs": "H1 = Z^23 + Z/2; H2 = Z^15",
+    "historical_integral_downstairs": "CALCULATED",
+    "integral_upstairs_invariants_vs_downstairs": "Ad IDENTICAL; Binet differs by one extra Z/2 in H2 upstairs-invariant, exactly at the TU transfer index-2 cell V48. Therefore rational descent is an isomorphism, but integral descent is not an isomorphism in Binet degree 2."
+  },
+  "integral_descent": {
+    "Ad_C2_indices": {
+      "T": 1,
+      "TU": 1,
+      "U": 1
+    },
+    "Binet_C2_exception": {
+      "effect": "the corresponding invariant-upstairs d1 row is twice the downstairs row",
+      "index": 2,
+      "monodromy": "TU",
+      "vertex": 48
+    },
+    "C0_index": "1 for both systems",
+    "C1_index": "1 for both systems (including deck-mirror anti-invariants)",
+    "upstairs_V4_invariant_cohomology": {
+      "Ad": {
+        "H1": {
+          "free_rank": 3,
+          "torsion_invariant_factors": [
+            2
+          ]
+        },
+        "H2": {
+          "free_rank": 15,
+          "torsion_invariant_factors": []
+        },
+        "reason": "all three Ad deck norm maps are surjective onto their saturated fixed lattices (index 1), so the integral invariant descent lattice complex is isomorphic to the downstairs integral complex."
+      },
+      "Binet": {
+        "H1": {
+          "free_rank": 23,
+          "torsion_invariant_factors": [
+            2
+          ]
+        },
+        "H2": {
+          "free_rank": 15,
+          "torsion_invariant_factors": [
+            2
+          ]
+        },
+        "d1_nonunit_snf": [
+          2
+        ]
+      }
+    }
+  },
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS-EXACT-2-PRIMARY/SNF/TRANSFER-AUDIT",
+  "systems": {
+    "Ad": {
+      "dimensions": {
+        "C0": 186,
+        "C1": 348,
+        "C2": 174
+      },
+      "explicit_H1_order2_witness": {
+        "checks": [
+          "d1*tau=0",
+          "2*tau=d0*z",
+          "tau not in im_Z(d0) because d0 is injective and z is not divisible by 2"
+        ],
+        "tau_equals_d0_z_over_2_support": [
+          {
+            "i": 0,
+            "value": "1"
+          },
+          {
+            "i": 11,
+            "value": "1"
+          },
+          {
+            "i": 37,
+            "value": "1"
+          },
+          {
+            "i": 54,
+            "value": "1"
+          },
+          {
+            "i": 95,
+            "value": "1"
+          },
+          {
+            "i": 118,
+            "value": "1"
+          },
+          {
+            "i": 120,
+            "value": "1"
+          },
+          {
+            "i": 121,
+            "value": "6"
+          },
+          {
+            "i": 179,
+            "value": "1"
+          },
+          {
+            "i": 180,
+            "value": "6"
+          },
+          {
+            "i": 209,
+            "value": "1"
+          },
+          {
+            "i": 210,
+            "value": "1"
+          },
+          {
+            "i": 211,
+            "value": "1"
+          },
+          {
+            "i": 216,
+            "value": "1"
+          },
+          {
+            "i": 217,
+            "value": "3"
+          },
+          {
+            "i": 234,
+            "value": "1"
+          },
+          {
+            "i": 235,
+            "value": "1"
+          },
+          {
+            "i": 239,
+            "value": "1"
+          },
+          {
+            "i": 240,
+            "value": "6"
+          },
+          {
+            "i": 262,
+            "value": "-60"
+          },
+          {
+            "i": 263,
+            "value": "15"
+          },
+          {
+            "i": 264,
+            "value": "-5"
+          },
+          {
+            "i": 295,
+            "value": "-60"
+          },
+          {
+            "i": 296,
+            "value": "15"
+          },
+          {
+            "i": 297,
+            "value": "-5"
+          },
+          {
+            "i": 308,
+            "value": "1"
+          },
+          {
+            "i": 309,
+            "value": "1"
+          },
+          {
+            "i": 311,
+            "value": "1"
+          },
+          {
+            "i": 312,
+            "value": "1"
+          },
+          {
+            "i": 313,
+            "value": "1"
+          },
+          {
+            "i": 314,
+            "value": "3"
+          },
+          {
+            "i": 315,
+            "value": "-9"
+          },
+          {
+            "i": 316,
+            "value": "31"
+          },
+          {
+            "i": 320,
+            "value": "1"
+          },
+          {
+            "i": 321,
+            "value": "6"
+          },
+          {
+            "i": 322,
+            "value": "-9"
+          },
+          {
+            "i": 323,
+            "value": "31"
+          },
+          {
+            "i": 333,
+            "value": "-9"
+          },
+          {
+            "i": 334,
+            "value": "31"
+          },
+          {
+            "i": 335,
+            "value": "-60"
+          },
+          {
+            "i": 336,
+            "value": "15"
+          },
+          {
+            "i": 337,
+            "value": "-5"
+          },
+          {
+            "i": 338,
+            "value": "1"
+          },
+          {
+            "i": 339,
+            "value": "1"
+          },
+          {
+            "i": 340,
+            "value": "1"
+          },
+          {
+            "i": 341,
+            "value": "1"
+          },
+          {
+            "i": 342,
+            "value": "1"
+          },
+          {
+            "i": 343,
+            "value": "1"
+          },
+          {
+            "i": 344,
+            "value": "-5"
+          },
+          {
+            "i": 345,
+            "value": "-60"
+          },
+          {
+            "i": 346,
+            "value": "1"
+          },
+          {
+            "i": 347,
+            "value": "1"
+          }
+        ],
+        "z_in_C0_mod2_lift_support": [
+          {
+            "i": 1,
+            "value": "1"
+          },
+          {
+            "i": 2,
+            "value": "1"
+          },
+          {
+            "i": 4,
+            "value": "1"
+          },
+          {
+            "i": 5,
+            "value": "1"
+          },
+          {
+            "i": 7,
+            "value": "1"
+          },
+          {
+            "i": 8,
+            "value": "1"
+          },
+          {
+            "i": 10,
+            "value": "1"
+          },
+          {
+            "i": 11,
+            "value": "1"
+          },
+          {
+            "i": 13,
+            "value": "1"
+          },
+          {
+            "i": 14,
+            "value": "1"
+          },
+          {
+            "i": 16,
+            "value": "1"
+          },
+          {
+            "i": 17,
+            "value": "1"
+          },
+          {
+            "i": 19,
+            "value": "1"
+          },
+          {
+            "i": 20,
+            "value": "1"
+          },
+          {
+            "i": 22,
+            "value": "1"
+          },
+          {
+            "i": 23,
+            "value": "1"
+          },
+          {
+            "i": 25,
+            "value": "1"
+          },
+          {
+            "i": 26,
+            "value": "1"
+          },
+          {
+            "i": 28,
+            "value": "1"
+          },
+          {
+            "i": 29,
+            "value": "1"
+          },
+          {
+            "i": 31,
+            "value": "1"
+          },
+          {
+            "i": 32,
+            "value": "1"
+          },
+          {
+            "i": 34,
+            "value": "1"
+          },
+          {
+            "i": 35,
+            "value": "1"
+          },
+          {
+            "i": 37,
+            "value": "1"
+          },
+          {
+            "i": 38,
+            "value": "1"
+          },
+          {
+            "i": 40,
+            "value": "1"
+          },
+          {
+            "i": 41,
+            "value": "1"
+          },
+          {
+            "i": 43,
+            "value": "1"
+          },
+          {
+            "i": 44,
+            "value": "1"
+          },
+          {
+            "i": 46,
+            "value": "1"
+          },
+          {
+            "i": 47,
+            "value": "1"
+          },
+          {
+            "i": 49,
+            "value": "1"
+          },
+          {
+            "i": 50,
+            "value": "1"
+          },
+          {
+            "i": 52,
+            "value": "1"
+          },
+          {
+            "i": 53,
+            "value": "1"
+          },
+          {
+            "i": 55,
+            "value": "1"
+          },
+          {
+            "i": 56,
+            "value": "1"
+          },
+          {
+            "i": 58,
+            "value": "1"
+          },
+          {
+            "i": 59,
+            "value": "1"
+          },
+          {
+            "i": 61,
+            "value": "1"
+          },
+          {
+            "i": 62,
+            "value": "1"
+          },
+          {
+            "i": 64,
+            "value": "1"
+          },
+          {
+            "i": 65,
+            "value": "1"
+          },
+          {
+            "i": 67,
+            "value": "1"
+          },
+          {
+            "i": 68,
+            "value": "1"
+          },
+          {
+            "i": 70,
+            "value": "1"
+          },
+          {
+            "i": 71,
+            "value": "1"
+          },
+          {
+            "i": 73,
+            "value": "1"
+          },
+          {
+            "i": 74,
+            "value": "1"
+          },
+          {
+            "i": 76,
+            "value": "1"
+          },
+          {
+            "i": 77,
+            "value": "1"
+          },
+          {
+            "i": 79,
+            "value": "1"
+          },
+          {
+            "i": 80,
+            "value": "1"
+          },
+          {
+            "i": 82,
+            "value": "1"
+          },
+          {
+            "i": 83,
+            "value": "1"
+          },
+          {
+            "i": 85,
+            "value": "1"
+          },
+          {
+            "i": 86,
+            "value": "1"
+          },
+          {
+            "i": 88,
+            "value": "1"
+          },
+          {
+            "i": 89,
+            "value": "1"
+          },
+          {
+            "i": 91,
+            "value": "1"
+          },
+          {
+            "i": 92,
+            "value": "1"
+          },
+          {
+            "i": 94,
+            "value": "1"
+          },
+          {
+            "i": 95,
+            "value": "1"
+          },
+          {
+            "i": 97,
+            "value": "1"
+          },
+          {
+            "i": 98,
+            "value": "1"
+          },
+          {
+            "i": 100,
+            "value": "1"
+          },
+          {
+            "i": 101,
+            "value": "1"
+          },
+          {
+            "i": 103,
+            "value": "1"
+          },
+          {
+            "i": 104,
+            "value": "1"
+          },
+          {
+            "i": 106,
+            "value": "1"
+          },
+          {
+            "i": 107,
+            "value": "1"
+          },
+          {
+            "i": 109,
+            "value": "1"
+          },
+          {
+            "i": 110,
+            "value": "1"
+          },
+          {
+            "i": 112,
+            "value": "1"
+          },
+          {
+            "i": 113,
+            "value": "1"
+          },
+          {
+            "i": 115,
+            "value": "1"
+          },
+          {
+            "i": 116,
+            "value": "1"
+          },
+          {
+            "i": 118,
+            "value": "1"
+          },
+          {
+            "i": 119,
+            "value": "1"
+          },
+          {
+            "i": 121,
+            "value": "1"
+          },
+          {
+            "i": 122,
+            "value": "1"
+          },
+          {
+            "i": 124,
+            "value": "1"
+          },
+          {
+            "i": 125,
+            "value": "1"
+          },
+          {
+            "i": 127,
+            "value": "1"
+          },
+          {
+            "i": 128,
+            "value": "1"
+          },
+          {
+            "i": 130,
+            "value": "1"
+          },
+          {
+            "i": 131,
+            "value": "1"
+          },
+          {
+            "i": 133,
+            "value": "1"
+          },
+          {
+            "i": 134,
+            "value": "1"
+          },
+          {
+            "i": 136,
+            "value": "1"
+          },
+          {
+            "i": 137,
+            "value": "1"
+          },
+          {
+            "i": 139,
+            "value": "1"
+          },
+          {
+            "i": 140,
+            "value": "1"
+          },
+          {
+            "i": 142,
+            "value": "1"
+          },
+          {
+            "i": 143,
+            "value": "1"
+          },
+          {
+            "i": 145,
+            "value": "1"
+          },
+          {
+            "i": 146,
+            "value": "1"
+          },
+          {
+            "i": 148,
+            "value": "1"
+          },
+          {
+            "i": 149,
+            "value": "1"
+          },
+          {
+            "i": 151,
+            "value": "1"
+          },
+          {
+            "i": 152,
+            "value": "1"
+          },
+          {
+            "i": 154,
+            "value": "1"
+          },
+          {
+            "i": 155,
+            "value": "1"
+          },
+          {
+            "i": 157,
+            "value": "1"
+          },
+          {
+            "i": 158,
+            "value": "1"
+          },
+          {
+            "i": 160,
+            "value": "1"
+          },
+          {
+            "i": 161,
+            "value": "1"
+          },
+          {
+            "i": 163,
+            "value": "1"
+          },
+          {
+            "i": 164,
+            "value": "1"
+          },
+          {
+            "i": 166,
+            "value": "1"
+          },
+          {
+            "i": 167,
+            "value": "1"
+          },
+          {
+            "i": 169,
+            "value": "1"
+          },
+          {
+            "i": 170,
+            "value": "1"
+          },
+          {
+            "i": 172,
+            "value": "1"
+          },
+          {
+            "i": 173,
+            "value": "1"
+          },
+          {
+            "i": 175,
+            "value": "1"
+          },
+          {
+            "i": 176,
+            "value": "1"
+          },
+          {
+            "i": 178,
+            "value": "1"
+          },
+          {
+            "i": 179,
+            "value": "1"
+          },
+          {
+            "i": 181,
+            "value": "1"
+          },
+          {
+            "i": 182,
+            "value": "1"
+          },
+          {
+            "i": 184,
+            "value": "1"
+          },
+          {
+            "i": 185,
+            "value": "1"
+          }
+        ]
+      },
+      "groups": {
+        "H0": "0",
+        "H1": {
+          "free_rank": 3,
+          "torsion_invariant_factors": [
+            2
+          ]
+        },
+        "H2": {
+          "free_rank": 15,
+          "torsion_invariant_factors": []
+        }
+      },
+      "mod_p_audit": {
+        "2": {
+          "H1_dim": 4,
+          "H2_dim": 15,
+          "rank_d0": 185,
+          "rank_d1": 159
+        },
+        "3": {
+          "H1_dim": 3,
+          "H2_dim": 15,
+          "rank_d0": 186,
+          "rank_d1": 159
+        },
+        "5": {
+          "H1_dim": 3,
+          "H2_dim": 15,
+          "rank_d0": 186,
+          "rank_d1": 159
+        },
+        "7": {
+          "H1_dim": 3,
+          "H2_dim": 15,
+          "rank_d0": 186,
+          "rank_d1": 159
+        }
+      },
+      "proof_of_H1_torsion": "ker(d1) is saturated in the free C1 lattice; hence sat_C1(im d0) is contained in ker(d1), and Tors(ker d1/im d0)=sat_C1(im d0)/im d0. The d0 Smith form has exactly one nonunit invariant factor 2.",
+      "snf": {
+        "d0": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "d1": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "two_primary": {
+        "H1": [
+          2
+        ],
+        "H2": []
+      }
+    },
+    "Binet": {
+      "dimensions": {
+        "C0": 62,
+        "C1": 107,
+        "C2": 37
+      },
+      "explicit_H1_order2_witness": {
+        "checks": [
+          "d1*tau=0",
+          "2*tau=d0*z",
+          "tau not in im_Z(d0) because d0 is injective and z is not divisible by 2"
+        ],
+        "tau_equals_d0_z_over_2_support": [
+          {
+            "i": 6,
+            "value": "1"
+          },
+          {
+            "i": 9,
+            "value": "1"
+          },
+          {
+            "i": 26,
+            "value": "1"
+          },
+          {
+            "i": 28,
+            "value": "1"
+          },
+          {
+            "i": 33,
+            "value": "1"
+          },
+          {
+            "i": 36,
+            "value": "1"
+          },
+          {
+            "i": 38,
+            "value": "1"
+          },
+          {
+            "i": 47,
+            "value": "1"
+          },
+          {
+            "i": 53,
+            "value": "1"
+          },
+          {
+            "i": 55,
+            "value": "1"
+          },
+          {
+            "i": 66,
+            "value": "1"
+          },
+          {
+            "i": 69,
+            "value": "1"
+          },
+          {
+            "i": 74,
+            "value": "1"
+          },
+          {
+            "i": 75,
+            "value": "1"
+          },
+          {
+            "i": 84,
+            "value": "1"
+          },
+          {
+            "i": 86,
+            "value": "1"
+          },
+          {
+            "i": 89,
+            "value": "1"
+          },
+          {
+            "i": 91,
+            "value": "1"
+          },
+          {
+            "i": 92,
+            "value": "1"
+          },
+          {
+            "i": 93,
+            "value": "1"
+          },
+          {
+            "i": 94,
+            "value": "1"
+          },
+          {
+            "i": 98,
+            "value": "1"
+          },
+          {
+            "i": 101,
+            "value": "1"
+          },
+          {
+            "i": 102,
+            "value": "1"
+          },
+          {
+            "i": 103,
+            "value": "1"
+          },
+          {
+            "i": 104,
+            "value": "1"
+          },
+          {
+            "i": 105,
+            "value": "1"
+          },
+          {
+            "i": 106,
+            "value": "1"
+          }
+        ],
+        "z_in_C0_mod2_lift_support": [
+          {
+            "i": 0,
+            "value": "1"
+          },
+          {
+            "i": 1,
+            "value": "1"
+          },
+          {
+            "i": 2,
+            "value": "1"
+          },
+          {
+            "i": 3,
+            "value": "1"
+          },
+          {
+            "i": 4,
+            "value": "1"
+          },
+          {
+            "i": 5,
+            "value": "1"
+          },
+          {
+            "i": 6,
+            "value": "1"
+          },
+          {
+            "i": 7,
+            "value": "1"
+          },
+          {
+            "i": 8,
+            "value": "1"
+          },
+          {
+            "i": 9,
+            "value": "1"
+          },
+          {
+            "i": 10,
+            "value": "1"
+          },
+          {
+            "i": 11,
+            "value": "1"
+          },
+          {
+            "i": 12,
+            "value": "1"
+          },
+          {
+            "i": 13,
+            "value": "1"
+          },
+          {
+            "i": 14,
+            "value": "1"
+          },
+          {
+            "i": 15,
+            "value": "1"
+          },
+          {
+            "i": 16,
+            "value": "1"
+          },
+          {
+            "i": 17,
+            "value": "1"
+          },
+          {
+            "i": 18,
+            "value": "1"
+          },
+          {
+            "i": 19,
+            "value": "1"
+          },
+          {
+            "i": 20,
+            "value": "1"
+          },
+          {
+            "i": 21,
+            "value": "1"
+          },
+          {
+            "i": 22,
+            "value": "1"
+          },
+          {
+            "i": 23,
+            "value": "1"
+          },
+          {
+            "i": 24,
+            "value": "1"
+          },
+          {
+            "i": 25,
+            "value": "1"
+          },
+          {
+            "i": 26,
+            "value": "1"
+          },
+          {
+            "i": 27,
+            "value": "1"
+          },
+          {
+            "i": 28,
+            "value": "1"
+          },
+          {
+            "i": 29,
+            "value": "1"
+          },
+          {
+            "i": 30,
+            "value": "1"
+          },
+          {
+            "i": 31,
+            "value": "1"
+          },
+          {
+            "i": 32,
+            "value": "1"
+          },
+          {
+            "i": 33,
+            "value": "1"
+          },
+          {
+            "i": 34,
+            "value": "1"
+          },
+          {
+            "i": 35,
+            "value": "1"
+          },
+          {
+            "i": 36,
+            "value": "1"
+          },
+          {
+            "i": 37,
+            "value": "1"
+          },
+          {
+            "i": 38,
+            "value": "1"
+          },
+          {
+            "i": 39,
+            "value": "1"
+          },
+          {
+            "i": 40,
+            "value": "1"
+          },
+          {
+            "i": 41,
+            "value": "1"
+          },
+          {
+            "i": 42,
+            "value": "1"
+          },
+          {
+            "i": 43,
+            "value": "1"
+          },
+          {
+            "i": 44,
+            "value": "1"
+          },
+          {
+            "i": 45,
+            "value": "1"
+          },
+          {
+            "i": 46,
+            "value": "1"
+          },
+          {
+            "i": 47,
+            "value": "1"
+          },
+          {
+            "i": 48,
+            "value": "1"
+          },
+          {
+            "i": 49,
+            "value": "1"
+          },
+          {
+            "i": 50,
+            "value": "1"
+          },
+          {
+            "i": 51,
+            "value": "1"
+          },
+          {
+            "i": 52,
+            "value": "1"
+          },
+          {
+            "i": 53,
+            "value": "1"
+          },
+          {
+            "i": 54,
+            "value": "1"
+          },
+          {
+            "i": 55,
+            "value": "1"
+          },
+          {
+            "i": 56,
+            "value": "1"
+          },
+          {
+            "i": 57,
+            "value": "1"
+          },
+          {
+            "i": 58,
+            "value": "1"
+          },
+          {
+            "i": 59,
+            "value": "1"
+          },
+          {
+            "i": 60,
+            "value": "1"
+          },
+          {
+            "i": 61,
+            "value": "1"
+          }
+        ]
+      },
+      "groups": {
+        "H0": "0",
+        "H1": {
+          "free_rank": 23,
+          "torsion_invariant_factors": [
+            2
+          ]
+        },
+        "H2": {
+          "free_rank": 15,
+          "torsion_invariant_factors": []
+        }
+      },
+      "mod_p_audit": {
+        "2": {
+          "H1_dim": 24,
+          "H2_dim": 15,
+          "rank_d0": 61,
+          "rank_d1": 22
+        },
+        "3": {
+          "H1_dim": 23,
+          "H2_dim": 15,
+          "rank_d0": 62,
+          "rank_d1": 22
+        },
+        "5": {
+          "H1_dim": 23,
+          "H2_dim": 15,
+          "rank_d0": 62,
+          "rank_d1": 22
+        },
+        "7": {
+          "H1_dim": 23,
+          "H2_dim": 15,
+          "rank_d0": 62,
+          "rank_d1": 22
+        }
+      },
+      "proof_of_H1_torsion": "ker(d1) is saturated in the free C1 lattice; hence sat_C1(im d0) is contained in ker(d1), and Tors(ker d1/im d0)=sat_C1(im d0)/im d0. The d0 Smith form has exactly one nonunit invariant factor 2.",
+      "snf": {
+        "d0": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "d1": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "two_primary": {
+        "H1": [
+          2
+        ],
+        "H2": []
+      }
+    }
+  },
+  "transfer_indices": {
+    "Ad": {
+      "T": {
+        "coordinate_matrix": [
+          [
+            "0",
+            "-1",
+            "-3"
+          ]
+        ],
+        "fixed_basis": [
+          [
+            "-30"
+          ],
+          [
+            "7"
+          ],
+          [
+            "-3"
+          ]
+        ],
+        "fixed_rank": 1,
+        "index": 1
+      },
+      "TU": {
+        "coordinate_matrix": [
+          [
+            "1",
+            "0",
+            "-10"
+          ]
+        ],
+        "fixed_basis": [
+          [
+            "12"
+          ],
+          [
+            "-3"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "fixed_rank": 1,
+        "index": 1
+      },
+      "U": {
+        "coordinate_matrix": [
+          [
+            "-1",
+            "-3",
+            "3"
+          ]
+        ],
+        "fixed_basis": [
+          [
+            "10"
+          ],
+          [
+            "-3"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "fixed_rank": 1,
+        "index": 1
+      }
+    },
+    "Binet": {
+      "T": {
+        "fixed_rank": 0,
+        "index": 1,
+        "norm": "0"
+      },
+      "TU": {
+        "fixed_rank": 1,
+        "index": 2,
+        "norm": "multiplication by 2"
+      },
+      "U": {
+        "fixed_rank": 0,
+        "index": 1,
+        "norm": "0"
+      }
+    }
+  },
+  "version": "v50"
+}

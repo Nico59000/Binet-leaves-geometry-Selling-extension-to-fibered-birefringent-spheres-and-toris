@@ -1,0 +1,1673 @@
+{
+  "version": "v50",
+  "status": "PASS-EXACT-ORBICHAIN-SPACE-DIAGNOSTIC",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "C0_dims": {
+    "Binet": 62,
+    "Ad": 186
+  },
+  "C1_dims": {
+    "Binet": 107,
+    "Ad": 348
+  },
+  "C1_edge_dims": {
+    "0": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "1": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "2": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "3": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "4": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "5": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "6": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "7": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "8": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "9": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "10": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "11": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "12": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "13": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "14": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "15": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "16": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "17": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "18": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "19": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "20": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "21": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "22": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "23": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "24": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "25": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "26": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "27": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "28": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "29": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "30": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "31": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "32": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "33": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "34": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "35": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "36": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "37": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "38": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "39": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "40": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "41": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "42": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "43": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "44": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "45": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "46": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "47": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "48": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "49": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "50": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "51": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "52": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "53": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "54": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "55": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "56": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "57": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "58": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "59": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "60": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "61": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "62": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "63": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "64": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "65": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "66": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "67": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "68": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "69": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "70": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "71": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "72": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "73": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "74": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "75": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "76": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "77": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "78": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "79": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "80": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "81": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "82": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "83": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "84": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "85": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "86": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "87": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "88": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "89": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "90": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "91": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "92": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "93": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "94": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "95": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "96": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "97": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "98": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "99": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "100": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "101": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "102": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "103": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "104": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "105": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "106": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "107": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "108": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "109": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "110": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "111": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "112": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "113": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "114": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "115": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "116": {
+      "Binet": 0,
+      "Ad": 2
+    },
+    "117": {
+      "Binet": 1,
+      "Ad": 3
+    },
+    "118": {
+      "Binet": 1,
+      "Ad": 2
+    },
+    "119": {
+      "Binet": 1,
+      "Ad": 2
+    },
+    "120": {
+      "Binet": 1,
+      "Ad": 2
+    },
+    "121": {
+      "Binet": 1,
+      "Ad": 2
+    },
+    "122": {
+      "Binet": 1,
+      "Ad": 2
+    }
+  },
+  "d0_ranks": {
+    "Binet": 62,
+    "Ad": 186
+  },
+  "local_relation_dims": [
+    {
+      "vertex": 0,
+      "edges": [
+        2,
+        3,
+        5,
+        9,
+        12,
+        18
+      ],
+      "faces": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 1,
+      "edges": [
+        0,
+        3,
+        4
+      ],
+      "faces": [
+        0,
+        1
+      ],
+      "C1B_local_dim": 1,
+      "C1A_local_dim": 7,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 2,
+      "edges": [
+        1,
+        2,
+        8
+      ],
+      "faces": [
+        0,
+        2,
+        3
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 3,
+      "edges": [
+        0,
+        1,
+        7,
+        13
+      ],
+      "faces": [
+        0,
+        2,
+        6
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 4,
+      "edges": [
+        5,
+        6,
+        11
+      ],
+      "faces": [
+        1,
+        4,
+        5
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 5,
+      "edges": [
+        4,
+        6,
+        10,
+        19
+      ],
+      "faces": [
+        1,
+        4,
+        8
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 6,
+      "edges": [
+        7,
+        8,
+        9,
+        15,
+        16,
+        29
+      ],
+      "faces": [
+        2,
+        3,
+        6,
+        7,
+        11,
+        13
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 7,
+      "edges": [
+        10,
+        11,
+        12,
+        20,
+        23,
+        36
+      ],
+      "faces": [
+        4,
+        5,
+        8,
+        9,
+        15,
+        17
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 8,
+      "edges": [
+        14,
+        15,
+        25,
+        26,
+        44,
+        46
+      ],
+      "faces": [
+        6,
+        10,
+        11,
+        19,
+        20,
+        29
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 9,
+      "edges": [
+        13,
+        14,
+        24,
+        41
+      ],
+      "faces": [
+        6,
+        10,
+        18
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 10,
+      "edges": [
+        17,
+        18,
+        22,
+        31,
+        39,
+        52
+      ],
+      "faces": [
+        7,
+        9,
+        12,
+        16,
+        23,
+        28
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 11,
+      "edges": [
+        16,
+        17,
+        30
+      ],
+      "faces": [
+        7,
+        12,
+        13
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 12,
+      "edges": [
+        20,
+        21,
+        34,
+        37,
+        55,
+        57
+      ],
+      "faces": [
+        8,
+        14,
+        15,
+        25,
+        26,
+        36
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 13,
+      "edges": [
+        19,
+        21,
+        33
+      ],
+      "faces": [
+        8,
+        14
+      ],
+      "C1B_local_dim": 1,
+      "C1A_local_dim": 7,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 14,
+      "edges": [
+        22,
+        23,
+        38
+      ],
+      "faces": [
+        9,
+        16,
+        17
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 15,
+      "edges": [
+        24,
+        25,
+        43
+      ],
+      "faces": [
+        10,
+        18,
+        19
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 16,
+      "edges": [
+        28,
+        29,
+        32
+      ],
+      "faces": [
+        11,
+        13,
+        21
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 17,
+      "edges": [
+        26,
+        27,
+        45
+      ],
+      "faces": [
+        11,
+        20,
+        22
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 18,
+      "edges": [
+        27,
+        28,
+        48,
+        49,
+        65,
+        69
+      ],
+      "faces": [
+        11,
+        21,
+        22,
+        31,
+        32,
+        42
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 19,
+      "edges": [
+        30,
+        31,
+        32,
+        48,
+        50,
+        67
+      ],
+      "faces": [
+        12,
+        13,
+        21,
+        23,
+        31,
+        33
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 20,
+      "edges": [
+        34,
+        35,
+        54
+      ],
+      "faces": [
+        14,
+        24,
+        25
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 21,
+      "edges": [
+        33,
+        35,
+        53,
+        73
+      ],
+      "faces": [
+        14,
+        24,
+        35
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 22,
+      "edges": [
+        36,
+        37,
+        38,
+        40,
+        56,
+        58
+      ],
+      "faces": [
+        15,
+        16,
+        17,
+        26,
+        27,
+        37
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 23,
+      "edges": [
+        39,
+        40,
+        59,
+        61,
+        80,
+        82
+      ],
+      "faces": [
+        16,
+        27,
+        28,
+        38,
+        39,
+        49
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 24,
+      "edges": [
+        42,
+        43,
+        44,
+        62
+      ],
+      "faces": [
+        18,
+        19,
+        29
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 25,
+      "edges": [
+        41,
+        42
+      ],
+      "faces": [
+        18
+      ],
+      "C1B_local_dim": 0,
+      "C1A_local_dim": 4,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 1
+    },
+    {
+      "vertex": 26,
+      "edges": [
+        46,
+        47,
+        63
+      ],
+      "faces": [
+        20,
+        29,
+        30
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 27,
+      "edges": [
+        45,
+        47,
+        49,
+        64,
+        68,
+        85
+      ],
+      "faces": [
+        20,
+        22,
+        30,
+        32,
+        40,
+        43
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 28,
+      "edges": [
+        51,
+        52,
+        60
+      ],
+      "faces": [
+        23,
+        28,
+        34
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 29,
+      "edges": [
+        50,
+        51,
+        70,
+        71,
+        92,
+        93
+      ],
+      "faces": [
+        23,
+        33,
+        34,
+        44,
+        45,
+        54
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 30,
+      "edges": [
+        53,
+        54,
+        55,
+        74,
+        78,
+        95
+      ],
+      "faces": [
+        24,
+        25,
+        35,
+        36,
+        46,
+        47
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 31,
+      "edges": [
+        56,
+        57,
+        76
+      ],
+      "faces": [
+        26,
+        36,
+        37
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 32,
+      "edges": [
+        58,
+        59,
+        79
+      ],
+      "faces": [
+        27,
+        37,
+        38
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 33,
+      "edges": [
+        60,
+        61,
+        72,
+        81
+      ],
+      "faces": [
+        28,
+        34,
+        39
+      ],
+      "C1B_local_dim": 4,
+      "C1A_local_dim": 12,
+      "Binet_relation_dim": 2,
+      "Ad_relation_dim": 4
+    },
+    {
+      "vertex": 34,
+      "edges": [
+        62,
+        63,
+        64,
+        83
+      ],
+      "faces": [
+        29,
+        30,
+        40
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 35,
+      "edges": [
+        66,
+        67,
+        70,
+        88,
+        90,
+        103
+      ],
+      "faces": [
+        31,
+        33,
+        41,
+        44,
+        51,
+        53
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 36,
+      "edges": [
+        65,
+        66,
+        86
+      ],
+      "faces": [
+        31,
+        41,
+        42
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 37,
+      "edges": [
+        68,
+        69,
+        86,
+        87,
+        89,
+        100
+      ],
+      "faces": [
+        32,
+        41,
+        42,
+        43,
+        50,
+        52
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 38,
+      "edges": [
+        71,
+        72,
+        94,
+        107
+      ],
+      "faces": [
+        34,
+        45,
+        55
+      ],
+      "C1B_local_dim": 4,
+      "C1A_local_dim": 12,
+      "Binet_relation_dim": 2,
+      "Ad_relation_dim": 4
+    },
+    {
+      "vertex": 39,
+      "edges": [
+        74,
+        75,
+        96,
+        108
+      ],
+      "faces": [
+        35,
+        46,
+        56
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 40,
+      "edges": [
+        73,
+        75
+      ],
+      "faces": [
+        35
+      ],
+      "C1B_local_dim": 0,
+      "C1A_local_dim": 4,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 1
+    },
+    {
+      "vertex": 41,
+      "edges": [
+        76,
+        77,
+        79,
+        118,
+        119
+      ],
+      "faces": [
+        36,
+        37,
+        38,
+        48
+      ],
+      "C1B_local_dim": 5,
+      "C1A_local_dim": 13,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 42,
+      "edges": [
+        77,
+        78,
+        97
+      ],
+      "faces": [
+        36,
+        47,
+        48
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 43,
+      "edges": [
+        81,
+        82,
+        120
+      ],
+      "faces": [
+        39,
+        49
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 8,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 44,
+      "edges": [
+        84,
+        85,
+        89
+      ],
+      "faces": [
+        40,
+        43,
+        50
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 45,
+      "edges": [
+        83,
+        84,
+        98,
+        111
+      ],
+      "faces": [
+        40,
+        50,
+        58
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 46,
+      "edges": [
+        87,
+        88,
+        101,
+        104,
+        110,
+        113
+      ],
+      "faces": [
+        41,
+        51,
+        52,
+        57,
+        59,
+        60
+      ],
+      "C1B_local_dim": 6,
+      "C1A_local_dim": 18,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 47,
+      "edges": [
+        90,
+        91,
+        121
+      ],
+      "faces": [
+        44,
+        53
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 8,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 48,
+      "edges": [
+        91,
+        92,
+        105,
+        106
+      ],
+      "faces": [
+        44,
+        54,
+        55
+      ],
+      "C1B_local_dim": 4,
+      "C1A_local_dim": 12,
+      "Binet_relation_dim": 2,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 49,
+      "edges": [
+        93,
+        94,
+        105
+      ],
+      "faces": [
+        45,
+        54,
+        55
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 50,
+      "edges": [
+        95,
+        96,
+        97,
+        119,
+        122
+      ],
+      "faces": [
+        46,
+        47,
+        48,
+        56
+      ],
+      "C1B_local_dim": 5,
+      "C1A_local_dim": 13,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 51,
+      "edges": [
+        99,
+        100,
+        104
+      ],
+      "faces": [
+        50,
+        52,
+        57
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 52,
+      "edges": [
+        98,
+        99,
+        109,
+        112
+      ],
+      "faces": [
+        50,
+        57,
+        58
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 53,
+      "edges": [
+        101,
+        102,
+        114,
+        117
+      ],
+      "faces": [
+        51,
+        59,
+        61
+      ],
+      "C1B_local_dim": 4,
+      "C1A_local_dim": 12,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 4
+    },
+    {
+      "vertex": 54,
+      "edges": [
+        102,
+        103,
+        121
+      ],
+      "faces": [
+        51,
+        53
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 8,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 55,
+      "edges": [
+        106,
+        107
+      ],
+      "faces": [
+        55
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 6,
+      "Binet_relation_dim": 2,
+      "Ad_relation_dim": 4
+    },
+    {
+      "vertex": 56,
+      "edges": [
+        109,
+        110,
+        115,
+        116
+      ],
+      "faces": [
+        57,
+        60,
+        61
+      ],
+      "C1B_local_dim": 2,
+      "C1A_local_dim": 10,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 57,
+      "edges": [
+        111,
+        112
+      ],
+      "faces": [
+        58
+      ],
+      "C1B_local_dim": 0,
+      "C1A_local_dim": 4,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 1
+    },
+    {
+      "vertex": 58,
+      "edges": [
+        113,
+        114,
+        115
+      ],
+      "faces": [
+        59,
+        60,
+        61
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 9,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 3
+    },
+    {
+      "vertex": 59,
+      "edges": [
+        116,
+        117
+      ],
+      "faces": [
+        61
+      ],
+      "C1B_local_dim": 1,
+      "C1A_local_dim": 5,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 60,
+      "edges": [
+        80,
+        118,
+        120
+      ],
+      "faces": [
+        38,
+        49
+      ],
+      "C1B_local_dim": 3,
+      "C1A_local_dim": 7,
+      "Binet_relation_dim": 1,
+      "Ad_relation_dim": 2
+    },
+    {
+      "vertex": 61,
+      "edges": [
+        108,
+        122
+      ],
+      "faces": [
+        56
+      ],
+      "C1B_local_dim": 1,
+      "C1A_local_dim": 4,
+      "Binet_relation_dim": 0,
+      "Ad_relation_dim": 1
+    }
+  ],
+  "relation_dim_histograms": {
+    "Binet": {
+      "1": 20,
+      "0": 38,
+      "2": 4
+    },
+    "Ad": {
+      "3": 38,
+      "2": 16,
+      "1": 4,
+      "4": 4
+    }
+  },
+  "guard": "Local left-kernel dimensions are used to discover the orbifold link coefficient spaces; d1 is not promoted until each basis is matched to a certified cyclic link relation."
+}

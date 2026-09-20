@@ -1,0 +1,8 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "pages": 263,
+  "renderer": "pdfium 60 dpi",
+  "precanon_canonical_pixel_identical_all_pages": true,
+  "source": "v50_render_scan.json"
+}

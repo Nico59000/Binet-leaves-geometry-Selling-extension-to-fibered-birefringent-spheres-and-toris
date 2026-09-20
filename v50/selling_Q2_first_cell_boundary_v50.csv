@@ -1,0 +1,5 @@
+edge,source,target,active_walls,kind,chart_equation
+E_EA,V_E,V_A,g+k,MIRROR-DOUBLE-WALL,"r=0, 0<q<q_A"
+E_AD,V_A,V_D,h,ORDINARY-LIMIT,"Hh(q,r)=0, q_D<q<q_A"
+E_DB,V_D,V_B,m,ORDINARY-LIMIT,"Mm(q,r)=0, 0<q<q_D"
+E_BE,V_B,V_E,g,ORDINARY-LIMIT,"q=0, 0<r<r_B"

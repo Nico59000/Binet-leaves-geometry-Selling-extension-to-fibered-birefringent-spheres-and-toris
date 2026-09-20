@@ -1,0 +1,586 @@
+{
+  "version": "v50",
+  "status": "PASS-LOCAL-CELL",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "field_id": "F_Q2",
+  "field_form_six": [
+    7,
+    -1,
+    -8,
+    0,
+    2,
+    0
+  ],
+  "field_gram": [
+    [
+      7,
+      0,
+      2
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      2,
+      0,
+      -8
+    ]
+  ],
+  "source_basis": "Selling reduction inequalities; no raster incidence used",
+  "normalized_chart": {
+    "definition": "q=z/x, r=-y/x on the x>0 sheet",
+    "x_squared": "60/D0",
+    "D0": "-7*q**2 + 4*q - 60*r**2 + 8",
+    "domain": [
+      "q>=0",
+      "r>=0",
+      "Hh>=0",
+      "Mm>=0"
+    ],
+    "Hh": "-7*q**2 - 56*q - 60*r**2 + 8",
+    "Mm": "-7*q**2 - 120*q*r + 4*q + 60*r**2 - 120*r + 8",
+    "wall_scaled_numerators": {
+      "g": "-120*q*r",
+      "h": "14*q**2 + 112*q + 120*r**2 - 16",
+      "k": "-120*r",
+      "l": "-63*q**2 - 84*q - 540*r**2 + 120*r - 48",
+      "m": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8",
+      "n": "42*q**2 - 120*q*(q - r + 1) - 24*q + 360*r**2 - 48"
+    },
+    "l_strict_negativity_certificate": "63*q**2 + 84*q + 540*r**2 - 120*r + 48",
+    "n_strict_negativity_reason": "Hh>=0 gives r^2<=2/15<1, so 1-r+q>0 and n<0."
+  },
+  "topology_certificate": {
+    "q_A": "-4 + 2*sqrt(210)/7",
+    "r_B": "1 - sqrt(195)/15",
+    "q_D_polynomial": "469*q**4 + 4564*q**3 + 7224*q**2 + 1984*q - 416",
+    "q_D_isolating_interval": [
+      "44135388035037/324004210501480",
+      "506570030731057/3718803213884307"
+    ],
+    "q_D_unique_positive_root": "DESCARTES_ONE_SIGN_CHANGE + p(0)<0<p(q_A)",
+    "boundary_order": [
+      "V_E",
+      "V_A",
+      "V_D",
+      "V_B",
+      "V_E"
+    ],
+    "edge_order": [
+      "E_EA",
+      "E_AD",
+      "E_DB",
+      "E_BE"
+    ],
+    "compact_disk_reason": "Hh>=0 bounds 0<=q<=q_A and 0<=r<sqrt(2/15); Mm>=0 selects the lower r-branch. Hh=0 and Mm=0 meet once at q_D."
+  },
+  "C0_vertices": [
+    {
+      "id": "V_E",
+      "kind": "AXIS-SEAM-JUNCTION",
+      "q": "0",
+      "r": "0",
+      "vanishing": [
+        "g",
+        "k"
+      ],
+      "xyz_exact": [
+        "sqrt(15/2)",
+        "0",
+        "0"
+      ],
+      "note": "singular meeting of the g=0 components; g and k share the y=0 mirror seam"
+    },
+    {
+      "id": "V_A",
+      "kind": "AXIS-TRIPLE-CROSSING",
+      "q": "-4 + 2*sqrt(210)/7",
+      "r": "0",
+      "vanishing": [
+        "g",
+        "h",
+        "k"
+      ],
+      "xyz_exact": [
+        "1/sqrt(q_A)",
+        "0",
+        "sqrt(q_A)"
+      ],
+      "q_A_minpoly": "7*q^2+56*q-8"
+    },
+    {
+      "id": "V_D",
+      "kind": "FISSURE",
+      "q": "q_D",
+      "r": "r_D(q_D)",
+      "vanishing": [
+        "h",
+        "m"
+      ],
+      "q_D_minpoly": "469*q**4 + 4564*q**3 + 7224*q**2 + 1984*q - 416",
+      "q_D_isolating_interval": [
+        "44135388035037/324004210501480",
+        "506570030731057/3718803213884307"
+      ],
+      "r_D_formula": "-469*q**3/1620 - 91*q**2/36 - 553*q/270 + 158/405",
+      "approx_q": "0.136218563230169494",
+      "approx_r": "0.0634917291636040015",
+      "opposite_pair": true
+    },
+    {
+      "id": "V_B",
+      "kind": "CROSSING",
+      "q": "0",
+      "r": "1 - sqrt(195)/15",
+      "vanishing": [
+        "g",
+        "m"
+      ],
+      "r_B_minpoly": "15*r^2-30*r+2",
+      "adjacent_pair": true
+    }
+  ],
+  "C1_oriented_arcs": [
+    {
+      "id": "E_EA",
+      "source": "V_E",
+      "target": "V_A",
+      "active_walls": [
+        "g",
+        "k"
+      ],
+      "chart_equation": "r=0, 0<q<q_A",
+      "kind": "MIRROR-DOUBLE-WALL"
+    },
+    {
+      "id": "E_AD",
+      "source": "V_A",
+      "target": "V_D",
+      "active_walls": [
+        "h"
+      ],
+      "chart_equation": "Hh(q,r)=0, q_D<q<q_A",
+      "kind": "ORDINARY-LIMIT"
+    },
+    {
+      "id": "E_DB",
+      "source": "V_D",
+      "target": "V_B",
+      "active_walls": [
+        "m"
+      ],
+      "chart_equation": "Mm(q,r)=0, 0<q<q_D",
+      "kind": "ORDINARY-LIMIT"
+    },
+    {
+      "id": "E_BE",
+      "source": "V_B",
+      "target": "V_E",
+      "active_walls": [
+        "g"
+      ],
+      "chart_equation": "q=0, 0<r<r_B",
+      "kind": "ORDINARY-LIMIT"
+    }
+  ],
+  "C2_fields": [
+    {
+      "id": "F_Q2",
+      "ordered_boundary": [
+        "E_EA",
+        "E_AD",
+        "E_DB",
+        "E_BE"
+      ]
+    }
+  ],
+  "boundary_matrices": {
+    "d1_vertices_by_edges": [
+      [
+        -1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -1
+      ]
+    ],
+    "d2_edges_by_field": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "mirror_transport": {
+    "edge": "E_EA",
+    "matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "involution": true,
+    "det": -1,
+    "stabilizes_field_form": true
+  },
+  "ordinary_edge_transition_gate": {
+    "h": {
+      "candidates": [
+        {
+          "move": "S2",
+          "matrix": [
+            [
+              -1,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "target_six": [
+            7,
+            6,
+            -8,
+            2,
+            -2,
+            -7
+          ],
+          "numerical_key": [
+            "-8",
+            "-2",
+            "2",
+            "-2",
+            "7",
+            "-7",
+            "2",
+            "-7",
+            "6"
+          ]
+        },
+        {
+          "move": "S8",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              -1
+            ]
+          ],
+          "target_six": [
+            7,
+            -9,
+            -8,
+            8,
+            -2,
+            2
+          ],
+          "numerical_key": [
+            "-8",
+            "-2",
+            "2",
+            "-2",
+            "7",
+            "-7",
+            "2",
+            "-7",
+            "6"
+          ]
+        }
+      ],
+      "same_numerical_neighbour": true,
+      "unique_superbase_relabelling_candidate1_to_candidate2": [
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          1
+        ]
+      ],
+      "branch_marking_selection": "PENDING-SOURCE-ORIENTATION"
+    },
+    "m": {
+      "candidates": [
+        {
+          "move": "S5",
+          "matrix": [
+            [
+              0,
+              0,
+              -1
+            ],
+            [
+              -1,
+              1,
+              -1
+            ],
+            [
+              -1,
+              0,
+              0
+            ]
+          ],
+          "target_six": [
+            -9,
+            -1,
+            6,
+            1,
+            1,
+            1
+          ],
+          "numerical_key": [
+            "-1",
+            "-1",
+            "1",
+            "-1",
+            "2",
+            "-8",
+            "1",
+            "-8",
+            "6"
+          ]
+        },
+        {
+          "move": "S12",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              -1,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "target_six": [
+            6,
+            -1,
+            -9,
+            1,
+            1,
+            1
+          ],
+          "numerical_key": [
+            "-1",
+            "-1",
+            "1",
+            "-1",
+            "2",
+            "-8",
+            "1",
+            "-8",
+            "6"
+          ]
+        }
+      ],
+      "same_numerical_neighbour": true,
+      "unique_superbase_relabelling_candidate1_to_candidate2": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "branch_marking_selection": "PENDING-SOURCE-ORIENTATION"
+    },
+    "g": {
+      "candidates": [
+        {
+          "move": "S9",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              -1
+            ]
+          ],
+          "target_six": [
+            3,
+            -1,
+            -8,
+            0,
+            6,
+            0
+          ],
+          "numerical_key": [
+            "-1",
+            "0",
+            "0",
+            "0",
+            "-8",
+            "6",
+            "0",
+            "6",
+            "3"
+          ]
+        },
+        {
+          "move": "S11",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "target_six": [
+            6,
+            -1,
+            -8,
+            0,
+            2,
+            1
+          ],
+          "numerical_key": [
+            "-1",
+            "0",
+            "0",
+            "0",
+            "-8",
+            "6",
+            "0",
+            "6",
+            "3"
+          ]
+        }
+      ],
+      "same_numerical_neighbour": true,
+      "unique_superbase_relabelling_candidate1_to_candidate2": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "branch_marking_selection": "PENDING-SOURCE-ORIENTATION"
+    }
+  },
+  "checks": {
+    "det_M_Q2_60": true,
+    "normalized_h_wall_identity": true,
+    "normalized_m_wall_identity": true,
+    "normalized_l_wall_sos": true,
+    "qA_h_boundary": true,
+    "rB_m_boundary": true,
+    "qD_unique_positive_by_descartes": true,
+    "qD_below_qA": true,
+    "D_H_identity_mod_p": true,
+    "D_M_identity_mod_p": true,
+    "rD_positive": true,
+    "rD_below_rB": true,
+    "mirror_stabilizer": true,
+    "boundary_closes": true,
+    "ordinary_edge_candidate_pairs_same_numerical_neighbour": true
+  },
+  "decision": {
+    "first_source_constructed_2cell": "PROVEN-LOCAL",
+    "partial_C0_C1_C2": "PROVEN-LOCAL-SUBCOMPLEX",
+    "global_C0_C1_C2": "NT/PENDING-ADJACENT-FIELD-DEVELOPMENT",
+    "global_d0_d1": "NOT-RUN/GUARDED",
+    "historical_H1_H2": "NT/GUARDED",
+    "raster_dependency": "NONE"
+  }
+}

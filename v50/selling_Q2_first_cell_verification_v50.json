@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 15,
+  "deterministic_replay": true,
+  "sha256": {
+    "selling_Q2_first_cell_v50.json": "57adeb710dfbd592407afe6ec609d3e710a0fc054b2479cc6a0c256846c60bc3",
+    "selling_Q2_first_cell_boundary_v50.csv": "bbcc941c2bbd25314d0a69286accb2e360262408a784abc7476e0af1f4b4e9f3"
+  }
+}

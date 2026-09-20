@@ -1,0 +1,930 @@
+{
+  "version": "v50",
+  "status": "PASS-LOCAL-4-FACE-PATCH",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "projective_marking_torsor": {
+    "h": {
+      "candidates": [
+        "S2",
+        "S8"
+      ],
+      "candidate1_target_six": [
+        "7",
+        "6",
+        "-8",
+        "2",
+        "-2",
+        "-7"
+      ],
+      "candidate2_target_six": [
+        "7",
+        "-9",
+        "-8",
+        "8",
+        "-2",
+        "2"
+      ],
+      "unique_target_relabelling": [
+        [
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ]
+      ],
+      "relabel_det": -1,
+      "relabel_involution": true,
+      "wall_permutation_target2_labels_from_target1": {
+        "g": "n",
+        "h": "h",
+        "k": "l",
+        "l": "k",
+        "m": "m",
+        "n": "g"
+      },
+      "crossed_wall_fixed": true,
+      "projective_identity_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "projective_identity_is_minus_I": true,
+      "decision": "UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "m": {
+      "candidates": [
+        "S5",
+        "S12"
+      ],
+      "candidate1_target_six": [
+        "-9",
+        "-1",
+        "6",
+        "1",
+        "1",
+        "1"
+      ],
+      "candidate2_target_six": [
+        "6",
+        "-1",
+        "-9",
+        "1",
+        "1",
+        "1"
+      ],
+      "unique_target_relabelling": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "relabel_det": -1,
+      "relabel_involution": true,
+      "wall_permutation_target2_labels_from_target1": {
+        "g": "k",
+        "h": "h",
+        "k": "g",
+        "l": "n",
+        "m": "m",
+        "n": "l"
+      },
+      "crossed_wall_fixed": true,
+      "projective_identity_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "projective_identity_is_minus_I": true,
+      "decision": "UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "g": {
+      "candidates": [
+        "S9",
+        "S11"
+      ],
+      "candidate1_target_six": [
+        "3",
+        "-1",
+        "-8",
+        "0",
+        "6",
+        "0"
+      ],
+      "candidate2_target_six": [
+        "6",
+        "-1",
+        "-8",
+        "0",
+        "2",
+        "1"
+      ],
+      "unique_target_relabelling": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1"
+        ]
+      ],
+      "relabel_det": -1,
+      "relabel_involution": true,
+      "wall_permutation_target2_labels_from_target1": {
+        "g": "g",
+        "h": "n",
+        "k": "m",
+        "l": "l",
+        "m": "k",
+        "n": "h"
+      },
+      "crossed_wall_fixed": true,
+      "projective_identity_matrix": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "projective_identity_is_minus_I": true,
+      "decision": "UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    }
+  },
+  "cells": {
+    "Q": {
+      "id": "F_Q2",
+      "representative_six": [
+        "7",
+        "-1",
+        "-8",
+        "0",
+        "2",
+        "0"
+      ],
+      "vertices": [
+        "E",
+        "A",
+        "D",
+        "B"
+      ],
+      "boundary": [
+        [
+          "EA",
+          "E",
+          "A",
+          "mirror(g+k)"
+        ],
+        [
+          "AD",
+          "A",
+          "D",
+          "h"
+        ],
+        [
+          "DB",
+          "D",
+          "B",
+          "m"
+        ],
+        [
+          "BE",
+          "B",
+          "E",
+          "g"
+        ]
+      ]
+    },
+    "H": {
+      "id": "F_H",
+      "representative_six": [
+        "7",
+        "6",
+        "-8",
+        "2",
+        "-2",
+        "-7"
+      ],
+      "chart": "x=1;(u=y/x,v=z/x)",
+      "vertices": {
+        "A": {
+          "uv": [
+            "-1",
+            "4 - 2*sqrt(210)/7"
+          ],
+          "vanishing": [
+            "g",
+            "h",
+            "l"
+          ],
+          "kind": "AXIS-TRIPLE"
+        },
+        "C": {
+          "uv": [
+            "3/4 - 3*sqrt(5)/4",
+            "-7/2 + 3*sqrt(5)/2"
+          ],
+          "vanishing": [
+            "g",
+            "m"
+          ],
+          "kind": "CROSSING"
+        },
+        "D": {
+          "uv": [
+            "r_D-1",
+            "-q_D"
+          ],
+          "q_D_minpoly": "469*q**4 + 4564*q**3 + 7224*q**2 + 1984*q - 416",
+          "q_D_interval": [
+            "44135388035037/324004210501480",
+            "506570030731057/3718803213884307"
+          ],
+          "r_D_formula": "-469*q**3/1620 - 91*q**2/36 - 553*q/270 + 158/405",
+          "vanishing": [
+            "h",
+            "m"
+          ],
+          "kind": "FISSURE"
+        }
+      },
+      "boundary_order": [
+        "A",
+        "C",
+        "D",
+        "A"
+      ],
+      "edges": [
+        [
+          "AC",
+          "A",
+          "C",
+          "g"
+        ],
+        [
+          "CD",
+          "C",
+          "D",
+          "m"
+        ],
+        [
+          "DA",
+          "D",
+          "A",
+          "h"
+        ]
+      ]
+    },
+    "M": {
+      "id": "F_M",
+      "representative_six": [
+        "-9",
+        "-1",
+        "6",
+        "1",
+        "1",
+        "1"
+      ],
+      "chart": "z=1;(u=x/z,v=y/z)",
+      "vertices": {
+        "D": {
+          "uv": [
+            "(r_D-q_D)/(r_D-1)",
+            "r_D/(1-r_D)"
+          ],
+          "q_D_minpoly": "469*q**4 + 4564*q**3 + 7224*q**2 + 1984*q - 416",
+          "q_D_interval": [
+            "44135388035037/324004210501480",
+            "506570030731057/3718803213884307"
+          ],
+          "r_D_formula": "-469*q**3/1620 - 91*q**2/36 - 553*q/270 + 158/405",
+          "vanishing": [
+            "h",
+            "m"
+          ],
+          "kind": "FISSURE"
+        },
+        "C": {
+          "uv": [
+            "-2/3 + sqrt(5)/3",
+            "-2/3 + sqrt(5)/3"
+          ],
+          "vanishing": [
+            "g",
+            "h"
+          ],
+          "kind": "CROSSING"
+        },
+        "B": {
+          "uv": [
+            "-r_B/(1-r_B)",
+            "r_B/(1-r_B)"
+          ],
+          "r_B": "1 - sqrt(195)/15",
+          "vanishing": [
+            "g",
+            "m"
+          ],
+          "kind": "CROSSING"
+        }
+      },
+      "boundary_order": [
+        "D",
+        "C",
+        "B",
+        "D"
+      ],
+      "edges": [
+        [
+          "DC",
+          "D",
+          "C",
+          "h"
+        ],
+        [
+          "CB",
+          "C",
+          "B",
+          "g"
+        ],
+        [
+          "BD",
+          "B",
+          "D",
+          "m"
+        ]
+      ]
+    },
+    "G": {
+      "id": "F_G",
+      "representative_six": [
+        "3",
+        "-1",
+        "-8",
+        "0",
+        "6",
+        "0"
+      ],
+      "chart": "x=1;(u=y/x,v=z/x)",
+      "vertices": {
+        "B": {
+          "uv": [
+            "-1 + sqrt(195)/15",
+            "0"
+          ],
+          "vanishing": [
+            "g",
+            "m"
+          ],
+          "kind": "CROSSING"
+        },
+        "E": {
+          "uv": [
+            "0",
+            "0"
+          ],
+          "vanishing": [
+            "g",
+            "k"
+          ],
+          "kind": "AXIS-SEAM-JUNCTION"
+        },
+        "GA": {
+          "uv": [
+            "0",
+            "-4/3 + 2*sqrt(10)/3"
+          ],
+          "vanishing": [
+            "g",
+            "h",
+            "k"
+          ],
+          "kind": "AXIS-TRIPLE"
+        },
+        "GD": {
+          "uv": [
+            "u_G",
+            "v_G(u_G)"
+          ],
+          "u_G_minpoly": "567*u**4 + 162*u**3 - 114*u**2 - 36*u - 2",
+          "u_G_interval": [
+            "-35865665499/481325503693",
+            "-4671184207244/62688369506407"
+          ],
+          "v_G_formula": "-756*u**3/5 - 18*u**2 + 162*u/5 + 16/5",
+          "vanishing": [
+            "h",
+            "m"
+          ],
+          "kind": "FISSURE"
+        }
+      },
+      "boundary_order": [
+        "B",
+        "E",
+        "GA",
+        "GD",
+        "B"
+      ],
+      "edges": [
+        [
+          "BE",
+          "B",
+          "E",
+          "g"
+        ],
+        [
+          "EGA",
+          "E",
+          "GA",
+          "mirror(g+k)"
+        ],
+        [
+          "GAGD",
+          "GA",
+          "GD",
+          "h"
+        ],
+        [
+          "GDB",
+          "GD",
+          "B",
+          "m"
+        ]
+      ]
+    }
+  },
+  "H_M_exact_glue": {
+    "C_HM": [
+      [
+        "1",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "-1",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "det": -1,
+    "C_MH": [
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "1",
+        "0"
+      ]
+    ],
+    "inverse_exact": true
+  },
+  "local_complex": {
+    "C0": [
+      "E",
+      "A",
+      "D",
+      "B",
+      "C",
+      "GA",
+      "GD"
+    ],
+    "C1": [
+      "EA",
+      "AD",
+      "DB",
+      "BE",
+      "AC",
+      "CD",
+      "CB",
+      "BGD",
+      "GDGA",
+      "GAE"
+    ],
+    "C2": [
+      "Q",
+      "H",
+      "M",
+      "G"
+    ],
+    "edge_source_target": {
+      "EA": [
+        "E",
+        "A"
+      ],
+      "AD": [
+        "A",
+        "D"
+      ],
+      "DB": [
+        "D",
+        "B"
+      ],
+      "BE": [
+        "B",
+        "E"
+      ],
+      "AC": [
+        "A",
+        "C"
+      ],
+      "CD": [
+        "C",
+        "D"
+      ],
+      "CB": [
+        "C",
+        "B"
+      ],
+      "BGD": [
+        "B",
+        "GD"
+      ],
+      "GDGA": [
+        "GD",
+        "GA"
+      ],
+      "GAE": [
+        "GA",
+        "E"
+      ]
+    },
+    "face_boundaries": {
+      "Q": {
+        "EA": 1,
+        "AD": 1,
+        "DB": 1,
+        "BE": 1
+      },
+      "H": {
+        "AC": 1,
+        "CD": 1,
+        "AD": -1
+      },
+      "M": {
+        "CD": -1,
+        "CB": 1,
+        "DB": -1
+      },
+      "G": {
+        "BE": -1,
+        "BGD": 1,
+        "GDGA": 1,
+        "GAE": 1
+      }
+    },
+    "D1_vertices_by_edges": [
+      [
+        "-1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "-1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "-1",
+        "0"
+      ]
+    ],
+    "D2_edges_by_faces": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "euler_characteristic": 1,
+    "outer_boundary": [
+      "EA",
+      "AC",
+      "CB",
+      "BGD",
+      "GDGA",
+      "GAE"
+    ],
+    "outer_boundary_cycle": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "GD",
+      "GA",
+      "E"
+    ]
+  },
+  "outgoing_gate": {
+    "H": {
+      "wall": "g",
+      "move_rep": "S9",
+      "target_six": [
+        "-5",
+        "6",
+        "-8",
+        "-2",
+        "10",
+        "-5"
+      ],
+      "numerical_key": [
+        "-1",
+        "0",
+        "0",
+        "0",
+        "-5",
+        "10",
+        "0",
+        "10",
+        "-8"
+      ]
+    },
+    "M": {
+      "wall": "g",
+      "move_rep": "S9",
+      "target_six": [
+        "-1",
+        "-1",
+        "6",
+        "-1",
+        "-7",
+        "2"
+      ],
+      "numerical_key": [
+        "-1",
+        "-1",
+        "0",
+        "-1",
+        "6",
+        "2",
+        "0",
+        "2",
+        "-8"
+      ]
+    },
+    "G_h": {
+      "wall": "h",
+      "move_rep": "S2",
+      "target_six": [
+        "3",
+        "2",
+        "-8",
+        "6",
+        "-6",
+        "-3"
+      ],
+      "numerical_key": [
+        "-8",
+        "-6",
+        "6",
+        "-6",
+        "3",
+        "-3",
+        "6",
+        "-3",
+        "2"
+      ]
+    },
+    "G_m": {
+      "wall": "m",
+      "move_rep": "S5",
+      "target_six": [
+        "-9",
+        "-1",
+        "2",
+        "1",
+        "5",
+        "1"
+      ],
+      "numerical_key": [
+        "-1",
+        "-1",
+        "1",
+        "-1",
+        "6",
+        "-8",
+        "1",
+        "-8",
+        "2"
+      ]
+    }
+  },
+  "global_status": {
+    "local_patch": "PROVEN-LOCAL-4-FACE-SUBCOMPLEX",
+    "projective_transport_classes": "PROVEN-UNIQUE",
+    "full_TU_quotient_closure": "NT-NOT-YET-REACHED",
+    "global_C0_C1_C2": "NT-GUARDED",
+    "global_d1d2": "NOT-RUN/GUARDED",
+    "twisted_d1d0": "NOT-RUN/GUARDED",
+    "historical_H1_H2": "NT/GUARDED"
+  },
+  "checks": {
+    "three_torsors_projectively_resolved": true,
+    "H_M_transport_inverse": true,
+    "H_M_form_gluing_exact": true,
+    "H_M_C_vertex_exact": true,
+    "H_M_D_vertex_exact_mod_minpoly": true,
+    "local_D1D2_zero": true,
+    "local_patch_euler_char_one": true,
+    "local_patch_outer_boundary_six_edges": true,
+    "four_distinct_outgoing_numerical_neighbours": true
+  }
+}
