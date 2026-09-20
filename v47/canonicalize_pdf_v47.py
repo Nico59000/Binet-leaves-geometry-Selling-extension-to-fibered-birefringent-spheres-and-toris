@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+from pypdf import PdfWriter
+from pypdf.generic import ArrayObject, ByteStringObject
+from pathlib import Path
+import sys,tempfile,os
+src=Path(sys.argv[1]); out=Path(sys.argv[2])
+fixed=bytes.fromhex('76343700000000000000000000000000')
+def once(inp,op):
+ w=PdfWriter(clone_from=str(inp)); w.metadata=None
+ w._ID=ArrayObject([ByteStringObject(fixed),ByteStringObject(fixed)])
+ with open(op,'wb') as f:w.write(f)
+# Two passes are required for a pypdf fixed point when cloning a fresh pdflatex file.
+fd,tmp=tempfile.mkstemp(prefix='v47canon_',suffix='.pdf',dir=str(out.parent));os.close(fd)
+try:
+ once(src,tmp); once(tmp,out)
+finally:
+ try: os.remove(tmp)
+ except FileNotFoundError: pass

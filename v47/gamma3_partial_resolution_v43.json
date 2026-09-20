@@ -1,0 +1,77 @@
+{
+  "version": "v43",
+  "ring": "R=Z[Gamma_3(2)]",
+  "old_free_seed_modules": 6,
+  "order_two_cyclic_modules": 18,
+  "new_length1_cyclic_modules": 12,
+  "pairwise_intersections": "ZERO_BY_DISJOINT_RELATOR_COORDINATE_SUPPORTS",
+  "old_seed_annihilators": "ZERO: each seed generator has coefficient 1 on its private first relator coordinate",
+  "order_two_annihilators": "Ann_R((1-g_i)e_ri)=R(1+g_i), proved by right coset pairs {h,hg_i}",
+  "module_isomorphism": "M43 ~= R^6 direct_sum (direct_sum_{i=1}^{18} R/R(1+g_i))",
+  "length_overlap_absorption": {
+    "1": {
+      "pairs": 3770,
+      "residual_groups": 2108,
+      "comparison_cycles": 1662,
+      "absorbed": 1662
+    },
+    "2": {
+      "pairs": 126,
+      "residual_groups": 74,
+      "comparison_cycles": 52,
+      "absorbed": 52
+    },
+    "3": {
+      "pairs": 8,
+      "residual_groups": 4,
+      "comparison_cycles": 4,
+      "absorbed": 4
+    },
+    "4": {
+      "pairs": 48,
+      "residual_groups": 1,
+      "comparison_cycles": 47,
+      "absorbed": 47
+    }
+  },
+  "length1_before_new12": {
+    "comparison_cycles": 1662,
+    "absorbed_by_v42": 918,
+    "survived_mod_v42": 744
+  },
+  "length1_after_new12": "ALL_1662_ABSORBED",
+  "character_shadow_partial_rank_histogram": {
+    "6": 1,
+    "8": 6,
+    "9": 1,
+    "10": 15,
+    "11": 6,
+    "12": 20,
+    "13": 63,
+    "14": 63,
+    "15": 116,
+    "16": 102,
+    "17": 63,
+    "18": 49,
+    "19": 6,
+    "21": 1
+  },
+  "character_shadow_residual_dimension_histogram": {
+    "14": 1,
+    "16": 6,
+    "17": 49,
+    "18": 63,
+    "19": 102,
+    "20": 116,
+    "21": 63,
+    "22": 63,
+    "23": 20,
+    "24": 6,
+    "25": 15,
+    "26": 1,
+    "27": 6,
+    "28": 1
+  },
+  "finite_shadow_residual_min_dimension": 14,
+  "complete_resolution": "NT: pairwise cyclic overlaps through cancellation length 4 are absorbed, but higher multi-relator identities and the finite-character residual shadow remain nonzero."
+}
