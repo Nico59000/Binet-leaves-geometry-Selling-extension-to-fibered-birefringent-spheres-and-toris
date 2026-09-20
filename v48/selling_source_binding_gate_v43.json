@@ -1,0 +1,17 @@
+{
+  "version": "v43",
+  "predecessor": "selling_source_binding_gate_v42.json",
+  "new_promotions": 0,
+  "source_certified_geometric_matches": {
+    "axes_to_vector_segments": 0,
+    "centres_to_vector_nodes": 0,
+    "fissures_to_vector_nodes": 0,
+    "crossings_to_vector_nodes": 0,
+    "wall_substitution_labels": 0,
+    "historical_field_boundary_cycles": 0,
+    "repetition_pairs": 0,
+    "stabilizer_words": 0
+  },
+  "decision": "NO_NEW_SOURCE_CERTIFIED_BSB_GEOMETRIC_BINDING; ALL HISTORICAL ASSIGNMENTS REMAIN NT",
+  "guard": "No image-processing, degree, cardinality, or cross-corpus analogy is a historical Selling assignment."
+}

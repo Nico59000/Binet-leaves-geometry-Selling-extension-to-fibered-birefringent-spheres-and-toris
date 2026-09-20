@@ -1,0 +1,117 @@
+{
+  "version": "v48",
+  "status": "PASS",
+  "pdf_pages": 254,
+  "level1_tail": [
+    {
+      "title": "v43 : résolution partielle de groupe, enveloppe pointée et gate d'orientation",
+      "page": 224
+    },
+    {
+      "title": "v44 : action historique source-certifiée, census ternaire supérieur et queues périodiques de syzygies",
+      "page": 227
+    },
+    {
+      "title": "v45 : tentative source-certifiée des six axes, gate cohomologique et identités supérieures de 3(2)",
+      "page": 233
+    },
+    {
+      "title": "v46 : réfutation du modèle direct DAXHAX, quotient résiduel de caractère et no-go exact de rayon un",
+      "page": 236
+    },
+    {
+      "title": "v47 : carrier source C6, transcription courbe et relèvements exacts de rayon deux",
+      "page": 239
+    },
+    {
+      "title": "v48 : transcription des centres quadripartites, obstruction de rayon trois et réparation cumulative de l'ordre",
+      "page": 243
+    },
+    {
+      "title": "Certification HT+NT du présent formalisme",
+      "page": 246
+    },
+    {
+      "title": "Réponse formelle aux deux images géométriques proposées",
+      "page": 249
+    },
+    {
+      "title": "Diagramme de dépendances",
+      "page": 249
+    },
+    {
+      "title": "Conclusion",
+      "page": 250
+    },
+    {
+      "title": "Table de provenance et rôle des documents",
+      "page": 251
+    },
+    {
+      "title": "Références documentaires du corpus",
+      "page": 252
+    }
+  ],
+  "required_order": [
+    "v45 :",
+    "v46 :",
+    "v47 :",
+    "v48 :",
+    "Certification HT+NT",
+    "Réponse formelle",
+    "Diagramme de dépendances",
+    "Conclusion",
+    "Table de provenance",
+    "Références documentaires du corpus"
+  ],
+  "resolved": {
+    "v45 :": {
+      "title": "v45 : tentative source-certifiée des six axes, gate cohomologique et identités supérieures de 3(2)",
+      "page": 233
+    },
+    "v46 :": {
+      "title": "v46 : réfutation du modèle direct DAXHAX, quotient résiduel de caractère et no-go exact de rayon un",
+      "page": 236
+    },
+    "v47 :": {
+      "title": "v47 : carrier source C6, transcription courbe et relèvements exacts de rayon deux",
+      "page": 239
+    },
+    "v48 :": {
+      "title": "v48 : transcription des centres quadripartites, obstruction de rayon trois et réparation cumulative de l'ordre",
+      "page": 243
+    },
+    "Certification HT+NT": {
+      "title": "Certification HT+NT du présent formalisme",
+      "page": 246
+    },
+    "Réponse formelle": {
+      "title": "Réponse formelle aux deux images géométriques proposées",
+      "page": 249
+    },
+    "Diagramme de dépendances": {
+      "title": "Diagramme de dépendances",
+      "page": 249
+    },
+    "Conclusion": {
+      "title": "Conclusion",
+      "page": 250
+    },
+    "Table de provenance": {
+      "title": "Table de provenance et rôle des documents",
+      "page": 251
+    },
+    "Références documentaires du corpus": {
+      "title": "Références documentaires du corpus",
+      "page": 252
+    }
+  },
+  "bibliography_physically_final_outline": true,
+  "references_start_page": 252,
+  "pdf_last_page": 254,
+  "appendix_after_conclusion": true,
+  "v46_v47_v48_before_certification": true,
+  "v43_naming_repaired": true,
+  "references_numbered_section_removed": true,
+  "references_unnumbered_via_refname": true
+}

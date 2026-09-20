@@ -1,0 +1,156 @@
+{
+  "version": "v48",
+  "parent": "v47 CLOSED/APPEND-ONLY",
+  "parent_audit": "v47_SECTION_ORDER_AUDIT.json",
+  "v47_findings": {
+    "audit": "v47 sealed bundle section-order/name audit",
+    "bundle_sha256": "24f563b0daa2cba3efca1b4bd6e51bac0cb6ae395221229a6f4b99cb2828a181",
+    "sealed_pdf_sha256": "b932fc05070e3710a636ac356e84f42d0da94c9b2aa004474beb72b291eec35c",
+    "sealed_tex_sha256": "674eefe74b2608f1415c2976614807b870325700d00c95fe7fc3e2274bcdce91",
+    "pdf_pages": 251,
+    "bundle_verifier": "8114/8114 PASS",
+    "bibliography_physically_last": true,
+    "issues": [
+      {
+        "id": "V47-ORDER-01",
+        "severity": "STRUCTURAL",
+        "status": "CONFIRMED",
+        "finding": "v46 and v47 occur after the cumulative Certification/Response/Diagram/Conclusion block.",
+        "evidence": {
+          "Certification_page": 236,
+          "Conclusion_page": 240,
+          "v46_page": 243,
+          "v47_page": 246
+        },
+        "effect": "The cumulative conclusion is not actually terminal and the logical version chronology is broken."
+      },
+      {
+        "id": "V47-ORDER-02",
+        "severity": "STRUCTURAL",
+        "status": "CONFIRMED",
+        "finding": "\\appendix occurs before Table de provenance, v46 and v47, so v46 and v47 are numbered as appendices B and C.",
+        "evidence": {
+          "appendix_tex_line": 15947,
+          "v46_tex_line": 15986,
+          "v47_tex_line": 16152
+        },
+        "effect": "The main v46/v47 mathematical progression is incorrectly classified as appendix material."
+      },
+      {
+        "id": "V47-ORDER-03",
+        "severity": "PRESENTATION",
+        "status": "CONFIRMED",
+        "finding": "The bibliography is physically last, but its heading is numbered as appendix D because it follows \\appendix.",
+        "evidence": {
+          "references_page": 250,
+          "last_pdf_page": 251,
+          "references_tex_line": 16329
+        },
+        "effect": "Bibliography placement is correct, but numbering/section class is not."
+      },
+      {
+        "id": "V47-NAME-01",
+        "severity": "PRESENTATION",
+        "status": "CONFIRMED",
+        "finding": "The v43 top-level title is stylistically inconsistent: “Résolution partielle ... v43” instead of the v44+ prefix form “v43 : ...”.",
+        "effect": "No mathematical ambiguity, but TOC naming is inconsistent with the surrounding versioned sections."
+      }
+    ],
+    "recommended_v48_order": [
+      "... v45",
+      "v46",
+      "v47",
+      "v48",
+      "Certification HT+NT du présent formalisme",
+      "Réponse formelle aux deux images géométriques proposées",
+      "Diagramme de dépendances",
+      "Conclusion",
+      "\\appendix",
+      "Table de provenance et rôle des documents",
+      "Références documentaires du corpus (unnumbered, final)"
+    ],
+    "append_only_repair_policy": "Do not mutate sealed v47. Apply editorial repair in cumulative v48 and record the v47 issue as an inherited structural erratum.",
+    "outline_tail": [
+      {
+        "page": 207,
+        "title": "v39 : contrat sémantique de la Fig. 1, ombre de Fox et naturalité du carrier projectif"
+      },
+      {
+        "page": 211,
+        "title": "v40 : schéma historique minimal, diamants de Peiffer et section transportée Js"
+      },
+      {
+        "page": 215,
+        "title": "v41 : comparaison typée du carrier 89, enveloppe 17/16, census de Squier longueur deux et holonomie historique de Js"
+      },
+      {
+        "page": 219,
+        "title": "v42 : relèvement exact des diamants dans Z[3(2)], enveloppe pointée gardée et torsor de signe de Js"
+      },
+      {
+        "page": 224,
+        "title": "Résolution partielle de groupe, enveloppe pointée et gate d'orientation v43"
+      },
+      {
+        "page": 227,
+        "title": "v44 : action historique source-certifiée, census ternaire supérieur et queues périodiques de syzygies"
+      },
+      {
+        "page": 233,
+        "title": "v45 : tentative source-certifiée des six axes, gate cohomologique et identités supérieures de 3(2)"
+      },
+      {
+        "page": 236,
+        "title": "Certification HT+NT du présent formalisme"
+      },
+      {
+        "page": 239,
+        "title": "Réponse formelle aux deux images géométriques proposées"
+      },
+      {
+        "page": 239,
+        "title": "Diagramme de dépendances"
+      },
+      {
+        "page": 240,
+        "title": "Conclusion"
+      },
+      {
+        "page": 241,
+        "title": "Table de provenance et rôle des documents"
+      },
+      {
+        "page": 243,
+        "title": "v46 : refutation du modèle direct DAXHAX, quotient résiduel de caractère et no-go exact de rayon un"
+      },
+      {
+        "page": 246,
+        "title": "v47 : carrier source C6, transcription courbe et relèvements exacts de rayon deux"
+      },
+      {
+        "page": 250,
+        "title": "Références documentaires du corpus"
+      }
+    ]
+  },
+  "repair_policy": "Do not mutate sealed v47 bytes. Repair only the v48 cumulative source/PDF ordering.",
+  "target_top_level_order_tail": [
+    "v45",
+    "v46",
+    "v47",
+    "v48",
+    "Certification HT+NT du présent formalisme",
+    "Réponse formelle aux deux images géométriques proposées",
+    "Diagramme de dépendances",
+    "Conclusion",
+    "Appendix A: Table de provenance et rôle des documents",
+    "Références documentaires du corpus"
+  ],
+  "naming_repairs": {
+    "v43": "v43 : résolution partielle de groupe, enveloppe pointée et gate d’orientation",
+    "v46": "v46 : réfutation du modèle direct DAX→HAX, quotient résiduel de caractère et no-go exact de rayon un",
+    "references": "unnumbered final section, explicit TOC entry; must be physically last"
+  },
+  "conclusion_policy": "The inherited early cumulative conclusion is retained and extended by an append-only v30–v48 closing paragraph so that the final conclusion is not stale.",
+  "status": "REPAIR-REQUIRED-IN-v48-AND-MUST-BE-VERIFIED-FROM-FINAL-PDF-OUTLINE"
+}

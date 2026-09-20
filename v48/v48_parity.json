@@ -1,0 +1,98 @@
+{
+  "dpi": 80,
+  "pages": [
+    1,
+    210,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254
+  ],
+  "results": [
+    {
+      "page": 1,
+      "identical": true
+    },
+    {
+      "page": 210,
+      "identical": true
+    },
+    {
+      "page": 239,
+      "identical": true
+    },
+    {
+      "page": 240,
+      "identical": true
+    },
+    {
+      "page": 241,
+      "identical": true
+    },
+    {
+      "page": 242,
+      "identical": true
+    },
+    {
+      "page": 243,
+      "identical": true
+    },
+    {
+      "page": 244,
+      "identical": true
+    },
+    {
+      "page": 245,
+      "identical": true
+    },
+    {
+      "page": 246,
+      "identical": true
+    },
+    {
+      "page": 247,
+      "identical": true
+    },
+    {
+      "page": 248,
+      "identical": true
+    },
+    {
+      "page": 249,
+      "identical": true
+    },
+    {
+      "page": 250,
+      "identical": true
+    },
+    {
+      "page": 251,
+      "identical": true
+    },
+    {
+      "page": 252,
+      "identical": true
+    },
+    {
+      "page": 253,
+      "identical": true
+    },
+    {
+      "page": 254,
+      "identical": true
+    }
+  ],
+  "status": "PASS"
+}

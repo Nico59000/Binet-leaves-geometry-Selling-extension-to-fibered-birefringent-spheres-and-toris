@@ -1,0 +1,58 @@
+{
+  "version": "v40",
+  "source_semantic_contract": "selling_fig1_semantic_contract_v39.json",
+  "source_semantic_contract_sha256": "8bbedb2963bf668fbe3dc7acb8459817fbe789d4a0e12b3f53a0c50f4989f4d4",
+  "external_boundary_skeleton": {
+    "axes": 6,
+    "fourfold_centres": 6,
+    "chart_labels": "HAX0..HAX5 and HC0..HC5 are local bookkeeping labels only, defined up to dihedral relabelling of the six-sided source boundary.",
+    "source_status": "PROVEN_ABSTRACT_SOURCE_SKELETON",
+    "raster_assignment": "NT_UNMATCHED"
+  },
+  "enriched_tables": {
+    "nodes": "selling_fig1_nodes_v40.csv",
+    "segments": "selling_fig1_segments_v40.csv",
+    "fields": "selling_fig1_fields_v40.csv",
+    "axes": "selling_fig1_external_axes_v40.csv",
+    "centres": "selling_fig1_external_centers_v40.csv"
+  },
+  "diagnostic_node_candidate_counts": {
+    "FISSURE_CANDIDATE_DIAGNOSTIC": 89,
+    "CHAIN_OR_UNRESOLVED_DIAGNOSTIC": 36,
+    "CROSSING_CANDIDATE_DIAGNOSTIC": 11
+  },
+  "required_historical_columns_now_materialized": {
+    "nodes": [
+      "historical_node_type",
+      "historical_node_id",
+      "historical_assignment_status"
+    ],
+    "segments": [
+      "historical_axis_id",
+      "historical_wall_label",
+      "historical_substitution_label",
+      "historical_boundary_role",
+      "historical_assignment_status"
+    ],
+    "fields": [
+      "historical_field_id",
+      "historical_form_label",
+      "ordered_boundary_cycle",
+      "repetition_of",
+      "stabilizer_word",
+      "field_assignment_status"
+    ]
+  },
+  "assignment_state": {
+    "six_axes_abstract_cells": "PROVEN_SOURCE_SEMANTIC_INSTANTIATION",
+    "six_centres_abstract_cells": "PROVEN_SOURCE_SEMANTIC_INSTANTIATION",
+    "axes_to_diagnostic_segments": "NT",
+    "nodes_to_fissure_crossing": "NT",
+    "walls_to_substitution_labels": "NT",
+    "field_boundary_cycles": "NT",
+    "repetition_pairs": "NT",
+    "stabilizer_words": "NT"
+  },
+  "decision": "PROVEN_MINIMAL_SCHEMA_CLOSED; HISTORICAL_GEOMETRIC_ASSIGNMENT_REMAINS_NT",
+  "guard": "Degree-based node candidates and v37 symmetry candidates are diagnostics only. They are not historical fissures, crossings, or axes until source-geometric matching certifies them."
+}

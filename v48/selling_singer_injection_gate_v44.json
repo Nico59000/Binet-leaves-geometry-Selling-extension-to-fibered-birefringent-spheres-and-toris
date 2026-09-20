@@ -1,0 +1,20 @@
+{
+  "Lorentz_orientation": "NT",
+  "Singer_to_historical_injection": "NT/PENDING-MORPHISM until all four data are supplied",
+  "current_unpointed_selling_deck_marks": "no serialized odd line or source mark; source extraction remains Gamma-symmetric",
+  "missing_equivariant_data": [
+    "a source-native assignment of a line L to each relevant historical object",
+    "a Singer framing sigma transported along every historical edge",
+    "an explicit identification of Singer-framing inversion with the historical Gamma reflection",
+    "path/face compatibility of that assignment"
+  ],
+  "nonzero_injection_from_current_trivial_scalar_carrier": "REFUTED-TYPED: Gamma-equivariance would require i(x)=-i(x), hence i(x)=0 over characteristic zero",
+  "physical_phase": "SEPARATED/PENDING-MORPHISM",
+  "separate_Singer_domain": {
+    "framing_inversion": "acts by -1",
+    "mark": "Omega_sigma(L) epsilon^3",
+    "status": "SEPARATED/CONDITIONAL-CANDIDATE"
+  },
+  "target_orientation_line": "span(J_s), with Gamma acting by -1 on the orientation sign",
+  "version": "v44"
+}

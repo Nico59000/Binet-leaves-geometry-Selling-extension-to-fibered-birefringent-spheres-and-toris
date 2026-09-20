@@ -1,0 +1,30 @@
+{
+  "version": "v47",
+  "table_sizes": {
+    "C0": 136,
+    "C1": 105,
+    "C2": 34
+  },
+  "missing": {
+    "historical_node_assignments": 136,
+    "historical_segment_assignments": 105,
+    "historical_field_assignments": 34,
+    "ordered_boundary_cycles": 34,
+    "repetition_pairs": 34,
+    "stabilizer_words": 34
+  },
+  "source_semantic_axis_centre_C6": "PROVEN",
+  "source_raster_HC_HAX_embedding": "NT",
+  "PQRS_route_semantics": "PROVEN_SOURCE_TEXT",
+  "PQRS_raster_arc_binding": "NT",
+  "historical_reflections": 0,
+  "C2_89_census": "NOT_ACTIVATED_FAIL_CLOSED",
+  "d0": "NOT_FORMED",
+  "d1": "NOT_FORMED",
+  "d1d0_test": "NOT_FORMED",
+  "face_holonomy_stabilizer_test": "NOT_FORMED",
+  "F29_object_edge_face_functor": "PENDING-MORPHISM",
+  "H1_hist": "NT_NOT_RECOMPUTED",
+  "H2_hist": "NT_NOT_RECOMPUTED",
+  "decision": "ABSTRACT SOURCE INCIDENCE IS KNOWN, BUT THE RASTER/CELL TRANSCRIPTION IS NOT TOTAL; COCHAIN MATRICES REMAIN FAIL-CLOSED."
+}
