@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "exact_group_ball_radius4": {
+    "size": 10640,
+    "depth_profile": {
+      "0": 1,
+      "1": 15,
+      "2": 147,
+      "3": 1213,
+      "4": 9264
+    }
+  },
+  "radius4_image_in_mod4": {
+    "distinct_group_elements": 256,
+    "minimal_depth_profile": {
+      "0": 1,
+      "1": 9,
+      "2": 36,
+      "3": 84,
+      "4": 126
+    }
+  },
+  "v48_dual_extension": "REFUTED-TYPED: the exact v48 dual functional ceases to annihilate the enlarged radius-4 Fox column set",
+  "first_exact_countercolumn": {
+    "relator_index": 2,
+    "relator_name": "R1_F3^2",
+    "support_depth": 4,
+    "chi": 1,
+    "old_dual_value": -2,
+    "target_value": 0,
+    "support_word": [
+      "E13",
+      "E23",
+      "F1",
+      "F2"
+    ],
+    "group_mod4": [
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "radius4_lift_existence": "NT_NOT_DECIDED",
+  "guard": "Failure of the old dual obstruction is not a positive lift. A new exact dual or an exact integral kernel witness is required."
+}
