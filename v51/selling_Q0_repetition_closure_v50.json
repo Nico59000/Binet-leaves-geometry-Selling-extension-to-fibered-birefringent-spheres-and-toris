@@ -1,0 +1,312 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "source_anchor": "Selling 1877, Fig.1 repetition construction, pp.189--191 (PDF pp.37--39)",
+  "Q0": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -5
+    ]
+  ],
+  "macros": {
+    "P": {
+      "matrix": [
+        [
+          "1",
+          "1",
+          "0"
+        ],
+        [
+          "3",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "factor_order": [
+        "P1",
+        "P2"
+      ],
+      "target_form": [
+        [
+          "3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-5"
+        ]
+      ]
+    },
+    "Q": {
+      "matrix": [
+        [
+          "2",
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "3",
+          "0",
+          "8"
+        ]
+      ],
+      "factor_order": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "target_form": [
+        [
+          "3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-20"
+        ]
+      ]
+    },
+    "R": {
+      "matrix": [
+        [
+          "-4",
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "-3",
+          "0",
+          "4"
+        ]
+      ],
+      "factor_order": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "central_symmetry": "R3"
+    },
+    "S": {
+      "matrix": [
+        [
+          "-2",
+          "1",
+          "0"
+        ],
+        [
+          "-3",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "factor_order": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "central_symmetry": "S2"
+    }
+  },
+  "deck_repetition": {
+    "T": "P R P^-1",
+    "T_matrix": [
+      [
+        "-13",
+        "3",
+        "5"
+      ],
+      [
+        "-36",
+        "8",
+        "15"
+      ],
+      [
+        "-12",
+        "3",
+        "4"
+      ]
+    ],
+    "T_stabilizes_Q0": true,
+    "U": "Q S Q^-1",
+    "U_matrix": [
+      [
+        "-17",
+        "2",
+        "10"
+      ],
+      [
+        "-24",
+        "2",
+        "15"
+      ],
+      [
+        "-24",
+        "3",
+        "14"
+      ]
+    ],
+    "U_stabilizes_Q0": true,
+    "TU_equals_UT": true
+  },
+  "additional_source_stabilizers": {
+    "V0_P_reciprocal": [
+      [
+        "-7",
+        "2",
+        "0"
+      ],
+      [
+        "-24",
+        "7",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "V_after_final_Q_symmetry": [
+      [
+        "7",
+        "2",
+        "0"
+      ],
+      [
+        "24",
+        "7",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "W_Q_analogue": [
+      [
+        "31",
+        "0",
+        "20"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "48",
+        "0",
+        "31"
+      ]
+    ]
+  },
+  "route_reversion": {
+    "T_numerical_repeat_signature": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "U_numerical_repeat_signature": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "T_form_sequence": [],
+    "interpretation": "both source routes reach an exact central marking symmetry and then retrace the previously seen numerical forms in reverse order, ending at Q0 exactly"
+  },
+  "closure_decision": "PROVEN-SOURCE-REPETITION-CLOSURE at the P/Q/R/S route level",
+  "microcell_decision": "NOT-YET-MATERIALIZED: macro repetition closure is now certified, but C0/C1/C2 require expansion of every internal field boundary event and transport",
+  "historical_H1_H2": "GUARDED/NOT-RUN",
+  "checks": {
+    "wall_pair_partition_3_fissure_12_crossing": true,
+    "opposite_pairs_exact": true,
+    "P_factorization_exact": true,
+    "Q_factorization_exact": true,
+    "R_factorization_exact": true,
+    "S_factorization_exact": true,
+    "P_target_source_form": true,
+    "Q_target_source_form": true,
+    "R3_involution": true,
+    "S2_involution": true,
+    "T_closes_Q0": true,
+    "U_closes_Q0": true,
+    "TU_commute": true,
+    "T_trace_returns_exact_Q0": true,
+    "U_trace_returns_exact_Q0": true,
+    "T_central_reversion_exact": true,
+    "U_central_reversion_exact": true,
+    "JR_stabilizes_P_target": true,
+    "JQ_stabilizes_Q_target": true,
+    "V0_matches_source_reciprocal": true,
+    "V_matches_source_total": true,
+    "V_stabilizes_Q0": true,
+    "W_stabilizes_Q0": true,
+    "fissure_gl_witness_positive": true,
+    "fissure_gl_witness_negative": true
+  }
+}

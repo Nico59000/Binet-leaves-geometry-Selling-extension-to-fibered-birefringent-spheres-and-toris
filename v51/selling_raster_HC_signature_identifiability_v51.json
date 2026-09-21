@@ -1,0 +1,51 @@
+{
+  "candidate_count": 12,
+  "decision": "NO_UNIQUE_HC0..HC5_BINDING_IS_IDENTIFIABLE_FROM_THE_V40_VECTOR_TABLES_AND_THE_SOURCE_SIGNATURES_ALONE",
+  "duplicate_available_fingerprints": {
+    "(2, 0, 2, 'CHAIN_OR_UNRESOLVED_DIAGNOSTIC')": [
+      "N059",
+      "N069",
+      "N088",
+      "N105",
+      "N104",
+      "N098",
+      "N103",
+      "N106",
+      "N070"
+    ],
+    "(2, 1, 1, 'CHAIN_OR_UNRESOLVED_DIAGNOSTIC')": [
+      "N073",
+      "N099"
+    ],
+    "(3, 1, 2, 'CROSSING_CANDIDATE_DIAGNOSTIC')": [
+      "N054",
+      "N066"
+    ]
+  },
+  "guard": "This is an information-sufficiency no-go for the current vector tables. It does not refute a binding obtained from direct printed right-angle/axis marks, a new source-aware raster transcription, or certified manual anchors.",
+  "populated_historical_axis_labels_in_segments": 0,
+  "populated_historical_form_labels_in_fields": 0,
+  "populated_historical_node_ids": 0,
+  "populated_historical_wall_labels_in_segments": 0,
+  "proof": "The source signatures require named axis roles, incident historical form labels and V4 stabilizers. The v40 raster tables contain no populated historical axis, wall, form or node identifiers. Even the safe table-native necessary condition of two reinforced branches leaves multiple cycle nodes and many six-subsets. Thus the required discriminants are absent rather than merely noisy.",
+  "raster_cycle_node_count": 16,
+  "reinforced_degree_ge2_cycle_candidates": [
+    "N054",
+    "N059",
+    "N066",
+    "N069",
+    "N088",
+    "N105",
+    "N104",
+    "N098",
+    "N103",
+    "N106",
+    "N109",
+    "N070"
+  ],
+  "scope": "v40 vector tables + v51 exact six HC local-star/stabilizer signatures; no manual pixel semantics",
+  "six_subset_count_under_this_necessary_condition": 924,
+  "source_signature_count": 6,
+  "status": "PROVEN-RASTER-TABLE-IDENTIFIABILITY-NO-GO",
+  "version": "v51"
+}

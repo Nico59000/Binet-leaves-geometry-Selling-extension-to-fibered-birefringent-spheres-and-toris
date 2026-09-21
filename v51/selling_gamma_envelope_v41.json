@@ -1,0 +1,24 @@
+{
+  "version": "v41",
+  "source_counts": {
+    "selling_deck_witness_objects": 17,
+    "selling_deck_component_sizes": [
+      4,
+      5,
+      8
+    ],
+    "gamma3_length3_oriented_occurrences": 16,
+    "kep_R24_endpoint_routes": "17 = 16 split + 1 boundary route",
+    "roof_envelope": "E(x)=x+1"
+  },
+  "abstract_pointed_envelope": {
+    "construction": "Env_partial(X)=X disjoint_union {partial}",
+    "cardinality": "|Env_partial(X)|=|X|+1, hence E(16)=17",
+    "status": "PROVEN_AS_ABSTRACT_POINTED_SET_CONSTRUCTION_AND_SOURCE-NATIVE_IN_KEP_R24"
+  },
+  "selling_gamma_adapter": {
+    "status": "SEPARATED/PENDING-MORPHISM",
+    "reason": "the current 17-object Selling/deck witness is partitioned into components of sizes 8,4,5 and contains no source-certified distinguished object whose deletion is identified with the 16 Gamma3 oriented occurrences; no incidence/groupoid map has been constructed."
+  },
+  "decision": "17_VS_16_ENVELOPE_ANALOGY_TYPED_BUT_NOT_MERGED"
+}

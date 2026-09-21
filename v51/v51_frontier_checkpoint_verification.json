@@ -1,0 +1,302 @@
+{
+  "artifact_sha256": {
+    "gamma3_radius5_fourfiber_nogo_v51.json": "0e718dd7d317beefb8fd747bf8e094b1f7483c31b53392e7303da247ed75a94b",
+    "gamma3_radius5_iterated_kernel_correction_v51.json": "3ea9a8dc227bce65af91a6bc44eec6c7f693a6f1c4cc99b3b3818fe46cd63cb7",
+    "gamma3_radius5_iterated_kernel_replay_v51.json": "b29d0f6d66604b40048d292fe1d3d5745403c06a64ac0886646394a35c77b27c",
+    "gamma3_radius5_quotient_cycle_v51.json": "dd0c6ca71077588d3fca312304091cd971f8072c183d23bd73f2ee03a4b7c631",
+    "gamma3_radius5_residual_projection_lattice_v51.json": "584a3d8472685e3087bece094eae76c6058f6b8c3f191e3a540db3f8d73e582c",
+    "gamma3_radius5_support_gate_v51.json": "00830679a57ff8f9bdaa8822f4a6e9cc95ad2042790b16ba8b76986e4ccd106f",
+    "selling_raster_HC_signature_identifiability_v51.json": "0c167ef53cf31dd2196f68d33f541c920307d391948966e0390fdd052fbabe6b",
+    "selling_raster_central_bold_cycle_gate_v51.json": "ff4e5d94d0c1e9275c891e7d66c16bd5f9511d61ddc0e858307940bc46ef0c43",
+    "selling_source_HC_local_star_signatures_v51.json": "d8e55e0198756ba9b99b31671ce8a13a62af0991bfc01a46b29f8497add22217",
+    "selling_source_axis_centre_carrier_v51.json": "8ae64d86224f87dc64cf70bf12f6442b2d6b11c13d59885391d8c2c423b71873",
+    "selling_source_axis_centre_stabilizers_v51.json": "9f97d204d6457458dee71bb7479d9d537f04f955d4af6500ebc1adc1daeabba8",
+    "selling_source_raster_projective_bold_cycle_audit_v51.json": "70b0ca39115ec1306722a74db877c0b8244eee8a8602d63beedd83dbc1993816",
+    "selling_torsion_support_bockstein_pairings_v51.json": "5e291348eae7e806d9e5e4ba256c3913195f0c05516789ad5db4b944ba61ae99",
+    "v51_FORMAL_CONTEXT_ATTESTATION.json": "ee1deacfcf37975d98f9701df241171e3d20b1247b8a45030aeb220c660c6a5e",
+    "v51_MATH_CHECKPOINT.json": "d48ec9397e7c5b8d0c073e8c574dcfe6112a25dbf49e4692e40991e7a441588f"
+  },
+  "checks": [
+    {
+      "detail": "",
+      "name": "iterated_lightweight_replay_returncode",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_context_lock",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_context_nine_docs",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "no_silent_substitution_guard",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "nt_not_binarized",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_C6_status",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "six_axes",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "six_centres",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "centre_coordinates",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "six_stabilizers",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "all_stabilizers_V4",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "six_local_stars",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_cycle_16",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_unique_binding_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "projective_96096",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "projective_diagnostic_only",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "best_nodes_stable",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "table_identifiability_nogo",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "historical_labels_unpopulated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_candidates_12",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_six_subsets_924",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "torsion_status",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "Binet_tau_28_edges",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "Ad_tau_28_edges",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "cross_support_7",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "support_overlap_not_pairing",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "V48_transfer_index_2",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "Binet_tau_V48_pairing_zero",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "three_2primary_carriers_separate",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "B5_size_78944",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "mod4_image_382",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "mod4_new_depth5_126",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "character_collisions_zero",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "quotient_cycle_deterministic",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "quotient_cycle_4_terms",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "target_projection_1",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "canonical_section_not_integral_lift",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "canonical_residual_96",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fourfiber_nogo",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fourfiber_596_unknowns",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fourfiber_rank_596_597",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "residual_matrix_96x637",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "residual_rank_64",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "residual_lattice_saturated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "local_integral_correction_exists",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "iterated_period_detected",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "iterated_not_lift",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "iterated_final_96",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "period_replay_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate_pass_explicit_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_binding_remains_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "global_B5_lift_remains_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "no_global_radius5_nogo_claimed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "R2PURE17_separated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig2_6_pending_source",
+      "pass": true
+    }
+  ],
+  "checks_passed": 55,
+  "checks_total": 55,
+  "guard": "v50 remains CLOSED/APPEND-ONLY. v51 positive and bounded-negative claims pass; raster HC binding and global radius-5 integral CHIRES14 lift remain explicitly NT.",
+  "publication_state": "MATH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS",
+  "version": "v51"
+}

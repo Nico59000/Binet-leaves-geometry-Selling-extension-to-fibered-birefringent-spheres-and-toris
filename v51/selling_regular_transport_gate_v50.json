@@ -1,0 +1,1765 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS-EXACT-TRANSPORT-GATE-AUDIT",
+  "regular_complex": {
+    "C0": 62,
+    "C1": 123,
+    "C2": 62,
+    "euler_characteristic": 1,
+    "partial1_partial2_zero": true,
+    "status": "PROVEN-GLOBAL-TOPOLOGICAL-REGULAR-QUOTIENT"
+  },
+  "edge_categories": {
+    "ordinary_boundary_orbits": 102,
+    "multiwall_boundary_orbits": 16,
+    "new_deck_mirror_edges": 5,
+    "total": 123
+  },
+  "multiwall_isotropy_certificates": [
+    {
+      "edge_orbit": 0,
+      "field": 0,
+      "segment": 0,
+      "walls": [
+        "g",
+        "k"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 4,
+      "field": 1,
+      "segment": 0,
+      "walls": [
+        "g",
+        "k"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 13,
+      "field": 6,
+      "segment": 0,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 19,
+      "field": 8,
+      "segment": 0,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 33,
+      "field": 14,
+      "segment": 0,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 41,
+      "field": 18,
+      "segment": 0,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 42,
+      "field": 18,
+      "segment": 1,
+      "walls": [
+        "k",
+        "l"
+      ],
+      "factor": "q - 1",
+      "global_reflection_on_v": [
+        [
+          3,
+          0,
+          -2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -3
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 17,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 62,
+      "field": 29,
+      "segment": 1,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "q - 1",
+      "global_reflection_on_v": [
+        [
+          3,
+          0,
+          -2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -3
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 17,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 73,
+      "field": 35,
+      "segment": 0,
+      "walls": [
+        "l",
+        "n"
+      ],
+      "factor": "r",
+      "global_reflection_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 7,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 75,
+      "field": 35,
+      "segment": 3,
+      "walls": [
+        "g",
+        "n"
+      ],
+      "factor": "3*q + 2",
+      "global_reflection_on_v": [
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -4,
+          0,
+          -5
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          5,
+          0,
+          -4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          6,
+          0,
+          -5
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          -1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 47,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 83,
+      "field": 40,
+      "segment": 1,
+      "walls": [
+        "k",
+        "l"
+      ],
+      "factor": "q - 1",
+      "global_reflection_on_v": [
+        [
+          3,
+          0,
+          -2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -3
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 17,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 108,
+      "field": 56,
+      "segment": 2,
+      "walls": [
+        "g",
+        "m"
+      ],
+      "factor": "3*q + 2",
+      "global_reflection_on_v": [
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -4,
+          0,
+          -5
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          5,
+          0,
+          -4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          6,
+          0,
+          -5
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 47,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 109,
+      "field": 57,
+      "segment": 2,
+      "walls": [
+        "h",
+        "k"
+      ],
+      "factor": "q + 4*r - 2",
+      "global_reflection_on_v": [
+        [
+          13,
+          24,
+          -6
+        ],
+        [
+          -4,
+          -7,
+          2
+        ],
+        [
+          12,
+          24,
+          -5
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          13,
+          -4,
+          12
+        ],
+        [
+          24,
+          -7,
+          24
+        ],
+        [
+          -6,
+          2,
+          -5
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 79,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 111,
+      "field": 58,
+      "segment": 1,
+      "walls": [
+        "k",
+        "l"
+      ],
+      "factor": "q - 1",
+      "global_reflection_on_v": [
+        [
+          3,
+          0,
+          -2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -3
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 17,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 112,
+      "field": 58,
+      "segment": 2,
+      "walls": [
+        "g",
+        "k"
+      ],
+      "factor": "q + 4*r - 2",
+      "global_reflection_on_v": [
+        [
+          13,
+          24,
+          -6
+        ],
+        [
+          -4,
+          -7,
+          2
+        ],
+        [
+          12,
+          24,
+          -5
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          13,
+          -4,
+          12
+        ],
+        [
+          24,
+          -7,
+          24
+        ],
+        [
+          -6,
+          2,
+          -5
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 79,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_orbit": 116,
+      "field": 61,
+      "segment": 2,
+      "walls": [
+        "h",
+        "k"
+      ],
+      "factor": "q + 4*r - 2",
+      "global_reflection_on_v": [
+        [
+          13,
+          24,
+          -6
+        ],
+        [
+          -4,
+          -7,
+          2
+        ],
+        [
+          12,
+          24,
+          -5
+        ]
+      ],
+      "global_congruence_J": [
+        [
+          13,
+          -4,
+          12
+        ],
+        [
+          24,
+          -7,
+          24
+        ],
+        [
+          -6,
+          2,
+          -5
+        ]
+      ],
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": 1,
+      "time_cone_pairing_with_e1": 79,
+      "checks": {
+        "J_integral": true,
+        "J_det_minus1": true,
+        "J_involution": true,
+        "J_preserves_base_form": true,
+        "R_fixes_line_pointwise": true,
+        "K_integral": true,
+        "K_det_minus1": true,
+        "K_involution": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "ISOTROPY/MULTIWALL-REFLECTION; NOT longitudinal arc transport M_e"
+    }
+  ],
+  "mirror_isotropy_certificates": [
+    {
+      "edge_id": 118,
+      "face": 38,
+      "deck": "U",
+      "fixed_locus": "q - 3*r + 1",
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "binet_time_cone_sign": -1,
+      "time_cone_pairing_with_e1": -34,
+      "checks": {
+        "deck_involution": true,
+        "deck_preserves_base_form": true,
+        "K_integral": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "DECK-ISOTROPY/MIRROR; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_id": 119,
+      "face": 48,
+      "deck": "U",
+      "fixed_locus": "q - 3*r + 1",
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": -1,
+      "time_cone_pairing_with_e1": -34,
+      "checks": {
+        "deck_involution": true,
+        "deck_preserves_base_form": true,
+        "K_integral": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "DECK-ISOTROPY/MIRROR; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_id": 120,
+      "face": 49,
+      "deck": "U",
+      "fixed_locus": "q - 3*r + 1",
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          1,
+          0
+        ]
+      ],
+      "binet_time_cone_sign": -1,
+      "time_cone_pairing_with_e1": -34,
+      "checks": {
+        "deck_involution": true,
+        "deck_preserves_base_form": true,
+        "K_integral": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "DECK-ISOTROPY/MIRROR; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_id": 121,
+      "face": 53,
+      "deck": "T",
+      "fixed_locus": "3*r - 1",
+      "field_stabilizer_K": [
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ]
+      ],
+      "binet_time_cone_sign": -1,
+      "time_cone_pairing_with_e1": -56,
+      "checks": {
+        "deck_involution": true,
+        "deck_preserves_base_form": true,
+        "K_integral": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "DECK-ISOTROPY/MIRROR; NOT longitudinal arc transport M_e"
+    },
+    {
+      "edge_id": 122,
+      "face": 56,
+      "deck": "U",
+      "fixed_locus": "q - 3*r + 1",
+      "field_stabilizer_K": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "binet_time_cone_sign": -1,
+      "time_cone_pairing_with_e1": -34,
+      "checks": {
+        "deck_involution": true,
+        "deck_preserves_base_form": true,
+        "K_integral": true,
+        "K_stabilizes_field_form": true
+      },
+      "role": "DECK-ISOTROPY/MIRROR; NOT longitudinal arc transport M_e"
+    }
+  ],
+  "binet_isotropy_summary": {
+    "multiwall_reflections_all_preserve_time_cone": true,
+    "new_mirror_edges_all_reverse_time_cone": true
+  },
+  "transverse_vs_longitudinal_no_go": {
+    "first_face": "Q2/field0",
+    "tested_choices": 8,
+    "composition_conventions": 2,
+    "all_fail_to_preserve_Q2": true,
+    "rows": [
+      {
+        "choice": [
+          "S2",
+          "S5",
+          "S9"
+        ],
+        "forward_product": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            2,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "reverse_product": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S2",
+          "S5",
+          "S11"
+        ],
+        "forward_product": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "reverse_product": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S2",
+          "S12",
+          "S9"
+        ],
+        "forward_product": [
+          [
+            1,
+            -1,
+            -1
+          ],
+          [
+            -2,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            -1
+          ]
+        ],
+        "reverse_product": [
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            -1,
+            -1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S2",
+          "S12",
+          "S11"
+        ],
+        "forward_product": [
+          [
+            -1,
+            1,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "reverse_product": [
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S8",
+          "S5",
+          "S9"
+        ],
+        "forward_product": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            2,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ],
+        "reverse_product": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S8",
+          "S5",
+          "S11"
+        ],
+        "forward_product": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            -1
+          ]
+        ],
+        "reverse_product": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S8",
+          "S12",
+          "S9"
+        ],
+        "forward_product": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -2,
+            1,
+            1
+          ],
+          [
+            1,
+            -1,
+            0
+          ]
+        ],
+        "reverse_product": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      },
+      {
+        "choice": [
+          "S8",
+          "S12",
+          "S11"
+        ],
+        "forward_product": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "reverse_product": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            -1
+          ]
+        ],
+        "forward_preserves_Q2": false,
+        "reverse_preserves_Q2": false,
+        "forward_pm_identity": false,
+        "reverse_pm_identity": false
+      }
+    ],
+    "decision": "REFUTED-TYPED: raw transverse Selling wall moves (even choosing either representative in each torsor) are not the longitudinal boundary-arc transports M_e required by v44/v49."
+  },
+  "longitudinal_transport_gate": {
+    "M_e_total": false,
+    "d0": "NOT-FORMED",
+    "d1": "NOT-FORMED",
+    "d1d0": "NOT-TESTED",
+    "missing_data": "For every oriented primal boundary arc, a source-certified longitudinal substitution word mapping the endpoint chart/fibre at s(e) to that at t(e), with face-ordered composition equal to the declared face stabilizer. Transverse wall-crossing moves and isotropy reflections are typed separately and cannot be substituted.",
+    "F_Sell_to_F29": "PENDING-MORPHISM",
+    "H1_H2": "NT/GUARDED"
+  }
+}

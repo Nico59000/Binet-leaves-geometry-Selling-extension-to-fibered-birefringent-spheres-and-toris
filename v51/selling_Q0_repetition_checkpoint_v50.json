@@ -1,0 +1,21 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "predecessor": "v49 CLOSED/APPEND-ONLY",
+  "selling_fissure_branch_automaton": "PASS",
+  "Q0_source_repetition_closure": "PASS",
+  "verification": "PASS_25_OF_25",
+  "deterministic_replay": "PASS_BYTE_IDENTICAL_OUTPUTS",
+  "promotion": {
+    "fissure_pair_model": "PROVEN-SOURCE-EXACT",
+    "branch_order_automaton": "PROVEN-SOURCE-EXACT_WITH_FAIL_CLOSED_NONSTANDARD_CASES",
+    "PQRS_factor_order": "PROVEN-SOURCE-EXACT",
+    "T_repetition_route": "PROVEN-SOURCE-EXACT",
+    "U_repetition_route": "PROVEN-SOURCE-EXACT",
+    "Selling_native_route_reversal": "PROVEN-SOURCE-ROUTE-REVERSAL",
+    "full_microcell_C0_C1_C2": "NT_NOT_YET_MATERIALIZED",
+    "historical_H1_H2": "NT_GUARDED_NOT_RUN",
+    "SellingDeck17_or_Gamma3_reversion_identification": "SEPARATED/PENDING-MORPHISM"
+  },
+  "next_gate": "expand every P/Q/R/S route factor into source-ordered CROSSING/FISSURE boundary events, quotient by certified T/U repetitions, and only then materialize finite C0,C1,C2"
+}

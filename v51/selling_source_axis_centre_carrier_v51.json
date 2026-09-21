@@ -1,0 +1,267 @@
+{
+  "all_pairwise_axis_intersections": [
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX0",
+        "HAX1"
+      ],
+      "q": "1",
+      "r": "0",
+      "regular_vertices": [
+        25
+      ]
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX0",
+        "HAX2"
+      ],
+      "q": "2",
+      "r": "0",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX0",
+        "HAX4"
+      ],
+      "q": "-1",
+      "r": "0",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX0",
+        "HAX5"
+      ],
+      "q": "-2/3",
+      "r": "0",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX1",
+        "HAX2"
+      ],
+      "q": "1",
+      "r": "1/4",
+      "regular_vertices": [
+        57
+      ]
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX1",
+        "HAX3"
+      ],
+      "q": "1",
+      "r": "1/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX1",
+        "HAX4"
+      ],
+      "q": "1",
+      "r": "2/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX2",
+        "HAX3"
+      ],
+      "q": "2/3",
+      "r": "1/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX2",
+        "HAX4"
+      ],
+      "q": "2/7",
+      "r": "3/7",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX2",
+        "HAX5"
+      ],
+      "q": "-2/3",
+      "r": "2/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX3",
+        "HAX4"
+      ],
+      "q": "0",
+      "r": "1/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": false,
+      "axes": [
+        "HAX3",
+        "HAX5"
+      ],
+      "q": "-2/3",
+      "r": "1/3",
+      "regular_vertices": []
+    },
+    {
+      "adjacent_in_HAX_cycle": true,
+      "axes": [
+        "HAX4",
+        "HAX5"
+      ],
+      "q": "-2/3",
+      "r": "1/9",
+      "regular_vertices": [
+        61
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "equation": "r",
+      "id": "HAX0",
+      "kind": "MULTIWALL",
+      "source_reflection": "r=0"
+    },
+    {
+      "equation": "q-1",
+      "id": "HAX1",
+      "kind": "MULTIWALL",
+      "source_reflection": "q-1=0"
+    },
+    {
+      "equation": "q+4*r-2",
+      "id": "HAX2",
+      "kind": "MULTIWALL",
+      "source_reflection": "q+4r-2=0"
+    },
+    {
+      "equation": "3*r-1",
+      "id": "HAX3",
+      "kind": "DECK-T",
+      "source_reflection": "T fixed locus"
+    },
+    {
+      "equation": "q-3*r+1",
+      "id": "HAX4",
+      "kind": "DECK-U",
+      "source_reflection": "U fixed locus"
+    },
+    {
+      "equation": "3*q+2",
+      "id": "HAX5",
+      "kind": "MULTIWALL",
+      "source_reflection": "3q+2=0"
+    }
+  ],
+  "centres": [
+    {
+      "id": "HC0",
+      "incident_axes": [
+        "HAX0",
+        "HAX1"
+      ],
+      "q": "1",
+      "r": "0",
+      "vertex": 25
+    },
+    {
+      "id": "HC1",
+      "incident_axes": [
+        "HAX1",
+        "HAX2"
+      ],
+      "q": "1",
+      "r": "1/4",
+      "vertex": 57
+    },
+    {
+      "id": "HC2",
+      "incident_axes": [
+        "HAX2",
+        "HAX3"
+      ],
+      "q": "2/3",
+      "r": "1/3",
+      "vertex": 59
+    },
+    {
+      "id": "HC3",
+      "incident_axes": [
+        "HAX3",
+        "HAX4"
+      ],
+      "q": "0",
+      "r": "1/3",
+      "vertex": 55
+    },
+    {
+      "id": "HC4",
+      "incident_axes": [
+        "HAX4",
+        "HAX5"
+      ],
+      "q": "-2/3",
+      "r": "1/9",
+      "vertex": 61
+    },
+    {
+      "id": "HC5",
+      "incident_axes": [
+        "HAX5",
+        "HAX0"
+      ],
+      "q": "-2/3",
+      "r": "0",
+      "vertex": 40
+    }
+  ],
+  "cyclic_axis_order": [
+    "HAX0",
+    "HAX1",
+    "HAX2",
+    "HAX3",
+    "HAX4",
+    "HAX5"
+  ],
+  "cyclic_centre_order": [
+    "HC0",
+    "HC1",
+    "HC2",
+    "HC3",
+    "HC4",
+    "HC5"
+  ],
+  "decision": {
+    "identification_with_historical_HAX/HC_semantics": "PROVEN-TYPED-BY-COUNT/INCIDENCE/REFLECTION-ROLE",
+    "raster_coordinates": "NT/PENDING-SOURCE-TO-RASTER-GEOMETRIC-REALIZATION",
+    "six_source_coordinate_axes": "PROVEN",
+    "six_source_coordinate_fourfold_centre_candidates_with_exact_C6_incidence": "PROVEN-AS-COMPUTED-SYMMETRY-CARRIER"
+  },
+  "guard": "This promotes the six HAX/HC in the source-computed (q,r) realization. It does not yet assign any HC_i to a raster node or HAX_i to a raster curve.",
+  "incidence": "HC_i = HAX_i intersection HAX_{i+1 mod 6}",
+  "source": "v50 exact global reflection fixed loci + v50 regular Selling complex",
+  "status": "PROVEN-SOURCE-COORDINATE-C6-AXIS/CENTRE-CARRIER",
+  "version": "v51"
+}

@@ -1,0 +1,120 @@
+{
+  "version": "v49",
+  "common_engine": "selling_reconstruction_engine_v49.py",
+  "figures": [
+    {
+      "figure": 1,
+      "source_state": "PARTIAL-SEED-PROVEN",
+      "known_exact": {
+        "invariant": 60,
+        "Q0": [
+          [
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "external_macro_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "external_symmetry_axes_count": 6,
+        "fourfold_centres_count": 6,
+        "four_of_six_external_lines_are_numerical-coincidence_axes": true
+      },
+      "missing_for_full_compile": [
+        "complete source-readable initial angular-point/crossing register",
+        "all figure-local boundary-letter assignments",
+        "ordered elementary decomposition of every macro external route",
+        "complete source feasibility decisions for each branch"
+      ],
+      "status": "ENGINE_READY / FULL_COMPILE_NT"
+    },
+    {
+      "figure": 2,
+      "source_state": "METHOD-DESCRIBED-SEED-OCR-PARTIAL",
+      "known_exact": {
+        "source_strategy": "start from a class form chosen to expose the symmetries most simply",
+        "source_symmetry": "tripartite, then six-partite; a fourfold centre also appears"
+      },
+      "missing_for_full_compile": [
+        "exact seed matrix from source typography",
+        "complete source-local transition registry"
+      ],
+      "status": "ENGINE_READY / SEED_TRANSCRIPTION_NT"
+    },
+    {
+      "figure": 3,
+      "source_state": "METHOD-DESCRIBED-PARTIAL",
+      "known_exact": {
+        "source_strategy": "treat analogously after conceptual quadrupling about a named centre",
+        "macro_relations": [
+          "R=T",
+          "TU=UT"
+        ]
+      },
+      "missing_for_full_compile": [
+        "exact marked seed and all figure-local edge labels"
+      ],
+      "status": "ENGINE_READY / SEED_TRANSCRIPTION_NT"
+    },
+    {
+      "figure": 4,
+      "source_state": "METHOD-DESCRIBED-PARTIAL",
+      "known_exact": {
+        "source_symmetry": "octuple at the selected form",
+        "external_macro": "one reciprocal doubled extreme-right boundary T",
+        "branch_contact": "hexagonal pattern in the discussed line system"
+      },
+      "missing_for_full_compile": [
+        "exact seed matrix and complete local boundary register"
+      ],
+      "status": "ENGINE_READY / SEED_TRANSCRIPTION_NT"
+    },
+    {
+      "figure": 5,
+      "source_state": "METHOD-DESCRIBED-PARTIAL",
+      "known_exact": {
+        "macros": [
+          "Q",
+          "R",
+          "S"
+        ],
+        "P": "disappears in this example",
+        "relation": "TU=UT",
+        "one_system": "replaced by a line extending to infinity"
+      },
+      "missing_for_full_compile": [
+        "exact seed matrix and complete branch/crossing register"
+      ],
+      "status": "ENGINE_READY / SEED_TRANSCRIPTION_NT"
+    },
+    {
+      "figure": 6,
+      "source_state": "METHOD-DESCRIBED-PARTIAL",
+      "known_exact": {
+        "external_symmetry_axes_count": 6,
+        "other_external_boundaries_count": 5,
+        "continuation": "half-turn around cross-marked symmetry centres",
+        "territory_A_rendering": "reinforced solid rather than serpentine"
+      },
+      "missing_for_full_compile": [
+        "exact seed form and all marked centre/boundary coordinates/labels"
+      ],
+      "status": "ENGINE_READY / SEED_TRANSCRIPTION_NT"
+    }
+  ],
+  "decision": "ONE_COMMON_SOURCE_CONSTRUCTOR_IS_APPLICABLE_TO_FIGURES_1_TO_6; FIGURE-SPECIFIC_SEED_AND_MACRO_DATA_MUST_BE_TRANSCRIBED_BEFORE_NUMERICAL_REPLAY"
+}

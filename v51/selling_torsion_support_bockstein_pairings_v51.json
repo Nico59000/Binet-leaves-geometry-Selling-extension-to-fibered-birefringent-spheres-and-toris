@@ -1,0 +1,2412 @@
+{
+  "binet_degree2_transfer_defect": {
+    "carrier_vertex": 48,
+    "downstairs_H2_torsion": false,
+    "fixed_lattice_rank": 1,
+    "link_edge_ids": [
+      91,
+      92,
+      105,
+      106,
+      105,
+      92
+    ],
+    "link_edge_word": [
+      {
+        "direction": 1,
+        "edge": 91,
+        "from_face": 44,
+        "to_face": 44
+      },
+      {
+        "direction": 1,
+        "edge": 92,
+        "from_face": 44,
+        "to_face": 54
+      },
+      {
+        "direction": 1,
+        "edge": 105,
+        "from_face": 54,
+        "to_face": 55
+      },
+      {
+        "direction": 1,
+        "edge": 106,
+        "from_face": 55,
+        "to_face": 55
+      },
+      {
+        "direction": -1,
+        "edge": 105,
+        "from_face": 55,
+        "to_face": 54
+      },
+      {
+        "direction": -1,
+        "edge": 92,
+        "from_face": 54,
+        "to_face": 44
+      }
+    ],
+    "monodromy": "TU",
+    "pairing_with_Ad_H1_tau": {
+      "common_link_edges": [
+        91,
+        106
+      ],
+      "status": "NOT-A-COHOMOLOGICAL-PAIRING",
+      "typed_as": "support incidence only; coefficient systems differ"
+    },
+    "pairing_with_Binet_H1_tau": {
+      "result": "ZERO",
+      "typed_as": "d1 row evaluation on tau",
+      "value": [
+        0
+      ]
+    },
+    "separation": "DO-NOT-IDENTIFY-H1-TORSION-CARRIERS-WITH-H2-TRANSFER-DEFECT",
+    "transfer_index": 2,
+    "upstairs_invariant_H2_extra_torsion": "Z/2"
+  },
+  "cross_system": {
+    "Ad_edge_support_count": 28,
+    "Binet_edge_support_count": 28,
+    "common_edge_support": [
+      102,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+    ],
+    "common_edge_support_count": 7,
+    "reason": "No natural coefficient morphism or bilinear pairing Binet x Ad -> target has been constructed.",
+    "status": "SUPPORT-INTERSECTION-ONLY/NOT-A-COHOMOLOGICAL-PAIRING",
+    "union_edge_support_count": 49
+  },
+  "guard": [
+    "The two beta_0 classes live in different coefficient systems and are not identified.",
+    "The V48 transfer defect is a degree-2 descent-index carrier, not the same object as either H1 torsion class.",
+    "Cross-system edge support intersection is diagnostic only unless a natural coefficient pairing is constructed."
+  ],
+  "source_version": "v50 CLOSED/APPEND-ONLY",
+  "status": "PASS-EXACT-TORSION-SUPPORT/BOCKSTEIN/LINK-PAIRING",
+  "systems": {
+    "Ad": {
+      "H0_mod2_source_support": [
+        {
+          "i": 1,
+          "value": "1"
+        },
+        {
+          "i": 2,
+          "value": "1"
+        },
+        {
+          "i": 4,
+          "value": "1"
+        },
+        {
+          "i": 5,
+          "value": "1"
+        },
+        {
+          "i": 7,
+          "value": "1"
+        },
+        {
+          "i": 8,
+          "value": "1"
+        },
+        {
+          "i": 10,
+          "value": "1"
+        },
+        {
+          "i": 11,
+          "value": "1"
+        },
+        {
+          "i": 13,
+          "value": "1"
+        },
+        {
+          "i": 14,
+          "value": "1"
+        },
+        {
+          "i": 16,
+          "value": "1"
+        },
+        {
+          "i": 17,
+          "value": "1"
+        },
+        {
+          "i": 19,
+          "value": "1"
+        },
+        {
+          "i": 20,
+          "value": "1"
+        },
+        {
+          "i": 22,
+          "value": "1"
+        },
+        {
+          "i": 23,
+          "value": "1"
+        },
+        {
+          "i": 25,
+          "value": "1"
+        },
+        {
+          "i": 26,
+          "value": "1"
+        },
+        {
+          "i": 28,
+          "value": "1"
+        },
+        {
+          "i": 29,
+          "value": "1"
+        },
+        {
+          "i": 31,
+          "value": "1"
+        },
+        {
+          "i": 32,
+          "value": "1"
+        },
+        {
+          "i": 34,
+          "value": "1"
+        },
+        {
+          "i": 35,
+          "value": "1"
+        },
+        {
+          "i": 37,
+          "value": "1"
+        },
+        {
+          "i": 38,
+          "value": "1"
+        },
+        {
+          "i": 40,
+          "value": "1"
+        },
+        {
+          "i": 41,
+          "value": "1"
+        },
+        {
+          "i": 43,
+          "value": "1"
+        },
+        {
+          "i": 44,
+          "value": "1"
+        },
+        {
+          "i": 46,
+          "value": "1"
+        },
+        {
+          "i": 47,
+          "value": "1"
+        },
+        {
+          "i": 49,
+          "value": "1"
+        },
+        {
+          "i": 50,
+          "value": "1"
+        },
+        {
+          "i": 52,
+          "value": "1"
+        },
+        {
+          "i": 53,
+          "value": "1"
+        },
+        {
+          "i": 55,
+          "value": "1"
+        },
+        {
+          "i": 56,
+          "value": "1"
+        },
+        {
+          "i": 58,
+          "value": "1"
+        },
+        {
+          "i": 59,
+          "value": "1"
+        },
+        {
+          "i": 61,
+          "value": "1"
+        },
+        {
+          "i": 62,
+          "value": "1"
+        },
+        {
+          "i": 64,
+          "value": "1"
+        },
+        {
+          "i": 65,
+          "value": "1"
+        },
+        {
+          "i": 67,
+          "value": "1"
+        },
+        {
+          "i": 68,
+          "value": "1"
+        },
+        {
+          "i": 70,
+          "value": "1"
+        },
+        {
+          "i": 71,
+          "value": "1"
+        },
+        {
+          "i": 73,
+          "value": "1"
+        },
+        {
+          "i": 74,
+          "value": "1"
+        },
+        {
+          "i": 76,
+          "value": "1"
+        },
+        {
+          "i": 77,
+          "value": "1"
+        },
+        {
+          "i": 79,
+          "value": "1"
+        },
+        {
+          "i": 80,
+          "value": "1"
+        },
+        {
+          "i": 82,
+          "value": "1"
+        },
+        {
+          "i": 83,
+          "value": "1"
+        },
+        {
+          "i": 85,
+          "value": "1"
+        },
+        {
+          "i": 86,
+          "value": "1"
+        },
+        {
+          "i": 88,
+          "value": "1"
+        },
+        {
+          "i": 89,
+          "value": "1"
+        },
+        {
+          "i": 91,
+          "value": "1"
+        },
+        {
+          "i": 92,
+          "value": "1"
+        },
+        {
+          "i": 94,
+          "value": "1"
+        },
+        {
+          "i": 95,
+          "value": "1"
+        },
+        {
+          "i": 97,
+          "value": "1"
+        },
+        {
+          "i": 98,
+          "value": "1"
+        },
+        {
+          "i": 100,
+          "value": "1"
+        },
+        {
+          "i": 101,
+          "value": "1"
+        },
+        {
+          "i": 103,
+          "value": "1"
+        },
+        {
+          "i": 104,
+          "value": "1"
+        },
+        {
+          "i": 106,
+          "value": "1"
+        },
+        {
+          "i": 107,
+          "value": "1"
+        },
+        {
+          "i": 109,
+          "value": "1"
+        },
+        {
+          "i": 110,
+          "value": "1"
+        },
+        {
+          "i": 112,
+          "value": "1"
+        },
+        {
+          "i": 113,
+          "value": "1"
+        },
+        {
+          "i": 115,
+          "value": "1"
+        },
+        {
+          "i": 116,
+          "value": "1"
+        },
+        {
+          "i": 118,
+          "value": "1"
+        },
+        {
+          "i": 119,
+          "value": "1"
+        },
+        {
+          "i": 121,
+          "value": "1"
+        },
+        {
+          "i": 122,
+          "value": "1"
+        },
+        {
+          "i": 124,
+          "value": "1"
+        },
+        {
+          "i": 125,
+          "value": "1"
+        },
+        {
+          "i": 127,
+          "value": "1"
+        },
+        {
+          "i": 128,
+          "value": "1"
+        },
+        {
+          "i": 130,
+          "value": "1"
+        },
+        {
+          "i": 131,
+          "value": "1"
+        },
+        {
+          "i": 133,
+          "value": "1"
+        },
+        {
+          "i": 134,
+          "value": "1"
+        },
+        {
+          "i": 136,
+          "value": "1"
+        },
+        {
+          "i": 137,
+          "value": "1"
+        },
+        {
+          "i": 139,
+          "value": "1"
+        },
+        {
+          "i": 140,
+          "value": "1"
+        },
+        {
+          "i": 142,
+          "value": "1"
+        },
+        {
+          "i": 143,
+          "value": "1"
+        },
+        {
+          "i": 145,
+          "value": "1"
+        },
+        {
+          "i": 146,
+          "value": "1"
+        },
+        {
+          "i": 148,
+          "value": "1"
+        },
+        {
+          "i": 149,
+          "value": "1"
+        },
+        {
+          "i": 151,
+          "value": "1"
+        },
+        {
+          "i": 152,
+          "value": "1"
+        },
+        {
+          "i": 154,
+          "value": "1"
+        },
+        {
+          "i": 155,
+          "value": "1"
+        },
+        {
+          "i": 157,
+          "value": "1"
+        },
+        {
+          "i": 158,
+          "value": "1"
+        },
+        {
+          "i": 160,
+          "value": "1"
+        },
+        {
+          "i": 161,
+          "value": "1"
+        },
+        {
+          "i": 163,
+          "value": "1"
+        },
+        {
+          "i": 164,
+          "value": "1"
+        },
+        {
+          "i": 166,
+          "value": "1"
+        },
+        {
+          "i": 167,
+          "value": "1"
+        },
+        {
+          "i": 169,
+          "value": "1"
+        },
+        {
+          "i": 170,
+          "value": "1"
+        },
+        {
+          "i": 172,
+          "value": "1"
+        },
+        {
+          "i": 173,
+          "value": "1"
+        },
+        {
+          "i": 175,
+          "value": "1"
+        },
+        {
+          "i": 176,
+          "value": "1"
+        },
+        {
+          "i": 178,
+          "value": "1"
+        },
+        {
+          "i": 179,
+          "value": "1"
+        },
+        {
+          "i": 181,
+          "value": "1"
+        },
+        {
+          "i": 182,
+          "value": "1"
+        },
+        {
+          "i": 184,
+          "value": "1"
+        },
+        {
+          "i": 185,
+          "value": "1"
+        }
+      ],
+      "H1_order2": "Z/2",
+      "V48_boundary_pairing": "ZERO_BY_COCYCLE_CONDITION",
+      "V48_d1_pairing_values": [
+        0
+      ],
+      "V48_link_edges": [
+        91,
+        92,
+        105,
+        106,
+        105,
+        92
+      ],
+      "V48_link_support_count": 2,
+      "V48_link_supported_edges": [
+        91,
+        106
+      ],
+      "beta0_statement": "beta_0([z mod 2])=[d0 z / 2]=[tau] is the unique H1 order-2 class",
+      "bockstein_checks": {
+        "d0z_even": true,
+        "d1tau_zero": true,
+        "tau_equals_half_d0z": true
+      },
+      "tau_C1_coordinate_support": [
+        {
+          "i": 0,
+          "value": "1"
+        },
+        {
+          "i": 11,
+          "value": "1"
+        },
+        {
+          "i": 37,
+          "value": "1"
+        },
+        {
+          "i": 54,
+          "value": "1"
+        },
+        {
+          "i": 95,
+          "value": "1"
+        },
+        {
+          "i": 118,
+          "value": "1"
+        },
+        {
+          "i": 120,
+          "value": "1"
+        },
+        {
+          "i": 121,
+          "value": "6"
+        },
+        {
+          "i": 179,
+          "value": "1"
+        },
+        {
+          "i": 180,
+          "value": "6"
+        },
+        {
+          "i": 209,
+          "value": "1"
+        },
+        {
+          "i": 210,
+          "value": "1"
+        },
+        {
+          "i": 211,
+          "value": "1"
+        },
+        {
+          "i": 216,
+          "value": "1"
+        },
+        {
+          "i": 217,
+          "value": "3"
+        },
+        {
+          "i": 234,
+          "value": "1"
+        },
+        {
+          "i": 235,
+          "value": "1"
+        },
+        {
+          "i": 239,
+          "value": "1"
+        },
+        {
+          "i": 240,
+          "value": "6"
+        },
+        {
+          "i": 262,
+          "value": "-60"
+        },
+        {
+          "i": 263,
+          "value": "15"
+        },
+        {
+          "i": 264,
+          "value": "-5"
+        },
+        {
+          "i": 295,
+          "value": "-60"
+        },
+        {
+          "i": 296,
+          "value": "15"
+        },
+        {
+          "i": 297,
+          "value": "-5"
+        },
+        {
+          "i": 308,
+          "value": "1"
+        },
+        {
+          "i": 309,
+          "value": "1"
+        },
+        {
+          "i": 311,
+          "value": "1"
+        },
+        {
+          "i": 312,
+          "value": "1"
+        },
+        {
+          "i": 313,
+          "value": "1"
+        },
+        {
+          "i": 314,
+          "value": "3"
+        },
+        {
+          "i": 315,
+          "value": "-9"
+        },
+        {
+          "i": 316,
+          "value": "31"
+        },
+        {
+          "i": 320,
+          "value": "1"
+        },
+        {
+          "i": 321,
+          "value": "6"
+        },
+        {
+          "i": 322,
+          "value": "-9"
+        },
+        {
+          "i": 323,
+          "value": "31"
+        },
+        {
+          "i": 333,
+          "value": "-9"
+        },
+        {
+          "i": 334,
+          "value": "31"
+        },
+        {
+          "i": 335,
+          "value": "-60"
+        },
+        {
+          "i": 336,
+          "value": "15"
+        },
+        {
+          "i": 337,
+          "value": "-5"
+        },
+        {
+          "i": 338,
+          "value": "1"
+        },
+        {
+          "i": 339,
+          "value": "1"
+        },
+        {
+          "i": 340,
+          "value": "1"
+        },
+        {
+          "i": 341,
+          "value": "1"
+        },
+        {
+          "i": 342,
+          "value": "1"
+        },
+        {
+          "i": 343,
+          "value": "1"
+        },
+        {
+          "i": 344,
+          "value": "-5"
+        },
+        {
+          "i": 345,
+          "value": "-60"
+        },
+        {
+          "i": 346,
+          "value": "1"
+        },
+        {
+          "i": 347,
+          "value": "1"
+        }
+      ],
+      "tau_edge_orbit_support": [
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 0,
+              "edge": 0,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 0
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 11,
+              "edge": 4,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 4
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 37,
+              "edge": 13,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 13
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 54,
+              "edge": 19,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 19
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 95,
+              "edge": 33,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 33
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 118,
+              "edge": 41,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 41
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 120,
+              "edge": 42,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-5",
+                "1",
+                "0"
+              ],
+              "coefficient": 6,
+              "coordinate": 121,
+              "edge": 42,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 42
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 179,
+              "edge": 62,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-5",
+                "1",
+                "0"
+              ],
+              "coefficient": 6,
+              "coordinate": 180,
+              "edge": 62,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 62
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 209,
+              "edge": 72,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 210,
+              "edge": 72,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 72
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 211,
+              "edge": 73,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 73
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 216,
+              "edge": 75,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "10",
+                "-3",
+                "0"
+              ],
+              "coefficient": 3,
+              "coordinate": 217,
+              "edge": 75,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 75
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 234,
+              "edge": 81,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 235,
+              "edge": 81,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 81
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 239,
+              "edge": 83,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-5",
+                "1",
+                "0"
+              ],
+              "coefficient": 6,
+              "coordinate": 240,
+              "edge": 83,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 83
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": -60,
+              "coordinate": 262,
+              "edge": 91,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 15,
+              "coordinate": 263,
+              "edge": 91,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": -5,
+              "coordinate": 264,
+              "edge": 91,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 91
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": -60,
+              "coordinate": 295,
+              "edge": 102,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 15,
+              "coordinate": 296,
+              "edge": 102,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": -5,
+              "coordinate": 297,
+              "edge": 102,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 102
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 308,
+              "edge": 106,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 309,
+              "edge": 106,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 106
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 311,
+              "edge": 107,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 312,
+              "edge": 107,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 107
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 313,
+              "edge": 108,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "10",
+                "-3",
+                "0"
+              ],
+              "coefficient": 3,
+              "coordinate": 314,
+              "edge": 108,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 108
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "-4",
+                "0",
+                "1"
+              ],
+              "coefficient": -9,
+              "coordinate": 315,
+              "edge": 109,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-6",
+                "1",
+                "0"
+              ],
+              "coefficient": 31,
+              "coordinate": 316,
+              "edge": 109,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 109
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 320,
+              "edge": 111,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-5",
+                "1",
+                "0"
+              ],
+              "coefficient": 6,
+              "coordinate": 321,
+              "edge": 111,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 111
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "-4",
+                "0",
+                "1"
+              ],
+              "coefficient": -9,
+              "coordinate": 322,
+              "edge": 112,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-6",
+                "1",
+                "0"
+              ],
+              "coefficient": 31,
+              "coordinate": 323,
+              "edge": 112,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 112
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "-4",
+                "0",
+                "1"
+              ],
+              "coefficient": -9,
+              "coordinate": 333,
+              "edge": 116,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-6",
+                "1",
+                "0"
+              ],
+              "coefficient": 31,
+              "coordinate": 334,
+              "edge": 116,
+              "edge_kind": "MULTIWALL-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 116
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": -60,
+              "coordinate": 335,
+              "edge": 117,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": 15,
+              "coordinate": 336,
+              "edge": 117,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 1
+            },
+            {
+              "basis_vector": [
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": -5,
+              "coordinate": 337,
+              "edge": 117,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 2
+            }
+          ],
+          "edge": 117
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "3",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 338,
+              "edge": 118,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-3",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 339,
+              "edge": 118,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 118
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "3",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 340,
+              "edge": 119,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-3",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 341,
+              "edge": 119,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 119
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "3",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 342,
+              "edge": 120,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-3",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 343,
+              "edge": 120,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 120
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "0",
+                "-3",
+                "1"
+              ],
+              "coefficient": -5,
+              "coordinate": 344,
+              "edge": 121,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": -60,
+              "coordinate": 345,
+              "edge": 121,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 121
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "3",
+                "0",
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 346,
+              "edge": 122,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            },
+            {
+              "basis_vector": [
+                "-3",
+                "1",
+                "0"
+              ],
+              "coefficient": 1,
+              "coordinate": 347,
+              "edge": 122,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 1
+            }
+          ],
+          "edge": 122
+        }
+      ],
+      "tau_edge_orbit_support_count": 28
+    },
+    "Binet": {
+      "H0_mod2_source_support": [
+        {
+          "i": 0,
+          "value": "1"
+        },
+        {
+          "i": 1,
+          "value": "1"
+        },
+        {
+          "i": 2,
+          "value": "1"
+        },
+        {
+          "i": 3,
+          "value": "1"
+        },
+        {
+          "i": 4,
+          "value": "1"
+        },
+        {
+          "i": 5,
+          "value": "1"
+        },
+        {
+          "i": 6,
+          "value": "1"
+        },
+        {
+          "i": 7,
+          "value": "1"
+        },
+        {
+          "i": 8,
+          "value": "1"
+        },
+        {
+          "i": 9,
+          "value": "1"
+        },
+        {
+          "i": 10,
+          "value": "1"
+        },
+        {
+          "i": 11,
+          "value": "1"
+        },
+        {
+          "i": 12,
+          "value": "1"
+        },
+        {
+          "i": 13,
+          "value": "1"
+        },
+        {
+          "i": 14,
+          "value": "1"
+        },
+        {
+          "i": 15,
+          "value": "1"
+        },
+        {
+          "i": 16,
+          "value": "1"
+        },
+        {
+          "i": 17,
+          "value": "1"
+        },
+        {
+          "i": 18,
+          "value": "1"
+        },
+        {
+          "i": 19,
+          "value": "1"
+        },
+        {
+          "i": 20,
+          "value": "1"
+        },
+        {
+          "i": 21,
+          "value": "1"
+        },
+        {
+          "i": 22,
+          "value": "1"
+        },
+        {
+          "i": 23,
+          "value": "1"
+        },
+        {
+          "i": 24,
+          "value": "1"
+        },
+        {
+          "i": 25,
+          "value": "1"
+        },
+        {
+          "i": 26,
+          "value": "1"
+        },
+        {
+          "i": 27,
+          "value": "1"
+        },
+        {
+          "i": 28,
+          "value": "1"
+        },
+        {
+          "i": 29,
+          "value": "1"
+        },
+        {
+          "i": 30,
+          "value": "1"
+        },
+        {
+          "i": 31,
+          "value": "1"
+        },
+        {
+          "i": 32,
+          "value": "1"
+        },
+        {
+          "i": 33,
+          "value": "1"
+        },
+        {
+          "i": 34,
+          "value": "1"
+        },
+        {
+          "i": 35,
+          "value": "1"
+        },
+        {
+          "i": 36,
+          "value": "1"
+        },
+        {
+          "i": 37,
+          "value": "1"
+        },
+        {
+          "i": 38,
+          "value": "1"
+        },
+        {
+          "i": 39,
+          "value": "1"
+        },
+        {
+          "i": 40,
+          "value": "1"
+        },
+        {
+          "i": 41,
+          "value": "1"
+        },
+        {
+          "i": 42,
+          "value": "1"
+        },
+        {
+          "i": 43,
+          "value": "1"
+        },
+        {
+          "i": 44,
+          "value": "1"
+        },
+        {
+          "i": 45,
+          "value": "1"
+        },
+        {
+          "i": 46,
+          "value": "1"
+        },
+        {
+          "i": 47,
+          "value": "1"
+        },
+        {
+          "i": 48,
+          "value": "1"
+        },
+        {
+          "i": 49,
+          "value": "1"
+        },
+        {
+          "i": 50,
+          "value": "1"
+        },
+        {
+          "i": 51,
+          "value": "1"
+        },
+        {
+          "i": 52,
+          "value": "1"
+        },
+        {
+          "i": 53,
+          "value": "1"
+        },
+        {
+          "i": 54,
+          "value": "1"
+        },
+        {
+          "i": 55,
+          "value": "1"
+        },
+        {
+          "i": 56,
+          "value": "1"
+        },
+        {
+          "i": 57,
+          "value": "1"
+        },
+        {
+          "i": 58,
+          "value": "1"
+        },
+        {
+          "i": 59,
+          "value": "1"
+        },
+        {
+          "i": 60,
+          "value": "1"
+        },
+        {
+          "i": 61,
+          "value": "1"
+        }
+      ],
+      "H1_order2": "Z/2",
+      "V48_boundary_pairing": "ZERO_BY_COCYCLE_CONDITION",
+      "V48_d1_pairing_values": [
+        0
+      ],
+      "V48_link_edges": [
+        91,
+        92,
+        105,
+        106,
+        105,
+        92
+      ],
+      "V48_link_support_count": 1,
+      "V48_link_supported_edges": [
+        105
+      ],
+      "beta0_statement": "beta_0([z mod 2])=[d0 z / 2]=[tau] is the unique H1 order-2 class",
+      "bockstein_checks": {
+        "d0z_even": true,
+        "d1tau_zero": true,
+        "tau_equals_half_d0z": true
+      },
+      "tau_C1_coordinate_support": [
+        {
+          "i": 6,
+          "value": "1"
+        },
+        {
+          "i": 9,
+          "value": "1"
+        },
+        {
+          "i": 26,
+          "value": "1"
+        },
+        {
+          "i": 28,
+          "value": "1"
+        },
+        {
+          "i": 33,
+          "value": "1"
+        },
+        {
+          "i": 36,
+          "value": "1"
+        },
+        {
+          "i": 38,
+          "value": "1"
+        },
+        {
+          "i": 47,
+          "value": "1"
+        },
+        {
+          "i": 53,
+          "value": "1"
+        },
+        {
+          "i": 55,
+          "value": "1"
+        },
+        {
+          "i": 66,
+          "value": "1"
+        },
+        {
+          "i": 69,
+          "value": "1"
+        },
+        {
+          "i": 74,
+          "value": "1"
+        },
+        {
+          "i": 75,
+          "value": "1"
+        },
+        {
+          "i": 84,
+          "value": "1"
+        },
+        {
+          "i": 86,
+          "value": "1"
+        },
+        {
+          "i": 89,
+          "value": "1"
+        },
+        {
+          "i": 91,
+          "value": "1"
+        },
+        {
+          "i": 92,
+          "value": "1"
+        },
+        {
+          "i": 93,
+          "value": "1"
+        },
+        {
+          "i": 94,
+          "value": "1"
+        },
+        {
+          "i": 98,
+          "value": "1"
+        },
+        {
+          "i": 101,
+          "value": "1"
+        },
+        {
+          "i": 102,
+          "value": "1"
+        },
+        {
+          "i": 103,
+          "value": "1"
+        },
+        {
+          "i": 104,
+          "value": "1"
+        },
+        {
+          "i": 105,
+          "value": "1"
+        },
+        {
+          "i": 106,
+          "value": "1"
+        }
+      ],
+      "tau_edge_orbit_support": [
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 6,
+              "edge": 8,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 8
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 9,
+              "edge": 11,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 11
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 26,
+              "edge": 30,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 30
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 28,
+              "edge": 32,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 32
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 33,
+              "edge": 38,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 38
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 36,
+              "edge": 43,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 43
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 38,
+              "edge": 45,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 45
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 47,
+              "edge": 54,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 54
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 53,
+              "edge": 60,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 60
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 55,
+              "edge": 63,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 63
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 66,
+              "edge": 76,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 76
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 69,
+              "edge": 79,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 79
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 74,
+              "edge": 85,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 85
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 75,
+              "edge": 86,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 86
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 84,
+              "edge": 95,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 95
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 86,
+              "edge": 97,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 97
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 89,
+              "edge": 100,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 100
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 91,
+              "edge": 102,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 102
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 92,
+              "edge": 103,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 103
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 93,
+              "edge": 104,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 104
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 94,
+              "edge": 105,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 105
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 98,
+              "edge": 113,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 113
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 101,
+              "edge": 117,
+              "edge_kind": "ORDINARY-CROSSING",
+              "local_index": 0
+            }
+          ],
+          "edge": 117
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 102,
+              "edge": 118,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 118
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 103,
+              "edge": 119,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 119
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 104,
+              "edge": 120,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 120
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 105,
+              "edge": 121,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 121
+        },
+        {
+          "coordinates": [
+            {
+              "basis_vector": [
+                "1"
+              ],
+              "coefficient": 1,
+              "coordinate": 106,
+              "edge": 122,
+              "edge_kind": "DECK-MIRROR-ISOTROPY",
+              "local_index": 0
+            }
+          ],
+          "edge": 122
+        }
+      ],
+      "tau_edge_orbit_support_count": 28
+    }
+  },
+  "version": "v51"
+}

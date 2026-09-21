@@ -1,0 +1,280 @@
+{
+  "axes": [
+    {
+      "det": -1,
+      "id": "HAX0",
+      "matrix_on_v": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "projective_involution": true
+    },
+    {
+      "det": -1,
+      "id": "HAX1",
+      "matrix_on_v": [
+        [
+          3,
+          0,
+          -2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          -3
+        ]
+      ],
+      "projective_involution": true
+    },
+    {
+      "det": -1,
+      "id": "HAX2",
+      "matrix_on_v": [
+        [
+          13,
+          24,
+          -6
+        ],
+        [
+          -4,
+          -7,
+          2
+        ],
+        [
+          12,
+          24,
+          -5
+        ]
+      ],
+      "projective_involution": true
+    },
+    {
+      "det": 1,
+      "id": "HAX3",
+      "matrix_on_v": [
+        [
+          -8,
+          -21,
+          0
+        ],
+        [
+          3,
+          8,
+          0
+        ],
+        [
+          -2,
+          -6,
+          -1
+        ]
+      ],
+      "projective_involution": true
+    },
+    {
+      "det": 1,
+      "id": "HAX4",
+      "matrix_on_v": [
+        [
+          -4,
+          -9,
+          -3
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          6,
+          1
+        ]
+      ],
+      "projective_involution": true
+    },
+    {
+      "det": -1,
+      "id": "HAX5",
+      "matrix_on_v": [
+        [
+          5,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -4,
+          0,
+          -5
+        ]
+      ],
+      "projective_involution": true
+    }
+  ],
+  "centres": [
+    {
+      "common_projective_eigenvalues": [
+        1,
+        1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX0",
+        "HAX1"
+      ],
+      "id": "HC0",
+      "product_eigenvalue": 1,
+      "projective_point_v": [
+        "1",
+        "0",
+        "1"
+      ],
+      "q": "1",
+      "r": "0",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    },
+    {
+      "common_projective_eigenvalues": [
+        1,
+        1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX1",
+        "HAX2"
+      ],
+      "id": "HC1",
+      "product_eigenvalue": 1,
+      "projective_point_v": [
+        "1",
+        "-1/4",
+        "1"
+      ],
+      "q": "1",
+      "r": "1/4",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    },
+    {
+      "common_projective_eigenvalues": [
+        1,
+        -1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX2",
+        "HAX3"
+      ],
+      "id": "HC2",
+      "product_eigenvalue": -1,
+      "projective_point_v": [
+        "1",
+        "-1/3",
+        "2/3"
+      ],
+      "q": "2/3",
+      "r": "1/3",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    },
+    {
+      "common_projective_eigenvalues": [
+        -1,
+        -1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX3",
+        "HAX4"
+      ],
+      "id": "HC3",
+      "product_eigenvalue": 1,
+      "projective_point_v": [
+        "1",
+        "-1/3",
+        "0"
+      ],
+      "q": "0",
+      "r": "1/3",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    },
+    {
+      "common_projective_eigenvalues": [
+        -1,
+        1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX4",
+        "HAX5"
+      ],
+      "id": "HC4",
+      "product_eigenvalue": -1,
+      "projective_point_v": [
+        "1",
+        "-1/9",
+        "-2/3"
+      ],
+      "q": "-2/3",
+      "r": "1/9",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    },
+    {
+      "common_projective_eigenvalues": [
+        1,
+        1
+      ],
+      "four_sector_interpretation": "PROVEN-SOURCE-PROJECTIVE-STABILIZER",
+      "generator_commute": true,
+      "generators": [
+        "HAX5",
+        "HAX0"
+      ],
+      "id": "HC5",
+      "product_eigenvalue": 1,
+      "projective_point_v": [
+        "1",
+        "0",
+        "-2/3"
+      ],
+      "q": "-2/3",
+      "r": "0",
+      "stabilizer_abstract": "C2 x C2",
+      "stabilizer_order": 4
+    }
+  ],
+  "decision": "EACH_HC_i_HAS_EXACT_PROJECTIVE_V4_STABILIZER_GENERATED_BY_THE_TWO_ADJACENT_HAX_INVOLUTIONS",
+  "guard": "This certifies the source-coordinate fourfold-centre semantics. It still does not assign HC_i/HAX_i to raster coordinates/curves.",
+  "status": "PROVEN-SOURCE-SIX-FOURFOLD-STABILIZERS",
+  "version": "v51"
+}

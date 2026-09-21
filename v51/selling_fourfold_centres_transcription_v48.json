@@ -1,0 +1,35 @@
+{
+  "version": "v48",
+  "primary_source": "Selling 1877, second part, Fig.1/Tafel III; source states six intersections of the six indicated symmetry axes are fourfold symmetry centres, with right-angle marks indicating the fourfold symmetry.",
+  "source_exact_constraints": [
+    "exactly six indicated axis intersections are fourfold centres",
+    "right-angle marks encode the fourfold symmetry",
+    "dotted lines in Fig.1 denote symmetry axes",
+    "boundary letters denote the variable quantity vanishing on that boundary",
+    "the external-boundary transformation semantics P,Q,R,S must be attached before promotion of a historical curve/reflection"
+  ],
+  "source_raster": "selling_fig1_full_600.png / Tafel-III-fig1.jpg with v38 registration",
+  "attempt": "Direct inspection plus machine-readable vector tables was used to seek six individually addressable right-angle/fourfold-centre markers. No coordinate was promoted from visual impression alone.",
+  "diagnostic_node_table": {
+    "total_nodes": 136,
+    "solid_degree4_count": 2,
+    "solid_degree4_nodes": [
+      {
+        "node_id": "N022",
+        "x_px300": "1408.974",
+        "y_px300": "849.053",
+        "status": "NT_SOURCE_GEOMETRIC_MATCHING"
+      },
+      {
+        "node_id": "N109",
+        "x_px300": "655.789",
+        "y_px300": "2028.0",
+        "status": "NT_SOURCE_GEOMETRIC_MATCHING"
+      }
+    ]
+  },
+  "promoted_historical_centres": [],
+  "reason_for_nonpromotion": "The current vectorization exposes only two degree-4 solid diagnostic nodes, while the source requires six special centres and explicitly allows a curved/folded representation of the symmetry axes. The source text fixes count/type but does not provide a machine-readable unique mapping from six right-angle marks to present node IDs. A visual-only selection would violate the provenance gate.",
+  "status": "NT/PENDING-DIRECT-SOURCE-TRANSCRIPTION",
+  "guard": "Absence of a unique current raster binding is not a non-existence statement about the six historical centres."
+}

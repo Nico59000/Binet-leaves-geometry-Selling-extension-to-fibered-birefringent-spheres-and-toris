@@ -1,0 +1,76 @@
+{
+  "best": {
+    "heldout_max_px300": 12.358905835071846,
+    "heldout_rms_px300": 9.734549316345873,
+    "indices": [
+      6,
+      7,
+      10,
+      12,
+      13,
+      14
+    ],
+    "nodes": [
+      "N088",
+      "N105",
+      "N099",
+      "N103",
+      "N106",
+      "N109"
+    ],
+    "normalized_rms_by_cycle_bbox_diagonal": 0.010408447323508936,
+    "reversed": false,
+    "source_cyclic_shift": 3
+  },
+  "candidate_count": 96096,
+  "decision": "DIAGNOSTIC-ONLY/NO-HISTORICAL-PROMOTION",
+  "guard": "Selling explicitly permits a bent/curved representation of the symmetry axes. A global homography on the reinforced 16-cycle is not a source invariant; this test can neither certify nor refute the historical HC/HAX binding.",
+  "model": "necessary six-point global homography test; first four ordered source centres determine H, last two are held out",
+  "raster_cycle_order": [
+    "N054",
+    "N059",
+    "N066",
+    "N069",
+    "N072",
+    "N073",
+    "N088",
+    "N105",
+    "N104",
+    "N100",
+    "N099",
+    "N098",
+    "N103",
+    "N106",
+    "N109",
+    "N070"
+  ],
+  "second_best_normalized_rms": 0.01148526019635244,
+  "source_centres": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.25
+    ],
+    [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    [
+      0.0,
+      0.3333333333333333
+    ],
+    [
+      -0.6666666666666666,
+      0.1111111111111111
+    ],
+    [
+      -0.6666666666666666,
+      0.0
+    ]
+  ],
+  "status": "PROVEN-DIAGNOSTIC-PROJECTIVE-BOLD-CYCLE-AUDIT",
+  "version": "v51"
+}
