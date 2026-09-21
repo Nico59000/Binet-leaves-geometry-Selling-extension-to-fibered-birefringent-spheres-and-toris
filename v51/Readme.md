@@ -1,3 +1,3 @@
-Posting files within a few minutes for v51 and v52. 
+Posting files within a few minutes for v51 and v52 , v53 just started. 
 
 Infos : the research on compatibility invariants for Eduard Selling methodology applied to Emmy Noether work on ternary bi-quadratic forms started, aside that new approach, the generic for all seeds graphic generator for Selling complex topology geometry independent lineage project gives clues on 3D materialization due to $$V_4$$ tridimensionnality in modulo $$V_4\times S_4\times\{\pm1\}.$$ , the new repository will be created today or tomorrow (current state v0.4).
