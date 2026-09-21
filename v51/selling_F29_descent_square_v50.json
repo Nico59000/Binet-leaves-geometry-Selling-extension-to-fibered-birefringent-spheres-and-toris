@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "arrow_square_commutes": true,
+    "base_arrow_deck_witnesses_recovered": true,
+    "base_link_V4_holonomies_recovered": true,
+    "cover_arrow_orbits": 123,
+    "cover_based_2relation_orbits": 62,
+    "cover_object_orbits": 62,
+    "lower_stack_target_status_preserved": "PROVEN-OBJECT/ARROW/LINK-COMPATIBLE-MOD2",
+    "object_square_commutes": true,
+    "target_object_orbits": 42,
+    "upper_functor_strict_objects_arrows_2relations": true
+  },
+  "cohomology_gate": "NOT OPENED AUTOMATICALLY: the descent square is now closed, but Binet/Ad local systems must be pulled to the cover and descended back equivariantly before historical H1/H2 are computed.",
+  "interpretation": "The upper strict functor is a V4-equivariant lift of the lower stacky comparison. For nontrivial orbifold links, quotienting an order-two doubled lifted disk recovers the base orbifold 2-relation with the recorded V4 isotropy.",
+  "nontrivial_base_links": [
+    {
+      "based_lifts": 4,
+      "geometric_lifts": 2,
+      "holonomy": "TU",
+      "lift_order": 2,
+      "vertex": 48
+    },
+    {
+      "based_lifts": 4,
+      "geometric_lifts": 2,
+      "holonomy": "T",
+      "lift_order": 2,
+      "vertex": 59
+    },
+    {
+      "based_lifts": 4,
+      "geometric_lifts": 2,
+      "holonomy": "U",
+      "lift_order": 2,
+      "vertex": 61
+    }
+  ],
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "square": {
+    "left": "/V4",
+    "lower": "G_Sell_field -> [F29_can/V4]",
+    "right": "left /V4",
+    "upper": "tilde_G_Sell_field -> F29_can"
+  },
+  "status": "PASS-DESCENT-SQUARE-OBJECT/ARROW/2RELATION",
+  "version": "v50"
+}

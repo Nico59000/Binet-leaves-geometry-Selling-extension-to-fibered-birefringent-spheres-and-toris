@@ -1,0 +1,16 @@
+{
+  "guard": "This solves only the 96 original residual coordinates. The selected correction generally creates side residuals outside this coordinate set and is not yet a full group-ring cycle.",
+  "matrix_shape": [
+    96,
+    637
+  ],
+  "one_rational_solution_common_denominator": 1,
+  "one_rational_solution_nonzero_directions": 4,
+  "rank_Q": 64,
+  "rank_aug_Q": 64,
+  "residual_projection_has_integral_solution": true,
+  "smith_nonunit_factors": [],
+  "smith_nonzero_count": 64,
+  "status": "PROVEN-EXACT-RESIDUAL-PROJECTION-LATTICE",
+  "version": "v51"
+}

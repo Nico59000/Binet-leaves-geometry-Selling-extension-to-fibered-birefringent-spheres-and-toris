@@ -1,0 +1,899 @@
+{
+  "version": "v50",
+  "records": [
+    {
+      "field": 0,
+      "wall": "g",
+      "poly": "-120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "21896/634201",
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-10313106575/69640965264",
+              "r_interval": [
+                "0",
+                "0"
+              ],
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.11593198776245117
+    },
+    {
+      "field": 1,
+      "wall": "g",
+      "poly": "120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "21896/634201",
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-10313106575/69640965264",
+              "r_interval": [
+                "0",
+                "0"
+              ],
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.08597469329833984
+    },
+    {
+      "field": 7,
+      "wall": "m",
+      "poly": "-120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "634936085221/5582208091894",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": 0,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.12774968147277832
+    },
+    {
+      "field": 8,
+      "wall": "l",
+      "poly": "-120*r*(2*q + 1)",
+      "factors": [
+        {
+          "factor": "r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-9915840943/19192616190",
+              "r_interval": [
+                "0",
+                "0"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": 0
+              }
+            }
+          ]
+        },
+        {
+          "factor": "2*q + 1",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "-1/2",
+              "r": "85680/2233601",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.12801408767700195
+    },
+    {
+      "field": 9,
+      "wall": "m",
+      "poly": "120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "634936085221/5582208091894",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": 0,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.11077761650085449
+    },
+    {
+      "field": 12,
+      "wall": "n",
+      "poly": "-120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "4531625303/29170278484",
+              "r_interval": [
+                "220183/1417328",
+                "275882/1775865"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": 0
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.2554757595062256
+    },
+    {
+      "field": 13,
+      "wall": "k",
+      "poly": "120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "4531625303/29170278484",
+              "r_interval": [
+                "220183/1417328",
+                "275882/1775865"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.20840835571289062
+    },
+    {
+      "field": 14,
+      "wall": "l",
+      "poly": "120*r*(2*q + 1)",
+      "factors": [
+        {
+          "factor": "r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-9915840943/19192616190",
+              "r_interval": [
+                "0",
+                "0"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": 0
+              }
+            }
+          ]
+        },
+        {
+          "factor": "2*q + 1",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "-1/2",
+              "r": "85680/2233601",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.11019706726074219
+    },
+    {
+      "field": 23,
+      "wall": "k",
+      "poly": "-120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "3300419/15527670",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.17145299911499023
+    },
+    {
+      "field": 26,
+      "wall": "l",
+      "poly": "-120*r*(2*q + 1)",
+      "factors": [
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "2*q + 1",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "-1/2",
+              "r": "464982055887/5333288024284",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.15825772285461426
+    },
+    {
+      "field": 28,
+      "wall": "k",
+      "poly": "120*q*r",
+      "factors": [
+        {
+          "factor": "q",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "0",
+              "r": "3300419/15527670",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.16310548782348633
+    },
+    {
+      "field": 31,
+      "wall": "g",
+      "poly": "120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "11865191711/49054537120",
+              "r_interval": [
+                "291089/1203456",
+                "360258/1489423"
+              ],
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.256763219833374
+    },
+    {
+      "field": 33,
+      "wall": "m",
+      "poly": "-120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "11865191711/49054537120",
+              "r_interval": [
+                "291089/1203456",
+                "360258/1489423"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": 0,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.24226999282836914
+    },
+    {
+      "field": 34,
+      "wall": "g",
+      "poly": "120*(3*r - 1)*(q - 3*r + 1)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - 3*r + 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-21017353207/115664236941",
+              "r_interval": [
+                "477401/1750239",
+                "625299/2292460"
+              ],
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.2982511520385742
+    },
+    {
+      "field": 36,
+      "wall": "l",
+      "poly": "120*r*(2*q + 1)",
+      "factors": [
+        {
+          "factor": "r",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "2*q + 1",
+          "valid": true,
+          "method": "vertical",
+          "samples": [
+            {
+              "q": "-1/2",
+              "r": "464982055887/5333288024284",
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": 0,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.15387701988220215
+    },
+    {
+      "field": 39,
+      "wall": "h",
+      "poly": "120*(3*r - 1)*(q - 3*r + 1)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - 3*r + 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-36639298723/111587560728",
+              "r_interval": [
+                "135727/606236",
+                "441715/1972957"
+              ],
+              "signs": {
+                "g": -1,
+                "h": 0,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.29519176483154297
+    },
+    {
+      "field": 44,
+      "wall": "g",
+      "poly": "120*(3*r - 1)*(q - 3*r + 1)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "65761/316260",
+              "r_interval": [
+                "1/3",
+                "1/3"
+              ],
+              "signs": {
+                "g": 0,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "q - 3*r + 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.28000354766845703
+    },
+    {
+      "field": 51,
+      "wall": "k",
+      "poly": "-120*(3*r - 1)*(q + 4*r - 2)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "733381/1735026",
+              "r_interval": [
+                "1/3",
+                "1/3"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "q + 4*r - 2",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        }
+      ],
+      "seconds": 0.26845502853393555
+    },
+    {
+      "field": 51,
+      "wall": "n",
+      "poly": "120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "226723/701082",
+              "r_interval": [
+                "226723/701082",
+                "226723/701082"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": 0
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.24540925025939941
+    },
+    {
+      "field": 53,
+      "wall": "k",
+      "poly": "-120*(5*r - 2)*(q + 2*r - 1)",
+      "factors": [
+        {
+          "factor": "5*r - 2",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q + 2*r - 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "52891/165644",
+              "r_interval": [
+                "112753/331288",
+                "112753/331288"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.2336885929107666
+    },
+    {
+      "field": 53,
+      "wall": "n",
+      "poly": "-120*(q - r)*(2*r - 1)",
+      "factors": [
+        {
+          "factor": "2*r - 1",
+          "valid": false,
+          "method": "sample",
+          "samples": []
+        },
+        {
+          "factor": "q - r",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "226723/701082",
+              "r_interval": [
+                "226723/701082",
+                "226723/701082"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": -1,
+                "n": 0
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.21877765655517578
+    },
+    {
+      "field": 55,
+      "wall": "m",
+      "poly": "120*(3*r - 1)*(q - 3*r + 1)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "861944041/47167302536",
+              "r_interval": [
+                "1/3",
+                "1/3"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": 0,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "q - 3*r + 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "-12956216/3117478365",
+              "r_interval": [
+                "76837/231473",
+                "2092091/6302466"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": -1,
+                "l": -1,
+                "m": 0,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.2620394229888916
+    },
+    {
+      "field": 61,
+      "wall": "k",
+      "poly": "-120*(3*r - 1)*(q + 4*r - 2)",
+      "factors": [
+        {
+          "factor": "3*r - 1",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "974425/1653366",
+              "r_interval": [
+                "1/3",
+                "1/3"
+              ],
+              "signs": {
+                "g": -1,
+                "h": -1,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        },
+        {
+          "factor": "q + 4*r - 2",
+          "valid": true,
+          "method": "sample",
+          "samples": [
+            {
+              "q": "61528055717/91961061800",
+              "r_interval": [
+                "607678/1826321",
+                "582905/1751868"
+              ],
+              "signs": {
+                "g": -1,
+                "h": 0,
+                "k": 0,
+                "l": -1,
+                "m": -1,
+                "n": -1
+              }
+            }
+          ]
+        }
+      ],
+      "seconds": 0.23810267448425293
+    }
+  ]
+}

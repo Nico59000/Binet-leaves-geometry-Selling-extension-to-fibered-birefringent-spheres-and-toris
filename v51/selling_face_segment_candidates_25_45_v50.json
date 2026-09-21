@@ -1,0 +1,2334 @@
+{
+  "version": "v50",
+  "faces": [
+    {
+      "field": 25,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.5932709342930326,
+          "r": 0.04623192538345625,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 26,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            0
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 27,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 28,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.26666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            1,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 29,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "q - 1"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.6824853231703447,
+          "r": 0.10245651936332449,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.04257289224366189,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            3,
+            1
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 30,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.6824853231703447,
+          "r": 0.10245651936332449,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 31,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q - r"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            1,
+            0
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            1,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 32,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 33,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "q - r"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 34,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q - 3*r + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.0388647611495759,
+          "r": 0.32037841295014136,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.26666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            2,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 35,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "n"
+          ],
+          "factor": "3*q + 2"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.596724809389236,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.06116780635742466,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            3,
+            2
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            3,
+            1
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 36,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 + 30*q*r + 34*q - 120*r**2 + 60*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.6026598780114043,
+          "r": 0.10128761263161226,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            1,
+            4
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            2,
+            4
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            4,
+            0
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            1,
+            2
+          ]
+        },
+        {
+          "component": 4,
+          "v": [
+            3,
+            4
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 37,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "23*q**2 + 30*q*r + 34*q - 120*r**2 + 60*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            2,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 38,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.3413666423504889,
+          "r": 0.2222222222222222,
+          "ideal": false,
+          "components": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.5357606631105214,
+          "r": 0.18051983405134997,
+          "ideal": false,
+          "components": [
+            2,
+            4
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            2,
+            4
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            0,
+            3
+          ]
+        },
+        {
+          "component": 4,
+          "v": [
+            1,
+            4
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 39,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "q - 3*r + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.3321361331555546,
+          "r": 0.22262128894814848,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            2,
+            0
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 40,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 40*q*r - 4*q - 60*r**2 + 80*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "k",
+            "l"
+          ],
+          "factor": "q - 1"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.617565930421439,
+          "r": 0.17386547296839822,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.16666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            3,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 41,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            2,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            1,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 42,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 43,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.617565930421439,
+          "r": 0.17386547296839822,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            0,
+            1
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            2
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2
+      ],
+      "cycle_candidate_ok": true
+    },
+    {
+      "field": 44,
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "3*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "vertices": [
+        {
+          "q": 0.2857142857142857,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.1301524062229291,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "factor_vertices": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "component": 0,
+          "v": [
+            1,
+            0
+          ]
+        },
+        {
+          "component": 1,
+          "v": [
+            0,
+            2
+          ]
+        },
+        {
+          "component": 2,
+          "v": [
+            1,
+            3
+          ]
+        },
+        {
+          "component": 3,
+          "v": [
+            2,
+            3
+          ]
+        }
+      ],
+      "covered_components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cycle_candidate_ok": true
+    }
+  ],
+  "anomalies": []
+}
