@@ -1,0 +1,123 @@
+{
+  "figure": "Fig6",
+  "lower_fan": "The solid boundaries of REG11 and REG19 and the right branch adjacent to A8 remain noncrossing and converge into the lower cusp in the raster; their cyclic order is the planar order induced by REG11 then REG19 then the A8/R13 side when read left-to-right.",
+  "lower_left_cell_order": [
+    "A12=(1,-4,-12)/(1,0,0)",
+    "left-2/15-upper",
+    "left-2/15-lower",
+    "REG11",
+    "A78=(1,-7,8)/(3,0,0)",
+    "REG19",
+    "R13=3/13"
+  ],
+  "phase": "next-immediate-gate",
+  "principal_longitudinal_family": {
+    "labels": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "order_convention": "left-to-right on clean horizontal transversals; no interchange/crossing is visible between successive transversals",
+    "strand_count": 5,
+    "strict_order": "L0 < L1 < L2 < L3 < L4",
+    "transversals": [
+      {
+        "id": "T0",
+        "order": [
+          "L0",
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "ordered_x_px": [
+          1000.0,
+          1013.5,
+          1032.5,
+          1042.5,
+          1064.5
+        ],
+        "y_px_ext": 500
+      },
+      {
+        "id": "T1",
+        "order": [
+          "L0",
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "ordered_x_px": [
+          1032.5,
+          1046.0,
+          1058.5,
+          1075.0,
+          1106.5
+        ],
+        "y_px_ext": 800
+      },
+      {
+        "id": "T2",
+        "order": [
+          "L0",
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "ordered_x_px": [
+          1041.0,
+          1055.5,
+          1074.0,
+          1099.0,
+          1125.5
+        ],
+        "y_px_ext": 1100
+      },
+      {
+        "id": "T3",
+        "order": [
+          "L0",
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "ordered_x_px": [
+          1061.5,
+          1098.5,
+          1139.0,
+          1182.0,
+          1236.0
+        ],
+        "y_px_ext": 1550
+      }
+    ]
+  },
+  "right_anchor_chain_order": [
+    "A47=(1,-1,47)/(0,0,0)",
+    "R11a=1/11",
+    "R11b=2/11",
+    "A24=(1,2,-24)/(1,0,0)",
+    "R15a=1/15",
+    "A16=(1,-3,-16)/(1,0,0)",
+    "REG10",
+    "9/5",
+    "3/5",
+    "3/15",
+    "A8=(1,-6,-8)/(1,0,0)",
+    "lower-3/15"
+  ],
+  "scope_guard": "This closes the visible planar nesting/order needed by the Fig6 local compiler. It does not identify these raster strands with Fig1 edges or with P/Q/R/S transformations, and it does not infer GL(3) semantics from the drawing.",
+  "source": "Fig6_ext.png direct source-raster enlargement from LOG_0016; no OCR",
+  "status": "PASS-DIRECT-RASTER-PLANAR-NESTING-ORDER",
+  "tuple_supersession": {
+    "previous_checkpoint": "(1,-7,-8)/(3,0,0)",
+    "reason": "native/high-resolution crop shows no minus sign before the final 8",
+    "source-direct-correction": "(1,-7,8)/(3,0,0)"
+  },
+  "version": "v52"
+}

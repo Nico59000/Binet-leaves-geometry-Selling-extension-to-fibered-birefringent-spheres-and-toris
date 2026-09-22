@@ -1,0 +1,41 @@
+{
+  "version": "v49",
+  "generated_during_final_seal": true,
+  "status": "PROVEN-SOURCE-CONSTRUCTIVE-METHOD / EXECUTABLE-CORE-PROVEN",
+  "historical_rules": [
+    "Qplus=2 vv^T-Qf in the marked chart",
+    "reduced iff all six conorms p_ij are nonnegative",
+    "field walls are p_ij=0 / homogeneous-coefficient zeros",
+    "each wall has exactly two marked adjacent Selling moves",
+    "branch choice remains source-local and is not inferred from raster morphology",
+    "development terminates only modulo an explicitly detected numerical repetition"
+  ],
+  "wall_to_moves": {
+    "p01": [
+      "S3",
+      "S6"
+    ],
+    "p02": [
+      "S5",
+      "S12"
+    ],
+    "p03": [
+      "S4",
+      "S10"
+    ],
+    "p12": [
+      "S1",
+      "S7"
+    ],
+    "p13": [
+      "S2",
+      "S8"
+    ],
+    "p23": [
+      "S9",
+      "S11"
+    ]
+  },
+  "selftest": "PASS_29_OF_29",
+  "full_fig1_compile": "NT"
+}

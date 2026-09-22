@@ -1,0 +1,151 @@
+{
+  "append_only_promotion": "This v53 certificate does not rewrite v52. It independently replays and strengthens an earlier unmerged mod-8 branch.",
+  "artifacts": {
+    "gamma3_b5_mod8_packed.bin": {
+      "bytes": 88960,
+      "sha256": "3c57a73cccd5720fc5e3d122cdb80395c2a805f9323d740f1bbe66b64e82a159"
+    },
+    "gamma3_fox_mod8_terms.txt": {
+      "bytes": 2413,
+      "sha256": "c6a0005a79c68ee9d1794bf3a56aa4f0c44b8ecf03df60d6d694dcfdf0a41e3b"
+    },
+    "gamma3_radius5_mod8_core.bin": {
+      "bytes": 15828596,
+      "sha256": "260ce4b5e0c09f0db2d338bc8d1173f8231b695d957a608eb63fe70c643c84c4"
+    },
+    "gamma3_radius5_mod8_core_solution_v53.bin": {
+      "bytes": 554559,
+      "sha256": "c092083be365b042463076df0780198d81ef86ed74319e9274421c9dcbccff44"
+    },
+    "gamma3_radius5_mod8_deg100_core_replay_v53.bin": {
+      "bytes": 16766084,
+      "sha256": "bedc67b36e5e5efd10eb0e6ecfc8add91b55cd610e887cdc2db557c139f13627"
+    },
+    "gamma3_radius5_mod8_pivots_replay_v53.bin": {
+      "bytes": 6492944,
+      "sha256": "0b1048c4d2d1ed8015d7e1f1efe6d1ddc498a811a576c683ab38daed3953a96d"
+    },
+    "gamma3_radius5_mod8_raw_dual_solution_v53.bin": {
+      "bytes": 747200,
+      "sha256": "1674a69d25c349e036701a9a01c057ca9bc3ea7b72e916dac03f62f773f48bf6"
+    },
+    "gamma3_radius5_mod8_residual_map_v53.bin": {
+      "bytes": 1657116,
+      "sha256": "656a401e930e0e89ddf0288fedf9bd73c930ccb2ae12e1cd768273a0e8e1e949"
+    },
+    "replay_raw_peel_exact_v53.cpp": {
+      "bytes": 4878,
+      "sha256": "9bbbd8055eb11bf51963f853f76ee50cfb8ca02d9dcccf75f04b53386e764e2a"
+    },
+    "solve_backsub_pair_v53.cpp": {
+      "bytes": 4648,
+      "sha256": "f634c45556243c41bfdbe35f7e394948174b13c49d764318f3e0a2de2efd2834"
+    },
+    "sparse_solve_core_v53.cpp": {
+      "bytes": 5732,
+      "sha256": "aa09abb0833c38842ec65d53b0eab525bc174e1c9db8a164f387fd90fc8bd662"
+    },
+    "verify_raw_dual_solution_v53.cpp": {
+      "bytes": 4102,
+      "sha256": "c9848156e36ab4473fb982a52100598709c0057d12036f8f2f6b1a5e5c7f64cf"
+    }
+  },
+  "back_substitution": {
+    "core_verification_failures": 0,
+    "leaf_pivots": 99368,
+    "pair_variables": 414278,
+    "raw_solution_weight": 121219,
+    "raw_verification_failures": 0,
+    "sparse_pivots": 318200
+  },
+  "checks": {
+    "all_target_translates_checked": true,
+    "archived_branch_typed_as_unmerged_pre_v52": true,
+    "archived_core_byte_reproduced": true,
+    "core_backsub_exact": true,
+    "degree1_peeling_exact": true,
+    "pair_reduction_exact": true,
+    "radius6_unopened": true,
+    "raw_backsub_exact": true,
+    "raw_counts_exact": true,
+    "residual_solution_exact": true,
+    "sparse_elimination_no_contradiction": true,
+    "two_core_fixed_point": true
+  },
+  "decision": "PASS",
+  "degree_one_peeling": {
+    "archived_core_byte_identity": true,
+    "core_equations": 856952,
+    "core_incidence": 3528672,
+    "core_rhs_one": 44,
+    "core_sha256": "260ce4b5e0c09f0db2d338bc8d1173f8231b695d957a608eb63fe70c643c84c4",
+    "core_variables": 465651,
+    "max_active_degree": 22,
+    "min_active_degree": 2,
+    "peeled_rows": 99368
+  },
+  "independent_sparse_elimination": {
+    "eliminated_pivots": 318200,
+    "max_generated_row_weight": 404,
+    "max_residual_degree": 587,
+    "min_residual_degree": 101,
+    "note": "This independent reduction is not required to match the older 22374-variable reduction; exact row operations preserve solvability.",
+    "residual_equations": 206256,
+    "residual_incidence": 4036828,
+    "residual_rhs_one": 44,
+    "residual_variables": 20653,
+    "threshold": 100,
+    "xor_operations": 3029607
+  },
+  "object": "CHIRES_14 = R3b_123",
+  "pair_reduction": {
+    "active_variables": 414278,
+    "equations": 790456,
+    "incidence": 3395680,
+    "independent_unions": 51373,
+    "rhs_one": 44,
+    "weight2_equations": 66496,
+    "weight2_rhs_one": 0
+  },
+  "predecessor_terminal_status": "v52 CLOSED/APPEND-ONLY; CHIRES14 B5 global integral lift = NT",
+  "radius": 5,
+  "raw_system": {
+    "raw_equations": 956320,
+    "raw_incidence": 4403520,
+    "raw_variables": 747196,
+    "rhs_one_before_peeling": 22240
+  },
+  "residual_exact_solution": {
+    "nullity": 10212,
+    "rank": 10441,
+    "solution_weight": 2466,
+    "verification_failures": 0
+  },
+  "retained_separations": {
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "Selling_Noether": "CONTEXT/PENDING-MORPHISM"
+  },
+  "source": {
+    "B5_integer_size_inherited_from_v51": 78944,
+    "relators": 43,
+    "target_relator_index": 42,
+    "target_relator_name": "R3b_123",
+    "translation_image_mod8_size": 22240,
+    "transport_order": "left multiplication h*p; this uniquely reproduces the archived raw variable count 747196"
+  },
+  "status": "PROVEN-GLOBAL-MOD8-DUAL-OBSTRUCTION / CHIRES14-RADIUS<=5-REFUTED-TYPED",
+  "theorem": {
+    "chi_res_14_radius_le_5": "REFUTED-TYPED",
+    "consequence": "No integral radius-5 lift with CHIRES_14 coefficient 1 exists.",
+    "proof_shadow": "Reduce z modulo 2. The explicit y satisfies A y = b_target on all 956320 translated-relator equations. Hence for every boundary-zero z, 0=<y,partial z>=<b_target,z> mod 2.",
+    "radius6": "NOT-OPENED",
+    "statement": "For every integral radius-5 Fox cycle z, the total coefficient of translated R3b_123 terms is even."
+  },
+  "typing": {
+    "equations": "<y,FoxBoundary(h R_i)>=1 iff i=42 (R3b_123), else 0",
+    "meaning": "A solution is a separating dual functional. It is not a primal cycle or a non-local corrector.",
+    "unknowns": "dual boundary-coordinate values y_(generator,g mod 8) over F2"
+  },
+  "version": "v53"
+}

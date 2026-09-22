@@ -1,0 +1,50 @@
+{
+  "version": "v41",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v40 CLOSED/APPEND-ONLY",
+  "sources": [
+    {
+      "path": "roof_rail_pointed_C2_kep_rh_frontier_v0_3.tex",
+      "bytes": 11890,
+      "sha256": "3a0f94200af5b176f98d7c5928dad8ec3ab905f7af19c532ca27c67980624bbd",
+      "role": "cross-context 89/involution/Cube27/KEP typed comparison"
+    },
+    {
+      "path": "roof_rail_recurrence_certificate_v0_1.json",
+      "bytes": 6468,
+      "sha256": "55db984cf50c509dee312851131127a30d5a975acd014196425f3e855999bd72",
+      "role": "order-89 recurrence/envelope arithmetic and matrix-order guard"
+    },
+    {
+      "path": "KEP_RESTART_HANDOFF_R24_FR.md",
+      "bytes": 1369,
+      "sha256": "919cea02c05d6ca1c8ba3609676132fc248461ed8d48514d9c406ef5b84a6f50",
+      "role": "16 endpoint split routes + one boundary route source context"
+    },
+    {
+      "path": "phase_cube27_context_v33.json",
+      "bytes": 1243,
+      "sha256": "5531199a3db66892453a4efba7c732f0c4877ecbdf03a71237d43fb817699005",
+      "role": "Cube27 typed separation guard"
+    },
+    {
+      "path": "orthogonal_dyadic_golden_transmission_R6_65_SUPPORT30_SOURCE_MORITA_EN.pdf",
+      "bytes": 210383,
+      "sha256": "f0251b329333729060e9bcab28a28e6cf908da31d77653cd83a59a4b0c6401bc",
+      "role": "dyadic R6.65 source-label 89 context"
+    },
+    {
+      "path": "Tafel-III-fig1.jpg",
+      "bytes": 1583110,
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "role": "BSB-derived Selling Fig.1 primary geometric witness inherited from v38"
+    },
+    {
+      "path": "LOG_0016.pdf",
+      "bytes": 1991876,
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "independent Selling plate/source crosscheck inherited from v37"
+    }
+  ],
+  "source_policy": "Cross-context integer coincidences are formulation templates only. No Cube27/RH/KEP/dyadic carrier is identified with Selling or Gamma3 without an explicit typed morphism."
+}

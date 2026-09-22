@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "R2PURE17_still_separated": true,
+    "fig2_6_still_pending": true,
+    "frontier_verifier_pass": true,
+    "gamma_global_lift_not_promoted": true,
+    "gamma_global_nogo_not_claimed": true,
+    "gamma_radius5_quotient_cycle_proven": true,
+    "math_checkpoint_pass": true,
+    "no_overfull": true,
+    "pdf_qa_pass": true,
+    "raster_binding_not_promoted": true,
+    "raster_positive_source_only": true,
+    "source_contains_explicit_NT": true,
+    "source_contains_v52_frontier": true,
+    "torsion_carriers_separated": true,
+    "v50_retained_closed": true
+  },
+  "decision": "PASS: positive, refuted-typed, separated and NT claims remain distinct; no raster or radius5 global lift is over-promoted.",
+  "status": "PASS",
+  "typed_separations": {
+    "Lorentz_orientation": "NT",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "R5_to_Gamma3": "REFUTED-TYPED",
+    "Singer_physical_phase": "SEPARATED/PENDING-MORPHISM",
+    "figures_2_to_6": "PENDING-SOURCE-SPECIFIC-SEEDS/BRANCH-DATA",
+    "roof_reversal_transposition": "REFUTED-TYPED"
+  },
+  "version": "v51"
+}

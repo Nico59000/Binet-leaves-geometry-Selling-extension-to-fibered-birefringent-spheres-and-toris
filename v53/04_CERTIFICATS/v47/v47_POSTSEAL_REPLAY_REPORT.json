@@ -1,0 +1,74 @@
+{
+  "version": "v47",
+  "status": "PASS",
+  "phase": "POSTSEAL_DESTRUCTIVE_REPLAY",
+  "archive": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v47_bundle.zip",
+    "bytes": 54879833,
+    "sha256": "24f563b0daa2cba3efca1b4bd6e51bac0cb6ae395221229a6f4b99cb2828a181",
+    "members": 306
+  },
+  "ledger": {
+    "path": "v47_SHA256SUMS.txt",
+    "entries": 305,
+    "pre_replay": "PASS_305_OF_305",
+    "post_replay": "PASS_305_OF_305"
+  },
+  "verification": {
+    "version": "v47",
+    "predecessor_checks": 8034,
+    "new_checks": 80,
+    "combined_checks": 8114,
+    "new_passed": 80,
+    "status": "PASS",
+    "failed": []
+  },
+  "pdf": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v47.pdf",
+    "pages": 251,
+    "bytes": 2308150,
+    "sha256": "b932fc05070e3710a636ac356e84f42d0da94c9b2aa004474beb72b291eec35c",
+    "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED_NO_XFA",
+    "canonicalization_replay": "PASS_BYTE_IDENTICAL",
+    "page210_overflow_fix": "PASS_RETAINED",
+    "latex_overfull_boxes": 0
+  },
+  "tex": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v47.tex",
+    "bytes": 706624,
+    "sha256": "674eefe74b2608f1415c2976614807b870325700d00c95fe7fc3e2274bcdce91"
+  },
+  "zip_roundtrip": {
+    "rebuild": "PASS_BYTE_IDENTICAL",
+    "rebuilt_sha256": "24f563b0daa2cba3efca1b4bd6e51bac0cb6ae395221229a6f4b99cb2828a181"
+  },
+  "fragmentation": {
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB",
+    "bundle_bytes": 54879833
+  },
+  "math_results": {
+    "source_axis_topology": "PROVEN_SOURCE_SEMANTIC_C6",
+    "DAX_extent_intersection_stitching": "REFUTED-TYPED_NO_6_CYCLE; DAX00_ISOLATED",
+    "historical_HAX_HC_curves": "NT_PENDING_DIRECT_SOURCE_TRANSCRIPTION",
+    "PQRS_source_routes": "PROVEN_SOURCE_SEMANTICS_RASTER_BINDING_NT",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "radius2_exact_ball": "163_ELEMENTS_DEPTH_PROFILE_1_15_147",
+    "radius2_exact_boundary": "13690x7009_RANK_5430_KERNEL_DIM_1579",
+    "radius2_residual_image": "RANK_13_OF_14",
+    "radius2_exact_lifts": "13_EXACT_FOX_CYCLES_MINIMAL_RADIUS_2; SHADOWS=2*CHIRES_01_TO_13",
+    "remaining": "CHIRES_14_SUPPORTED_ON_R3b_123; NO_EXACT_LIFT_RADIUS_LE_2; MINIMAL_RADIUS_IF_ANY_GE_3",
+    "complete_resolution": "NT",
+    "Singer_injection": "SEPARATED/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "typed_gates_preserved": [
+    "strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED",
+    "roof reversal versus transpose REFUTED-TYPED",
+    "Singer odd mark injection SEPARATED/PENDING-MORPHISM",
+    "physical phase SEPARATED/PENDING-MORPHISM",
+    "historical field functor PENDING-MORPHISM",
+    "historical H1/H2 NT_NOT_RECOMPUTED",
+    "complete Gamma3 resolution NT"
+  ]
+}

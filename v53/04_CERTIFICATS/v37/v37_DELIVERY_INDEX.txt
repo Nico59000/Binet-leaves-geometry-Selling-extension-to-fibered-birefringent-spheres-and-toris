@@ -1,0 +1,15 @@
+v37 — Tafel III source-anchored vectorisation, Gamma3 syzygies, ternary projective binder
+STATUS BEFORE ROUNDTRIP: PRESEAL
+PRIMARY SOURCE: LOG_0016.pdf (Selling Tafel III)
+SOURCE PDF SHA256: 423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b
+EMBEDDED RASTER SHA256: 9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437
+FIG1 CROP SHA256: ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf
+VERIFY: 383/383 PASS
+VECTOR DIAGNOSTIC: 136 nodes; 105 segments = 73 ordinary + 25 reinforced + 2 serpentine + 5 symmetry candidates; 34 region candidates = 3 high + 4 medium + 27 morphological.
+FIELD INCIDENCE: NT_PENDING_SOURCE_GEOMETRIC_MATCHING.
+FIELD FUNCTOR/H1/H2: NOT PROMOTED / NOT RECOMPUTED.
+GAMMA3: augmented syzygy kernel Z^34; SNF diag(2^9,0^34); 6 exact inverse-word 4-cells; full Fox module NT.
+HYPERFINE: lim M3(Z/(2*3^k)) = M3(F2) x M3(Z3), typed projective refinement; O(2)/Real phase retained.
+PDF: 209 pages A4; deterministic passes 3/4 byte-identical.
+ZSTD SPLITTER: NOT_TRIGGERED_BELOW_200MiB.
+SAFE SUCCESSOR: source-geometric reconciliation of raster vector objects with six axes, all serpentines, fields, repetitions and stabilizers; only then field functor/H1/H2. Parallel: group-ring Fox syzygies and typed hyperfine equivariance.

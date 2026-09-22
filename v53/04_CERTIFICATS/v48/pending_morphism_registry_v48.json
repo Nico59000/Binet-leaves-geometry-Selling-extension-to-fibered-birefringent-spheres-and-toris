@@ -1,0 +1,53 @@
+{
+  "version": "v48",
+  "entries": [
+    {
+      "id": "PM48-SELL-HC",
+      "status": "NT/PENDING-DIRECT-SOURCE-TRANSCRIPTION"
+    },
+    {
+      "id": "PM48-SELL-HAX",
+      "status": "SEPARATED/PENDING-SOURCE-TRANSCRIPTION"
+    },
+    {
+      "id": "PM48-89-C2",
+      "status": "SEPARATED/PENDING-PRECONDITION"
+    },
+    {
+      "id": "PM48-H12",
+      "status": "NT_NOT_RECOMPUTED"
+    },
+    {
+      "id": "PM48-G3-R2-13",
+      "status": "PROVEN-EXACT-MIN-RADIUS2-IN-CHARACTER-SHADOW"
+    },
+    {
+      "id": "PM48-G3-R3",
+      "status": "REFUTED-TYPED/BOUNDED-NO-GO"
+    },
+    {
+      "id": "PM48-G3-FULL",
+      "status": "NT"
+    },
+    {
+      "id": "PM48-R5",
+      "status": "REFUTED-TYPED"
+    },
+    {
+      "id": "PM48-ROOF-TRANSPOSE",
+      "status": "REFUTED-TYPED"
+    },
+    {
+      "id": "PM48-SINGER",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    },
+    {
+      "id": "PM48-PHASE",
+      "status": "SEPARATED/PENDING-MORPHISM"
+    },
+    {
+      "id": "PM48-LORENTZ-ORIENTATION",
+      "status": "NT"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "phase": "v37-taufel-iii-source-vector-gamma3-syzygy-ternary-projective-refinement",
+  "status": "PASS",
+  "predecessor_v36_checks": 243,
+  "new_check_count": 140,
+  "combined_check_count": 383,
+  "checks": {
+    "predecessor_v36_replay_exit_zero": true,
+    "predecessor_v36_status_pass": true,
+    "predecessor_v36_combined_243": true,
+    "vectorizer_exit_zero": true,
+    "source_pdf_present": true,
+    "source_pdf_size_1991876": true,
+    "source_pdf_sha_exact": true,
+    "canonical_crop_present": true,
+    "canonical_crop_sha_exact": true,
+    "embedded_image_sha_exact": true,
+    "crop_dimensions_4450_5400": true,
+    "vector_selling_fig1_nodes_v37.csv_count": true,
+    "vector_selling_fig1_nodes_v37.csv_hash": true,
+    "vector_selling_fig1_segments_v37.csv_count": true,
+    "vector_selling_fig1_segments_v37.csv_hash": true,
+    "vector_selling_fig1_fields_v37.csv_count": true,
+    "vector_selling_fig1_fields_v37.csv_hash": true,
+    "vector_selling_fig1_layers_v37.geojson_count": true,
+    "vector_selling_fig1_layers_v37.geojson_hash": true,
+    "vector_layer_counts_exact": true,
+    "vector_segment_count_partition": true,
+    "field_diagnostic_counts_exact": true,
+    "vector_decision_source_anchored": true,
+    "vector_not_complete_historical_incidence": true,
+    "six_axis_gate_not_artificially_closed": true,
+    "serpentine_gate_not_artificially_closed": true,
+    "plate_bytes_promoted_proven": true,
+    "complete_incidence_remains_nt": true,
+    "partial_incidence_row_count_15": true,
+    "partial_incidence_hash_64": true,
+    "field_functor_blocked_until_full_plate": true,
+    "historical_H12_not_recomputed": true,
+    "presentation_functor_retained": true,
+    "field_lift_nt": true,
+    "gamma3_generator_count_9": true,
+    "gamma3_relator_count_43": true,
+    "augmentation_boundary_rank_9": true,
+    "augmentation_kernel_rank_34": true,
+    "all_exponent_sums_even": true,
+    "augmentation_mod2_rank_zero": true,
+    "smith_nine_nonzero": true,
+    "smith_diag_all_2": true,
+    "smith_identity_U_B_V": true,
+    "integral_kernel_basis_shape": true,
+    "integral_kernel_basis_exact": true,
+    "smith_V_unimodular": true,
+    "six_exact_inverse_relator_pairs": true,
+    "inverse_pair_1_freely_cancels": true,
+    "inverse_pair_2_freely_cancels": true,
+    "inverse_pair_3_freely_cancels": true,
+    "inverse_pair_4_freely_cancels": true,
+    "inverse_pair_5_freely_cancels": true,
+    "inverse_pair_6_freely_cancels": true,
+    "syzygy_csv_hash_64": true,
+    "full_nonabelian_syzygy_not_overclaimed": true,
+    "crt_level_1_e_mod2_one": true,
+    "crt_level_1_e_mod3k_zero": true,
+    "crt_level_1_idempotent": true,
+    "crt_level_1_section_additive": true,
+    "crt_level_1_section_multiplicative": true,
+    "crt_level_2_e_mod2_one": true,
+    "crt_level_2_e_mod3k_zero": true,
+    "crt_level_2_idempotent": true,
+    "crt_level_2_section_additive": true,
+    "crt_level_2_section_multiplicative": true,
+    "crt_level_2_projective_e": true,
+    "crt_level_3_e_mod2_one": true,
+    "crt_level_3_e_mod3k_zero": true,
+    "crt_level_3_idempotent": true,
+    "crt_level_3_section_additive": true,
+    "crt_level_3_section_multiplicative": true,
+    "crt_level_3_projective_e": true,
+    "crt_level_4_e_mod2_one": true,
+    "crt_level_4_e_mod3k_zero": true,
+    "crt_level_4_idempotent": true,
+    "crt_level_4_section_additive": true,
+    "crt_level_4_section_multiplicative": true,
+    "crt_level_4_projective_e": true,
+    "crt_level_5_e_mod2_one": true,
+    "crt_level_5_e_mod3k_zero": true,
+    "crt_level_5_idempotent": true,
+    "crt_level_5_section_additive": true,
+    "crt_level_5_section_multiplicative": true,
+    "crt_level_5_projective_e": true,
+    "crt_level_6_e_mod2_one": true,
+    "crt_level_6_e_mod3k_zero": true,
+    "crt_level_6_idempotent": true,
+    "crt_level_6_section_additive": true,
+    "crt_level_6_section_multiplicative": true,
+    "crt_level_6_projective_e": true,
+    "crt_level_7_e_mod2_one": true,
+    "crt_level_7_e_mod3k_zero": true,
+    "crt_level_7_idempotent": true,
+    "crt_level_7_section_additive": true,
+    "crt_level_7_section_multiplicative": true,
+    "crt_level_7_projective_e": true,
+    "crt_level_8_e_mod2_one": true,
+    "crt_level_8_e_mod3k_zero": true,
+    "crt_level_8_idempotent": true,
+    "crt_level_8_section_additive": true,
+    "crt_level_8_section_multiplicative": true,
+    "crt_level_8_projective_e": true,
+    "integer_bracket_Ky_Kz_J": true,
+    "integer_bracket_J_Ky_minusKz": true,
+    "integer_bracket_J_Kz_Ky": true,
+    "Gamma_reverses_J_integer": true,
+    "level_1_bracket1": true,
+    "level_1_bracket2": true,
+    "level_1_bracket3": true,
+    "level_1_sign_J_distinguished_mod3k": true,
+    "level_1_Gamma_reversal": true,
+    "level_2_bracket1": true,
+    "level_2_bracket2": true,
+    "level_2_bracket3": true,
+    "level_2_sign_J_distinguished_mod3k": true,
+    "level_2_Gamma_reversal": true,
+    "level_3_bracket1": true,
+    "level_3_bracket2": true,
+    "level_3_bracket3": true,
+    "level_3_sign_J_distinguished_mod3k": true,
+    "level_3_Gamma_reversal": true,
+    "level_4_bracket1": true,
+    "level_4_bracket2": true,
+    "level_4_bracket3": true,
+    "level_4_sign_J_distinguished_mod3k": true,
+    "level_4_Gamma_reversal": true,
+    "level_5_bracket1": true,
+    "level_5_bracket2": true,
+    "level_5_bracket3": true,
+    "level_5_sign_J_distinguished_mod3k": true,
+    "level_5_Gamma_reversal": true,
+    "level_6_bracket1": true,
+    "level_6_bracket2": true,
+    "level_6_bracket3": true,
+    "level_6_sign_J_distinguished_mod3k": true,
+    "level_6_Gamma_reversal": true,
+    "ternary_binder_status_proven": true,
+    "orientation_not_selected": true,
+    "pending_registry_11_items": true,
+    "plate_source_gate_resolved": true,
+    "complete_incidence_still_nt": true,
+    "debroglie_stays_separated": true,
+    "cube27_stays_separated": true
+  },
+  "plate": {
+    "gate": {
+      "work": "E. Selling, Ueber die binären und ternären quadratischen Formen, J. reine angew. Math. 77 (1874), 143-229",
+      "plate": "Tafel III; source PDF LOG_0016.pdf, page 2; Fig. 1 at right, Figs. 2--6 at left",
+      "source_pdf": "LOG_0016.pdf",
+      "source_pdf_bytes": 1991876,
+      "source_pdf_sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "embedded_raster": {
+        "dimensions": [
+          6716,
+          5752
+        ],
+        "dpi": [
+          600,
+          600
+        ],
+        "sha256": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437"
+      },
+      "fig1_crop": {
+        "file": "selling_fig1_full_600.png",
+        "dimensions": [
+          4450,
+          5400
+        ],
+        "sha256": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf"
+      },
+      "source_status": {
+        "plate_raster_bytes": "PROVEN_SOURCE_BYTES",
+        "vector_layers": "PROVEN_SOURCE_ANCHORED_GEOMETRY_WITH_TYPED_DIAGNOSTIC_CLASSIFICATION",
+        "complete_historical_field_incidence": "NT_PENDING_SOURCE_GEOMETRIC_MATCHING_OF_AXES_SERPENTINES_REPETITIONS_STABILIZERS"
+      },
+      "typing": [
+        "E_ordinary",
+        "E_serpentine",
+        "E_reinforced",
+        "E_symmetry_candidate"
+      ],
+      "publication_guard": "No morphological closure or line-detection tolerance is promoted by itself to a historical field, wall, fissure, crossing, repetition or stabilizer."
+    },
+    "partial_incidence_sha256": "711bbabed880ccddfbacc24a22c5f0f9a8ebd8382ae29a0b32914efd64ea4765",
+    "vectorization_manifest": {
+      "source_pdf": "LOG_0016.pdf",
+      "source_pdf_sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "embedded_image_sha256": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437",
+      "canonical_crop": "selling_fig1_full_600.png",
+      "canonical_crop_sha256": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf",
+      "crop_dimensions_600": [
+        4450,
+        5400
+      ],
+      "tables": {
+        "selling_fig1_nodes_v37.csv": {
+          "rows": 136,
+          "sha256": "942b91656f60d6f3e84891d819b5327580c67f042b35602972a9e2cfa900476d"
+        },
+        "selling_fig1_segments_v37.csv": {
+          "rows": 105,
+          "sha256": "d866c35bae2e33b335af8e1818e75351ed890dbd47c44321855616c37106fa96"
+        },
+        "selling_fig1_fields_v37.csv": {
+          "rows": 34,
+          "sha256": "4827dd0cad2c17ce6995f5fc7c1966a3365d856a9755a30dcb1ae7cbc0636bd6"
+        },
+        "selling_fig1_layers_v37.geojson": {
+          "features": 105,
+          "sha256": "8a410c44b8d98be828a76eefbb47e6534b083b7665411227ad51d8daaa055559"
+        }
+      },
+      "layer_counts": {
+        "ordinary": 73,
+        "reinforced": 25,
+        "serpentine": 2,
+        "symmetry_candidate": 5
+      },
+      "field_region_class_counts": {
+        "STABLE_CLOSED_REGION_HIGH": 3,
+        "STABLE_CLOSED_REGION_MEDIUM": 4,
+        "MORPHOLOGICAL_CANDIDATE": 27
+      },
+      "decision": "SOURCE_BYTES_PROVEN; VECTOR_LAYERS_SOURCE_ANCHORED; COMPLETE_HISTORICAL_FIELD_INCIDENCE_NOT_YET_PROMOTED",
+      "guard": "automatic region closure and dashed-line candidates are diagnostics, not historical incidence facts until manually/source-geometrically matched."
+    },
+    "decision": "SOURCE_BYTES_PROVEN_AND_TYPED_VECTOR_TABLES_HASH_LOCKED; COMPLETE_HISTORICAL_FIELD_INCIDENCE_REMAINS_NT_PENDING_SOURCE_GEOMETRIC_MATCHING."
+  },
+  "field_functor": "NT_NOT_PROMOTED; historical microscopic H1/H2 intentionally not recomputed",
+  "gamma3_syzygy": {
+    "source": "Kobayashi presentation specialized to n=3; 43 v36 relators",
+    "chain_level": "augmentation / Fox boundary followed by augmentation Z[Gamma]->Z",
+    "boundary_shape": [
+      9,
+      43
+    ],
+    "rank_over_Q": 9,
+    "kernel_rank_over_Z": 34,
+    "smith_nonzero_diagonal": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "cokernel": "(Z/2)^9",
+    "kernel_basis_csv": "gamma3_augmented_syzygy_basis_v37.csv",
+    "kernel_basis_sha256": "197d92d67019565ea675ad0541594526f0a436ae8d042ec92edd715035149ac8",
+    "exact_free_inverse_pair_4cells": [
+      {
+        "relator_a": "R3a1_123",
+        "relator_b": "R3a1_132",
+        "identity": "R3a1_123 * R3a1_132 freely reduces to empty word"
+      },
+      {
+        "relator_a": "R3a2_123",
+        "relator_b": "R3a2_321",
+        "identity": "R3a2_123 * R3a2_321 freely reduces to empty word"
+      },
+      {
+        "relator_a": "R3a2_132",
+        "relator_b": "R3a2_231",
+        "identity": "R3a2_132 * R3a2_231 freely reduces to empty word"
+      },
+      {
+        "relator_a": "R3a1_213",
+        "relator_b": "R3a1_231",
+        "identity": "R3a1_213 * R3a1_231 freely reduces to empty word"
+      },
+      {
+        "relator_a": "R3a2_213",
+        "relator_b": "R3a2_312",
+        "identity": "R3a2_213 * R3a2_312 freely reduces to empty word"
+      },
+      {
+        "relator_a": "R3a1_312",
+        "relator_b": "R3a1_321",
+        "identity": "R3a1_312 * R3a1_321 freely reduces to empty word"
+      }
+    ],
+    "exact_free_inverse_pair_count": 6,
+    "status": {
+      "augmented_syzygy_module": "PROVEN_Z_KERNEL_RANK_34_WITH_SMITH_BASIS",
+      "six_free_cancellation_4cells": "PROVEN_NONABELIAN_FREE_WORD_IDENTITIES",
+      "complete_nonabelian_identity_among_relations_module": "NT_PENDING_GROUP_RING_FOX_RESOLUTION_OR_CONTRACTING_HOMOTOPY"
+    },
+    "guard": "The 34-dimensional augmented kernel is not silently identified with the full pi_2/identity-among-relations module."
+  },
+  "ternary_binder": {
+    "level_ring": "R_k = Z/(2*3^k)Z",
+    "crt": "R_k ≅ F2 × Z/3^kZ",
+    "matrix_binder": "B_k=M3(R_k) ≅ M3(F2) × M3(Z/3^kZ)",
+    "projective_limit": "lim_k B_k ≅ M3(F2) × M3(Z_3)",
+    "parity_section": {
+      "e_k": "3^k mod 2*3^k",
+      "properties": [
+        "e_k^2=e_k",
+        "e_k mod2=1",
+        "e_k mod3^k=0",
+        "e_{k+1}->e_k"
+      ],
+      "map": "s_k(a)=a e_k is a compatible non-unital ring section F2 -> R_k"
+    },
+    "lambda2_nine_labels": "The nine matrix units e_ij remain the parity coordinates; each carries an independent 3-adic/hyperfine fibre through M3(Z_3).",
+    "Thomas_Wigner": {
+      "integral_generators": {
+        "Ky": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "Kz": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "J": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ]
+      },
+      "relations": [
+        "[Ky,Kz]=J",
+        "[J,Ky]=-Kz",
+        "[J,Kz]=Ky"
+      ],
+      "tower_status": "PROVEN_AT_EVERY_FINITE_LEVEL_BY_INTEGER_REDUCTION",
+      "mod2_shadow": "recovers v36 parity bracket, where - becomes +",
+      "ternary_component": "retains the distinction J versus -J for every k>=1"
+    },
+    "orientation": {
+      "Gamma_action": "Gamma J Gamma^{-1}=-J at every level",
+      "decision": "The tower distinguishes the two orientations but does not canonically select one; O(2)/Real phase remains natural."
+    },
+    "roof_relation": {
+      "12345678987654321": "ordered nine-address visualization for the 3x3 parity coordinates after a chosen row-major chart",
+      "status": "POINTED_CONTEXT_ADAPTER_ONLY; roof reversal is still not matrix transpose and no intrinsic permutation equivalence is introduced."
+    },
+    "levels_checked": [
+      {
+        "k": 1,
+        "modulus": 6,
+        "parity_idempotent_e_k": 3
+      },
+      {
+        "k": 2,
+        "modulus": 18,
+        "parity_idempotent_e_k": 9
+      },
+      {
+        "k": 3,
+        "modulus": 54,
+        "parity_idempotent_e_k": 27
+      },
+      {
+        "k": 4,
+        "modulus": 162,
+        "parity_idempotent_e_k": 81
+      },
+      {
+        "k": 5,
+        "modulus": 486,
+        "parity_idempotent_e_k": 243
+      },
+      {
+        "k": 6,
+        "modulus": 1458,
+        "parity_idempotent_e_k": 729
+      },
+      {
+        "k": 7,
+        "modulus": 4374,
+        "parity_idempotent_e_k": 2187
+      },
+      {
+        "k": 8,
+        "modulus": 13122,
+        "parity_idempotent_e_k": 6561
+      }
+    ],
+    "status": "PROVEN_PROJECTIVE_CRT_TERNARY_REFINEMENT"
+  },
+  "pending_registry": "pending_morphism_registry_v37.json",
+  "safe_successor": "v38 -- retain all v37 source hashes and typed separations; manually/source-geometrically reconcile the 136 nodes, 105 typed segments and 34 region candidates with the six Selling symmetry axes, all serpentines, bounded fields, repetitions and stabilizers, then and only then promote F_Sell^field(Q0)->F29_can and compute historical Binet/adjoint H1/H2. In parallel lift the rank-34 augmented Gamma3 syzygies to the full Z[Gamma3(2)] Fox identity module and seek source-verified 4-cells; extend the M3(F2)xM3(Z3) hyperfine tower without identifying roof reversal, transpose, Lorentz orientation or physical phase absent explicit equivariant morphisms."
+}

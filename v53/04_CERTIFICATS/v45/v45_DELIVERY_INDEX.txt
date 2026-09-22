@@ -1,0 +1,31 @@
+v45 DELIVERY INDEX -- FINAL CLOSED
+
+VERSION: v45
+STATUS: CLOSED / APPEND-ONLY
+ATOMIC: PASS
+VERIFY: 7976/7976 = 7917 inherited + 59 new
+PDF: 243 pages, page 210 overflow fix retained, 0 overfull boxes
+PDF SHA256: 05e7370ef8129d141fb5fec3bedc993a85d8f1ba1d7d869a66b9a7836af8300a
+TEX SHA256: 7fb323e5218fe9ca92b45197e7397f56e01ed7a86a54fda474fea1dae4e6422f
+ZIP SHA256: f5d7572aadc9b361c604834a8df51af4b3e20cb4f3197360771e1f37d2b241b9
+ZIP MEMBERS: 249
+LEDGER: 248/248 before and after destructive replay
+CANONICAL PDF REPLAY: byte-identical
+DETERMINISTIC ZIP REBUILD: byte-identical
+ZSTD SPLITTER: not triggered, bundle below 200 MiB
+
+MAIN V45 RESULTS
+- seven robust dual-source-supported dotted traces materialized as PROVEN-DIAGNOSTIC
+- historical source requires six external axes/six fourfold centres; 7-to-6 selection remains NT_NONUNIQUE_SOURCE_BINDING
+- no HAX_i/HC_i promoted; six historical reflections not derived
+- 89-node C2 census NOT_ACTIVATED_FAIL_CLOSED; 44|45 and 34|55 remain SEPARATED_NOT_TESTED
+- historical C0/C1/C2 still non-total; ordered boundaries/repetitions/stabilizers/transports missing; d1*d0 NOT_FORMED
+- field functor PENDING-MORPHISM; historical H1/H2 NT_NOT_RECOMPUTED
+- 1920/1920 four-relator dihedral classes absorbed by M43
+- declared five-relator 3+2 grammar has zero free identities
+- 384/384 six-relator dihedral classes absorbed by M43
+- complete Gamma3 resolution remains NT; residual character minimum dimension 14
+- Singer odd injection remains SEPARATED/NT/PENDING-MORPHISM; Lorentz orientation NT
+
+SAFE SUCCESSOR
+v46 -- retain v45 CLOSED/APPEND-ONLY and every typed separation; resolve the 7-to-6 Selling axis ambiguity only from non-morphological source evidence, prioritizing explicit external-boundary incidence, cyclic fourfold-centre order and historical substitution/field labels, and promote no HAX_i or HC_i unless the six-subset and its cyclic ordering are uniquely source-certified; then derive the six reflections and activate the 89-node C2 census only if the degree-one carrier is invariant, testing 44|45 and 34|55 only against the resulting historical orbit census; materialize historical node/edge/field types, ordered field boundaries, repetition targets, stabilizer words and local Binet/adjoint transports and form d0,d1 only when total, verifying d1*d0=0, face holonomy/stabilizer identities and the full F_Sell^field -> F29_can object/edge/face functor before recomputing H1/H2; retain the strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED; use the residual 512-character sectors with minimum residual dimension 14 to construct and lift explicit non-free-cancellation group-ring syzygy candidates beyond the exhausted 4/5/6-relator grammars and the eighteen two-periodic order-two tails; attempt the Singer-framed odd injection only after source-native L, sigma and Gamma are equivariant on all historical cells; retain MXM^-1 as opposite variance, roof reversal versus transpose REFUTED-TYPED, Lorentz orientation NT, and physical phase SEPARATED/PENDING-MORPHISM.

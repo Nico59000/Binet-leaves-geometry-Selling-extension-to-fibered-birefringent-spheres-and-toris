@@ -1,0 +1,13 @@
+{
+  "version": "v48",
+  "degree_one_carrier_size": 89,
+  "historical_reflection_count_available": 0,
+  "carrier_invariance_test": "NOT-FORMABLE",
+  "fixed_points": null,
+  "free_orbits": null,
+  "total_orbits": null,
+  "comparison_44_45": "SEPARATED_NOT_TESTED",
+  "comparison_34_55": "SEPARATED_NOT_TESTED",
+  "decision": "C2_ORBIT_CENSUS_NOT_ACTIVATED_FAIL_CLOSED",
+  "reason": "The six historical reflection maps are not source-certified because HC/HAX raster binding is incomplete."
+}

@@ -1,0 +1,689 @@
+{
+  "version": "v52",
+  "phase": "typed-Fig3-6-fusion",
+  "status": "PASS-TYPED-DISJOINT-FUSION/PROVENANCE-PRESERVED",
+  "carrier_kind": "NAMESPACED-DISJOINT-UNION-WITH-TYPED-LOCAL-RELATIONS",
+  "figures": {
+    "Fig3": {
+      "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+      "carrier_kind": "LABELLED-LADDER-GERM",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion"
+    },
+    "Fig4": {
+      "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+      "carrier_kind": "LABELLED-RECTANGLE/DIAGONAL-GERM",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion"
+    },
+    "Fig5": {
+      "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+      "carrier_kind": "THREE-COLUMN-LADDER-GERM",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion"
+    },
+    "Fig6": {
+      "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-AND-PLANAR-NESTING-CLOSED",
+      "carrier_kind": "CURVED-MULTIBRANCH-ANCHOR-GRAPH-WITH-ORDERED-NESTING",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR"
+    }
+  },
+  "object_count": 31,
+  "relation_count": 28,
+  "ordered_structure_count": 3,
+  "objects": [
+    {
+      "id": "Fig3:A",
+      "local_id": "A",
+      "label": "3/3",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:B",
+      "local_id": "B",
+      "label": "1/3",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:C",
+      "local_id": "C",
+      "label": "3/7",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:D",
+      "local_id": "D",
+      "label": "UNLABELLED-JUNCTION",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:E",
+      "local_id": "E",
+      "label": "2/7",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:F",
+      "local_id": "F",
+      "label": "2/5",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:L",
+      "local_id": "L",
+      "label": "(11,1,-1)/(0,0,0)",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig3:R",
+      "local_id": "R",
+      "label": "(1,2,5)/(1,0,0)",
+      "figure": "Fig3",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig4:L",
+      "local_id": "L",
+      "label": "(1,2,-2)/(1,0,0)",
+      "figure": "Fig4",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig4:A",
+      "local_id": "A",
+      "label": "1/7",
+      "figure": "Fig4",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig4:B",
+      "local_id": "B",
+      "label": "2/7",
+      "figure": "Fig4",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig4:T",
+      "local_id": "T",
+      "label": "(3,-1,-1)/(0,0,0)",
+      "figure": "Fig4",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig4:BASE",
+      "local_id": "BASE",
+      "label": "UNLABELLED-BASE",
+      "figure": "Fig4",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Ltop",
+      "local_id": "Ltop",
+      "label": "1/12",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Ctop",
+      "local_id": "Ctop",
+      "label": "UNLABELLED",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Rtop",
+      "local_id": "Rtop",
+      "label": "3/7",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Cmid",
+      "local_id": "Cmid",
+      "label": "UNLABELLED",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Rmid",
+      "local_id": "Rmid",
+      "label": "2/7",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Lbot",
+      "local_id": "Lbot",
+      "label": "(1,-2,-15)/(0,0,0)",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Cbot",
+      "local_id": "Cbot",
+      "label": "1/13",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:Rbot",
+      "local_id": "Rbot",
+      "label": "(2,-1,-15)/(0,0,0)",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig5:T",
+      "local_id": "T",
+      "label": "(3,1,10)/(0,0,0)",
+      "figure": "Fig5",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A47",
+      "local_id": "A47",
+      "label": "(1,-1,47)/(0,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A24",
+      "local_id": "A24",
+      "label": "(1,2,-24)/(1,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A16",
+      "local_id": "A16",
+      "label": "(1,-3,-16)/(1,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A12",
+      "local_id": "A12",
+      "label": "(1,-4,-12)/(1,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A8",
+      "local_id": "A8",
+      "label": "(1,-6,-8)/(1,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:A78",
+      "local_id": "A78",
+      "label": "(1,-7,8)/(3,0,0)",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:REG10",
+      "local_id": "REG10",
+      "label": "10",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:REG11",
+      "local_id": "REG11",
+      "label": "11",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    },
+    {
+      "id": "Fig6:REG19",
+      "local_id": "REG19",
+      "label": "19",
+      "figure": "Fig6",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER"
+    }
+  ],
+  "relations": [
+    {
+      "figure": "Fig3",
+      "source": "Fig3:A",
+      "target": "Fig3:B",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:A",
+      "target": "Fig3:C",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:C",
+      "target": "Fig3:D",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:B",
+      "target": "Fig3:D",
+      "relation_type": "solid",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:D",
+      "target": "Fig3:E",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:D",
+      "target": "Fig3:F",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:E",
+      "target": "Fig3:F",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:D",
+      "target": "Fig3:R",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:F",
+      "target": "Fig3:R",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig3",
+      "source": "Fig3:L",
+      "target": "Fig3:E",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:A",
+      "target": "Fig4:B",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:L",
+      "target": "Fig4:A",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:A",
+      "target": "Fig4:T",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:T",
+      "target": "Fig4:B",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:A",
+      "target": "Fig4:BASE",
+      "relation_type": "solid",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig4",
+      "source": "Fig4:B",
+      "target": "Fig4:BASE",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Ltop",
+      "target": "Fig5:Cmid",
+      "relation_type": "solid-diagonal",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Ltop",
+      "target": "Fig5:Lbot",
+      "relation_type": "dotted-column",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Ctop",
+      "target": "Fig5:Cmid",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Cmid",
+      "target": "Fig5:Cbot",
+      "relation_type": "solid-column",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Rtop",
+      "target": "Fig5:Rmid",
+      "relation_type": "dotted-column",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Rmid",
+      "target": "Fig5:Rbot",
+      "relation_type": "dotted-column",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Ctop",
+      "target": "Fig5:Rtop",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Cmid",
+      "target": "Fig5:Rmid",
+      "relation_type": "wavy",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Lbot",
+      "target": "Fig5:Cbot",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Cbot",
+      "target": "Fig5:Rbot",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Ctop",
+      "target": "Fig5:T",
+      "relation_type": "solid/dotted-continuation",
+      "provenance": "LOCAL-COMPILER"
+    },
+    {
+      "figure": "Fig5",
+      "source": "Fig5:Rtop",
+      "target": "Fig5:T",
+      "relation_type": "dotted",
+      "provenance": "LOCAL-COMPILER"
+    }
+  ],
+  "ordered_structures": [
+    {
+      "figure": "Fig6",
+      "kind": "principal_nesting",
+      "sequence": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "provenance": "selling_fig6_planar_nesting_order_v52.json"
+    },
+    {
+      "figure": "Fig6",
+      "kind": "right_anchor_chain",
+      "sequence": [
+        "A47=(1,-1,47)/(0,0,0)",
+        "R11a=1/11",
+        "R11b=2/11",
+        "A24=(1,2,-24)/(1,0,0)",
+        "R15a=1/15",
+        "A16=(1,-3,-16)/(1,0,0)",
+        "REG10",
+        "9/5",
+        "3/5",
+        "3/15",
+        "A8=(1,-6,-8)/(1,0,0)",
+        "lower-3/15"
+      ],
+      "provenance": "selling_fig6_planar_nesting_order_v52.json"
+    },
+    {
+      "figure": "Fig6",
+      "kind": "lower_left_cell_chain",
+      "sequence": [
+        "A12=(1,-4,-12)/(1,0,0)",
+        "left-2/15-upper",
+        "left-2/15-lower",
+        "REG11",
+        "A78=(1,-7,8)/(3,0,0)",
+        "REG19",
+        "R13=3/13"
+      ],
+      "provenance": "selling_fig6_planar_nesting_order_v52.json"
+    }
+  ],
+  "coincident_printed_labels": [
+    {
+      "printed_label": "2/7",
+      "occurrences": [
+        "Fig3:E",
+        "Fig4:B",
+        "Fig5:Rmid"
+      ],
+      "status": "SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION"
+    },
+    {
+      "printed_label": "3/7",
+      "occurrences": [
+        "Fig3:C",
+        "Fig5:Rtop"
+      ],
+      "status": "SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION"
+    },
+    {
+      "printed_label": "UNLABELLED",
+      "occurrences": [
+        "Fig5:Ctop",
+        "Fig5:Cmid"
+      ],
+      "status": "SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION"
+    }
+  ],
+  "provenance": {
+    "Fig3:A": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:B": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:C": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:D": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:E": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:F": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:L": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig3:R": {
+      "figure": "Fig3",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig3_local_compiler_replay_v52.json"
+    },
+    "Fig4:L": {
+      "figure": "Fig4",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig4_local_compiler_replay_v52.json"
+    },
+    "Fig4:A": {
+      "figure": "Fig4",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig4_local_compiler_replay_v52.json"
+    },
+    "Fig4:B": {
+      "figure": "Fig4",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig4_local_compiler_replay_v52.json"
+    },
+    "Fig4:T": {
+      "figure": "Fig4",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig4_local_compiler_replay_v52.json"
+    },
+    "Fig4:BASE": {
+      "figure": "Fig4",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig4_local_compiler_replay_v52.json"
+    },
+    "Fig5:Ltop": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Ctop": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Rtop": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Cmid": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Rmid": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Lbot": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Cbot": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:Rbot": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig5:T": {
+      "figure": "Fig5",
+      "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+      "local_compiler": "selling_fig5_local_compiler_replay_v52.json"
+    },
+    "Fig6:A47": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:A24": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:A16": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:A12": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:A8": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:A78": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:REG10": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:REG11": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    },
+    "Fig6:REG19": {
+      "figure": "Fig6",
+      "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+      "local_compiler": "selling_fig6_local_compiler_replay_v52.json"
+    }
+  },
+  "checks": {
+    "all_four_local_compilers_PASS": true,
+    "all_local_unresolved_empty": true,
+    "namespaces_disjoint": true,
+    "no_cross_figure_relation": true,
+    "provenance_total": true,
+    "Fig6_order_preserved": true,
+    "shared_labels_not_identified": true
+  },
+  "guard": "Fusion means typed coproduct only. No identical printed fraction, tuple, region number, strand style, or local relation is identified across figures. No Fig3--6 object is identified with Fig1, P/Q/R/S, or any GL(3) morphism without an explicit future adapter."
+}

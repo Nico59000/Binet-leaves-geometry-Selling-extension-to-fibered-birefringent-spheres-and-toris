@@ -1,0 +1,28 @@
+v46 DELIVERY INDEX -- FINAL CLOSED
+
+VERSION: v46
+STATUS: CLOSED / APPEND-ONLY
+ATOMIC: PASS
+VERIFY: 8034/8034 = 7976 inherited + 58 new
+PDF: 246 pages, page 210 overflow fix retained, 0 overfull boxes
+PDF SHA256: c39a7957765046383a32eeb95147237cc5b1589279d8993300d80a29492b9644
+TEX SHA256: f98b63df6b3aaebbed3a22b7c0464bed478692fd10474d67b726aadc6bd0ecf7
+ZIP SHA256: 691af8654bbc4604c7a39f191689fa80b3b0ce1220723f2e35e597dc292b6042
+ZIP MEMBERS: 277
+LEDGER: 276/276 before and after destructive replay
+CANONICAL PDF REPLAY: byte-identical
+DETERMINISTIC ZIP REBUILD: byte-identical
+ZSTD SPLITTER: not triggered, bundle below 200 MiB
+
+MAIN V46 RESULTS
+- all seven 6-subsets of the seven diagnostic DAX traces fail the direct whole-straight-DAX = whole-HAX model under the source right-angle fourfold-centre constraint; direct model REFUTED-TYPED
+- historical six-axis/six-centre existence is not refuted: HAX/HC must be reconstructed by source transcription and branch stitching
+- no historical reflection promoted; 89-node C2 census NOT_ACTIVATED_FAIL_CLOSED; 44|45 and 34|55 remain SEPARATED_NOT_TESTED
+- historical C0/C1/C2 remain non-total; d0,d1,d1*d0 not formed; field functor PENDING-MORPHISM; H1/H2 NT_NOT_RECOMPUTED
+- at chi(Eij)=+1 and chi(Fi)=-1: character Fox rank 8, kernel dimension 35, M43 shadow rank 21, residual quotient dimension 14
+- exact group-ring search with coefficient support in the radius-one ball has exact kernel dimension 129 but zero image in the 14-dimensional residual quotient: bounded radius-one no-go
+- word-length >=2 coefficient support remains open; complete Gamma3 resolution NT
+- Singer injection SEPARATED/NT/PENDING-MORPHISM; Lorentz orientation NT
+
+SAFE SUCCESSOR
+v47 -- retain v46 CLOSED/APPEND-ONLY and every typed separation; replace the refuted one-DAX-per-HAX model by a source transcription of the six fourfold centres and stitch dotted branches centre-to-centre into six historical axis curves, attaching vanishing-variable letters and the P,Q,R,S external-boundary routes before any reflection; derive the six reflection maps only from those certified curves and activate the 89-node C2 census only if the node/edge carrier is strictly invariant, testing 44|45 and 34|55 only afterward; use the resulting anchors to totalize historical C0,C1,C2, ordered field boundaries, repetitions, stabilizers and transports, and form d0,d1 and recompute H1/H2 only after d1*d0=0 and the full F_Sell^field -> F29_can object/edge/face gate closes; take the explicit 14-dimensional residual quotient at chi(Eij)=+1, chi(Fi)=-1 as the search target and extend the exact group-ring coefficient-support ball from radius one to radius two, lifting each residual direction and testing exact Fox closure and independence modulo M43 without claiming completeness; retain the strict R5/Gamma3 incidence adapter and roof reversal/transposition as REFUTED-TYPED, Singer injection and physical phase as SEPARATED/PENDING-MORPHISM, and Lorentz orientation as NT.

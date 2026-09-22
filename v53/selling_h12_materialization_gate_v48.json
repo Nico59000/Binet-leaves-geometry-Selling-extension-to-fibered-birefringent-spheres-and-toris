@@ -1,0 +1,25 @@
+{
+  "version": "v48",
+  "diagnostic_cells": {
+    "C0_nodes": 136,
+    "C1_segments": 105,
+    "C2_fields": 34
+  },
+  "historical_totalization": {
+    "node_assignments_complete": false,
+    "edge_assignments_complete": false,
+    "field_assignments_complete": false,
+    "ordered_boundary_cycles_complete": false,
+    "repetition_targets_complete": false,
+    "stabilizer_words_complete": false,
+    "Binet_sign_transports_complete": false,
+    "Ad_M_transports_complete": false
+  },
+  "d0": "NOT-FORMED",
+  "d1": "NOT-FORMED",
+  "d1d0": "NOT-TESTED",
+  "F_Sell_field_to_F29_can": "PENDING-MORPHISM",
+  "historical_H1": "NT_NOT_RECOMPUTED",
+  "historical_H2": "NT_NOT_RECOMPUTED",
+  "decision": "FAIL-CLOSED UNTIL THE SIX HC/HAX ANCHORS AND ALL 0/1/2-CELL DATA ARE SOURCE-TOTAL."
+}

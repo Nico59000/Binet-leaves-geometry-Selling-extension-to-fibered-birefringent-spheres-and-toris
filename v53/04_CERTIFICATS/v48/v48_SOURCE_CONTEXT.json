@@ -1,0 +1,19 @@
+{
+  "version": "v48",
+  "primary_selling_source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), pp.153-206; Fig.1/Tafel III original 1874 plate LOG_0016 hash-locked.",
+  "source_exact_rules_used": [
+    "six indicated symmetry-axis intersections are fourfold centres",
+    "right-angle marks encode fourfold symmetry",
+    "dotted lines denote symmetry axes",
+    "axis geometry may be understood on a folded drawing, so raster straightness is not invariant",
+    "boundary letters/ P,Q,R,S route semantics must precede reflection promotion"
+  ],
+  "source_guard": "No HC coordinate, HAX curve, reflection, 89-node C2 action, or H1/H2 datum is promoted from visual impression alone.",
+  "algebraic_inputs": [
+    "Kobayashi 43-relator Gamma_3(2) presentation inherited v36",
+    "v46 character residual quotient dimension 14",
+    "v47 thirteen exact radius-two lifts"
+  ],
+  "editorial_parent_audit": "v47_SECTION_ORDER_AUDIT.json; sealed v47 remains immutable and v48 repairs only cumulative order.",
+  "status": "PASS_SOURCE_CONTEXT_TYPED"
+}

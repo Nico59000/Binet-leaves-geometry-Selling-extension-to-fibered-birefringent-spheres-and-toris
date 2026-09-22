@@ -1,0 +1,123 @@
+{
+  "version": "v48",
+  "status": "PASS",
+  "pdf_pages": 254,
+  "renderer": "pdfium via render_pdf.py at 60 dpi",
+  "all_pages_rendered": true,
+  "automated_render_scan": {
+    "pages": 254,
+    "flags": [],
+    "min_ink": 0.04101532270546355,
+    "max_dark": 0.012596949216667527,
+    "max_border_dark": 0.0,
+    "status": "PASS"
+  },
+  "visual_contact_sheets": [
+    "contact_203_214.jpg",
+    "contact_233_244.jpg",
+    "contact_245_254.jpg"
+  ],
+  "visual_inspection": "PASS: no clipping/overlap/black squares/broken glyphs observed; page 210 fix retained; bibliography visibly final on pages 252-254",
+  "latex_overfull_count": 0,
+  "canonicalization_selected_page_parity": {
+    "dpi": 80,
+    "pages": [
+      1,
+      210,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254
+    ],
+    "results": [
+      {
+        "page": 1,
+        "identical": true
+      },
+      {
+        "page": 210,
+        "identical": true
+      },
+      {
+        "page": 239,
+        "identical": true
+      },
+      {
+        "page": 240,
+        "identical": true
+      },
+      {
+        "page": 241,
+        "identical": true
+      },
+      {
+        "page": 242,
+        "identical": true
+      },
+      {
+        "page": 243,
+        "identical": true
+      },
+      {
+        "page": 244,
+        "identical": true
+      },
+      {
+        "page": 245,
+        "identical": true
+      },
+      {
+        "page": 246,
+        "identical": true
+      },
+      {
+        "page": 247,
+        "identical": true
+      },
+      {
+        "page": 248,
+        "identical": true
+      },
+      {
+        "page": 249,
+        "identical": true
+      },
+      {
+        "page": 250,
+        "identical": true
+      },
+      {
+        "page": 251,
+        "identical": true
+      },
+      {
+        "page": 252,
+        "identical": true
+      },
+      {
+        "page": 253,
+        "identical": true
+      },
+      {
+        "page": 254,
+        "identical": true
+      }
+    ],
+    "status": "PASS"
+  },
+  "section_order_audit": "PASS",
+  "bibliography_physically_final": true,
+  "preflight_file": "v48_pdf_preflight.txt"
+}

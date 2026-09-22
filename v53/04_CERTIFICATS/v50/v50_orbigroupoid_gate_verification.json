@@ -1,0 +1,75 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "check_count": 25,
+  "pass_count": 25,
+  "checks": {
+    "primal_regular_62_123_62": true,
+    "primal_boundary_squared_zero": true,
+    "dual_62_objects_123_arrows": true,
+    "arrow_types_102_16_5": true,
+    "links_62": true,
+    "link_cycle_counts_34_28": true,
+    "cochain_status": true,
+    "binet_dims_62_107_37": true,
+    "ad_dims_186_348_174": true,
+    "binet_d1d0": true,
+    "ad_d1d0": true,
+    "cohomology_locked": true,
+    "strict_F29_refuted_typed": true,
+    "strict_arrow_count_111_123": true,
+    "strict_link_count_59_62": true,
+    "witness_118_nontrivial_U": true,
+    "right_action_free": true,
+    "repair_42_objects": true,
+    "repair_all_arrows_close": true,
+    "repair_all_links_close": true,
+    "stack_repair_status": true,
+    "stack_link_hist_59_1_1_1": true,
+    "stack_all_62_fill": true,
+    "stack_841_basis": true,
+    "deterministic_replay_all_5": true
+  },
+  "script_runs": [
+    {
+      "script": "build_field_orbigroupoid_v50.py",
+      "returncode": 0,
+      "stdout_tail": "arrow counts {'MULTIWALL-ISOTROPY': 16, 'ORDINARY-CROSSING': 102, 'DECK-MIRROR-ISOTROPY': 5}\nd0 ranks {'Binet': 62, 'Ad': 186}\nBinet local dims Counter({1: 22, 0: 21, 2: 19})\nAd local dims Counter({3: 40, 4: 22})\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "extract_orbifold_links_v50.py",
+      "returncode": 0,
+      "stdout_tail": "-1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [36, 38, 40, 58, 56, 37]\nnontrivial 25 len [2] B 1 A [['-11', '-60', '0'], ['2', '11', '0'], ['0', '0', '-1']] edges [41, 42]\nnontrivial 26 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [46, 63, 47]\nnontrivial 28 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [51, 60, 52]\nnontrivial 31 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [56, 76, 57]\nnontrivial 32 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [58, 79, 59]\nnontrivial 35 len [6, 6] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [66, 88, 103, 90, 70, 67]\nnontrivial 36 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [65, 86, 66]\nnontrivial 40 len [2] B 1 A [['19', '60', '0'], ['-6', '-19', '0'], ['0', '0', '-1']] edges [73, 75]\nnontrivial 42 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [77, 97, 78]\nnontrivial 43 len [4] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [81, 82, 120, 82]\nnontrivial 44 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [84, 89, 85]\nnontrivial 47 len [4] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [90, 121, 90, 91]\nnontrivial 48 len [6] B 1 A [['11', '0', '-120'], ['-3', '-1', '30'], ['1', '0', '-11']] edges [91, 92, 105, 106, 105, 92]\nnontrivial 49 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [93, 105, 94]\nnontrivial 57 len [2] B 1 A [['-41', '-240', '-120'], ['8', '47', '24'], ['-2', '-12', '-7']] edges [111, 112]\nnontrivial 58 len [3, 3] B -1 A [['1', '0', '0'], ['0', '1', '0'], ['0', '0', '1']] edges [113, 115, 114]\nnontrivial 59 len [2] B -1 A [['-29', '-210', '-210'], ['6', '44', '45'], ['-2', '-15', '-16']] edges [116, 117]\nnontrivial 61 len [2] B -1 A [['29', '90', '-30'], ['-9', '-28', '9'], ['1', '3', '-2']] edges [108, 122]\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "build_orbifold_cochains_fast_v50.py",
+      "returncode": 0,
+      "stdout_tail": "PASS dims {'Binet': {'C0': 62, 'C1': 107, 'C2': 37}, 'Ad': {'C0': 186, 'C1': 348, 'C2': 174}}\nhist {'Binet': {1: 37, 0: 25}, 'Ad': {3: 56, 1: 6}}\nnnz 197 103 706 870\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "test_F29_field_functor_gate_v50.py",
+      "returncode": 0,
+      "stdout_tail": "strict arrows 111 /123; strict links 59 /62; quotient arrows 123 /123; quotient links 62 /62\nwitness {'edge': 118, 'kind': 'DECK-MIRROR-ISOTROPY', 'source': 38, 'target': 38, 'mod2_matrix': [[1, 0, 0], [0, 0, 1], [0, 1, 0]], 'shortest_S_word': ['S3', 'S6'], 'strict_F29_endpoint': False, 'V4_endpoint_witness': 'U', 'quotient42_endpoint': True}\nlink V4 closures Counter({'I': 59, 'TU': 1, 'T': 1, 'U': 1})\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_F29_V4_stack_repair_v50.py",
+      "returncode": 0,
+      "stdout_tail": "PASS {'I': 59, 'TU': 1, 'T': 1, 'U': 1} fill cells total 282 max 14\n",
+      "stderr_tail": ""
+    }
+  ],
+  "sha256": {
+    "selling_field_orbigroupoid_v50.json": "645e42f6ac3b4be1992db65524037289407e685b046c3cba3e0e7547c3d8f587",
+    "selling_orbifold_links_v50.json": "5bc7ddbdbf2004bd745674be481ec903a9c37d8cffaf75a0e5270344ef120e27",
+    "selling_field_orbifold_cochains_v50.json": "af0f2f84c6dc770b920208f65a620c8aafd48d5d0d01ed96d9b1b5dfe37f283c",
+    "selling_F29_field_functor_gate_v50.json": "c8f5f81b2e6eae9e6a85cc710b3f31a51ae30518068d2624a17101cdeec60962",
+    "selling_F29_V4_stack_repair_v50.json": "d44563362832aeaae2b23112d7bc040b29fbd4ef0c06916c296b13186edb2932"
+  },
+  "deterministic_replay": true,
+  "cohomology_gate": "LOCKED because strict F_Sell^field -> F29_can is REFUTED-TYPED; repaired [F29_can/V4] target is a distinct typed object."
+}

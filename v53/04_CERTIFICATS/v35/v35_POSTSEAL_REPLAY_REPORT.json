@@ -1,0 +1,14 @@
+{
+  "phase": "v35",
+  "status": "PASS_BYTE_IDENTICAL",
+  "bundle_sha256": "3c407861bbfc8fb3b7086c76d0cc94e39bffa307a9ff7f1cebae60daec86bdc6",
+  "manifest_pre_extract": "PASS_ALL",
+  "verifier": "PASS_175_OF_175",
+  "manifest_post_verifier": "PASS_ALL",
+  "latex_fresh_passes": 3,
+  "source_date_epoch": 1789756500,
+  "rebuilt_pdf_sha256": "21ef3b57d4c777a42780155ff48563bd37f95df51459f0604b36c4ed9c0da962",
+  "sealed_pdf_sha256": "21ef3b57d4c777a42780155ff48563bd37f95df51459f0604b36c4ed9c0da962",
+  "byte_identical": true,
+  "fragmentation": "NOT_TRIGGERED_BELOW_200MiB"
+}

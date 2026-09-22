@@ -1,0 +1,20 @@
+{
+  "version": "v45",
+  "status": "PASS",
+  "guards": {
+    "append_only_v44": true,
+    "axis_detector_diagnostic_only": true,
+    "seven_not_promoted_to_six": true,
+    "C2_89_fail_closed": true,
+    "H12_not_recomputed": true,
+    "higher_gamma_scope_bounded": true,
+    "M43_not_declared_complete": true,
+    "Singer_stays_separated": true,
+    "R5_strict_adapter_refuted_typed_retained": true,
+    "opposite_variance_retained": true,
+    "roof_transpose_refuted_typed_retained": true,
+    "physical_phase_separated": true
+  },
+  "key_typing": "Seven BSB-supported dotted traces are a geometric diagnostic set; the source-certified historical object is a six-element external-axis system whose subset/order remains NT.",
+  "no_go": "The v45 source binding attempt closes fail-closed because 7 diagnostic traces do not canonically determine the 6 historical external axes."
+}

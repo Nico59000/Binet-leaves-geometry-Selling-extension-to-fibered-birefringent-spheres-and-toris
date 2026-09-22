@@ -1,0 +1,80 @@
+{
+  "formal_context_document_count": 9,
+  "formal_context_documents": [
+    {
+      "byte_comparison_status": "BYTE-DIFFERENT-SAME-NAMED-SOURCE-REQUIRES-NO-SILENT-SUBSTITUTION",
+      "sha256": "886dac000f876e871560464c09249235204b3d38ca9b7d0f6c1f76712c6e248a",
+      "title": "addendum_sqrt3_hypergeometric_quarterturn_selling_fano_v2_2_hal.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "78cb53f9d910fb429a5bccc9be8f150426b5171d3f1f021a04c8c5d5b1c3ebb5",
+      "title": "Annexe-Heyting-besteod-v5-nt-Semantique-Nf-nt-Interne-externe.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "b5679a84441634c30281353d244920d5fdf7c03bc33fb74c3f4ed1f8c1f9c1f1",
+      "title": "heyting_besteod_htnt_master_hal_v1.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "2f2e9da0ca623a2c55b2850323214eb989d327f418e8b239711901a55f0e7096",
+      "title": "Heyting-Besteod-V5\u2014Fusion-V3.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "a2da5c412be65df212cd7fb653b41a78e1c1e2939700e252c97253ef322bd259",
+      "title": "htnt_functional_logic_addendum.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "d025bf14b7249d4705caf8b0285619a21bab074964fa28cd04bb944cf4a85c10",
+      "title": "pochhammer_shifted_factorial_ternary_roof_hal_v1.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "c84375309edda604746c74e2c240acf0dd913346c3afbfc196f1773bdfcdb1db",
+      "title": "polydivisible_hyperplane_roof_elliptic_selling_progression_v4_3_hal.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "fd505d01e61d916d5a1f39e8bf0327c891366122794e7d383fc325f942054fdb",
+      "title": "positional_reversal_mixed_ternary_hal_v1_1.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "c21762f07d4da95f756d517b70c3c38e540bfc69f4f18886400f3fdc898c1034",
+      "title": "roof_five_slice_four_interface_ternary_frames_hal_v1.pdf"
+    }
+  ],
+  "formal_context_status": "PASS-FORMAL-CONTEXT-LOCK",
+  "guard": "Formal-context documents govern typing/status methodology; they do not silently promote source-specific claims. Byte-different same-named sources remain explicitly distinguished.",
+  "predecessor": "v50 CLOSED/APPEND-ONLY",
+  "predecessor_artifacts": {
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v50.pdf": {
+      "authority": "SEALED_V50_BUNDLE_MEMBER",
+      "bytes": 2394762,
+      "sha256": "cfcf7d8692c30a39920f05592de1572c38f00c15f4c02589f5a20cef6cd3fa93"
+    },
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v50.tex": {
+      "bytes": 744095,
+      "sha256": "d2b8847e9301ba566a4accb9feb515ef13ba5e47a2945cba945e15bbdd539e20"
+    },
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v50_bundle.zip": {
+      "authority": "SEALED_PREDECESSOR_BUNDLE",
+      "bytes": 68277732,
+      "sha256": "6a947feb476fd4cd6cdb6f0a390e8fe9bf4e7df1a997b44b189b3dd37aaa210c"
+    },
+    "v50_ATOMIC_COMPLETION_TOKEN.json": {
+      "bytes": 2407,
+      "sha256": "e2166b954ad4f24f731354866981e325cabc32b22edf2f19c4bb9ec2d0cb5f5c"
+    }
+  },
+  "provenance_correction": "The sealed v50 bundle member is authoritative for predecessor PDF bytes; an isolated out-of-bundle v50 PDF copy with a different hash is not substituted into the append-only chain.",
+  "source_primary": {
+    "Tafel-III-fig1.jpg": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+    "selling_fig1_photo_crop_v38.png": "f7eaed859be572a69c0933ef940603062c9d2e2b100ddce813f3ac0a9e14c4a6"
+  },
+  "status": "PASS",
+  "version": "v51"
+}

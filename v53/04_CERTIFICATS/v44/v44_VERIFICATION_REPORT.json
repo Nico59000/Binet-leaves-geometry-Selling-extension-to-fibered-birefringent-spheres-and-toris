@@ -1,0 +1,9 @@
+{
+  "combined_checks": 7917,
+  "failed": [],
+  "new_checks": 351,
+  "new_passed": 351,
+  "predecessor_checks": 7566,
+  "status": "PASS",
+  "version": "v44"
+}

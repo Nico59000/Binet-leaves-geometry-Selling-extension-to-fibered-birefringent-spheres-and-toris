@@ -1,0 +1,1825 @@
+{
+  "version": "v52",
+  "phase": "final-Fig1-gate",
+  "status": "PASS-HISTORICAL-FIG1-123/123",
+  "input_old_checkpoint": {
+    "bsb_positive_plus_HAX_count": 53,
+    "source_exact_closure_count": 117,
+    "residual_edges_before_P084": [
+      34,
+      53,
+      54,
+      78,
+      96,
+      97
+    ]
+  },
+  "source_rules": {
+    "same_factor": "At a common exact source vertex, equal normalized exact implicit factor continues the same source boundary carrier.",
+    "unique_link": "In the exact regular source link, once every incident edge except one has historical incidence, the remaining labelled incidence is forced.",
+    "guard": "These rules transport already source-typed v50 incidences only; they do not infer a new edge from raster morphology."
+  },
+  "preseed_closure_trace": [
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        9,
+        12,
+        29,
+        37,
+        38,
+        39,
+        44,
+        47,
+        51,
+        55,
+        56,
+        58,
+        65,
+        66,
+        69,
+        70,
+        86,
+        88,
+        104,
+        113
+      ],
+      "witnesses": [
+        {
+          "new": 12,
+          "from": 0,
+          "vertex": 0,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 9,
+          "from": 13,
+          "vertex": 6,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 44,
+          "from": 13,
+          "vertex": 8,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 56,
+          "from": 19,
+          "vertex": 12,
+          "factor": "2*q + 1"
+        },
+        {
+          "new": 37,
+          "from": 33,
+          "vertex": 12,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 29,
+          "from": 68,
+          "vertex": 18,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 38,
+          "from": 80,
+          "vertex": 23,
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "new": 39,
+          "from": 82,
+          "vertex": 23,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 58,
+          "from": 61,
+          "vertex": 23,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "new": 47,
+          "from": 85,
+          "vertex": 27,
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        },
+        {
+          "new": 51,
+          "from": 90,
+          "vertex": 29,
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "new": 70,
+          "from": 72,
+          "vertex": 29,
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "new": 55,
+          "from": 75,
+          "vertex": 30,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 65,
+          "from": 91,
+          "vertex": 35,
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "new": 66,
+          "from": 102,
+          "vertex": 35,
+          "factor": "q - r"
+        },
+        {
+          "new": 69,
+          "from": 87,
+          "vertex": 37,
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "new": 86,
+          "from": 89,
+          "vertex": 37,
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "new": 113,
+          "from": 87,
+          "vertex": 46,
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "new": 88,
+          "from": 110,
+          "vertex": 46,
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "new": 104,
+          "from": 103,
+          "vertex": 46,
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        1,
+        11,
+        21,
+        60,
+        67,
+        84,
+        94,
+        95,
+        99
+      ],
+      "witnesses": [
+        {
+          "new": 1,
+          "vertex": 1,
+          "full_link": [
+            1,
+            2,
+            5
+          ],
+          "already_resolved": [
+            2,
+            5
+          ]
+        },
+        {
+          "new": 11,
+          "vertex": 5,
+          "full_link": [
+            4,
+            5,
+            11,
+            20
+          ],
+          "already_resolved": [
+            4,
+            5,
+            20
+          ]
+        },
+        {
+          "new": 21,
+          "vertex": 12,
+          "full_link": [
+            19,
+            21,
+            33,
+            37,
+            55,
+            56
+          ],
+          "already_resolved": [
+            19,
+            33,
+            37,
+            55,
+            56
+          ]
+        },
+        {
+          "new": 60,
+          "vertex": 33,
+          "full_link": [
+            60,
+            61,
+            71,
+            81
+          ],
+          "already_resolved": [
+            61,
+            71,
+            81
+          ]
+        },
+        {
+          "new": 67,
+          "vertex": 36,
+          "full_link": [
+            65,
+            67,
+            86
+          ],
+          "already_resolved": [
+            65,
+            86
+          ]
+        },
+        {
+          "new": 84,
+          "vertex": 44,
+          "full_link": [
+            84,
+            85,
+            89
+          ],
+          "already_resolved": [
+            85,
+            89
+          ]
+        },
+        {
+          "new": 94,
+          "vertex": 49,
+          "full_link": [
+            93,
+            94,
+            105
+          ],
+          "already_resolved": [
+            93,
+            105
+          ]
+        },
+        {
+          "new": 95,
+          "vertex": 39,
+          "full_link": [
+            73,
+            75,
+            95,
+            108
+          ],
+          "already_resolved": [
+            73,
+            75,
+            108
+          ]
+        },
+        {
+          "new": 99,
+          "vertex": 51,
+          "full_link": [
+            99,
+            100,
+            104
+          ],
+          "already_resolved": [
+            100,
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        6,
+        16,
+        18,
+        23,
+        28,
+        30,
+        46,
+        50
+      ],
+      "witnesses": [
+        {
+          "new": 16,
+          "from": 1,
+          "vertex": 0,
+          "factor": "q"
+        },
+        {
+          "new": 6,
+          "from": 9,
+          "vertex": 0,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 23,
+          "from": 11,
+          "vertex": 7,
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        },
+        {
+          "new": 18,
+          "from": 38,
+          "vertex": 10,
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "new": 28,
+          "from": 67,
+          "vertex": 18,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 30,
+          "from": 66,
+          "vertex": 19,
+          "factor": "q - r"
+        },
+        {
+          "new": 46,
+          "from": 69,
+          "vertex": 27,
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "new": 50,
+          "from": 94,
+          "vertex": 29,
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        10,
+        17,
+        27,
+        52,
+        98
+      ],
+      "witnesses": [
+        {
+          "new": 10,
+          "vertex": 4,
+          "full_link": [
+            4,
+            6,
+            10
+          ],
+          "already_resolved": [
+            4,
+            6
+          ]
+        },
+        {
+          "new": 17,
+          "vertex": 11,
+          "full_link": [
+            17,
+            18,
+            30
+          ],
+          "already_resolved": [
+            18,
+            30
+          ]
+        },
+        {
+          "new": 27,
+          "vertex": 17,
+          "full_link": [
+            27,
+            28,
+            47
+          ],
+          "already_resolved": [
+            28,
+            47
+          ]
+        },
+        {
+          "new": 52,
+          "vertex": 28,
+          "full_link": [
+            51,
+            52,
+            60
+          ],
+          "already_resolved": [
+            51,
+            60
+          ]
+        },
+        {
+          "new": 98,
+          "vertex": 45,
+          "full_link": [
+            83,
+            84,
+            98,
+            111
+          ],
+          "already_resolved": [
+            83,
+            84,
+            111
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        7,
+        25,
+        32,
+        36
+      ],
+      "witnesses": [
+        {
+          "new": 7,
+          "from": 17,
+          "vertex": 6,
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "new": 36,
+          "from": 10,
+          "vertex": 7,
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "new": 25,
+          "from": 27,
+          "vertex": 8,
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        },
+        {
+          "new": 32,
+          "from": 50,
+          "vertex": 19,
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        3,
+        24,
+        26
+      ],
+      "witnesses": [
+        {
+          "new": 3,
+          "vertex": 3,
+          "full_link": [
+            2,
+            3,
+            7,
+            14
+          ],
+          "already_resolved": [
+            2,
+            7,
+            14
+          ]
+        },
+        {
+          "new": 24,
+          "vertex": 15,
+          "full_link": [
+            24,
+            25,
+            41
+          ],
+          "already_resolved": [
+            25,
+            41
+          ]
+        },
+        {
+          "new": 26,
+          "vertex": 16,
+          "full_link": [
+            26,
+            29,
+            32
+          ],
+          "already_resolved": [
+            29,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        8,
+        59
+      ],
+      "witnesses": [
+        {
+          "new": 8,
+          "from": 26,
+          "vertex": 6,
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        },
+        {
+          "new": 59,
+          "from": 36,
+          "vertex": 22,
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        15,
+        79
+      ],
+      "witnesses": [
+        {
+          "new": 15,
+          "vertex": 9,
+          "full_link": [
+            14,
+            15,
+            24,
+            42
+          ],
+          "already_resolved": [
+            14,
+            24,
+            42
+          ]
+        },
+        {
+          "new": 79,
+          "vertex": 32,
+          "full_link": [
+            58,
+            59,
+            79
+          ],
+          "already_resolved": [
+            58,
+            59
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        45
+      ],
+      "witnesses": [
+        {
+          "new": 45,
+          "from": 15,
+          "vertex": 8,
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        63
+      ],
+      "witnesses": [
+        {
+          "new": 63,
+          "vertex": 26,
+          "full_link": [
+            45,
+            46,
+            63
+          ],
+          "already_resolved": [
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        64
+      ],
+      "witnesses": [
+        {
+          "new": 64,
+          "vertex": 34,
+          "full_link": [
+            62,
+            63,
+            64,
+            83
+          ],
+          "already_resolved": [
+            62,
+            63,
+            83
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        49
+      ],
+      "witnesses": [
+        {
+          "new": 49,
+          "from": 64,
+          "vertex": 27,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        48
+      ],
+      "witnesses": [
+        {
+          "new": 48,
+          "vertex": 18,
+          "full_link": [
+            28,
+            29,
+            48,
+            49,
+            67,
+            68
+          ],
+          "already_resolved": [
+            28,
+            29,
+            49,
+            67,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        31
+      ],
+      "witnesses": [
+        {
+          "new": 31,
+          "from": 48,
+          "vertex": 19,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        22
+      ],
+      "witnesses": [
+        {
+          "new": 22,
+          "vertex": 10,
+          "full_link": [
+            16,
+            18,
+            22,
+            31,
+            38,
+            52
+          ],
+          "already_resolved": [
+            16,
+            18,
+            31,
+            38,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        40
+      ],
+      "witnesses": [
+        {
+          "new": 40,
+          "vertex": 14,
+          "full_link": [
+            22,
+            23,
+            40
+          ],
+          "already_resolved": [
+            22,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        57
+      ],
+      "witnesses": [
+        {
+          "new": 57,
+          "from": 40,
+          "vertex": 22,
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        76
+      ],
+      "witnesses": [
+        {
+          "new": 76,
+          "vertex": 31,
+          "full_link": [
+            56,
+            57,
+            76
+          ],
+          "already_resolved": [
+            56,
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        77
+      ],
+      "witnesses": [
+        {
+          "new": 77,
+          "vertex": 41,
+          "full_link": [
+            76,
+            77,
+            79,
+            118,
+            119
+          ],
+          "already_resolved": [
+            76,
+            79,
+            118,
+            119
+          ]
+        }
+      ]
+    }
+  ],
+  "final_exact_base_count": 54,
+  "final_exact_closure_trace": [
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        9,
+        12,
+        29,
+        37,
+        38,
+        39,
+        44,
+        51,
+        53,
+        54,
+        55,
+        56,
+        58,
+        65,
+        66,
+        70,
+        86,
+        88,
+        104
+      ],
+      "witnesses": [
+        {
+          "new": 12,
+          "from": 0,
+          "vertex": 0,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 9,
+          "from": 13,
+          "vertex": 6,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 44,
+          "from": 13,
+          "vertex": 8,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 56,
+          "from": 19,
+          "vertex": 12,
+          "factor": "2*q + 1"
+        },
+        {
+          "new": 37,
+          "from": 33,
+          "vertex": 12,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 29,
+          "from": 68,
+          "vertex": 18,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 38,
+          "from": 80,
+          "vertex": 23,
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "new": 39,
+          "from": 82,
+          "vertex": 23,
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 58,
+          "from": 61,
+          "vertex": 23,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "new": 51,
+          "from": 90,
+          "vertex": 29,
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "new": 70,
+          "from": 72,
+          "vertex": 29,
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "new": 53,
+          "from": 96,
+          "vertex": 30,
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        },
+        {
+          "new": 54,
+          "from": 78,
+          "vertex": 30,
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "new": 55,
+          "from": 75,
+          "vertex": 30,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 65,
+          "from": 91,
+          "vertex": 35,
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "new": 66,
+          "from": 102,
+          "vertex": 35,
+          "factor": "q - r"
+        },
+        {
+          "new": 86,
+          "from": 89,
+          "vertex": 37,
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "new": 88,
+          "from": 110,
+          "vertex": 46,
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "new": 104,
+          "from": 103,
+          "vertex": 46,
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        1,
+        11,
+        21,
+        34,
+        60,
+        67,
+        77,
+        94,
+        95,
+        99,
+        113
+      ],
+      "witnesses": [
+        {
+          "new": 1,
+          "vertex": 1,
+          "full_link": [
+            1,
+            2,
+            5
+          ],
+          "already_resolved": [
+            2,
+            5
+          ]
+        },
+        {
+          "new": 11,
+          "vertex": 5,
+          "full_link": [
+            4,
+            5,
+            11,
+            20
+          ],
+          "already_resolved": [
+            4,
+            5,
+            20
+          ]
+        },
+        {
+          "new": 21,
+          "vertex": 12,
+          "full_link": [
+            19,
+            21,
+            33,
+            37,
+            55,
+            56
+          ],
+          "already_resolved": [
+            19,
+            33,
+            37,
+            55,
+            56
+          ]
+        },
+        {
+          "new": 34,
+          "vertex": 20,
+          "full_link": [
+            33,
+            34,
+            53
+          ],
+          "already_resolved": [
+            33,
+            53
+          ]
+        },
+        {
+          "new": 60,
+          "vertex": 33,
+          "full_link": [
+            60,
+            61,
+            71,
+            81
+          ],
+          "already_resolved": [
+            61,
+            71,
+            81
+          ]
+        },
+        {
+          "new": 67,
+          "vertex": 36,
+          "full_link": [
+            65,
+            67,
+            86
+          ],
+          "already_resolved": [
+            65,
+            86
+          ]
+        },
+        {
+          "new": 77,
+          "vertex": 42,
+          "full_link": [
+            77,
+            78,
+            97
+          ],
+          "already_resolved": [
+            78,
+            97
+          ]
+        },
+        {
+          "new": 94,
+          "vertex": 49,
+          "full_link": [
+            93,
+            94,
+            105
+          ],
+          "already_resolved": [
+            93,
+            105
+          ]
+        },
+        {
+          "new": 95,
+          "vertex": 50,
+          "full_link": [
+            95,
+            96,
+            97,
+            119,
+            122
+          ],
+          "already_resolved": [
+            96,
+            97,
+            119,
+            122
+          ]
+        },
+        {
+          "new": 99,
+          "vertex": 51,
+          "full_link": [
+            99,
+            100,
+            104
+          ],
+          "already_resolved": [
+            100,
+            104
+          ]
+        },
+        {
+          "new": 113,
+          "vertex": 58,
+          "full_link": [
+            113,
+            114,
+            115
+          ],
+          "already_resolved": [
+            114,
+            115
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        6,
+        16,
+        18,
+        23,
+        28,
+        30,
+        50,
+        87
+      ],
+      "witnesses": [
+        {
+          "new": 16,
+          "from": 1,
+          "vertex": 0,
+          "factor": "q"
+        },
+        {
+          "new": 6,
+          "from": 9,
+          "vertex": 0,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "new": 23,
+          "from": 11,
+          "vertex": 7,
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        },
+        {
+          "new": 18,
+          "from": 38,
+          "vertex": 10,
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "new": 28,
+          "from": 67,
+          "vertex": 18,
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "new": 30,
+          "from": 66,
+          "vertex": 19,
+          "factor": "q - r"
+        },
+        {
+          "new": 50,
+          "from": 94,
+          "vertex": 29,
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "new": 87,
+          "from": 113,
+          "vertex": 46,
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        10,
+        17,
+        52,
+        69,
+        98
+      ],
+      "witnesses": [
+        {
+          "new": 10,
+          "vertex": 4,
+          "full_link": [
+            4,
+            6,
+            10
+          ],
+          "already_resolved": [
+            4,
+            6
+          ]
+        },
+        {
+          "new": 17,
+          "vertex": 11,
+          "full_link": [
+            17,
+            18,
+            30
+          ],
+          "already_resolved": [
+            18,
+            30
+          ]
+        },
+        {
+          "new": 52,
+          "vertex": 28,
+          "full_link": [
+            51,
+            52,
+            60
+          ],
+          "already_resolved": [
+            51,
+            60
+          ]
+        },
+        {
+          "new": 69,
+          "vertex": 37,
+          "full_link": [
+            68,
+            69,
+            86,
+            87,
+            89,
+            100
+          ],
+          "already_resolved": [
+            68,
+            86,
+            87,
+            89,
+            100
+          ]
+        },
+        {
+          "new": 98,
+          "vertex": 52,
+          "full_link": [
+            98,
+            99,
+            109,
+            112
+          ],
+          "already_resolved": [
+            99,
+            109,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        7,
+        32,
+        36,
+        46
+      ],
+      "witnesses": [
+        {
+          "new": 7,
+          "from": 17,
+          "vertex": 6,
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "new": 36,
+          "from": 10,
+          "vertex": 7,
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "new": 32,
+          "from": 50,
+          "vertex": 19,
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "new": 46,
+          "from": 69,
+          "vertex": 27,
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        3,
+        26,
+        84
+      ],
+      "witnesses": [
+        {
+          "new": 3,
+          "vertex": 3,
+          "full_link": [
+            2,
+            3,
+            7,
+            14
+          ],
+          "already_resolved": [
+            2,
+            7,
+            14
+          ]
+        },
+        {
+          "new": 26,
+          "vertex": 16,
+          "full_link": [
+            26,
+            29,
+            32
+          ],
+          "already_resolved": [
+            29,
+            32
+          ]
+        },
+        {
+          "new": 84,
+          "vertex": 45,
+          "full_link": [
+            83,
+            84,
+            98,
+            111
+          ],
+          "already_resolved": [
+            83,
+            98,
+            111
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        8,
+        59
+      ],
+      "witnesses": [
+        {
+          "new": 8,
+          "from": 26,
+          "vertex": 6,
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        },
+        {
+          "new": 59,
+          "from": 36,
+          "vertex": 22,
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        79,
+        85
+      ],
+      "witnesses": [
+        {
+          "new": 79,
+          "vertex": 32,
+          "full_link": [
+            58,
+            59,
+            79
+          ],
+          "already_resolved": [
+            58,
+            59
+          ]
+        },
+        {
+          "new": 85,
+          "vertex": 44,
+          "full_link": [
+            84,
+            85,
+            89
+          ],
+          "already_resolved": [
+            84,
+            89
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        47
+      ],
+      "witnesses": [
+        {
+          "new": 47,
+          "from": 85,
+          "vertex": 27,
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        27,
+        76
+      ],
+      "witnesses": [
+        {
+          "new": 27,
+          "vertex": 17,
+          "full_link": [
+            27,
+            28,
+            47
+          ],
+          "already_resolved": [
+            28,
+            47
+          ]
+        },
+        {
+          "new": 76,
+          "vertex": 41,
+          "full_link": [
+            76,
+            77,
+            79,
+            118,
+            119
+          ],
+          "already_resolved": [
+            77,
+            79,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        25
+      ],
+      "witnesses": [
+        {
+          "new": 25,
+          "from": 27,
+          "vertex": 8,
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        24,
+        57
+      ],
+      "witnesses": [
+        {
+          "new": 24,
+          "vertex": 15,
+          "full_link": [
+            24,
+            25,
+            41
+          ],
+          "already_resolved": [
+            25,
+            41
+          ]
+        },
+        {
+          "new": 57,
+          "vertex": 31,
+          "full_link": [
+            56,
+            57,
+            76
+          ],
+          "already_resolved": [
+            56,
+            76
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        40
+      ],
+      "witnesses": [
+        {
+          "new": 40,
+          "from": 57,
+          "vertex": 22,
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        15,
+        22
+      ],
+      "witnesses": [
+        {
+          "new": 15,
+          "vertex": 9,
+          "full_link": [
+            14,
+            15,
+            24,
+            42
+          ],
+          "already_resolved": [
+            14,
+            24,
+            42
+          ]
+        },
+        {
+          "new": 22,
+          "vertex": 14,
+          "full_link": [
+            22,
+            23,
+            40
+          ],
+          "already_resolved": [
+            23,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        31,
+        45
+      ],
+      "witnesses": [
+        {
+          "new": 45,
+          "from": 15,
+          "vertex": 8,
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "new": 31,
+          "from": 22,
+          "vertex": 10,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        48,
+        63
+      ],
+      "witnesses": [
+        {
+          "new": 48,
+          "vertex": 19,
+          "full_link": [
+            30,
+            31,
+            32,
+            48,
+            50,
+            66
+          ],
+          "already_resolved": [
+            30,
+            31,
+            32,
+            50,
+            66
+          ]
+        },
+        {
+          "new": 63,
+          "vertex": 26,
+          "full_link": [
+            45,
+            46,
+            63
+          ],
+          "already_resolved": [
+            45,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        49
+      ],
+      "witnesses": [
+        {
+          "new": 49,
+          "from": 48,
+          "vertex": 18,
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        64
+      ],
+      "witnesses": [
+        {
+          "new": 64,
+          "vertex": 34,
+          "full_link": [
+            62,
+            63,
+            64,
+            83
+          ],
+          "already_resolved": [
+            62,
+            63,
+            83
+          ]
+        }
+      ]
+    }
+  ],
+  "P084_exact_seed": {
+    "edge": 96,
+    "status": "STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT",
+    "geom_support_eps": 0.8333333333333334,
+    "dark_support_eps": 0.8782051282051282,
+    "P084_support_eps": 0.8205128205128205,
+    "certificate": "selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json"
+  },
+  "seed_closure_trace": [
+    {
+      "rule": "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+      "new_edges": [
+        53
+      ],
+      "witnesses": [
+        {
+          "new": 53,
+          "from": 96,
+          "vertex": 30,
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        34,
+        97
+      ],
+      "witnesses": [
+        {
+          "new": 34,
+          "vertex": 20,
+          "full_link": [
+            33,
+            34,
+            53
+          ],
+          "already_resolved": [
+            33,
+            53
+          ]
+        },
+        {
+          "new": 97,
+          "vertex": 50,
+          "full_link": [
+            95,
+            96,
+            97,
+            119,
+            122
+          ],
+          "already_resolved": [
+            95,
+            96,
+            119,
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "rule": "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+      "new_edges": [
+        54,
+        78
+      ],
+      "witnesses": [
+        {
+          "new": 54,
+          "vertex": 21,
+          "full_link": [
+            34,
+            35,
+            54,
+            74
+          ],
+          "already_resolved": [
+            34,
+            35,
+            74
+          ]
+        },
+        {
+          "new": 78,
+          "vertex": 42,
+          "full_link": [
+            77,
+            78,
+            97
+          ],
+          "already_resolved": [
+            77,
+            97
+          ]
+        }
+      ]
+    }
+  ],
+  "seed_implication": {
+    "statement": "e96 => {e53,e34,e97,e54,e78} by exact source propagation",
+    "new_edges": [
+      34,
+      53,
+      54,
+      78,
+      97
+    ],
+    "compact_trace": [
+      [
+        "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+        [
+          53
+        ]
+      ],
+      [
+        "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+        [
+          34,
+          97
+        ]
+      ],
+      [
+        "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+        [
+          54,
+          78
+        ]
+      ]
+    ]
+  },
+  "final": {
+    "historical_edge_orbits_proven": 123,
+    "historical_edge_orbits_total": 123,
+    "remaining_NT": 0,
+    "promotion": "PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION"
+  },
+  "provenance_csv": "selling_fig1_final_123_historical_incidence_v52.csv",
+  "guard": "BSB-P084 supplies only the e96 seed through the one global exact triangulated realization. The other residual incidences are source-exact consequences. Partial BSB support on e78/e97 is retained as corroborating provenance, not used as the logical seed."
+}

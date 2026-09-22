@@ -1,0 +1,249 @@
+{
+  "chi_replay": {
+    "b5_mod8_classes": 22240,
+    "decision": "PROVEN-GLOBAL-MOD8-DUAL-OBSTRUCTION / CHIRES14-RADIUS<=5-REFUTED-TYPED",
+    "degree_one_peeling": {
+      "core_equations": 856952,
+      "core_incidence": 3528672,
+      "core_rhs_one": 44,
+      "core_variables": 465651,
+      "max_active_degree": 22,
+      "min_active_degree": 2,
+      "peeled_equations": 99368
+    },
+    "fox_terms_total": 198,
+    "nontarget_verification_failures": 0,
+    "raw_equations": 956320,
+    "raw_incidence": 4403520,
+    "raw_solution_weight": 121219,
+    "raw_variables": 747196,
+    "raw_verification_failures": 0,
+    "relators": 43,
+    "status": "PASS",
+    "target_equations": 22240,
+    "target_verification_failures": 0,
+    "transport_order": "left multiplication h*p; relator-major then B5-class-major variable enumeration"
+  },
+  "combined_checks": 8619,
+  "direct_checks": [
+    {
+      "detail": null,
+      "name": "parent_v52_closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "parent_v52_bundle_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "parent_v52_verify_8583",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "parent_594_byte_exact",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "chi_compile",
+      "pass": true
+    },
+    {
+      "detail": "raw eq=956320 vars=747196 inc=4403520 target=22240 fail=0\ncore eq=856952 vars=465651 inc=3528672 rhs1=44 mindeg=2 maxdeg=22 peeled=99368\n",
+      "name": "chi_replay_returncode",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_raw_956320",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_raw_zero_fail",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_core_counts",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_core_fixed_point",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_solution_weight",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_solution_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_archived_core_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "chi_status_refuted_typed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "radius6_not_opened",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "selling_functor_replay",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "selling_functor_24",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "selling_counts",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "selling_no_cross_merge",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_has_v53",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_v53_before_certification",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_append_only_exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_safe_v54",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_retained_separations",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_context",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_rigor",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_qa_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_all_page_parity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_scan_no_flags",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "section_order",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "v53_printed_page_263",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tree_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tree_dirs",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tree_under_200MiB_preseal",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "industrial_and_frontier_direct_checks": 36,
+  "pdf_sha256": "7db8718e541fab2d9e3ecbb0660c585f348b768ab7deb944d8d164b76bf75f0c",
+  "predecessor_checks": 8583,
+  "selling_functor_replay": {
+    "checks": {
+      "all_endpoints_exist": true,
+      "all_five_adapters": true,
+      "all_five_figures": true,
+      "collision_2/7": true,
+      "collision_3/7": true,
+      "decision": true,
+      "fig2_compiler_pass": true,
+      "fig2_source_recipe": true,
+      "fig36_fusion_pass": true,
+      "morphism_count": true,
+      "morphism_ids_unique": true,
+      "no_cross_figure_morphism": true,
+      "no_fig1_import": true,
+      "numeric_seed_gap_typed": true,
+      "object_count": true,
+      "object_ids_unique": true,
+      "ordered_count": true,
+      "provenance_present": true,
+      "retained_3D5D": true,
+      "retained_Noether": true,
+      "retained_R2PURE": true,
+      "source_hash_fig2": true,
+      "source_hash_fig36": true,
+      "status": true
+    },
+    "passed": 24,
+    "status": "PASS",
+    "total": 24,
+    "version": "v53"
+  },
+  "status": "PASS",
+  "tex_sha256": "ba2a21715b00962d33e7ca7fe2a55c2928c7759b74d6aea659d04a7bb31b7f6a",
+  "version": "v53"
+}

@@ -1,0 +1,873 @@
+{
+  "version": "v40",
+  "stored_groupoid": {
+    "objects": 17,
+    "edges": 15,
+    "components": [
+      [
+        "K0",
+        "K1",
+        "K2",
+        "K3",
+        "K4"
+      ],
+      [
+        "P1",
+        "Q1",
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      [
+        "S0",
+        "S1",
+        "S2",
+        "S3"
+      ]
+    ],
+    "underlying_cycle_rank": 1
+  },
+  "variance_resolution": {
+    "v34_declared_covariant_adjoint_transport": "T_M(X)=M^{-1} X M",
+    "stored_arrow_path_matrix": "G(path)=M_1 M_2 ... M_r (right multiplication)",
+    "v39_edgewise_conjugation": "M X M^{-1} remains algebraically natural edgewise but is the opposite-variance action for the stored composition convention.",
+    "decision": "USE_V34_COVARIANT_TRANSPORT_FOR_PATH/COCYCLE_TESTS"
+  },
+  "roots": [
+    "K0",
+    "R0",
+    "S0"
+  ],
+  "root_choice": "J at each of R0,S0,K0; this is a declared gauge choice, not a source-selected Lorentz orientation.",
+  "object_sections": {
+    "K0": {
+      "path_labels": [],
+      "path_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "K1": {
+      "path_labels": [
+        "v29_S1"
+      ],
+      "path_matrix": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "K2": {
+      "path_labels": [
+        "v29_S1",
+        "v29_S2"
+      ],
+      "path_matrix": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "K3": {
+      "path_labels": [
+        "v29_S1",
+        "v29_S2",
+        "v29_S1"
+      ],
+      "path_matrix": [
+        [
+          -1,
+          -1,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          -2,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "K4": {
+      "path_labels": [
+        "kappa_12_deck"
+      ],
+      "path_matrix": [
+        [
+          1,
+          -2,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "P1": {
+      "path_labels": [
+        "P"
+      ],
+      "path_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          -3,
+          -4,
+          0
+        ]
+      ]
+    },
+    "Q1": {
+      "path_labels": [
+        "Q"
+      ],
+      "path_matrix": [
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          8
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          3,
+          0,
+          8
+        ],
+        [
+          0,
+          -2,
+          0
+        ]
+      ]
+    },
+    "R0": {
+      "path_labels": [],
+      "path_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "R1": {
+      "path_labels": [
+        "R1"
+      ],
+      "path_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "R2": {
+      "path_labels": [
+        "R1",
+        "R2"
+      ],
+      "path_matrix": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          -2,
+          0
+        ]
+      ]
+    },
+    "R3": {
+      "path_labels": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "path_matrix": [
+        [
+          -3,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ]
+    },
+    "R4": {
+      "path_labels": [
+        "R1",
+        "R2",
+        "R3",
+        "R4"
+      ],
+      "path_matrix": [
+        [
+          -4,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -3,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          -1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ]
+    },
+    "R5": {
+      "path_labels": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "path_matrix": [
+        [
+          -4,
+          0,
+          5
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -3,
+          0,
+          4
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          3,
+          0,
+          -4
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ]
+    },
+    "S0": {
+      "path_labels": [],
+      "path_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ]
+    },
+    "S1": {
+      "path_labels": [
+        "S1p"
+      ],
+      "path_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0
+        ]
+      ]
+    },
+    "S2": {
+      "path_labels": [
+        "S1p",
+        "S2p"
+      ],
+      "path_matrix": [
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0
+        ]
+      ]
+    },
+    "S3": {
+      "path_labels": [
+        "S1p",
+        "S2p",
+        "S3p"
+      ],
+      "path_matrix": [
+        [
+          -2,
+          1,
+          0
+        ],
+        [
+          -3,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "J_s": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -2
+        ],
+        [
+          -3,
+          2,
+          0
+        ]
+      ]
+    }
+  },
+  "edge_naturality": [
+    {
+      "label": "R1",
+      "source": "R0",
+      "target": "R1",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "R2",
+      "source": "R1",
+      "target": "R2",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "R3",
+      "source": "R2",
+      "target": "R3",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "R4",
+      "source": "R3",
+      "target": "R4",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "R5",
+      "source": "R4",
+      "target": "R5",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "S1p",
+      "source": "S0",
+      "target": "S1",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "S2p",
+      "source": "S1",
+      "target": "S2",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "S3p",
+      "source": "S2",
+      "target": "S3",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "v29_S1",
+      "source": "K0",
+      "target": "K1",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "v29_S2",
+      "source": "K1",
+      "target": "K2",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "v29_S1",
+      "source": "K2",
+      "target": "K3",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "v29_S2",
+      "source": "K3",
+      "target": "K4",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "P",
+      "source": "R0",
+      "target": "P1",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "Q",
+      "source": "R0",
+      "target": "Q1",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    },
+    {
+      "label": "kappa_12_deck",
+      "source": "K0",
+      "target": "K4",
+      "exact_covariant_transport": true,
+      "tower_k1_12": true,
+      "mod2": true
+    }
+  ],
+  "path_independence": {
+    "only_non_tree_comparator": "K0->K1->K2->K3->K4 versus kappa_12_deck",
+    "right_product_equals_deck": true,
+    "v34_covariant_J_section_exact": true,
+    "v39_left_conjugation_if_used_covariantly_exact": false,
+    "v39_left_conjugation_mod2_shadow": true,
+    "v39_left_conjugation_projective_levels_k1_12": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "tower": "PROVEN_COMPATIBLE_FOR_K1_12_AND_FORMALLY_ALL_K_BY_INTEGER_REDUCTION",
+  "section_status": "PROVEN_OBJECT_VARYING_NATURAL_SECTION_ON_15_EDGE_WITNESS_AFTER_ROOT_GAUGE_CHOICES",
+  "canonical_orientation": "NT_NOT_SELECTED",
+  "sign_ambiguity": {
+    "connected_components": 3,
+    "independent_root_sign_choices": 8,
+    "minus_one_not_quotiented_by_Uplus": true
+  },
+  "physical_phase": "SEPARATED/PENDING-MORPHISM",
+  "guard": "Existence of a root-gauged natural section on the finite witness does not choose a historical Lorentz orientation, does not extend automatically to the full historical groupoid, and does not identify the compact direction with physical phase."
+}

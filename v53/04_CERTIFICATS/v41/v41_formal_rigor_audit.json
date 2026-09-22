@@ -1,0 +1,79 @@
+{
+  "version": "v41",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v40 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "BSB binding of HAX_i/HC_i and field cells",
+      "status": "NT_ZERO_PROMOTION",
+      "basis": "no machine-readable source-certified geometric assignment; diagnostics remain diagnostics"
+    },
+    {
+      "object": "Field functor F_Sell^field -> F29_can",
+      "status": "PENDING-MORPHISM",
+      "basis": "0/1/2-cell historical assignments remain open"
+    },
+    {
+      "object": "Historical Selling field H1/H2",
+      "status": "NT_NOT_RECOMPUTED",
+      "basis": "blocked by exact field-functor gate"
+    },
+    {
+      "object": "89 degree-one Selling diagnostic nodes vs cross-context 89 carriers",
+      "status": "CATALOGUED_TYPED_SEPARATED",
+      "basis": "A1BE 89=44+45 is source-native elsewhere; 34/55 requires 21 fixed points; roof/Cube27/dyadic uses are not merged"
+    },
+    {
+      "object": "17 Selling/deck objects vs 16 Gamma3 oriented occurrences",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "abstract pointed envelope E(16)=17 and KEP 16+1 exist, but no distinguished Selling boundary object or incidence map is certified"
+    },
+    {
+      "object": "Length-two Gamma3 cyclic overlaps",
+      "status": "PROVEN_SQUIER_PEIFFER_CENSUS",
+      "basis": "126 overlaps, 52 two-factorization diamonds, 14 orbit types under frozen C2 index symmetry"
+    },
+    {
+      "object": "New augmentation directions from length-two diamonds",
+      "status": "ZERO",
+      "basis": "diamond augmentation rank 6 equals six v38 seed rank 6; combined rank remains 6"
+    },
+    {
+      "object": "Full Z[Gamma3(2)] identities-among-relations module",
+      "status": "NT",
+      "basis": "augmentation shadow does not recover nonabelian whiskering coefficients or a complete resolution"
+    },
+    {
+      "object": "Root-gauged J_s extension",
+      "status": "PROVEN_ON_RADIUS5_BALL_AND_DECLARED_RELATORS",
+      "basis": "4504 normal forms, 5484 edge checks, all 12 historical relator matrices equal identity over Z"
+    },
+    {
+      "object": "3-adic tower holonomy",
+      "status": "PROVEN_FOR_DECLARED_RELATIONS",
+      "basis": "integer identities imply every 2*3^k reduction; k=1..12 replayed"
+    },
+    {
+      "object": "Canonical Lorentz orientation",
+      "status": "NT",
+      "basis": "root signs remain gauge data and no Selling source datum selects them"
+    },
+    {
+      "object": "MXM^-1 as covariant action under stored composition",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "opposite variance/deck-cycle defect from v40"
+    },
+    {
+      "object": "Roof reversal = transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "prior typed no-go"
+    },
+    {
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no explicit source-equivariant physical phase/action map"
+    }
+  ],
+  "stratified_reality_guard": "Observed calculations remain separated from actionable bridge obligations; no NT/PENDING/SEPARATED item is promoted by numerical coincidence.",
+  "conclusion": "v41 closes the requested cross-context census and finite overlap/holonomy calculations while leaving the exact Selling geometric binding, field cohomology, full nonabelian Gamma3 resolution, Lorentz orientation and physical phase behind their typed gates."
+}

@@ -1,0 +1,30 @@
+{
+  "version": "v38",
+  "parent": "v37 CLOSED/APPEND-ONLY",
+  "new_sources": [
+    {
+      "file": "Tafel-III-fig1.jpg",
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "role": "primary geometric witness of Selling Tafel III Fig.1, BSB-derived user-supplied JPG"
+    },
+    {
+      "file": "Noether_1908_ternary_biquadratic_forms.pdf",
+      "sha256": "ad9da4266cf035a25c3ca0a27cf87a9c06d9fa980edacae2994b725237532968",
+      "role": "structural invariant-theory context for reductions and relations"
+    },
+    {
+      "file": "operateur_realite_stratifiee_fr.pdf",
+      "sha256": "99970d2d32d789eb2ca72d707ba774af34b665806472464e928550943ca768c5",
+      "role": "stratified-reality/certification guard"
+    }
+  ],
+  "parent_bundle_sha256": "2b35b6578c80c2ce1fe7a56d12413a501cfae2656b278ad88ebe2a83f87f2c5f",
+  "typed_separations_retained": [
+    "historical field incidence vs geometric diagnostics",
+    "augmented syzygies vs group-ring identities among relations",
+    "roof reversal vs transpose",
+    "ternary orientation carrier vs Lorentz orientation",
+    "internal compact phase vs physical de Broglie phase",
+    "logical truth vs certification status"
+  ]
+}

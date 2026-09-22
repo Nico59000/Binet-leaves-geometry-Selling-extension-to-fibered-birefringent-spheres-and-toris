@@ -1,0 +1,55 @@
+{
+  "primary_source": "Selling 1877, second part, pp. 193-194 (Numdam PDF pp. 41-42): Gamma, Delta are displayed and the transformations are stated to admit an all-transformations/once-only grammar built from E, Gamma^g Delta^d T^t U^u; pp. 191-193 define T,U,V,W and TU=UT.",
+  "source_derived_matrix_relations": {
+    "R_Gamma": "R Gamma = Gamma R",
+    "S_H": "S H = H S, H=Gamma Delta",
+    "T_VGamma": "[T,V Gamma]=1",
+    "U_WGammaDelta": "[U,W Gamma Delta]=1"
+  },
+  "tietze_generators": {
+    "a": "V Gamma",
+    "b": "W Gamma Delta",
+    "g": "Gamma",
+    "h": "Gamma Delta",
+    "t": "T",
+    "u": "U"
+  },
+  "presentation": "right-angled Coxeter group W(C6)",
+  "cycle_order": [
+    "a",
+    "h",
+    "g",
+    "b",
+    "u",
+    "t"
+  ],
+  "commutation_edges": [
+    [
+      "a",
+      "h"
+    ],
+    [
+      "h",
+      "g"
+    ],
+    [
+      "g",
+      "b"
+    ],
+    [
+      "b",
+      "u"
+    ],
+    [
+      "u",
+      "t"
+    ],
+    [
+      "t",
+      "a"
+    ]
+  ],
+  "normal_form": "standard graph-product/RACG shortlex normal form; unique modulo only the declared commuting swaps and involution cancellations",
+  "finite_sanity_words_length_le_5": 9331,
+  "scope": "PROVEN_FOR_THE_DECLARED_Q0/FIGURE-1 HISTORICAL BRANCH; not promoted to a universal formula for all indefinite ternary forms."
+}

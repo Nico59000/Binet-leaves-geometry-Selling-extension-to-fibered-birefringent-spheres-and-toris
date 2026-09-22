@@ -1,0 +1,321 @@
+{
+  "centres": [
+    {
+      "centre": "HC0",
+      "incident_axes": [
+        "HAX0",
+        "HAX1"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            9,
+            25
+          ],
+          "id": 41,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            25,
+            24
+          ],
+          "id": 42,
+          "kind": "BOUNDARY-ORBIT"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        18
+      ],
+      "incident_form_matrices": {
+        "18": [
+          [
+            -5,
+            0,
+            5
+          ],
+          [
+            0,
+            11,
+            -12
+          ],
+          [
+            5,
+            -12,
+            7
+          ]
+        ]
+      },
+      "q": "1",
+      "r": "0",
+      "vertex": 25
+    },
+    {
+      "centre": "HC1",
+      "incident_axes": [
+        "HAX1",
+        "HAX2"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            45,
+            57
+          ],
+          "id": 111,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            57,
+            52
+          ],
+          "id": 112,
+          "kind": "BOUNDARY-ORBIT"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        58
+      ],
+      "incident_form_matrices": {
+        "58": [
+          [
+            -5,
+            0,
+            5
+          ],
+          [
+            0,
+            -4,
+            0
+          ],
+          [
+            5,
+            0,
+            -2
+          ]
+        ]
+      },
+      "q": "1",
+      "r": "1/4",
+      "vertex": 57
+    },
+    {
+      "centre": "HC2",
+      "incident_axes": [
+        "HAX2",
+        "HAX3"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            56,
+            59
+          ],
+          "id": 116,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            59,
+            53
+          ],
+          "id": 117,
+          "kind": "BOUNDARY-ORBIT"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        61
+      ],
+      "incident_form_matrices": {
+        "61": [
+          [
+            -4,
+            0,
+            0
+          ],
+          [
+            0,
+            -2,
+            1
+          ],
+          [
+            0,
+            1,
+            7
+          ]
+        ]
+      },
+      "q": "2/3",
+      "r": "1/3",
+      "vertex": 59
+    },
+    {
+      "centre": "HC3",
+      "incident_axes": [
+        "HAX3",
+        "HAX4"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            48,
+            55
+          ],
+          "id": 106,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            55,
+            38
+          ],
+          "id": 107,
+          "kind": "BOUNDARY-ORBIT"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        55
+      ],
+      "incident_form_matrices": {
+        "55": [
+          [
+            3,
+            1,
+            -7
+          ],
+          [
+            1,
+            -2,
+            1
+          ],
+          [
+            -7,
+            1,
+            3
+          ]
+        ]
+      },
+      "q": "0",
+      "r": "1/3",
+      "vertex": 55
+    },
+    {
+      "centre": "HC4",
+      "incident_axes": [
+        "HAX4",
+        "HAX5"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            39,
+            61
+          ],
+          "id": 108,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            61,
+            50
+          ],
+          "id": 122,
+          "kind": "DECK-FIXED-MIRROR"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        56
+      ],
+      "incident_form_matrices": {
+        "56": [
+          [
+            -18,
+            20,
+            -1
+          ],
+          [
+            20,
+            -20,
+            0
+          ],
+          [
+            -1,
+            0,
+            -1
+          ]
+        ]
+      },
+      "q": "-2/3",
+      "r": "1/9",
+      "vertex": 61
+    },
+    {
+      "centre": "HC5",
+      "incident_axes": [
+        "HAX5",
+        "HAX0"
+      ],
+      "incident_edge_count": 2,
+      "incident_edges": [
+        {
+          "endpoints": [
+            40,
+            21
+          ],
+          "id": 73,
+          "kind": "BOUNDARY-ORBIT"
+        },
+        {
+          "endpoints": [
+            39,
+            40
+          ],
+          "id": 75,
+          "kind": "BOUNDARY-ORBIT"
+        }
+      ],
+      "incident_face_count": 1,
+      "incident_faces": [
+        35
+      ],
+      "incident_form_matrices": {
+        "35": [
+          [
+            -17,
+            -3,
+            20
+          ],
+          [
+            -3,
+            2,
+            0
+          ],
+          [
+            20,
+            0,
+            -20
+          ]
+        ]
+      },
+      "q": "-2/3",
+      "r": "0",
+      "vertex": 40
+    }
+  ],
+  "decision": "THESE_SIX_EXACT_LINK_SIGNATURES_ARE_MANDATORY_TARGETS_FOR_ANY_RASTER_HC_BINDING",
+  "guard": "No raster node is promoted here. Raster assignment requires matching the local incidence/axis roles and stabilizers, not visual proximity alone.",
+  "source": "v50 regular Selling complex + v51 exact source C6 axis/centre carrier",
+  "status": "PROVEN-SOURCE-HC-LOCAL-STAR-SIGNATURES",
+  "version": "v51"
+}

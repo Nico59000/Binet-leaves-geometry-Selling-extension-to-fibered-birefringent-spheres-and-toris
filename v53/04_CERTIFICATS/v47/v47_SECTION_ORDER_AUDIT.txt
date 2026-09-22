@@ -1,0 +1,12 @@
+v47 sealed bundle section audit
+PDF pages: 251
+PDF SHA256: b932fc05070e3710a636ac356e84f42d0da94c9b2aa004474beb72b291eec35c
+Bundle SHA256: 24f563b0daa2cba3efca1b4bd6e51bac0cb6ae395221229a6f4b99cb2828a181
+
+CONFIRMED ISSUES:
+1. v46/v47 are placed after Certification/Conclusion.
+2. \appendix occurs before v46/v47, so v46 and v47 become appendices B/C.
+3. Bibliography is physically last, but becomes appendix D.
+4. v43 heading naming style is inconsistent.
+
+Repair policy: preserve sealed v47; correct cumulative ordering in v48.

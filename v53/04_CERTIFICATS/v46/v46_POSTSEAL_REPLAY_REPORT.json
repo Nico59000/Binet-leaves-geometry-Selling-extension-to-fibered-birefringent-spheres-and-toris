@@ -1,0 +1,72 @@
+{
+  "version": "v46",
+  "status": "PASS",
+  "phase": "POSTSEAL_DESTRUCTIVE_REPLAY",
+  "archive": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v46_bundle.zip",
+    "bytes": 51328277,
+    "sha256": "691af8654bbc4604c7a39f191689fa80b3b0ce1220723f2e35e597dc292b6042",
+    "members": 277
+  },
+  "ledger": {
+    "path": "v46_SHA256SUMS.txt",
+    "entries": 276,
+    "pre_replay": "PASS_276_OF_276",
+    "post_replay": "PASS_276_OF_276"
+  },
+  "verification": {
+    "version": "v46",
+    "predecessor_checks": 7976,
+    "new_checks": 58,
+    "combined_checks": 8034,
+    "new_passed": 58,
+    "status": "PASS",
+    "failed": []
+  },
+  "pdf": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v46.pdf",
+    "pages": 246,
+    "bytes": 2288408,
+    "sha256": "c39a7957765046383a32eeb95147237cc5b1589279d8993300d80a29492b9644",
+    "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED_NO_XFA",
+    "canonicalization_replay": "PASS_BYTE_IDENTICAL",
+    "page210_overflow_fix": "PASS_RETAINED",
+    "latex_overfull_boxes": 0
+  },
+  "tex": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v46.tex",
+    "bytes": 695703,
+    "sha256": "f98b63df6b3aaebbed3a22b7c0464bed478692fd10474d67b726aadc6bd0ecf7"
+  },
+  "zip_roundtrip": {
+    "rebuild": "PASS_BYTE_IDENTICAL",
+    "rebuilt_sha256": "691af8654bbc4604c7a39f191689fa80b3b0ce1220723f2e35e597dc292b6042"
+  },
+  "fragmentation": {
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB",
+    "bundle_bytes": 51328277
+  },
+  "math_results": {
+    "direct_DAX_to_HAX_six_subset_model": "REFUTED-TYPED_ALL_7_SUBSETS_FAIL_RIGHT_ANGLE_SOURCE_CONSTRAINT",
+    "historical_HAX_HC_curved_stitching": "NT_PENDING_SOURCE_TRANSCRIPTION",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "character_sector": "chi(Eij)=+1, chi(Fi)=-1; ker_dim=35; M43_shadow_rank=21; residual_dim=14",
+    "radius1_exact_residual_lift": "REFUTED-TYPED_BOUNDED_NO_GO; exact_kernel_dim=129; residual_image_dim=0",
+    "complete_Gamma3_resolution": "NT_RADIUS2_AND_BEYOND_OPEN",
+    "Singer_injection": "SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "typed_gates_preserved": [
+    "historical six-axis/six-centre existence retained; only direct straight-DAX realization refuted",
+    "89-node C2 census fail-closed",
+    "strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED",
+    "complete Gamma3 resolution NT",
+    "Singer odd mark injection SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz orientation NT",
+    "field functor PENDING-MORPHISM",
+    "historical H1/H2 NT_NOT_RECOMPUTED",
+    "roof reversal versus transpose REFUTED-TYPED",
+    "physical phase SEPARATED/PENDING-MORPHISM"
+  ]
+}

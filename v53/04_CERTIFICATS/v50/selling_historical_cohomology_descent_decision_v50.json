@@ -1,0 +1,78 @@
+{
+  "coefficient_domain": "Q",
+  "decision": {
+    "integral": "NT/GUARDED: order-two deck-monodromy 2-cells descend through doubled boundaries/transfer. An integral Z-lattice, 2-torsion and index audit is required before identifying integral upstairs/downstairs cohomology.",
+    "rational": "PROVEN: compute historical H^k downstairs for efficiency and verify independently as the V4-invariant part of upstairs H^k. Over Q, invariants are exact because |V4|=4 is invertible, hence H^k(C_up^{V4}) ~= H^k(C_up)^{V4}. The full upstairs H^k contains nontrivial V4-isotypic sectors and is not itself the historical downstairs cohomology."
+  },
+  "exact_chain_comparisons": {
+    "Ad": {
+      "V4_invariant": [
+        186,
+        348,
+        174
+      ],
+      "d1d0_upstairs_zero": true,
+      "descent_chain_squares": true,
+      "downstairs": [
+        186,
+        348,
+        174
+      ],
+      "upstairs": [
+        744,
+        1382,
+        702
+      ]
+    },
+    "Binet": {
+      "V4_invariant": [
+        62,
+        107,
+        37
+      ],
+      "d1d0_upstairs_zero": true,
+      "descent_chain_squares": true,
+      "downstairs": [
+        62,
+        107,
+        37
+      ],
+      "upstairs": [
+        248,
+        418,
+        150
+      ]
+    }
+  },
+  "group": {
+    "characteristic_zero": true,
+    "name": "V4",
+    "order": 4,
+    "reynolds_operator": "P=(1/4) sum_{h in V4} h"
+  },
+  "historical_H1_H2_gate": {
+    "Q": "OPEN-FOR-NEXT-GATE-NOT-YET-COMPUTED",
+    "Z": "LOCKED-PENDING-2-PRIMARY-TRANSFER-AUDIT"
+  },
+  "nontrivial_deck_2cells": {
+    "holonomy": [
+      "TU",
+      "T",
+      "U"
+    ],
+    "note": "Their geometric lifts use two traversals. Binet has a nonzero descended C2 fiber only at vertex 48; Ad has rank-one descended C2 fibers at all three.",
+    "vertices": [
+      48,
+      59,
+      61
+    ]
+  },
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "recommended_next_computation": "Compute rational H1/H2 downstairs from the already certified sparse matrices, then reproduce the same dimensions/classes from the V4-invariant upstairs complex. Keep integral/SNF computation separate until the transfer lattice is audited.",
+  "source_sha256": {
+    "local_system_descent": "59c450001d6d78a2dce714828f643e25451d577ac264d46246ac9a6f72ec0117",
+    "verification": "7d57aa232fb7f3c8b1b1bcb185cd360fc00df65b39bd35dfdff46fe249515154"
+  },
+  "status": "PASS-RATIONAL-DESCENT-DECISION/HISTORICAL-COHOMOLOGY-NOT-YET-COMPUTED",
+  "version": "v50"
+}

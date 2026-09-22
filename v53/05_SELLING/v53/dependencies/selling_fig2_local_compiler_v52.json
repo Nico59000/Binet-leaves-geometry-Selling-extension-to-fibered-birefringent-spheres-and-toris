@@ -1,0 +1,155 @@
+{
+  "version": "v52",
+  "figure": "Fig2",
+  "source_seed": {
+    "caption": "Fig. 2. zu S. 206, 221",
+    "bbox_page2_px": [
+      250,
+      850,
+      1650,
+      2350
+    ],
+    "crop": "Fig2_full.png",
+    "branch_styles": [
+      "solid",
+      "dashed/dotted",
+      "serpentine/wavy"
+    ],
+    "clear_printed_labels": [
+      "1",
+      "2",
+      "3"
+    ],
+    "clear_fraction_labels": [],
+    "clear_tuple_labels": [],
+    "germ_description": "finite symmetric patch; central 3-labelled wavy-bounded cell; flanking 2-labelled sectors; lower/side 1-labelled sectors; mixed solid, dotted and wavy adjacency edges",
+    "crop_sha256": "2e2a9e6cde110b9c86e5494576ae33e14dfbccbd11cc338d86efccf439fe9c9d",
+    "source_status": "PROVEN-DIRECT-RASTER-TRANSCRIPTION",
+    "semantic_normalization": "PARTIAL-TYPED; unresolved tokens preserved without guess"
+  },
+  "compiled_carrier": {
+    "carrier_kind": "REGION-ADJACENCY/PENTAGONAL-PATCH",
+    "objects": [
+      {
+        "id": "C3",
+        "type": "region",
+        "label": "3"
+      },
+      {
+        "id": "M2_0",
+        "type": "region",
+        "label": "2"
+      },
+      {
+        "id": "M2_1",
+        "type": "region",
+        "label": "2"
+      },
+      {
+        "id": "M2_2",
+        "type": "region",
+        "label": "2"
+      },
+      {
+        "id": "M2_3",
+        "type": "region",
+        "label": "2"
+      },
+      {
+        "id": "M2_4",
+        "type": "region",
+        "label": "2"
+      },
+      {
+        "id": "O1_0",
+        "type": "region",
+        "label": "1"
+      },
+      {
+        "id": "O1_1",
+        "type": "region",
+        "label": "1"
+      },
+      {
+        "id": "O1_2",
+        "type": "region",
+        "label": "1"
+      },
+      {
+        "id": "O1_3",
+        "type": "region",
+        "label": "1"
+      },
+      {
+        "id": "O1_4",
+        "type": "region",
+        "label": "1"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "cyclic",
+        "objects": [
+          "M2_0",
+          "M2_1",
+          "M2_2",
+          "M2_3",
+          "M2_4"
+        ]
+      },
+      {
+        "kind": "central-adjacency",
+        "from": "C3",
+        "to": [
+          "M2_0",
+          "M2_1",
+          "M2_2",
+          "M2_3",
+          "M2_4"
+        ]
+      },
+      {
+        "kind": "outer-adjacency",
+        "pairs": [
+          [
+            "M2_0",
+            "O1_0"
+          ],
+          [
+            "M2_1",
+            "O1_1"
+          ],
+          [
+            "M2_2",
+            "O1_2"
+          ],
+          [
+            "M2_3",
+            "O1_3"
+          ],
+          [
+            "M2_4",
+            "O1_4"
+          ]
+        ]
+      }
+    ],
+    "branch_style_roles": {
+      "wavy": "selected/local boundary",
+      "dashed/dotted": "continuation/symmetry carrier",
+      "solid": "ordinary/reinforced connection"
+    },
+    "unresolved": []
+  },
+  "checks": {
+    "caption_present": true,
+    "crop_hash_64": true,
+    "branch_styles_present": true,
+    "carrier_objects_nonempty": true,
+    "relations_nonempty": true,
+    "no_fig1_import": true,
+    "unresolved_preserved": true
+  },
+  "status": "PASS-TYPED-LOCAL-CARRIER",
+  "guard": "This is a local source-specific carrier compiler. It does not import Fig.1 combinatorics, does not identify any object with the 62-face complex, and preserves unresolved source tokens as NT."
+}

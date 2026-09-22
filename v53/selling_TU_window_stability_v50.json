@@ -1,0 +1,43 @@
+{
+  "version": "v50",
+  "field_count": 62,
+  "status": "PASS_WINDOW_3_TO_8",
+  "results": [
+    {
+      "bound": 3,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    },
+    {
+      "bound": 4,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    },
+    {
+      "bound": 5,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    },
+    {
+      "bound": 6,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    },
+    {
+      "bound": 7,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    },
+    {
+      "bound": 8,
+      "cross_class_collisions": 0,
+      "pairs": [],
+      "key_count": 11328
+    }
+  ]
+}

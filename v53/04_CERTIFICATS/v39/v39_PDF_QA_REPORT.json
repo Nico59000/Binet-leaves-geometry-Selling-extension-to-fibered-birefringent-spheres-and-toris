@@ -1,0 +1,29 @@
+{
+  "version": "v39",
+  "status": "PASS",
+  "pdf": "formalisation_feuillets_binet_birefringence_selling_polaire_v39.pdf",
+  "page_count": 216,
+  "render_engine": "pdfium",
+  "render_dpi": 80,
+  "rendered_pages": 216,
+  "automated_checks": {
+    "all_pages_present": true,
+    "blank_pages_detected": [],
+    "edge_clipping_candidates": [],
+    "minimum_mean_luminance": 237.0922015002453,
+    "maximum_edge_ink_fraction": 0.0
+  },
+  "visual_contact_sheets": 18,
+  "visual_inspection": {
+    "inspected_ranges": [
+      "1-12",
+      "97-108",
+      "193-204",
+      "205-216"
+    ],
+    "new_v39_section_pages": "205-208",
+    "result": "PASS_NO_CLIPPING_OVERLAP_BLACK_SQUARES_OR_BROKEN_GLYPHS_OBSERVED"
+  },
+  "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED",
+  "guard": "Low-resolution all-page render used for global layout census; representative contact sheets including the entire new v39 section were visually inspected."
+}

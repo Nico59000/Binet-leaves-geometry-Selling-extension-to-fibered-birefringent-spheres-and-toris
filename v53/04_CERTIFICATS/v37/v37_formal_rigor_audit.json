@@ -1,0 +1,58 @@
+{
+  "version": "v37",
+  "status": "PASS_PRESEAL",
+  "predecessor": "v36 CLOSED_APPEND_ONLY",
+  "math_verify": "383/383 PASS",
+  "pdf_pages": 209,
+  "pdf_sha256": "573091b53300a4b471b8439c0ba643d0354e413e4ae45871104e55f7e4448940",
+  "source_bytes": {
+    "LOG_0016.pdf": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+    "embedded_raster": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437",
+    "fig1_crop": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf"
+  },
+  "vector_tables": {
+    "selling_fig1_nodes_v37.csv": {
+      "rows": 136,
+      "sha256": "942b91656f60d6f3e84891d819b5327580c67f042b35602972a9e2cfa900476d"
+    },
+    "selling_fig1_segments_v37.csv": {
+      "rows": 105,
+      "sha256": "d866c35bae2e33b335af8e1818e75351ed890dbd47c44321855616c37106fa96"
+    },
+    "selling_fig1_fields_v37.csv": {
+      "rows": 34,
+      "sha256": "4827dd0cad2c17ce6995f5fc7c1966a3365d856a9755a30dcb1ae7cbc0636bd6"
+    },
+    "selling_fig1_layers_v37.geojson": {
+      "features": 105,
+      "sha256": "8a410c44b8d98be828a76eefbb47e6534b083b7665411227ad51d8daaa055559"
+    }
+  },
+  "vector_layers": {
+    "ordinary": 73,
+    "reinforced": 25,
+    "serpentine": 2,
+    "symmetry_candidate": 5
+  },
+  "field_diagnostics": {
+    "STABLE_CLOSED_REGION_HIGH": 3,
+    "STABLE_CLOSED_REGION_MEDIUM": 4,
+    "MORPHOLOGICAL_CANDIDATE": 27
+  },
+  "typing_decisions": [
+    "Tafel III bytes and embedded raster: PROVEN_SOURCE_BYTES.",
+    "136 nodes / 105 typed segments / 34 region candidates: PROVEN source-anchored diagnostic geometry, not exhaustive historical incidence.",
+    "Complete field incidence: NT pending source-geometric reconciliation of six axes, serpentines, repetitions and stabilizers.",
+    "Field-level functor and historical field H1/H2: not promoted/recomputed.",
+    "Gamma3 augmented syzygy kernel: Z^34, SNF diag(2^9,0^34), six exact free-cancellation 4-cells; full group-ring Fox module remains NT.",
+    "Projective CRT ternary binder M3(F2)xM3(Z3): PROVEN; Gamma orientation reversal preserved; oriented U(1) and de Broglie phase remain pending/separated."
+  ],
+  "pdf_qa": {
+    "new_section_pages": "198-201",
+    "contact_sheet": "v37_contact.png",
+    "prefix_regression_page_197_sha256": "4facc4c97e8186f71f2c2b51701ea10dffdd86087fa92c5463dcf88a05c733b5",
+    "new_overfull": 0,
+    "inherited_overfull": 1
+  },
+  "industrial_gate": "PENDING_ZIP_ROUNDTRIP_AND_POSTSEAL_REPLAY"
+}

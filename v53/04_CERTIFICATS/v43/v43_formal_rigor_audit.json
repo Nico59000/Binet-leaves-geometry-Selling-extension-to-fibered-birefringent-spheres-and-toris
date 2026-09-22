@@ -1,0 +1,99 @@
+{
+  "version": "v43",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v42 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "v42 inherited byte corpus",
+      "status": "PASS_170_OF_170",
+      "basis": "sealed v42 SHA-256 ledger checked before all v43 calculations; canonical LOG_0016 source hash restored and locked"
+    },
+    {
+      "object": "BSB/HAX/HC/fissure/crossing/wall/field binding",
+      "status": "NT_ZERO_NEW_PROMOTION",
+      "basis": "no new source-certified machine-readable assignment"
+    },
+    {
+      "object": "C2 census on 89 degree-one nodes",
+      "status": "NOT_ACTIVATED_FAIL_CLOSED",
+      "basis": "historical source-certified C2 action precondition remains absent"
+    },
+    {
+      "object": "R5 point candidate",
+      "status": "PROVEN_GRAPH-CANONICAL_CANDIDATE/NT_HISTORICAL",
+      "basis": "fixed by all 40 unlabelled graph automorphisms; exact chart/Q decorations retained"
+    },
+    {
+      "object": "strict Selling-minus-R5 to Gamma critical-diamond 16-to-16 incidence adapter",
+      "status": "REFUTED-TYPED",
+      "basis": "graph invariants differ: (16,14,3,beta1=1) versus (16,8,8,beta1=0)"
+    },
+    {
+      "object": "six old inverse-relator seed modules",
+      "status": "PROVEN_FREE_R6",
+      "basis": "private relator coordinates carry coefficient 1, so annihilator zero"
+    },
+    {
+      "object": "eighteen order-two cyclic 4-syzygy modules",
+      "status": "PROVEN",
+      "basis": "z=(1-g)e_r with g^2=1 and exact annihilator R(1+g); twelve are new in v43"
+    },
+    {
+      "object": "pairwise intersections in partial resolution",
+      "status": "ZERO",
+      "basis": "disjoint relator-coordinate supports among free seeds and all eighteen order-two modules"
+    },
+    {
+      "object": "partial group-ring module M43",
+      "status": "PROVEN",
+      "basis": "M43 ~= R^6 direct_sum_{i=1}^{18} R/R(1+g_i)"
+    },
+    {
+      "object": "length-one comparison cycles",
+      "status": "PROVEN_ALL_ABSORBED",
+      "basis": "1662 exact Fox cycles; 918 v42 absorbed, 744 survivors killed by twelve new canonical order-two generators"
+    },
+    {
+      "object": "all pairwise cyclic overlap comparison cycles lengths 1-4",
+      "status": "PROVEN_ALL_ABSORBED",
+      "basis": "1662 + 52 + 4 + 47 comparison cycles leave zero survivors modulo M43"
+    },
+    {
+      "object": "complete Gamma3 group-ring resolution",
+      "status": "NT",
+      "basis": "finite-character shadow retains residual dimensions 14 through 28; higher multi-relator identities not classified"
+    },
+    {
+      "object": "current historical Selling/deck odd mark under J -> -J",
+      "status": "NONE_FOUND / NONUNIQUENESS_PRESERVED",
+      "basis": "v36 source extraction remains without Gamma-breaking mark"
+    },
+    {
+      "object": "Singer-framed cubic pseudoscalar Omega_sigma(L)",
+      "status": "SEPARATED/CONDITIONAL-CANDIDATE",
+      "basis": "odd under framing inversion but requires additional chosen line L and Singer framing sigma not native to current historical carrier"
+    },
+    {
+      "object": "source-selected Lorentz orientation",
+      "status": "NT",
+      "basis": "no explicit equivariant injection of an odd source mark into current historical Selling/deck carrier"
+    },
+    {
+      "object": "Field functor and historical H1/H2",
+      "status": "PENDING-MORPHISM / NT_NOT_RECOMPUTED",
+      "basis": "exact Selling 0/1/2-cell compatibility remains open"
+    },
+    {
+      "object": "Roof reversal=transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "prior involution cycle-type no-go"
+    },
+    {
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no source-equivariant physical phase map"
+    }
+  ],
+  "stratified_reality_guard": "Computed graph/group-ring facts remain separate from source-semantic Selling assignments, orientation selection and physical interpretation.",
+  "conclusion": "v43 closes all pairwise cyclic overlap comparison cycles inside an explicit partial module while proving that the partial module is still incomplete in the finite-character shadow; it also refutes the strict natural 16-to-16 incidence adapter and retains all Selling/orientation/physical bridges behind typed gates."
+}

@@ -1,0 +1,82 @@
+{
+  "version": "v37",
+  "items": [
+    {
+      "id": "PM37-01",
+      "object": "Selling Tafel III raster/scan bytes",
+      "status": "RESOLVED_PROVEN_SOURCE_BYTES",
+      "next_gate": "Closed in v37 by LOG_0016.pdf + embedded-raster hash lock."
+    },
+    {
+      "id": "PM37-02",
+      "object": "Complete F_Sell^field(Q0) incidence",
+      "status": "IN_PROGRESS_SOURCE_ANCHORED / NT_COMPLETE_INCIDENCE",
+      "next_gate": "Match the 136 node / 105 segment / 34 candidate-region diagnostics to all six axes, serpentines, historical fields, repetitions and stabilizers."
+    },
+    {
+      "id": "PM37-03",
+      "object": "Field-level functor F_Sell^field(Q0)->F29_can",
+      "status": "PENDING-MORPHISM",
+      "next_gate": "Promote only after PM37-02; verify every source field/wall and every 2-cell incidence."
+    },
+    {
+      "id": "PM37-04",
+      "object": "Historical field Binet/Adjoint H1,H2",
+      "status": "NT_BLOCKED_BY_PM37-02_03",
+      "next_gate": "Compute only after source complex and functor close."
+    },
+    {
+      "id": "PM37-05",
+      "object": "Full nonabelian syzygy module among 43 Gamma3 relators",
+      "status": "NT_PENDING_GROUP_RING_FOX",
+      "next_gate": "Compute Fox Jacobian over Z[Gamma3(2)] or an explicit resolution/contracting homotopy."
+    },
+    {
+      "id": "PM37-06",
+      "object": "Natural roof nine-address -> lambda2 binder",
+      "status": "POINTED_ONLY / NATURAL_REVERSAL_TRANSPOSE_REFUTED",
+      "next_gate": "Seek richer equivariant roof operations, not plain reversal."
+    },
+    {
+      "id": "PM37-07",
+      "object": "Hyperfine CRT tower -> real Lorentz rapidity scale",
+      "status": "SEPARATED",
+      "next_gate": "Supply a typed 3-adic-to-real metric/rapidity comparison."
+    },
+    {
+      "id": "PM37-08",
+      "object": "Historical source-native orientation breaking Gamma",
+      "status": "NT",
+      "next_gate": "Search only in the completely matched field/stabilizer data."
+    },
+    {
+      "id": "PM37-09",
+      "object": "Oriented SO(2)->U(1) phase",
+      "status": "PENDING-MORPHISM",
+      "next_gate": "Requires PM37-08; otherwise retain O(2)/Real phase."
+    },
+    {
+      "id": "PM37-10",
+      "object": "Physical de Broglie phase theta=S/hbar",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "next_gate": "Need source-derived physical action/energy-momentum/synchronization and scale."
+    },
+    {
+      "id": "PM37-11",
+      "object": "Cube27 -> Selling/deck/hyperfine binder functor",
+      "status": "SEPARATED",
+      "next_gate": "Require explicit equivariant functor; common 3-locality/rank/prime is insufficient."
+    }
+  ],
+  "counts": {
+    "RESOLVED_PROVEN_SOURCE_BYTES": 1,
+    "IN_PROGRESS_SOURCE_ANCHORED / NT_COMPLETE_INCIDENCE": 1,
+    "PENDING-MORPHISM": 2,
+    "NT_BLOCKED_BY_PM37-02_03": 1,
+    "NT_PENDING_GROUP_RING_FOX": 1,
+    "POINTED_ONLY / NATURAL_REVERSAL_TRANSPOSE_REFUTED": 1,
+    "SEPARATED": 2,
+    "NT": 1,
+    "SEPARATED/PENDING-MORPHISM": 1
+  }
+}

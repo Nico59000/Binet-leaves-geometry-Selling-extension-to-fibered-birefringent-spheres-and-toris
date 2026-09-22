@@ -1,0 +1,53 @@
+v52 FINAL DELIVERY INDEX
+
+STATE: CLOSED / APPEND-ONLY
+ATOMIC: DOC ∧ MATH ∧ VERIFY ∧ PDF-QA ∧ SEAL ∧ DETERMINISTIC-RESEAL ∧ ROUNDTRIP ∧ POSTSEAL = PASS
+VERIFY: 8583/8583 PASS = 8511 inherited v51 + 50 final-gate v52 + 22 industrial v52
+FIG.1: 70 -> 0; 123/123 historical edge orbits; PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION
+EXACT PL: 1297 vertices; 2484 triangles; 3780 mesh edges; integer orientations strictly positive; zero nonincident crossings
+e96: STRONG/POSITIVE in exact triangulated realization; propagation e96 -> e53 -> {e34,e97} -> {e54,e78}
+FIG.3-6: PASS-TYPED-DISJOINT-FUSION/PROVENANCE-PRESERVED; 31 objects, 28 local relations, 3 ordered structures
+PDF: 271 pages; 0 Overfull; v52 begins p.260; bibliography final pp.270-271
+PDF SHA256: 68c2955a81953d8b8a0a110c5d2f57c501327529ff51c9e8c4a78416336c181d
+TEX SHA256: 6d9076428dc006d30e7e0c3142384afc8356db936b09af40cca090386b2676ba
+BUNDLE: 594 members; 124097917 bytes; deterministic reseal and clean-extract rebuild byte-identical
+BUNDLE SHA256: 1936700dc187ae762a407a17f16019c0f871ff47962a5e01df0eed577c38787d
+LEDGER: 593/593 before and after postseal replay
+ZSTD-SPLITTER: NOT TRIGGERED (bundle below 200 MiB)
+
+MAIN
+formalisation_feuillets_binet_birefringence_selling_polaire_v52.pdf
+formalisation_feuillets_binet_birefringence_selling_polaire_v52.tex
+formalisation_feuillets_binet_birefringence_selling_polaire_v52_bundle.zip
+verify_field_fox_projective_v52.py
+
+FINAL-GATE
+selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json
+selling_exact_triangulated_BSB_P084_123edge_audit_K12_v52.csv
+selling_fig1_final_123_certificate_v52.json
+selling_fig1_final_123_historical_incidence_v52.csv
+selling_fig3_6_typed_fusion_v52.json
+
+INDUSTRIAL
+v52_MATH_CHECKPOINT.json
+v52_VERIFICATION_REPORT.json
+v52_INDUSTRIAL_VERIFICATION_REPORT.json
+v52_PDF_QA_REPORT.json
+v52_SECTION_ORDER_AUDIT.json
+v52_SOURCE_CONTEXT.json
+v52_FORMAL_CONTEXT_ATTESTATION.json
+v52_formal_rigor_audit.json
+v52_SEAL_MANIFEST.json
+v52_SHA256SUMS.txt
+v52_POSTSEAL_REPLAY_REPORT.json
+v52_ATOMIC_COMPLETION_TOKEN.json
+
+SEPARATIONS RETAINED
+Selling--Noether = CONTEXT/PENDING-MORPHISM
+Selling 3D--5D = CONTEXT/PENDING-MORPHISM
+R2PURE13 <-> Selling/Deck17 = SEPARATED/PENDING-MORPHISM
+Binet / Ad / V48 transfer = SEPARATED
+CHIRES14 B5 global integral lift = NT; radius 6 not opened
+
+SAFE SUCCESSOR
+v53 -- retain v52 CLOSED/APPEND-ONLY and the PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION at 123/123; construct an explicit functor from the typed Fig.3--6 coproduct to a common Selling engine only with figure-specific adapters and preserved provenance; reintegrate Fig.2 only from its source-specific recipe; decide the global CHIRES14 B5 integral lift by a non-local corrector or exact obstruction before opening radius six; resume R2PURE13<->Selling/Deck17 only after an incidence/groupoid morphism; retain Selling--Noether and Selling 3D--5D as CONTEXT/PENDING-MORPHISM until an explicit GL(3)-equivariant morphism is constructed and verified.

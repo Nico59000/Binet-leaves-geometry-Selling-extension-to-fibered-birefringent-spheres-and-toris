@@ -1,0 +1,32 @@
+{
+  "bibliography_final_pages": [
+    266,
+    267
+  ],
+  "bibliography_physically_final": true,
+  "decision": "PASS_V51_BEFORE_CERTIFICATION_AND_BIBLIOGRAPHY_FINAL",
+  "pdf_pages": 267,
+  "pdf_pages_by_heading": {
+    "certification": [
+      13,
+      259
+    ],
+    "conclusion": [
+      13,
+      243,
+      262
+    ],
+    "v51": [
+      12,
+      255
+    ]
+  },
+  "source_order": {
+    "certification": 713429,
+    "conclusion": 723782,
+    "v50": 687991,
+    "v51": 702224
+  },
+  "status": "PASS",
+  "version": "v51"
+}

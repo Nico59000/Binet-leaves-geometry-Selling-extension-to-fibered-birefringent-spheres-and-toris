@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "all_endpoints_exist": true,
+    "all_five_adapters": true,
+    "all_five_figures": true,
+    "collision_2/7": true,
+    "collision_3/7": true,
+    "decision": true,
+    "fig2_compiler_pass": true,
+    "fig2_source_recipe": true,
+    "fig36_fusion_pass": true,
+    "morphism_count": true,
+    "morphism_ids_unique": true,
+    "no_cross_figure_morphism": true,
+    "no_fig1_import": true,
+    "numeric_seed_gap_typed": true,
+    "object_count": true,
+    "object_ids_unique": true,
+    "ordered_count": true,
+    "provenance_present": true,
+    "retained_3D5D": true,
+    "retained_Noether": true,
+    "retained_R2PURE": true,
+    "source_hash_fig2": true,
+    "source_hash_fig36": true,
+    "status": true
+  },
+  "passed": 24,
+  "status": "PASS",
+  "total": 24,
+  "version": "v53"
+}

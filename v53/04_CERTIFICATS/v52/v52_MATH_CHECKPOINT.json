@@ -1,0 +1,52 @@
+{
+  "version": "v52",
+  "predecessor": "v51 CLOSED/APPEND-ONLY",
+  "publication_state": "PRESEAL/NONPUBLISHABLE",
+  "math_gate": "PASS-FINAL-FIG1-GATE-AND-TYPED-FIG3-6-FUSION",
+  "fig1": {
+    "PQ_D6_gauge": "PROVEN-SOURCE-PQ-ANCHORED; (epsilon,k)=(-1,4)",
+    "global_refined_field": "PASS-GLOBAL-CURVILINEAR-HOMEOMORPHISM-CANDIDATE; BSB-P084 enters only as a global-field constraint",
+    "exact_triangulated_realization": {
+      "status": "PASS-EXACT-TRIANGULATED-BSB-P084-GLOBAL-HOMEOMORPHISM",
+      "rings": 12,
+      "vertices": 1297,
+      "triangles": 2484,
+      "mesh_edges": 3780,
+      "source_min_signed_double_area_scaled2": 25356316,
+      "target_min_signed_double_area_scaled2": 28547021,
+      "source_nonincident_crossings": 0,
+      "target_nonincident_crossings": 0,
+      "target_boundary_crossings": 0,
+      "radial_boundary_correction": "w(t)=t^2"
+    },
+    "e96": {
+      "status": "STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT",
+      "geom_support_eps": 0.8333333333333334,
+      "dark_support_eps": 0.8782051282051282,
+      "P084_support_eps": 0.8205128205128205
+    },
+    "source_exact_propagation": "e96 -> e53 -> {e34,e97} -> {e54,e78}",
+    "historical_incidence": "PASS-HISTORICAL-FIG1-123/123",
+    "remaining_NT_edges": 0,
+    "promotion": "PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION",
+    "negative_checkpoint_retained": "naive exact K24 boundary splice produced 7 inverted triangles and is not promoted"
+  },
+  "fig3_6": {
+    "status": "PASS-TYPED-DISJOINT-FUSION/PROVENANCE-PRESERVED",
+    "objects": 31,
+    "relations": 28,
+    "ordered_structures": 3,
+    "cross_figure_relations": 0,
+    "fig6_corrected_starred_tuple": "(1,-7,8)/(3,0,0)",
+    "guard": "shared printed labels and local relations remain separated across figures absent an explicit adapter"
+  },
+  "retained_separations": {
+    "CHIRES14_radius_le5": "retain v51 statuses; do not open radius 6",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Binet_H1_Ad_H1_V48_transfer": "SEPARATED",
+    "Selling_Noether_biquadratic": "CONTEXT/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "GL3_equivariant_bridge": "NT/NOT-CONSTRUCTED"
+  },
+  "guard": "Fig.1 historical promotion is restricted to the exact source-typed 62/123/62 realization and its BSB-P084-constrained exact PL embedding. It does not identify Selling with Noether or any 3D-to-5D carrier."
+}

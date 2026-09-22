@@ -1,0 +1,61 @@
+{
+  "atomic_completion": true,
+  "atomic_conjunction": {
+    "DOC": "PASS",
+    "FRAGMENT_ROUNDTRIP": "PASS_NOT_TRIGGERED_BELOW_200MiB",
+    "MATH": "PASS",
+    "PDF_QA": "PASS",
+    "POSTSEAL": "PASS",
+    "SEAL": "PASS",
+    "VERIFY": "PASS"
+  },
+  "bundle": {
+    "bytes": 73792125,
+    "members": 542,
+    "sha256": "d180dd3d801f6af20bcbadfa56a65aaa911dd65779c226ea16c7ae8a974ab47f",
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB"
+  },
+  "math_promotions": {
+    "Ad_H1_Z2_support_Bockstein": "PROVEN_EXPLICIT_SEPARATE_CARRIER",
+    "Binet_H1_Z2_support_Bockstein": "PROVEN_EXPLICIT_SEPARATE_CARRIER",
+    "Binet_H2_V48_transfer_defect": "PROVEN_SEPARATE_CARRIER_TU_INDEX2",
+    "CHIRES14_global_integral_lift_in_B5": "NT",
+    "CHIRES14_radius5_canonical_integral_section": "REFUTED-TYPED",
+    "CHIRES14_radius5_fourfiber_correction": "REFUTED-TYPED",
+    "CHIRES14_radius5_iterated_correction": "PERIOD_2_CHECKPOINT",
+    "CHIRES14_radius5_local_saturated_correction": "PROVEN",
+    "CHIRES14_radius5_mod4_dual_obstruction": "REFUTED_AS_OBSTRUCTION",
+    "CHIRES14_radius5_quotient_cycle": "PROVEN_EXACT_DETERMINISTIC",
+    "CHIRES14_radius_le4": "REFUTED-TYPED",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_raster_HC_binding": "NT_PENDING_DIRECT_SOURCE_ANCHORS",
+    "Selling_source_HAX_HC_carrier": "PROVEN_SOURCE_COORDINATE_INCIDENCE_STABILIZER_C6",
+    "figures_2_to_6": "PENDING-SOURCE-SPECIFIC-SEEDS/BRANCH-DATA"
+  },
+  "pdf": {
+    "bibliography": "FINAL_PAGES_266_267",
+    "bytes": 2419533,
+    "latex_overfull_count": 0,
+    "pages": 267,
+    "precanon_canonical_pixel_identical_all_267_pages": true,
+    "section_order": "PASS",
+    "sha256": "be1a134deff2773d50aae9c9bbbc487e51eb160592c3500f69cd42f096916192",
+    "v51_begins_page": 255
+  },
+  "postseal_report_sha256": "884f86a10e4480570d6bfa0417c5392a27c321c089a75e56e68a49c0afaa4c34",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "safe_successor": "v52 -- retain v51 CLOSED/APPEND-ONLY; extract directly the printed right-angle marks and axis branches of Tafel III to supply source-aware anchors before realizing the 62 faces; decide CHIRES14 at radius five by breaking the local period with non-local kernel fibers or a global exact obstruction, without opening radius six first; continue R2PURE annihilator/intersection/whiskering analysis and 13<->17 only after an incidence/groupoid morphism; transcribe Fig.2-6 source-specific seeds before compilation; retain Binet, Ad and V48 transfer carriers separated absent a natural transformation.",
+  "seal_manifest_sha256": "1f7529b46b98c2330c5ec54b24548abfcbb2aa8670ff606596c229e212dd2d07",
+  "sha256_ledger_sha256": "7ee673849a481a876c42b7d5f3f3f7bdf3319d176fcdb51e9075a14014cd0f03",
+  "tex": {
+    "bytes": 755480,
+    "sha256": "ed358a38ae1a1fed5fe9a69a8cb2e6771323d299aece535fd6352640c6190477"
+  },
+  "verification": {
+    "combined": 8511,
+    "new_v51": 73,
+    "predecessor_v50": 8438,
+    "status": "PASS_8511_OF_8511"
+  },
+  "version": "v51"
+}

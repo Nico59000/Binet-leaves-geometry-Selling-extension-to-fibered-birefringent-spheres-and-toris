@@ -1,0 +1,23 @@
+{
+  "version": "v37",
+  "primary_plate": {
+    "file": "LOG_0016.pdf",
+    "bytes": 1991876,
+    "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+    "identity": "Selling 1874, Tafel III; page 2 contains Fig.1--Fig.6",
+    "embedded_raster_sha256": "9116d054ae3267ae5f8a781135e434db659c4c8a6ff162cc5b6b2a12eee4c437",
+    "fig1_crop": "selling_fig1_full_600.png",
+    "fig1_crop_sha256": "ff8583eb4372d9c4c1a285010e925173c78281c1cccf62888bdae47bca2261cf"
+  },
+  "primary_text": "Selling 1877 French reprint / source text used for semantic typing of boundary letters, fissures, crossings, serpentines, repetitions and stabilizers.",
+  "roof_context": [
+    "roof_palindrome_ternary_hyperplane_scope.tex",
+    "positional_reversal_mixed_ternary_hal_v1_1.tex",
+    "golden_ternary_roof_hyperplanes_htnt_final.tex"
+  ],
+  "guards": [
+    "No OCR used for plate geometry.",
+    "Automatic line/region extraction is diagnostic until source-geometric semantic matching.",
+    "Roof, matrix transpose, Lorentz orientation and physical phase remain separated absent an explicit equivariant morphism."
+  ]
+}

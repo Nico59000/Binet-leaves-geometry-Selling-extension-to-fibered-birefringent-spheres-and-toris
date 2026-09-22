@@ -1,0 +1,40 @@
+{
+  "F29_functor_gate": {
+    "edges": "map each historical substitution edge to an explicit F29 path with matching endpoints",
+    "faces": "supply an explicit F29 filling for every historical 2-cell and verify boundary equality",
+    "objects": "map every historical 0-cell/object to a canonical F29 object"
+  },
+  "cochain_matrices": {
+    "chain_condition": "d1*d0=0 exactly; face holonomies must equal the declared stabilizer actions",
+    "d0": "for edge e:v->w, (d0 s)_e = s_w - T_e s_v",
+    "d1": "transported signed sum of edge cochains around each ordered field boundary; terminal transport/stabilizer must agree with the repeated-field identification"
+  },
+  "current_missing": {
+    "historical_field_assignments": 34,
+    "historical_node_assignments": 136,
+    "historical_segment_assignments": 105,
+    "repetition_pairs": 34,
+    "stabilizer_words": 34
+  },
+  "decision": "H1_H2_NT_NOT_RECOMPUTED",
+  "formula_after_gate": "H^1=ker(d1)/im(d0); H^2=C^2/im(d1) for the closed 2-dimensional carrier, with stabilizer-invariant cochains if the quotient is treated as a complex of groups.",
+  "historical_cell_complex": {
+    "C0": "source-certified fissure/crossing/intersection nodes with unique historical IDs",
+    "C1": "oriented source-certified boundary arcs with source/target node IDs and historical substitution matrix M_e",
+    "C2": "source-certified fields with ordered oriented boundary cycles",
+    "isotropy": "per-cell stabilizer/self-transformation words for repeated fields and symmetric cells",
+    "quotient": "explicit repeated-field identifications for the finite domain modulo repetition"
+  },
+  "local_systems": {
+    "Adjoint_soQ": "edge transport Ad(M_e):X -> M_e^{-1} X M_e in compatible bases of so(Q_v)",
+    "Binet_sign_line": "edge transport epsilon_e induced by the historical congruence arrow on the selected time-cone component"
+  },
+  "recompute_only_after": [
+    "all historical IDs are total, not diagnostic placeholders",
+    "all repeated fields and stabilizers are encoded",
+    "all local-system transports are explicit",
+    "0/1/2-cell functor compatibility closes"
+  ],
+  "status": "PROVEN_REQUIREMENT_SCHEMA; RECOMPUTATION_BLOCKED",
+  "version": "v44"
+}

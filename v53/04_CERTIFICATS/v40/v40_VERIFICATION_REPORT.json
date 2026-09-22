@@ -1,0 +1,37 @@
+{
+  "phase": "v40-minimal-selling-schema-peiffer-critical-diamonds-transported-J-section",
+  "status": "PASS",
+  "predecessor_v39_checks": 5025,
+  "new_check_count": 361,
+  "combined_check_count": 5386,
+  "failed": [],
+  "selling": {
+    "minimal_schema": "PROVEN_CLOSED",
+    "abstract_external_axes": 6,
+    "abstract_fourfold_centres": 6,
+    "historical_geometric_assignment": "NT",
+    "field_functor": "PENDING_NOT_PROMOTED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED"
+  },
+  "gamma3": {
+    "v39_underlying_length3_interfaces": 4,
+    "oriented_instances": 16,
+    "residual_diamonds": 8,
+    "seed_families": 2,
+    "new_independent_4cells": 0,
+    "new_independent_5cells": 0,
+    "complete_module": "NT"
+  },
+  "projective_J": {
+    "objects": 17,
+    "edges": 15,
+    "components": 3,
+    "cycle_rank": 1,
+    "v34_covariant_transport_path_independent": "PROVEN_ON_WITNESS",
+    "v39_left_conjugation_covariant_path_test": "REFUTED_ON_K_DECK_CYCLE_FOR_K>=1; MOD2_SHADOW_CLOSES",
+    "root_sign_choices": 8,
+    "Lorentz_orientation": "NT",
+    "physical_phase": "SEPARATED/PENDING-MORPHISM"
+  },
+  "pending_registry": "pending_morphism_registry_v40.json"
+}

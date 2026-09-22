@@ -1,0 +1,51 @@
+{
+  "version": "v45",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "atomic_completion": true,
+  "atomic_conjunction": {
+    "MATH": "PASS",
+    "VERIFY": "PASS",
+    "PDF_QA": "PASS",
+    "SEAL": "PASS",
+    "FRAGMENT_ROUNDTRIP": "PASS",
+    "POSTSEAL": "PASS"
+  },
+  "verification": {
+    "predecessor_v44": 7917,
+    "new_v45": 59,
+    "combined": 7976,
+    "status": "PASS_7976_OF_7976"
+  },
+  "pdf": {
+    "pages": 243,
+    "bytes": 2266532,
+    "sha256": "05e7370ef8129d141fb5fec3bedc993a85d8f1ba1d7d869a66b9a7836af8300a",
+    "page210_overflow": "PASS_RETAINED"
+  },
+  "tex": {
+    "bytes": 685524,
+    "sha256": "7fb323e5218fe9ca92b45197e7397f56e01ed7a86a54fda474fea1dae4e6422f",
+    "overfull_boxes": 0
+  },
+  "bundle": {
+    "bytes": 47823301,
+    "members": 249,
+    "sha256": "f5d7572aadc9b361c604834a8df51af4b3e20cb4f3197360771e1f37d2b241b9",
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB"
+  },
+  "seal_manifest_sha256": "5cb76189376fdf4022eac24bd501f9554a76e3fd075d5bf4d9ad585041ee95d1",
+  "sha256_ledger_sha256": "19fd3ee7b1bbc7008f61e8d3d9c886903a9847482402ba84899997a28f11b260",
+  "postseal_report_sha256": "9273307a071a5d23f629b47fd10c43abe6356bfbac3ba7a0dc836046227fa0b4",
+  "math_promotions": {
+    "dual_source_dotted_trace_set": "PROVEN_DIAGNOSTIC_COUNT_7",
+    "historical_external_six_subset": "NT_NONUNIQUE_SOURCE_BINDING",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_field_functor": "PENDING-MORPHISM",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "declared_4_5_6_relator_free_grammars": "NO_NEW_M43_DIRECTION",
+    "complete_resolution": "NT_RESIDUAL_MIN_DIM_14",
+    "Singer_injection": "SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "safe_successor": "v46 -- retain v45 CLOSED/APPEND-ONLY and every typed separation; resolve the 7-to-6 Selling axis ambiguity only from non-morphological source evidence, prioritizing explicit external-boundary incidence, cyclic fourfold-centre order and historical substitution/field labels, and promote no HAX_i or HC_i unless the six-subset and its cyclic ordering are uniquely source-certified; then derive the six reflections and activate the 89-node C2 census only if the degree-one carrier is invariant, testing 44|45 and 34|55 only against the resulting historical orbit census; materialize historical node/edge/field types, ordered field boundaries, repetition targets, stabilizer words and local Binet/adjoint transports and form d0,d1 only when total, verifying d1*d0=0, face holonomy/stabilizer identities and the full F_Sell^field -> F29_can object/edge/face functor before recomputing H1/H2; retain the strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED; use the residual 512-character sectors with minimum residual dimension 14 to construct and lift explicit non-free-cancellation group-ring syzygy candidates beyond the exhausted 4/5/6-relator grammars and the eighteen two-periodic order-two tails; attempt the Singer-framed odd injection only after source-native L, sigma and Gamma are equivariant on all historical cells; retain MXM^-1 as opposite variance, roof reversal versus transpose REFUTED-TYPED, Lorentz orientation NT, and physical phase SEPARATED/PENDING-MORPHISM."
+}

@@ -1,0 +1,92 @@
+{
+  "artifact_sha256": {
+    "gamma3_radius5_fourfiber_nogo_v51.json": "0e718dd7d317beefb8fd747bf8e094b1f7483c31b53392e7303da247ed75a94b",
+    "gamma3_radius5_iterated_kernel_correction_v51.json": "3ea9a8dc227bce65af91a6bc44eec6c7f693a6f1c4cc99b3b3818fe46cd63cb7",
+    "gamma3_radius5_quotient_cycle_v51.json": "dd0c6ca71077588d3fca312304091cd971f8072c183d23bd73f2ee03a4b7c631",
+    "gamma3_radius5_residual_projection_lattice_v51.json": "584a3d8472685e3087bece094eae76c6058f6b8c3f191e3a540db3f8d73e582c",
+    "gamma3_radius5_support_gate_v51.json": "00830679a57ff8f9bdaa8822f4a6e9cc95ad2042790b16ba8b76986e4ccd106f",
+    "selling_raster_HC_signature_identifiability_v51.json": "0c167ef53cf31dd2196f68d33f541c920307d391948966e0390fdd052fbabe6b",
+    "selling_source_HC_local_star_signatures_v51.json": "d8e55e0198756ba9b99b31671ce8a13a62af0991bfc01a46b29f8497add22217",
+    "selling_source_axis_centre_carrier_v51.json": "8ae64d86224f87dc64cf70bf12f6442b2d6b11c13d59885391d8c2c423b71873",
+    "selling_source_axis_centre_stabilizers_v51.json": "9f97d204d6457458dee71bb7479d9d537f04f955d4af6500ebc1adc1daeabba8",
+    "selling_source_raster_projective_bold_cycle_audit_v51.json": "70b0ca39115ec1306722a74db877c0b8244eee8a8602d63beedd83dbc1993816",
+    "selling_torsion_support_bockstein_pairings_v51.json": "5e291348eae7e806d9e5e4ba256c3913195f0c05516789ad5db4b944ba61ae99"
+  },
+  "formal_context": "PASS-FORMAL-CONTEXT-LOCK",
+  "gamma3_radius5": {
+    "ball_size": 78944,
+    "canonical_section_integral_lift": "REFUTED-TYPED",
+    "four_witness_fibers": "PROVEN-EXACT-FOUR-FIBER-RATIONAL-NO-GO",
+    "global_integral_lift_in_B5": "NT",
+    "global_radius5_no_go": "NT-NOT-PROVEN",
+    "iterated_kernel_correction": "PROVEN-EXACT-ITERATED-KERNEL-CORRECTION-CHECKPOINT",
+    "local_projection_saturated": true,
+    "local_residual_lattice": "PROVEN-EXACT-RESIDUAL-PROJECTION-LATTICE",
+    "mod4_image_size": 382,
+    "quotient_cycle_status": "PROVEN-EXACT-DETERMINISTIC-FINITE-QUOTIENT-CYCLE",
+    "quotient_cycle_terms": 4,
+    "residual_period_detected": true,
+    "support_status": "PASS-EXACT-RADIUS5-SUPPORT-PROBE"
+  },
+  "guard": "v51 may close with the global B5 integral lift and raster HC binding still NT because their non-promotion is itself formally guarded and all positive/negative bounded claims are certified.",
+  "math_gate": "PASS-WITH-EXPLICIT-NT-FRONTIERS",
+  "predecessor": "v50 CLOSED/APPEND-ONLY",
+  "publication_state": "PRESEAL/NONPUBLISHABLE",
+  "retained_separations": {
+    "Lorentz_orientation": "NT",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "R5_to_Gamma3": "REFUTED-TYPED",
+    "Singer_physical_phase": "SEPARATED/PENDING-MORPHISM",
+    "figures_2_to_6": "PENDING-SOURCE-SPECIFIC-SEEDS/BRANCH-DATA",
+    "roof_reversal_transposition": "REFUTED-TYPED"
+  },
+  "selling_source": {
+    "axis_centre_carrier": "PROVEN-SOURCE-COORDINATE-C6-AXIS/CENTRE-CARRIER",
+    "homography_diagnostic_only": true,
+    "local_star_signatures": "PROVEN-SOURCE-HC-LOCAL-STAR-SIGNATURES",
+    "raster_binding": "NT/PENDING-DIRECT-SOURCE-ANCHORS",
+    "raster_table_candidate_count": 12,
+    "raster_table_identifiability": "PROVEN-RASTER-TABLE-IDENTIFIABILITY-NO-GO",
+    "six_centres": [
+      [
+        "HC0",
+        "1",
+        "0"
+      ],
+      [
+        "HC1",
+        "1",
+        "1/4"
+      ],
+      [
+        "HC2",
+        "2/3",
+        "1/3"
+      ],
+      [
+        "HC3",
+        "0",
+        "1/3"
+      ],
+      [
+        "HC4",
+        "-2/3",
+        "1/9"
+      ],
+      [
+        "HC5",
+        "-2/3",
+        "0"
+      ]
+    ],
+    "stabilizers": "PROVEN-SOURCE-SIX-FOURFOLD-STABILIZERS"
+  },
+  "torsion": {
+    "ad_H1_Z2": "PROVEN-EXPLICIT-BOCKSTEIN-SUPPORT",
+    "binet_H1_Z2": "PROVEN-EXPLICIT-BOCKSTEIN-SUPPORT",
+    "binet_degree2_transfer_defect": "PROVEN-SEPARATE-CARRIER/V48/TU/INDEX2",
+    "cross_system_overlap": "SUPPORT-INTERSECTION-ONLY/NO-COEFFICIENT-MORPHISM",
+    "status": "PASS-EXACT-TORSION-SUPPORT/BOCKSTEIN/LINK-PAIRING"
+  },
+  "version": "v51"
+}

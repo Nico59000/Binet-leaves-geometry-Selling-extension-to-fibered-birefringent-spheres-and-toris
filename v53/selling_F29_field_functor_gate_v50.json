@@ -1,0 +1,4126 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "strict_field_functor_to_F29_can": {
+    "status": "REFUTED-TYPED",
+    "reason": "F29_can is the free right GL(3,2) Cayley/congruence chart. Source orbifold loops with nonidentity mod-2 transport cannot map to endomorphism paths at a single target object while preserving reduction mod 2.",
+    "object_count_target": 168,
+    "arrow_endpoint_matches_strict": 111,
+    "arrow_total": 123,
+    "link_loops_strictly_closed": 59,
+    "link_total": 62,
+    "no_go_witness_edge_118": {
+      "edge": 118,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 38,
+      "target": 38,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S6"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    "free_right_action_exhaustive_check_168x3_nonidentity_V4": true
+  },
+  "canonical_repair": {
+    "target": "left-V4 quotient/orbifold of F29_can",
+    "status": "PROVEN-OBJECT/ARROW/LINK-COMPATIBLE-MOD2",
+    "V4_order": 4,
+    "object_orbits": 42,
+    "all_123_arrow_endpoints_close_in_quotient": true,
+    "all_62_orbifold_links_close_in_quotient": true,
+    "interpretation": "Repeated-field T/U identifications are retained as orbifold/deck data instead of being forced to disappear inside the free 168-object chart."
+  },
+  "arrows": [
+    {
+      "edge": 0,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 0,
+      "target": 0,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 1,
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 2,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 2,
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 3,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 3,
+      "kind": "ORDINARY-CROSSING",
+      "source": 0,
+      "target": 1,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 4,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 1,
+      "target": 1,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 5,
+      "kind": "ORDINARY-CROSSING",
+      "source": 1,
+      "target": 5,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 6,
+      "kind": "ORDINARY-CROSSING",
+      "source": 1,
+      "target": 4,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 7,
+      "kind": "ORDINARY-CROSSING",
+      "source": 2,
+      "target": 6,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 8,
+      "kind": "ORDINARY-CROSSING",
+      "source": 2,
+      "target": 3,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 9,
+      "kind": "ORDINARY-CROSSING",
+      "source": 3,
+      "target": 7,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 10,
+      "kind": "ORDINARY-CROSSING",
+      "source": 4,
+      "target": 8,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 11,
+      "kind": "ORDINARY-CROSSING",
+      "source": 4,
+      "target": 5,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 12,
+      "kind": "ORDINARY-CROSSING",
+      "source": 5,
+      "target": 9,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 13,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 6,
+      "target": 6,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 14,
+      "kind": "ORDINARY-CROSSING",
+      "source": 6,
+      "target": 10,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 15,
+      "kind": "ORDINARY-CROSSING",
+      "source": 6,
+      "target": 11,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 16,
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 13,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 17,
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 12,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 18,
+      "kind": "ORDINARY-CROSSING",
+      "source": 7,
+      "target": 9,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 19,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 8,
+      "target": 8,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 20,
+      "kind": "ORDINARY-CROSSING",
+      "source": 8,
+      "target": 15,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 21,
+      "kind": "ORDINARY-CROSSING",
+      "source": 8,
+      "target": 14,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 22,
+      "kind": "ORDINARY-CROSSING",
+      "source": 9,
+      "target": 16,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 23,
+      "kind": "ORDINARY-CROSSING",
+      "source": 9,
+      "target": 17,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 24,
+      "kind": "ORDINARY-CROSSING",
+      "source": 10,
+      "target": 18,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 25,
+      "kind": "ORDINARY-CROSSING",
+      "source": 10,
+      "target": 19,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 26,
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 20,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 27,
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 22,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 28,
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 21,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 29,
+      "kind": "ORDINARY-CROSSING",
+      "source": 11,
+      "target": 13,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S6",
+        "S11"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 30,
+      "kind": "ORDINARY-CROSSING",
+      "source": 12,
+      "target": 13,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 31,
+      "kind": "ORDINARY-CROSSING",
+      "source": 12,
+      "target": 23,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 32,
+      "kind": "ORDINARY-CROSSING",
+      "source": 13,
+      "target": 21,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S11",
+        "S6"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 33,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 14,
+      "target": 14,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 34,
+      "kind": "ORDINARY-CROSSING",
+      "source": 14,
+      "target": 25,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 35,
+      "kind": "ORDINARY-CROSSING",
+      "source": 14,
+      "target": 24,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 36,
+      "kind": "ORDINARY-CROSSING",
+      "source": 15,
+      "target": 17,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S6",
+        "S11"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 37,
+      "kind": "ORDINARY-CROSSING",
+      "source": 15,
+      "target": 26,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 38,
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 17,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 39,
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 28,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 40,
+      "kind": "ORDINARY-CROSSING",
+      "source": 16,
+      "target": 27,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 41,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 18,
+      "target": 18,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 42,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 18,
+      "target": 18,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 43,
+      "kind": "ORDINARY-CROSSING",
+      "source": 18,
+      "target": 19,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 44,
+      "kind": "ORDINARY-CROSSING",
+      "source": 19,
+      "target": 29,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 45,
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 22,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 46,
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 29,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 47,
+      "kind": "ORDINARY-CROSSING",
+      "source": 20,
+      "target": 30,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 48,
+      "kind": "ORDINARY-CROSSING",
+      "source": 21,
+      "target": 31,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 49,
+      "kind": "ORDINARY-CROSSING",
+      "source": 22,
+      "target": 32,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 50,
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 33,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 51,
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 34,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 52,
+      "kind": "ORDINARY-CROSSING",
+      "source": 23,
+      "target": 28,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 53,
+      "kind": "ORDINARY-CROSSING",
+      "source": 24,
+      "target": 35,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 54,
+      "kind": "ORDINARY-CROSSING",
+      "source": 24,
+      "target": 25,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 55,
+      "kind": "ORDINARY-CROSSING",
+      "source": 25,
+      "target": 36,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 56,
+      "kind": "ORDINARY-CROSSING",
+      "source": 26,
+      "target": 37,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 57,
+      "kind": "ORDINARY-CROSSING",
+      "source": 26,
+      "target": 36,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 58,
+      "kind": "ORDINARY-CROSSING",
+      "source": 27,
+      "target": 37,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 59,
+      "kind": "ORDINARY-CROSSING",
+      "source": 27,
+      "target": 38,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 60,
+      "kind": "ORDINARY-CROSSING",
+      "source": 28,
+      "target": 34,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 61,
+      "kind": "ORDINARY-CROSSING",
+      "source": 28,
+      "target": 39,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 62,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 29,
+      "target": 29,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 63,
+      "kind": "ORDINARY-CROSSING",
+      "source": 29,
+      "target": 30,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5",
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 64,
+      "kind": "ORDINARY-CROSSING",
+      "source": 30,
+      "target": 40,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 65,
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 42,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 66,
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 41,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 67,
+      "kind": "ORDINARY-CROSSING",
+      "source": 31,
+      "target": 33,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5",
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 68,
+      "kind": "ORDINARY-CROSSING",
+      "source": 32,
+      "target": 43,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 69,
+      "kind": "ORDINARY-CROSSING",
+      "source": 32,
+      "target": 42,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 70,
+      "kind": "ORDINARY-CROSSING",
+      "source": 33,
+      "target": 44,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 71,
+      "kind": "ORDINARY-CROSSING",
+      "source": 34,
+      "target": 45,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 72,
+      "kind": "ORDINARY-CROSSING",
+      "source": 34,
+      "target": 34,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 73,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 35,
+      "target": 35,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 74,
+      "kind": "ORDINARY-CROSSING",
+      "source": 35,
+      "target": 46,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 75,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 35,
+      "target": 35,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 76,
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 37,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 77,
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 48,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 78,
+      "kind": "ORDINARY-CROSSING",
+      "source": 36,
+      "target": 47,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 79,
+      "kind": "ORDINARY-CROSSING",
+      "source": 37,
+      "target": 38,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 80,
+      "kind": "ORDINARY-CROSSING",
+      "source": 38,
+      "target": 49,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 81,
+      "kind": "ORDINARY-CROSSING",
+      "source": 39,
+      "target": 39,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 82,
+      "kind": "ORDINARY-CROSSING",
+      "source": 39,
+      "target": 49,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 83,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 40,
+      "target": 40,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 84,
+      "kind": "ORDINARY-CROSSING",
+      "source": 40,
+      "target": 50,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 85,
+      "kind": "ORDINARY-CROSSING",
+      "source": 40,
+      "target": 43,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5",
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 86,
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 42,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 87,
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 52,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 88,
+      "kind": "ORDINARY-CROSSING",
+      "source": 41,
+      "target": 51,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 89,
+      "kind": "ORDINARY-CROSSING",
+      "source": 43,
+      "target": 50,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 90,
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 53,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 91,
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 44,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "T",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 92,
+      "kind": "ORDINARY-CROSSING",
+      "source": 44,
+      "target": 54,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 93,
+      "kind": "ORDINARY-CROSSING",
+      "source": 45,
+      "target": 54,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 94,
+      "kind": "ORDINARY-CROSSING",
+      "source": 45,
+      "target": 55,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 95,
+      "kind": "ORDINARY-CROSSING",
+      "source": 46,
+      "target": 47,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S4",
+        "S1"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 96,
+      "kind": "ORDINARY-CROSSING",
+      "source": 46,
+      "target": 56,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 97,
+      "kind": "ORDINARY-CROSSING",
+      "source": 47,
+      "target": 48,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S2",
+        "S5"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 98,
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 58,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 99,
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 57,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 100,
+      "kind": "ORDINARY-CROSSING",
+      "source": 50,
+      "target": 52,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S5",
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 101,
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 59,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S2"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 102,
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 51,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S7"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "T",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 103,
+      "kind": "ORDINARY-CROSSING",
+      "source": 51,
+      "target": 53,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S7",
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 104,
+      "kind": "ORDINARY-CROSSING",
+      "source": 52,
+      "target": 57,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S11"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 105,
+      "kind": "ORDINARY-CROSSING",
+      "source": 54,
+      "target": 55,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 106,
+      "kind": "ORDINARY-CROSSING",
+      "source": 55,
+      "target": 55,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 107,
+      "kind": "ORDINARY-CROSSING",
+      "source": 55,
+      "target": 55,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 108,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 56,
+      "target": 56,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 109,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 57,
+      "target": 57,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 110,
+      "kind": "ORDINARY-CROSSING",
+      "source": 57,
+      "target": 60,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S4"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 111,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 58,
+      "target": 58,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 112,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 58,
+      "target": 58,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 113,
+      "kind": "ORDINARY-CROSSING",
+      "source": 59,
+      "target": 60,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S5",
+        "S9"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 114,
+      "kind": "ORDINARY-CROSSING",
+      "source": 59,
+      "target": 61,
+      "mod2_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S3"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 115,
+      "kind": "ORDINARY-CROSSING",
+      "source": 60,
+      "target": 61,
+      "mod2_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 116,
+      "kind": "MULTIWALL-ISOTROPY",
+      "source": 61,
+      "target": 61,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [],
+      "strict_F29_endpoint": true,
+      "V4_endpoint_witness": "I",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 117,
+      "kind": "ORDINARY-CROSSING",
+      "source": 61,
+      "target": 61,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S7"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "T",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 118,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 38,
+      "target": 38,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S3",
+        "S6"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 119,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 48,
+      "target": 48,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S7"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 120,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 49,
+      "target": 49,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S4",
+        "S1"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 121,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 53,
+      "target": 53,
+      "mod2_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S10",
+        "S1"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "T",
+      "quotient42_endpoint": true
+    },
+    {
+      "edge": 122,
+      "kind": "DECK-MIRROR-ISOTROPY",
+      "source": 56,
+      "target": 56,
+      "mod2_matrix": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "shortest_S_word": [
+        "S1",
+        "S7"
+      ],
+      "strict_F29_endpoint": false,
+      "V4_endpoint_witness": "U",
+      "quotient42_endpoint": true
+    }
+  ],
+  "links": [
+    {
+      "vertex": 0,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 1,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 2,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 3,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 4,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 5,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 6,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 7,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 8,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 9,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 10,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 11,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 12,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 13,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 14,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 15,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 16,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 17,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 18,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 19,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 20,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 21,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 22,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 23,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 24,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 25,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 26,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 27,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 28,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 29,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 30,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 31,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 32,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 33,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 34,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 35,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 36,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 37,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 38,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 39,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 40,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 41,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 42,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 43,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 44,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 45,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 46,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 47,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 48,
+      "strict_F29_closed": false,
+      "V4_closure": "TU",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": false,
+      "reason_if_not_strict": "endpoint differs by nontrivial left V4 deck action"
+    },
+    {
+      "vertex": 49,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 50,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 51,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 52,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 53,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 54,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 55,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 56,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 57,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 58,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 59,
+      "strict_F29_closed": false,
+      "V4_closure": "T",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": false,
+      "reason_if_not_strict": "endpoint differs by nontrivial left V4 deck action"
+    },
+    {
+      "vertex": 60,
+      "strict_F29_closed": true,
+      "V4_closure": "I",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": true,
+      "reason_if_not_strict": null
+    },
+    {
+      "vertex": 61,
+      "strict_F29_closed": false,
+      "V4_closure": "U",
+      "quotient42_closed": true,
+      "F29_fillable_by_841_cycle_basis": false,
+      "reason_if_not_strict": "endpoint differs by nontrivial left V4 deck action"
+    }
+  ],
+  "cohomology_gate": "LOCKED: the requested strict F_Sell^field -> F29_can gate fails. Do not compute historical H1/H2. A successor may retarget to the certified left-V4 quotient/orbifold or lift Selling back to its prequotient development before mapping to F29_can."
+}

@@ -1,0 +1,50 @@
+{
+  "version": "v40",
+  "status": "PASS",
+  "pdf": "formalisation_feuillets_binet_birefringence_selling_polaire_v40.pdf",
+  "page_count": 221,
+  "render_engine": "pdftoppm/poppler",
+  "render_dpi": 80,
+  "rendered_pages": 221,
+  "automated_checks": {
+    "all_pages_present": true,
+    "suspicious_pages": []
+  },
+  "visual_contact_sheets": 19,
+  "visual_inspection": {
+    "inspected_ranges": [
+      "193-204",
+      "205-216",
+      "217-221"
+    ],
+    "new_v40_section_pages": "209-213",
+    "result": "PASS_NO_CLIPPING_OVERLAP_BLACK_SQUARES_OR_BROKEN_GLYPHS_OBSERVED"
+  },
+  "canonicalization": {
+    "method": "pypdf clone, metadata removed, fixed trailer ID",
+    "byte_deterministic_repeated_canonicalization": true,
+    "selected_render_parity_pages": [
+      1,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221
+    ],
+    "selected_render_parity": "PASS_PIXEL_IDENTICAL"
+  },
+  "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED",
+  "guard": "All final pages were rendered after canonicalization; representative contact sheets covering the full new v40 section and document tail were visually inspected."
+}

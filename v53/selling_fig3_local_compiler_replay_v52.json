@@ -1,0 +1,116 @@
+{
+  "checks": {
+    "no_fig1_import": true,
+    "relations_nonempty": true,
+    "tokens_closed": true,
+    "unresolved_empty": true
+  },
+  "compiled_carrier": {
+    "carrier_kind": "LABELLED-LADDER-GERM",
+    "objects": [
+      {
+        "id": "A",
+        "label": "3/3"
+      },
+      {
+        "id": "B",
+        "label": "1/3"
+      },
+      {
+        "id": "C",
+        "label": "3/7"
+      },
+      {
+        "id": "D",
+        "label": "UNLABELLED-JUNCTION"
+      },
+      {
+        "id": "E",
+        "label": "2/7"
+      },
+      {
+        "id": "F",
+        "label": "2/5"
+      },
+      {
+        "id": "L",
+        "label": "(11,1,-1)/(0,0,0)"
+      },
+      {
+        "id": "R",
+        "label": "(1,2,5)/(1,0,0)"
+      }
+    ],
+    "relations": [
+      [
+        "A",
+        "B",
+        "wavy"
+      ],
+      [
+        "A",
+        "C",
+        "dotted"
+      ],
+      [
+        "C",
+        "D",
+        "wavy"
+      ],
+      [
+        "B",
+        "D",
+        "solid"
+      ],
+      [
+        "D",
+        "E",
+        "wavy"
+      ],
+      [
+        "D",
+        "F",
+        "dotted"
+      ],
+      [
+        "E",
+        "F",
+        "dotted"
+      ],
+      [
+        "D",
+        "R",
+        "dotted"
+      ],
+      [
+        "F",
+        "R",
+        "dotted"
+      ],
+      [
+        "L",
+        "E",
+        "dotted"
+      ]
+    ],
+    "unresolved": []
+  },
+  "figure": "Fig3",
+  "guard": "Local Fig-specific carrier only; no fusion with Fig1 or other figure compilers is inferred.",
+  "phase": "next-immediate-gate-replay",
+  "predecessor": "selling_fig3_local_compiler_v52.json",
+  "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+  "source_tokens": {
+    "positioned": {
+      "bottom-centre": "2/7",
+      "bottom-right": "2/5",
+      "left-middle": "3/7",
+      "lower-left": "(11,1,-1)/(0,0,0)",
+      "top-left": "3/3",
+      "top-middle": "1/3",
+      "upper-right": "(1,2,5)/(1,0,0)"
+    }
+  },
+  "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+  "version": "v52"
+}

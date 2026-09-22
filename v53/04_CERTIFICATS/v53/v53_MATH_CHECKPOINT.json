@@ -1,0 +1,37 @@
+{
+  "version": "v53",
+  "predecessor": "v52 CLOSED/APPEND-ONLY",
+  "publication_state": "PRESEAL/NONPUBLISHABLE",
+  "math_gate": "PASS-CHIRESON-B5-AND-FIG2-6-COMMON-TYPED-FUNCTOR",
+  "selling": {
+    "Fig1_historical_realization": "RETAINED-PROVEN-123/123",
+    "Fig2_6_common_typed_functor": "PROVEN-EXPLICIT-COPRODUCT-FUNCTOR-FIG2-6/PROVENANCE-PRESERVED",
+    "objects": 42,
+    "morphisms": 43,
+    "ordered_structures": 3,
+    "numeric_seed_engine": "NT-UNTIL-FIGURE-SPECIFIC-SEEDS"
+  },
+  "chires14": {
+    "object": "R3b_123",
+    "radius": 5,
+    "status": "PROVEN-GLOBAL-MOD8-DUAL-OBSTRUCTION / CHIRES14-RADIUS<=5-REFUTED-TYPED",
+    "raw_equations": 956320,
+    "raw_variables": 747196,
+    "raw_incidence": 4403520,
+    "two_core_equations": 856952,
+    "two_core_variables": 465651,
+    "two_core_incidence": 3528672,
+    "two_core_rhs_one": 44,
+    "min_core_degree": 2,
+    "raw_solution_weight": 121219,
+    "raw_verification_failures": 0,
+    "radius6": "NOT-OPENED"
+  },
+  "retained_separations": {
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_Noether": "CONTEXT/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "Binet_Ad_V48": "SEPARATED"
+  },
+  "safe_successor": "v54 -- retain v53 closed; numerical Selling engine only from explicit figure-specific seed/wall/substitution data; seek explicit R2PURE13 -> Selling/Deck17 incidence/groupoid morphism or exact obstruction; keep B6 closed absent a new independently justified question; retain Selling-Noether and 3D-5D CONTEXT/PENDING-MORPHISM."
+}

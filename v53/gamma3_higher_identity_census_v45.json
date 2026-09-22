@@ -1,0 +1,35 @@
+{
+  "version": "v45",
+  "ring": "R=Z[Gamma_3(2)]",
+  "baseline_module": "M43 ~= R^6 direct_sum (direct_sum_{i=1}^{18} R/R(1+g_i))",
+  "four_relator_free_identities": {
+    "version": "v45-probe",
+    "oriented_instances": 396,
+    "pair_residual_keys": 75672,
+    "four_distinct_free_identity_sequences_raw": 3840,
+    "dihedral_classes": 1920,
+    "absorbed_by_M43": 1920,
+    "survivors_mod_M43": 0,
+    "survivor_samples": []
+  },
+  "five_relator_3plus2_positive_cancellation_grammar": {
+    "positive_pair_instances": 7904,
+    "positive_pair_residual_keys": 3973,
+    "sequential_triples": 150896,
+    "triple_residual_keys": 53572,
+    "inverse_residual_key_matches": 0,
+    "five_distinct_base_free_identities": 0
+  },
+  "six_relator_3plus3_positive_cancellation_grammar": {
+    "version": "v45-probe",
+    "scope": "six-relator free identities assembled as inverse residual pairs of v44 sequential positive-cancellation triples, six distinct base relators",
+    "raw_sequences": 1536,
+    "dihedral_classes": 384,
+    "absorbed_by_M43": 384,
+    "survivors_mod_M43": 0,
+    "decision": "NO_NEW_DIRECTION"
+  },
+  "finite_character_shadow_residual_min_dimension": 14,
+  "decision": "NO_NEW_M43_DIRECTION_IN_DECLARED_4_5_6_RELATOR_FREE_CANCELLATION_GRAMMARS; COMPLETE_RESOLUTION_REMAINS_NT_BY_NONZERO_CHARACTER_SHADOW",
+  "guard": "The search closes only the explicitly declared cyclic/free-cancellation grammars, not arbitrary identities among relators."
+}

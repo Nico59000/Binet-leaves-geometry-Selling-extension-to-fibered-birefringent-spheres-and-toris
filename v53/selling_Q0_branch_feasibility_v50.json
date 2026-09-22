@@ -1,0 +1,118 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "checks": {
+    "q0_hyperboloid_exact": true,
+    "qstart_det60": true,
+    "qstart_hk_crossing": true,
+    "qstart_three_candidate_records": true,
+    "qstart_candidates_source_gates": true,
+    "q0_anisotropic_mod5": true
+  },
+  "Q0": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -5
+    ]
+  ],
+  "Qstart": [
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      -5
+    ]
+  ],
+  "hyperboloid": "5 xi^2 - 60 eta^2 - 12 zeta^2 = 60",
+  "anisotropy_certificate": {
+    "modulus": 5,
+    "squares_mod5": [
+      0,
+      1,
+      4
+    ],
+    "two_is_nonsquare": true,
+    "step1": "y^2 = 2 x^2 (mod 5) => 5|x and 5|y",
+    "step2": "substitution in 12x^2-y^2-5z^2=0 => 5|z",
+    "conclusion": "NO_NONZERO_RATIONAL_ISOTROPIC_VECTOR"
+  },
+  "hk_candidate_tests": {
+    "h_l": {
+      "pair": [
+        "h",
+        "l"
+      ],
+      "lhs": -1,
+      "rhs": -55,
+      "same_sign_product_gate": true,
+      "binary_reduced": true,
+      "feasible": true,
+      "binary": [
+        -5,
+        5,
+        6
+      ]
+    },
+    "h_g": {
+      "pair": [
+        "h",
+        "g"
+      ],
+      "lhs": -5,
+      "rhs": -12,
+      "same_sign_product_gate": true,
+      "binary_reduced": true,
+      "feasible": true,
+      "binary": [
+        -1,
+        0,
+        12
+      ]
+    },
+    "h_n": {
+      "pair": [
+        "h",
+        "n"
+      ],
+      "lhs": -5,
+      "rhs": -7,
+      "same_sign_product_gate": true,
+      "binary_reduced": true,
+      "feasible": true,
+      "binary": [
+        -1,
+        1,
+        6
+      ]
+    }
+  },
+  "source_branch_rules": [
+    "At a crossing h=k=0, test h=l, h=g, h=n by the three arithmetic gates serialized above.",
+    "If a candidate on the current branch is consecutive, follow its other boundary line first, then return to the current line.",
+    "If no crossing occurs before the branch endpoint, continue through the fissure along the paired boundary line.",
+    "A complete field boundary must reconnect to its initial boundary line.",
+    "Development may stop only after numerical repetition is detected and a stabilizer word is serialized."
+  ],
+  "total_fig1_compile": "NT: fissure-ordering/branch-order and total repetition closure are not yet serialized",
+  "historical_H1_H2": "NT_GUARDED"
+}

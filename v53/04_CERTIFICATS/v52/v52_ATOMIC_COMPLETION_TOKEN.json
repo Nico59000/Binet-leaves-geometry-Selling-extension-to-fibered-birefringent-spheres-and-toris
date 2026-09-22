@@ -1,0 +1,61 @@
+{
+  "atomic_completion": true,
+  "atomic_conjunction": {
+    "DETERMINISTIC_RESEAL": "PASS",
+    "DOC": "PASS",
+    "FRAGMENT_ROUNDTRIP": "PASS_NOT_TRIGGERED_BELOW_200MiB",
+    "MATH": "PASS",
+    "PDF_QA": "PASS",
+    "POSTSEAL": "PASS",
+    "SEAL": "PASS",
+    "VERIFY": "PASS"
+  },
+  "bundle": {
+    "bytes": 124097917,
+    "compression": "ZIP_STORED_DETERMINISTIC",
+    "members": 594,
+    "sha256": "1936700dc187ae762a407a17f16019c0f871ff47962a5e01df0eed577c38787d",
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB"
+  },
+  "math_promotions": {
+    "CHIRES14_radius6": "NOT_OPENED; B5_GLOBAL_LIFT_REMAINS_NT",
+    "Fig1_D6_gauge": "PROVEN-SOURCE-PQ-ANCHORED_(epsilon,k)=(-1,4)",
+    "Fig1_e96": "STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT",
+    "Fig1_exact_PL_homeomorphism": "PASS-EXACT-TRIANGULATED-BSB-P084-GLOBAL-HOMEOMORPHISM",
+    "Fig1_global_realization": "PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION",
+    "Fig1_historical_incidence": "PASS_123_OF_123",
+    "Fig3_6_typed_fusion": "PASS-TYPED-DISJOINT-FUSION/PROVENANCE-PRESERVED",
+    "Fig6_corrected_starred_tuple": "(1,-7,8)/(3,0,0)",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "Selling_Noether": "CONTEXT/PENDING-MORPHISM"
+  },
+  "pdf": {
+    "bibliography": "FINAL_PAGES_270_271",
+    "bytes": 2443280,
+    "latex_overfull_count": 0,
+    "pages": 271,
+    "precanon_canonical_pixel_identical_all_pages": true,
+    "section_order": "PASS",
+    "sha256": "68c2955a81953d8b8a0a110c5d2f57c501327529ff51c9e8c4a78416336c181d",
+    "v52_begins_page": 260
+  },
+  "postseal_report_sha256": "0d6b91df1a53ae1afa08e299e838ee6853831a44c261da54d11f07500192992e",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "safe_successor": "v53 -- retain v52 CLOSED/APPEND-ONLY and the PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION at 123/123; construct an explicit functor from the typed Fig.3--6 coproduct to a common Selling engine only with figure-specific adapters and preserved provenance; reintegrate Fig.2 only from its source-specific recipe; decide the global CHIRES14 B5 integral lift by a non-local corrector or exact obstruction before opening radius six; resume R2PURE13<->Selling/Deck17 only after an incidence/groupoid morphism; retain Selling--Noether and Selling 3D--5D as CONTEXT/PENDING-MORPHISM until an explicit GL(3)-equivariant morphism is constructed and verified.",
+  "seal_manifest_sha256": "5da17b4a1903abbaf8569e2a480e72f1217842c9ea64f236fd8f4e52fea5ca54",
+  "sha256sums_sha256": "77a30bf79b08f55cc3e5959b7cba6c7b72193e09ff8dd4bc8227d442eb5dff60",
+  "tex": {
+    "append_only_insertion": "PASS_BYTE_EXACT_TEXT_AFTER_REMOVING_v52_SECTION",
+    "bytes": 765425,
+    "sha256": "6d9076428dc006d30e7e0c3142384afc8356db936b09af40cca090386b2676ba"
+  },
+  "verification": {
+    "combined": 8583,
+    "industrial_direct": 22,
+    "predecessor": 8511,
+    "status": "PASS_8583_OF_8583",
+    "v52_final_gate": 50
+  },
+  "version": "v52"
+}

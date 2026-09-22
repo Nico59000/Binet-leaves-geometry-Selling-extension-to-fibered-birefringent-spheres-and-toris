@@ -1,0 +1,34 @@
+{
+  "primary_selling": {
+    "url": "https://www.numdam.org/item/JMPA_1877_3_3__153_0.pdf",
+    "pages_used": [
+      "164-165 / Numdam PDF pp.11-13 (fig.1 finite fields, external symmetries)",
+      "174-175 / PDF pp.22-23 (six external axes and quadripartite centres)",
+      "185-189 / PDF pp.33-37 (alternating A/a hexagon, repetition, finite external substitutions)",
+      "191-194 / PDF pp.39-42 (P,Q,R,S,T,U,V,W,Gamma,Delta branch)"
+    ]
+  },
+  "Kobayashi2015": {
+    "doi": "10.2996/kmj/1446210594",
+    "title": "A finite presentation of the level 2 principal congruence subgroup of GL(n;Z)",
+    "use": "Theorem 1.1 specialized to n=3; 43 instantiated relators."
+  },
+  "storage_roof_sources": [
+    {
+      "name": "roof_palindrome_ternary_hyperplane_scope.tex",
+      "file_id": "file_00000000ff3471f4a823d24a9cf83bee",
+      "use": "roof root and 111111111^2=12345678987654321 anti-diagonal count"
+    },
+    {
+      "name": "positional_reversal_mixed_ternary_hal_v1_1.tex",
+      "file_id": "file_0000000023c881f49ddb10526fe2e159",
+      "use": "odd roof as autocorrelation; carry/reversal guard"
+    },
+    {
+      "name": "golden_ternary_roof_hyperplanes_htnt_final.tex",
+      "file_id": "file_00000000348071f4964a763a4ed98028",
+      "use": "finite-depth ternary projective/hyperfine labelling and 9=3^2 roof address guard"
+    }
+  ],
+  "typing_guard": "Storage roof/hyperfine material is contextual. No identification with lambda2, Lorentz, Selling or Thomas-Wigner is promoted without the explicit pointed/parity adapters constructed in v36."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "typed_separations": {
+    "CHIRES14_radius_le4": "REFUTED-TYPED_BOUNDED-NO-GO_MIN_IF_ANY_GE5",
+    "CHIRES14_global": "NT",
+    "R2PURE_weighted_overlap_reversion": "REFUTED-TYPED",
+    "R2PURE_13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_regular_cell_complex": "PROVEN-GLOBAL_(62,123,62)",
+    "Selling_partial1_partial2": "PROVEN-GLOBAL_ZERO",
+    "strict_F_Sell_field_to_F29_can_downstairs": "REFUTED-TYPED",
+    "stacky_F_Sell_to_F29_V4": "PROVEN",
+    "strict_four_sheet_to_F29_can": "PROVEN",
+    "rational_historical_cohomology": "PROVEN",
+    "integral_historical_cohomology_downstairs": "PROVEN",
+    "Binet_integral_H2_upstairs_invariant_vs_downstairs": "SEPARATED_BY_TU_TRANSFER_INDEX_2",
+    "R5_Gamma3_incidence_adapter": "REFUTED-TYPED_RETAINED",
+    "roof_reversal_transposition": "REFUTED-TYPED_RETAINED",
+    "Singer_injection_physical_phase": "SEPARATED/PENDING-MORPHISM_RETAINED",
+    "Lorentz_orientation": "NT_RETAINED"
+  },
+  "historical_cohomology": {
+    "Q": {
+      "Binet": {
+        "H1": "Q^23",
+        "H2": "Q^15"
+      },
+      "Ad": {
+        "H1": "Q^3",
+        "H2": "Q^15"
+      }
+    },
+    "Z_downstairs": {
+      "Binet": {
+        "H1": "Z^23 + Z/2",
+        "H2": "Z^15"
+      },
+      "Ad": {
+        "H1": "Z^3 + Z/2",
+        "H2": "Z^15"
+      }
+    },
+    "integral_descent_note": "Ad identical upstairs-invariants/downstairs; Binet H2 upstairs-invariants has one extra Z/2 from TU transfer index 2 at V48."
+  },
+  "latex_overfull_count": 0,
+  "pdf_pages": 263,
+  "verifier": "PASS_8438_OF_8438"
+}

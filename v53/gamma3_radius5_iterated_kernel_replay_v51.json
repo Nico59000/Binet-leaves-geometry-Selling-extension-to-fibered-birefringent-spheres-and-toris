@@ -1,0 +1,16 @@
+{
+  "final_residual_count": 96,
+  "final_residual_l1": 96,
+  "guard": "This replays the stored exact correction terms and their group-ring boundaries without re-solving the large local search problems.",
+  "initial_residual_count": 96,
+  "kernel_chain_nonzero_terms": 8,
+  "period_repeats_step": 2,
+  "status": "PASS-EXACT-LIGHTWEIGHT-ITERATED-CERTIFICATE-REPLAY",
+  "step_or_period_hashes": [
+    "ec224bdd73d4ea0f4ec53c04b5557cdb3a2d8d6ab3962186b039e7c2c444dd7b",
+    "84679a5c82b8e066d66d90dde2df44600f5297afed47937cfb9825e99f239631",
+    "ec224bdd73d4ea0f4ec53c04b5557cdb3a2d8d6ab3962186b039e7c2c444dd7b",
+    "ec224bdd73d4ea0f4ec53c04b5557cdb3a2d8d6ab3962186b039e7c2c444dd7b"
+  ],
+  "version": "v51"
+}

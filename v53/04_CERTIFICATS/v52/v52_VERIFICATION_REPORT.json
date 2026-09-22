@@ -1,0 +1,325 @@
+{
+  "combined_checks": 8561,
+  "direct_checks": [
+    {
+      "detail": null,
+      "name": "parent_v51_closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "parent_v51_atomic",
+      "pass": true
+    },
+    {
+      "detail": 541,
+      "name": "parent_v51_ledger_541",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "parent_v51_ledger_byte_exact",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "parent_v51_verifier_returncode",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "parent_v51_8511",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "replay_rebuild_global_curvilinear_warp_BSB_P084_v52.py",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "replay_build_exact_triangulated_BSB_P084_K12_v52.py",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "replay_build_final_123_propagation_v52.py",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "replay_build_fig3_6_typed_fusion_v52.py",
+      "pass": true
+    },
+    {
+      "detail": {},
+      "name": "new_outputs_byte_deterministic",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "smooth_global_candidate_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "smooth_jac_sample_positive",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "smooth_crossings_preserved",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_PL_status",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_PL_counts",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_source_orientation_integer_positive",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_target_orientation_integer_positive",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "exact_source_crossings_zero",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "exact_target_crossings_zero",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "exact_target_boundary_crossings_zero",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_boundary_is_historical_RHAX",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "exact_global_boundary_blend_t2",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "e96_exact_strong",
+      "pass": true
+    },
+    {
+      "detail": 0.8333333333333334,
+      "name": "e96_geom_support_ge_075",
+      "pass": true
+    },
+    {
+      "detail": 0.8782051282051282,
+      "name": "e96_dark_support_ge_075",
+      "pass": true
+    },
+    {
+      "detail": 0.8205128205128205,
+      "name": "e96_P084_support_ge_075",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "e96_gate_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig1_final_status",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig1_final_123",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig1_final_zero_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig1_final_promotion",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig1_e96_seed_exact",
+      "pass": true
+    },
+    {
+      "detail": [
+        [
+          "SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION",
+          [
+            53
+          ]
+        ],
+        [
+          "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+          [
+            34,
+            97
+          ]
+        ],
+        [
+          "UNIQUE-MISSING-EXACT-LINK-INCIDENCE",
+          [
+            54,
+            78
+          ]
+        ]
+      ],
+      "name": "source_prop_trace_exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_prop_new_edges",
+      "pass": true
+    },
+    {
+      "detail": 123,
+      "name": "fig1_provenance_csv_123",
+      "pass": true
+    },
+    {
+      "detail": [
+        "final_historical_incidence"
+      ],
+      "name": "fig1_provenance_has_status_field",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig3_6_fusion_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig3_6_counts",
+      "pass": true
+    },
+    {
+      "detail": {
+        "Fig6_order_preserved": true,
+        "all_four_local_compilers_PASS": true,
+        "all_local_unresolved_empty": true,
+        "namespaces_disjoint": true,
+        "no_cross_figure_relation": true,
+        "provenance_total": true,
+        "shared_labels_not_identified": true
+      },
+      "name": "fig3_6_all_checks",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig3_6_no_cross_relations",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig3_6_shared_labels_separated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig6_corrected_starred_tuple",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig6_old_wrong_sign_absent",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_checkpoint_preseal",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "Selling_Noether_separated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "Selling_3D5D_separated",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "GL3_bridge_not_constructed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "R2PURE_separated",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "output_sha256": {
+    "selling_exact_triangulated_BSB_P084_123edge_audit_K12_v52.csv": "61995d704b0bd0373540fea649a1d6187ec67214334057837a15a6f8669062ad",
+    "selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json": "699bfb4ccb086dd8644ad91a3d75513d374e6b90390cd8d4b07ef8bb45b72ba4",
+    "selling_fig1_final_123_certificate_v52.json": "7bdc98dac668d8d62eb147d4692bb681239b80aeebcf1a9783a39c34d8131cac",
+    "selling_fig1_final_123_historical_incidence_v52.csv": "1360f795edd8ed6577c5e5cb6a7870af3e35ef3d3785047c9206230fdfbaeef0",
+    "selling_fig3_6_typed_fusion_v52.json": "c77cf637aa19159c1ed6dd00c00646f880d6f925f18c66bb4ddbcebc2720b768",
+    "selling_global_curvilinear_warp_BSB_P084_v52.json": "309dd6e54ee79088adb2a13d737e5e43abf5dc568e9aefbb6cfe0d68c615eddd"
+  },
+  "predecessor_checks": 8511,
+  "replays": [
+    {
+      "returncode": 0,
+      "script": "rebuild_global_curvilinear_warp_BSB_P084_v52.py",
+      "stderr_tail": "",
+      "stdout_tail": "864360564, 'jac_p01': 0.1378804735878632, 'jac_negative_or_zero': 0, 'jac_samples': 2318, 'crossing_count': 3, 'new_crossings': [], 'lost_baseline_crossings': []}\n{'smoothing': 1000, 'control_residual_max': 10.627780334989751, 'control_residual_p95': 3.7266829774539594, 'jac_min': 0.14923632435770348, 'jac_p01': 0.25139535189367385, 'jac_negative_or_zero': 0, 'jac_samples': 2318, 'crossing_count': 3, 'new_crossings': [], 'lost_baseline_crossings': []}\nSELECT {'smoothing': 500, 'control_residual_max': 9.594550644444313, 'control_residual_p95': 3.0452041834878987, 'jac_min': 0.05510624864360564, 'jac_p01': 0.1378804735878632, 'jac_negative_or_zero': 0, 'jac_samples': 2318, 'crossing_count': 3, 'new_crossings': [], 'lost_baseline_crossings': []}\nsupport Counter({'NT-GEOMETRIC-REALIZATION': 73, 'STRONG-GLOBAL-CURVILINEAR-STROKE-SUPPORT': 35, 'PARTIAL-GLOBAL-CURVILINEAR-STROKE-SUPPORT': 15})\n"
+    },
+    {
+      "returncode": 0,
+      "script": "build_exact_triangulated_BSB_P084_K12_v52.py",
+      "stderr_tail": "",
+      "stdout_tail": "ACT-TRIANGULATED-BSB-P084-GLOBAL-HOMEOMORPHISM\",\n  \"vertex_count\": 1297,\n  \"triangle_count\": 2484,\n  \"mesh_edge_count\": 3780,\n  \"source_min_area2\": 25356316,\n  \"target_min_area2\": 28547021,\n  \"source_pairs\": 20913,\n  \"target_pairs\": 21020,\n  \"support_counts\": {\n    \"STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT\": 33,\n    \"NT-GEOMETRIC-REALIZATION\": 78,\n    \"PARTIAL-EXACT-TRIANGULATED-STROKE-SUPPORT\": 12\n  },\n  \"e96\": {\n    \"edge_id\": 96,\n    \"geom_support_eps\": 0.8333333333333334,\n    \"dark_support_eps\": 0.8782051282051282,\n    \"P084_support_eps\": 0.8205128205128205,\n    \"geom_median_px\": 2.0,\n    \"geom_p95_px\": 11.260398644698075,\n    \"P084_median_px\": 2.0,\n    \"P084_p95_px\": 23.88270068688411,\n    \"status\": \"STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT\"\n  },\n  \"P084_controls\": 12,\n  \"approx\": {\n    \"max\": 5.454929133638384,\n    \"p95\": 1.3813885626439764,\n    \"median\": 0.14236536919192566\n  }\n}\n"
+    },
+    {
+      "returncode": 0,
+      "script": "build_final_123_propagation_v52.py",
+      "stderr_tail": "",
+      "stdout_tail": "\n    78,\n    96,\n    97\n  ],\n  \"e96\": {\n    \"edge\": 96,\n    \"status\": \"STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT\",\n    \"geom_support_eps\": 0.8333333333333334,\n    \"dark_support_eps\": 0.8782051282051282,\n    \"P084_support_eps\": 0.8205128205128205,\n    \"certificate\": \"selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json\"\n  },\n  \"seed_added\": [\n    34,\n    53,\n    54,\n    78,\n    97\n  ],\n  \"seed_trace\": [\n    [\n      \"SAME-EXACT-IMPLICIT-FACTOR-CONTINUATION\",\n      [\n        53\n      ]\n    ],\n    [\n      \"UNIQUE-MISSING-EXACT-LINK-INCIDENCE\",\n      [\n        34,\n        97\n      ]\n    ],\n    [\n      \"UNIQUE-MISSING-EXACT-LINK-INCIDENCE\",\n      [\n        54,\n        78\n      ]\n    ]\n  ],\n  \"final\": {\n    \"historical_edge_orbits_proven\": 123,\n    \"historical_edge_orbits_total\": 123,\n    \"remaining_NT\": 0,\n    \"promotion\": \"PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION\"\n  }\n}\n"
+    },
+    {
+      "returncode": 0,
+      "script": "build_fig3_6_typed_fusion_v52.py",
+      "stderr_tail": "",
+      "stdout_tail": "relation_count\": 28,\n  \"ordered_structures\": 3,\n  \"coincident_labels\": [\n    {\n      \"printed_label\": \"2/7\",\n      \"occurrences\": [\n        \"Fig3:E\",\n        \"Fig4:B\",\n        \"Fig5:Rmid\"\n      ],\n      \"status\": \"SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION\"\n    },\n    {\n      \"printed_label\": \"3/7\",\n      \"occurrences\": [\n        \"Fig3:C\",\n        \"Fig5:Rtop\"\n      ],\n      \"status\": \"SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION\"\n    },\n    {\n      \"printed_label\": \"UNLABELLED\",\n      \"occurrences\": [\n        \"Fig5:Ctop\",\n        \"Fig5:Cmid\"\n      ],\n      \"status\": \"SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION\"\n    }\n  ],\n  \"checks\": {\n    \"all_four_local_compilers_PASS\": true,\n    \"all_local_unresolved_empty\": true,\n    \"namespaces_disjoint\": true,\n    \"no_cross_figure_relation\": true,\n    \"provenance_total\": true,\n    \"Fig6_order_preserved\": true,\n    \"shared_labels_not_identified\": true\n  }\n}\n"
+    }
+  ],
+  "status": "PASS",
+  "v52_direct_checks": 50,
+  "version": "v52"
+}

@@ -1,0 +1,28 @@
+{
+  "version": "v49",
+  "status": "PASS",
+  "pdf_pages": 258,
+  "renderer": "pdftoppm at 60 dpi for final all-page QA; pdfium render of preseal also completed",
+  "all_pages_rendered": true,
+  "automated_render_scan": {
+    "pages": 258,
+    "flags": [],
+    "min_ink": 0.042434091729866376,
+    "max_dark": 0.011229771793152075,
+    "max_border_dark": 0.0,
+    "status": "PASS"
+  },
+  "visual_contact_sheets": [
+    "contact_203_214.jpg",
+    "contact_239_250.jpg",
+    "contact_251_258.jpg"
+  ],
+  "visual_inspection": "PASS: no clipping, overlap, black squares or broken glyphs observed; page 210 remains repaired; v49 pages 246-250 are readable; provenance/bibliography terminal pages are readable.",
+  "latex_overfull_count": 0,
+  "stable_compile_passes": 3,
+  "preseal_to_final_all_page_render_parity": "PASS_258_OF_258",
+  "section_order_audit": "PASS",
+  "bibliography_physically_final": true,
+  "bibliography_pages": "257-258",
+  "preflight_file": "v49_pdf_preflight.txt"
+}

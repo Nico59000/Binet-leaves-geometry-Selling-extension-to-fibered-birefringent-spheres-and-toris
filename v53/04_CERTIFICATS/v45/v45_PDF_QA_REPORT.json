@@ -1,0 +1,37 @@
+{
+  "version": "v45",
+  "status": "PASS",
+  "pdf_pages": 243,
+  "all_pages_rendered": true,
+  "render_engine": "official render_pdf.py / pdfium / 80 dpi",
+  "automated_scan": {
+    "pages_rendered": 243,
+    "suspects": [],
+    "min_ink_fraction": 0.04988928912644925,
+    "max_edge_ink_fraction": 0.0,
+    "max_black_fraction": 0.0016638908255222455,
+    "min_mean_luminance": 238.0173893536809,
+    "status": "PASS"
+  },
+  "visual_inspection_pages": "203-243 via 3 contact sheets; page 210 included; no clipping, overlap, black squares or broken glyphs observed",
+  "precanon_pixel_identity_pages": [
+    1,
+    210,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243
+  ],
+  "precanon_pixel_identity": "PASS_MAX_PIXEL_DIFF_0",
+  "latex_overfull_count": 0,
+  "page210_overflow_fix_retained": true,
+  "canonical_pdf_rebuild_byte_identical": true
+}

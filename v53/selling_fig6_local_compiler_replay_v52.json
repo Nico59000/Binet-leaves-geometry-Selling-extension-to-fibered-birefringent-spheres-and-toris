@@ -1,0 +1,113 @@
+{
+  "checks": {
+    "no_fig1_import": true,
+    "principal_nesting_order_closed": true,
+    "unresolved_empty": true,
+    "visible_tokens_closed": true
+  },
+  "compiled_carrier": {
+    "carrier_kind": "CURVED-MULTIBRANCH-ANCHOR-GRAPH-WITH-ORDERED-NESTING",
+    "lower_left_cell_chain": [
+      "A12=(1,-4,-12)/(1,0,0)",
+      "left-2/15-upper",
+      "left-2/15-lower",
+      "REG11",
+      "A78=(1,-7,8)/(3,0,0)",
+      "REG19",
+      "R13=3/13"
+    ],
+    "objects": [
+      {
+        "id": "A47",
+        "label": "(1,-1,47)/(0,0,0)"
+      },
+      {
+        "id": "A24",
+        "label": "(1,2,-24)/(1,0,0)"
+      },
+      {
+        "id": "A16",
+        "label": "(1,-3,-16)/(1,0,0)"
+      },
+      {
+        "id": "A12",
+        "label": "(1,-4,-12)/(1,0,0)"
+      },
+      {
+        "id": "A8",
+        "label": "(1,-6,-8)/(1,0,0)"
+      },
+      {
+        "id": "A78",
+        "label": "(1,-7,8)/(3,0,0)"
+      },
+      {
+        "id": "REG10",
+        "label": "10"
+      },
+      {
+        "id": "REG11",
+        "label": "11"
+      },
+      {
+        "id": "REG19",
+        "label": "19"
+      }
+    ],
+    "ordered_principal_family": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "right_anchor_chain": [
+      "A47=(1,-1,47)/(0,0,0)",
+      "R11a=1/11",
+      "R11b=2/11",
+      "A24=(1,2,-24)/(1,0,0)",
+      "R15a=1/15",
+      "A16=(1,-3,-16)/(1,0,0)",
+      "REG10",
+      "9/5",
+      "3/5",
+      "3/15",
+      "A8=(1,-6,-8)/(1,0,0)",
+      "lower-3/15"
+    ],
+    "unresolved": []
+  },
+  "figure": "Fig6",
+  "guard": "Compiler closure is figure-local and geometric. No fusion across Fig3--6 is yet performed in this gate; fusion may begin only as a subsequent typed operation.",
+  "nesting_certificate": "selling_fig6_planar_nesting_order_v52.json",
+  "phase": "next-immediate-gate-replay",
+  "predecessor": "selling_fig6_local_compiler_v52.json",
+  "source_basis": "LOG_0016 native raster + Fig6_ext direct enlargement; no OCR",
+  "source_tokens": {
+    "fractions": [
+      "1/11",
+      "2/11",
+      "1/15",
+      "9/5",
+      "3/5",
+      "3/15",
+      "2/15",
+      "3/13"
+    ],
+    "regions": [
+      "10",
+      "11",
+      "19"
+    ],
+    "tuples": [
+      "(1,-1,47)/(0,0,0)",
+      "(1,2,-24)/(1,0,0)",
+      "(1,-3,-16)/(1,0,0)",
+      "(1,-4,-12)/(1,0,0)",
+      "(1,-6,-8)/(1,0,0)",
+      "(1,-7,8)/(3,0,0)"
+    ]
+  },
+  "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-AND-PLANAR-NESTING-CLOSED",
+  "version": "v52"
+}

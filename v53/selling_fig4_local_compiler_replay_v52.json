@@ -1,0 +1,83 @@
+{
+  "checks": {
+    "no_fig1_import": true,
+    "relations_nonempty": true,
+    "tokens_closed": true,
+    "unresolved_empty": true
+  },
+  "compiled_carrier": {
+    "carrier_kind": "LABELLED-RECTANGLE/DIAGONAL-GERM",
+    "objects": [
+      {
+        "id": "L",
+        "label": "(1,2,-2)/(1,0,0)"
+      },
+      {
+        "id": "A",
+        "label": "1/7"
+      },
+      {
+        "id": "B",
+        "label": "2/7"
+      },
+      {
+        "id": "T",
+        "label": "(3,-1,-1)/(0,0,0)"
+      },
+      {
+        "id": "BASE",
+        "label": "UNLABELLED-BASE"
+      }
+    ],
+    "relations": [
+      [
+        "A",
+        "B",
+        "wavy"
+      ],
+      [
+        "L",
+        "A",
+        "dotted"
+      ],
+      [
+        "A",
+        "T",
+        "dotted"
+      ],
+      [
+        "T",
+        "B",
+        "dotted"
+      ],
+      [
+        "A",
+        "BASE",
+        "solid"
+      ],
+      [
+        "B",
+        "BASE",
+        "dotted"
+      ]
+    ],
+    "unresolved": []
+  },
+  "figure": "Fig4",
+  "guard": "Local Fig-specific carrier only; no fusion with Fig1 or other figure compilers is inferred.",
+  "phase": "next-immediate-gate-replay",
+  "predecessor": "selling_fig4_local_compiler_v52.json",
+  "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+  "source_tokens": {
+    "fractions": [
+      "1/7",
+      "2/7"
+    ],
+    "tuples": [
+      "(1,2,-2)/(1,0,0)",
+      "(3,-1,-1)/(0,0,0)"
+    ]
+  },
+  "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+  "version": "v52"
+}

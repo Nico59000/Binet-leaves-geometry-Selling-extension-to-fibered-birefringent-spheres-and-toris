@@ -1,0 +1,52 @@
+{
+  "version": "v46",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "atomic_completion": true,
+  "atomic_conjunction": {
+    "MATH": "PASS",
+    "VERIFY": "PASS",
+    "PDF_QA": "PASS",
+    "SEAL": "PASS",
+    "FRAGMENT_ROUNDTRIP": "PASS",
+    "POSTSEAL": "PASS"
+  },
+  "verification": {
+    "predecessor_v45": 7976,
+    "new_v46": 58,
+    "combined": 8034,
+    "status": "PASS_8034_OF_8034"
+  },
+  "pdf": {
+    "pages": 246,
+    "bytes": 2288408,
+    "sha256": "c39a7957765046383a32eeb95147237cc5b1589279d8993300d80a29492b9644",
+    "page210_overflow": "PASS_RETAINED"
+  },
+  "tex": {
+    "bytes": 695703,
+    "sha256": "f98b63df6b3aaebbed3a22b7c0464bed478692fd10474d67b726aadc6bd0ecf7",
+    "overfull_boxes": 0
+  },
+  "bundle": {
+    "bytes": 51328277,
+    "members": 277,
+    "sha256": "691af8654bbc4604c7a39f191689fa80b3b0ce1220723f2e35e597dc292b6042",
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB"
+  },
+  "seal_manifest_sha256": "d6f7a4d1bf7f0021be34abd48d255721aee2ebef0da6d64bb796c037809dad1b",
+  "sha256_ledger_sha256": "f8cb76908e1fccd3905413592f6289dcc2c720ced4b687a48daa02a71fef3ae8",
+  "postseal_report_sha256": "a9a9ed91a8399a3e5927fcac1119f8761ae6858e40064b7aacc5c51e83f203ff",
+  "math_promotions": {
+    "direct_DAX_to_HAX_model": "REFUTED-TYPED_ALL_7_SIX_SUBSETS",
+    "historical_axis_reconstruction": "NT_FRAGMENT_STITCHING_PENDING_SOURCE_TRANSCRIPTION",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_field_functor": "PENDING-MORPHISM",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "character_residual_quotient": "PROVEN_DIMENSION_14_AT_chi_E_PLUS_F_MINUS",
+    "radius1_exact_residual_lift": "REFUTED-TYPED_BOUNDED_NO_GO_IMAGE_DIM_0",
+    "complete_resolution": "NT_RADIUS2_AND_BEYOND_OPEN",
+    "Singer_injection": "SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "safe_successor": "v47 -- retain v46 CLOSED/APPEND-ONLY and every typed separation; replace the refuted one-DAX-per-HAX model by a source transcription of the six fourfold centres and stitch dotted branches centre-to-centre into six historical axis curves, attaching vanishing-variable letters and the P,Q,R,S external-boundary routes before any reflection; derive the six reflection maps only from those certified curves and activate the 89-node C2 census only if the node/edge carrier is strictly invariant, testing 44|45 and 34|55 only afterward; use the resulting anchors to totalize historical C0,C1,C2, ordered field boundaries, repetitions, stabilizers and transports, and form d0,d1 and recompute H1/H2 only after d1*d0=0 and the full F_Sell^field -> F29_can object/edge/face gate closes; take the explicit 14-dimensional residual quotient at chi(Eij)=+1, chi(Fi)=-1 as the search target and extend the exact group-ring coefficient-support ball from radius one to radius two, lifting each residual direction and testing exact Fox closure and independence modulo M43 without claiming completeness; retain the strict R5/Gamma3 incidence adapter and roof reversal/transposition as REFUTED-TYPED, Singer injection and physical phase as SEPARATED/PENDING-MORPHISM, and Lorentz orientation as NT."
+}

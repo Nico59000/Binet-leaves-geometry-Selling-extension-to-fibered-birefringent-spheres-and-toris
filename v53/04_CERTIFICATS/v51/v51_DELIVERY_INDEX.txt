@@ -1,0 +1,30 @@
+v51 FINAL DELIVERY INDEX
+
+STATE: CLOSED / APPEND-ONLY
+ATOMIC: DOC ∧ MATH ∧ VERIFY ∧ PDF-QA ∧ SEAL ∧ ROUNDTRIP ∧ POSTSEAL = PASS
+VERIFY: 8511/8511 PASS = 8438 inherited v50 + 73 new v51
+PDF: 267 pages; 0 Overfull; v51 begins p.255; bibliography final pp.266-267
+BUNDLE: 542 members; ledger 541/541 before and after replay; predecessor v50 494/494 byte-exact; deterministic ZIP rebuild byte-identical
+BUNDLE SHA256: d180dd3d801f6af20bcbadfa56a65aaa911dd65779c226ea16c7ae8a974ab47f
+PDF SHA256: be1a134deff2773d50aae9c9bbbc487e51eb160592c3500f69cd42f096916192
+TEX SHA256: ed358a38ae1a1fed5fe9a69a8cb2e6771323d299aece535fd6352640c6190477
+ZSTD-SPLITTER: NOT TRIGGERED (bundle below 200 MiB)
+
+MAIN
+formalisation_feuillets_binet_birefringence_selling_polaire_v51.pdf
+formalisation_feuillets_binet_birefringence_selling_polaire_v51.tex
+formalisation_feuillets_binet_birefringence_selling_polaire_v51_bundle.zip
+verify_field_fox_projective_v51.py
+
+INDUSTRIAL
+v51_VERIFICATION_REPORT.json
+v51_PDF_QA_REPORT.json
+v51_SECTION_ORDER_AUDIT.json
+v51_SOURCE_CONTEXT.json
+v51_FORMAL_CONTEXT_ATTESTATION.json
+v51_MATH_CHECKPOINT.json
+v51_formal_rigor_audit.json
+v51_SEAL_MANIFEST.json
+v51_SHA256SUMS.txt
+v51_POSTSEAL_REPLAY_REPORT.json
+v51_ATOMIC_COMPLETION_TOKEN.json

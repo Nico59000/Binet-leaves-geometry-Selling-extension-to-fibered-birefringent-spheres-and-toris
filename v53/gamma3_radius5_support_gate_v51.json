@@ -1,0 +1,26 @@
+{
+  "ball_profile": {
+    "0": 1,
+    "1": 15,
+    "2": 147,
+    "3": 1213,
+    "4": 9264,
+    "5": 68304
+  },
+  "ball_size": 78944,
+  "character_collision_count": 0,
+  "decision": "RADIUS5_FINITE_QUOTIENT_SUPPORT_READY",
+  "full_mod4_quotient_size": 512,
+  "mod4_image_size": 382,
+  "mod4_new_profile": {
+    "0": 1,
+    "1": 9,
+    "2": 36,
+    "3": 84,
+    "4": 126,
+    "5": 126
+  },
+  "source_radius4_image_size": 256,
+  "status": "PASS-EXACT-RADIUS5-SUPPORT-PROBE",
+  "version": "v51"
+}

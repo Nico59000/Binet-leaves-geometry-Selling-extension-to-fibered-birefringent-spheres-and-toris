@@ -1,0 +1,177 @@
+{
+  "alternative_matching_total_gap_px300": 613.9563305084416,
+  "bridge_pairs": [
+    {
+      "distance_px300": 9.296059433975095,
+      "nodes": [
+        "N072",
+        "N073"
+      ]
+    },
+    {
+      "distance_px300": 8.0,
+      "nodes": [
+        "N099",
+        "N100"
+      ]
+    }
+  ],
+  "central_bbox_px300": [
+    630,
+    1250,
+    1300,
+    2070
+  ],
+  "cycle_edge_count": 16,
+  "cycle_edges": [
+    {
+      "bridge": false,
+      "id": "S038",
+      "length_px300": 252.681,
+      "u": "N054",
+      "v": "N059"
+    },
+    {
+      "bridge": false,
+      "id": "S042",
+      "length_px300": 290.563,
+      "u": "N059",
+      "v": "N066"
+    },
+    {
+      "bridge": false,
+      "id": "S049",
+      "length_px300": 94.657,
+      "u": "N066",
+      "v": "N069"
+    },
+    {
+      "bridge": false,
+      "id": "S050",
+      "length_px300": 160.012,
+      "u": "N069",
+      "v": "N072"
+    },
+    {
+      "bridge": true,
+      "id": "BRIDGE",
+      "length_px300": 9.296059433975095,
+      "u": "N072",
+      "v": "N073"
+    },
+    {
+      "bridge": false,
+      "id": "S055",
+      "length_px300": 105.77,
+      "u": "N073",
+      "v": "N088"
+    },
+    {
+      "bridge": false,
+      "id": "S068",
+      "length_px300": 164.953,
+      "u": "N088",
+      "v": "N105"
+    },
+    {
+      "bridge": false,
+      "id": "S081",
+      "length_px300": 78.314,
+      "u": "N105",
+      "v": "N104"
+    },
+    {
+      "bridge": false,
+      "id": "S076",
+      "length_px300": 197.385,
+      "u": "N104",
+      "v": "N100"
+    },
+    {
+      "bridge": true,
+      "id": "BRIDGE",
+      "length_px300": 8.0,
+      "u": "N100",
+      "v": "N099"
+    },
+    {
+      "bridge": false,
+      "id": "S074",
+      "length_px300": 63.657,
+      "u": "N099",
+      "v": "N098"
+    },
+    {
+      "bridge": false,
+      "id": "S075",
+      "length_px300": 91.728,
+      "u": "N098",
+      "v": "N103"
+    },
+    {
+      "bridge": false,
+      "id": "S080",
+      "length_px300": 76.971,
+      "u": "N103",
+      "v": "N106"
+    },
+    {
+      "bridge": false,
+      "id": "S082",
+      "length_px300": 74.042,
+      "u": "N106",
+      "v": "N109"
+    },
+    {
+      "bridge": false,
+      "id": "S051",
+      "length_px300": 336.326,
+      "u": "N109",
+      "v": "N070"
+    },
+    {
+      "bridge": false,
+      "id": "S039",
+      "length_px300": 392.569,
+      "u": "N070",
+      "v": "N054"
+    }
+  ],
+  "cycle_node_count": 16,
+  "cycle_order": [
+    "N054",
+    "N059",
+    "N066",
+    "N069",
+    "N072",
+    "N073",
+    "N088",
+    "N105",
+    "N104",
+    "N100",
+    "N099",
+    "N098",
+    "N103",
+    "N106",
+    "N109",
+    "N070"
+  ],
+  "decision": {
+    "central_reinforced_raster_cycle": "PROVEN-DIAGNOSTIC-GEOMETRIC-CARRIER",
+    "source_to_raster_62_face_realization": "PENDING-DIRECT-HC-MARK/AXIS-BRANCH-ANCHORS",
+    "unique_binding_of_six_HC_to_cycle_nodes": "NT/NONUNIQUE-FROM-V40-VECTOR-TABLES"
+  },
+  "guard": "The two short bridges only repair segmentation gaps in the already visible reinforced stroke. They do not identify historical HC_i. Choosing six of the 16 cycle nodes without direct right-angle/axis evidence would be arbitrary.",
+  "ordered_six_cut_subsets_without_extra_semantics": 8008,
+  "reinforced_components_before_gap_bridge": [
+    11,
+    5
+  ],
+  "source_axis_centre_required_count": 6,
+  "source_tables": [
+    "selling_fig1_nodes_v40.csv",
+    "selling_fig1_segments_v40.csv"
+  ],
+  "status": "PROVEN-RASTER-CENTRAL-REINFORCED-16-CYCLE; HC/HAX-SPLIT-NT",
+  "version": "v51"
+}

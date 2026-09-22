@@ -1,0 +1,143 @@
+\section{v53 : foncteur typé Fig.~2--6, obstruction globale $CHIRES_{14}(B_5)$ et organisation industrielle}
+
+La version v53 conserve intégralement v52 \texttt{CLOSED/APPEND-ONLY}, notamment la réalisation historique globale de la Fig.~1 à $123/123$, son homéomorphisme PL exact et toutes les séparations typées déjà scellées. Elle n'ouvre pas le rayon six. Deux frontières seulement sont promues : le coproduit Fig.~2--6 reçoit un foncteur d'incidence commun avec adaptateurs figure-spécifiques, et le lift intégral global de $CHIRES_{14}$ dans la boule $B_5$ est réfuté par une obstruction duale exacte modulo huit. Les artefacts de référence sont \path{selling_fig2_6_common_typed_functor_v53.json}, \path{gamma3_radius5_global_mod8_dual_obstruction_v53.json} et \path{gamma3_radius5_mod8_raw_dual_solution_v53.bin}.
+
+\subsection{Foncteur commun typé des Fig.~2--6}
+
+Soit $\mathcal C_i$ le carrier local de la Fig.~$i$. On introduit le moteur
+\[
+ \mathcal E_{\rm Sell}^{\rm typed}
+\]
+comme catégorie libre sur un graphe générateur dont les objets sont typés par
+\[
+ \{\textsf{REGION},\textsf{RATIONAL\mbox{-}ANCHOR},\textsf{TUPLE\mbox{-}ANCHOR},
+   \textsf{UNLABELLED\mbox{-}JUNCTION},\textsf{SOURCE\mbox{-}LABEL}\}
+\]
+et dont les flèches génératrices portent les types d'incidence, d'adjacence et de successeur cyclique transmis par les compilateurs locaux.
+
+\begin{proposition}[Coproduit Fig.~2--6 avec provenance conservée]\label{prop:v53-fig26-functor}
+Il existe un foncteur explicite
+\[
+ \boxed{\quad
+ \coprod_{i=2}^{6}\mathcal C_i
+ \longrightarrow
+ \mathcal E_{\rm Sell}^{\rm typed}
+ \quad}
+\]
+réalisé par cinq adaptateurs figure-spécifiques. Dans le carrier matérialisé, on compte exactement
+\[
+ 42\ \text{objets},\qquad 43\ \text{morphismes générateurs},\qquad
+ 3\ \text{structures ordonnées}.
+\]
+Chaque objet et chaque flèche garde son identifiant source, sa figure et sa provenance. Aucun morphisme ne relie deux figures distinctes. En particulier, les occurrences littérales communes $3/7$ et $2/7$ restent des objets distincts tant qu'aucun adaptateur inter-figure n'est fourni.
+\end{proposition}
+
+\begin{proof}
+Le vérificateur \path{verify_selling_fig2_6_common_functor_v53.py} contrôle l'injectivité des identifiants, l'existence de tous les endpoints, l'absence de flèches inter-figure, les cinq adaptateurs, les trois ordres Fig.~6 et les hashes des deux carriers sources. La Fig.~2 est importée uniquement depuis \path{selling_fig2_local_compiler_v52.json}; elle n'est pas reconstruite depuis la Fig.~1. Les matrices numériques de graines restent explicitement \texttt{NT} lorsqu'elles ne sont pas fournies par la recette source locale.
+\end{proof}
+
+\begin{guardrail}[Portée du moteur commun]
+Le foncteur précédent est un moteur d'incidence typé. Il ne constitue ni une identification numérique des formes, ni un mot de mur commun, ni un morphisme $GL(3)$, et il ne fournit aucun morphisme vers $R2PURE_{13}$. Toute promotion de ce type exige un adaptateur supplémentaire explicitement construit et vérifié.
+\end{guardrail}
+
+\subsection{Système dual Fox modulo huit dans $B_5$}
+
+On conserve la boule entière de rayon cinq
+\[
+ |B_5|=78944
+\]
+et son image de translation modulo huit, de cardinal
+\[
+ |\overline B_5^{(8)}|=22240.
+\]
+Les $43$ relateurs fournissent $198$ termes Fox au total. Pour le relateur cible $R3b_{123}=R_{42}$, on cherche une fonctionnelle duale binaire $y$ telle que, pour toute classe $h\in\overline B_5^{(8)}$,
+\[
+ \langle y,\partial_{\rm Fox}(hR_i)\rangle
+ =\begin{cases}
+ 1,&i=42,\\
+ 0,&i\ne42.
+ \end{cases}
+\]
+Le transport est la multiplication à gauche $h\cdot p$; avec l'énumération relateur-major puis classe-major, le système brut possède exactement
+\[
+ \boxed{
+ 956320\ \text{équations},\qquad
+ 747196\ \text{variables},\qquad
+ 4403520\ \text{incidences}.}
+\]
+
+\subsection{Peeling exhaustif et coeur exact}
+
+Le peeling est défini sans heuristique : tant qu'une variable active est de degré $0$ ou $1$, la seule équation incidente éventuelle est supprimée et les degrés sont recalculés. L'algorithme s'arrête après $99368$ suppressions et produit
+\[
+ \boxed{
+ 856952\ \text{équations},\quad
+ 465651\ \text{variables actives},\quad
+ 3528672\ \text{incidences}.}
+\]
+Le degré minimal actif est alors exactement $2$ et le degré maximal $22$. Les $44$ seconds membres impairs associés au relateur cible survivent : le cas d'une disparition immédiate de $R3b_{123}$ ne se produit donc pas.
+
+Le fichier historique du coeur, \path{gamma3_radius5_mod8_core.bin}, possède l'empreinte
+\[
+ \operatorname{SHA256}=\texttt{260ce4b5e0c09f0db2d338bc8d1173f8231b695d957a608eb63fe70c643c84c4}.
+\]
+Le replay v53 reconstruit indépendamment les mêmes invariants de coeur à partir des $22240$ classes modulo huit et des termes Fox.
+
+\subsection{Fonctionnelle duale globale et réfutation du lift intégral}
+
+Le vecteur dual matérialisé \path{gamma3_radius5_mod8_raw_dual_solution_v53.bin} contient $747196$ coordonnées et a poids de Hamming
+\[
+ 121219.
+\]
+Son empreinte est
+\[
+ \operatorname{SHA256}=\texttt{1674a69d25c349e036701a9a01c057ca9bc3ea7b72e916dac03f62f773f48bf6}.
+\]
+Le vérificateur indépendant \path{verify_chires14_b5_global_dual_v53.cpp} reconstruit les $956320$ équations brutes, rejoue le peeling et vérifie la fonctionnelle sur chaque équation. Le nombre total d'échecs est zéro, séparément sur les $22240$ équations cibles et sur toutes les équations non cibles.
+
+\begin{theorem}[Obstruction globale modulo huit à $CHIRES_{14}$ dans $B_5$]\label{thm:v53-chires14-mod8}
+Pour tout cycle Fox entier $z$ supporté dans $B_5$, le coefficient total des translatés de $R3b_{123}$ est pair. En particulier il n'existe aucun lift intégral de rayon cinq avec coefficient $CHIRES_{14}=1$.
+Ainsi
+\[
+ \boxed{
+ CHIRES_{14}(B_5)=\texttt{REFUTED-TYPED}}
+\]
+au sens du lift intégral global déclaré. Le rayon six reste \texttt{NOT-OPENED}.
+\end{theorem}
+
+\begin{proof}
+Réduisons $z$ modulo deux. La fonctionnelle explicite $y$ satisfait $Ay=b_{R3b_{123}}$ sur l'intégralité du système dual. Pour $\partial z=0$,
+\[
+ 0=\langle y,\partial z\rangle
+  =\langle b_{R3b_{123}},z\rangle\pmod2.
+\]
+Le coefficient cible est donc pair. Un coefficient égal à un est impossible. Le replay machine reconstruit le système depuis les données Fox et vérifie directement $956320/956320$ équations.
+\end{proof}
+
+\begin{guardrail}[Correction append-only]
+Une branche intermédiaire antérieure avait déjà proposé une obstruction mod-8, mais le token terminal v52 avait conservé le lift global $B_5$ en \texttt{NT}. La présente preuve n'altère donc aucun statut v52 : elle constitue une promotion nouvelle et indépendante de v53.
+\end{guardrail}
+
+\subsection{Séparations conservées}
+
+Aucun résultat de v53 ne fournit les morphismes externes encore absents. On conserve strictement
+\[
+ \boxed{
+ \begin{aligned}
+ R2PURE_{13}\leftrightarrow Selling/Deck_{17}
+   &:\ \texttt{SEPARATED/PENDING-MORPHISM},\\
+ Selling\text{--}Noether
+   &:\ \texttt{CONTEXT/PENDING-MORPHISM},\\
+ Selling\ 3D\to5D
+   &:\ \texttt{CONTEXT/PENDING-MORPHISM},\\
+ B_6&:\ \texttt{NOT-OPENED}.
+ \end{aligned}}
+\]
+
+\subsection{Arborescence industrielle du bundle}
+
+À partir de v53, la livraison conserve tous les membres du bundle parent à leur chemin historique et ajoute une couche de navigation structurée. Les répertoires \path{00_INDEX}, \path{01_DOCS}, \path{02_VERSIONS}, \path{03_SCRIPTS}, \path{04_CERTIFICATS}, \path{05_SELLING}, \path{06_CHIRES}, \path{07_QA_SEAL}, \path{08_FORMAL_CONTEXT} et \path{09_ASSETS} séparent désormais les documents courants, versions, scripts, certificats, carriers Selling, branche $CHIRES$, preuves industrielles, contexte formel et ressources lourdes. Les fichiers v52 originaux ne sont ni déplacés ni renommés : les copies classées sont une couche de navigation additionnelle, auditée par catalogue SHA-256.
+
+\subsection{Verdict v53 et frontière sûre v54}
+
+La frontière mathématique v53 est fermée : le foncteur Fig.~2--6 est \texttt{PROVEN}, avec foncteur de coproduit explicite et provenance conservée et $CHIRES_{14}$ est \texttt{REFUTED-TYPED} sur tout $B_5$ par obstruction duale globale. La frontière sûre v54 doit donc conserver v53 fermé et : (i) ne construire un moteur Selling numérique commun qu'à partir de matrices de graines, mots de murs ou substitutions source explicitement fournis par chaque figure; (ii) rechercher un morphisme d'incidence/groupoïde explicite $R2PURE_{13}\to Selling/Deck_{17}$, ou matérialiser une obstruction exacte, sans fusion par cardinalité; (iii) maintenir $B_6$ fermé tant qu'une nouvelle question mathématique indépendante ne justifie pas son ouverture; et (iv) conserver Selling--Noether et Selling $3D\to5D$ en \texttt{CONTEXT/PENDING-MORPHISM} jusqu'à construction d'un morphisme $GL(3)$-équivariant explicite.

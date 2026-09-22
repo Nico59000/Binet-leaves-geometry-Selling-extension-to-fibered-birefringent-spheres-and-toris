@@ -1,0 +1,3240 @@
+{
+  "type": "FeatureCollection",
+  "crs_note": "pixel coordinates, canonical 300-dpi crop; origin top-left",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1594.0,
+            534.0
+          ],
+          [
+            1617.0,
+            421.0
+          ],
+          [
+            1645.0,
+            331.0
+          ],
+          [
+            1712.0,
+            168.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S000",
+        "layer": "reinforced",
+        "node_u": "N000",
+        "node_v": "N008",
+        "length_px300": 414.877,
+        "tortuosity": 1.078859,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1955.0,
+            600.0
+          ],
+          [
+            1971.0,
+            435.0
+          ],
+          [
+            2000.0,
+            249.0
+          ],
+          [
+            1991.0,
+            245.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S001",
+        "layer": "reinforced",
+        "node_u": "N001",
+        "node_v": "N010",
+        "length_px300": 380.296,
+        "tortuosity": 1.065792,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1401.0,
+            373.0
+          ],
+          [
+            1413.0,
+            327.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S002",
+        "layer": "ordinary",
+        "node_u": "N002",
+        "node_v": "N003",
+        "length_px300": 50.971,
+        "tortuosity": 1.072174,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1420.0,
+            329.0
+          ],
+          [
+            1589.0,
+            536.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S003",
+        "layer": "reinforced",
+        "node_u": "N002",
+        "node_v": "N008",
+        "length_px300": 278.174,
+        "tortuosity": 1.040966,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1376.0,
+            483.0
+          ],
+          [
+            1381.0,
+            460.0
+          ],
+          [
+            1387.0,
+            444.0
+          ],
+          [
+            1396.0,
+            398.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S004",
+        "layer": "ordinary",
+        "node_u": "N004",
+        "node_v": "N006",
+        "length_px300": 93.284,
+        "tortuosity": 1.068288,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1213.0,
+            490.0
+          ],
+          [
+            1256.0,
+            551.0
+          ],
+          [
+            1339.0,
+            644.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S005",
+        "layer": "ordinary",
+        "node_u": "N005",
+        "node_v": "N011",
+        "length_px300": 206.191,
+        "tortuosity": 1.036253,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1185.0,
+            790.0
+          ],
+          [
+            1187.0,
+            627.0
+          ],
+          [
+            1207.0,
+            494.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S006",
+        "layer": "ordinary",
+        "node_u": "N005",
+        "node_v": "N017",
+        "length_px300": 305.941,
+        "tortuosity": 1.030742,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1596.0,
+            538.0
+          ],
+          [
+            1600.0,
+            537.0
+          ],
+          [
+            1602.0,
+            533.0
+          ],
+          [
+            1625.0,
+            514.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S007",
+        "layer": "ordinary",
+        "node_u": "N007",
+        "node_v": "N008",
+        "length_px300": 40.113,
+        "tortuosity": 1.065607,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1571.0,
+            744.0
+          ],
+          [
+            1579.0,
+            627.0
+          ],
+          [
+            1589.0,
+            553.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S008",
+        "layer": "reinforced",
+        "node_u": "N009",
+        "node_v": "N013",
+        "length_px300": 198.456,
+        "tortuosity": 1.034452,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1946.0,
+            946.0
+          ],
+          [
+            1945.0,
+            804.0
+          ],
+          [
+            1954.0,
+            605.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S009",
+        "layer": "reinforced",
+        "node_u": "N010",
+        "node_v": "N033",
+        "length_px300": 350.113,
+        "tortuosity": 1.026441,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            796.0,
+            741.0
+          ],
+          [
+            766.0,
+            755.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S010",
+        "layer": "ordinary",
+        "node_u": "N012",
+        "node_v": "N015",
+        "length_px300": 35.799,
+        "tortuosity": 1.081348,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            839.0,
+            773.0
+          ],
+          [
+            801.0,
+            743.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S011",
+        "layer": "ordinary",
+        "node_u": "N012",
+        "node_v": "N016",
+        "length_px300": 50.426,
+        "tortuosity": 1.041548,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            761.0,
+            758.0
+          ],
+          [
+            710.0,
+            781.0
+          ],
+          [
+            703.0,
+            786.0
+          ],
+          [
+            697.0,
+            787.0
+          ],
+          [
+            674.0,
+            798.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S012",
+        "layer": "ordinary",
+        "node_u": "N015",
+        "node_v": "N018",
+        "length_px300": 103.569,
+        "tortuosity": 1.0816,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1576.0,
+            956.0
+          ],
+          [
+            1568.0,
+            851.0
+          ],
+          [
+            1570.0,
+            760.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S013",
+        "layer": "reinforced",
+        "node_u": "N014",
+        "node_v": "N034",
+        "length_px300": 200.971,
+        "tortuosity": 1.02488,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1135.0,
+            871.0
+          ],
+          [
+            1149.0,
+            857.0
+          ],
+          [
+            1172.0,
+            823.0
+          ],
+          [
+            1184.0,
+            796.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S014",
+        "layer": "ordinary",
+        "node_u": "N017",
+        "node_v": "N023",
+        "length_px300": 95.296,
+        "tortuosity": 1.06372,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            675.0,
+            802.0
+          ],
+          [
+            724.0,
+            840.0
+          ],
+          [
+            779.0,
+            878.0
+          ],
+          [
+            787.0,
+            880.0
+          ],
+          [
+            812.0,
+            896.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S015",
+        "layer": "ordinary",
+        "node_u": "N018",
+        "node_v": "N026",
+        "length_px300": 175.936,
+        "tortuosity": 1.058915,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            667.0,
+            835.0
+          ],
+          [
+            670.0,
+            804.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S016",
+        "layer": "ordinary",
+        "node_u": "N018",
+        "node_v": "N021",
+        "length_px300": 32.243,
+        "tortuosity": 1.035249,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1483.0,
+            811.0
+          ],
+          [
+            1471.0,
+            817.0
+          ],
+          [
+            1467.0,
+            821.0
+          ],
+          [
+            1458.0,
+            823.0
+          ],
+          [
+            1438.0,
+            836.0
+          ],
+          [
+            1435.0,
+            836.0
+          ],
+          [
+            1414.0,
+            847.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S017",
+        "layer": "ordinary",
+        "node_u": "N019",
+        "node_v": "N022",
+        "length_px300": 83.912,
+        "tortuosity": 1.078186,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1404.0,
+            846.0
+          ],
+          [
+            1377.0,
+            834.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S018",
+        "layer": "ordinary",
+        "node_u": "N020",
+        "node_v": "N022",
+        "length_px300": 31.971,
+        "tortuosity": 1.08204,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1306.0,
+            888.0
+          ],
+          [
+            1351.0,
+            875.0
+          ],
+          [
+            1404.0,
+            851.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S019",
+        "layer": "ordinary",
+        "node_u": "N022",
+        "node_v": "N025",
+        "length_px300": 113.326,
+        "tortuosity": 1.081849,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1411.0,
+            927.0
+          ],
+          [
+            1409.0,
+            899.0
+          ],
+          [
+            1409.0,
+            852.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S020",
+        "layer": "ordinary",
+        "node_u": "N022",
+        "node_v": "N030",
+        "length_px300": 76.657,
+        "tortuosity": 1.021728,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1129.0,
+            877.0
+          ],
+          [
+            1099.0,
+            902.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S021",
+        "layer": "ordinary",
+        "node_u": "N023",
+        "node_v": "N028",
+        "length_px300": 40.355,
+        "tortuosity": 1.033395,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            688.0,
+            1004.0
+          ],
+          [
+            678.0,
+            969.0
+          ],
+          [
+            668.0,
+            886.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S022",
+        "layer": "ordinary",
+        "node_u": "N024",
+        "node_v": "N040",
+        "length_px300": 126.284,
+        "tortuosity": 1.055157,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            444.0,
+            903.0
+          ],
+          [
+            470.0,
+            922.0
+          ],
+          [
+            490.0,
+            940.0
+          ],
+          [
+            519.0,
+            972.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S023",
+        "layer": "ordinary",
+        "node_u": "N027",
+        "node_v": "N036",
+        "length_px300": 105.924,
+        "tortuosity": 1.039369,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1009.0,
+            937.0
+          ],
+          [
+            1050.0,
+            927.0
+          ],
+          [
+            1074.0,
+            917.0
+          ],
+          [
+            1093.0,
+            906.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S024",
+        "layer": "ordinary",
+        "node_u": "N028",
+        "node_v": "N031",
+        "length_px300": 96.841,
+        "tortuosity": 1.081562,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            953.0,
+            939.0
+          ],
+          [
+            928.0,
+            937.0
+          ],
+          [
+            882.0,
+            926.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S025",
+        "layer": "ordinary",
+        "node_u": "N029",
+        "node_v": "N032",
+        "length_px300": 76.385,
+        "tortuosity": 1.058249,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1413.0,
+            964.0
+          ],
+          [
+            1411.0,
+            932.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S026",
+        "layer": "ordinary",
+        "node_u": "N030",
+        "node_v": "N035",
+        "length_px300": 32.828,
+        "tortuosity": 1.02389,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1414.0,
+            969.0
+          ],
+          [
+            1417.0,
+            1004.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S027",
+        "layer": "ordinary",
+        "node_u": "N035",
+        "node_v": "N041",
+        "length_px300": 36.243,
+        "tortuosity": 1.031721,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            256.0,
+            981.0
+          ],
+          [
+            284.0,
+            1102.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S028",
+        "layer": "ordinary",
+        "node_u": "N037",
+        "node_v": "N043",
+        "length_px300": 132.598,
+        "tortuosity": 1.067639,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            410.0,
+            1209.0
+          ],
+          [
+            401.0,
+            1156.0
+          ],
+          [
+            397.0,
+            1093.0
+          ],
+          [
+            398.0,
+            1027.0
+          ],
+          [
+            403.0,
+            991.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S029",
+        "layer": "ordinary",
+        "node_u": "N038",
+        "node_v": "N049",
+        "length_px300": 225.87,
+        "tortuosity": 1.035567,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            655.0,
+            1301.0
+          ],
+          [
+            637.0,
+            1215.0
+          ],
+          [
+            608.0,
+            1121.0
+          ],
+          [
+            573.0,
+            1048.0
+          ],
+          [
+            539.0,
+            996.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S030",
+        "layer": "ordinary",
+        "node_u": "N039",
+        "node_v": "N053",
+        "length_px300": 353.049,
+        "tortuosity": 1.081929,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1335.0,
+            1080.0
+          ],
+          [
+            1312.0,
+            1105.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S031",
+        "layer": "ordinary",
+        "node_u": "N042",
+        "node_v": "N044",
+        "length_px300": 35.698,
+        "tortuosity": 1.050865,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1197.0,
+            1112.0
+          ],
+          [
+            1205.0,
+            1129.0
+          ],
+          [
+            1210.0,
+            1146.0
+          ],
+          [
+            1223.0,
+            1173.0
+          ],
+          [
+            1234.0,
+            1204.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S032",
+        "layer": "ordinary",
+        "node_u": "N045",
+        "node_v": "N048",
+        "length_px300": 107.326,
+        "tortuosity": 1.082335,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            333.0,
+            1359.0
+          ],
+          [
+            310.0,
+            1218.0
+          ],
+          [
+            290.0,
+            1124.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S033",
+        "layer": "ordinary",
+        "node_u": "N046",
+        "node_v": "N057",
+        "length_px300": 252.811,
+        "tortuosity": 1.058223,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1286.0,
+            1138.0
+          ],
+          [
+            1269.0,
+            1159.0
+          ],
+          [
+            1239.0,
+            1204.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S034",
+        "layer": "ordinary",
+        "node_u": "N047",
+        "node_v": "N048",
+        "length_px300": 85.468,
+        "tortuosity": 1.054839,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1213.0,
+            1251.0
+          ],
+          [
+            1198.0,
+            1279.0
+          ],
+          [
+            1182.0,
+            1315.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S035",
+        "layer": "ordinary",
+        "node_u": "N050",
+        "node_v": "N055",
+        "length_px300": 76.841,
+        "tortuosity": 1.080549,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1954.0,
+            1259.0
+          ],
+          [
+            1961.0,
+            1380.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S036",
+        "layer": "ordinary",
+        "node_u": "N051",
+        "node_v": "N060",
+        "length_px300": 123.899,
+        "tortuosity": 1.022254,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            659.0,
+            1311.0
+          ],
+          [
+            694.0,
+            1279.0
+          ],
+          [
+            709.0,
+            1262.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S037",
+        "layer": "ordinary",
+        "node_u": "N052",
+        "node_v": "N054",
+        "length_px300": 72.054,
+        "tortuosity": 1.029235,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            889.0,
+            1379.0
+          ],
+          [
+            779.0,
+            1344.0
+          ],
+          [
+            662.0,
+            1317.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S038",
+        "layer": "reinforced",
+        "node_u": "N054",
+        "node_v": "N059",
+        "length_px300": 252.681,
+        "tortuosity": 1.073801,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            659.0,
+            1320.0
+          ],
+          [
+            685.0,
+            1477.0
+          ],
+          [
+            694.0,
+            1580.0
+          ],
+          [
+            695.0,
+            1696.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S039",
+        "layer": "reinforced",
+        "node_u": "N054",
+        "node_v": "N070",
+        "length_px300": 392.569,
+        "tortuosity": 1.039312,
+        "stroke_radius_med_px300": 4.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1180.0,
+            1321.0
+          ],
+          [
+            1168.0,
+            1354.0
+          ],
+          [
+            1151.0,
+            1426.0
+          ],
+          [
+            1143.0,
+            1489.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S040",
+        "layer": "ordinary",
+        "node_u": "N055",
+        "node_v": "N066",
+        "length_px300": 183.326,
+        "tortuosity": 1.065686,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1590.0,
+            1416.0
+          ],
+          [
+            1590.0,
+            1403.0
+          ],
+          [
+            1603.0,
+            1360.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S041",
+        "layer": "ordinary",
+        "node_u": "N056",
+        "node_v": "N062",
+        "length_px300": 62.213,
+        "tortuosity": 1.082173,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1138.0,
+            1491.0
+          ],
+          [
+            1020.0,
+            1432.0
+          ],
+          [
+            893.0,
+            1381.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S042",
+        "layer": "reinforced",
+        "node_u": "N059",
+        "node_v": "N066",
+        "length_px300": 290.563,
+        "tortuosity": 1.081927,
+        "stroke_radius_med_px300": 3.597,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            481.0,
+            1395.0
+          ],
+          [
+            509.0,
+            1391.0
+          ],
+          [
+            537.0,
+            1382.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S043",
+        "layer": "ordinary",
+        "node_u": "N058",
+        "node_v": "N061",
+        "length_px300": 61.385,
+        "tortuosity": 1.067763,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1578.0,
+            1486.0
+          ],
+          [
+            1579.0,
+            1460.0
+          ],
+          [
+            1581.0,
+            1456.0
+          ],
+          [
+            1584.0,
+            1434.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S044",
+        "layer": "ordinary",
+        "node_u": "N063",
+        "node_v": "N065",
+        "length_px300": 54.485,
+        "tortuosity": 1.040888,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1919.0,
+            1496.0
+          ],
+          [
+            1957.0,
+            1481.0
+          ],
+          [
+            1961.0,
+            1477.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S045",
+        "layer": "ordinary",
+        "node_u": "N064",
+        "node_v": "N067",
+        "length_px300": 49.87,
+        "tortuosity": 1.081834,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2003.0,
+            1714.0
+          ],
+          [
+            1977.0,
+            1548.0
+          ],
+          [
+            1970.0,
+            1477.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S046",
+        "layer": "reinforced",
+        "node_u": "N064",
+        "node_v": "N071",
+        "length_px300": 250.669,
+        "tortuosity": 1.047569,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1574.0,
+            1491.0
+          ],
+          [
+            1569.0,
+            1493.0
+          ],
+          [
+            1565.0,
+            1498.0
+          ],
+          [
+            1537.0,
+            1510.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S047",
+        "layer": "ordinary",
+        "node_u": "N065",
+        "node_v": "N068",
+        "length_px300": 45.456,
+        "tortuosity": 1.092865,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1614.0,
+            1864.0
+          ],
+          [
+            1582.0,
+            1680.0
+          ],
+          [
+            1577.0,
+            1494.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S048",
+        "layer": "reinforced",
+        "node_u": "N065",
+        "node_v": "N090",
+        "length_px300": 386.154,
+        "tortuosity": 1.038481,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1144.0,
+            1591.0
+          ],
+          [
+            1141.0,
+            1549.0
+          ],
+          [
+            1142.0,
+            1498.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S049",
+        "layer": "reinforced",
+        "node_u": "N066",
+        "node_v": "N069",
+        "length_px300": 94.657,
+        "tortuosity": 1.01758,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1145.0,
+            1596.0
+          ],
+          [
+            1151.0,
+            1647.0
+          ],
+          [
+            1174.0,
+            1744.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S050",
+        "layer": "reinforced",
+        "node_u": "N069",
+        "node_v": "N072",
+        "length_px300": 160.012,
+        "tortuosity": 1.060987,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            657.0,
+            2025.0
+          ],
+          [
+            683.0,
+            1880.0
+          ],
+          [
+            694.0,
+            1704.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S051",
+        "layer": "reinforced",
+        "node_u": "N070",
+        "node_v": "N109",
+        "length_px300": 336.326,
+        "tortuosity": 1.040853,
+        "stroke_radius_med_px300": 4.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2020.0,
+            1814.0
+          ],
+          [
+            2015.0,
+            1779.0
+          ],
+          [
+            2010.0,
+            1763.0
+          ],
+          [
+            2004.0,
+            1719.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S052",
+        "layer": "reinforced",
+        "node_u": "N071",
+        "node_v": "N079",
+        "length_px300": 101.627,
+        "tortuosity": 1.054905,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1172.0,
+            1755.0
+          ],
+          [
+            1128.0,
+            1813.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S053",
+        "layer": "ordinary",
+        "node_u": "N073",
+        "node_v": "N078",
+        "length_px300": 76.811,
+        "tortuosity": 1.055083,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1653.0,
+            1838.0
+          ],
+          [
+            1705.0,
+            1804.0
+          ],
+          [
+            1762.0,
+            1777.0
+          ],
+          [
+            1800.0,
+            1765.0
+          ],
+          [
+            1835.0,
+            1759.0
+          ],
+          [
+            1851.0,
+            1760.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S054",
+        "layer": "ordinary",
+        "node_u": "N074",
+        "node_v": "N082",
+        "length_px300": 231.965,
+        "tortuosity": 1.090013,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1178.0,
+            1760.0
+          ],
+          [
+            1186.0,
+            1794.0
+          ],
+          [
+            1197.0,
+            1827.0
+          ],
+          [
+            1197.0,
+            1832.0
+          ],
+          [
+            1201.0,
+            1841.0
+          ],
+          [
+            1204.0,
+            1855.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S055",
+        "layer": "reinforced",
+        "node_u": "N073",
+        "node_v": "N088",
+        "length_px300": 105.77,
+        "tortuosity": 1.073872,
+        "stroke_radius_med_px300": 3.597,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1855.0,
+            1760.0
+          ],
+          [
+            1880.0,
+            1761.0
+          ],
+          [
+            1894.0,
+            1764.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S056",
+        "layer": "ordinary",
+        "node_u": "N074",
+        "node_v": "N075",
+        "length_px300": 40.657,
+        "tortuosity": 1.037043,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            829.0,
+            1782.0
+          ],
+          [
+            862.0,
+            1802.0
+          ],
+          [
+            920.0,
+            1832.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S057",
+        "layer": "ordinary",
+        "node_u": "N076",
+        "node_v": "N081",
+        "length_px300": 111.711,
+        "tortuosity": 1.075883,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1344.0,
+            1846.0
+          ],
+          [
+            1325.0,
+            1823.0
+          ],
+          [
+            1300.0,
+            1802.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S058",
+        "layer": "ordinary",
+        "node_u": "N077",
+        "node_v": "N083",
+        "length_px300": 65.154,
+        "tortuosity": 1.04707,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            984.0,
+            1983.0
+          ],
+          [
+            1039.0,
+            1924.0
+          ],
+          [
+            1125.0,
+            1817.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S059",
+        "layer": "ordinary",
+        "node_u": "N078",
+        "node_v": "N100",
+        "length_px300": 224.99,
+        "tortuosity": 1.03301,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2013.0,
+            1820.0
+          ],
+          [
+            2010.0,
+            1823.0
+          ],
+          [
+            1985.0,
+            1830.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S060",
+        "layer": "ordinary",
+        "node_u": "N079",
+        "node_v": "N080",
+        "length_px300": 32.142,
+        "tortuosity": 1.081057,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2125.0,
+            2231.0
+          ],
+          [
+            2021.0,
+            1820.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S061",
+        "layer": "ordinary",
+        "node_u": "N079",
+        "node_v": "N124",
+        "length_px300": 454.078,
+        "tortuosity": 1.071055,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            923.0,
+            1836.0
+          ],
+          [
+            925.0,
+            1853.0
+          ],
+          [
+            930.0,
+            1872.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S062",
+        "layer": "ordinary",
+        "node_u": "N081",
+        "node_v": "N092",
+        "length_px300": 38.899,
+        "tortuosity": 1.060676,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1347.0,
+            1848.0
+          ],
+          [
+            1383.0,
+            1848.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S063",
+        "layer": "ordinary",
+        "node_u": "N083",
+        "node_v": "N084",
+        "length_px300": 37.657,
+        "tortuosity": 1.046024,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1317.0,
+            1910.0
+          ],
+          [
+            1344.0,
+            1850.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S064",
+        "layer": "ordinary",
+        "node_u": "N083",
+        "node_v": "N093",
+        "length_px300": 71.184,
+        "tortuosity": 1.0819,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1455.0,
+            1851.0
+          ],
+          [
+            1479.0,
+            1853.0
+          ],
+          [
+            1486.0,
+            1852.0
+          ],
+          [
+            1499.0,
+            1855.0
+          ],
+          [
+            1510.0,
+            1855.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S065",
+        "layer": "ordinary",
+        "node_u": "N085",
+        "node_v": "N086",
+        "length_px300": 58.314,
+        "tortuosity": 1.057456,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            351.0,
+            1987.0
+          ],
+          [
+            360.0,
+            1857.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S066",
+        "layer": "ordinary",
+        "node_u": "N087",
+        "node_v": "N101",
+        "length_px300": 134.556,
+        "tortuosity": 1.032577,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1604.0,
+            1867.0
+          ],
+          [
+            1572.0,
+            1861.0
+          ],
+          [
+            1522.0,
+            1856.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S067",
+        "layer": "ordinary",
+        "node_u": "N089",
+        "node_v": "N091",
+        "length_px300": 86.556,
+        "tortuosity": 1.046194,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1260.0,
+            2002.0
+          ],
+          [
+            1230.0,
+            1928.0
+          ],
+          [
+            1207.0,
+            1859.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S068",
+        "layer": "reinforced",
+        "node_u": "N088",
+        "node_v": "N105",
+        "length_px300": 164.953,
+        "tortuosity": 1.08162,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1616.0,
+            1871.0
+          ],
+          [
+            1628.0,
+            1922.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S069",
+        "layer": "ordinary",
+        "node_u": "N090",
+        "node_v": "N094",
+        "length_px300": 55.971,
+        "tortuosity": 1.068288,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1605.0,
+            1873.0
+          ],
+          [
+            1599.0,
+            1881.0
+          ],
+          [
+            1529.0,
+            1938.0
+          ],
+          [
+            1502.0,
+            1965.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S070",
+        "layer": "ordinary",
+        "node_u": "N091",
+        "node_v": "N096",
+        "length_px300": 143.451,
+        "tortuosity": 1.038708,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            975.0,
+            1983.0
+          ],
+          [
+            974.0,
+            1978.0
+          ],
+          [
+            948.0,
+            1927.0
+          ],
+          [
+            932.0,
+            1877.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S071",
+        "layer": "ordinary",
+        "node_u": "N092",
+        "node_v": "N099",
+        "length_px300": 123.811,
+        "tortuosity": 1.082363,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1275.0,
+            1988.0
+          ],
+          [
+            1300.0,
+            1943.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S072",
+        "layer": "ordinary",
+        "node_u": "N095",
+        "node_v": "N102",
+        "length_px300": 55.355,
+        "tortuosity": 1.075317,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1784.0,
+            1977.0
+          ],
+          [
+            1798.0,
+            2119.0
+          ],
+          [
+            1817.0,
+            2212.0
+          ],
+          [
+            1843.0,
+            2296.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S073",
+        "layer": "ordinary",
+        "node_u": "N097",
+        "node_v": "N127",
+        "length_px300": 343.439,
+        "tortuosity": 1.058655,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            971.0,
+            1986.0
+          ],
+          [
+            909.0,
+            1986.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S074",
+        "layer": "reinforced",
+        "node_u": "N098",
+        "node_v": "N099",
+        "length_px300": 63.657,
+        "tortuosity": 1.026723,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            815.0,
+            1995.0
+          ],
+          [
+            858.0,
+            1989.0
+          ],
+          [
+            903.0,
+            1986.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S075",
+        "layer": "reinforced",
+        "node_u": "N098",
+        "node_v": "N103",
+        "length_px300": 91.728,
+        "tortuosity": 1.036954,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            986.0,
+            1986.0
+          ],
+          [
+            1093.0,
+            1990.0
+          ],
+          [
+            1178.0,
+            1999.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S076",
+        "layer": "reinforced",
+        "node_u": "N100",
+        "node_v": "N104",
+        "length_px300": 197.385,
+        "tortuosity": 1.025697,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            982.0,
+            1989.0
+          ],
+          [
+            998.0,
+            2016.0
+          ],
+          [
+            1046.0,
+            2074.0
+          ],
+          [
+            1125.0,
+            2144.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S077",
+        "layer": "ordinary",
+        "node_u": "N100",
+        "node_v": "N120",
+        "length_px300": 220.09,
+        "tortuosity": 1.043633,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            350.0,
+            1994.0
+          ],
+          [
+            322.0,
+            2204.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S078",
+        "layer": "ordinary",
+        "node_u": "N101",
+        "node_v": "N123",
+        "length_px300": 221.598,
+        "tortuosity": 1.045972,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            447.0,
+            2073.0
+          ],
+          [
+            355.0,
+            1994.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S079",
+        "layer": "ordinary",
+        "node_u": "N101",
+        "node_v": "N114",
+        "length_px300": 124.723,
+        "tortuosity": 1.028522,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            809.0,
+            1995.0
+          ],
+          [
+            737.0,
+            2007.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S080",
+        "layer": "reinforced",
+        "node_u": "N103",
+        "node_v": "N106",
+        "length_px300": 76.971,
+        "tortuosity": 1.05449,
+        "stroke_radius_med_px300": 3.597,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1258.0,
+            2007.0
+          ],
+          [
+            1183.0,
+            1999.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S081",
+        "layer": "reinforced",
+        "node_u": "N104",
+        "node_v": "N105",
+        "length_px300": 78.314,
+        "tortuosity": 1.038293,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            731.0,
+            2009.0
+          ],
+          [
+            664.0,
+            2026.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S082",
+        "layer": "reinforced",
+        "node_u": "N106",
+        "node_v": "N109",
+        "length_px300": 74.042,
+        "tortuosity": 1.071156,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1325.0,
+            2143.0
+          ],
+          [
+            1309.0,
+            2115.0
+          ],
+          [
+            1270.0,
+            2026.0
+          ],
+          [
+            1263.0,
+            2015.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S083",
+        "layer": "ordinary",
+        "node_u": "N107",
+        "node_v": "N121",
+        "length_px300": 153.681,
+        "tortuosity": 1.080549,
+        "stroke_radius_med_px300": 1.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1248.0,
+            2028.0
+          ],
+          [
+            1225.0,
+            2059.0
+          ],
+          [
+            1193.0,
+            2092.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S084",
+        "layer": "ordinary",
+        "node_u": "N108",
+        "node_v": "N116",
+        "length_px300": 87.368,
+        "tortuosity": 1.035332,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            649.0,
+            2030.0
+          ],
+          [
+            588.0,
+            2053.0
+          ],
+          [
+            540.0,
+            2077.0
+          ],
+          [
+            533.0,
+            2078.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S085",
+        "layer": "ordinary",
+        "node_u": "N109",
+        "node_v": "N115",
+        "length_px300": 135.882,
+        "tortuosity": 1.082392,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            706.0,
+            2055.0
+          ],
+          [
+            693.0,
+            2046.0
+          ],
+          [
+            668.0,
+            2034.0
+          ],
+          [
+            664.0,
+            2030.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S086",
+        "layer": "ordinary",
+        "node_u": "N109",
+        "node_v": "N113",
+        "length_px300": 52.355,
+        "tortuosity": 1.071156,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1554.0,
+            2382.0
+          ],
+          [
+            1524.0,
+            2311.0
+          ],
+          [
+            1437.0,
+            2034.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S087",
+        "layer": "ordinary",
+        "node_u": "N110",
+        "node_v": "N130",
+        "length_px300": 396.463,
+        "tortuosity": 1.079864,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            652.0,
+            2038.0
+          ],
+          [
+            632.0,
+            2109.0
+          ],
+          [
+            593.0,
+            2196.0
+          ],
+          [
+            568.0,
+            2237.0
+          ],
+          [
+            512.0,
+            2300.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S088",
+        "layer": "ordinary",
+        "node_u": "N111",
+        "node_v": "N128",
+        "length_px300": 322.333,
+        "tortuosity": 1.085081,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1675.0,
+            2043.0
+          ],
+          [
+            1734.0,
+            2156.0
+          ],
+          [
+            1840.0,
+            2299.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S089",
+        "layer": "ordinary",
+        "node_u": "N112",
+        "node_v": "N127",
+        "length_px300": 324.931,
+        "tortuosity": 1.066863,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            475.0,
+            2099.0
+          ],
+          [
+            452.0,
+            2077.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S090",
+        "layer": "ordinary",
+        "node_u": "N114",
+        "node_v": "N117",
+        "length_px300": 32.698,
+        "tortuosity": 1.027361,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            483.0,
+            2121.0
+          ],
+          [
+            485.0,
+            2109.0
+          ],
+          [
+            522.0,
+            2087.0
+          ],
+          [
+            528.0,
+            2082.0
+          ],
+          [
+            529.0,
+            2079.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S091",
+        "layer": "ordinary",
+        "node_u": "N115",
+        "node_v": "N119",
+        "length_px300": 70.426,
+        "tortuosity": 1.130628,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            794.0,
+            2123.0
+          ],
+          [
+            769.0,
+            2296.0
+          ],
+          [
+            725.0,
+            2443.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S092",
+        "layer": "ordinary",
+        "node_u": "N118",
+        "node_v": "N131",
+        "length_px300": 348.581,
+        "tortuosity": 1.064842,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1249.0,
+            2503.0
+          ],
+          [
+            1210.0,
+            2431.0
+          ],
+          [
+            1179.0,
+            2353.0
+          ],
+          [
+            1145.0,
+            2241.0
+          ],
+          [
+            1127.0,
+            2149.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S093",
+        "layer": "ordinary",
+        "node_u": "N120",
+        "node_v": "N134",
+        "length_px300": 404.534,
+        "tortuosity": 1.080391,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            456.0,
+            2296.0
+          ],
+          [
+            477.0,
+            2164.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S094",
+        "layer": "ordinary",
+        "node_u": "N122",
+        "node_v": "N126",
+        "length_px300": 140.698,
+        "tortuosity": 1.052659,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            303.0,
+            2323.0
+          ],
+          [
+            302.0,
+            2316.0
+          ],
+          [
+            307.0,
+            2295.0
+          ],
+          [
+            314.0,
+            2249.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S095",
+        "layer": "ordinary",
+        "node_u": "N125",
+        "node_v": "N129",
+        "length_px300": 79.385,
+        "tortuosity": 1.061108,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            729.0,
+            2467.0
+          ],
+          [
+            937.0,
+            2477.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S096",
+        "layer": "reinforced",
+        "node_u": "N132",
+        "node_v": "N133",
+        "length_px300": 212.142,
+        "tortuosity": 1.018737,
+        "stroke_radius_med_px300": 3.197,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1246.0,
+            2510.0
+          ],
+          [
+            943.0,
+            2477.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "S097",
+        "layer": "reinforced",
+        "node_u": "N133",
+        "node_v": "N135",
+        "length_px300": 316.669,
+        "tortuosity": 1.038969,
+        "stroke_radius_med_px300": 3.0,
+        "status": "AUTO_HIGH_CONFIDENCE_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1766.0,
+            173.0
+          ],
+          [
+            1765.0,
+            170.0
+          ],
+          [
+            1757.0,
+            169.0
+          ],
+          [
+            1754.0,
+            164.0
+          ],
+          [
+            1746.0,
+            164.0
+          ],
+          [
+            1743.0,
+            158.0
+          ],
+          [
+            1736.0,
+            158.0
+          ],
+          [
+            1734.0,
+            154.0
+          ],
+          [
+            1725.0,
+            154.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "W000",
+        "layer": "serpentine",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 54.142,
+        "tortuosity": 1.19814,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_CANDIDATE_CURVED/WAVY_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            732.0,
+            1234.0
+          ],
+          [
+            752.0,
+            1205.0
+          ],
+          [
+            772.0,
+            1169.0
+          ],
+          [
+            753.0,
+            1141.0
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "W001",
+        "layer": "serpentine",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 117.439,
+        "tortuosity": 1.231768,
+        "stroke_radius_med_px300": 1.4,
+        "status": "AUTO_CANDIDATE_CURVED/WAVY_SOURCE_STROKE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1874.14,
+            1178.97
+          ],
+          [
+            1275.56,
+            2226.45
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "Y000",
+        "layer": "symmetry_candidate",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 1206.45,
+        "tortuosity": 1.0,
+        "stroke_radius_med_px300": "",
+        "status": "AUTO_DASHED/COLLINEAR_CANDIDATE_NOT_MATCHED_TO_SIX_SOURCE_AXES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1194.6,
+            1472.07
+          ],
+          [
+            553.31,
+            1772.93
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "Y001",
+        "layer": "symmetry_candidate",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 708.355,
+        "tortuosity": 1.0,
+        "stroke_radius_med_px300": "",
+        "status": "AUTO_DASHED/COLLINEAR_CANDIDATE_NOT_MATCHED_TO_SIX_SOURCE_AXES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1327.47,
+            645.9
+          ],
+          [
+            1325.07,
+            1806.6
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "Y002",
+        "layer": "symmetry_candidate",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 1160.704,
+        "tortuosity": 1.0,
+        "stroke_radius_med_px300": "",
+        "status": "AUTO_DASHED/COLLINEAR_CANDIDATE_NOT_MATCHED_TO_SIX_SOURCE_AXES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1147.53,
+            1381.32
+          ],
+          [
+            1142.68,
+            2113.62
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "Y003",
+        "layer": "symmetry_candidate",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 732.314,
+        "tortuosity": 1.0,
+        "stroke_radius_med_px300": "",
+        "status": "AUTO_DASHED/COLLINEAR_CANDIDATE_NOT_MATCHED_TO_SIX_SOURCE_AXES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1411.05,
+            938.81
+          ],
+          [
+            967.17,
+            1639.83
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "Y004",
+        "layer": "symmetry_candidate",
+        "node_u": "",
+        "node_v": "",
+        "length_px300": 829.733,
+        "tortuosity": 1.0,
+        "stroke_radius_med_px300": "",
+        "status": "AUTO_DASHED/COLLINEAR_CANDIDATE_NOT_MATCHED_TO_SIX_SOURCE_AXES"
+      }
+    }
+  ]
+}

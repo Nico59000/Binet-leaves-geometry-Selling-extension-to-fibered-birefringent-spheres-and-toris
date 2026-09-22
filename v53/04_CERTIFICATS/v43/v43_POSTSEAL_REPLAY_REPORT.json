@@ -1,0 +1,55 @@
+{
+  "version": "v43",
+  "status": "PASS",
+  "phase": "POSTSEAL_DESTRUCTIVE_REPLAY",
+  "archive": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v43_bundle.zip",
+    "bytes": 39428246,
+    "sha256": "d8d00141823d44fee82f0a25fd6525d08de4390cb2ca43d0dfa692d3b156b018",
+    "members": 196
+  },
+  "ledger": {
+    "path": "v43_SHA256SUMS.txt",
+    "entries": 195,
+    "pre_replay": "PASS_195_OF_195",
+    "post_replay": "PASS_195_OF_195"
+  },
+  "verification": {
+    "status": "PASS",
+    "predecessor_checks": 5832,
+    "new_checks": 1734,
+    "combined_checks": 7566,
+    "failed": 0
+  },
+  "pdf": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v43.pdf",
+    "pages": 234,
+    "sha256": "44fdea61d3cfc21b349c429490324eac3a273230761e4b872becb1acef7830be",
+    "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED",
+    "canonicalization_replay": "PASS_BYTE_IDENTICAL"
+  },
+  "tex": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v43.tex",
+    "sha256": "5979d80c958eea73ffd0f583a00f051707d3b05343945ac3e1afe6aac492dd77"
+  },
+  "zip_roundtrip": {
+    "rebuild": "PASS_BYTE_IDENTICAL",
+    "rebuilt_sha256": "d8d00141823d44fee82f0a25fd6525d08de4390cb2ca43d0dfa692d3b156b018"
+  },
+  "fragmentation": {
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB",
+    "bundle_bytes": 39428246
+  },
+  "typed_gates_preserved": [
+    "Selling source binding NT",
+    "89-node C2 census NOT_ACTIVATED",
+    "strict R5/Gamma critical-diamond 16-to-16 incidence adapter REFUTED-TYPED",
+    "complete Gamma3 resolution NT",
+    "current historical odd mark NONE",
+    "Singer-framed odd mark SEPARATED/CONDITIONAL",
+    "Lorentz orientation NT",
+    "field functor PENDING-MORPHISM",
+    "historical H1/H2 NT_NOT_RECOMPUTED",
+    "physical phase SEPARATED/PENDING-MORPHISM"
+  ]
+}

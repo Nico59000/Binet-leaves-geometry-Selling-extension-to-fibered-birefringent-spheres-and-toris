@@ -1,0 +1,56 @@
+{
+  "version": "v47",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "atomic_completion": true,
+  "atomic_conjunction": {
+    "MATH": "PASS",
+    "VERIFY": "PASS",
+    "PDF_QA": "PASS",
+    "SEAL": "PASS",
+    "FRAGMENT_ROUNDTRIP": "PASS",
+    "POSTSEAL": "PASS"
+  },
+  "verification": {
+    "predecessor_v46": 8034,
+    "new_v47": 80,
+    "combined": 8114,
+    "status": "PASS_8114_OF_8114"
+  },
+  "pdf": {
+    "pages": 251,
+    "bytes": 2308150,
+    "sha256": "b932fc05070e3710a636ac356e84f42d0da94c9b2aa004474beb72b291eec35c",
+    "page210_overflow": "PASS_RETAINED"
+  },
+  "tex": {
+    "bytes": 706624,
+    "sha256": "674eefe74b2608f1415c2976614807b870325700d00c95fe7fc3e2274bcdce91",
+    "overfull_boxes": 0
+  },
+  "bundle": {
+    "bytes": 54879833,
+    "members": 306,
+    "sha256": "24f563b0daa2cba3efca1b4bd6e51bac0cb6ae395221229a6f4b99cb2828a181",
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB"
+  },
+  "seal_manifest_sha256": "309f1efaf4ac50cd727770611980ef1bf0ab9e586c06e6b05021e150b02a7214",
+  "sha256_ledger_sha256": "76803607e628df7011a8e522d1fd9145bd159f4e36d4a252a449ba7b73c3ffa7",
+  "postseal_report_sha256": "d6d4ed6f27e7f78b160a29149a3a30c4c1fad507b98c22330f5002438e396983",
+  "math_promotions": {
+    "source_axis_topology": "PROVEN_SOURCE_SEMANTIC_C6",
+    "DAX_extent_intersection_stitching": "REFUTED-TYPED_NO_6_CYCLE; DAX00_ISOLATED",
+    "historical_HAX_HC_curves": "NT_PENDING_DIRECT_SOURCE_TRANSCRIPTION",
+    "PQRS_source_routes": "PROVEN_SOURCE_SEMANTICS_RASTER_BINDING_NT",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "radius2_exact_ball": "163_ELEMENTS_DEPTH_PROFILE_1_15_147",
+    "radius2_exact_boundary": "13690x7009_RANK_5430_KERNEL_DIM_1579",
+    "radius2_residual_image": "RANK_13_OF_14",
+    "radius2_exact_lifts": "13_EXACT_FOX_CYCLES_MINIMAL_RADIUS_2; SHADOWS=2*CHIRES_01_TO_13",
+    "remaining": "CHIRES_14_SUPPORTED_ON_R3b_123; NO_EXACT_LIFT_RADIUS_LE_2; MINIMAL_RADIUS_IF_ANY_GE_3",
+    "complete_resolution": "NT",
+    "Singer_injection": "SEPARATED/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "safe_successor": "v48 -- retain v47 CLOSED/APPEND-ONLY and every typed separation; directly transcribe the six source-indicated fourfold centres and trace each curved/dotted historical axis centre-to-centre with vanishing-variable letters and P,Q,R,S boundary routes before defining reflections; activate the 89-node C2 census and historical C0/C1/C2/d0/d1/H1/H2 only after that source-total transcription closes; target the sole residual character direction CHIRES_14 supported on R3b_123 with exact group-ring coefficient support of radius three and prove or refute an exact lift, then analyze R-module annihilators/intersections and higher syzygies of the thirteen exact radius-two cycles without claiming a complete resolution; retain the strict R5/Gamma incidence adapter and roof reversal/transposition as REFUTED-TYPED, Singer injection and physical phase as SEPARATED/PENDING-MORPHISM, and Lorentz orientation as NT."
+}
