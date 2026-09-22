@@ -1,0 +1,31 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "scope": "Q2 local-to-global first patch",
+  "checks": {
+    "projective_torsors_resolved": true,
+    "four_face_patch_exact_incidence": true,
+    "local_boundary_squared_zero": true,
+    "deterministic_replay_byte_identical": true,
+    "global_TU_closure_reached": false
+  },
+  "promotion": {
+    "Q2_H_M_G_patch": "PROVEN-LOCAL-4-FACE-SUBCOMPLEX",
+    "S2_S8_transport": "PROVEN-SAME-PROJECTIVE-MORPHISM",
+    "S5_S12_transport": "PROVEN-SAME-PROJECTIVE-MORPHISM",
+    "S9_S11_transport": "PROVEN-SAME-PROJECTIVE-MORPHISM",
+    "global_C0_C1_C2": "NT-GUARDED",
+    "historical_H1_H2": "NT-GUARDED"
+  },
+  "sha256": {
+    "selling_Q2_local_patch_v50.json": "f4e3bc599ffbff88ee7ff629101b8231e013c8ef20cd87ae8d8d278abca941de",
+    "selling_Q2_local_patch_incidence_v50.csv": "35d273bc0724a6aca0d4407e5f7d88c37f2ef545707f75f510d1234e88278e68",
+    "selling_Q2_local_patch_v50.py": "8d908ff9ffe86daad4204280061db677f887f1dbabf70d5ffa041ab38c231711"
+  },
+  "nonpromoted_diagnostics": [
+    "second_ring_probe_v50.py",
+    "third_ring_probe_v50.py",
+    "reduced_wall_bfs_numeric_v50.json"
+  ],
+  "warning": "numeric ring probes are topology discovery aids only; the broad six-move BFS overgenerates at double-wall seams and is explicitly non-promoted."
+}

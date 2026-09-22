@@ -1,0 +1,2916 @@
+{
+  "final_residual_count": 96,
+  "final_residual_l1": 96,
+  "final_residual_sample": [
+    {
+      "coefficient": -1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          -15,
+          -36,
+          32
+        ],
+        [
+          -6,
+          -13,
+          12
+        ],
+        [
+          2,
+          6,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          -35,
+          -38,
+          46
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          -22,
+          -24,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          -5,
+          -4,
+          6
+        ],
+        [
+          -12,
+          -9,
+          14
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          -9,
+          -26,
+          20
+        ],
+        [
+          -16,
+          -47,
+          36
+        ],
+        [
+          4,
+          12,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          1,
+          -4,
+          0
+        ],
+        [
+          2,
+          -9,
+          0
+        ],
+        [
+          2,
+          -2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          19,
+          -38,
+          -8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          12,
+          -24,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          21,
+          -26,
+          -10
+        ],
+        [
+          38,
+          -47,
+          -18
+        ],
+        [
+          -10,
+          12,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E12",
+      "group_matrix": [
+        [
+          23,
+          -36,
+          -6
+        ],
+        [
+          8,
+          -13,
+          -2
+        ],
+        [
+          -4,
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          -1,
+          4,
+          -6
+        ],
+        [
+          -2,
+          9,
+          -14
+        ],
+        [
+          -2,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          -19,
+          38,
+          -46
+        ],
+        [
+          0,
+          -1,
+          2
+        ],
+        [
+          -12,
+          24,
+          -29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          -21,
+          26,
+          -20
+        ],
+        [
+          -38,
+          47,
+          -36
+        ],
+        [
+          10,
+          -12,
+          9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          -23,
+          36,
+          -32
+        ],
+        [
+          -8,
+          13,
+          -12
+        ],
+        [
+          4,
+          -6,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          15,
+          -2,
+          -32
+        ],
+        [
+          6,
+          -1,
+          -12
+        ],
+        [
+          -2,
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          35,
+          -16,
+          -46
+        ],
+        [
+          -2,
+          1,
+          2
+        ],
+        [
+          22,
+          -10,
+          -29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          5,
+          -2,
+          -6
+        ],
+        [
+          12,
+          -5,
+          -14
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E13",
+      "group_matrix": [
+        [
+          9,
+          -4,
+          -20
+        ],
+        [
+          16,
+          -7,
+          -36
+        ],
+        [
+          -4,
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -1,
+          -2,
+          4
+        ],
+        [
+          -2,
+          -5,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -1,
+          -4,
+          -2
+        ],
+        [
+          -2,
+          -7,
+          -4
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -11,
+          -2,
+          -2
+        ],
+        [
+          -4,
+          -1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -111,
+          38,
+          46
+        ],
+        [
+          4,
+          -1,
+          -2
+        ],
+        [
+          -70,
+          24,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -13,
+          4,
+          6
+        ],
+        [
+          -30,
+          9,
+          14
+        ],
+        [
+          -4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -3,
+          -16,
+          24
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          -2,
+          -10,
+          15
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -31,
+          26,
+          -10
+        ],
+        [
+          -56,
+          47,
+          -18
+        ],
+        [
+          14,
+          -12,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -31,
+          26,
+          -62
+        ],
+        [
+          -56,
+          47,
+          -112
+        ],
+        [
+          14,
+          -12,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -49,
+          36,
+          -6
+        ],
+        [
+          -18,
+          13,
+          -2
+        ],
+        [
+          8,
+          -6,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -49,
+          36,
+          -78
+        ],
+        [
+          -18,
+          13,
+          -28
+        ],
+        [
+          8,
+          -6,
+          13
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -57,
+          38,
+          -8
+        ],
+        [
+          2,
+          -1,
+          0
+        ],
+        [
+          -36,
+          24,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -57,
+          38,
+          -84
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          -36,
+          24,
+          -53
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -61,
+          26,
+          20
+        ],
+        [
+          -110,
+          47,
+          36
+        ],
+        [
+          28,
+          -12,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -7,
+          4,
+          -8
+        ],
+        [
+          -16,
+          9,
+          -18
+        ],
+        [
+          -2,
+          2,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -7,
+          4,
+          0
+        ],
+        [
+          -16,
+          9,
+          0
+        ],
+        [
+          -2,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E21",
+      "group_matrix": [
+        [
+          -87,
+          36,
+          32
+        ],
+        [
+          -32,
+          13,
+          12
+        ],
+        [
+          14,
+          -6,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -1,
+          -2,
+          4
+        ],
+        [
+          -2,
+          -5,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -1,
+          -4,
+          -2
+        ],
+        [
+          -2,
+          -7,
+          -4
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -11,
+          -2,
+          -2
+        ],
+        [
+          -4,
+          -1,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -3,
+          -16,
+          24
+        ],
+        [
+          0,
+          1,
+          -2
+        ],
+        [
+          -2,
+          -10,
+          15
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -31,
+          26,
+          -62
+        ],
+        [
+          -56,
+          47,
+          -112
+        ],
+        [
+          14,
+          -12,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -49,
+          36,
+          -78
+        ],
+        [
+          -18,
+          13,
+          -28
+        ],
+        [
+          8,
+          -6,
+          13
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -57,
+          38,
+          -84
+        ],
+        [
+          2,
+          -1,
+          2
+        ],
+        [
+          -36,
+          24,
+          -53
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E23",
+      "group_matrix": [
+        [
+          -7,
+          4,
+          -8
+        ],
+        [
+          -16,
+          9,
+          -18
+        ],
+        [
+          -2,
+          2,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -2,
+          -5,
+          0
+        ],
+        [
+          0,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -1,
+          16,
+          -10
+        ],
+        [
+          -2,
+          29,
+          -18
+        ],
+        [
+          0,
+          -8,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -11,
+          10,
+          -6
+        ],
+        [
+          -4,
+          3,
+          -2
+        ],
+        [
+          2,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -111,
+          38,
+          46
+        ],
+        [
+          4,
+          -1,
+          -2
+        ],
+        [
+          -70,
+          24,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -13,
+          4,
+          6
+        ],
+        [
+          -30,
+          9,
+          14
+        ],
+        [
+          -4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -3,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -31,
+          -4,
+          20
+        ],
+        [
+          -56,
+          -7,
+          36
+        ],
+        [
+          14,
+          2,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -31,
+          -44,
+          20
+        ],
+        [
+          -56,
+          -79,
+          36
+        ],
+        [
+          14,
+          20,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -49,
+          -2,
+          32
+        ],
+        [
+          -18,
+          -1,
+          12
+        ],
+        [
+          8,
+          0,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -49,
+          -66,
+          32
+        ],
+        [
+          -18,
+          -25,
+          12
+        ],
+        [
+          8,
+          10,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -57,
+          -108,
+          46
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          -36,
+          -68,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -57,
+          -16,
+          46
+        ],
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          -36,
+          -10,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -61,
+          26,
+          20
+        ],
+        [
+          -110,
+          47,
+          36
+        ],
+        [
+          28,
+          -12,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -7,
+          -14,
+          6
+        ],
+        [
+          -16,
+          -33,
+          14
+        ],
+        [
+          -2,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -7,
+          -2,
+          6
+        ],
+        [
+          -16,
+          -5,
+          14
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E31",
+      "group_matrix": [
+        [
+          -87,
+          36,
+          32
+        ],
+        [
+          -32,
+          13,
+          12
+        ],
+        [
+          14,
+          -6,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          -2,
+          -5,
+          0
+        ],
+        [
+          0,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -1,
+          16,
+          -10
+        ],
+        [
+          -2,
+          29,
+          -18
+        ],
+        [
+          0,
+          -8,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -11,
+          10,
+          -6
+        ],
+        [
+          -4,
+          3,
+          -2
+        ],
+        [
+          2,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -3,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -31,
+          -44,
+          20
+        ],
+        [
+          -56,
+          -79,
+          36
+        ],
+        [
+          14,
+          20,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -49,
+          -66,
+          32
+        ],
+        [
+          -18,
+          -25,
+          12
+        ],
+        [
+          8,
+          10,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -57,
+          -108,
+          46
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          -36,
+          -68,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "E32",
+      "group_matrix": [
+        [
+          -7,
+          -14,
+          6
+        ],
+        [
+          -16,
+          -33,
+          14
+        ],
+        [
+          -2,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -1,
+          4,
+          -8
+        ],
+        [
+          -2,
+          9,
+          -18
+        ],
+        [
+          -2,
+          2,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -15,
+          -66,
+          32
+        ],
+        [
+          -6,
+          -25,
+          12
+        ],
+        [
+          2,
+          10,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -19,
+          38,
+          -84
+        ],
+        [
+          0,
+          -1,
+          2
+        ],
+        [
+          -12,
+          24,
+          -53
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -21,
+          26,
+          -62
+        ],
+        [
+          -38,
+          47,
+          -112
+        ],
+        [
+          10,
+          -12,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -23,
+          36,
+          -78
+        ],
+        [
+          -8,
+          13,
+          -28
+        ],
+        [
+          4,
+          -6,
+          13
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -35,
+          -108,
+          46
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          -22,
+          -68,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -5,
+          -14,
+          6
+        ],
+        [
+          -12,
+          -33,
+          14
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          -9,
+          -44,
+          20
+        ],
+        [
+          -16,
+          -79,
+          36
+        ],
+        [
+          4,
+          20,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          1,
+          -2,
+          0
+        ],
+        [
+          2,
+          -5,
+          0
+        ],
+        [
+          2,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          15,
+          -2,
+          -2
+        ],
+        [
+          6,
+          -1,
+          0
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          19,
+          0,
+          -8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          12,
+          0,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          21,
+          16,
+          -10
+        ],
+        [
+          38,
+          29,
+          -18
+        ],
+        [
+          -10,
+          -8,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          23,
+          10,
+          -6
+        ],
+        [
+          8,
+          3,
+          -2
+        ],
+        [
+          -4,
+          -2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          35,
+          -16,
+          24
+        ],
+        [
+          -2,
+          1,
+          -2
+        ],
+        [
+          22,
+          -10,
+          15
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          5,
+          -2,
+          4
+        ],
+        [
+          12,
+          -5,
+          10
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F1",
+      "group_matrix": [
+        [
+          9,
+          -4,
+          -2
+        ],
+        [
+          16,
+          -7,
+          -4
+        ],
+        [
+          -4,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          -15,
+          36,
+          32
+        ],
+        [
+          -6,
+          13,
+          12
+        ],
+        [
+          2,
+          -6,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          -35,
+          38,
+          46
+        ],
+        [
+          2,
+          -1,
+          -2
+        ],
+        [
+          -22,
+          24,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          -5,
+          4,
+          6
+        ],
+        [
+          -12,
+          9,
+          14
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          -9,
+          26,
+          20
+        ],
+        [
+          -16,
+          47,
+          36
+        ],
+        [
+          4,
+          -12,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          2,
+          9,
+          0
+        ],
+        [
+          2,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          19,
+          38,
+          -8
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          12,
+          24,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          21,
+          26,
+          -10
+        ],
+        [
+          38,
+          47,
+          -18
+        ],
+        [
+          -10,
+          -12,
+          5
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F2",
+      "group_matrix": [
+        [
+          23,
+          36,
+          -6
+        ],
+        [
+          8,
+          13,
+          -2
+        ],
+        [
+          -4,
+          -6,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          -1,
+          4,
+          6
+        ],
+        [
+          -2,
+          9,
+          14
+        ],
+        [
+          -2,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          -19,
+          38,
+          46
+        ],
+        [
+          0,
+          -1,
+          -2
+        ],
+        [
+          -12,
+          24,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          -21,
+          26,
+          20
+        ],
+        [
+          -38,
+          47,
+          36
+        ],
+        [
+          10,
+          -12,
+          -9
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          -23,
+          36,
+          32
+        ],
+        [
+          -8,
+          13,
+          12
+        ],
+        [
+          4,
+          -6,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          15,
+          -2,
+          32
+        ],
+        [
+          6,
+          -1,
+          12
+        ],
+        [
+          -2,
+          0,
+          -5
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          35,
+          -16,
+          46
+        ],
+        [
+          -2,
+          1,
+          -2
+        ],
+        [
+          22,
+          -10,
+          29
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          5,
+          -2,
+          6
+        ],
+        [
+          12,
+          -5,
+          14
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "generator": "F3",
+      "group_matrix": [
+        [
+          9,
+          -4,
+          20
+        ],
+        [
+          16,
+          -7,
+          36
+        ],
+        [
+          -4,
+          2,
+          -9
+        ]
+      ]
+    }
+  ],
+  "fixed_quotient_witness": "gamma3_radius5_quotient_cycle_v51.json multiplied by common denominator 4",
+  "guard": "Every correction is a within-(relator,mod4-class) difference, so the finite quotient 3-chain is unchanged. Failure/stopping of this deterministic elimination is not a global no-go unless an explicit inconsistency certificate is recorded.",
+  "integral_lift_found": false,
+  "kernel_chain_sample": [
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -1,
+          -2,
+          0
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -1,
+          -4,
+          -10
+        ],
+        [
+          -2,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          5
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -1,
+          4,
+          -2
+        ],
+        [
+          2,
+          5,
+          -2
+        ],
+        [
+          0,
+          -2,
+          1
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -11,
+          -2,
+          6
+        ],
+        [
+          -4,
+          -1,
+          2
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -3,
+          -16,
+          8
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          10,
+          -5
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -3,
+          2,
+          2
+        ],
+        [
+          4,
+          -1,
+          -2
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          -5,
+          2,
+          0
+        ],
+        [
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "relator": "R3b_123"
+    },
+    {
+      "coefficient": 1,
+      "group_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -2,
+          -2,
+          -1
+        ]
+      ],
+      "relator": "R3b_123"
+    }
+  ],
+  "kernel_correction_chain_nonzero_terms": 8,
+  "residual_period_detected": true,
+  "status": "PROVEN-EXACT-ITERATED-KERNEL-CORRECTION-CHECKPOINT",
+  "steps": [
+    {
+      "correction_terms": [
+        {
+          "A": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -2,
+              -2,
+              -1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -3,
+              -16,
+              -8
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -2,
+              -10,
+              -5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -3,
+              2,
+              2
+            ],
+            [
+              4,
+              -1,
+              -2
+            ],
+            [
+              -2,
+              0,
+              1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -11,
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -1,
+              -2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -1,
+              4,
+              -2
+            ],
+            [
+              2,
+              5,
+              -2
+            ],
+            [
+              0,
+              -2,
+              1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              3,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -4,
+              -10
+            ],
+            [
+              -2,
+              -7,
+              -18
+            ],
+            [
+              0,
+              2,
+              5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -5,
+              2,
+              0
+            ],
+            [
+              2,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              3,
+              2,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -2,
+              -5,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "relator": "R3b_123"
+        }
+      ],
+      "fiber_count": 444,
+      "projected_direction_count": 151,
+      "rank_Q": 64,
+      "rank_aug_Q": 64,
+      "residual_count_after": 96,
+      "residual_count_before": 96,
+      "residual_l1_after": 96,
+      "residual_sha256_before": "e5ecf63b94ba55b5f3b44a7ba3b512fadb1a29a54cbed7dd9a76a89750a15d8c",
+      "solution_denominator": 1,
+      "solution_nz": 4,
+      "status": "APPLIED",
+      "step": 1
+    },
+    {
+      "correction_terms": [
+        {
+          "A": [
+            [
+              -3,
+              -16,
+              8
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              10,
+              -5
+            ]
+          ],
+          "coefficient": -1,
+          "fiber_mod4": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -3,
+              -16,
+              -8
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -2,
+              -10,
+              -5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -11,
+              -2,
+              6
+            ],
+            [
+              -4,
+              -1,
+              2
+            ],
+            [
+              -2,
+              0,
+              1
+            ]
+          ],
+          "coefficient": -1,
+          "fiber_mod4": [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -11,
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -1,
+              -2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -1,
+              -4,
+              -10
+            ],
+            [
+              -2,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              5
+            ]
+          ],
+          "coefficient": -1,
+          "fiber_mod4": [
+            [
+              3,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -4,
+              -10
+            ],
+            [
+              -2,
+              -7,
+              -18
+            ],
+            [
+              0,
+              2,
+              5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "coefficient": -1,
+          "fiber_mod4": [
+            [
+              3,
+              2,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -2,
+              -5,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "relator": "R3b_123"
+        }
+      ],
+      "fiber_count": 169,
+      "projected_direction_count": 49,
+      "rank_Q": 28,
+      "rank_aug_Q": 28,
+      "residual_count_after": 96,
+      "residual_count_before": 96,
+      "residual_l1_after": 96,
+      "residual_sha256_before": "ec224bdd73d4ea0f4ec53c04b5557cdb3a2d8d6ab3962186b039e7c2c444dd7b",
+      "solution_denominator": 1,
+      "solution_nz": 4,
+      "status": "APPLIED",
+      "step": 2
+    },
+    {
+      "correction_terms": [
+        {
+          "A": [
+            [
+              -3,
+              -16,
+              8
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              10,
+              -5
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -3,
+              -16,
+              -8
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              -2,
+              -10,
+              -5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -11,
+              -2,
+              6
+            ],
+            [
+              -4,
+              -1,
+              2
+            ],
+            [
+              -2,
+              0,
+              1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              3,
+              2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -11,
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -1,
+              -2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -1,
+              -4,
+              -10
+            ],
+            [
+              -2,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              5
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              3,
+              0,
+              2
+            ],
+            [
+              2,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -4,
+              -10
+            ],
+            [
+              -2,
+              -7,
+              -18
+            ],
+            [
+              0,
+              2,
+              5
+            ]
+          ],
+          "relator": "R3b_123"
+        },
+        {
+          "A": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "coefficient": 1,
+          "fiber_mod4": [
+            [
+              3,
+              2,
+              0
+            ],
+            [
+              2,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3
+            ]
+          ],
+          "ref": [
+            [
+              -1,
+              -2,
+              0
+            ],
+            [
+              -2,
+              -5,
+              0
+            ],
+            [
+              0,
+              0,
+              -1
+            ]
+          ],
+          "relator": "R3b_123"
+        }
+      ],
+      "fiber_count": 201,
+      "projected_direction_count": 71,
+      "rank_Q": 38,
+      "rank_aug_Q": 38,
+      "residual_count_after": 96,
+      "residual_count_before": 96,
+      "residual_l1_after": 96,
+      "residual_sha256_before": "84679a5c82b8e066d66d90dde2df44600f5297afed47937cfb9825e99f239631",
+      "solution_denominator": 1,
+      "solution_nz": 4,
+      "status": "APPLIED",
+      "step": 3
+    },
+    {
+      "repeats_step": 2,
+      "residual_count": 96,
+      "residual_sha256": "ec224bdd73d4ea0f4ec53c04b5557cdb3a2d8d6ab3962186b039e7c2c444dd7b",
+      "status": "EXACT-RESIDUAL-PERIOD-DETECTED",
+      "step": 4
+    }
+  ],
+  "version": "v51"
+}

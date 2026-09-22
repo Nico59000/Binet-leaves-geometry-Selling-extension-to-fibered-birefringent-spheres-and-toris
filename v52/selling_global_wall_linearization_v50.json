@@ -1,0 +1,555 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "base_field_six": [
+    7,
+    -1,
+    -8,
+    0,
+    2,
+    0
+  ],
+  "global_projective_chart": {
+    "coordinates": "q=z/x, r=-y/x modulo v~-v",
+    "hyperboloid_scale": "x^2=60/D0",
+    "D0": "-7*q**2 + 4*q - 60*r**2 + 8",
+    "x_zero_restriction": "-(60*y**2 + 7*z**2)/60",
+    "coverage_decision": "GLOBAL: x=0 has no real hyperboloid point, so this chart covers the whole real projective hyperboloid"
+  },
+  "base_wall_numerators_order_g_h_k_l_m_n": [
+    "-120*q*r",
+    "14*q**2 + 112*q + 120*r**2 - 16",
+    "-120*r",
+    "-63*q**2 - 84*q - 540*r**2 + 120*r - 48",
+    "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8",
+    "-78*q**2 + 120*q*r - 144*q + 360*r**2 - 48"
+  ],
+  "wall_action_matrices": {
+    "g": [
+      [
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "h": [
+      [
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "k": [
+      [
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "l": [
+      [
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1"
+      ]
+    ],
+    "m": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "0"
+      ]
+    ],
+    "n": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "wall_action_rule": "for path A and wall vector w_A=L_A w0, crossing wall j uses L_new=R_j L_A; reduced field is L_A w0 <= 0 componentwise",
+  "projective_transport_torsors": {
+    "l": {
+      "conorm": "p01",
+      "candidate_moves": [
+        "S3",
+        "S6"
+      ],
+      "target_relabelling": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "m": {
+      "conorm": "p02",
+      "candidate_moves": [
+        "S5",
+        "S12"
+      ],
+      "target_relabelling": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "n": {
+      "conorm": "p03",
+      "candidate_moves": [
+        "S4",
+        "S10"
+      ],
+      "target_relabelling": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "k": {
+      "conorm": "p12",
+      "candidate_moves": [
+        "S1",
+        "S7"
+      ],
+      "target_relabelling": [
+        [
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "h": {
+      "conorm": "p13",
+      "candidate_moves": [
+        "S2",
+        "S8"
+      ],
+      "target_relabelling": [
+        [
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    },
+    "g": {
+      "conorm": "p23",
+      "candidate_moves": [
+        "S9",
+        "S11"
+      ],
+      "target_relabelling": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1"
+        ]
+      ],
+      "det": -1,
+      "involution": true,
+      "projective_relation": "A2^-1*A1*B=-I",
+      "status": "PROVEN-UNIQUE-PROJECTIVE-TRANSPORT-CLASS"
+    }
+  },
+  "deck_in_Q2_chart": {
+    "G_T": [
+      [
+        "-8",
+        "3",
+        "-2"
+      ],
+      [
+        "-21",
+        "8",
+        "-6"
+      ],
+      [
+        "0",
+        "0",
+        "-1"
+      ]
+    ],
+    "G_U": [
+      [
+        "-4",
+        "1",
+        "2"
+      ],
+      [
+        "-9",
+        "2",
+        "6"
+      ],
+      [
+        "-3",
+        "1",
+        "1"
+      ]
+    ],
+    "commute": true,
+    "quotient_rule": "path matrices may be identified only after exact left action by <G_T,G_U>, right superbase relabelling, and projective central sign"
+  },
+  "exact_global_classifier_contract": [
+    "factor each transformed quadratic wall polynomial",
+    "retain a boundary component only if it contains a real open arc with D0>0 and all six transformed inequalities <=0",
+    "if one irreducible boundary factor is shared by >=2 wall components, classify it as MULTIWALL/MIRROR and do not create a single-wall neighbour",
+    "cross only certified ordinary one-wall arcs",
+    "quotient fields only by exact deck-left / relabelling-right / projective-sign equivalence"
+  ],
+  "checks": {
+    "Q2_det60": true,
+    "global_projective_chart_covers_real_hyperboloid": true,
+    "six_wall_actions_integer_involutions": true,
+    "six_projective_torsors_collapsed": true,
+    "deck_T_stabilizes_Q2": true,
+    "deck_U_stabilizes_Q2": true,
+    "deck_TU_commute": true
+  }
+}

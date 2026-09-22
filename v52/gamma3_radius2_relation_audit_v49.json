@@ -1,0 +1,974 @@
+{
+  "version": "v49",
+  "input": "gamma3_radius2_pure_lifts_v47.csv",
+  "lift_count": 13,
+  "term_count": 466,
+  "relator_coordinates_used": 36,
+  "critical_character": {
+    "bits_in_generator_order": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "generator_order": [
+      "E12",
+      "E13",
+      "E21",
+      "E23",
+      "E31",
+      "E32",
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "rank_of_13_lifts": 13,
+    "status": "PROVEN_INDEPENDENT_IN_CRITICAL_CHARACTER_SHADOW"
+  },
+  "all_512_character_rank_histogram": {
+    "9": 2,
+    "10": 29,
+    "11": 113,
+    "12": 209,
+    "13": 159
+  },
+  "minimum_character_rank": 9,
+  "maximum_character_rank": 13,
+  "example_masks_by_rank": {
+    "9": [
+      0,
+      197
+    ],
+    "10": [
+      4,
+      8,
+      16,
+      20
+    ],
+    "11": [
+      1,
+      2,
+      10,
+      12
+    ],
+    "12": [
+      3,
+      5,
+      6,
+      9
+    ],
+    "13": [
+      7,
+      13,
+      15,
+      19
+    ]
+  },
+  "private_relator_coordinates": {
+    "R2PURE_01": [],
+    "R2PURE_02": [],
+    "R2PURE_03": [],
+    "R2PURE_04": [],
+    "R2PURE_05": [],
+    "R2PURE_06": [],
+    "R2PURE_07": [
+      "R3a3_231"
+    ],
+    "R2PURE_08": [
+      "R3a4_231"
+    ],
+    "R2PURE_09": [],
+    "R2PURE_10": [
+      "R3a3_312"
+    ],
+    "R2PURE_11": [
+      "R3a4_312"
+    ],
+    "R2PURE_12": [
+      "R3a3_321",
+      "R3a4_123"
+    ],
+    "R2PURE_13": [
+      "R3a4_321"
+    ]
+  },
+  "private_unit_coordinate_certificates": [],
+  "pairwise_overlap_edges": 71,
+  "pairwise_overlap_graph": [
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_02",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R2a_E12F1",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_03",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_04",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3",
+        "R2b_E23F3"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_05",
+      "shared_relator_count": 6,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_07",
+      "shared_relator_count": 7,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E13F3",
+        "R2b_E23F3",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_08",
+      "shared_relator_count": 9,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R2b_E23F3",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_09",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_10",
+      "shared_relator_count": 7,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3",
+        "R2c_F1F2",
+        "R2c_F1F3",
+        "R2c_F2F3"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_11",
+      "shared_relator_count": 9,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2b_E23F3",
+        "R2c_F1F2",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_12",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R2c_F1F2",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_13",
+      "shared_relator_count": 7,
+      "shared_relators": [
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_05",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E12F1",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_06",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R1_F1^2"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_07",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_08",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R3a1_123"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_09",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_10",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_11",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E12F1",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_12",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E12F1",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_13",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R3a1_123"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_05",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_07",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R1_F2^2"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_08",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_10",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E32F2"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_11",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_12",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2",
+        "R2b_E32F2",
+        "R3a2_123"
+      ]
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_13",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F2^2",
+        "R2b_E12F2",
+        "R2b_E32F2",
+        "R3a2_123"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_05",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R3a2_132"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_07",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3",
+        "R2b_E23F3",
+        "R3a2_132"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_08",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3",
+        "R2b_E23F3",
+        "R3a2_132"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_09",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_10",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_11",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E23F3",
+        "R3a2_132"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_12",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_13",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F3^2",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_06",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R1_F1^2"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_07",
+      "shared_relator_count": 10,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2a_E23F2",
+        "R2c_F1F2",
+        "R3a1_213",
+        "R3a2_132",
+        "R3a3_132",
+        "R3a4_132"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_08",
+      "shared_relator_count": 9,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2c_F1F2",
+        "R3a2_132",
+        "R3a3_132"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_09",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2a_E13F1"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_10",
+      "shared_relator_count": 5,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_11",
+      "shared_relator_count": 12,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2c_F1F2",
+        "R3a1_213",
+        "R3a2_132",
+        "R3a3_132",
+        "R3a4_132"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_12",
+      "shared_relator_count": 6,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_13",
+      "shared_relator_count": 5,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_07",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2b_E21F1"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_08",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R1_F1^2"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_09",
+      "shared_relator_count": 3,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2b_E21F1",
+        "R3a2_213"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_10",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2b_E21F1",
+        "R2b_E31F1",
+        "R3a2_213"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_11",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2b_E21F1",
+        "R2b_E31F1",
+        "R3a2_213"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_12",
+      "shared_relator_count": 2,
+      "shared_relators": [
+        "R1_F1^2",
+        "R2b_E31F1"
+      ]
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_13",
+      "shared_relator_count": 1,
+      "shared_relators": [
+        "R1_F1^2"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_08",
+      "shared_relator_count": 10,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E13F3",
+        "R2b_E23F3",
+        "R2c_F1F2",
+        "R3a2_132",
+        "R3a3_132"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_09",
+      "shared_relator_count": 5,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3",
+        "R2b_E21F1"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_10",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2b_E13F3",
+        "R2b_E21F1",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_11",
+      "shared_relator_count": 13,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2a_E23F2",
+        "R2b_E21F1",
+        "R2b_E23F3",
+        "R2c_F1F2",
+        "R3a1_213",
+        "R3a2_132",
+        "R3a3_132",
+        "R3a4_132"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_12",
+      "shared_relator_count": 6,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_13",
+      "shared_relator_count": 5,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_09",
+      "shared_relator_count": 4,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3"
+      ]
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_10",
+      "shared_relator_count": 6,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2b_E13F3",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_11",
+      "shared_relator_count": 11,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E23F2",
+        "R2b_E12F2",
+        "R2b_E23F3",
+        "R2c_F1F2",
+        "R3a2_132",
+        "R3a3_132"
+      ]
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_12",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R2c_F1F2"
+      ]
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_13",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R3a1_123"
+      ]
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_10",
+      "shared_relator_count": 12,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E31F3",
+        "R2a_E32F3",
+        "R2b_E13F3",
+        "R2b_E21F1",
+        "R2c_F1F3",
+        "R3a1_312",
+        "R3a2_213",
+        "R3a3_213",
+        "R3a4_213"
+      ]
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_11",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E31F3",
+        "R2b_E21F1",
+        "R2c_F1F3",
+        "R3a2_213",
+        "R3a3_213"
+      ]
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_12",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E31F3",
+        "R2a_E32F3",
+        "R2b_E13F3",
+        "R2c_F1F3",
+        "R3a1_312"
+      ]
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_13",
+      "shared_relator_count": 6,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E32F3",
+        "R2b_E13F3",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_11",
+      "shared_relator_count": 12,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E21F2",
+        "R2a_E31F3",
+        "R2b_E21F1",
+        "R2b_E31F1",
+        "R2c_F1F2",
+        "R2c_F1F3",
+        "R3a2_213",
+        "R3a3_213"
+      ]
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_12",
+      "shared_relator_count": 12,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E31F3",
+        "R2a_E32F3",
+        "R2b_E13F3",
+        "R2b_E31F1",
+        "R2b_E32F2",
+        "R2c_F1F2",
+        "R2c_F1F3",
+        "R3a1_312"
+      ]
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_13",
+      "shared_relator_count": 8,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E13F1",
+        "R2a_E32F3",
+        "R2b_E13F3",
+        "R2b_E32F2",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_11",
+      "b": "R2PURE_12",
+      "shared_relator_count": 10,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E31F3",
+        "R2b_E12F2",
+        "R2b_E31F1",
+        "R2c_F1F2",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_11",
+      "b": "R2PURE_13",
+      "shared_relator_count": 7,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2b_E12F2",
+        "R2c_F1F3"
+      ]
+    },
+    {
+      "a": "R2PURE_12",
+      "b": "R2PURE_13",
+      "shared_relator_count": 12,
+      "shared_relators": [
+        "R1_F1^2",
+        "R1_F2^2",
+        "R1_F3^2",
+        "R2a_E12F1",
+        "R2a_E13F1",
+        "R2a_E32F3",
+        "R2b_E12F2",
+        "R2b_E13F3",
+        "R2b_E32F2",
+        "R2c_F1F3",
+        "R3a2_123",
+        "R3a3_123"
+      ]
+    }
+  ],
+  "decision": "THE_13_LIFTS_ARE_INDEPENDENT_AT_THE_CRITICAL_CHARACTER_BUT_NOT_AT_EVERY_CHARACTER; NO_PRIVATE_UNIT_COORDINATE_ARGUMENT_PROVES_FULL_R-INDEPENDENCE; FULL_R_MODULE_INTERSECTIONS_AND_ANNIHILATORS_REMAIN_NT",
+  "guard": "Character-rank drop is a shadow phenomenon; it neither proves nor refutes a relation over Z[Gamma_3(2)] without an exact group-ring coefficient relation."
+}

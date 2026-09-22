@@ -1,0 +1,159 @@
+{
+  "version": "v52",
+  "status": "PASS-FORMAL-CONTEXT-LOCK-INHERITED",
+  "source_attestation": "v51_FORMAL_CONTEXT_ATTESTATION.json",
+  "source_attestation_sha256": "ee1deacfcf37975d98f9701df241171e3d20b1247b8a45030aeb220c660c6a5e",
+  "documents": [
+    {
+      "byte_comparison_status": "BYTE-DIFFERENT-SAME-NAMED-SOURCE-REQUIRES-NO-SILENT-SUBSTITUTION",
+      "bytes": 606558,
+      "encrypted": false,
+      "expected_sealed_sha256": "1fe175a9b0daba364386cca54068349d8953948c05ef4b8748850050e0eab517",
+      "guard_phrase_checks": {
+        "distinguishes": false,
+        "global field-complex": true,
+        "remain real and nonnegative": true
+      },
+      "guard_phrase_passed": 2,
+      "guard_phrase_total": 3,
+      "pages": 20,
+      "sha256": "886dac000f876e871560464c09249235204b3d38ca9b7d0f6c1f76712c6e248a",
+      "title": "addendum_sqrt3_hypergeometric_quarterturn_selling_fano_v2_2_hal.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "bytes": 258209,
+      "encrypted": false,
+      "expected_sealed_sha256": "78cb53f9d910fb429a5bccc9be8f150426b5171d3f1f021a04c8c5d5b1c3ebb5",
+      "guard_phrase_checks": {
+        "confluence": true,
+        "externe": true,
+        "interne": true,
+        "terminaison": true
+      },
+      "guard_phrase_passed": 4,
+      "guard_phrase_total": 4,
+      "pages": 4,
+      "sha256": "78cb53f9d910fb429a5bccc9be8f150426b5171d3f1f021a04c8c5d5b1c3ebb5",
+      "title": "Annexe-Heyting-besteod-v5-nt-Semantique-Nf-nt-Interne-externe.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "bytes": 344558,
+      "encrypted": false,
+      "expected_sealed_sha256": "b5679a84441634c30281353d244920d5fdf7c03bc33fb74c3f4ed1f8c1f9c1f1",
+      "guard_phrase_checks": {
+        "absolutisation": true,
+        "diagonale": true,
+        "distinguer trois couches": true
+      },
+      "guard_phrase_passed": 3,
+      "guard_phrase_total": 3,
+      "pages": 9,
+      "sha256": "b5679a84441634c30281353d244920d5fdf7c03bc33fb74c3f4ed1f8c1f9c1f1",
+      "title": "heyting_besteod_htnt_master_hal_v1.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "bytes": 305107,
+      "encrypted": false,
+      "expected_sealed_sha256": null,
+      "guard_phrase_checks": {
+        "NF": true,
+        "NT": true
+      },
+      "guard_phrase_passed": 2,
+      "guard_phrase_total": 2,
+      "pages": 4,
+      "sha256": "2f2e9da0ca623a2c55b2850323214eb989d327f418e8b239711901a55f0e7096",
+      "title": "Heyting-Besteod-V5—Fusion-V3.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "bytes": 257858,
+      "encrypted": false,
+      "expected_sealed_sha256": "a2da5c412be65df212cd7fb653b41a78e1c1e2939700e252c97253ef322bd259",
+      "guard_phrase_checks": {
+        "guarded": true,
+        "must not be binarized": true,
+        "unresolved cases": true
+      },
+      "guard_phrase_passed": 3,
+      "guard_phrase_total": 3,
+      "pages": 2,
+      "sha256": "a2da5c412be65df212cd7fb653b41a78e1c1e2939700e252c97253ef322bd259",
+      "title": "htnt_functional_logic_addendum.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "bytes": 430863,
+      "encrypted": false,
+      "expected_sealed_sha256": "d025bf14b7249d4705caf8b0285619a21bab074964fa28cd04bb944cf4a85c10",
+      "guard_phrase_checks": {
+        "remain distinct sorts": true,
+        "typed carriers": true
+      },
+      "guard_phrase_passed": 2,
+      "guard_phrase_total": 2,
+      "pages": 14,
+      "sha256": "d025bf14b7249d4705caf8b0285619a21bab074964fa28cd04bb944cf4a85c10",
+      "title": "pochhammer_shifted_factorial_ternary_roof_hal_v1.pdf"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "bytes": 717425,
+      "encrypted": false,
+      "expected_sealed_sha256": "c84375309edda604746c74e2c240acf0dd913346c3afbfc196f1773bdfcdb1db",
+      "guard_phrase_checks": {
+        "cyclicized by an explicit non-algebraic adapter": true,
+        "kept distinct": true,
+        "typed by domain": true
+      },
+      "guard_phrase_passed": 3,
+      "guard_phrase_total": 3,
+      "pages": 60,
+      "sha256": "c84375309edda604746c74e2c240acf0dd913346c3afbfc196f1773bdfcdb1db",
+      "title": "polydivisible_hyperplane_roof_elliptic_selling_progression_v4_3_hal.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "bytes": 400605,
+      "encrypted": false,
+      "expected_sealed_sha256": null,
+      "guard_phrase_checks": {
+        "explicitly declared": true,
+        "three layers are kept distinct": true
+      },
+      "guard_phrase_passed": 2,
+      "guard_phrase_total": 2,
+      "pages": 19,
+      "sha256": "fd505d01e61d916d5a1f39e8bf0327c891366122794e7d383fc325f942054fdb",
+      "title": "positional_reversal_mixed_ternary_hal_v1_1.pdf"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "bytes": 426648,
+      "encrypted": false,
+      "expected_sealed_sha256": null,
+      "guard_phrase_checks": {
+        "distinguishes the four-interface frame": true,
+        "guarded combinatorial bridge": true
+      },
+      "guard_phrase_passed": 2,
+      "guard_phrase_total": 2,
+      "pages": 13,
+      "sha256": "c21762f07d4da95f756d517b70c3c38e540bfc69f4f18886400f3fdc898c1034",
+      "title": "roof_five_slice_four_interface_ternary_frames_hal_v1.pdf"
+    }
+  ],
+  "discipline": {
+    "append_only": "v51 CLOSED/APPEND-ONLY remains byte-immutable; v52 adds a new section and new typed artifacts.",
+    "frozen_context": "Algebraic properties are invoked only in declared carriers; carrier changes require explicit adapters.",
+    "industrial_atomicity": "Publish CLOSED only after MATH, VERIFY, PDF-QA, SEAL, deterministic roundtrip and POSTSEAL all pass.",
+    "nt_guard": "NT/PENDING states are not binarized by visual resemblance, cardinality, or failed search.",
+    "source_byte_guard": "Same-named but byte-different source editions are never silently substituted.",
+    "typed_separation": "Selling--Noether, Selling 3D--5D, R2PURE--Selling/Deck and Binet/Ad/V48 remain separated absent explicit morphisms.",
+    "fig1_promotion_scope": "The v52 historical promotion is restricted to the exact 62/123/62 source carrier and the certified BSB-P084-constrained PL realization."
+  },
+  "decision": "FORMAL_CONTEXT_GOVERNS_v52_TYPING_STATUS_AND_PRODUCTION; FIG1_PROMOTION_IS_SOURCE-AND-CERTIFICATE-SPECIFIC; NO_CROSS-CARRIER_PROMOTION_BY_ANALOGY."
+}

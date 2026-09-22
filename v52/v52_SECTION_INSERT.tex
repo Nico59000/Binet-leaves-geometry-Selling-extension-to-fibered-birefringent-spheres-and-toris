@@ -1,0 +1,149 @@
+
+\section{v52 : réalisation historique globale de la Fig.~1 et fusion typée des Fig.~3--6}\label{sec:v52-historical-fig1-typed-fusion}
+
+La version v52 conserve v51 \emph{CLOSED/APPEND-ONLY}, le complexe source exact
+\[
+ X_{\rm Sell}^{\rm cell}=(62,123,62),\qquad \partial_1\partial_2=0,
+\]
+ainsi que tous les carriers Binet, Ad, transfert $V_{48}$, $CHIRES_{14}$ et $R2PURE$ avec leurs statuts v51. Elle ferme uniquement la frontière documentaire et géométrique de la Fig.~1, puis construit un coproduit typé des compilateurs locaux des Fig.~3--6. Les fichiers principaux de preuve sont \path{selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json}, \path{selling_fig1_final_123_certificate_v52.json} et \path{selling_fig3_6_typed_fusion_v52.json}.
+
+\subsection{Fixation source du torsor $D_6$ et passage d'un tracé PL à une déformation globale}
+
+Les sémantiques historiques des routes $P$ et $Q$ fixent respectivement la branche extérieure inférieure droite et la frontière extérieure extrême droite. Après transport vers le carrier source $C_6$ des axes, ces deux ancres brisent le torsor $D_6$ et sélectionnent de manière unique
+\[
+ \boxed{(\varepsilon,k)=(-1,4).}
+\]
+Cette fixation est source-sémantique : le score raster n'intervient plus comme sélecteur. Le témoin \path{Tafel-III-fig1.jpg}, recalé dans le repère v37 par le certificat BSB, reste un témoin géométrique indépendant.
+
+L'audit initial des $123$ orbites, effectué contre les seuls traits v37 dont le support photographique est confirmé, laissait $108$ orbites \texttt{NT-GEOMETRIC-REALIZATION}. Le remplacement des cordes PL par les arcs exacts v50 transportés par un \emph{seul} champ global curviligne, et non par $123$ ajustements indépendants, réduit ensuite cette frontière. Les contraintes source $HAX_i$ et les supports BSB positifs donnent un premier sous-ensemble historiquement fixé; la propagation source exacte par facteurs implicites et links réduit finalement le résidu à six orbites
+\begin{equation}\label{eq:v52-residual-six}
+ \boxed{\{e_{34},e_{53},e_{54},e_{78},e_{96},e_{97}\}.}
+\end{equation}
+Le candidat photographique P084 est alors injecté uniquement comme contrainte du \emph{champ global}. Il n'est jamais utilisé comme embedding autonome d'une arête.
+
+\subsection{Pourquoi le premier recollement exact échoue et comment la correction globale est choisie}
+
+Une première triangulation exacte gardant brutalement le bord $RHAX$ et le champ P084 à l'intérieur produit sept triangles d'orientation inversée. Ce résultat est conservé comme checkpoint négatif : une forte proximité au trait n'autorise pas une promotion topologique si l'application plie le disque.
+
+La correction retenue répartit au contraire le raccord de bord sur toutes les couronnes radiales selon
+\[
+ \boxed{w(t)=t^2,\qquad 0\le t\le1.}
+\]
+Elle ne corrige aucune arête isolément. Après quantification des coordonnées au milli-pixel, le même complexe triangulé est utilisé à la source et à la cible.
+
+\begin{theorem}[Certificat simplicial exact BSB--P084]\label{thm:v52-exact-PL}
+La réalisation v52 à $12$ couronnes possède
+\[
+ \boxed{1297\ \text{sommets},\qquad2484\ \text{triangles},\qquad3780\ \text{arêtes de maillage}.}
+\]
+Toutes les orientations triangulaires calculées en arithmétique entière sont strictement positives :
+\[
+ \min(2A_{\rm src})=25\,356\,316>0,
+ \qquad
+ \min(2A_{\rm tgt})=28\,547\,021>0.
+\]
+L'audit exhaustif du $1$-squelette ne trouve aucune intersection entre arêtes non incidentes à la source ni à la cible, et le bord cible historique ne s'auto-intersecte pas. La réalisation est donc un homéomorphisme PL orienté du disque source sur la réalisation historique cible.
+\end{theorem}
+
+\begin{proof}
+Le certificat \path{selling_exact_triangulated_BSB_P084_homeomorphism_certificate_K12_v52.json} sérialise les deux jeux de coordonnées entières sur une triangulation combinatoirement identique. La stricte positivité du déterminant orienté de chaque triangle interdit l'effondrement ou l'inversion locale. L'audit fini de toutes les paires d'arêtes non incidentes interdit les croisements supplémentaires du $1$-squelette; le bord $RHAX$ est conservé dans son ordre cyclique exact. Ces données donnent une application PL injective, orientation-préservante, du disque compact sur son image, donc un homéomorphisme sur la réalisation cible.
+\end{proof}
+
+\subsection{La graine $e_{96}$ et la fermeture source-exacte $123/123$}
+
+Dans cette \emph{même} réalisation simpliciale exacte, l'arête $e_{96}$ satisfait simultanément
+\[
+ \boxed{
+ s_{\rm geom}(e_{96})=0.833333\ldots,
+ \qquad
+ s_{\rm dark}(e_{96})=0.878205\ldots,
+ \qquad
+ s_{P084}(e_{96})=0.820512\ldots .}
+\]
+Le seuil fort pré-déclaré $0.75$ est donc dépassé sans relaxation :
+\[
+ \boxed{e_{96}=\texttt{STRONG-EXACT-TRIANGULATED-STROKE-SUPPORT}.}
+\]
+P084 fournit seulement cette graine géométrique. Les cinq autres incidences de~\eqref{eq:v52-residual-six} sont fermées par les règles source v50 : continuation d'un même facteur implicite exact à un sommet commun, puis complétion du link exact lorsqu'une unique incidence demeure inconnue. Le replay donne exactement
+\begin{equation}\label{eq:v52-final-propagation}
+ \boxed{
+ e_{96}\Longrightarrow e_{53}
+ \Longrightarrow\{e_{34},e_{97}\}
+ \Longrightarrow\{e_{54},e_{78}\}.}
+\end{equation}
+Ainsi le reliquat historique devient vide :
+\begin{equation}\label{eq:v52-123}
+ \boxed{70\to0,\qquad123/123,\qquad
+ \texttt{PROVEN-HISTORICAL-GLOBAL-FIG1-REALIZATION}.}
+\end{equation}
+Le fichier \path{selling_fig1_final_123_historical_incidence_v52.csv} conserve, orbite par orbite, la provenance du support raster, des carriers $HAX$, de la propagation source et de la graine P084.
+
+\subsection{Fusion typée des Fig.~3--6 sans identification inter-figure}
+
+Les compilateurs locaux corrigés sont rejoués avant toute fusion. Les tokens de la Fig.~3 sont
+\[
+ 3/3,\ 3/7,\ 1/3,\ 2/7,\ 2/5,
+ \qquad
+ \frac{(11,1,-1)}{(0,0,0)},\quad
+ \frac{(1,2,5)}{(1,0,0)}.
+\]
+La Fig.~4 conserve notamment
+\[
+ \frac{(1,2,-2)}{(1,0,0)},\qquad
+ \frac{(3,-1,-1)}{(0,0,0)},
+\]
+et la Fig.~5
+\[
+ \frac{(1,-2,-15)}{(0,0,0)},\quad
+ \frac{(2,-1,-15)}{(0,0,0)},\quad
+ \frac{(3,1,10)}{(0,0,0)}.
+\]
+Pour la Fig.~6, la correction append-only du tuple étoilé inférieur gauche est
+\begin{equation}\label{eq:v52-fig6-correction}
+ \boxed{\frac{(1,-7,8)}{(3,0,0)}},
+\end{equation}
+et l'ancien signe négatif correspondant est explicitement superseded. L'ordre planaire des cinq grandes branches et les chaînes d'attache restent sérialisés séparément de toute interprétation en transformations de Fig.~1.
+
+La fusion finale est le coproduit étiqueté
+\[
+ \mathcal C_{3--6}
+ =\mathcal C_3\sqcup\mathcal C_4\sqcup\mathcal C_5\sqcup\mathcal C_6,
+\]
+avec namespaces obligatoires \texttt{FigN:local}. Elle contient $31$ objets, $28$ relations locales et $3$ structures ordonnées de Fig.~6. Aucune relation ne traverse deux figures. En particulier les impressions communes $2/7$ ou $3/7$ ne sont pas identifiées :
+\[
+ \boxed{\texttt{PASS-TYPED-DISJOINT-FUSION/PROVENANCE-PRESERVED}.}
+\]
+Cette fermeture n'identifie aucun objet des Fig.~3--6 avec Fig.~1, $P,Q,R,S$ ni un morphisme $GL(3)$.
+
+\subsection{Registre v52 et séparations conservées}
+
+\begin{longtable}{@{}p{0.67\textwidth}p{0.28\textwidth}@{}}
+\toprule
+Objet & Statut v52\\
+\midrule
+Torsor $D_6$ de Fig.~1 fixé par $P/Q$ & \texttt{PROVEN-SOURCE}\\
+Champ global BSB--P084 lisse & \texttt{PASS-CANDIDATE}\\
+Premier raccord exact à bord brutal & \texttt{REFUTED: 7 INVERSIONS}\\
+Triangulation exacte à $w(t)=t^2$ & \texttt{PROVEN-HOMEOMORPHISM}\\
+$e_{96}$ dans cette triangulation & \texttt{STRONG/POSITIVE}\\
+Propagation~\eqref{eq:v52-final-propagation} & \texttt{PROVEN-SOURCE-EXACT}\\
+Incidences historiques Fig.~1 & \texttt{PASS 123/123}\\
+Réalisation historique globale Fig.~1 & \texttt{PROVEN}\\
+Compilateurs locaux Fig.~3--6 & \texttt{PASS}\\
+Fusion Fig.~3--6 & \texttt{TYPED DISJOINT / PASS}\\
+Identification de labels entre Fig.~3--6 & \texttt{SEPARATED}\\
+$CHIRES_{14}$ au-delà de la frontière v51 & \texttt{UNCHANGED; $B_5$ GLOBAL LIFT NT}\\
+$R2PURE_{13}\leftrightarrow Selling/Deck_{17}$ & \texttt{SEPARATED/}\allowbreak\texttt{PENDING-MORPHISM}\\
+Carriers Binet/Ad/transfert $V_{48}$ & \texttt{SEPARATED}\\
+Selling--Noether biquadratique & \texttt{CONTEXT/}\allowbreak\texttt{PENDING-MORPHISM}\\
+Selling $3D\to5D$ & \texttt{CONTEXT/}\allowbreak\texttt{PENDING-MORPHISM}\\
+Morphisme $GL(3)$-équivariant requis & \texttt{NT/NOT-CONSTRUCTED}\\
+\bottomrule
+\end{longtable}
+
+\subsection{Verdict v52 et frontière successeur sûre}
+
+La frontière historique de la Fig.~1 est désormais fermée sans modifier la combinatoire source : le témoin BSB sélectionne une graine positive dans une réalisation globale, le certificat simplicial interdit les plis et les croisements artificiels, puis la combinatoire v50 ferme les cinq dernières incidences. La promotion~\eqref{eq:v52-123} est donc restreinte à ce carrier exact et ne se propage à aucun autre programme par analogie.
+
+La frontière sûre v53 doit conserver Fig.~1 à $123/123$ et : (i) construire, s'il existe, un foncteur explicite du coproduit typé Fig.~3--6 vers un moteur Selling commun, en gardant tous les labels inter-figure séparés jusqu'à la production d'un adaptateur; (ii) réintégrer Fig.~2 seulement par sa recette source spécifique avant toute fusion plus large; (iii) décider le lift intégral global de $CHIRES_{14}$ dans $B_5$ par correcteur non local ou obstruction exacte, sans ouvrir le rayon six auparavant; (iv) ne reprendre $R2PURE_{13}\leftrightarrow Selling/Deck_{17}$ qu'après construction d'un morphisme d'incidence/groupoïde; et (v) maintenir Selling--Noether et Selling $3D\to5D$ en \texttt{CONTEXT/PENDING-MORPHISM} jusqu'à construction et vérification d'un morphisme $GL(3)$-équivariant explicite.
+

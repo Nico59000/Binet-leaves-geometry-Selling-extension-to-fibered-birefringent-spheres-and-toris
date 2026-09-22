@@ -1,0 +1,255 @@
+{
+  "schema": "ROOF_RAIL_RECURRENCE_BRIDGE_V0_1",
+  "source_files": {
+    "II_KF_recurrence_order_value_34_44.json": {
+      "sha256": "bc499ce5a4b74126da1827726d4521b8c497fb989df5240bdc737c66078c984d",
+      "role": "exact recurrence scan, orders 34--44"
+    },
+    "II_KL_recurrence_order_value_89_96_105.json": {
+      "sha256": "8034adf544fc7741b6a4c0129256165add211b0d4c2d7f0e734c8922b80af307",
+      "role": "complete order-89 FLINT recurrence scan plus orders 96--105"
+    }
+  },
+  "algebraic_theorems": {
+    "generalized_rail": "q_n(r)=n(r+1)-1",
+    "envelope": "E(x)=x+1",
+    "envelope_complement_identity": "q_n(r)+E(q_n(m-r))=q_n(m+1)",
+    "doubling_identity": "q_n(2r+1)=2*q_n(r)+1",
+    "odd_n_midpoint": "for h=(n-1)/2: E(q_n(h))=T_n=n(n+1)/2",
+    "odd_n_closure": "q_n(n)=2*T_n-1=n^2+n-1=q_n(h)+E(q_n(h))",
+    "roof_total_relation": "q_n(n)=n^2+(n-1)"
+  },
+  "n9_specialization": {
+    "rail_prefix": [
+      8,
+      17,
+      26,
+      35,
+      44,
+      53,
+      62,
+      71,
+      80,
+      89
+    ],
+    "roof_radius": 8,
+    "roof_width": 17,
+    "left_half_sum_T9": 45,
+    "roof_total": 81,
+    "q4": 44,
+    "q9": 89,
+    "identities": [
+      "44=17+27=18+26=9+35=8+36",
+      "89=44+45=81+8=2*45-1",
+      "(17,27) -> (34,55) under L(a,b)=(2a,2b+1)",
+      "(44,45)+(-10,+10)=(34,55)"
+    ]
+  },
+  "recurrence_k44": {
+    "record_count": 43,
+    "unordered_complement_pair_count": 21,
+    "equal_matrix_order_pair_count": 16,
+    "unequal_matrix_order_pairs": [
+      [
+        4,
+        40
+      ],
+      [
+        8,
+        36
+      ],
+      [
+        12,
+        32
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "rail_pairs": [
+      {
+        "pair": [
+          8,
+          36
+        ],
+        "sum": 44,
+        "matrix_order_left": 13120,
+        "matrix_order_right": 354292,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          17,
+          27
+        ],
+        "sum": 44,
+        "matrix_order_left": 117073815531659314120,
+        "matrix_order_right": 117073815531659314120,
+        "equal_matrix_order": true
+      },
+      {
+        "pair": [
+          26,
+          18
+        ],
+        "sum": 44,
+        "matrix_order_left": 7845117280,
+        "matrix_order_right": 7845117280,
+        "equal_matrix_order": true
+      },
+      {
+        "pair": [
+          35,
+          9
+        ],
+        "sum": 44,
+        "matrix_order_left": 245142217517172488480,
+        "matrix_order_right": 245142217517172488480,
+        "equal_matrix_order": true
+      }
+    ],
+    "rail_equal_count": 3,
+    "rail_pair_count": 4,
+    "interpretation": "finite exact recurrence audit only"
+  },
+  "recurrence_k89": {
+    "record_count": 88,
+    "distinct_matrix_order_count": 84,
+    "unordered_complement_pair_count": 44,
+    "equal_matrix_order_complement_pairs": [],
+    "rail_pairs": [
+      {
+        "pair": [
+          8,
+          81
+        ],
+        "sum": 89,
+        "matrix_order_left": 425663283507334182501541990640,
+        "matrix_order_right": 1454660594542221209593386157617473105047760,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          17,
+          72
+        ],
+        "sum": 89,
+        "matrix_order_left": 94189367693979959871604137648650529524,
+        "matrix_order_right": 969773729787523602876821942164080815560160,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          26,
+          63
+        ],
+        "sum": 89,
+        "matrix_order_left": 241445722848333674841367588289152056051920,
+        "matrix_order_right": 321927630187461592812166558066821728364872,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          35,
+          54
+        ],
+        "sum": 89,
+        "matrix_order_left": 727330297332916913561958303532556915424532,
+        "matrix_order_right": 6734425740168439876518581324279722956760,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          44,
+          45
+        ],
+        "sum": 89,
+        "matrix_order_left": 17958772773843000608035608211209027321464,
+        "matrix_order_right": 727330297340642701619192628141241751844412,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          53,
+          36
+        ],
+        "sum": 89,
+        "matrix_order_left": 37964501346746861541715065168319520,
+        "matrix_order_right": 242443432444302103642192731728072255522960,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          62,
+          27
+        ],
+        "sum": 89,
+        "matrix_order_left": 215505258267183326235399712587474902689352,
+        "matrix_order_right": 175071346839451990440009968711364231661840,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          71,
+          18
+        ],
+        "sum": 89,
+        "matrix_order_left": 505013500499015227902203064152529716120,
+        "matrix_order_right": 742201418385581667296229861765560210,
+        "equal_matrix_order": false
+      },
+      {
+        "pair": [
+          80,
+          9
+        ],
+        "sum": 89,
+        "matrix_order_left": 242443432444273844305805529816787302469592,
+        "matrix_order_right": 290932118936257028528283279357264466661344,
+        "equal_matrix_order": false
+      }
+    ],
+    "within_k89_collision_groups": [
+      [
+        12,
+        68,
+        72
+      ],
+      [
+        13,
+        25
+      ],
+      [
+        51,
+        81
+      ]
+    ],
+    "specific_pairs": {
+      "34_55": {
+        "matrix_order_34": 280176614059778284118698854057458397480,
+        "matrix_order_55": 2061034376292377693791027337349827360,
+        "equal": false
+      },
+      "44_45": {
+        "matrix_order_44": 17958772773843000608035608211209027321464,
+        "matrix_order_45": 727330297340642701619192628141241751844412,
+        "equal": false
+      }
+    },
+    "interpretation": "all 44 additive-complement pairs v+(89-v)=89 are spectrally separated by exact matrix order"
+  },
+  "typed_status": {
+    "roof_rail_algebra": "PASS_PROVED",
+    "k44_17_27_equal_order": "PASS_EXACT_FINITE_AUDIT",
+    "k44_full_rail_spectral_closure": "REFUTED_BY_8_36",
+    "affine_17_27_to_34_55": "PASS_ARITHMETIC_ADAPTER",
+    "k89_34_55_equal_order": "REFUTED_EXACT",
+    "k89_44_45_equal_order": "REFUTED_EXACT",
+    "cross_carrier_identification": "SEPARATED_NO_STRUCTURE_PRESERVING_ADAPTER_YET"
+  }
+}

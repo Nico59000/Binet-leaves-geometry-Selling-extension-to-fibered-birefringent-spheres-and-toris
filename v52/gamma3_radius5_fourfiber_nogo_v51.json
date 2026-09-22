@@ -1,0 +1,24 @@
+{
+  "boundary_rows": 13848,
+  "decision": "NO_RATIONAL_OR_INTEGRAL_CORRECTION_EXISTS_WITHIN_THE_FOUR_WITNESS_FIBERS",
+  "equations": 13852,
+  "fiber_sizes": [
+    236,
+    176,
+    176,
+    8
+  ],
+  "guard": "This is not a radius-5 global no-go. Kernel corrections supported in other mod4 fibers with zero quotient projection remain allowed.",
+  "proof": "For the displayed prime, rank(A mod p)=596=number of unknowns while rank([A|b] mod p)=597. Hence rank_Q(A)=596 and rank_Q([A|b])=597, so Ax=b is inconsistent over Q; a fortiori over Z.",
+  "rank_certificates_mod_p": [
+    {
+      "prime": 2,
+      "rank_A": 596,
+      "rank_aug": 597
+    }
+  ],
+  "scope": "R3b_123 translations within only the four mod4 fibers of the radius5 quotient witness, with each fiber coefficient sum fixed to -1 (target projection 4)",
+  "status": "PROVEN-EXACT-FOUR-FIBER-RATIONAL-NO-GO",
+  "unknowns": 596,
+  "version": "v51"
+}

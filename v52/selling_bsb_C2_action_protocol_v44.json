@@ -1,0 +1,42 @@
+{
+  "carrier_comparisons": {
+    "34|55": "SEPARATED_NOT_TESTED",
+    "44|45": "SEPARATED_NOT_TESTED"
+  },
+  "current_result": {
+    "C2_actions_on_89": 0,
+    "axis_bindings": 0,
+    "orbit_census": "NOT_ACTIVATED_FAIL_CLOSED"
+  },
+  "guard": "A visually plausible reflection or a degree-preserving permutation is not historical evidence.",
+  "node_action_gate": [
+    "Apply s_i only after the axis is certified.",
+    "Match reflected diagnostic nodes by a unique bijection inside a tolerance derived from v38 registration error plus source-stroke uncertainty, not a hand-chosen tolerance.",
+    "Require involutivity pi_i^2=id, degree preservation, and preservation of incident segment layer and source-certified wall/field incidence.",
+    "Only if the 89 degree-one set is invariant may it be called an 89-node C2 carrier; otherwise the historical carrier is the certified invariant subset instead."
+  ],
+  "reflection_action_formula": "For a certified line n.x=d, s_i(x)=x-2 n (n.x-d)/(n.n).",
+  "required_axis_binding": [
+    "For each HAX_i, certify two source-visible fourfold centres HC_{i-1},HC_i on the primary plate and their registered canonical coordinates.",
+    "The line through those two certified centres is the only admissible geometric reflection axis; Hough/vectorizer candidates may assist but cannot certify it.",
+    "Verify that the reflected source strokes agree with the historical bipartite symmetry statement on a neighbourhood on both sides of the line."
+  ],
+  "six_axis_conjugacy_gate": "The printed sixfold central symmetry may be used to conjugate the six reflections only after the central rotation itself is bound to the raster/source incidence.",
+  "source_basis": {
+    "photo_registration": "v38 hash-locked homography/cross-registration",
+    "primary_plate": "LOG_0016.pdf / Tafel III Fig.1 plus BSB photo witness",
+    "semantic_rules": [
+      "S39-R1",
+      "S39-R2",
+      "S39-R3",
+      "S39-R4",
+      "S39-R5",
+      "S39-R6",
+      "S39-R8",
+      "S39-R9",
+      "S39-R10"
+    ]
+  },
+  "status": "PROVEN_MINIMAL_CERTIFICATION_PROTOCOL; HISTORICAL_ACTION_NOT_YET_MATERIALIZED",
+  "version": "v44"
+}

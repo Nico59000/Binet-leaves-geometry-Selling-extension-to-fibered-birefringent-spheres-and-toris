@@ -1,0 +1,32 @@
+{
+  "version": "v52",
+  "status": "PASS",
+  "pdf_pages": 271,
+  "pdf_bytes": 2443280,
+  "pdf_sha256": "68c2955a81953d8b8a0a110c5d2f57c501327529ff51c9e8c4a78416336c181d",
+  "latex_overfull_count": 0,
+  "all_pages_rendered": true,
+  "precanon_canonical_all_page_pixel_parity": {
+    "pages": 271,
+    "identical_pages": 271,
+    "different_pages": [],
+    "status": "PASS"
+  },
+  "automated_render_scan": {
+    "pages": 271,
+    "flags": [],
+    "min_ink": 0.042393964929176194,
+    "max_ink": 0.17937253148520754,
+    "max_dark": 0.011229771793152075,
+    "max_border_dark": 0.0,
+    "status": "PASS"
+  },
+  "section_order_audit": "PASS",
+  "bibliography_physically_final": true,
+  "renderer": "PyMuPDF/pdfium render pipeline at 60 dpi; canonical full-page scan; visual contact sheets inspected",
+  "visual_contact_sheets": [
+    "contact_v52_258_265.jpg",
+    "contact_v52_266_271.jpg"
+  ],
+  "visual_inspection": "PASS: v52 pages 260-262 clean; certification resumes p.263; conclusion p.266; provenance pp.268-269; bibliography terminal pp.270-271; no clipping, overlap, black squares or broken glyphs observed."
+}

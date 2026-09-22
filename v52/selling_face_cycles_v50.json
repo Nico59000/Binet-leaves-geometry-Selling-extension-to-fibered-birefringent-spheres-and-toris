@@ -1,0 +1,6463 @@
+{
+  "version": "v50",
+  "status": "PASS-NUMERIC-CYCLE-STRUCTURE",
+  "form_classes": 62,
+  "prequotient_field_occurrences": 63,
+  "quotient_face_orbits_expected": 62,
+  "faces": [
+    {
+      "field": 0,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.13621856323016948,
+          "r": 0.063491729163604,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.1403933560541253,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "k"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                1,
+                0
+              ]
+            }
+          ],
+          "area_approx": 0.009159899572450243
+        }
+      ]
+    },
+    {
+      "field": 1,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.4280314471931119,
+          "r": 0.04261987497758537,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.4365726676664032,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "13*q**2 + 24*q - 60*r**2 + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "k"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                1,
+                0
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.024081264024294995
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "vertices": [
+        {
+          "q": 0.1403933560541253,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.13621856323016948,
+          "r": 0.063491729163604,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0003270242687922389
+        }
+      ]
+    },
+    {
+      "field": 3,
+      "vertices": [
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.13621856323016948,
+          "r": 0.063491729163604,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0006710328437812014
+        }
+      ]
+    },
+    {
+      "field": 4,
+      "vertices": [
+        {
+          "q": -0.4365726676664032,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.4280314471931119,
+          "r": 0.04261987497758537,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "13*q**2 + 24*q - 60*r**2 + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0009608139879112576
+        }
+      ]
+    },
+    {
+      "field": 5,
+      "vertices": [
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.4280314471931119,
+          "r": 0.04261987497758537,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.00800685195512367
+        }
+      ]
+    },
+    {
+      "field": 6,
+      "vertices": [
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.1403933560541253,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.6906926585840457,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.03716729998069819
+        }
+      ]
+    },
+    {
+      "field": 7,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.1403933560541253,
+          "r": 0.1403933560541253,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.011205209505885761
+        }
+      ]
+    },
+    {
+      "field": 8,
+      "vertices": [
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.4365726676664032,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                3,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.003764263718101842
+        }
+      ]
+    },
+    {
+      "field": 9,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.06905066374873725,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.4658565633928548,
+          "r": 0.08401557286430329,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.02229715053583239
+        }
+      ]
+    },
+    {
+      "field": 10,
+      "vertices": [
+        {
+          "q": 0.6906926585840457,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6982987990543127,
+          "r": 0.04813485988966982,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 28*q + 60*r**2 + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0005724262072848811
+        }
+      ]
+    },
+    {
+      "field": 11,
+      "vertices": [
+        {
+          "q": 0.16196095423899035,
+          "r": 0.08888015995271546,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.6219890929270139,
+          "r": 0.11483424225608217,
+          "ideal": false,
+          "components": [
+            1,
+            4
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            2,
+            4
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 4,
+              "v": [
+                3,
+                4
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                4
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.02960131219976329
+        }
+      ]
+    },
+    {
+      "field": 12,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.1403933560541253,
+          "r": 0.1403933560541253,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "q - r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            1,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.002369777929864642
+        }
+      ]
+    },
+    {
+      "field": 13,
+      "vertices": [
+        {
+          "q": 0.16196095423899035,
+          "r": 0.08888015995271546,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.14589803375031546,
+          "r": 0.07294901687515773,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.1403933560541253,
+          "r": 0.1403933560541253,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r + 116*q + 180*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "q - r"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 60*q*r + 56*q + 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                3,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0016786243242819104
+        }
+      ]
+    },
+    {
+      "field": 14,
+      "vertices": [
+        {
+          "q": -0.5932709342930326,
+          "r": 0.04623192538345625,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.596724809389236,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "73*q**2 + 124*q - 60*r**2 + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                3,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.005813721107589133
+        }
+      ]
+    },
+    {
+      "field": 15,
+      "vertices": [
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.00017205092150837653
+        }
+      ]
+    },
+    {
+      "field": 16,
+      "vertices": [
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.4658565633928548,
+          "r": 0.08401557286430329,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.027440428801554083
+        }
+      ]
+    },
+    {
+      "field": 17,
+      "vertices": [
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.466092423072053,
+          "r": 0.07768207051200883,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.4658565633928548,
+          "r": 0.08401557286430329,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "13*q**2 - 20*q*r + 24*q - 60*r**2 + 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            1,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 2.7605549870815538e-05
+        }
+      ]
+    },
+    {
+      "field": 18,
+      "vertices": [
+        {
+          "q": 0.6982987990543127,
+          "r": 0.04813485988966982,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6906926585840457,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.04257289224366189,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 28*q + 60*r**2 + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 240*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "k",
+            "l"
+          ],
+          "factor": "q - 1"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                3,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.013866379129773678
+        }
+      ]
+    },
+    {
+      "field": 19,
+      "vertices": [
+        {
+          "q": 1.0,
+          "r": 0.04257289224366189,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6982987990543127,
+          "r": 0.04813485988966982,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 240*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0024214566760990663
+        }
+      ]
+    },
+    {
+      "field": 20,
+      "vertices": [
+        {
+          "q": 0.6824853231703447,
+          "r": 0.10245651936332449,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.6219890929270139,
+          "r": 0.11483424225608217,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 30*q*r - 34*q + 90*r**2 - 60*r + 22"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.002318183158955968
+        }
+      ]
+    },
+    {
+      "field": 21,
+      "vertices": [
+        {
+          "q": 0.16196095423899035,
+          "r": 0.08888015995271546,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.013446943589433012
+        }
+      ]
+    },
+    {
+      "field": 22,
+      "vertices": [
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6219890929270139,
+          "r": 0.11483424225608217,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.002215209111101086
+        }
+      ]
+    },
+    {
+      "field": 23,
+      "vertices": [
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.26666666666666666,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.018544096173262747
+        }
+      ]
+    },
+    {
+      "field": 24,
+      "vertices": [
+        {
+          "q": -0.596724809389236,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.5932709342930326,
+          "r": 0.04623192538345625,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "73*q**2 + 124*q - 60*r**2 + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.00030719463112137066
+        }
+      ]
+    },
+    {
+      "field": 25,
+      "vertices": [
+        {
+          "q": -0.5932709342930326,
+          "r": 0.04623192538345625,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0012777202730861574
+        }
+      ]
+    },
+    {
+      "field": 26,
+      "vertices": [
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                0
+              ]
+            }
+          ],
+          "area_approx": 0.00026749691082961213
+        }
+      ]
+    },
+    {
+      "field": 27,
+      "vertices": [
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.004736617110497613
+        }
+      ]
+    },
+    {
+      "field": 28,
+      "vertices": [
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.15843497446801338,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.26666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "q"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.018776489049402614
+        }
+      ]
+    },
+    {
+      "field": 29,
+      "vertices": [
+        {
+          "q": 0.6824853231703447,
+          "r": 0.10245651936332449,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.6771127447307456,
+          "r": 0.06457745105385088,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.04257289224366189,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 24*q*r - 28*q + 60*r**2 - 24*r + 16"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "q - 1"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.01398194294816197
+        }
+      ]
+    },
+    {
+      "field": 30,
+      "vertices": [
+        {
+          "q": 0.6824853231703447,
+          "r": 0.10245651936332449,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.007799331434546877
+        }
+      ]
+    },
+    {
+      "field": 31,
+      "vertices": [
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q - r"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                1,
+                0
+              ]
+            }
+          ],
+          "area_approx": 0.02565500676442907
+        }
+      ]
+    },
+    {
+      "field": 32,
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0023959627344451104
+        }
+      ]
+    },
+    {
+      "field": 33,
+      "vertices": [
+        {
+          "q": 0.17030818941490045,
+          "r": 0.17030818941490045,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "q - r"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.014887358151666932
+        }
+      ]
+    },
+    {
+      "field": 34,
+      "vertices": [
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.0388647611495759,
+          "r": 0.32037841295014136,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.26666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "q - 3*r + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.01335540378915216
+        }
+      ]
+    },
+    {
+      "field": 35,
+      "vertices": [
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.596724809389236,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.06116780635742466,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.0,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "n"
+          ],
+          "factor": "3*q + 2"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "l",
+            "n"
+          ],
+          "factor": "r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                3,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.004335464267363684
+        }
+      ]
+    },
+    {
+      "field": 36,
+      "vertices": [
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.6026598780114043,
+          "r": 0.10128761263161226,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            1,
+            4
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0767191633599902,
+          "ideal": false,
+          "components": [
+            2,
+            4
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 + 30*q*r + 34*q - 120*r**2 + 60*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "2*q + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            4,
+            0,
+            1,
+            2
+          ],
+          "segments": [
+            {
+              "component": 4,
+              "v": [
+                3,
+                4
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                4,
+                0
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.005209686160807383
+        }
+      ]
+    },
+    {
+      "field": 37,
+      "vertices": [
+        {
+          "q": -0.4744406409659521,
+          "r": 0.08759322650567465,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.5,
+          "r": 0.0976505889464674,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "23*q**2 - 30*q*r + 34*q - 120*r**2 + 30*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "17*q**2 + 28*q - 84*r**2 + 24*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "23*q**2 + 30*q*r + 34*q - 120*r**2 + 60*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                2,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.0015987399595540942
+        }
+      ]
+    },
+    {
+      "field": 38,
+      "vertices": [
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.3413666423504889,
+          "r": 0.2222222222222222,
+          "ideal": false,
+          "components": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.49622490834666033,
+          "r": 0.1343676571603282,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": -0.5357606631105214,
+          "r": 0.18051983405134997,
+          "ideal": false,
+          "components": [
+            2,
+            4
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 120*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            3,
+            0,
+            1,
+            4
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                0,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 4,
+              "v": [
+                1,
+                4
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                2,
+                4
+              ]
+            }
+          ],
+          "area_approx": 0.006964385676605508
+        }
+      ]
+    },
+    {
+      "field": 39,
+      "vertices": [
+        {
+          "q": -0.32455532033675866,
+          "r": 0.22514822655441377,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.3321361331555546,
+          "r": 0.22262128894814848,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "q - 3*r + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                0
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 1.040048628999507e-05
+        }
+      ]
+    },
+    {
+      "field": 40,
+      "vertices": [
+        {
+          "q": 0.617565930421439,
+          "r": 0.17386547296839822,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.16666666666666666,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.09175170953613698,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 40*q*r - 4*q - 60*r**2 + 80*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "k",
+            "l"
+          ],
+          "factor": "q - 1"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.01824260879837434
+        }
+      ]
+    },
+    {
+      "field": 41,
+      "vertices": [
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.015057636520314069
+        }
+      ]
+    },
+    {
+      "field": 42,
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.4010888559370503,
+          "r": 0.2612027897877518,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5,
+          "r": 0.16458980337503154,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0049262081031440225
+        }
+      ]
+    },
+    {
+      "field": 43,
+      "vertices": [
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.617565930421439,
+          "r": 0.17386547296839822,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6153846153846154,
+          "r": 0.15384615384615385,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 48*q*r - 28*q + 60*r**2 - 48*r + 16"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0005474071888000032
+        }
+      ]
+    },
+    {
+      "field": 44,
+      "vertices": [
+        {
+          "q": 0.2857142857142857,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.1301524062229291,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "3*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                1,
+                0
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.0034135939506403055
+        }
+      ]
+    },
+    {
+      "field": 45,
+      "vertices": [
+        {
+          "q": 0.09954357423861317,
+          "r": 0.32130669000121287,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.0388647611495759,
+          "r": 0.32037841295014136,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 360*q*r + 116*q + 1860*r**2 - 1320*r + 232"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0004103165107621834
+        }
+      ]
+    },
+    {
+      "field": 46,
+      "vertices": [
+        {
+          "q": -0.6237615151337622,
+          "r": 0.12541282828874592,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.06116780635742466,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 240*q*r - 4*q - 60*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0018009418018798441
+        }
+      ]
+    },
+    {
+      "field": 47,
+      "vertices": [
+        {
+          "q": -0.6026598780114043,
+          "r": 0.10128761263161226,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.604794785409549,
+          "r": 0.06986319027303264,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.6237615151337622,
+          "r": 0.12541282828874592,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "73*q**2 - 80*q*r + 124*q - 60*r**2 - 40*r + 48"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "233*q**2 - 360*q*r + 364*q - 300*r**2 - 120*r + 128"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "113*q**2 - 60*q*r + 184*q - 120*r**2 + 68"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0003573059293893524
+        }
+      ]
+    },
+    {
+      "field": 48,
+      "vertices": [
+        {
+          "q": -0.6166782283587435,
+          "r": 0.1521087564155554,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.5552898291992457,
+          "r": 0.14823672360025142,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": -0.6237615151337622,
+          "r": 0.12541282828874592,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": -0.6026598780114043,
+          "r": 0.10128761263161226,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "53*q**2 + 64*q - 300*r**2 + 120*r + 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "233*q**2 - 360*q*r + 364*q - 300*r**2 - 120*r + 128"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 240*q*r - 4*q - 60*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 60*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0018998813783873657
+        }
+      ]
+    },
+    {
+      "field": 49,
+      "vertices": [
+        {
+          "q": -0.3413666423504889,
+          "r": 0.2222222222222222,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.3333333333333333,
+          "r": 0.21947832482267113,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.3321361331555546,
+          "r": 0.22262128894814848,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 60*q*r - 4*q - 60*r**2 + 60*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 - 480*q*r + 116*q + 1020*r**2 - 720*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            1,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 1.426669825217719e-05
+        }
+      ]
+    },
+    {
+      "field": 50,
+      "vertices": [
+        {
+          "q": 0.6322117606181419,
+          "r": 0.2876751660593049,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.8191623569748859,
+          "r": 0.2952094107562785,
+          "ideal": false,
+          "components": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.617565930421439,
+          "r": 0.17386547296839822,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.16666666666666666,
+          "ideal": false,
+          "components": [
+            3,
+            4
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 120*q*r - 44*q + 420*r**2 - 360*r + 72"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 180*q*r - 64*q + 240*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 40*q*r - 4*q - 60*r**2 + 80*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            3,
+            4,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                4
+              ]
+            },
+            {
+              "component": 4,
+              "v": [
+                1,
+                4
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.03765322020451306
+        }
+      ]
+    },
+    {
+      "field": 51,
+      "vertices": [
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.5120499635257334,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.3333333333333333,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "3*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "q - r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                3,
+                2
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                1,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.0036245854698880725
+        }
+      ]
+    },
+    {
+      "field": 52,
+      "vertices": [
+        {
+          "q": 0.6322117606181419,
+          "r": 0.2876751660593049,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5657256687987277,
+          "r": 0.2,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r - 4*q - 60*r**2 + 120*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0049917567394318005
+        }
+      ]
+    },
+    {
+      "field": 53,
+      "vertices": [
+        {
+          "q": 0.30527718077541743,
+          "r": 0.3473614096122913,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.2857142857142857,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.3333333333333333,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        },
+        {
+          "q": 0.31344692916930456,
+          "r": 0.31344692916930456,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 600*q*r - 244*q - 540*r**2 + 240*r - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "q + 2*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 240*q*r - 124*q + 540*r**2 - 480*r + 112"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "q - r"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                3
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0008074876295949135
+        }
+      ]
+    },
+    {
+      "field": 54,
+      "vertices": [
+        {
+          "q": 0.09954357423861317,
+          "r": 0.32130669000121287,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.1301524062229291,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.10741744275865699,
+          "r": 0.3154304262068905,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 200*q*r + 76*q + 660*r**2 - 440*r + 72"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 120*q*r + 56*q + 60*r**2 - 8"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 - 80*q*r + 36*q + 300*r**2 - 200*r + 32"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            2,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.00013728088975525216
+        }
+      ]
+    },
+    {
+      "field": 55,
+      "vertices": [
+        {
+          "q": 0.09954357423861317,
+          "r": 0.32130669000121287,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.0388647611495759,
+          "r": 0.32037841295014136,
+          "ideal": false,
+          "components": [
+            0,
+            4
+          ]
+        },
+        {
+          "q": 0.03055277659565147,
+          "r": 0.3435175921985505,
+          "ideal": false,
+          "components": [
+            1,
+            4
+          ]
+        },
+        {
+          "q": -0.05998660556826727,
+          "r": 0.34058078768076117,
+          "ideal": false,
+          "components": [
+            1,
+            5
+          ]
+        },
+        {
+          "q": 0.1301524062229291,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        },
+        {
+          "q": 0.0,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            3,
+            4
+          ]
+        },
+        {
+          "q": -0.0936040350436211,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            3,
+            5
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 - 360*q*r + 116*q + 1860*r**2 - 1320*r + 232"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "7*q**2 - 4*q - 1740*r**2 + 1320*r - 248"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 200*q*r + 76*q + 660*r**2 - 440*r + 72"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "3*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "q - 3*r + 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "33*q**2 - 320*q*r + 124*q + 540*r**2 - 440*r + 88"
+        }
+      ],
+      "cycles": [
+        {
+          "vertices": [
+            1,
+            0,
+            4,
+            5
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                0,
+                4
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                5,
+                4
+              ]
+            },
+            {
+              "component": 4,
+              "v": [
+                1,
+                5
+              ]
+            }
+          ],
+          "area_approx": 0.0016611441339570085
+        },
+        {
+          "vertices": [
+            6,
+            5,
+            2,
+            3
+          ],
+          "segments": [
+            {
+              "component": 3,
+              "v": [
+                6,
+                5
+              ]
+            },
+            {
+              "component": 4,
+              "v": [
+                5,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            },
+            {
+              "component": 5,
+              "v": [
+                3,
+                6
+              ]
+            }
+          ],
+          "area_approx": 0.0007553699719153682
+        }
+      ]
+    },
+    {
+      "field": 56,
+      "vertices": [
+        {
+          "q": -0.6237615151337622,
+          "r": 0.12541282828874592,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.14556689460481825,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": -0.6666666666666666,
+          "r": 0.06116780635742466,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "233*q**2 - 360*q*r + 364*q - 300*r**2 - 120*r + 128"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 - 240*q*r - 4*q - 60*r**2 - 120*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "m"
+          ],
+          "factor": "3*q + 2"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                2,
+                1
+              ]
+            }
+          ],
+          "area_approx": 0.0018105778352467024
+        }
+      ]
+    },
+    {
+      "field": 57,
+      "vertices": [
+        {
+          "q": 0.6322117606181419,
+          "r": 0.2876751660593049,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.8191623569748859,
+          "r": 0.2952094107562785,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.6993968923083307,
+          "r": 0.32515077692291733,
+          "ideal": false,
+          "components": [
+            2,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 120*q*r - 44*q + 420*r**2 - 360*r + 72"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "h",
+            "k"
+          ],
+          "factor": "q + 4*r - 2"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                2,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.005964280927631585
+        }
+      ]
+    },
+    {
+      "field": 58,
+      "vertices": [
+        {
+          "q": 0.8191623569748859,
+          "r": 0.2952094107562785,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.16666666666666666,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 1.0,
+          "r": 0.25,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q - 60*r**2 + 40*r - 8"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "g",
+            "k"
+          ],
+          "factor": "q + 4*r - 2"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "k",
+            "l"
+          ],
+          "factor": "q - 1"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            0,
+            1,
+            2
+          ],
+          "segments": [
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.007534901792713086
+        }
+      ]
+    },
+    {
+      "field": 59,
+      "vertices": [
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.5483380199841184,
+          "r": 0.3234894661794907,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5120499635257334,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 60*q*r - 34*q + 300*r**2 - 240*r + 52"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 150*q*r - 64*q + 660*r**2 - 540*r + 112"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1
+          ],
+          "segments": [
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.00014209285425809126
+        }
+      ]
+    },
+    {
+      "field": 60,
+      "vertices": [
+        {
+          "q": 0.5483380199841184,
+          "r": 0.3234894661794907,
+          "ideal": false,
+          "components": [
+            0,
+            1
+          ]
+        },
+        {
+          "q": 0.6993968923083307,
+          "r": 0.32515077692291733,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.5410597268923742,
+          "r": 0.3176324658615468,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "h"
+          ],
+          "factor": "7*q**2 + 360*q*r - 124*q + 2220*r**2 - 1800*r + 352"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "m"
+          ],
+          "factor": "7*q**2 + 80*q*r - 44*q + 140*r**2 - 120*r + 32"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "n"
+          ],
+          "factor": "7*q**2 - 4*q + 780*r**2 - 600*r + 112"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            1,
+            0
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                1,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                0,
+                2
+              ]
+            }
+          ],
+          "area_approx": 0.0004363301783620044
+        }
+      ]
+    },
+    {
+      "field": 61,
+      "vertices": [
+        {
+          "q": 0.5483380199841184,
+          "r": 0.3234894661794907,
+          "ideal": false,
+          "components": [
+            0,
+            2
+          ]
+        },
+        {
+          "q": 0.6993968923083307,
+          "r": 0.32515077692291733,
+          "ideal": false,
+          "components": [
+            0,
+            3
+          ]
+        },
+        {
+          "q": 0.5120499635257334,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            1,
+            2
+          ]
+        },
+        {
+          "q": 0.6666666666666666,
+          "r": 0.3333333333333333,
+          "ideal": false,
+          "components": [
+            1,
+            3
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "g"
+          ],
+          "factor": "7*q**2 + 360*q*r - 124*q + 2220*r**2 - 1800*r + 352"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "k"
+          ],
+          "factor": "3*r - 1"
+        },
+        {
+          "kind": "ORDINARY",
+          "walls": [
+            "l"
+          ],
+          "factor": "7*q**2 + 150*q*r - 64*q + 660*r**2 - 540*r + 112"
+        },
+        {
+          "kind": "MULTI",
+          "walls": [
+            "h",
+            "k"
+          ],
+          "factor": "q + 4*r - 2"
+        }
+      ],
+      "cycles": [
+        {
+          "component_occurrence": 0,
+          "vertices": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "segments": [
+            {
+              "component": 2,
+              "v": [
+                0,
+                2
+              ]
+            },
+            {
+              "component": 0,
+              "v": [
+                0,
+                1
+              ]
+            },
+            {
+              "component": 3,
+              "v": [
+                3,
+                1
+              ]
+            },
+            {
+              "component": 1,
+              "v": [
+                2,
+                3
+              ]
+            }
+          ],
+          "area_approx": 0.0014062245525322259
+        }
+      ]
+    }
+  ],
+  "field55_note": "two quadrilateral components sharing one closure vertex; component orbit exchanged by certified U repetition; first lobe chosen as quotient representative pending exact transport verification"
+}

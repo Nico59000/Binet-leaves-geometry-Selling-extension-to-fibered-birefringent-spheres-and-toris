@@ -1,0 +1,11 @@
+{
+  "version": "v48",
+  "historical_abstract_incidence": "HC_i -- HAX_i -- HC_{i+1} cyclically for i mod 6",
+  "centre_binding_status": "NT/PENDING-DIRECT-SOURCE-TRANSCRIPTION",
+  "promoted_HAX_curves": [],
+  "promoted_reflections": [],
+  "vanishing_variable_letters_bound_to_curves": false,
+  "PQRS_raster_routes_bound": false,
+  "decision": "NO HAX CURVE OR REFLECTION PROMOTED: six HC_i are not yet individually source-bound in raster coordinates.",
+  "status": "SEPARATED/PENDING-SOURCE-TRANSCRIPTION"
+}

@@ -1,0 +1,210 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "source_anchor": "Selling 1877, IV.b--c, esp. pp.156--170 (PDF pp.6--18)",
+  "wall_edge_model": {
+    "g": [
+      2,
+      3
+    ],
+    "h": [
+      1,
+      3
+    ],
+    "k": [
+      1,
+      2
+    ],
+    "l": [
+      0,
+      1
+    ],
+    "m": [
+      0,
+      2
+    ],
+    "n": [
+      0,
+      3
+    ]
+  },
+  "opposite_wall": {
+    "g": "l",
+    "h": "m",
+    "k": "n",
+    "l": "g",
+    "m": "h",
+    "n": "k"
+  },
+  "pair_partition": {
+    "fissure_pairs": [
+      [
+        "g",
+        "l"
+      ],
+      [
+        "h",
+        "m"
+      ],
+      [
+        "k",
+        "n"
+      ]
+    ],
+    "crossing_pairs": [
+      [
+        "g",
+        "h"
+      ],
+      [
+        "g",
+        "k"
+      ],
+      [
+        "g",
+        "m"
+      ],
+      [
+        "g",
+        "n"
+      ],
+      [
+        "h",
+        "k"
+      ],
+      [
+        "h",
+        "l"
+      ],
+      [
+        "h",
+        "n"
+      ],
+      [
+        "k",
+        "l"
+      ],
+      [
+        "k",
+        "m"
+      ],
+      [
+        "l",
+        "m"
+      ],
+      [
+        "l",
+        "n"
+      ],
+      [
+        "m",
+        "n"
+      ]
+    ]
+  },
+  "local_models": {
+    "fissure": {
+      "criterion": "two opposite superbase-edge wall coefficients vanish at a reduced hyperboloid point",
+      "standard_example": "h=m=0",
+      "three_local_lines": [
+        "h=0",
+        "h-m=0",
+        "m=0"
+      ],
+      "field_boundary_continuation": "if no reduced crossing occurs on the current branch, continue from wall x through the fissure on opposite wall opp(x)"
+    },
+    "crossing": {
+      "criterion": "two adjacent superbase-edge wall coefficients vanish at a reduced hyperboloid point",
+      "standard_example": "h=k=0",
+      "six_sector_lines": [
+        "h=0",
+        "h+k=0",
+        "k=0",
+        "retrograde(h=0)",
+        "retrograde(h+k=0)",
+        "retrograde(k=0)"
+      ]
+    }
+  },
+  "branch_order_rule": {
+    "from_crossing_xy_following_x": "test the three other walls adjacent to x (excluding y) for reduced crossings on the same branch; the consecutive one is followed first",
+    "fallback": "if none exists on that branch, x terminates at fissure (x,opp(x)) and the boundary continues on opp(x)",
+    "two_crossing_simplification": "when exactly two crossing points lie on wall x, Selling permits treating them as if they belonged to the same branch for field grouping",
+    "closure_guard": "the final boundary line of a field must reconnect to its first; otherwise the field is not serialized as historical"
+  },
+  "standard_h_branch_discriminator": {
+    "case_B_pos_a_c_neg": "two branches; distinguish by the signs of xi and zeta",
+    "case_B_a_c_neg": "two parts; distinguish by the sign of adjoint H",
+    "case_a_c_opposite_signs": "one branch",
+    "case_a_c_positive": "wall impossible",
+    "other_cases": "NT/FAIL-CLOSED until transformed to a certified standard marking"
+  },
+  "exact_fissure_test": {
+    "hyperboloid": "v^T M^{-1} v = 1",
+    "walls": "H_w(v)<=0 for w in {g,h,k,l,m,n}",
+    "event": "H_x(v)=H_opp(x)(v)=0",
+    "accept": "all six reduction inequalities hold exactly"
+  },
+  "certified_witness": {
+    "form_after_P1": [
+      [
+        3,
+        -3,
+        0
+      ],
+      [
+        -3,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "pair": [
+      "g",
+      "l"
+    ],
+    "points": [
+      "(sqrt(3),-sqrt(3),0)",
+      "(-sqrt(3),sqrt(3),0)"
+    ],
+    "wall_values_at_either": {
+      "g": "0",
+      "h": "0",
+      "k": "-3",
+      "l": "0",
+      "m": "-4",
+      "n": "-5"
+    }
+  },
+  "checks": {
+    "wall_pair_partition_3_fissure_12_crossing": true,
+    "opposite_pairs_exact": true,
+    "P_factorization_exact": true,
+    "Q_factorization_exact": true,
+    "R_factorization_exact": true,
+    "S_factorization_exact": true,
+    "P_target_source_form": true,
+    "Q_target_source_form": true,
+    "R3_involution": true,
+    "S2_involution": true,
+    "T_closes_Q0": true,
+    "U_closes_Q0": true,
+    "TU_commute": true,
+    "T_trace_returns_exact_Q0": true,
+    "U_trace_returns_exact_Q0": true,
+    "T_central_reversion_exact": true,
+    "U_central_reversion_exact": true,
+    "JR_stabilizes_P_target": true,
+    "JQ_stabilizes_Q_target": true,
+    "V0_matches_source_reciprocal": true,
+    "V_matches_source_total": true,
+    "V_stabilizes_Q0": true,
+    "W_stabilizes_Q0": true,
+    "fissure_gl_witness_positive": true,
+    "fissure_gl_witness_negative": true
+  }
+}

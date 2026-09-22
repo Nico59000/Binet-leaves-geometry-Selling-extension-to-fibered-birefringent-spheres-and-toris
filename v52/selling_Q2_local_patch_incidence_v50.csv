@@ -1,0 +1,11 @@
+edge,source,target,Q,H,M,G
+EA,E,A,1,0,0,0
+AD,A,D,1,-1,0,0
+DB,D,B,1,0,-1,0
+BE,B,E,1,0,0,-1
+AC,A,C,0,1,0,0
+CD,C,D,0,1,-1,0
+CB,C,B,0,0,1,0
+BGD,B,GD,0,0,0,1
+GDGA,GD,GA,0,0,0,1
+GAE,GA,E,0,0,0,1

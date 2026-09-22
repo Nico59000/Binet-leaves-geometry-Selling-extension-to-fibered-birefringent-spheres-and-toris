@@ -1,0 +1,132 @@
+{
+  "checks": {
+    "no_fig1_import": true,
+    "relations_nonempty": true,
+    "tokens_closed": true,
+    "unresolved_empty": true
+  },
+  "compiled_carrier": {
+    "carrier_kind": "THREE-COLUMN-LADDER-GERM",
+    "objects": [
+      {
+        "id": "Ltop",
+        "label": "1/12"
+      },
+      {
+        "id": "Ctop",
+        "label": "UNLABELLED"
+      },
+      {
+        "id": "Rtop",
+        "label": "3/7"
+      },
+      {
+        "id": "Cmid",
+        "label": "UNLABELLED"
+      },
+      {
+        "id": "Rmid",
+        "label": "2/7"
+      },
+      {
+        "id": "Lbot",
+        "label": "(1,-2,-15)/(0,0,0)"
+      },
+      {
+        "id": "Cbot",
+        "label": "1/13"
+      },
+      {
+        "id": "Rbot",
+        "label": "(2,-1,-15)/(0,0,0)"
+      },
+      {
+        "id": "T",
+        "label": "(3,1,10)/(0,0,0)"
+      }
+    ],
+    "relations": [
+      [
+        "Ltop",
+        "Cmid",
+        "solid-diagonal"
+      ],
+      [
+        "Ltop",
+        "Lbot",
+        "dotted-column"
+      ],
+      [
+        "Ctop",
+        "Cmid",
+        "wavy"
+      ],
+      [
+        "Cmid",
+        "Cbot",
+        "solid-column"
+      ],
+      [
+        "Rtop",
+        "Rmid",
+        "dotted-column"
+      ],
+      [
+        "Rmid",
+        "Rbot",
+        "dotted-column"
+      ],
+      [
+        "Ctop",
+        "Rtop",
+        "wavy"
+      ],
+      [
+        "Cmid",
+        "Rmid",
+        "wavy"
+      ],
+      [
+        "Lbot",
+        "Cbot",
+        "dotted"
+      ],
+      [
+        "Cbot",
+        "Rbot",
+        "dotted"
+      ],
+      [
+        "Ctop",
+        "T",
+        "solid/dotted-continuation"
+      ],
+      [
+        "Rtop",
+        "T",
+        "dotted"
+      ]
+    ],
+    "unresolved": []
+  },
+  "figure": "Fig5",
+  "guard": "Local Fig-specific carrier only; no fusion with Fig1 or other figure compilers is inferred.",
+  "phase": "next-immediate-gate-replay",
+  "predecessor": "selling_fig5_local_compiler_v52.json",
+  "source_basis": "LOG_0016 page-2 native 6716x5752 raster; direct visual transcription; no OCR promotion",
+  "source_tokens": {
+    "fractions": [
+      "1/12",
+      "3/7",
+      "2/7",
+      "1/13"
+    ],
+    "tuples": [
+      "(1,-2,-15)/(0,0,0)",
+      "(2,-1,-15)/(0,0,0)",
+      "(3,1,10)/(0,0,0)"
+    ]
+  },
+  "status": "PASS-TYPED-LOCAL-CARRIER/TOKENS-CLOSED-SOURCE-DIRECT",
+  "version": "v52"
+}
