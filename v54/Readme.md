@@ -9,11 +9,11 @@ Q_{ij}
 =
 \sum_{k,l}f_{ijkl}\rho^{kl}.
 }$$
-here : $$f\in\operatorname{Sym}^4(V^\*),
+here : $$f\in{Sym}^4(V^\*),
 \qquad
-\rho\in\operatorname{Sym}^2(V),
+\rho\in{Sym}^2(V),
 \qquad
-Q\in\operatorname{Sym}^2(V^\*).$$
+Q\in{Sym}^2(V^\*).$$
 for $$g\in GL(3)$$
 $$g\cdot f=f\circ g^{-1},
 \qquad
