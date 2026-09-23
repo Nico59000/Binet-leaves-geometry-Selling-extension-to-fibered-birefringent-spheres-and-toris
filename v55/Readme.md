@@ -1,1 +1,2 @@
 V54 is obtained , substantial progress is made on the Selling generator python toolkit : https://github.com/Nico59000/Selling-generator-python-toolkit-  .
+an interesting publication to read : https://inria.hal.science/inria-00073509v1/document
