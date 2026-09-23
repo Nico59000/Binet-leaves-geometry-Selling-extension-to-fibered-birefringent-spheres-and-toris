@@ -1,0 +1,194 @@
+{
+  "combined_checks": 9066,
+  "direct_checks": [
+    {
+      "detail": [],
+      "name": "parent_1007_byte_exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "v53_closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "v53_bundle_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "freeze_24",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate_v54_RESEARCH_VERIFICATION_REPORT.json",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate_v54_GATE2_VERIFICATION_REPORT.json",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate_v54_GATE4_VERIFICATION_REPORT.json",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate_v54_GATE5_VERIFICATION_REPORT.json",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate3_35",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gate6_77",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "p46_global",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gl3_exact",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "polar_projector",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "centered_jet",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "no_time",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig2_nt",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fig3_fail_closed",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "r2_inj_refuted",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "r2_strict_refuted",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "r2_1skel",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "r2_2cell_nt",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "r4_B6",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "3D5D_pending",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_append_only",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tex_v54_before_cert",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_qa",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_hash",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_render_all",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "section_order",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_context",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_rigor",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_context",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tree_status",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "tree_dirs",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "fragmentation_preseal",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "freeze_checks": 24,
+  "industrial_direct_checks": 36,
+  "pdf_sha256": "b14223de4974e2eaed470edbc61f8c67c9113114fa6feea889d9edd9c537fc9f",
+  "predecessor_checks": 8619,
+  "status": "PASS",
+  "tex_sha256": "cdf18ccb860e808edd2e726ab659fc8c85eaea1409494a5c336a4e23074b35e7",
+  "v54_research_checks": 387,
+  "version": "v54"
+}

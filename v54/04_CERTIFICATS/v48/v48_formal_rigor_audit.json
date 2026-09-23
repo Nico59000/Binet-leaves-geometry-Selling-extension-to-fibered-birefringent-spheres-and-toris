@@ -1,0 +1,17 @@
+{
+  "version": "v48",
+  "status": "PASS",
+  "guards": [
+    "sealed v47 bytes not mutated",
+    "bibliography physically final and unnumbered in cumulative v48",
+    "no visual-only source binding of six centres",
+    "89-node C2 remains fail-closed",
+    "historical d0/d1/H1/H2 not formed before totalization",
+    "radius-three no-go is bounded only and does not imply global non-liftability",
+    "13 radius-two cycles retained exact but full R-module relations remain NT",
+    "complete Gamma3 resolution remains NT",
+    "Singer/physical phase remain separated and Lorentz orientation NT"
+  ],
+  "bounded_no_go_scope": "CHIRES_14 has no exact coefficient-support lift of word radius <=3; if any lift exists its minimal radius is >=4.",
+  "section_order_repair": "PASS via v48_SECTION_ORDER_AUDIT.json"
+}

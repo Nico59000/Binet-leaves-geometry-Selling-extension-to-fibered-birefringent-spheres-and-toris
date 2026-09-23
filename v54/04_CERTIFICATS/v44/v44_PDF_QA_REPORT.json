@@ -1,0 +1,38 @@
+{
+  "version": "v44",
+  "pdf": "formalisation_feuillets_binet_birefringence_selling_polaire_v44.pdf",
+  "pages": 240,
+  "preflight": "PASS",
+  "render_all_pages": 240,
+  "render_engine": "pdftoppm",
+  "render_dpi": 110,
+  "automated_scan": {
+    "suspects": [],
+    "min_mean_luminance": 238.89069,
+    "max_black_ratio": 0.0127812,
+    "min_ink_ratio": 0.0315983,
+    "max_border_dark": 0.0
+  },
+  "visual_inspection": "PASS_NO_CLIPPING_OVERLAP_BLACK_SQUARES_OR_BROKEN_GLYPHS_OBSERVED",
+  "visual_contact_pages": "205-240 via contact sheets",
+  "page210_overflow_repair": "PASS_RIGHT_BORDER_CLEAR_AFTER_BREAKABLE_PATH_TOKENS_AND_EXPLICIT_LINEBREAK",
+  "latex_overfull_boxes": 0,
+  "precanon_pixel_compare_pages": [
+    1,
+    210,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    240
+  ],
+  "precanon_pixel_differences": [],
+  "canonicalization_pixel_identity": "PASS",
+  "canonicalization_replay_basis": "v44_precanon.pdf + canonicalize_pdf_v44.py",
+  "canonical_pdf_sha256": "c54d1b1e0f6eff84741ac8120d598e21a260af4b767a456f916cd00c40bfc13b"
+}

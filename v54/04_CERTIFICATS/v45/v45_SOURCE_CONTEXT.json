@@ -1,0 +1,51 @@
+{
+  "version": "v45",
+  "status": "PASS_HASH_LOCKED",
+  "predecessor": "v44 CLOSED/APPEND-ONLY",
+  "predecessor_gate": {
+    "ledger": "v44_SHA256SUMS.txt",
+    "ledger_entries": 221,
+    "ledger_status": "PASS_221_OF_221_BEFORE_AND_AFTER_PARENT_REPLAY",
+    "verification": "7917/7917 PASS"
+  },
+  "sources": [
+    {
+      "path": "LOG_0016.pdf",
+      "bytes": 1991876,
+      "sha256": "423da98bd897c5dcb2b3556f4c9dc1367a4f12263d247608cfb2ba7a00f2e47b",
+      "role": "canonical Selling Tafel III source bytes"
+    },
+    {
+      "path": "Tafel-III-fig1.jpg",
+      "sha256": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+      "role": "BSB high-quality plate witness"
+    },
+    {
+      "path": "selling_fig1_bsb_photo_gate_v38.json",
+      "sha256": "b8e04cdb0f28f5b1c5d43e9b4d9117314d7d1e129ddb9ba315a03fbc6172cff9",
+      "role": "hash-locked BSB-to-v37 homography and reprojection budget"
+    },
+    {
+      "path": "selling_fig1_semantic_contract_v39.json",
+      "sha256": "8bbedb2963bf668fbe3dc7acb8459817fbe789d4a0e12b3f53a0c50f4989f4d4",
+      "role": "historical six-axis/six-centre and field semantics"
+    },
+    {
+      "path": "selling_bsb_C2_action_protocol_v44.json",
+      "sha256": "82d60ce503756485190174a93051a85a073c78c9380fcdb6c3a3fc5fa5c00dfb",
+      "role": "minimal source-certification protocol"
+    },
+    {
+      "path": "gamma3_partial_resolution_v43.json",
+      "sha256": "3aad6a2ba23f54ab0ad1853dcc69266b2c94afd053234ae0554e50c6fe8b32be",
+      "role": "certified M43 partial group-ring resolution"
+    },
+    {
+      "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v44.tex",
+      "sha256": "ba910edb52875f73bba9bc8e6373c36fcbd4726e4ac09409c6fac4a382032d43",
+      "role": "append-only predecessor text"
+    }
+  ],
+  "source_text_note": "Selling 1877 source text states that dotted lines denote symmetry axes and separately identifies six external bipartite axes with six fourfold centres; v45 uses this only as a typing/count constraint, never to choose six out of seven diagnostic traces by morphology.",
+  "source_policy": "No diagnostic dotted trace is promoted to HAX/HC without source-distinguished external-axis incidence. No H1/H2 recomputation before total historical 0/1/2-cell data."
+}

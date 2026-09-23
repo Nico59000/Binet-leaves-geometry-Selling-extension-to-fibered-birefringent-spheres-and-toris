@@ -1,0 +1,14 @@
+{
+  "version": "v53",
+  "status": "PASS",
+  "predecessor_bundle_sha256": "1936700dc187ae762a407a17f16019c0f871ff47962a5e01df0eed577c38787d",
+  "formal_context_document_count": 9,
+  "new_primary_dependencies": [
+    "selling_fig2_local_compiler_v52.json",
+    "selling_fig3_6_typed_fusion_v52.json",
+    "gamma3_b5_mod8_packed.bin",
+    "gamma3_fox_mod8_terms.txt",
+    "gamma3_radius5_mod8_core.bin"
+  ],
+  "source_policy": "all v52 members preserved byte-exact; new v53 dependencies hash-locked; no web/external evidence used for v53 mathematical promotion"
+}

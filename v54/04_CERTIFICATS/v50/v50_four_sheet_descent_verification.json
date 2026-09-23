@@ -1,0 +1,36 @@
+{
+  "checks": [
+    "cover_status",
+    "cover_248_objects",
+    "cover_492_arrows",
+    "twelve_base_deck_loops",
+    "fortyeight_intersheet_arrows",
+    "cover_248_based_2relations",
+    "cover_242_geometric_2cells",
+    "strict_upper_status",
+    "strict_248_objects",
+    "strict_492_arrows",
+    "strict_248_2relations",
+    "fillable_248_2relations",
+    "basis_841",
+    "descent_status",
+    "quotient_objects_62",
+    "quotient_arrows_123",
+    "quotient_2relations_62",
+    "target_orbits_42",
+    "square_object_arrow_2relation",
+    "three_nontrivial_links",
+    "deterministic_replay"
+  ],
+  "checks_passed": 21,
+  "checks_total": 21,
+  "cohomology_gate": "RECONSIDERABLE BUT NOT OPENED: first audit V4-equivariant pullback/descent naturality of the Binet and Ad local systems.",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "sha256": {
+    "selling_F29_descent_square_v50.json": "bd76e837486b701e80d899e8a0cf3a3d8322a062074d925aa543435243ac3306",
+    "selling_F29_strict_cover_functor_v50.json": "e16b298851bdc628f0219ad34f0df23096310b9a71415344da81ffe98132f584",
+    "selling_four_sheet_deck_cover_v50.json": "8b53fe370cdb409631234c65407165d3de2c97d3e579ee172a0b6b346d406d05"
+  },
+  "status": "PASS",
+  "version": "v50"
+}

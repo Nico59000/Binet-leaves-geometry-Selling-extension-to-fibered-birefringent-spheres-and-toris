@@ -1,0 +1,130 @@
+{
+  "combined_checks": 8583,
+  "direct_checks": [
+    {
+      "detail": "",
+      "name": "v52_final_gate_returncode",
+      "pass": true
+    },
+    {
+      "detail": 8561,
+      "name": "v52_final_gate_8561",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_v52_section",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_retains_v51_section",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_v52_before_certification",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "append_only_insertion_byte_exact_text",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_final_123",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_v53_frontier",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_retains_GL3_guard",
+      "pass": true
+    },
+    {
+      "detail": 271,
+      "name": "pdf_271_pages",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_qa_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_zero_overfull",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_all_page_parity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_render_scan_no_flags",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_hash_matches_qa",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "section_order_pass",
+      "pass": true
+    },
+    {
+      "detail": [
+        13,
+        260
+      ],
+      "name": "v52_printed_page_260",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_context_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_context_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_rigor_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "cross_carriers_retained",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "final_gate_replay": {
+    "status": "PASS",
+    "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"predecessor_checks\": 8511,\n  \"v52_direct_checks\": 50,\n  \"combined_checks\": 8561\n}\nsha256 1f0eba212e28554a399e8a4c3a88dd653d050a56de71629d09e7e8708d0eea73\n"
+  },
+  "industrial_direct_checks": 22,
+  "new_checks_after_final_gate": 22,
+  "pdf_sha256": "68c2955a81953d8b8a0a110c5d2f57c501327529ff51c9e8c4a78416336c181d",
+  "predecessor_and_final_gate_checks": 8561,
+  "status": "PASS",
+  "tex_sha256": "6d9076428dc006d30e7e0c3142384afc8356db936b09af40cca090386b2676ba",
+  "version": "v52"
+}

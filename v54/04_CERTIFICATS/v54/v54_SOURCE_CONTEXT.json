@@ -1,0 +1,14 @@
+{
+  "guards": [
+    "no raster-to-numeric identity without source adapter",
+    "printed Pascal repair is algebraic reconstruction, not a claim of multiple independent editorial mistakes"
+  ],
+  "primary_sources": [
+    "Selling historical Fig.2-6 source bindings",
+    "Pascal 1905 p.46 contravariant p",
+    "Noether 1908 rho and relations"
+  ],
+  "status": "PASS",
+  "version": "v54",
+  "working_source_preference": "Noether_R823_Full_Cumulative_English_Workpass.pdf / associated TeX preferred for research lookup; German original retained as arbitration source"
+}

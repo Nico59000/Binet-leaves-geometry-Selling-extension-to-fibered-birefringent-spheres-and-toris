@@ -1,0 +1,84 @@
+{
+  "schema": "selling.seed.v1",
+  "name": "v54_historical_selling_fig3_boundary_L",
+  "provenance": {
+    "kind": "historical-source-exact-form",
+    "author": "Eduard Selling",
+    "year": 1877,
+    "source": "Selling 1877, doubled lower boundary associated with Fig.3, p.194",
+    "source_tuple": {
+      "a_b_c_g_h_k": [
+        11,
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    "figure": "Fig3",
+    "typed_anchor": "Fig3:L",
+    "historical_claim": "SOURCE-EXACT-SEED-MATRIX; supersedes raster-only middle-sign reading"
+  },
+  "indefinite_gram": [
+    [
+      11,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ]
+  ],
+  "chart_transform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "quotient": {
+    "mode": "superbase",
+    "deck_generators": []
+  },
+  "compile": {
+    "classifier": "exact",
+    "max_fields": 8,
+    "deck_group_max_size": 256,
+    "use_superbase_relabelling": true,
+    "projective_sign": true,
+    "fallback_sampled_classifier": false
+  },
+  "render": {
+    "q_range": [
+      -2.0,
+      2.0
+    ],
+    "r_range": [
+      -1.2,
+      1.2
+    ],
+    "resolution": 650,
+    "labels": true,
+    "fill_fields": false,
+    "show_domain_boundary": true,
+    "line_width": 0.7
+  }
+}

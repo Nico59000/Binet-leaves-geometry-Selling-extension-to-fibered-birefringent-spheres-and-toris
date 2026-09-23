@@ -1,0 +1,459 @@
+{
+  "append_only_corrections": {
+    "Fig3": "v53 raster-only +1 middle coefficient superseded by Selling source -1",
+    "Fig6": "v53 raster-only +47 third coefficient superseded by Selling source -47"
+  },
+  "check_count": 28,
+  "checks": [
+    "Fig2:det",
+    "Fig2:validate",
+    "Fig2:signature",
+    "Fig2:typed-anchor",
+    "Fig2:N2a:congruence",
+    "Fig2:N2b:congruence",
+    "Fig3:det",
+    "Fig3:validate",
+    "Fig3:signature",
+    "Fig3:typed-anchor",
+    "Fig3:R3:congruence",
+    "Fig4:det",
+    "Fig4:validate",
+    "Fig4:signature",
+    "Fig4:typed-anchor",
+    "Fig4:T4:congruence",
+    "Fig5:det",
+    "Fig5:validate",
+    "Fig5:signature",
+    "Fig5:typed-anchor",
+    "Fig5:R5:congruence",
+    "Fig5:U5:congruence",
+    "Fig5:Q-transition",
+    "Fig5:S5-target-stabilizer",
+    "Fig6:det",
+    "Fig6:validate",
+    "Fig6:signature",
+    "Fig6:typed-anchor"
+  ],
+  "figures": {
+    "Fig2": {
+      "Q": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          -2,
+          1
+        ],
+        [
+          0,
+          1,
+          -2
+        ]
+      ],
+      "anchor": "C3",
+      "compiled": "fig2_historical_v54.compiled.json",
+      "det": 5,
+      "dynamic_scope": "ROOT-ANCHOR-PROVEN; FULL-NUMERIC-ATLAS-OPEN/TRUNCATED-at-8-fields",
+      "numeric": {
+        "closed": false,
+        "compile_status": "OPEN/TRUNCATED",
+        "compiled_sha256": "8028786b4647aa97488c1a5b70044b8d3569385464a69bb3fd575dd4162a9d3a",
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 8,
+        "processed": 8,
+        "seed_sha256": "39276cab9b6fcd88e7956f766bd7b05eeecce4f314dbaaf34405dc77af5e6a15"
+      },
+      "seed": "fig2_historical_v54.seed.json",
+      "source_automorphisms": {
+        "N2a": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            1,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "N2b": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            -1,
+            1,
+            0
+          ]
+        ]
+      },
+      "source_binding": "Selling states that the point 1/3 belongs to territory A=3 in the Fig.2 development.",
+      "tuple": [
+        1,
+        -2,
+        -2,
+        1,
+        0,
+        1
+      ],
+      "typed_common_object": "SellCommon:Fig2:C3",
+      "typed_label": "3",
+      "v53_stored_label": "3"
+    },
+    "Fig3": {
+      "Q": [
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "anchor": "L",
+      "append_only_correction": {
+        "mode": "SUPERSEDE-NOT-REWRITE",
+        "v53_label": "(11,1,-1)/(0,0,0)",
+        "v54_source_exact_label": "(11,-1,-1)/(0,0,0)"
+      },
+      "compiled": "fig3_boundary_L_historical_v54.compiled.json",
+      "det": 11,
+      "dynamic_scope": "DIRECT-BOUNDARY-ANCHOR-CLOSED-EXACT/1-field; fissure seed retained separately as nontrivial OPEN/TRUNCATED control",
+      "numeric": {
+        "closed": true,
+        "compile_status": "PASS-CLOSED-EXACT",
+        "compiled_sha256": "80173db083792380593c0831e4603f1ca9f67072621ca35ce054900d71b6ec38",
+        "exact_topology": true,
+        "fallback_count": 0,
+        "field_count": 1,
+        "processed": 1,
+        "seed_sha256": "b2a5dd055fac0d14a03f9d4001b80df0b3d6100ad88040fb11d7c0729e136097"
+      },
+      "seed": "fig3_boundary_L_historical_v54.seed.json",
+      "source_automorphisms": {
+        "R3": [
+          [
+            -10,
+            3,
+            0
+          ],
+          [
+            -33,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      "source_binding": "Selling p.194 prints the doubled lower-boundary form (11,-1,-1)/(0,0,0).",
+      "tuple": [
+        11,
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "typed_common_object": "SellCommon:Fig3:L",
+      "typed_label": "(11,-1,-1)/(0,0,0)",
+      "v53_stored_label": "(11,1,-1)/(0,0,0)"
+    },
+    "Fig4": {
+      "Q": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "anchor": "T",
+      "compiled": "fig4_historical_v54.compiled.json",
+      "det": 3,
+      "dynamic_scope": "DIRECT-ANCHOR-CLOSED-EXACT/1-field",
+      "numeric": {
+        "closed": true,
+        "compile_status": "PASS-CLOSED-EXACT",
+        "compiled_sha256": "3c72726635b98e22e388bbc2c77d073c0de1fd8a5e92b81a11e0fcbbe10abea8",
+        "exact_topology": true,
+        "fallback_count": 0,
+        "field_count": 1,
+        "processed": 1,
+        "seed_sha256": "94a2dc642996fda9da74879d36b7c316cf13bd1909f8054fd856612a5bfa19be"
+      },
+      "seed": "fig4_historical_v54.seed.json",
+      "source_automorphisms": {
+        "T4": [
+          [
+            -2,
+            1,
+            0
+          ],
+          [
+            -3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      "source_binding": "Selling p.196 prints the form (3,-1,-1)/(0,0,0).",
+      "tuple": [
+        3,
+        -1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "typed_common_object": "SellCommon:Fig4:T",
+      "typed_label": "(3,-1,-1)/(0,0,0)",
+      "v53_stored_label": "(3,-1,-1)/(0,0,0)"
+    },
+    "Fig5": {
+      "Q": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -2,
+          0
+        ],
+        [
+          0,
+          0,
+          -15
+        ]
+      ],
+      "anchor": "Lbot",
+      "compiled": "fig5_historical_v54.compiled.json",
+      "det": 30,
+      "dynamic_scope": "DIRECT-ANCHOR-CLOSED-EXACT/1-field",
+      "numeric": {
+        "closed": true,
+        "compile_status": "PASS-CLOSED-EXACT",
+        "compiled_sha256": "b98df3df9ae80c669eee50d68c9adccc6aa1a2910031e7d594322466b890339b",
+        "exact_topology": true,
+        "fallback_count": 0,
+        "field_count": 1,
+        "processed": 1,
+        "seed_sha256": "76695a21a132fa4b306ced8bfdc11628ce89e7a9197ca6e749abcce8d6a675f2"
+      },
+      "seed": "fig5_historical_v54.seed.json",
+      "source_automorphisms": {
+        "R5": [
+          [
+            -4,
+            0,
+            15
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            4
+          ]
+        ],
+        "U5": [
+          [
+            -21,
+            20,
+            60
+          ],
+          [
+            -10,
+            9,
+            30
+          ],
+          [
+            -4,
+            4,
+            11
+          ]
+        ]
+      },
+      "source_binding": "Selling p.194 prints the lower form (1,-2,-15)/(0,0,0).",
+      "source_transition": {
+        "Q5sub": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "S5": [
+          [
+            -11,
+            0,
+            30
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -4,
+            0,
+            11
+          ]
+        ],
+        "target_Q": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -15
+          ]
+        ]
+      },
+      "tuple": [
+        1,
+        -2,
+        -15,
+        0,
+        0,
+        0
+      ],
+      "typed_common_object": "SellCommon:Fig5:Lbot",
+      "typed_label": "(1,-2,-15)/(0,0,0)",
+      "v53_stored_label": "(1,-2,-15)/(0,0,0)"
+    },
+    "Fig6": {
+      "Q": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -47
+        ]
+      ],
+      "anchor": "A47",
+      "append_only_correction": {
+        "mode": "SUPERSEDE-NOT-REWRITE",
+        "v53_label": "(1,-1,47)/(0,0,0)",
+        "v54_source_exact_label": "(1,-1,-47)/(0,0,0)"
+      },
+      "compiled": "fig6_historical_v54.compiled.json",
+      "det": 47,
+      "dynamic_scope": "DIRECT-ANCHOR-CLOSED-EXACT/1-field; source also gives I=0 parametric degeneration, not promoted as a discrete wall word",
+      "numeric": {
+        "closed": true,
+        "compile_status": "PASS-CLOSED-EXACT",
+        "compiled_sha256": "4a7ff8e66819956d86550ffe698166eb11a8d98ed99ab115408f0151e7f2ec26",
+        "exact_topology": true,
+        "fallback_count": 0,
+        "field_count": 1,
+        "processed": 1,
+        "seed_sha256": "dc38c59a9b3d4c53feb32e07f8ce44cb859b5c0ef629bfb074309c6ca10e7b86"
+      },
+      "seed": "fig6_historical_v54.seed.json",
+      "source_automorphisms": {},
+      "source_binding": "Selling p.205 prints the form (1,-1,-47)/(0,0,0).",
+      "tuple": [
+        1,
+        -1,
+        -47,
+        0,
+        0,
+        0
+      ],
+      "typed_common_object": "SellCommon:Fig6:A47",
+      "typed_label": "(1,-1,-47)/(0,0,0)",
+      "v53_stored_label": "(1,-1,47)/(0,0,0)"
+    }
+  },
+  "guards": [
+    "No v53 bytes are edited.",
+    "A source tuple is a numerical seed; it does not by itself identify every drawn local branch with a Selling wall.",
+    "OPEN/TRUNCATED is retained for nonclosed numeric searches.",
+    "The common typed incidence functor and numeric field compiler remain different functors joined only at certified source anchors/transports."
+  ],
+  "predecessor": "v53 CLOSED/APPEND-ONLY; selling_fig2_6_common_typed_functor_v53.json immutable",
+  "source_convention": "(a,b,c;g,h,k) -> [[a,k,h],[k,b,g],[h,g,c]]",
+  "status": "PASS-SOURCE-EXACT-FIG2-6-NUMERIC-ROOT-ADAPTER",
+  "typed_numeric_square": {
+    "Fig2_Fig3_nontrivial_dynamics": "Fig2 and the separate Fig3 fissure seed remain OPEN/TRUNCATED at max_fields=8; no false closure.",
+    "Fig3_Fig4_Fig5_Fig6_direct_anchors": "PASS-CLOSED-EXACT one-field numeric roots for the direct tuple anchors.",
+    "full_edge_square": "NOT-GLOBALLY-PROMOTED: source substitutions certify only the explicitly listed congruence transports; local Tafel incidence is not identified with field-BFS adjacency without an explicit wall/substitution adapter.",
+    "objects": "For each figure, the same source-exact form/territory anchor maps horizontally to the immutable v53 SellCommon object and vertically to numeric field0 of the corrected v0.4 engine."
+  },
+  "version": "v54"
+}

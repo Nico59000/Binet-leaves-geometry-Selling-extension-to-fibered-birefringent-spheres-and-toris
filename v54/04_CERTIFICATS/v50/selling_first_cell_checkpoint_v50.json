@@ -1,0 +1,17 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "predecessor": "v49 CLOSED/APPEND-ONLY",
+  "status": "PASS-LOCAL-SUBCOMPLEX",
+  "promotion": {
+    "F_Q2_first_2cell": "PROVEN-LOCAL",
+    "ordered_boundary": "V_E -> V_A -> V_D -> V_B -> V_E",
+    "partial_boundary_square_zero": "PASS",
+    "global_C0_C1_C2": "NT/PENDING-ADJACENT-FIELD-DEVELOPMENT",
+    "global_d0_d1": "NOT-RUN/GUARDED",
+    "field_functor": "NOT-RUN/GUARDED",
+    "historical_H1_H2": "NT/GUARDED"
+  },
+  "new_typed_feature": "The Q2 field has one mirror double-wall edge fixed by J_y=diag(1,-1,1); it must not be misclassified as an ordinary single-wall adjacency.",
+  "next_gate": "Resolve source orientation/marking for the three ordinary neighbours h,m,g, develop their full ordered boundaries, and merge only after exact vertex/arc/transport matching."
+}

@@ -1,0 +1,39 @@
+{
+  "active_nonblocking_nt": [
+    "Fig2 absolute S/Phi raster binding remains NT within the present carrier.",
+    "Fig3 89/91 raster edges remain NOT-PROPAGATED absent individual witnesses.",
+    "R2PURE13 2-cell coherence remains NT because the frozen source does not materialize a 2-cell presentation.",
+    "Selling 3D->5D remains CONTEXT/PENDING-MORPHISM."
+  ],
+  "closed_guards": {
+    "B6": "NOT-OPENED",
+    "r4": "NOT-OPENED"
+  },
+  "document_overlay": {
+    "append_only_removal_rule": "remove v54 section and Pascal1905 bibitem to recover v53 exactly",
+    "section_insert": "v54_SECTION_INSERT.tex",
+    "v54_tex": "formalisation_feuillets_binet_birefringence_selling_polaire_v54.tex"
+  },
+  "gate6_state": "CLOSED/APPEND-ONLY",
+  "gate_direct_checks": {
+    "gate1": 41,
+    "gate2": 40,
+    "gate3": 35,
+    "gate4": 56,
+    "gate5": 58,
+    "gate6_branch_replays": 80,
+    "gate6_closure": 77
+  },
+  "next_action": "TRIGGER ATOMIC INDUSTRIAL CYCLE",
+  "parent_bundle_sha256": "e120360f2bffad1a6eaf869822721c7fb3c515a54558b0ffa5e01a66143df74c",
+  "parent_member_count": 1007,
+  "parent_pdf_sha256": "7db8718e541fab2d9e3ecbb0660c585f348b768ab7deb944d8d164b76bf75f0c",
+  "parent_tex_sha256": "ba2a21715b00962d33e7ca7fe2a55c2928c7759b74d6aea659d04a7bb31b7f6a",
+  "phase": "PREINDUSTRIAL FREEZE",
+  "predecessor": "v53 CLOSED/APPEND-ONLY",
+  "publication_state": "PREINDUSTRIAL-FROZEN/NONPUBLISHABLE",
+  "status": "PASS",
+  "supersession_conflicts": [],
+  "v54_research_checks_executed_or_attested": 387,
+  "version": "v54"
+}

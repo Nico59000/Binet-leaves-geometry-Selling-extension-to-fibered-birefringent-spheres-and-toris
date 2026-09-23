@@ -1,0 +1,80 @@
+{
+  "Fig2": {
+    "decision": "REFUTED-TYPED/UNIQUE-INCIDENCE-ONLY-RASTER-BINDING",
+    "incidence_only_map_A": {
+      "C3": 7,
+      "M2_0": 5,
+      "M2_1": 5,
+      "M2_2": 5,
+      "M2_3": 5,
+      "M2_4": 5,
+      "O1_0": 2,
+      "O1_1": 2,
+      "O1_2": 2,
+      "O1_3": 2,
+      "O1_4": 2
+    },
+    "incidence_only_map_B": {
+      "C3": 7,
+      "M2_0": 5,
+      "M2_1": 5,
+      "M2_2": 5,
+      "M2_3": 5,
+      "M2_4": 5,
+      "O1_0": 3,
+      "O1_1": 3,
+      "O1_2": 3,
+      "O1_3": 3,
+      "O1_4": 3
+    },
+    "local_raster_edges_checked": 15,
+    "map_A_audit": {
+      "checked_edges": 15,
+      "failures": [],
+      "preserved": true
+    },
+    "map_B_audit": {
+      "checked_edges": 15,
+      "failures": [],
+      "preserved": true
+    },
+    "maps_distinct": true,
+    "reason": "Two distinct anchored adjacency-preserving maps already exist on the underlying local carrier. Therefore adjacency/cardinality alone cannot certify a unique raster-to-numeric identification.",
+    "source_exact_numeric_root_class": 7,
+    "v53_anchor": "SellCommon:Fig2:C3"
+  },
+  "Fig3": {
+    "decision": "NT/NO-SOURCE-EXACT-RASTER-ROOT-ADAPTER",
+    "fissure_tuple": "(3,-2,-2)/(1,1,0)",
+    "fissure_tuple_present_in_v53_raster_labels": false,
+    "reason": "The v53 Fig3 raster carrier has no object source-identified with the fissure seed; no quotient-class binding is inferred from geometry alone.",
+    "source_exact_fissure_root_class": 19,
+    "v53_raster_objects": {
+      "Fig3:A": "3/3",
+      "Fig3:B": "1/3",
+      "Fig3:C": "3/7",
+      "Fig3:D": "UNLABELLED-JUNCTION",
+      "Fig3:E": "2/7",
+      "Fig3:F": "2/5",
+      "Fig3:L": "(11,1,-1)/(0,0,0)",
+      "Fig3:R": "(1,2,5)/(1,0,0)"
+    }
+  },
+  "guard": "Source wall incidence, typed engine objects, and raster/local objects are distinct carriers. No inter-figure or raster-to-numeric equality is created without an explicit source adapter.",
+  "overall_status": "PASS-SOURCE-EDGE-CERTIFICATION-117/117; DIRECT-RASTER-EDGE-BINDING-PARTIAL/NT",
+  "phase": "Gate5 numeric quotient -> v53 typed/raster binding audit",
+  "source_edge_certification": {
+    "Fig2": {
+      "direct_raster_bound": 0,
+      "edges": 26,
+      "source_certified": 26
+    },
+    "Fig3": {
+      "direct_raster_bound": 0,
+      "edges": 91,
+      "source_certified": 91
+    },
+    "total": "117/117 PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY"
+  },
+  "version": "v54"
+}

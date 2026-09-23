@@ -1,0 +1,55 @@
+{
+  "version": "v47",
+  "status": "PASS",
+  "pdf": "formalisation_feuillets_binet_birefringence_selling_polaire_v47.pdf",
+  "pages": 251,
+  "canonical_pdf_sha256": "b932fc05070e3710a636ac356e84f42d0da94c9b2aa004474beb72b291eec35c",
+  "full_render": {
+    "renderer": "pdfium via render_pdf.py",
+    "dpi": 60,
+    "pages_rendered": 251,
+    "scan": "PASS_NO_SUSPECTS",
+    "min_ink": 0.042434091729866376,
+    "max_dark": 0.011229771793152075,
+    "max_border_dark": 0.0
+  },
+  "visual_inspection": {
+    "contact_sheets": [
+      "203-214",
+      "227-238",
+      "239-251"
+    ],
+    "status": "PASS_NO_CLIPPING_OVERLAP_BLACK_SQUARES_OR_BROKEN_GLYPHS",
+    "page210_overflow_fix": "PASS_RETAINED"
+  },
+  "canonicalization_parity": {
+    "renderer": "pdftoppm",
+    "dpi": 80,
+    "pages": [
+      1,
+      210,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251
+    ],
+    "status": "PASS_PIXEL_IDENTICAL",
+    "max_abs_diff": 0
+  },
+  "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED_NO_XFA",
+  "latex": {
+    "overfull_boxes": 0
+  },
+  "guard": "Visual QA establishes document rendering quality only; it does not promote any mathematical/source-semantic NT gate."
+}

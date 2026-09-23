@@ -1,0 +1,27 @@
+{
+  "version": "v54",
+  "phase": "historical Fig2-6 numeric seeds + Noether rho specialization + R2PURE noninjective path quotient",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "predecessor": "v53 CLOSED/APPEND-ONLY",
+  "results": {
+    "Fig2_6_historical_numeric_seeds": "PROVEN-SOURCE-EXACT-FIVE-OF-FIVE",
+    "Fig2_6_numeric_root_validation": "PASS-FIVE-OF-FIVE-SIGNATURE-(1,2)",
+    "Fig3_direct_boundary_numeric_root": "PASS-CLOSED-EXACT/ONE-FIELD",
+    "Fig4_5_6_numeric_roots": "PASS-CLOSED-EXACT/ONE-FIELD-EACH",
+    "Fig2_full_numeric_dynamics": "OPEN/TRUNCATED-AT-8",
+    "Fig3_fissure_full_numeric_dynamics": "OPEN/TRUNCATED-AT-8",
+    "Fig3_sign_correction": "SOURCE-EXACT-SUPERSEDE-v53-RASTER-ONLY:+1->-1",
+    "Fig6_sign_correction": "SOURCE-EXACT-SUPERSEDE-v53-RASTER-ONLY:+47->-47",
+    "Noether_printed_Gordan_instance": "PROVEN-RHO-ZERO/SELLING-NONLANDING-FOR-THIS-INSTANCE",
+    "Noether_source_law_calibration": "PROVEN-RHO-NONZERO/QPRIM-DIAG(-1,-1,1)/SELLING-PASS-CLOSED-EXACT",
+    "Noether_GL3_square": "PASS-EXACT-3-UNIMODULAR-TRANSFORMS",
+    "R2PURE_noninjective_edge_to_path": "PROVEN-EXISTS/NORMALIZATION-DEPENDENT-1-SKELETON",
+    "R2PURE_target_v29_bigon": "PROVEN-EXACT",
+    "R2PURE_source_2cell_whiskering_gate": "NT/PENDING-SOURCE-PRESENTATION",
+    "R2PURE_mod2_whiskering_forgetful_shadow": "ZERO-ALL-13",
+    "R2PURE_to_SellingDeck17_full_adapter": "SEPARATED/PENDING-MORPHISM",
+    "B6": "NOT-OPENED",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM"
+  },
+  "safe_successor": "v54 -- retain this PRESEAL checkpoint; close Fig2/Fig3 nontrivial dynamics only with complete exact field exploration or source-bounded fundamental domain; search a second genuinely historical Noether quartic with nonzero rho and integral indefinite Phi landing, without replacing the rho=0 printed instance; materialize actual R2PURE 2-cell/whiskering presentation before promoting the noninjective path quotient to a groupoid adapter; keep B6 closed and 3D->5D pending."
+}

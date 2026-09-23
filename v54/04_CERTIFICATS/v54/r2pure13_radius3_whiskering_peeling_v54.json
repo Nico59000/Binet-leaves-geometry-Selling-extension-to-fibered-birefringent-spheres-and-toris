@@ -1,0 +1,44 @@
+{
+  "decision": "No nonzero additive relation among left/right whiskerings of the 13 R2PURE cycles with coefficient support in B3.",
+  "guards": [
+    "This decides additive group-ring relations supported in the radius-3 ball only.",
+    "It does not decide mixed non-additive Peiffer identities or coefficient support radius >=4.",
+    "B6 is not opened; this is the R2PURE coefficient-support radius in Gamma_3(2), not the CHIRES B6 search."
+  ],
+  "results": {
+    "left": {
+      "ball_size": 1376,
+      "columns": 17888,
+      "full_column_rank_by_degree1_peeling": true,
+      "peeled_columns": 17888,
+      "pivot_abs_histogram": {
+        "1": 17888
+      },
+      "proof": "Repeatedly choose a row supported by exactly one active column; its nonzero integer coefficient is a pivot. Removing that column preserves independence induction. Empty residual core gives a triangular full-column-rank minor over Q.",
+      "radius": 3,
+      "residual_core_columns": 0,
+      "residual_core_rows": 0,
+      "row_coordinates": 279770,
+      "side": "left",
+      "status": "PASS-FULL-RANK-INTEGER-PEELING"
+    },
+    "right": {
+      "ball_size": 1376,
+      "columns": 17888,
+      "full_column_rank_by_degree1_peeling": true,
+      "peeled_columns": 17888,
+      "pivot_abs_histogram": {
+        "1": 17888
+      },
+      "proof": "Repeatedly choose a row supported by exactly one active column; its nonzero integer coefficient is a pivot. Removing that column preserves independence induction. Empty residual core gives a triangular full-column-rank minor over Q.",
+      "radius": 3,
+      "residual_core_columns": 0,
+      "residual_core_rows": 0,
+      "row_coordinates": 281056,
+      "side": "right",
+      "status": "PASS-FULL-RANK-INTEGER-PEELING"
+    }
+  },
+  "status": "PASS-RADIUS3-ADDITIVE-WHISKERING-REFUTED-TYPED",
+  "version": "v54"
+}

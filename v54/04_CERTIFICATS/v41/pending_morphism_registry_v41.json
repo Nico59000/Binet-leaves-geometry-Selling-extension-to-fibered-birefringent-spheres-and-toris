@@ -1,0 +1,59 @@
+{
+  "version": "v41",
+  "predecessor": "v40 CLOSED/APPEND-ONLY",
+  "entries": [
+    {
+      "id": "PM41-SELL-AX",
+      "status": "NT",
+      "subject": "BSB source-certified assignment of HAX_i/HC_i to vector/raster geometry",
+      "guard": "zero promotion from diagnostics"
+    },
+    {
+      "id": "PM41-SELL-FUN",
+      "status": "PENDING-MORPHISM",
+      "subject": "F_Sell^field -> F29_can complete 0/1/2-cell compatibility"
+    },
+    {
+      "id": "PM41-SELL-H12",
+      "status": "NT",
+      "subject": "historical field H1/H2",
+      "guard": "not recomputed until field functor gate closes"
+    },
+    {
+      "id": "PM41-89",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "subject": "89 degree-one Selling candidates vs A1BE/roof/RH/KEP 89-carriers"
+    },
+    {
+      "id": "PM41-17-16",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "subject": "17 Selling/deck objects as pointed envelope of 16 Gamma3 oriented occurrences"
+    },
+    {
+      "id": "PM41-G3-L2",
+      "status": "PROVEN-AUGMENTATION-SHADOW/NT-GROUP-RING",
+      "subject": "length-two Squier diamonds; no new augmentation directions, full group-ring attachments unresolved"
+    },
+    {
+      "id": "PM41-G3-FULL",
+      "status": "NT",
+      "subject": "complete Z[Gamma3(2)] identity-among-relations module"
+    },
+    {
+      "id": "PM41-J",
+      "status": "PROVEN-RELATION-HOLONOMY/NT-ORIENTATION",
+      "subject": "root-gauged J_s on finite C6 ball and all declared historical relators"
+    },
+    {
+      "id": "PM41-ROOF-TRANSPOSE",
+      "status": "REFUTED-TYPED",
+      "subject": "roof reversal = matrix transpose"
+    },
+    {
+      "id": "PM41-PHASE",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "subject": "compact internal direction = physical phase"
+    }
+  ],
+  "stratified_reality_guard": "observed calculations are separated from action obligations; no NT or pending morphism is promoted to observed theorem."
+}

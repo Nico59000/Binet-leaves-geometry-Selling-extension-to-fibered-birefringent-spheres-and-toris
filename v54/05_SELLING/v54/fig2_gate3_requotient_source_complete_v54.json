@@ -1,0 +1,162 @@
+{
+  "class_sizes": [
+    6,
+    5,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3
+  ],
+  "closed": true,
+  "exact_equivalence_certificates": 104,
+  "guards": [
+    "This reuses only exact Gate3 path matrices and exact source-complete automorphism equivalence; no new max_fields search is performed.",
+    "Closure requires every ordinary-wall candidate from every Gate3 exact record to map to an already represented source-Gram class and canonical wall transitions to be deterministic."
+  ],
+  "name": "fig2_gate3_requotient_source_complete_v54",
+  "nondeterministic_class_wall_targets": [],
+  "old_edge_slots": 104,
+  "old_records": 32,
+  "quotient_edge_slots": 26,
+  "quotient_edges": [
+    {
+      "canonical_wall": "k",
+      "source_class": 0,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 0,
+      "target_class": 4
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 0,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 1,
+      "target_class": 4
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 1,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 1,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 2,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 2,
+      "target_class": 1
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 2,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 3,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 3,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 3,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 4,
+      "target_class": 1
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 4,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 4,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 5,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 5,
+      "target_class": 7
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 5,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 5,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 6,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 6,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 6,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 7,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 7,
+      "target_class": 7
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 7,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 7,
+      "target_class": 7
+    }
+  ],
+  "quotient_theorem": "Same canonical transported Gram under superbase relabel iff paths differ by an integral automorphism of F on the left and a superbase relabel on the right; wall labels are transported by the exact induced permutation of the six homogeneous Selling coordinates.",
+  "source_compiled": "/mnt/data/v54_gate3/fig2_deck.m32.resume.compiled.json",
+  "source_gram_classes": 8,
+  "status": "PASS-CLOSED-EXACT-SOURCE-REQUOTIENT",
+  "unknown": [],
+  "unknown_frontier_after_source_quotient": 0,
+  "version": "v54"
+}

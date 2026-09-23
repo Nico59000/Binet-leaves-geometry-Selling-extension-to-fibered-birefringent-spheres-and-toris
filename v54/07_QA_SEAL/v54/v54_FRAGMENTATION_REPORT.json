@@ -1,0 +1,9 @@
+{
+  "decision": "NOT_TRIGGERED_BELOW_200MiB",
+  "measured_candidate_bundle_bytes": 207183517,
+  "status": "PASS",
+  "threshold_bytes": 209715200,
+  "toolchain_guard": "zstd-splitter retained in historical toolchain; fragmentation is mandatory only when threshold is reached.",
+  "version": "v54",
+  "zstd_splitter_triggered": false
+}

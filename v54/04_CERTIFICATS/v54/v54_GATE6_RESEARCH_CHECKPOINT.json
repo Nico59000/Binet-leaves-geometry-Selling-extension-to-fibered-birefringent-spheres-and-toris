@@ -1,0 +1,241 @@
+{
+  "version": "v54",
+  "phase": "Gate 6 -- unified research checkpoint (no sub-gate)",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "predecessor": "v53 CLOSED/APPEND-ONLY; v54 Gates 1--5 retained append-only",
+  "methodology": {
+    "HTNT": "PASS/REFUTED/NT/ZERO/SEPARATED append-only; internal/external evidence and carriers remain typed and separate",
+    "gate_policy": "ONE-PASS-ONE-GATE target restored: this artifact is Gate 6 itself, not a sub-gate",
+    "no_silent_promotion": true
+  },
+  "Fig2": {
+    "source_form_Q": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        -2,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "adjoint_F": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        -2,
+        0
+      ],
+      [
+        0,
+        0,
+        -5
+      ]
+    ],
+    "R": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "S": [
+      [
+        -3,
+        -1,
+        2
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -4,
+        -2,
+        3
+      ]
+    ],
+    "Delta": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Phi": [
+      [
+        -1,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "printed_P0": {
+      "ratio": "2/2",
+      "numerator_vector": [
+        1,
+        0,
+        0
+      ],
+      "denominator_vector": [
+        1,
+        0,
+        0
+      ],
+      "status": "PROVEN-SOURCE-RASTER"
+    },
+    "printed_P1": {
+      "ratio": "2/2",
+      "numerator_vector": [
+        1,
+        1,
+        0
+      ],
+      "denominator_vector": [
+        1,
+        0,
+        0
+      ],
+      "status": "PROVEN-SOURCE-RASTER"
+    },
+    "derived_P2": {
+      "ratio": "2/2",
+      "numerator_vector": [
+        4,
+        1,
+        6
+      ],
+      "denominator_vector": [
+        3,
+        1,
+        -2
+      ],
+      "status": "PROVEN-SOURCE-DERIVED-BY-S"
+    },
+    "transport_rule": "u -> A u; v -> A^{-T} v for f(u)/F(v)",
+    "supersedes": "P1,P2 exact historical glyphs = NT-RASTER/TEXT-DECODING",
+    "new_glyph_status": "P0 and P1 exact printed forms PROVEN; P2 printed as next 2/2 and exact f/F representative derived by S",
+    "raster_style_source": {
+      "wavy": "A-territory boundary",
+      "solid": "a-territory boundary",
+      "dotted": "symmetry axis"
+    },
+    "S_specific_raster_edge": "NT/NOT-UNIQUELY-BOUND",
+    "Phi_raster_species": "NT/TWO-DRAWN-SYMMETRY-SPECIES-NOT-DISAMBIGUATED",
+    "O1_to_2_or_3": "UNDECIDED",
+    "guard": "Source glyph decoding does not by itself select an absolute raster edge among symmetry-equivalent candidates."
+  },
+  "Fig3": {
+    "root_class": 19,
+    "retained_direct_raster_edges": [
+      "19 -k-> 19",
+      "19 -n-> 19"
+    ],
+    "direct_raster_bound": "2/91",
+    "not_propagated": "89/91",
+    "status": "RETAINED-MARKED-RASTER-BOUND/NO-SYMMETRY-PROPAGATION"
+  },
+  "Pascal_Noether_lane_B": {
+    "typing": "PASCAL-PRINTED-FAMILY/SOURCE-DERIVED-SPECIALIZATION",
+    "Q_primitive": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "raw_indefinite_six": [
+      0,
+      0,
+      2,
+      -2,
+      -2,
+      1
+    ],
+    "positive_correspondent": "Qplus=2 vv^T-Q",
+    "hyperboloid": "x*y-z^2=1",
+    "positive_walls": {
+      "g": "2*y*z",
+      "h": "2*x*z",
+      "k": "2*x*y-2",
+      "l": "-2*x^2-2*x*z-2*x*y+2",
+      "m": "-2*y^2-2*y*z-2*x*y+2",
+      "n": "-1-2*z^2-2*y*z-2*x*z"
+    },
+    "reduced_consequence": "k=2 z^2 <=0 => z=0, xy=1; hence g=h=k=0, l=-2x^2<0, m=-2/x^2<0, n=-1<0",
+    "reduced_Qplus": "diag(2*x^2,2/x^2,1)",
+    "status": "PROVEN-EXACT-REDUCTION-LOCUS/MULTIWALL-MIRROR-SEAM/NO-2D-OPEN-FIELD-INTERIOR",
+    "figure_identification": "SEPARATED/NO-FIG1-6-IDENTIFICATION-WITHOUT-ADAPTER"
+  },
+  "Pascal_Noether_lane_A": {
+    "Noether_notice": "Pascal contravariant p on memoir p.46 contains a historical numerical error",
+    "Pascal_page46_formula_identification": "PROVEN-PRIMARY-SOURCE-PAGE/CONTRAVARIANT-p",
+    "previous_raw_section13_matrix_residual": "WITHDRAWN/NT-NORMALIZATION-MISALIGNMENT",
+    "exact_wrong_coefficient": "NT/NOT-RECONSTRUCTED",
+    "Pascal_to_Noether_dictionary": "OPEN/NT",
+    "literal_corrected_rho": "NOT-PROMOTED"
+  },
+  "R2PURE_13": {
+    "radius3_additive_whiskering": "REFUTED-TYPED/FULL-COLUMN-RANK-17888-OF-17888-BOTH-SIDES",
+    "v44_triple_Peiffer": "248/248 ABSORBED-BY-M43/ZERO-NEW-DIRECTION",
+    "existing_Peiffer_to_R2PURE_adapter": "REFUTED-TYPED",
+    "new_mixed_nonfree_higher_cell": "NOT-FOUND/OPEN-NT",
+    "radius4": "NOT-OPENED",
+    "B6": "NOT-OPENED"
+  },
+  "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+  "gate6_decision": "KEEP-OPEN: Fig2 source glyph blocker partially closed but unique raster S/Phi binding remains NT; Fig3 stays 2/91; lane A dictionary remains NT; no new R2PURE mixed higher-cell.",
+  "safe_continuation": "Continue the same v54 Gate 6 in one pass: exploit point-level Fig2 raster geometry only if it breaks the remaining S/Phi ambiguity; reconstruct Pascal-Noether notation before coefficient repair; seek only genuinely new source-explicit mixed/nonfree R2PURE identity; retain r=4 and B6 closed.",
+  "sha256_without_self": "d9238f132e0dd466b095311e59da0f39446bcca070064941f67013f33798f464"
+}

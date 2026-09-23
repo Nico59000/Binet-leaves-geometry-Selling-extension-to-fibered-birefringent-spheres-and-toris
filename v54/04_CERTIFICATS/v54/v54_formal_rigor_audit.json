@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "fig3_fail_closed": true,
+    "gate6_closed": true,
+    "no_silent_fig2_promotion": true,
+    "p46_global": true,
+    "r2_2cell_not_invented": true,
+    "r4_B6_not_opened": true,
+    "v53_parent_byte_exact": true
+  },
+  "status": "PASS",
+  "version": "v54"
+}

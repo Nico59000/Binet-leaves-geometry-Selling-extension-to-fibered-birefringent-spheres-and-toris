@@ -1,0 +1,96 @@
+{
+  "absorbed_results": {
+    "Fig2": {
+      "O1_to_2_or_3": "UNDECIDED",
+      "Phi_raster_species": "NT/TWO-DRAWN-SYMMETRY-SPECIES-NOT-DISAMBIGUATED",
+      "S_specific_raster_edge": "NT/NOT-UNIQUELY-BOUND",
+      "closure_interpretation": "Non-uniqueness is certified in the current typed carrier; no absolute raster orientation is invented. This NT is scoped and nonblocking.",
+      "current_carrier_automorphism_order": 10,
+      "source_points": "P0,P1 PROVEN-SOURCE-RASTER; P2 PROVEN-SOURCE-DERIVED-BY-S",
+      "unique_incidence_only_binding": "REFUTED-TYPED"
+    },
+    "Fig3": {
+      "closure_interpretation": "Gate contract is fail-closed: no additional edge is promoted without an individual witness.",
+      "direct_raster_bound": "2/91",
+      "not_propagated": "89/91",
+      "retained_edges": [
+        "19 -k-> 19",
+        "19 -n-> 19"
+      ],
+      "root_class": 19,
+      "status": "RETAINED-MARKED-RASTER-BOUND/NO-SYMMETRY-PROPAGATION"
+    },
+    "Pascal_Noether_lane_A": {
+      "GL3_covariance": "PROVEN/6 direct nontrivial GL3(Z) replays PASS plus source-law implication",
+      "historical_guard": "repairs are those forced by the printed p.46 formula under the calibrated convention; no claim of multiple independent historical editorial mistakes",
+      "identity": "rho=(5/2) p_corrected in the full 15-coefficient quartic ring",
+      "spinta_normalization": "PROVEN-SOURCE-CALIBRATED",
+      "status": "CLOSED-ALGEBRAICALLY/PROVEN-GLOBAL"
+    },
+    "R2PURE13_to_SellingDeck17": {
+      "closure_interpretation": "The v53 successor contract required an explicit morphism or exact obstruction. Exact obstructions are certified for injective/strict lanes; a guarded noninjective 1-skeleton witness exists. Missing source 2-cells are not invented.",
+      "full_adapter": "SEPARATED/PENDING-MORPHISM",
+      "noninjective_1_skeleton": "PROVEN-EXISTS/NORMALIZATION-DEPENDENT; all 54 target congruences PASS",
+      "object_injective": "REFUTED-TYPED",
+      "source_2cell_compatibility": "NT/MISSING-SOURCE-R2PURE-2CELL-PRESENTATION",
+      "strict_edge_incidence": "REFUTED-TYPED"
+    },
+    "centered_amplitude_adapter": {
+      "map": "s Q_Pas_raw -> Lambda=chi*s/2; deltaLambda=(chi/2)(s-s_*)",
+      "status": "PROVEN-EXACT-CENTERED-JET-ADAPTER",
+      "time_identification": "SEPARATED/NOT-ASSERTED"
+    },
+    "retained_guards": {
+      "B6": "NOT-OPENED",
+      "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+      "r4": "NOT-OPENED"
+    }
+  },
+  "closure_decision": "CLOSE GATE 6 / DO NOT CLOSE v54 YET",
+  "closure_token": "V54_GATE6_CLOSURE_PASS",
+  "gate": "Gate 6",
+  "gate_policy": "ONE-PASS-ONE-GATE; no sub-gates introduced",
+  "input_sha256": {
+    "r2pure13_to_sellingdeck17_noninjective_path_quotient_v54.json": "16ef477ce4862d19e8892e3b377ceacb088e954cbec827e764d3ac6b729d45d8",
+    "r2pure13_to_sellingdeck17_object_injective_obstruction_v54.json": "94266e2cfe014da95a3ce572a9d130d9fc5c33736ed1dee68907e76eae504702",
+    "selling_fig2_fig3_raster_binding_obstruction_v54.json": "04a4bcc775926ff619cb80de19a90b5553a922ef3ad9418f3798b7d4ec7a9be0",
+    "v53_DELIVERY_INDEX.txt": "f461897b5b15443471b2246fcf6ddfa58f64142dc4d24afa29842e4e6d6b25fb",
+    "v54_GATE6_CURRENT_RESEARCH_STATE.json": "413d50673261159631d9e248dc1c438f7104ebb3f84ffc0220ec1a36d264051d",
+    "v54_GATE6_HYPERTENSOR_STRICT_BRIDGE_REPORT.json": "850cb10d702c3f9b84886f36fc84931d0442d5d8d20e69870b789338f5844a68",
+    "v54_GATE6_P46_GLOBAL_REPAIR_CHECKPOINT.json": "a22df4b305d2a583bb3d5156a2da64db5f916efe7f7d8c2a8e746d95fbd41187",
+    "v54_GATE6_P46_GLOBAL_REPAIR_REPORT.json": "7f1ed5b7f56b734f92e1820cc380cd96eedf1d9f5ef74d5b9fd372c117955f33",
+    "v54_GATE6_VERIFICATION_REPORT.json": "6ea92d7d857a21c3765dc252b5ad5effaf6715467547f3a89ebf0628919ce88d"
+  },
+  "next_frontier": {
+    "actions": [
+      "Freeze the cumulative Gates 1-6 append-only ledger and supersession order.",
+      "Run stale-status and contradiction scans so superseded Gate6 blockers cannot reappear as active claims.",
+      "Rebuild the cumulative v54 TeX/document section from the frozen ledger while preserving v53 bytes/provenance.",
+      "Run a cumulative preindustrial verifier against v53 and all v54 research artifacts.",
+      "Only after PREINDUSTRIAL FREEZE PASS, trigger the single atomic industrial cycle DOC ∧ MATH ∧ VERIFY ∧ PDF-QA ∧ BUNDLE-TREE ∧ SEAL ∧ DETERMINISTIC-RESEAL ∧ ROUNDTRIP ∧ POSTSEAL."
+    ],
+    "label": "v54 PREINDUSTRIAL FREEZE"
+  },
+  "nonblocking_open_inventory": [
+    "Fig2 absolute S/Phi raster binding remains NT within the present carrier.",
+    "Fig3 89/91 raster edges remain NOT-PROPAGATED absent individual witnesses.",
+    "R2PURE13 2-cell coherence remains NT because the frozen source does not materialize a 2-cell presentation.",
+    "Selling 3D->5D remains CONTEXT/PENDING-MORPHISM."
+  ],
+  "predecessor": "v53 CLOSED/APPEND-ONLY",
+  "publication_state": "PREINDUSTRIAL-FREEZE-CANDIDATE/NONPUBLISHABLE",
+  "scope": "RESEARCH-GATE-CLOSURE-ONLY; v54 VERSION NOT YET INDUSTRIALIZED",
+  "state": "CLOSED/APPEND-ONLY",
+  "supersession_ledger": {
+    "Fig2_unique_binding": "RETAINED NT after exact non-uniqueness obstruction",
+    "Fig3_89_unbound": "RETAINED NOT-PROPAGATED by explicit fail-closed policy",
+    "old_blocker_Pascal_dictionary_or_p46": "SUPERSEDED by global 15-coefficient p46 repair and GL3 replay",
+    "old_blocker_R2PURE_no_mixed_higher_cell": "SUPERSEDED as Gate-6 closure blocker; complete 2-cell adapter remains SEPARATED/PENDING-MORPHISM because source 2-cell presentation is absent"
+  },
+  "verifier_sha256": {
+    "base_gate6": "a08e2b7e5dc431ef89aea86cdafc79aa0b6b7cf6143ff1433f1eb065cf944856",
+    "hypertensor_bridge": "54d46617392308f429fc045abe4bb7c9b35d2f2b8f580b574c7829d4a9ee100e",
+    "p46_global": "b0f7fa8e52629bd1ff3fec9d856aa516082bbadfe307df30aa30a944e3858b54"
+  },
+  "version": "v54"
+}

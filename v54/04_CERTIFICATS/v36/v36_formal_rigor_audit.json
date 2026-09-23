@@ -1,0 +1,45 @@
+{
+  "phase": "v36-selling-domain-roof-gamma3-relative-3cells",
+  "status": "PASS_LOCAL_PRESEAL",
+  "predecessor": "v35 CLOSED_APPEND_ONLY; 175 checks replayed",
+  "math": {
+    "verifier": "243/243 PASS (175 predecessor + 68 new)",
+    "field_domain": "PARTIAL_SOURCE_EXACT; full microscopic figure-1 incidence NT pending plate transcription",
+    "orbifold_H12": {
+      "Binet": [
+        1,
+        0
+      ],
+      "Adjoint": [
+        3,
+        0
+      ]
+    },
+    "presentation_functor": "W(C6)->F29_can exact modulo 2, image V4, non-faithful; field-level functor NT",
+    "Gamma3_relative_3cells": "43/43 exact matrix relators from Kobayashi n=3 presentation",
+    "lambda2": "nine standard generators map bijectively to nine matrix units of M3(F2)",
+    "roof": "pointed 9-label binder constructed; roof reversal=transpose refuted by involution cycle type",
+    "Thomas_Wigner": "mod-2 support bracket shadow proven; real metric/sign/rapidity/orientation not transferred",
+    "phase": "O(2)/Real-phase retained; oriented U(1) NT; de Broglie separated"
+  },
+  "pdf_qa": {
+    "pages": 205,
+    "page_size": "A4",
+    "openable": true,
+    "encrypted": false,
+    "likely_scanned": false,
+    "xfa": false,
+    "rendered_pages": "190-197 at 160 dpi; visually inspected no clipping/overlap/broken glyphs",
+    "stable_compile": "passes 13 and 14 byte-identical",
+    "inherited_diagnostic": "one 12.21pt overfull monospaced v35 filename retained unchanged for append-only continuity; visually not clipped",
+    "undefined_refs_or_citations": false
+  },
+  "hashes": {
+    "pdf": "f13f11ae0d4105e0a490138f7dd3bbeb615a2d624f10b74304f28d7fd00dec17",
+    "tex": "ca2f215af84dbd8403782c47439f5d08ddf3de7601b634343be1b2695819a07c",
+    "verifier": "dc50178a1422dc064558f924b6b03a8ff46b1ba75ae6b299d948b8b7e28ba656",
+    "certificate": "b7b255df51ce9a3b72656eb5ae27fabb209d6747734364850e633084339ec048"
+  },
+  "source_context_file": "v36_SOURCE_CONTEXT.json",
+  "industrial_next": "manifest -> deterministic ZIP -> fresh extraction -> verifier replay -> fresh deterministic LaTeX compile -> byte identity -> atomic token"
+}

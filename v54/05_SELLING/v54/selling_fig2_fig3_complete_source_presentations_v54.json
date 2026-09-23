@@ -1,0 +1,438 @@
+{
+  "Fig2": {
+    "equivalent_representative_F": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        -2,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "generators": {
+      "Delta": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "Phi": [
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "R": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "S": [
+        [
+          -3,
+          -1,
+          2
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -4,
+          -2,
+          3
+        ]
+      ]
+    },
+    "infinite_group_witness": {
+      "charpoly": "(lambda - 1)*(lambda**2 - 8*lambda + 1)",
+      "matrix": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          3
+        ]
+      ],
+      "proof": "|trace|>3 excludes finite order for a real 3x3 integral matrix whose finite-order eigenvalues all lie on the unit circle.",
+      "trace": 9,
+      "word": "R Phi S Delta"
+    },
+    "relations": [
+      "R^2=S^2=Delta^2=Phi^2=I",
+      "[R,Delta]=I",
+      "[S,Phi]=I",
+      "[Delta,Phi]=I",
+      "(R S)^3=I"
+    ],
+    "seed_Q": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        -2,
+        1
+      ],
+      [
+        0,
+        1,
+        -2
+      ]
+    ],
+    "source_normal_form": "After an optional initial Delta^d Phi^p, move Delta immediately after S and Phi immediately after R; positive blocks are built from R Phi and S Delta, with R/S connectors reduced to RS, SR, RSR using (RS)^3=1.",
+    "status": "PROVEN-SOURCE-PRESENTATION/NORMAL-FORM-AS-STATED",
+    "transition_A": [
+      [
+        2,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ]
+  },
+  "Fig3": {
+    "Delta": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Gamma": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "Lambda": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        -1,
+        3
+      ]
+    ],
+    "R": [
+      [
+        -10,
+        3,
+        0
+      ],
+      [
+        -33,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "S0_QSigmaQinv": [
+      [
+        12,
+        -3,
+        -2
+      ],
+      [
+        22,
+        -6,
+        -3
+      ],
+      [
+        33,
+        -8,
+        -6
+      ]
+    ],
+    "Sigma": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        0
+      ]
+    ],
+    "T": [
+      [
+        -10,
+        3,
+        0
+      ],
+      [
+        -33,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "U": [
+      [
+        -12,
+        3,
+        2
+      ],
+      [
+        -33,
+        8,
+        6
+      ],
+      [
+        -22,
+        6,
+        3
+      ]
+    ],
+    "base_F0": [
+      [
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "fissure_Fq": [
+      [
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        -2,
+        1
+      ],
+      [
+        1,
+        1,
+        -2
+      ]
+    ],
+    "fissure_second_involution_B": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        1,
+        0
+      ]
+    ],
+    "local_E_subgroup_order": 8,
+    "relations": [
+      "T=R",
+      "U=Q B Q^-1",
+      "T U = U T",
+      "Sigma^3=I",
+      "Gamma^2=Delta^2=Lambda^2=I",
+      "<Gamma,Delta,Lambda> has order 8",
+      "U=Lambda Q Sigma Q^-1"
+    ],
+    "source_normal_form": "Selling states the E-system substitutions are alternating local involution blocks and Q Sigma^sigma Q^-1 blocks (sigma=1,2); all base-form self-transformations are represented by alternating E_i R E_{i+1} R ... and normalized using TU=UT.",
+    "status": "PROVEN-SOURCE-PRESENTATION/NORMAL-FORM-AS-STATED"
+  },
+  "check_count": 51,
+  "checks": {
+    "fig2_Delta_Phi_commute": true,
+    "fig2_Delta_det1": true,
+    "fig2_Delta_involution": true,
+    "fig2_Delta_stabilizes": true,
+    "fig2_Phi_det1": true,
+    "fig2_Phi_involution": true,
+    "fig2_Phi_stabilizes": true,
+    "fig2_RS_order3": true,
+    "fig2_R_Delta_commute": true,
+    "fig2_R_det1": true,
+    "fig2_R_involution": true,
+    "fig2_R_stabilizes": true,
+    "fig2_S_Phi_commute": true,
+    "fig2_S_det1": true,
+    "fig2_S_involution": true,
+    "fig2_S_stabilizes": true,
+    "fig2_connectors_distinct": true,
+    "fig2_infinite_order_witness": true,
+    "fig2_transition": true,
+    "fig3_B_det1": true,
+    "fig3_B_order2": true,
+    "fig3_B_source_relation": true,
+    "fig3_B_stabilizes_Fq": true,
+    "fig3_DL_order4": true,
+    "fig3_Delta_det1": true,
+    "fig3_Delta_stabilizes_F0": true,
+    "fig3_GD_commute": true,
+    "fig3_GL_order4": true,
+    "fig3_Gamma_det1": true,
+    "fig3_Gamma_stabilizes_F0": true,
+    "fig3_K_order8": true,
+    "fig3_Lambda_det1": true,
+    "fig3_Lambda_stabilizes_F0": true,
+    "fig3_Q_det1": true,
+    "fig3_Q_transition": true,
+    "fig3_R_det1": true,
+    "fig3_R_stabilizes_F0": true,
+    "fig3_S0_order3": true,
+    "fig3_Sigma_det1": true,
+    "fig3_Sigma_order3": true,
+    "fig3_Sigma_stabilizes_Fq": true,
+    "fig3_TU_commute": true,
+    "fig3_T_det1": true,
+    "fig3_T_stabilizes_F0": true,
+    "fig3_U_det1": true,
+    "fig3_U_expected": true,
+    "fig3_U_factor": true,
+    "fig3_U_stabilizes_F0": true,
+    "fig3_alt_sanity_unique": true,
+    "fig3_infinite_order_witness": true,
+    "fig3_local_involutions": true
+  },
+  "guards": [
+    "Fig2 and Fig3 presentations are figure-specific; equal local order-6 symmetries do not identify their carriers.",
+    "The historical automorphism groups are infinite; they must not be passed to the finite-deck API by truncating them.",
+    "The source normal-form statements are materialized exactly as figure-specific rewriting data; numerical quotient closure requires a complete exact membership/canonicalization reducer, not a bounded word enumeration."
+  ],
+  "phase": "Gate4 Selling historical source presentations",
+  "primary_source": "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), second part, pp. 153-206; Numdam. Fig3 presentation on printed pp.194-196; Fig2 self-transformation presentation on printed pp.197-198.",
+  "status": "PASS-SOURCE-EXACT-PRESENTATIONS-MATERIALIZED",
+  "version": "v54"
+}

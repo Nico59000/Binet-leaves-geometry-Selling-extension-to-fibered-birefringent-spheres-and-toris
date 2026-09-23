@@ -1,0 +1,146 @@
+{
+  "schema": "selling.compiled.v1",
+  "toolchain": "selling_seed2d_toolchain_v0_1",
+  "seed_name": "v54_noether_rho_calibration_primitive_Q",
+  "status": "PASS-CLOSED-EXACT",
+  "closed": true,
+  "all_visited_exact": true,
+  "exact_topology": true,
+  "fallback_count": 0,
+  "field_count": 1,
+  "processed": 1,
+  "quotient_mode": "superbase",
+  "deck_group_size": 1,
+  "use_superbase_relabelling": true,
+  "projective_sign": true,
+  "chart": {
+    "coordinates": "q=z/x, r=-y/x",
+    "gram_chart": [
+      [
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "determinant": "1",
+    "D0": "q**2 - r**2 - 1",
+    "x2": "1/(q**2 - r**2 - 1)",
+    "wall_order": [
+      "g",
+      "h",
+      "k",
+      "l",
+      "m",
+      "n"
+    ],
+    "wall_polynomials": {
+      "g": "-2*q*r",
+      "h": "2*q",
+      "k": "-2*r",
+      "l": "-q**2 - 2*q + r**2 + 2*r - 1",
+      "m": "-q**2 + 2*q*r - r**2 + 2*r + 1",
+      "n": "-q**2 + 2*q*r - 2*q - r**2 - 1"
+    },
+    "global_projective": false
+  },
+  "records": [
+    {
+      "id": 0,
+      "path_matrix": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "wall_action_matrix": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "ordinary_walls": [],
+      "multiwall_components": [
+        {
+          "factor": "r",
+          "walls": [
+            "g",
+            "k"
+          ]
+        }
+      ],
+      "classifier": "exact",
+      "neighbors": {}
+    }
+  ],
+  "guards": [
+    "Exact topology is promoted only when every visited field used the exact algebraic boundary classifier.",
+    "Sampled fallback is visualization-only and cannot certify historical incidence.",
+    "The renderer uses generated algebraic walls; the source raster is validation-only."
+  ],
+  "sha256_without_self_hash": "0f274615094bcf1322a9116b2ab0a4ae77fe9f9f0b688ba72b03494f81a487fc"
+}

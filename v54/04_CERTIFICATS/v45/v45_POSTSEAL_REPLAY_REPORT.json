@@ -1,0 +1,74 @@
+{
+  "version": "v45",
+  "status": "PASS",
+  "phase": "POSTSEAL_DESTRUCTIVE_REPLAY",
+  "archive": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v45_bundle.zip",
+    "bytes": 47823301,
+    "sha256": "f5d7572aadc9b361c604834a8df51af4b3e20cb4f3197360771e1f37d2b241b9",
+    "members": 249
+  },
+  "ledger": {
+    "path": "v45_SHA256SUMS.txt",
+    "entries": 248,
+    "pre_replay": "PASS_248_OF_248",
+    "post_replay": "PASS_248_OF_248"
+  },
+  "verification": {
+    "status": "PASS",
+    "predecessor_checks": 7917,
+    "new_checks": 59,
+    "combined_checks": 7976,
+    "failed": 0
+  },
+  "pdf": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v45.pdf",
+    "pages": 243,
+    "bytes": 2266532,
+    "sha256": "05e7370ef8129d141fb5fec3bedc993a85d8f1ba1d7d869a66b9a7836af8300a",
+    "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED",
+    "canonicalization_replay": "PASS_BYTE_IDENTICAL",
+    "page210_overflow_fix": "PASS_RETAINED",
+    "latex_overfull_boxes": 0
+  },
+  "tex": {
+    "path": "formalisation_feuillets_binet_birefringence_selling_polaire_v45.tex",
+    "bytes": 685524,
+    "sha256": "7fb323e5218fe9ca92b45197e7397f56e01ed7a86a54fda474fea1dae4e6422f"
+  },
+  "zip_roundtrip": {
+    "rebuild": "PASS_BYTE_IDENTICAL",
+    "rebuilt_sha256": "f5d7572aadc9b361c604834a8df51af4b3e20cb4f3197360771e1f37d2b241b9"
+  },
+  "fragmentation": {
+    "zstd_splitter": "NOT_TRIGGERED_BELOW_200MiB",
+    "bundle_bytes": 47823301
+  },
+  "math_results": {
+    "diagnostic_dotted_traces": 7,
+    "historical_external_axes_required": 6,
+    "HAX_HC_binding": "NT_NONUNIQUE_SOURCE_BINDING",
+    "89_node_C2_census": "NOT_ACTIVATED_FAIL_CLOSED",
+    "historical_H1_H2": "NT_NOT_RECOMPUTED",
+    "four_relator_dihedral_classes": "1920/1920_ABSORBED_BY_M43",
+    "five_relator_grammar": "ZERO_IDENTITIES_IN_DECLARED_3PLUS2_SCOPE",
+    "six_relator_dihedral_classes": "384/384_ABSORBED_BY_M43",
+    "complete_Gamma3_resolution": "NT_RESIDUAL_MIN_DIM_14",
+    "Singer_injection": "SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz_orientation": "NT"
+  },
+  "typed_gates_preserved": [
+    "seven diagnostic dotted traces are not seven historical external axes",
+    "historical six-axis/six-centre binding NT_NONUNIQUE_SOURCE_BINDING",
+    "89-node C2 census NOT_ACTIVATED_FAIL_CLOSED",
+    "strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED",
+    "complete Gamma3 resolution NT with residual character minimum dimension 14",
+    "Singer odd mark injection SEPARATED/NT/PENDING-MORPHISM",
+    "Lorentz orientation NT",
+    "field functor PENDING-MORPHISM",
+    "historical H1/H2 NT_NOT_RECOMPUTED",
+    "roof reversal versus transpose REFUTED-TYPED",
+    "physical phase SEPARATED/PENDING-MORPHISM"
+  ],
+  "safe_successor": "v46 -- retain v45 CLOSED/APPEND-ONLY and every typed separation; resolve the 7-to-6 Selling axis ambiguity only from non-morphological source evidence, prioritizing explicit external-boundary incidence, cyclic fourfold-centre order and historical substitution/field labels, and promote no HAX_i or HC_i unless the six-subset and its cyclic ordering are uniquely source-certified; then derive the six reflections and activate the 89-node C2 census only if the degree-one carrier is invariant, testing 44|45 and 34|55 only against the resulting historical orbit census; materialize historical node/edge/field types, ordered field boundaries, repetition targets, stabilizer words and local Binet/adjoint transports and form d0,d1 only when total, verifying d1*d0=0, face holonomy/stabilizer identities and the full F_Sell^field -> F29_can object/edge/face functor before recomputing H1/H2; retain the strict R5/Gamma 16-to-16 incidence adapter REFUTED-TYPED; use the residual 512-character sectors with minimum residual dimension 14 to construct and lift explicit non-free-cancellation group-ring syzygy candidates beyond the exhausted 4/5/6-relator grammars and the eighteen two-periodic order-two tails; attempt the Singer-framed odd injection only after source-native L, sigma and Gamma are equivariant on all historical cells; retain MXM^-1 as opposite variance, roof reversal versus transpose REFUTED-TYPED, Lorentz orientation NT, and physical phase SEPARATED/PENDING-MORPHISM."
+}

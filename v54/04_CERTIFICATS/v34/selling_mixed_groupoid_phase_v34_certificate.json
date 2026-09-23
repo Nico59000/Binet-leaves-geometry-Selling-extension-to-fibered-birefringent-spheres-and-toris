@@ -1,0 +1,1374 @@
+{
+  "phase": "v34-selling-mixed-groupoid-phase",
+  "status": "PASS",
+  "checks": {
+    "R_commutes_Gamma": true,
+    "S_commutes_H": true,
+    "V_Gamma_equals_PGammaPinv": true,
+    "W_H_equals_QHQinv": true,
+    "T_source_conjugate": true,
+    "U_source_conjugate": true,
+    "mixed_T_comm_VGamma": true,
+    "mixed_U_comm_WGammaDelta": true,
+    "relator_Gamma2": true,
+    "relator_Delta2": true,
+    "relator_T2": true,
+    "relator_U2": true,
+    "relator_GammaDelta_comm": true,
+    "relator_TU_comm": true,
+    "relator_Gamma_V_inversion": true,
+    "relator_Delta_V_inversion": true,
+    "relator_Gamma_W_fixed": true,
+    "relator_Delta_W_inversion": true,
+    "relator_T_comm_VGamma": true,
+    "relator_U_comm_WGammaDelta": true,
+    "C6_a_involution": true,
+    "C6_h_involution": true,
+    "C6_g_involution": true,
+    "C6_b_involution": true,
+    "C6_u_involution": true,
+    "C6_t_involution": true,
+    "C6_comm_a_h": true,
+    "C6_comm_h_g": true,
+    "C6_comm_g_b": true,
+    "C6_comm_b_u": true,
+    "C6_comm_u_t": true,
+    "C6_comm_t_a": true,
+    "C6_nonedge_a_g_noncommuting": true,
+    "C6_nonedge_a_b_noncommuting": true,
+    "C6_nonedge_a_u_noncommuting": true,
+    "C6_nonedge_h_b_noncommuting": true,
+    "C6_nonedge_h_u_noncommuting": true,
+    "C6_nonedge_h_t_noncommuting": true,
+    "C6_nonedge_g_u_noncommuting": true,
+    "C6_nonedge_g_t_noncommuting": true,
+    "C6_nonedge_b_t_noncommuting": true,
+    "Tietze_recover_V": true,
+    "Tietze_recover_W": true,
+    "Tietze_recover_Delta": true,
+    "C6_nf_idempotent": true,
+    "C6_nf_matrix_consistency": true,
+    "C6_structural_graph_product_theorem": true,
+    "Binet_D0_rank_1": true,
+    "Binet_D1_rank_4": true,
+    "Binet_H1_dim_1": true,
+    "Binet_H1_rep_closed": true,
+    "Binet_H1_rep_nonexact": true,
+    "Binet_W_scalar_forced_zero": true,
+    "Ad_D0_rank_3": true,
+    "Ad_D1_rank_12": true,
+    "Ad_H1_dim_3": true,
+    "pure_V_class_killed_by_mixed_relations": true,
+    "pure_W_class_killed_by_mixed_relations": true,
+    "Ad_H1_three_representatives_found": true,
+    "Ad_H1_rep_1_closed": true,
+    "Ad_H1_rep_2_closed": true,
+    "Ad_H1_rep_3_closed": true,
+    "universal_VW_adjoint_extension_closed": true,
+    "phase_ambiguity_closed": true,
+    "phase_ambiguity_nonexact": true,
+    "universal_extension_family_closed": true,
+    "groupoid_edge_R_1": true,
+    "groupoid_edge_R_2": true,
+    "groupoid_edge_R_3": true,
+    "groupoid_edge_R_4": true,
+    "groupoid_edge_R_5": true,
+    "groupoid_edge_S_1": true,
+    "groupoid_edge_S_2": true,
+    "groupoid_edge_S_3": true,
+    "groupoid_edge_K_1": true,
+    "groupoid_edge_K_2": true,
+    "groupoid_edge_K_3": true,
+    "groupoid_edge_K_4": true,
+    "groupoid_R_product": true,
+    "groupoid_S_product": true,
+    "groupoid_square_product_K": true,
+    "QK_distinct_Q0": true,
+    "K_mod2_identity": true,
+    "relative_2cell_boundary_equals_deck_edge": true,
+    "relative_2cell_closed_after_deck_inverse": true,
+    "edge_congruence_0": true,
+    "Ad_local_system_0": true,
+    "edge_congruence_1": true,
+    "Ad_local_system_1": true,
+    "edge_congruence_2": true,
+    "Ad_local_system_2": true,
+    "edge_congruence_3": true,
+    "Ad_local_system_3": true,
+    "edge_congruence_4": true,
+    "Ad_local_system_4": true,
+    "edge_congruence_5": true,
+    "Ad_local_system_5": true,
+    "edge_congruence_6": true,
+    "Ad_local_system_6": true,
+    "edge_congruence_7": true,
+    "Ad_local_system_7": true,
+    "edge_congruence_8": true,
+    "Ad_local_system_8": true,
+    "edge_congruence_9": true,
+    "Ad_local_system_9": true,
+    "edge_congruence_10": true,
+    "Ad_local_system_10": true,
+    "edge_congruence_11": true,
+    "Ad_local_system_11": true,
+    "edge_congruence_12": true,
+    "Ad_local_system_12": true,
+    "edge_congruence_13": true,
+    "Ad_local_system_13": true,
+    "edge_congruence_14": true,
+    "Ad_local_system_14": true,
+    "Binet_cone_torsor_congruence_identity": true,
+    "v29_square_period_nonzero": true,
+    "deck_curvature_cancels_relative_2cell": true,
+    "expJ_Lorentz_rotation": true,
+    "expJ_det_one": true,
+    "expJ_derivative_is_J": true
+  },
+  "mixed_relations": {
+    "primary_source": "Selling 1877, second part, pp. 193-194 (Numdam PDF pp. 41-42): Gamma, Delta are displayed and the transformations are stated to admit an all-transformations/once-only grammar built from E, Gamma^g Delta^d T^t U^u; pp. 191-193 define T,U,V,W and TU=UT.",
+    "source_derived_matrix_relations": {
+      "R_Gamma": "R Gamma = Gamma R",
+      "S_H": "S H = H S, H=Gamma Delta",
+      "T_VGamma": "[T,V Gamma]=1",
+      "U_WGammaDelta": "[U,W Gamma Delta]=1"
+    },
+    "tietze_generators": {
+      "a": "V Gamma",
+      "b": "W Gamma Delta",
+      "g": "Gamma",
+      "h": "Gamma Delta",
+      "t": "T",
+      "u": "U"
+    },
+    "presentation": "right-angled Coxeter group W(C6)",
+    "cycle_order": [
+      "a",
+      "h",
+      "g",
+      "b",
+      "u",
+      "t"
+    ],
+    "commutation_edges": [
+      [
+        "a",
+        "h"
+      ],
+      [
+        "h",
+        "g"
+      ],
+      [
+        "g",
+        "b"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "t",
+        "a"
+      ]
+    ],
+    "normal_form": "standard graph-product/RACG shortlex normal form; unique modulo only the declared commuting swaps and involution cancellations",
+    "finite_sanity_words_length_le_5": 9331,
+    "scope": "PROVEN_FOR_THE_DECLARED_Q0/FIGURE-1 HISTORICAL BRANCH; not promoted to a universal formula for all indefinite ternary forms."
+  },
+  "H1": {
+    "generator_order": [
+      "V",
+      "W",
+      "Gamma",
+      "Delta",
+      "T",
+      "U"
+    ],
+    "basis_so12": [
+      "Ky",
+      "Kz",
+      "J"
+    ],
+    "scalar_Binet": {
+      "D0_rank": 1,
+      "D1_rank": 4,
+      "H1_dimension": 1,
+      "representative_V_W_Gamma_Delta_T_U": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "interpretation": "one scalar twisted class survives; W is forced to zero, while V can be completed by equal T/U values."
+    },
+    "adjoint": {
+      "D0_rank": 3,
+      "D1_rank": 12,
+      "H1_dimension": 3,
+      "v33_pure_VW_classes": "NO_LONGER_CLOSED_AFTER_MIXED_RELATIONS",
+      "H1_representatives": [
+        [
+          "-2*sqrt(15)/3",
+          "-2*sqrt(3)",
+          "-3",
+          "4*sqrt(15)",
+          "4*sqrt(3)",
+          "-15",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "-15",
+          "3*sqrt(5)",
+          "4*sqrt(15)",
+          "1",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "sqrt(5)",
+          "-3",
+          "-2*sqrt(3)",
+          "0",
+          "-1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "universal_VW_extension": {
+      "input": "c(V)=alpha Ky, c(W)=beta Kz",
+      "one_closed_extension_UJ_zero": [
+        "alpha",
+        "0",
+        "0",
+        "0",
+        "beta",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-3*alpha/2",
+        "3*sqrt(5)*alpha/10 + 2*beta/5",
+        "2*sqrt(15)*alpha/5 + sqrt(3)*beta/5",
+        "-sqrt(5)*beta/10",
+        "-beta/2",
+        "0"
+      ],
+      "one_parameter_phase_direction": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2*sqrt(3)/5",
+        "3/5",
+        "-4*sqrt(15)/15",
+        "0",
+        "1"
+      ],
+      "family": "ext0 + lambda * phase",
+      "consequence": "the historical V/W boost pair and the two-channel memory amplitudes admit adjoint-valued globalizations, but not as the old pure V/W cocycles."
+    }
+  },
+  "groupoid": {
+    "definition": {
+      "objects": "all source/comparison-reached Lorentzian forms Q_A=A^T Q0 A",
+      "morphisms": "integer matrices M with Q_target=M^T Q_source M",
+      "composition": "matrix multiplication along composable congruence arrows",
+      "scope": "infinite orbit groupoid definition; finite witness sub-groupoid materialized below"
+    },
+    "objects": {
+      "R0": {
+        "chart": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "R1": {
+        "chart": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            0,
+            12
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            12,
+            0,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "R2": {
+        "chart": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            43,
+            0,
+            19
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            19,
+            0,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "R3": {
+        "chart": [
+          [
+            -3,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -2,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            88,
+            0,
+            -26
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -26,
+            0,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "R4": {
+        "chart": [
+          [
+            -4,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -3,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            147,
+            0,
+            -33
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -33,
+            0,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "R5": {
+        "chart": [
+          [
+            -4,
+            0,
+            5
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -3,
+            0,
+            4
+          ]
+        ],
+        "Q": [
+          [
+            147,
+            0,
+            -180
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -180,
+            0,
+            220
+          ]
+        ],
+        "det_Q": 60
+      },
+      "S0": {
+        "chart": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "S1": {
+        "chart": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            11,
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "S2": {
+        "chart": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            -1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "Q": [
+          [
+            11,
+            -10,
+            0
+          ],
+          [
+            -10,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "S3": {
+        "chart": [
+          [
+            -2,
+            1,
+            0
+          ],
+          [
+            -3,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "Q": [
+          [
+            39,
+            -18,
+            0
+          ],
+          [
+            -18,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "K0": {
+        "chart": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "K1": {
+        "chart": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            0,
+            -12
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -12,
+            0,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "K2": {
+        "chart": [
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            -12,
+            12
+          ],
+          [
+            -12,
+            11,
+            -12
+          ],
+          [
+            12,
+            -12,
+            7
+          ]
+        ],
+        "det_Q": 60
+      },
+      "K3": {
+        "chart": [
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            12,
+            -24
+          ],
+          [
+            12,
+            11,
+            -24
+          ],
+          [
+            -24,
+            -24,
+            43
+          ]
+        ],
+        "det_Q": 60
+      },
+      "K4": {
+        "chart": [
+          [
+            1,
+            -2,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            12,
+            -24,
+            24
+          ],
+          [
+            -24,
+            47,
+            -48
+          ],
+          [
+            24,
+            -48,
+            43
+          ]
+        ],
+        "det_Q": 60
+      },
+      "P1": {
+        "chart": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "Q": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            -4,
+            0
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        "det_Q": 60
+      },
+      "Q1": {
+        "chart": [
+          [
+            2,
+            0,
+            5
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            8
+          ]
+        ],
+        "Q": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -20
+          ]
+        ],
+        "det_Q": 60
+      }
+    },
+    "edges": [
+      {
+        "source": "R0",
+        "target": "R1",
+        "label": "R1",
+        "matrix": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R1",
+        "target": "R2",
+        "label": "R2",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R2",
+        "target": "R3",
+        "label": "R3",
+        "matrix": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R3",
+        "target": "R4",
+        "label": "R4",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R4",
+        "target": "R5",
+        "label": "R5",
+        "matrix": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "S0",
+        "target": "S1",
+        "label": "S1p",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "S1",
+        "target": "S2",
+        "label": "S2p",
+        "matrix": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "source": "S2",
+        "target": "S3",
+        "label": "S3p",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "K0",
+        "target": "K1",
+        "label": "v29_S1",
+        "matrix": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "K1",
+        "target": "K2",
+        "label": "v29_S2",
+        "matrix": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "K2",
+        "target": "K3",
+        "label": "v29_S1",
+        "matrix": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "K3",
+        "target": "K4",
+        "label": "v29_S2",
+        "matrix": [
+          [
+            -1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R0",
+        "target": "P1",
+        "label": "P",
+        "matrix": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "source": "R0",
+        "target": "Q1",
+        "label": "Q",
+        "matrix": [
+          [
+            2,
+            0,
+            5
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "source": "K0",
+        "target": "K4",
+        "label": "kappa_12_deck",
+        "matrix": [
+          [
+            1,
+            -2,
+            2
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "v29_square": {
+      "word": [
+        "S1",
+        "S2",
+        "S1",
+        "S2"
+      ],
+      "K12": [
+        [
+          1,
+          -2,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "QK": [
+        [
+          12,
+          -24,
+          24
+        ],
+        [
+          -24,
+          47,
+          -48
+        ],
+        [
+          24,
+          -48,
+          43
+        ]
+      ],
+      "strict_one_object_comparator": "REFUTED because QK != Q0",
+      "deck_relative_comparator": "PROVEN: the lifted four-edge path is exactly the deck arrow kappa_12:Q0->QK; adjoining its inverse produces a closed bigon 2-cell.",
+      "twisted_square_period": -0.7231006823013386,
+      "curvature_assignment": "assign the same period to kappa_12; the augmented 2-cell has zero relative defect."
+    },
+    "local_systems": {
+      "Binet": "time-cone component torsor Pi0({x:Q(x)>0}); congruence arrows induce bijections; the associated sign line is the memory coefficient system.",
+      "adjoint": "fiber so(Q); M:Q->Qprime transports X by M^{-1} X M."
+    }
+  },
+  "phase_test": {
+    "compact_subgroup": "exp(theta J) in SO(2) subset SO^+(1,2)",
+    "typed_U1_binder": "sigma_J(exp(theta J)) = exp(i theta), after the declared orientation binder J -> +i",
+    "group_status": "PROVEN_ISOMORPHISM_OF_ABSTRACT_COMPACT_LIE_GROUPS_AFTER_ORIENTATION_CHOICE",
+    "orientation_ambiguity": "without the binder there are two inverse choices theta -> +/- theta",
+    "de_Broglie_phase": "Phi_dB=S/hbar; stored phase-fibre documents use exp(i Phi) but supply no source-exact map S(Q,word) from Selling data to physical action",
+    "physical_synchronization": "SEPARATED/PENDING-MORPHISM; no identification theta=Phi_dB is promoted",
+    "cohomological_note": "the completed adjoint H1 contains a nonexact phase-direction cocycle with J-components on T/U; this is a mathematical phase candidate, not a physical de Broglie clock."
+  },
+  "context": {
+    "Cube27": "SEPARATED/CONTEXTUAL: its multi-object/barycentric and equivariance methodology motivates the lift-groupoid discipline, but no functor to the Selling C6 RACG, Binet torsor, or so(1,2) carrier is constructed.",
+    "rank3_guard": "so(1,2) dimension 3 is not identified with Z/3, C3, 27=3^3, or Cube27 3-local torsion.",
+    "Lorentz": "exact mathematical O(1,2)/so(1,2) representation retained; spacetime dynamics remain SEPARATED."
+  },
+  "decisions": {
+    "source_mixed_relations_T_U": "PROVEN_DERIVED_EXACTLY_FROM_SOURCE_MATRICES_AND_SOURCE_NORMAL_FORM",
+    "historical_Q0_presentation": "PROVEN_AS_RACG_C6_FOR_DECLARED_FIGURE1_BRANCH",
+    "rewrite_completeness_confluence": "PROVEN_BY_RACG_GRAPH_PRODUCT_NORMAL_FORM_PLUS_SELLING_ONCE_ONLY_SOURCE_GRAMMAR",
+    "scalar_Binet_H1": "DIMENSION_1; W_SCALAR_CLASS_KILLED",
+    "adjoint_H1": "DIMENSION_3; PURE_V_W_CLASSES_KILLED_BUT_UNIVERSAL_CORRECTED_EXTENSION_EXISTS",
+    "multiobject_integer_lift_groupoid": "PROVEN_CONSTRUCTED_AS_ORBIT_GROUPOID_WITH_FINITE_WITNESS",
+    "strict_v29_2cell_comparator": "REFUTED_INTRINSICALLY_AT_Q0",
+    "deck_relative_v29_2cell_comparator": "PROVEN_FOR_THE_DIAGNOSTIC_SQUARE",
+    "Binet_and_Ad_local_systems_on_groupoid": "PROVEN_FUNCTORIAL_BY_CONGRUENCE",
+    "SO2_to_U1_phase_binder": "PROVEN_AFTER_ORIENTATION_CHOICE",
+    "physical_deBroglie_synchronization": "SEPARATED_PENDING_ACTION_PHASE_MORPHISM",
+    "Cube27_merge": "SEPARATED"
+  },
+  "safe_successor": "v35 -- retain the v34 C6 right-angled Coxeter presentation for the declared Selling Q0 branch, the H1 reductions (scalar Binet dimension 1 and adjoint dimension 3), the universal corrected V/W adjoint extension and its nonexact phase direction, and the multi-object orbit groupoid with deck-relative v29 square comparator; extend the source extraction to the neighbouring Selling examples and determine whether their distinct once-only grammars glue to a common complex-of-groups or require form-dependent presentation charts; enumerate a generating family of v29 relator/deck defects beyond the single diagnostic square and test the cocycle/curvature identities among them; compute groupoid H1/H2 for the Binet sign line and adjoint so(Q) local systems on a finite fundamental chart if source finiteness modulo repetition supplies one; and only then seek a source-derived action/phase functional that could select the sign/orientation and scale of the abstract SO(2)->U(1) binder, while Lorentz spacetime dynamics, de Broglie physics and Cube27 remain separated absent explicit morphisms."
+}

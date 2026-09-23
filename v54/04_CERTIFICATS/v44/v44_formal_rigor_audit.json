@@ -1,0 +1,93 @@
+{
+  "version": "v44",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v43 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "page 210 right-border overflow",
+      "status": "PASS_FIXED",
+      "basis": "breakable path tokens + explicit line break; final page 210 rendered inside text border"
+    },
+    {
+      "object": "Selling/BSB historical six-axis C2 action",
+      "status": "NT_PROTOCOL_PROVEN",
+      "basis": "source-semantic six axes/centres known; no raster assignment yet; explicit certification protocol materialized"
+    },
+    {
+      "object": "89-node C2 census",
+      "status": "NOT_ACTIVATED_FAIL_CLOSED",
+      "basis": "historical C2 action not yet materialized on diagnostic nodes"
+    },
+    {
+      "object": "strict R5-Gamma 16-to-16 incidence adapter",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "v43 graph invariants mismatch"
+    },
+    {
+      "object": "minimal sequential three-relator Peiffer census",
+      "status": "PROVEN_248_OF_248_ABSORBED",
+      "basis": "150896 triples, 53572 residual groups, 248 disconnected comparison cycles, all in M43"
+    },
+    {
+      "object": "new group-ring directions from declared triple census",
+      "status": "ZERO",
+      "basis": "all 248 exact cycles absorbed by M43"
+    },
+    {
+      "object": "relations among 18 second syzygies",
+      "status": "PROVEN_2_PERIODIC_TAILS",
+      "basis": "ker d5 = direct sum R(1-g_i)h_i; next map alternates 1-g_i and 1+g_i"
+    },
+    {
+      "object": "new 5-cell attachments",
+      "status": "PROVEN_18",
+      "basis": "d5 h_i=(1+g_i)f_i"
+    },
+    {
+      "object": "new 6-syzygy directions",
+      "status": "PROVEN_18",
+      "basis": "(1-g_i)h_i with g_i^2=1"
+    },
+    {
+      "object": "complete Gamma3 group-ring resolution",
+      "status": "NT",
+      "basis": "finite-character residual minimum dimension 14 retained and higher identities not exhausted"
+    },
+    {
+      "object": "nonzero injection from current unpointed Selling scalar mark to orientation line",
+      "status": "REFUTED-TYPED",
+      "basis": "Gamma equivariance with target sign action forces i(x)=-i(x), hence zero in characteristic 0"
+    },
+    {
+      "object": "Singer-framed odd pseudoscalar injection",
+      "status": "SEPARATED/NT/PENDING-MORPHISM",
+      "basis": "requires source-native L, transported Singer framing, identification of inversion with historical Gamma, and face/path compatibility"
+    },
+    {
+      "object": "historical Selling cell complex required for H1/H2",
+      "status": "PROVEN_REQUIREMENT_SCHEMA",
+      "basis": "C0/C1/C2, repetitions, stabilizers, local-system transports and F29 fillings explicitly enumerated"
+    },
+    {
+      "object": "historical H1/H2",
+      "status": "NT_NOT_RECOMPUTED",
+      "basis": "0/1/2 cell gates remain open"
+    },
+    {
+      "object": "Lorentz orientation",
+      "status": "NT",
+      "basis": "no historical odd source mark injected"
+    },
+    {
+      "object": "roof reversal versus transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "inherited involution cycle-type no-go"
+    },
+    {
+      "object": "physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no source-equivariant physical phase map"
+    }
+  ],
+  "conclusion": "v44 fixes the page-210 layout defect, materializes a source-certified acquisition protocol for the Selling C2 action and the complete data schema required for historical H1/H2, closes the declared minimal sequential triple Peiffer census modulo M43, and extends each of the 18 order-two sectors by an exact 2-periodic 5/6-cell tail without claiming a complete resolution."
+}

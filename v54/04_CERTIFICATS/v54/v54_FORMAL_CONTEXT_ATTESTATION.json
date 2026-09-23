@@ -1,0 +1,13 @@
+{
+  "HTNT": "PASS/REFUTED/NT/ZERO/SEPARATED append-only",
+  "document_count": 9,
+  "inherited_from": "v53",
+  "separations_retained": [
+    "Selling 3D->5D CONTEXT/PENDING-MORPHISM",
+    "R2PURE13 complete 2-cell adapter SEPARATED/PENDING-MORPHISM",
+    "Fig2 absolute S/Phi binding NT",
+    "Fig3 89/91 NOT-PROPAGATED"
+  ],
+  "status": "PASS-FORMAL-CONTEXT-LOCK-INHERITED-AND-EXTENDED",
+  "version": "v54"
+}

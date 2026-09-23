@@ -1,0 +1,16 @@
+{
+  "version": "v50",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "predecessor": "v49 CLOSED/APPEND-ONLY",
+  "new_result": "projective marking torsors on Q2 ordinary arcs collapse to unique transport classes; exact 4-face local patch Q/H/M/G constructed",
+  "local_counts": {
+    "C0": 7,
+    "C1": 10,
+    "C2": 4,
+    "outer_boundary_edges": 6,
+    "euler_characteristic": 1
+  },
+  "global_gate": "OPEN",
+  "reason": "four distinct ordinary outgoing arcs remain; T/U quotient closure has not yet been reached or exact-certified",
+  "next_step": "implement factor-level exact boundary-arc classifier for transformed six-wall inequalities in the global Q2 projective chart; expand only certified ordinary arcs; quotient paths only by exact T/U left action plus target superbase relabelling/projective sign."
+}

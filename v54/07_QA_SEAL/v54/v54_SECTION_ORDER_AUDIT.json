@@ -1,0 +1,26 @@
+{
+  "bibliography_physically_final": true,
+  "pdf_pages_by_heading": {
+    "Certification HT+NT du présent formalisme": [
+      13,
+      269
+    ],
+    "Conclusion": [
+      13,
+      244,
+      272
+    ],
+    "Références documentaires du corpus": [
+      13,
+      276
+    ],
+    "v54 : fermeture du moteur Selling": [
+      13,
+      266
+    ]
+  },
+  "status": "PASS",
+  "v54_before_certification": true,
+  "v54_printed_page": 266,
+  "version": "v54"
+}

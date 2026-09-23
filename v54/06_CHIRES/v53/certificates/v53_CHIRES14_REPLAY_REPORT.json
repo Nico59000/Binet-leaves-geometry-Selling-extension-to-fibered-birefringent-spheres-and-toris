@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "transport_order": "left multiplication h*p; relator-major then B5-class-major variable enumeration",
+  "b5_mod8_classes": 22240,
+  "relators": 43,
+  "fox_terms_total": 198,
+  "raw_equations": 956320,
+  "raw_variables": 747196,
+  "raw_incidence": 4403520,
+  "target_equations": 22240,
+  "raw_solution_weight": 121219,
+  "raw_verification_failures": 0,
+  "target_verification_failures": 0,
+  "nontarget_verification_failures": 0,
+  "degree_one_peeling": {
+    "peeled_equations": 99368,
+    "core_equations": 856952,
+    "core_variables": 465651,
+    "core_incidence": 3528672,
+    "core_rhs_one": 44,
+    "min_active_degree": 2,
+    "max_active_degree": 22
+  },
+  "decision": "PROVEN-GLOBAL-MOD8-DUAL-OBSTRUCTION / CHIRES14-RADIUS<=5-REFUTED-TYPED"
+}

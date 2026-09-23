@@ -1,0 +1,973 @@
+{
+  "adapters": {
+    "Fig2": {
+      "adapter_kind": "SOURCE-SPECIFIC-REGION/CYCLE-ADAPTER",
+      "imports_Fig1": false,
+      "numeric_seed_matrix": "NT-NOT-SUPPLIED-BY-LOCAL-RECIPE",
+      "object_map": {
+        "Fig2:C3": "SellCommon:Fig2:C3",
+        "Fig2:M2_0": "SellCommon:Fig2:M2_0",
+        "Fig2:M2_1": "SellCommon:Fig2:M2_1",
+        "Fig2:M2_2": "SellCommon:Fig2:M2_2",
+        "Fig2:M2_3": "SellCommon:Fig2:M2_3",
+        "Fig2:M2_4": "SellCommon:Fig2:M2_4",
+        "Fig2:O1_0": "SellCommon:Fig2:O1_0",
+        "Fig2:O1_1": "SellCommon:Fig2:O1_1",
+        "Fig2:O1_2": "SellCommon:Fig2:O1_2",
+        "Fig2:O1_3": "SellCommon:Fig2:O1_3",
+        "Fig2:O1_4": "SellCommon:Fig2:O1_4"
+      },
+      "source_artifact": "selling_fig2_local_compiler_v52.json"
+    },
+    "Fig3": {
+      "adapter_kind": "FIGURE-SPECIFIC-NAMESPACED-LOCAL-ADAPTER",
+      "imports_Fig1": false,
+      "numeric_seed_matrix": "NT-UNLESS-EXPLICITLY-PRESENT-IN-SOURCE-RECIPE",
+      "object_map": {
+        "Fig3:A": "SellCommon:Fig3:A",
+        "Fig3:B": "SellCommon:Fig3:B",
+        "Fig3:C": "SellCommon:Fig3:C",
+        "Fig3:D": "SellCommon:Fig3:D",
+        "Fig3:E": "SellCommon:Fig3:E",
+        "Fig3:F": "SellCommon:Fig3:F",
+        "Fig3:L": "SellCommon:Fig3:L",
+        "Fig3:R": "SellCommon:Fig3:R"
+      },
+      "source_artifact": "selling_fig3_6_typed_fusion_v52.json"
+    },
+    "Fig4": {
+      "adapter_kind": "FIGURE-SPECIFIC-NAMESPACED-LOCAL-ADAPTER",
+      "imports_Fig1": false,
+      "numeric_seed_matrix": "NT-UNLESS-EXPLICITLY-PRESENT-IN-SOURCE-RECIPE",
+      "object_map": {
+        "Fig4:A": "SellCommon:Fig4:A",
+        "Fig4:B": "SellCommon:Fig4:B",
+        "Fig4:BASE": "SellCommon:Fig4:BASE",
+        "Fig4:L": "SellCommon:Fig4:L",
+        "Fig4:T": "SellCommon:Fig4:T"
+      },
+      "source_artifact": "selling_fig3_6_typed_fusion_v52.json"
+    },
+    "Fig5": {
+      "adapter_kind": "FIGURE-SPECIFIC-NAMESPACED-LOCAL-ADAPTER",
+      "imports_Fig1": false,
+      "numeric_seed_matrix": "NT-UNLESS-EXPLICITLY-PRESENT-IN-SOURCE-RECIPE",
+      "object_map": {
+        "Fig5:Cbot": "SellCommon:Fig5:Cbot",
+        "Fig5:Cmid": "SellCommon:Fig5:Cmid",
+        "Fig5:Ctop": "SellCommon:Fig5:Ctop",
+        "Fig5:Lbot": "SellCommon:Fig5:Lbot",
+        "Fig5:Ltop": "SellCommon:Fig5:Ltop",
+        "Fig5:Rbot": "SellCommon:Fig5:Rbot",
+        "Fig5:Rmid": "SellCommon:Fig5:Rmid",
+        "Fig5:Rtop": "SellCommon:Fig5:Rtop",
+        "Fig5:T": "SellCommon:Fig5:T"
+      },
+      "source_artifact": "selling_fig3_6_typed_fusion_v52.json"
+    },
+    "Fig6": {
+      "adapter_kind": "FIGURE-SPECIFIC-NAMESPACED-LOCAL-ADAPTER",
+      "imports_Fig1": false,
+      "numeric_seed_matrix": "NT-UNLESS-EXPLICITLY-PRESENT-IN-SOURCE-RECIPE",
+      "object_map": {
+        "Fig6:A12": "SellCommon:Fig6:A12",
+        "Fig6:A16": "SellCommon:Fig6:A16",
+        "Fig6:A24": "SellCommon:Fig6:A24",
+        "Fig6:A47": "SellCommon:Fig6:A47",
+        "Fig6:A78": "SellCommon:Fig6:A78",
+        "Fig6:A8": "SellCommon:Fig6:A8",
+        "Fig6:REG10": "SellCommon:Fig6:REG10",
+        "Fig6:REG11": "SellCommon:Fig6:REG11",
+        "Fig6:REG19": "SellCommon:Fig6:REG19"
+      },
+      "source_artifact": "selling_fig3_6_typed_fusion_v52.json"
+    }
+  },
+  "checks": {
+    "all_endpoints_exist": true,
+    "all_five_adapters": true,
+    "all_provenance_present": true,
+    "fig2_source_compiler_pass": true,
+    "fig36_source_fusion_pass": true,
+    "morphism_count_43": true,
+    "morphism_ids_unique": true,
+    "no_cross_figure_morphisms": true,
+    "no_fig1_import": true,
+    "numeric_seed_gap_typed": true,
+    "object_count_42": true,
+    "object_ids_unique": true,
+    "ordered_structures_3": true
+  },
+  "coincident_literal_labels": [
+    {
+      "label": "3/7",
+      "objects": [
+        "SellCommon:Fig3:C",
+        "SellCommon:Fig5:Rtop"
+      ],
+      "status": "SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION"
+    },
+    {
+      "label": "2/7",
+      "objects": [
+        "SellCommon:Fig3:E",
+        "SellCommon:Fig4:B",
+        "SellCommon:Fig5:Rmid"
+      ],
+      "status": "SEPARATED/NO-CROSS-FIGURE-IDENTIFICATION"
+    }
+  ],
+  "decision": "PASS",
+  "engine": {
+    "category_model": "FREE-CATEGORY-ON-TYPED-GENERATING-GRAPH-WITH-ORDERED-STRUCTURE-METADATA",
+    "guard": "This is a common typed incidence engine, not a numerical Selling reduction engine. No seed matrix, wall word, GL(3) map, or cross-figure identity is inferred unless explicitly supplied by a figure-specific adapter.",
+    "id": "SELLING-COMMON-TYPED-INCIDENCE-ENGINE-v53",
+    "morphism_sorts": [
+      "BOUNDARY-INCIDENCE",
+      "ADJACENCY",
+      "CYCLIC-SUCCESSOR"
+    ],
+    "object_sorts": [
+      "REGION-LABEL",
+      "RATIONAL-ANCHOR",
+      "TUPLE-ANCHOR",
+      "UNLABELLED-JUNCTION",
+      "SOURCE-LABEL"
+    ]
+  },
+  "morphism_count": 43,
+  "morphisms": [
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m0",
+      "morphism_type": "CYCLIC-SUCCESSOR",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_0",
+      "style": "cyclic",
+      "target": "SellCommon:Fig2:M2_1"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m1",
+      "morphism_type": "CYCLIC-SUCCESSOR",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_1",
+      "style": "cyclic",
+      "target": "SellCommon:Fig2:M2_2"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m2",
+      "morphism_type": "CYCLIC-SUCCESSOR",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_2",
+      "style": "cyclic",
+      "target": "SellCommon:Fig2:M2_3"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m3",
+      "morphism_type": "CYCLIC-SUCCESSOR",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_3",
+      "style": "cyclic",
+      "target": "SellCommon:Fig2:M2_4"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m4",
+      "morphism_type": "CYCLIC-SUCCESSOR",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_4",
+      "style": "cyclic",
+      "target": "SellCommon:Fig2:M2_0"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m5",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:C3",
+      "style": "central-adjacency",
+      "target": "SellCommon:Fig2:M2_0"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m6",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:C3",
+      "style": "central-adjacency",
+      "target": "SellCommon:Fig2:M2_1"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m7",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:C3",
+      "style": "central-adjacency",
+      "target": "SellCommon:Fig2:M2_2"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m8",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:C3",
+      "style": "central-adjacency",
+      "target": "SellCommon:Fig2:M2_3"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m9",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:C3",
+      "style": "central-adjacency",
+      "target": "SellCommon:Fig2:M2_4"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m10",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_0",
+      "style": "outer-adjacency",
+      "target": "SellCommon:Fig2:O1_0"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m11",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_1",
+      "style": "outer-adjacency",
+      "target": "SellCommon:Fig2:O1_1"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m12",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_2",
+      "style": "outer-adjacency",
+      "target": "SellCommon:Fig2:O1_2"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m13",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_3",
+      "style": "outer-adjacency",
+      "target": "SellCommon:Fig2:O1_3"
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:m14",
+      "morphism_type": "ADJACENCY",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source": "SellCommon:Fig2:M2_4",
+      "style": "outer-adjacency",
+      "target": "SellCommon:Fig2:O1_4"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m0",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:A",
+      "style": "wavy",
+      "target": "SellCommon:Fig3:B"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m1",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:A",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:C"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m2",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:C",
+      "style": "wavy",
+      "target": "SellCommon:Fig3:D"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m3",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:B",
+      "style": "solid",
+      "target": "SellCommon:Fig3:D"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m4",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:D",
+      "style": "wavy",
+      "target": "SellCommon:Fig3:E"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m5",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:D",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:F"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m6",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:E",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:F"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m7",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:D",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:R"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m8",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:F",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:R"
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:m9",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig3:L",
+      "style": "dotted",
+      "target": "SellCommon:Fig3:E"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m10",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:A",
+      "style": "wavy",
+      "target": "SellCommon:Fig4:B"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m11",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:L",
+      "style": "dotted",
+      "target": "SellCommon:Fig4:A"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m12",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:A",
+      "style": "dotted",
+      "target": "SellCommon:Fig4:T"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m13",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:T",
+      "style": "dotted",
+      "target": "SellCommon:Fig4:B"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m14",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:A",
+      "style": "solid",
+      "target": "SellCommon:Fig4:BASE"
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:m15",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig4:B",
+      "style": "dotted",
+      "target": "SellCommon:Fig4:BASE"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m16",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Ltop",
+      "style": "solid-diagonal",
+      "target": "SellCommon:Fig5:Cmid"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m17",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Ltop",
+      "style": "dotted-column",
+      "target": "SellCommon:Fig5:Lbot"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m18",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Ctop",
+      "style": "wavy",
+      "target": "SellCommon:Fig5:Cmid"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m19",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Cmid",
+      "style": "solid-column",
+      "target": "SellCommon:Fig5:Cbot"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m20",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Rtop",
+      "style": "dotted-column",
+      "target": "SellCommon:Fig5:Rmid"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m21",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Rmid",
+      "style": "dotted-column",
+      "target": "SellCommon:Fig5:Rbot"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m22",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Ctop",
+      "style": "wavy",
+      "target": "SellCommon:Fig5:Rtop"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m23",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Cmid",
+      "style": "wavy",
+      "target": "SellCommon:Fig5:Rmid"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m24",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Lbot",
+      "style": "dotted",
+      "target": "SellCommon:Fig5:Cbot"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m25",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Cbot",
+      "style": "dotted",
+      "target": "SellCommon:Fig5:Rbot"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m26",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Ctop",
+      "style": "solid/dotted-continuation",
+      "target": "SellCommon:Fig5:T"
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:m27",
+      "morphism_type": "BOUNDARY-INCIDENCE",
+      "provenance": "LOCAL-COMPILER",
+      "source": "SellCommon:Fig5:Rtop",
+      "style": "dotted",
+      "target": "SellCommon:Fig5:T"
+    }
+  ],
+  "object_count": 42,
+  "objects": [
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:C3",
+      "label": "3",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:C3",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:M2_0",
+      "label": "2",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:M2_0",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:M2_1",
+      "label": "2",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:M2_1",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:M2_2",
+      "label": "2",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:M2_2",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:M2_3",
+      "label": "2",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:M2_3",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:M2_4",
+      "label": "2",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:M2_4",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:O1_0",
+      "label": "1",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:O1_0",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:O1_1",
+      "label": "1",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:O1_1",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:O1_2",
+      "label": "1",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:O1_2",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:O1_3",
+      "label": "1",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:O1_3",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig2",
+      "id": "SellCommon:Fig2:O1_4",
+      "label": "1",
+      "object_type": "REGION-LABEL",
+      "provenance": "selling_fig2_local_compiler_v52.json",
+      "source_id": "Fig2:O1_4",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:A",
+      "label": "3/3",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:A",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:B",
+      "label": "1/3",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:B",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:C",
+      "label": "3/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:C",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:D",
+      "label": "UNLABELLED-JUNCTION",
+      "object_type": "UNLABELLED-JUNCTION",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:D",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:E",
+      "label": "2/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:E",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:F",
+      "label": "2/5",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:F",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:L",
+      "label": "(11,1,-1)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:L",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig3",
+      "id": "SellCommon:Fig3:R",
+      "label": "(1,2,5)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig3:R",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:L",
+      "label": "(1,2,-2)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig4:L",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:A",
+      "label": "1/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig4:A",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:B",
+      "label": "2/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig4:B",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:T",
+      "label": "(3,-1,-1)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig4:T",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig4",
+      "id": "SellCommon:Fig4:BASE",
+      "label": "UNLABELLED-BASE",
+      "object_type": "UNLABELLED-JUNCTION",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig4:BASE",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Ltop",
+      "label": "1/12",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Ltop",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Ctop",
+      "label": "UNLABELLED",
+      "object_type": "UNLABELLED-JUNCTION",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Ctop",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Rtop",
+      "label": "3/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Rtop",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Cmid",
+      "label": "UNLABELLED",
+      "object_type": "UNLABELLED-JUNCTION",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Cmid",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Rmid",
+      "label": "2/7",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Rmid",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Lbot",
+      "label": "(1,-2,-15)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Lbot",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Cbot",
+      "label": "1/13",
+      "object_type": "RATIONAL-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Cbot",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:Rbot",
+      "label": "(2,-1,-15)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:Rbot",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig5",
+      "id": "SellCommon:Fig5:T",
+      "label": "(3,1,10)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig5:T",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A47",
+      "label": "(1,-1,47)/(0,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A47",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A24",
+      "label": "(1,2,-24)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A24",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A16",
+      "label": "(1,-3,-16)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A16",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A12",
+      "label": "(1,-4,-12)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A12",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A8",
+      "label": "(1,-6,-8)/(1,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A8",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:A78",
+      "label": "(1,-7,8)/(3,0,0)",
+      "object_type": "TUPLE-ANCHOR",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:A78",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:REG10",
+      "label": "10",
+      "object_type": "REGION-LABEL",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:REG10",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:REG11",
+      "label": "11",
+      "object_type": "REGION-LABEL",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:REG11",
+      "source_specific_recipe": true
+    },
+    {
+      "figure": "Fig6",
+      "id": "SellCommon:Fig6:REG19",
+      "label": "19",
+      "object_type": "REGION-LABEL",
+      "provenance": "SOURCE-DIRECT/LOCAL-COMPILER",
+      "source_id": "Fig6:REG19",
+      "source_specific_recipe": true
+    }
+  ],
+  "ordered_structure_count": 3,
+  "ordered_structures": [
+    {
+      "engine_role": "ORDERED-STRUCTURE/NOT-CROSS-FIGURE-IDENTIFICATION",
+      "figure": "Fig6",
+      "kind": "principal_nesting",
+      "provenance": "selling_fig6_planar_nesting_order_v52.json",
+      "sequence": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    {
+      "engine_role": "ORDERED-STRUCTURE/NOT-CROSS-FIGURE-IDENTIFICATION",
+      "figure": "Fig6",
+      "kind": "right_anchor_chain",
+      "provenance": "selling_fig6_planar_nesting_order_v52.json",
+      "sequence": [
+        "A47=(1,-1,47)/(0,0,0)",
+        "R11a=1/11",
+        "R11b=2/11",
+        "A24=(1,2,-24)/(1,0,0)",
+        "R15a=1/15",
+        "A16=(1,-3,-16)/(1,0,0)",
+        "REG10",
+        "9/5",
+        "3/5",
+        "3/15",
+        "A8=(1,-6,-8)/(1,0,0)",
+        "lower-3/15"
+      ]
+    },
+    {
+      "engine_role": "ORDERED-STRUCTURE/NOT-CROSS-FIGURE-IDENTIFICATION",
+      "figure": "Fig6",
+      "kind": "lower_left_cell_chain",
+      "provenance": "selling_fig6_planar_nesting_order_v52.json",
+      "sequence": [
+        "A12=(1,-4,-12)/(1,0,0)",
+        "left-2/15-upper",
+        "left-2/15-lower",
+        "REG11",
+        "A78=(1,-7,8)/(3,0,0)",
+        "REG19",
+        "R13=3/13"
+      ]
+    }
+  ],
+  "phase": "Selling-Fig2-6-common-typed-functor",
+  "retained_separations": {
+    "Fig1_to_Fig2_6": "SEPARATED-EXCEPT-SHARED-ENGINE-SCHEMA",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "Selling_Noether": "CONTEXT/PENDING-MORPHISM"
+  },
+  "source_hashes": {
+    "selling_fig2_local_compiler_v52.json": "0de137c938f598c7338e5e65aa4e7da7641ff06cb166f5d15cec6c5633078c5a",
+    "selling_fig3_6_typed_fusion_v52.json": "c77cf637aa19159c1ed6dd00c00646f880d6f925f18c66bb4ddbcebc2720b768"
+  },
+  "status": "PROVEN-EXPLICIT-COPRODUCT-FUNCTOR-FIG2-6/PROVENANCE-PRESERVED",
+  "version": "v53"
+}

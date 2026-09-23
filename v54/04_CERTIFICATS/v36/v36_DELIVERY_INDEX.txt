@@ -1,0 +1,28 @@
+v36 DELIVERY INDEX
+==================
+Status before post-seal replay: SEALED_CANDIDATE
+
+Core manuscript:
+- formalisation_feuillets_binet_birefringence_selling_polaire_v36.pdf
+- formalisation_feuillets_binet_birefringence_selling_polaire_v36.tex
+
+Verifier / certificate:
+- verify_selling_domain_roof_gamma3_v36.py
+- selling_domain_roof_gamma3_v36_certificate.json
+
+New mathematical carriers:
+- selling_q0_historical_domain_v36.json
+- selling_orbifold_H12_v36.json
+- selling_to_F29_functor_v36.json
+- gamma3_level2_relative_3cells_v36.json
+- roof_lambda_tw_shadow_v36.json
+- phase_gate_v36.json
+
+Audit / provenance:
+- v36_SOURCE_CONTEXT.json
+- v36_formal_rigor_audit.json
+- v36_pdf_preflight.txt
+- v36_SHA256SUMS.txt
+
+Replay dependencies are included for v35/v34.
+Fragmentation: NOT_TRIGGERED_BELOW_200MiB.

@@ -1,0 +1,258 @@
+{
+  "Fig2": {
+    "O1_to_2_or_3": "UNDECIDED",
+    "Phi_raster_species": "NT/TWO-DRAWN-SYMMETRY-SPECIES-NOT-DISAMBIGUATED",
+    "S_specific_raster_edge": "NT/NOT-UNIQUELY-BOUND",
+    "current_typed_raster_carrier": {
+      "all_objects_are_regions": true,
+      "clear_fraction_labels": [],
+      "clear_tuple_labels": [],
+      "interpretation": "D5-sized ambiguity on the current region carrier (5 rotations + 5 reflections).",
+      "label_and_relation_type_preserving_automorphism_group_order": 10,
+      "object_count": 11,
+      "object_types": [
+        "region"
+      ]
+    },
+    "point_level_binding_status": "REFUTED-TYPED-AS-UNIQUE-WITH-CURRENT-v52-REGION-CARRIER",
+    "required_enrichment": "Add a raster point/edge incidence carrier with certified coordinates or a primary-source absolute point anchor before promoting S/Phi or O1->2/3.",
+    "retained_source_points": {
+      "P0": {
+        "denominator_vector": [
+          1,
+          0,
+          0
+        ],
+        "numerator_vector": [
+          1,
+          0,
+          0
+        ],
+        "ratio": "2/2",
+        "status": "PROVEN-SOURCE-RASTER"
+      },
+      "P1": {
+        "denominator_vector": [
+          1,
+          0,
+          0
+        ],
+        "numerator_vector": [
+          1,
+          1,
+          0
+        ],
+        "ratio": "2/2",
+        "status": "PROVEN-SOURCE-RASTER"
+      },
+      "P2": {
+        "denominator_vector": [
+          3,
+          1,
+          -2
+        ],
+        "numerator_vector": [
+          4,
+          1,
+          6
+        ],
+        "ratio": "2/2",
+        "status": "PROVEN-SOURCE-DERIVED-BY-S"
+      }
+    },
+    "scope_guard": "No-go for uniqueness in the current typed v52 region carrier only; raw historical raster may still break symmetry after point-level enrichment."
+  },
+  "Fig3": {
+    "direct_raster_bound": "2/91",
+    "not_propagated": "89/91",
+    "retained_direct_raster_edges": [
+      "19 -k-> 19",
+      "19 -n-> 19"
+    ],
+    "root_class": 19,
+    "status": "RETAINED-MARKED-RASTER-BOUND/NO-SYMMETRY-PROPAGATION"
+  },
+  "Pascal_Noether_lane_A": {
+    "Noether_formula13": "0=g-2 s_vartheta^2+2(vartheta rho x)^2+(4/3)i Delta-(4/5)f a_rho^2-(8/5)f t",
+    "Pascal_relation": "0=20 Omega1+6 Omega2-3 Omega3+4 f C1-12 f C2-4 A Delta",
+    "bridge_artifact": "../v54_gate6_noether_laneA/v54_GATE6_PASCAL_NOETHER_TYPED_BRIDGE.json",
+    "candidate_census_status": "PROVEN-FINITE-12",
+    "exact_wrong_p46_coefficient": "OPEN/NT",
+    "literal_corrected_rho": "NOT-PROMOTED",
+    "ordered_relation_compatible_gauge": {
+      "basis_noether": [
+        "g",
+        "s_vartheta_sq",
+        "vartheta_rho_x_sq",
+        "f_a_rho_sq",
+        "f_t",
+        "i_Delta"
+      ],
+      "basis_pascal": [
+        "Omega1",
+        "Omega2",
+        "Omega3",
+        "fC1",
+        "fC2",
+        "A_Delta"
+      ],
+      "diag_noether_from_pascal": [
+        "20",
+        "-3",
+        "-3/2",
+        "-5",
+        "15/2",
+        "-3"
+      ],
+      "status": "CONDITIONAL-NOT-HISTORICAL-DICTIONARY"
+    },
+    "p_Pascal_to_rho_Noether": "PROVEN-PRIMARY-SOURCE",
+    "preferred_reading_source": "Noether_R823_Full_Cumulative_English_Workpass.pdf",
+    "previous_raw_section13_residual": "WITHDRAWN/NT-NORMALIZATION-MISALIGNMENT",
+    "rho_Noether_internal_definition": "rho = u_rho^2 = theta_nu^4 u_vartheta^2",
+    "termwise_historical_dictionary": "OPEN/NT",
+    "type_preserving_dictionary_candidates": 12
+  },
+  "Pascal_Noether_lane_B": {
+    "Q_primitive": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "figure_identification": "SEPARATED/NO-FIG1-6-IDENTIFICATION-WITHOUT-ADAPTER",
+    "hyperboloid": "x*y-z^2=1",
+    "positive_correspondent": "Qplus=2 vv^T-Q",
+    "positive_walls": {
+      "g": "2*y*z",
+      "h": "2*x*z",
+      "k": "2*x*y-2",
+      "l": "-2*x^2-2*x*z-2*x*y+2",
+      "m": "-2*y^2-2*y*z-2*x*y+2",
+      "n": "-1-2*z^2-2*y*z-2*x*z"
+    },
+    "raw_indefinite_six": [
+      0,
+      0,
+      2,
+      -2,
+      -2,
+      1
+    ],
+    "reduced_Qplus": "diag(2*x^2,2/x^2,1)",
+    "reduced_consequence": "k=2 z^2 <=0 => z=0, xy=1; hence g=h=k=0, l=-2x^2<0, m=-2/x^2<0, n=-1<0",
+    "status": "PROVEN-EXACT-REDUCTION-LOCUS/MULTIWALL-MIRROR-SEAM/NO-2D-OPEN-FIELD-INTERIOR",
+    "typing": "PASCAL-PRINTED-FAMILY/SOURCE-DERIVED-SPECIALIZATION"
+  },
+  "R2PURE_13": {
+    "B6": "NOT-OPENED",
+    "R3_faithful_matrix_group_ring_projection": {
+      "R3a1_123": {
+        "distinct_matrix_group_elements": 2,
+        "nonzero": true,
+        "nonzero_coefficients": [
+          1,
+          1
+        ],
+        "term_count": 2
+      },
+      "R3a2_123": {
+        "distinct_matrix_group_elements": 2,
+        "nonzero": true,
+        "nonzero_coefficients": [
+          1,
+          1
+        ],
+        "term_count": 2
+      },
+      "R3a3_123": {
+        "distinct_matrix_group_elements": 2,
+        "nonzero": true,
+        "nonzero_coefficients": [
+          -1,
+          1
+        ],
+        "term_count": 2
+      },
+      "R3a4_321": {
+        "distinct_matrix_group_elements": 2,
+        "nonzero": true,
+        "nonzero_coefficients": [
+          -1,
+          1
+        ],
+        "term_count": 2
+      }
+    },
+    "R3_relator_count": 4,
+    "R3_relators_in_support": [
+      "R3a1_123",
+      "R3a2_123",
+      "R3a3_123",
+      "R3a4_321"
+    ],
+    "R3_term_count": 8,
+    "exact_cycle_terms": 40,
+    "exact_relator_coordinates": 14,
+    "full_membership_in_M43": "NOT-DECIDED-BY-THIS-SEPARATOR",
+    "new_mixed_nonfree_higher_cell": "NOT-FOUND/OPEN-NT",
+    "periodic_tail_only_explanation": "REFUTED-TYPED",
+    "periodic_tail_relator_count": 10,
+    "periodic_tail_relators_in_support": [
+      "R1_F1^2",
+      "R1_F2^2",
+      "R1_F3^2",
+      "R2a_E12F1",
+      "R2a_E13F1",
+      "R2a_E32F3",
+      "R2b_E12F2",
+      "R2b_E13F3",
+      "R2b_E32F2",
+      "R2c_F1F3"
+    ],
+    "periodic_tail_term_count": 32,
+    "radius4": "NOT-OPENED",
+    "retained_radius3_additive_whiskering": "REFUTED-TYPED/FULL-COLUMN-RANK-17888-OF-17888-BOTH-SIDES",
+    "retained_v44_triple_Peiffer": "248/248 ABSORBED-BY-M43/ZERO-NEW-DIRECTION"
+  },
+  "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+  "closure_blockers": [
+    "Fig2: current typed region carrier has D5 ambiguity; point/edge incidence enrichment is required before absolute S/Phi binding.",
+    "Fig3: only 2/91 direct raster edges are bound; 89/91 remain not propagated.",
+    "Pascal/Noether lane A: 12 type-preserving term dictionaries remain; exact p46 numerical error is not localized.",
+    "R2PURE_13: periodic-tail-only explanation is refuted, but no genuinely new mixed/nonfree higher cell has been found."
+  ],
+  "gate": "Gate 6",
+  "gate6_status": "KEEP-OPEN",
+  "methodology": {
+    "HTNT": "PASS/REFUTED/NT/ZERO/SEPARATED append-only; internal/external evidence and carriers remain typed and separate",
+    "gate_policy": "ONE-PASS-ONE-GATE target restored: this artifact is Gate 6 itself, not a sub-gate",
+    "no_silent_promotion": true
+  },
+  "policy": "SAME-GATE-CONTINUATION/NO-SUBGATE",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "retained_closed_guards": {
+    "B6": "NOT-OPENED",
+    "r4": "NOT-OPENED"
+  },
+  "safe_continuation": [
+    "Pascal/Noether: use Pascal symbolic definitions, not coefficient matching, to eliminate the 12 termwise candidates; only then inspect the p46 coefficient.",
+    "Fig2: enrich the current region carrier by certified point/edge incidence from the historical raster; do not infer absolute orientation from D5 symmetry.",
+    "R2PURE_13: restrict higher-identity search to constructions engaging R3a1_123, R3a2_123, R3a3_123, R3a4_321; do not reopen exhausted periodic/additive lanes.",
+    "Fig3 remains exactly 2/91 until new individual raster witnesses appear.",
+    "Selling 3D->5D remains CONTEXT/PENDING-MORPHISM."
+  ],
+  "sealed_predecessor": "v53 CLOSED/APPEND-ONLY",
+  "version": "v54"
+}

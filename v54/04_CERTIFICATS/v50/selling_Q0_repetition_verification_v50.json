@@ -1,0 +1,38 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "check_count": 25,
+  "pass_count": 25,
+  "checks": {
+    "wall_pair_partition_3_fissure_12_crossing": true,
+    "opposite_pairs_exact": true,
+    "P_factorization_exact": true,
+    "Q_factorization_exact": true,
+    "R_factorization_exact": true,
+    "S_factorization_exact": true,
+    "P_target_source_form": true,
+    "Q_target_source_form": true,
+    "R3_involution": true,
+    "S2_involution": true,
+    "T_closes_Q0": true,
+    "U_closes_Q0": true,
+    "TU_commute": true,
+    "T_trace_returns_exact_Q0": true,
+    "U_trace_returns_exact_Q0": true,
+    "T_central_reversion_exact": true,
+    "U_central_reversion_exact": true,
+    "JR_stabilizes_P_target": true,
+    "JQ_stabilizes_Q_target": true,
+    "V0_matches_source_reciprocal": true,
+    "V_matches_source_total": true,
+    "V_stabilizes_Q0": true,
+    "W_stabilizes_Q0": true,
+    "fissure_gl_witness_positive": true,
+    "fissure_gl_witness_negative": true
+  },
+  "outputs": [
+    "selling_fissure_branch_automaton_v50.json",
+    "selling_Q0_repetition_closure_v50.json",
+    "selling_Q0_route_trace_v50.csv"
+  ]
+}

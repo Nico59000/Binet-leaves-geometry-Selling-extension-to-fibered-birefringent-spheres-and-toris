@@ -1,0 +1,330 @@
+{
+  "gate": "Gate 6 (same gate; no sub-gate)",
+  "guards": [
+    "Do not infer a historical term identification from coefficient matching alone.",
+    "Do not resurrect the withdrawn raw section-13 residual.",
+    "Do not split product-level scalings into factor scalings (e.g. i=-3A) until the individual factor normalizations are source-bound.",
+    "Noether formula (13) and Noether's Pascal-notation relation are distinct source expressions of the relation; the diagonal bridge is an algebraic comparison gauge."
+  ],
+  "ledger_promotion": {
+    "Noether_internal_rho_definition": "PROVEN",
+    "Pascal_to_Noether_object_dictionary": "PROVEN",
+    "candidate_dictionary_space": "FINITE-12/PROVEN-CENSUS",
+    "exact_termwise_historical_dictionary": "OPEN/NT",
+    "exact_wrong_Pascal_p46_coefficient": "OPEN/NT",
+    "literal_corrected_rho": "NOT-PROMOTED",
+    "ordered_diagonal_bridge": "CONDITIONAL-NOT-PROMOTED",
+    "six_term_type_partition": "PROVEN-TYPED"
+  },
+  "next_search": "Use Pascal's symbolic definitions of the three degree/order-6 covariants and the two decomposable f-multiples to eliminate the remaining 12 candidates; only then inspect p.46 term coefficients.",
+  "object": "Pascal/Noether lane A -- typed six-term relation bridge",
+  "ordered_pairing_diagnostic": {
+    "assumption": "Only as a diagnostic: preserve the displayed order inside the 3-block and 2-block.",
+    "diagonal_scales": {
+      "A_Delta": "-3",
+      "Omega1": "20",
+      "Omega2": "-3",
+      "Omega3": "-3/2",
+      "fC1": "-5",
+      "fC2": "15/2"
+    },
+    "matrix_diagonal": [
+      "20",
+      "-3",
+      "-3/2",
+      "-5",
+      "15/2",
+      "-3"
+    ],
+    "pairing": {
+      "A_Delta": "i_Delta",
+      "Omega1": "g",
+      "Omega2": "s_vartheta_sq",
+      "Omega3": "vartheta_rho_x_sq",
+      "fC1": "f_a_rho_sq",
+      "fC2": "f_t"
+    },
+    "status": "CONDITIONAL-RELATION-COMPATIBLE-GAUGE / NOT-HISTORICAL-DICTIONARY",
+    "verification": "Substitution converts Noether formula (13) coefficient-by-coefficient into the Pascal relation."
+  },
+  "pascal_primary_source": {
+    "file": "attidellarealeac2121real.pdf",
+    "role": "primary Pascal memoir",
+    "sha256": "9599526f564fce5a3b367c13cdcff93826c55bf0b8415bc49308e4f5c4bfbb17"
+  },
+  "preferred_noether_reading_source": {
+    "file": "Noether_R823_Full_Cumulative_English_Workpass.pdf",
+    "role": "preferred readable transcription/translation; German primary scan remains fallback for symbol fidelity",
+    "sha256": "a306c78cf109744864e58607c78a74113bae942189667b941fa41ba67e71a7f7"
+  },
+  "proven_source_facts": {
+    "noether_formula13": "0 = g - 2 s_vartheta^2 + 2(vartheta rho x)^2 + 4/3 i Delta - 4/5 f a_rho^2 - 8/5 f t",
+    "noether_internal_definition": "rho = u_rho^2 = theta_nu^4 u_vartheta^2",
+    "object_identity": "p_Pascal <-> rho_Noether = PROVEN-PRIMARY-SOURCE",
+    "pascal_relation": "0 = 20 Omega1 + 6 Omega2 - 3 Omega3 + 4 f C1 - 12 f C2 - 4 A Delta",
+    "type_partition_noether": "3 degree/order-6 covariant terms | 2 f-multiples | 1 i*Delta product",
+    "type_partition_pascal": "3 indecomposable degree/order-6 covariants | 2 f-multiples | 1 A*Delta product"
+  },
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "typed_pairing_reduction": {
+    "A_Delta_to_i_Delta": "FORCED-BY-UNIQUE-NON-f-PRODUCT-TYPE within the six displayed terms",
+    "candidate_bindings": [
+      {
+        "candidate_id": "D00",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "20",
+          "Omega2": "-3",
+          "Omega3": "-3/2",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "g",
+          "Omega2": "s_vartheta_sq",
+          "Omega3": "vartheta_rho_x_sq",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D01",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "20",
+          "Omega2": "-3",
+          "Omega3": "-3/2",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "g",
+          "Omega2": "s_vartheta_sq",
+          "Omega3": "vartheta_rho_x_sq",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D02",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "20",
+          "Omega2": "3",
+          "Omega3": "3/2",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "g",
+          "Omega2": "vartheta_rho_x_sq",
+          "Omega3": "s_vartheta_sq",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D03",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "20",
+          "Omega2": "3",
+          "Omega3": "3/2",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "g",
+          "Omega2": "vartheta_rho_x_sq",
+          "Omega3": "s_vartheta_sq",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D04",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "-10",
+          "Omega2": "6",
+          "Omega3": "-3/2",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "s_vartheta_sq",
+          "Omega2": "g",
+          "Omega3": "vartheta_rho_x_sq",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D05",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "-10",
+          "Omega2": "6",
+          "Omega3": "-3/2",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "s_vartheta_sq",
+          "Omega2": "g",
+          "Omega3": "vartheta_rho_x_sq",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D06",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "-10",
+          "Omega2": "3",
+          "Omega3": "-3",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "s_vartheta_sq",
+          "Omega2": "vartheta_rho_x_sq",
+          "Omega3": "g",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D07",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "-10",
+          "Omega2": "3",
+          "Omega3": "-3",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "s_vartheta_sq",
+          "Omega2": "vartheta_rho_x_sq",
+          "Omega3": "g",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D08",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "10",
+          "Omega2": "6",
+          "Omega3": "3/2",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "vartheta_rho_x_sq",
+          "Omega2": "g",
+          "Omega3": "s_vartheta_sq",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D09",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "10",
+          "Omega2": "6",
+          "Omega3": "3/2",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "vartheta_rho_x_sq",
+          "Omega2": "g",
+          "Omega3": "s_vartheta_sq",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D10",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "10",
+          "Omega2": "-3",
+          "Omega3": "-3",
+          "fC1": "-5",
+          "fC2": "15/2"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "vartheta_rho_x_sq",
+          "Omega2": "s_vartheta_sq",
+          "Omega3": "g",
+          "fC1": "f_a_rho_sq",
+          "fC2": "f_t"
+        },
+        "relation_coefficient_match_exact": true
+      },
+      {
+        "candidate_id": "D11",
+        "historical_status": "CONDITIONAL/NOT-PROMOTED",
+        "noether_term_equals_scale_times_pascal_term": {
+          "A_Delta": "-3",
+          "Omega1": "10",
+          "Omega2": "-3",
+          "Omega3": "-3",
+          "fC1": "-5/2",
+          "fC2": "15"
+        },
+        "pascal_to_noether_term_pairing": {
+          "A_Delta": "i_Delta",
+          "Omega1": "vartheta_rho_x_sq",
+          "Omega2": "s_vartheta_sq",
+          "Omega3": "g",
+          "fC1": "f_t",
+          "fC2": "f_a_rho_sq"
+        },
+        "relation_coefficient_match_exact": true
+      }
+    ],
+    "f_multiple_pair_permutations": 2,
+    "indecomposable_triplet_permutations": 6,
+    "total_type_preserving_pairings": 12
+  },
+  "version": "v54"
+}

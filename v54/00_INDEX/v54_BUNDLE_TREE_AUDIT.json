@@ -1,0 +1,25 @@
+{
+  "certificate_v54_count": 44,
+  "parent_files_checked": 1007,
+  "policy": "NONDESTRUCTIVE_APPEND_ONLY_NAVIGATION_LAYER",
+  "qa_v54_count": 7,
+  "required_directories": [
+    "00_INDEX",
+    "01_DOCS",
+    "02_VERSIONS",
+    "03_SCRIPTS",
+    "04_CERTIFICATS",
+    "05_SELLING",
+    "06_CHIRES",
+    "07_QA_SEAL",
+    "08_FORMAL_CONTEXT",
+    "09_ASSETS"
+  ],
+  "script_v54_count": 11,
+  "selling_v54_count": 21,
+  "status": "PASS",
+  "total_files_preseal": 1194,
+  "total_uncompressed_bytes": 207499707,
+  "v54_version_mirror": true,
+  "version": "v54"
+}

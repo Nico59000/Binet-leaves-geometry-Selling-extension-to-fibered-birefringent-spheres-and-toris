@@ -1,0 +1,70 @@
+{
+  "schema": "selling.seed.v1",
+  "name": "v54_noether_rho_calibration_primitive_Q",
+  "provenance": {
+    "kind": "Noether-rho-source-law-calibration",
+    "historical_printed": false,
+    "certificate": "noether_rho_historical_and_calibration_v54.json"
+  },
+  "indefinite_gram": [
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "chart_transform": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "quotient": {
+    "mode": "superbase",
+    "deck_generators": []
+  },
+  "compile": {
+    "classifier": "exact",
+    "max_fields": 8,
+    "deck_group_max_size": 256,
+    "use_superbase_relabelling": true,
+    "projective_sign": true,
+    "fallback_sampled_classifier": false
+  },
+  "render": {
+    "q_range": [
+      -2.0,
+      2.0
+    ],
+    "r_range": [
+      -1.2,
+      1.2
+    ],
+    "resolution": 650,
+    "labels": true,
+    "fill_fields": false,
+    "show_domain_boundary": true,
+    "line_width": 0.7
+  }
+}

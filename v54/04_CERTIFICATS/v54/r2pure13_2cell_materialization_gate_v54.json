@@ -1,0 +1,85 @@
+{
+  "bounded_whiskering_relation_search": {
+    "decision": "REFUTED-TYPED: NO ADDITIVE LEFT-OR-RIGHT R-WHISKERING 2-RELATION WITH COEFFICIENT SUPPORT RADIUS <=2",
+    "left_radius1": {
+      "ball_size": 16,
+      "basis_max_support": 507,
+      "columns": 208,
+      "full_column_rank": true,
+      "kernel_upper_interpretation": "Q-full-column-rank-certified",
+      "prime": 1000003,
+      "radius": 1,
+      "rank_mod_p": 208,
+      "row_coordinates": 3844
+    },
+    "left_radius2": {
+      "ball_size": 163,
+      "basis_max_support": 6001,
+      "columns": 2119,
+      "full_column_rank": true,
+      "kernel_upper_interpretation": "Q-full-column-rank-certified",
+      "prime": 1000003,
+      "radius": 2,
+      "rank_mod_p": 2119,
+      "row_coordinates": 35089
+    },
+    "next_possible_radius": ">=3, mixed/Peiffer relations not representable by a single-sided additive relation, or a separately sourced incidence presentation",
+    "right_radius1": {
+      "ball_size": 16,
+      "basis_max_support": 722,
+      "columns": 208,
+      "full_column_rank": true,
+      "kernel_upper_interpretation": "Q-full-column-rank-certified",
+      "prime": 1000003,
+      "radius": 1,
+      "rank_mod_p": 208,
+      "row_coordinates": 3851,
+      "side": "right"
+    },
+    "right_radius2": {
+      "ball_size": 163,
+      "basis_max_support": 6919,
+      "columns": 2119,
+      "full_column_rank": true,
+      "kernel_upper_interpretation": "Q-full-column-rank-certified",
+      "prime": 1000003,
+      "radius": 2,
+      "rank_mod_p": 2119,
+      "row_coordinates": 35229,
+      "side": "right"
+    },
+    "theorem": "For an integer column matrix, full column rank modulo a prime implies full column rank over Q. All four declared matrices have full column rank."
+  },
+  "constant_coefficient_relation_test": {
+    "gram_determinant": "466991987454012200",
+    "kernel_dimension_Q": 0,
+    "matrix_shape": [
+      13,
+      286
+    ],
+    "rank_Q": 13,
+    "status": "ZERO-NO-NONTRIVIAL-CONSTANT-Q-LINEAR-RELATION-AMONG-13"
+  },
+  "decision": "STRICT/OBJECT-INJECTIVE LANES REFUTED; NONINJECTIVE 1-SKELETON EXISTS; BOUNDED LEFT/RIGHT R-WHISKERING 2CELL LANES THROUGH RADIUS2 REFUTED-TYPED; FULL ENRICHED ADAPTER REMAINS SEPARATED/PENDING-MORPHISM",
+  "guard": "Rank 13 over Q refutes only constant-coefficient additive relations among these thirteen stored cycles. It does not refute R-module relations with nontrivial whiskering coefficients.",
+  "higher_structure": {
+    "consequence": "The missing 2-cell/whiskering gate cannot be filled by an ordinary constant-coefficient linear relation among the 13 cycles. Any future source 2-cell structure must use nontrivial group-ring whiskering/Peiffer or a separately sourced incidence presentation.",
+    "full_R_module_intersections": "NT (gamma3_partial_resolution_v47.json)",
+    "individual_exact_Fox_boundary": "ZERO for all 13 (v47 certified and replayed in verify_field_fox_projective_v47.py)",
+    "source_2cell_presentation_on_13_object_overlap_graph": "NOT-MATERIALIZED"
+  },
+  "object": "R2PURE13 source higher-relation materialization gate",
+  "phase": "gate3",
+  "source": {
+    "all_lifts_radius2": true,
+    "csv": "gamma3_radius2_pure_lifts_v47.csv",
+    "exact_support_coordinates": 286,
+    "lift_count": 13,
+    "rows": 466
+  },
+  "target": {
+    "noninjective_path_quotient_1_skeleton": "PROVEN-EXISTS/NORMALIZATION-DEPENDENT",
+    "v29_bigon": "PROVEN-EXACT"
+  },
+  "version": "v54"
+}

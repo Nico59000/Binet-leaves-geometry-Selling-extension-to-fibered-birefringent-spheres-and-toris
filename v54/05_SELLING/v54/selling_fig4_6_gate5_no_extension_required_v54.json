@@ -1,0 +1,94 @@
+{
+  "figures": {
+    "Fig4": {
+      "additional_repetition_presentation_triggered": false,
+      "compile_status": "PASS-CLOSED-EXACT",
+      "decision": "NO-EXTENSION-REQUIRED-CURRENT-DIRECT-ANCHOR-CLOSED-EXACT",
+      "exact_topology": true,
+      "fallback_count": 0,
+      "field_count": 1,
+      "processed": 1,
+      "source_binding": "Selling p.196 prints the form (3,-1,-1)/(0,0,0).",
+      "typed_common_object": "SellCommon:Fig4:T"
+    },
+    "Fig5": {
+      "additional_repetition_presentation_triggered": false,
+      "compile_status": "PASS-CLOSED-EXACT",
+      "decision": "NO-EXTENSION-REQUIRED-CURRENT-DIRECT-ANCHOR-CLOSED-EXACT",
+      "exact_topology": true,
+      "fallback_count": 0,
+      "field_count": 1,
+      "processed": 1,
+      "retained_source_transition": {
+        "Q5sub": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "S5": [
+          [
+            -11,
+            0,
+            30
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -4,
+            0,
+            11
+          ]
+        ],
+        "target_Q": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -15
+          ]
+        ]
+      },
+      "source_binding": "Selling p.194 prints the lower form (1,-2,-15)/(0,0,0).",
+      "typed_common_object": "SellCommon:Fig5:Lbot"
+    },
+    "Fig6": {
+      "additional_repetition_presentation_triggered": false,
+      "compile_status": "PASS-CLOSED-EXACT",
+      "decision": "NO-EXTENSION-REQUIRED-CURRENT-DIRECT-ANCHOR-CLOSED-EXACT",
+      "exact_topology": true,
+      "fallback_count": 0,
+      "field_count": 1,
+      "processed": 1,
+      "source_binding": "Selling p.205 prints the form (1,-1,-47)/(0,0,0).",
+      "typed_common_object": "SellCommon:Fig6:A47"
+    }
+  },
+  "guard": "A source transition or automorphism is retained as exact data, but a larger atlas/presentation is not generated unless the current exact numerical dynamics actually leaves the one-field closed anchor.",
+  "phase": "Gate5 Fig4-6 nontrivial-dynamics trigger audit",
+  "status": "PASS-NO-ADDITIONAL-REPETITION-PRESENTATION-TRIGGERED",
+  "version": "v54"
+}

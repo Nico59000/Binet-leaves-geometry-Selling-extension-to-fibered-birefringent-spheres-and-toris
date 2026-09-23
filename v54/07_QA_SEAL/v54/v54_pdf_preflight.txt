@@ -1,0 +1,6 @@
+PDF: /mnt/data/v54_industrial_work/base/formalisation_feuillets_binet_birefringence_selling_polaire_v54.pdf
+Pages: 277
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

@@ -1,0 +1,226 @@
+\clearpage
+\section{v54 : fermeture du moteur Selling, correction Pascal--Noether et clôture Gate 6}\label{sec:v54}
+
+\subsection{Discipline de succession et gel du parent v53}
+
+La version v54 est une extension strictement additive de v53. Le bundle parent est retenu comme
+\texttt{CLOSED/APPEND-ONLY}; aucun de ses membres n'est modifié. Les nouveaux résultats sont
+portés par des certificats v54 séparés et par la présente section. Les statuts \certProven,
+\certRefuted, \certNT{} et \certSeparated{} restent indépendants : un no-go exact ne devient
+pas une identification positive, et un objet \certNT{} délimité n'est pas promu par analogie.
+
+\begin{proposition}[Gel cumulatif des Gates 1--6]\label{prop:v54-gates}
+Les six Gates de recherche de v54 passent leurs vérifications déclarées :
+\[
+41/41,\qquad 40/40,\qquad 35/35,\qquad 56/56,\qquad 58/58,
+\qquad 77/77.
+\]
+La Gate 6 est \texttt{CLOSED/APPEND-ONLY}. Les anciens blockers Pascal--Noether et
+\texttt{R2PURE13} sont supersédés comme blockers de fermeture, sans effacer leurs diagnostics
+historiques.
+\end{proposition}
+
+\subsection{Moteur numérique de Selling et frontière raster}
+
+Les présentations sources de Fig.~2 et Fig.~3 sont complètes au niveau des murs historiques :
+Fig.~2 possède $26$ slots de murs quotientés en $8$ classes et Fig.~3 possède $91$ slots
+quotientés en $27$ classes. Les $117$ arêtes sont certifiées au niveau source; aucune égalité
+raster--numérique n'est créée par simple cardinalité ou par ressemblance géométrique.
+
+Pour Fig.~2, deux applications distinctes préservant le carrier local et l'ancrage central existent.
+L'identification raster absolue n'est donc pas sélectionnée par l'incidence seule. En particulier
+\[
+ S/\Phi=\certNT,
+ \qquad O1\longrightarrow 2/3=\certNT.
+\]
+Cette non-unicité est un \certRefuted{} typé pour l'\emph{unicité dans le carrier courant}, et non
+un no-go absolu contre un enrichissement futur par incidences de points.
+
+Pour Fig.~3, la classe racine historique reste la classe $19$. Seules les deux arêtes
+\[
+ 19\xrightarrow{k}19,\qquad 19\xrightarrow{n}19
+\]
+sont liées directement au raster. Ainsi
+\[
+ \boxed{2/91\ \text{MARKED-RASTER-BOUND},\qquad 89/91\ \text{NOT-PROPAGATED}.}
+\]
+Aucune symétrie ne propage les $89$ autres arêtes sans témoin individuel.
+
+Les Fig.~4--6 restent fermées sur leurs ancres historiques directes; aucune présentation de
+répétition supplémentaire n'est déclenchée par la dynamique actuellement certifiée.
+
+\subsection{Dictionnaire Pascal--Noether et correction globale du contravariant}\label{subsec:v54-p46}
+
+La traduction de travail de Noether et la source primaire de Pascal fixent le dictionnaire typé
+\[
+\Omega_1\leftrightarrow(\vartheta\varrho x)^2,\quad
+\Omega_2\leftrightarrow s_\vartheta^2,\quad
+\Omega_3\leftrightarrow g,
+\]
+\[
+C_1\leftrightarrow a_\varrho^2,\qquad C_2\leftrightarrow t,
+\qquad A\Delta\leftrightarrow i\Delta .
+\]
+La normalisation des \emph{spinte} de Pascal est celle du transvectant normalisé :
+\[
+ (F,G)_r=\frac{(m-r)!(n-r)!}{m!\,n!}\,\Omega^r(FG),
+\]
+et le test élémentaire $(x^4,y^3)_3=x$ fixe notamment le facteur $1/144$ à l'ordre trois.
+
+La construction intrinsèque de Noether fournit
+\[
+ \varrho=\frac{D_f(\psi)}{144}.
+\]
+Dans la jauge de Pascal
+\[
+ f=\alpha+4\beta z+6\gamma z^2+a z^4,
+\]
+le replay symbolique force les réparations suivantes de la formule imprimée de la page 46 :
+\[
+ (k,\gamma)_2\rightsquigarrow ((k,\gamma)_2,\gamma)_2,
+\]
+\[
+ -\frac1{10}ih\rightsquigarrow\frac7{30}ih,\qquad
+ \frac65(\alpha,\gamma)_2h\rightsquigarrow\frac85(\alpha,\gamma)_2h,
+\]
+\[
+ \frac{16}{5}(w,\gamma)_2(\gamma u)^2
+ \rightsquigarrow
+ \frac{12}{5}(w,\gamma)_2(\gamma u)^2.
+\]
+Les cinq coefficients du bloc linéaire en $u_3$ restent exactement
+\[
+ -\frac45,\quad -\frac{44}{5},\quad \frac{28}{25},\quad
+ \frac{28}{15},\quad -\frac85.
+\]
+
+\begin{theorem}[Identité globale dans les quinze coefficients]\label{thm:v54-p46-global}
+Soit $p_{\rm corr}$ la formule de Pascal après les réparations typées et numériques précédentes.
+Alors, dans l'anneau polynomial de la quartique ternaire générale,
+\[
+ \boxed{\varrho=\frac52\,p_{\rm corr}.}
+\]
+L'identité est vérifiée sur les six composantes quadratiques et s'étend à la forme générale
+\[
+ f=\alpha+4\beta z+6\gamma z^2+4\delta z^3+a z^4
+\]
+par élimination exacte du terme cubique en $z$ et retour contravariant. Elle est compatible avec
+l'action de $GL_3$; six replays non triviaux dans $GL_3(\mathbb Z)$ donnent exactement le carré
+commutatif attendu.
+\end{theorem}
+
+\begin{guardrail}
+Le théorème identifie les réparations requises par la formule \emph{imprimée}. Il ne prétend pas
+qu'il existe trois fautes éditoriales historiques indépendantes : une erreur numérique en amont peut
+se propager dans plusieurs coefficients affichés.
+\end{guardrail}
+
+\subsection{Projecteur polaire, contraction torique et jet d'amplitude centré}
+
+Sur le carrier Pascal réduit,
+\[
+ Q^+(x)=\operatorname{diag}(2x^2,2x^{-2},1).
+\]
+L'involution $e_1\leftrightarrow e_2$ envoie $x\leftrightarrow x^{-1}$ et sélectionne le point
+projectif $x=\pm1$. En ce point,
+\[
+ Q_*^+=\operatorname{diag}(2,2,1),\qquad
+ (Q_*^+)_0=\operatorname{diag}\!\left(\frac13,\frac13,-\frac23\right)
+ =-\frac13Q_{\rm pol}.
+\]
+Après normalisation de Frobenius, le signe disparaît dans le projecteur de rang un. La droite
+polaire du premier hypertenseur est donc atteinte exactement.
+
+Le bloc planaire fournit en outre l'adaptateur spectral projectif
+\[
+ [\operatorname{diag}(2x^2,2x^{-2})]\longmapsto
+ \operatorname{diag}(1,c(x)),
+ \qquad
+ c(x)=\min(x^4,x^{-4}).
+\]
+Sur la sous-famille dorée, $c(x)=q^j$ si et seulement si
+$|x|=q^{-j/4}$, sans promouvoir $x$ en temps dynamique.
+
+Sur la droite positive brute $sQ_{\rm Pas}^{\rm raw}$, le second moment planaire est
+\[
+ M_D(s)=\frac{s}{2}\Pi_D,
+ \qquad \Lambda(s)=\frac{\chi s}{2}.
+\]
+Pour le seuil $\Lambda_*=a_0/\gamma_H$, posons
+\[
+ s_*=\frac{2a_0}{\gamma_H\chi}.
+\]
+Le jet centré exact est alors
+\[
+ \boxed{\delta\Lambda=\frac\chi2(s-s_*),\qquad
+ \mu=\frac{\gamma_H\chi}{2}(s-s_*).}
+\]
+Cette carte est \certProven{} comme adaptateur d'amplitude; l'identification de $s$ à un temps
+torique reste \certSeparated{}.
+
+\subsection{R2PURE$_{13}$ vers Selling/Deck17 : obstruction et quotient gardé}
+
+Le graphe exact d'overlap de \texttt{R2PURE13} est connexe sur $13$ objets, possède $54$ arêtes
+et $107$ triangles. Le graphe générateur Selling/Deck17 possède $17$ objets répartis en composantes
+de tailles $4,5,8$ et ne contient aucun triangle.
+
+\begin{proposition}[No-go injectif et strict]\label{prop:v54-r2-no-go}
+Il n'existe aucun foncteur d'incidence/path-groupoid injectif sur les objets du carrier
+\texttt{R2PURE13} vers le carrier Selling/Deck17 gelé. Il n'existe pas non plus d'homomorphisme
+d'incidence stricte envoyant chaque arête source sur une arête génératrice cible.
+\end{proposition}
+
+\begin{proof}
+Une source connexe à $13$ objets devrait être envoyée dans une unique composante cible contenant au
+moins $13$ objets, alors que la composante maximale en contient $8$. Pour le second énoncé, une
+$K_3$ source devrait être envoyée sur une $K_3$ cible, impossible puisque le graphe générateur cible
+est sans triangle.
+\end{proof}
+
+Un quotient non injectif du $1$-squelette existe néanmoins : les $13$ objets sont envoyés vers
+$K_0,\ldots,K_4$ et les $54$ arêtes sont transportées par des chemins de congruence exacts. Ce témoin
+est dépendant d'une normalisation et ne fournit pas la cohérence en dimension deux. La source gelée
+ne matérialise en effet aucune présentation \texttt{R2PURE} en $2$-cellules. Ainsi
+\[
+ \boxed{\texttt{R2PURE13}\to\texttt{Selling/Deck17}
+ =\certSeparated/\certPending}
+\]
+pour l'adaptateur complet, tandis que les lanes injective et d'incidence stricte sont
+\certRefuted{} typées.
+
+\subsection{Clôture Gate 6 et inventaire non bloquant}
+
+La Gate 6 est fermée sans convertir les frontières ouvertes en égalités :
+\begin{longtable}{p{0.34\linewidth}p{0.24\linewidth}p{0.34\linewidth}}
+\toprule
+Carrier & Statut v54 & Garde de portée\\
+\midrule
+\endhead
+Pascal--Noether $p^{46}$ & \texttt{PROVEN-GLOBAL} & identité dans les 15 coefficients et covariance $GL_3$\\
+Projecteur polaire & \texttt{PROVEN-EXACT} & direction tensorielle, distincte de l'amplitude\\
+Jet $s\mapsto\delta\Lambda$ & \texttt{PROVEN-EXACT} & aucun temps torique canonique déclaré\\
+Fig.~2 $S/\Phi$ & \texttt{NT} & non-unicité certifiée dans le carrier courant\\
+Fig.~3 & \texttt{2/91 BOUND} & $89/91$ non propagées\\
+\texttt{R2PURE13} injectif & \texttt{REFUTED-TYPED} & obstruction par composantes et triangles\\
+\texttt{R2PURE13} quotient $1$-squelette & \texttt{PROVEN-EXISTS} & dépendant de normalisation\\
+\texttt{R2PURE13} $2$-cellules & \texttt{NT} & présentation source absente\\
+$r=4$ et $B_6$ & \texttt{NOT-OPENED} & aucune nouvelle question indépendante\\
+Selling $3D\to5D$ & \texttt{CONTEXT/}\newline\texttt{PENDING-MORPHISM} & aucun morphisme nouveau promu\\
+\bottomrule
+\end{longtable}
+
+\begin{proposition}[Fermeture de la Gate 6]\label{prop:v54-gate6-closed}
+Les statuts précédents satisfont la discipline HT+NT append-only. La Gate 6 est
+\texttt{CLOSED/APPEND-ONLY}. Les objets Fig.~2, Fig.~3, \texttt{R2PURE13} en dimension deux et
+Selling $3D\to5D$ restent explicitement hors des promotions positives de v54.
+\end{proposition}
+
+\subsection{Frontière sûre après v54}
+
+La version v54 ne doit pas rouvrir automatiquement $r=4$ ou $B_6$. La frontière sûre suivante est :
+conserver la correction globale Pascal--Noether, les no-go/quotients \texttt{R2PURE13}, et les
+liaisons raster Fig.~2--3; n'enrichir Fig.~2 que par une incidence de points source-certifiée;
+n'enrichir Fig.~3 que par témoins raster individuels; construire une présentation source en
+$2$-cellules avant tout relèvement \texttt{R2PURE13}; maintenir Selling $3D\to5D$ séparé jusqu'à
+un morphisme explicite vérifié.
+

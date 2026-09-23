@@ -1,0 +1,46 @@
+{
+  "all_pages_rendered": true,
+  "automated_render_scan": {
+    "flags": [],
+    "max_border_dark": 0.0,
+    "max_dark": 0.012492228474868083,
+    "max_ink": 0.17552288415246536,
+    "min_ink": 0.0413604552918108,
+    "pages": 277,
+    "status": "PASS"
+  },
+  "bibliography_physically_final": true,
+  "latex_overfull_count": 0,
+  "pdf_bytes": 1801834,
+  "pdf_pages": 277,
+  "pdf_pages_by_heading": {
+    "Certification HT+NT du présent formalisme": [
+      13,
+      269
+    ],
+    "Conclusion": [
+      13,
+      244,
+      272
+    ],
+    "Références documentaires du corpus": [
+      13,
+      276
+    ],
+    "v54 : fermeture du moteur Selling": [
+      13,
+      266
+    ]
+  },
+  "pdf_sha256": "b14223de4974e2eaed470edbc61f8c67c9113114fa6feea889d9edd9c537fc9f",
+  "preflight": "PASS_OPENABLE_277_PAGES_UNENCRYPTED",
+  "renderer": "render_pdf.py full-document render at 72 dpi",
+  "status": "PASS",
+  "tex_sha256": "cdf18ccb860e808edd2e726ab659fc8c85eaea1409494a5c336a4e23074b35e7",
+  "version": "v54",
+  "visual_contact_sheets": [
+    "contact_v54.jpg",
+    "contact_tail.jpg"
+  ],
+  "visual_inspection": "PASS: v54 pages 266-268 clean; certification resumes p.269; conclusion p.272; provenance pp.274-275; bibliography terminal pp.276-277; no clipping, overlap, black squares or broken glyphs observed."
+}

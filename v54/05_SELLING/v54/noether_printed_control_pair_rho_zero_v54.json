@@ -1,0 +1,78 @@
+{
+  "algorithm": {
+    "bridge": "Phi(f,rho)",
+    "psi": "Salmon/Ohno determinant construction used in gate2",
+    "rho": "D_f(psi)/144"
+  },
+  "decision": {
+    "general_GL3_bridge": "PROVEN-EXPLICIT-GL3-EQUIVARIANT retained",
+    "nonhistorical_source_law_calibration": "PROVEN-RHO-NONZERO retained but remains nonhistorical",
+    "printed_control_pair_historical_landing": "REFUTED-TYPED-FOR-THIS-PAIR-BY-RHO-ZERO",
+    "search_for_other_explicit_historical_nonzero_rho_instance": "OPEN/NT"
+  },
+  "examples": [
+    {
+      "Q": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "f": "x**3*y + x*z**3 + y**3*z",
+      "label": "I",
+      "printed_form_interpretation": "sum_cyclic x1^3 x2",
+      "psi": "(u**5*w - 5*u**2*v**2*w**2 + u*v**5 + v*w**5)/16",
+      "rho": "0",
+      "rho_zero": true,
+      "selling_landing": "STOP/RHO-ZERO/DEGENERATE-Q"
+    },
+    {
+      "Q": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "f": "x**4 + y**4 + z**4",
+      "label": "II",
+      "printed_form_interpretation": "sum_i x_i^4",
+      "psi": "u**2*v**2*w**2",
+      "rho": "0",
+      "rho_zero": true,
+      "selling_landing": "STOP/RHO-ZERO/DEGENERATE-Q"
+    }
+  ],
+  "guard": "This is a bounded instance no-go for the two explicitly printed control quartics on Noether p.47. It does not imply rho=0 for a general ternary quartic.",
+  "phase": "gate3",
+  "source": {
+    "page_image_sha256": "93bef5e44991164ee2d29c9353161b612ba4d16dca7abed00389eb9a831febf5",
+    "pdf_page": 25,
+    "printed_page": 47,
+    "source_role": "two special forms used as controls of the calculation",
+    "work": "Emmy Noether, \u00dcber die Bildung des Formensystems der tern\u00e4ren biquadratischen Form (1908)"
+  },
+  "status": "PROVEN-PRINTED-CONTROL-PAIR-RHO-ZERO/SELLING-NONLANDING",
+  "version": "v54"
+}

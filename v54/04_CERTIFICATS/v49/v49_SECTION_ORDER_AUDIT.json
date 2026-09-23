@@ -1,0 +1,23 @@
+{
+  "version": "v49",
+  "status": "PASS",
+  "physical_pages": 258,
+  "terminal_order": [
+    "v46",
+    "v47",
+    "v48",
+    "v49",
+    "Certification HT+NT",
+    "Réponse formelle",
+    "Diagramme",
+    "Conclusion",
+    "Appendice provenance",
+    "Références documentaires"
+  ],
+  "appendix_provenance_begins_page": 255,
+  "provenance_continues_page": 256,
+  "bibliography_begins_page": 257,
+  "bibliography_final_page": 258,
+  "bibliography_physically_final": true,
+  "source_order_guard": "v46-v49 precede certification/conclusion/appendix; no version section occurs after bibliography."
+}

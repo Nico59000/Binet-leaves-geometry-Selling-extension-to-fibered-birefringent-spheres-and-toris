@@ -1,0 +1,60 @@
+{
+  "bounded_search": {
+    "ocr_pattern_occurrences": {
+      "Gordan_bibliographic_formula": 1,
+      "Gordan_special_form_intro": 1,
+      "control_section_marker": 1
+    },
+    "scope_guard": "This is not a no-go for the historical literature as a whole. It is only a bounded result for the currently attached Noether 1908 source and its explicit control examples.",
+    "source_audited_explicit_full_quartics": [
+      {
+        "formula": "x1^3 x2 + x2^3 x3 + x3^3 x1",
+        "id": "control_I/Gordan",
+        "landing": "Q=0 / SELLING-NONLANDING",
+        "rho": "0"
+      },
+      {
+        "formula": "x1^4 + x2^4 + x3^4",
+        "id": "control_II/Fermat",
+        "landing": "Q=0 / SELLING-NONLANDING",
+        "rho": "0"
+      }
+    ],
+    "third_distinct_explicit_full_quartic_in_current_source": "NOT-FOUND-IN-BOUNDED-NOETHER-1908-AUDIT"
+  },
+  "phase": "Gate5 bounded historical search in current Noether 1908 source",
+  "real_selling_admissible_locus": {
+    "arithmetic_gate": "Integral/primitively integral normalization is a separate arithmetic condition and is not implied by the real semialgebraic locus.",
+    "definition": "U_Sell^R = {f in U_rho(R): det Phi(f,rho(f)) > 0 and Phi(f,rho(f)) is not positive definite}",
+    "equivalent_signature_statement": "For a real symmetric nondegenerate 3x3 matrix, det>0 leaves signatures (3,0) or (1,2); excluding positive-definite gives exactly (1,2).",
+    "historical_point": "OPEN/NT",
+    "nonempty_witness": "SYNTHETIC/NONHISTORICAL calibration with primitive Q=diag(-1,-1,1)"
+  },
+  "rho_carriers": {
+    "U_rho": "PROVEN-GL3-STABLE-ZARISKI-OPEN-NONEMPTY",
+    "Z_rho": "PROVEN-GL3-STABLE-ZARISKI-CLOSED-CONE",
+    "rho_coordinate_degrees": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "rho_term_count_profile": [
+      66,
+      66,
+      66,
+      68,
+      68,
+      68
+    ]
+  },
+  "source": {
+    "file": "noether1908.pdf",
+    "sha256": "ad9da4266cf035a25c3ca0a27cf87a9c06d9fa980edacae2994b725237532968",
+    "text_extract": "noether1908.txt"
+  },
+  "status": "PASS-BOUNDED-SOURCE-SEARCH / HISTORICAL-U_RHO-POINT-STILL-NT",
+  "version": "v54"
+}

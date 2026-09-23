@@ -1,0 +1,433 @@
+{
+  "checks": {
+    "max_component_lt_13": true,
+    "prior_elementary_whiskering_zero": true,
+    "prior_source_overlap_aut_trivial": true,
+    "source_13": true,
+    "source_beta1_42": true,
+    "source_clique_8": true,
+    "source_connected": true,
+    "source_edges_54": true,
+    "source_has_triangles": true,
+    "target_17": true,
+    "target_beta1_1": true,
+    "target_clique_2": true,
+    "target_components_4_5_8": true,
+    "target_edges_15": true,
+    "target_triangle_free": true
+  },
+  "obstruction": {
+    "conclusion": "no object-injective incidence/path-groupoid functor R2PURE13 -> Selling/Deck17 exists for the declared exact-overlap source incidence and stored Selling/Deck17 generators",
+    "statement": "Every functor from a connected source path groupoid sends all source objects into a single connected component of the target. An object-injective functor would therefore require a target component with at least 13 distinct objects. Selling/Deck17 has maximum component size 8."
+  },
+  "prior_no_gos_retained": {
+    "elementary_left_right_whiskering_permutation": "REFUTED-TYPED",
+    "strict_R5_deleted_16_to_Gamma3_critical_16_incidence": "REFUTED-TYPED_BY_GRAPH_INVARIANTS"
+  },
+  "retained_open_scope": [
+    "non-injective quotient functors with explicit object identifications",
+    "enriched functors that change the declared source incidence carrier",
+    "2-functors using additional target objects/cells not present in the frozen 17-object witness"
+  ],
+  "source": "R2PURE13 exact-overlap path groupoid",
+  "source_graph": {
+    "clique_number": 8,
+    "component_sizes": [
+      13
+    ],
+    "components": 1,
+    "cycle_rank": 42,
+    "degree_sequence": [
+      4,
+      5,
+      6,
+      6,
+      8,
+      8,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      11
+    ],
+    "edge_definition": "exact_shared_coordinate_count > 0 in gamma3_r2pure_group_ring_audit_v52.json",
+    "edges": 54,
+    "triangle_count": 107,
+    "vertices": 13
+  },
+  "status": "REFUTED-TYPED-OBJECT-INJECTIVE-INCIDENCE/GROUPOID-FUNCTOR",
+  "strict_edge_incidence_obstruction": {
+    "guard": "does not refute a groupoid functor sending source generators to composite target paths or using added 2-cells",
+    "statement": "The exact-overlap source graph contains triangles (107 total), while the stored target generator graph is triangle-free. A loopless graph homomorphism maps a source K3 injectively on its adjacent vertices to a target K3, impossible here.",
+    "status": "REFUTED-TYPED-STRICT-EDGE-INCIDENCE-GRAPH-HOMOMORPHISM"
+  },
+  "target": "Selling/Deck17 generated path groupoid",
+  "target_graph": {
+    "clique_number": 2,
+    "component_sizes": [
+      4,
+      5,
+      8
+    ],
+    "components": 3,
+    "components_objects": [
+      [
+        "S0",
+        "S1",
+        "S2",
+        "S3"
+      ],
+      [
+        "K0",
+        "K1",
+        "K2",
+        "K3",
+        "K4"
+      ],
+      [
+        "P1",
+        "Q1",
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ]
+    ],
+    "cycle_rank": 1,
+    "edges": 15,
+    "max_component_size": 8,
+    "triangle_count": 0,
+    "vertices": 17
+  },
+  "version": "v54",
+  "weighted_source_edges": [
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_02",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_03",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_04",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_05",
+      "shared": 9,
+      "signed_dot": 9
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_08",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_09",
+      "shared": 7,
+      "signed_dot": 7
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_10",
+      "shared": 10,
+      "signed_dot": 10
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_11",
+      "shared": 10,
+      "signed_dot": 10
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_12",
+      "shared": 14,
+      "signed_dot": 14
+    },
+    {
+      "a": "R2PURE_01",
+      "b": "R2PURE_13",
+      "shared": 2,
+      "signed_dot": 0
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_05",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_06",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_08",
+      "shared": 7,
+      "signed_dot": -7
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_10",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_11",
+      "shared": 2,
+      "signed_dot": 0
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_12",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_02",
+      "b": "R2PURE_13",
+      "shared": 3,
+      "signed_dot": 3
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_05",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_11",
+      "shared": 2,
+      "signed_dot": 0
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_12",
+      "shared": 2,
+      "signed_dot": 2
+    },
+    {
+      "a": "R2PURE_03",
+      "b": "R2PURE_13",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_07",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_08",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_09",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_10",
+      "shared": 2,
+      "signed_dot": -2
+    },
+    {
+      "a": "R2PURE_04",
+      "b": "R2PURE_12",
+      "shared": 2,
+      "signed_dot": -2
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_07",
+      "shared": 15,
+      "signed_dot": -15
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_08",
+      "shared": 6,
+      "signed_dot": 6
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_09",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_10",
+      "shared": 2,
+      "signed_dot": 2
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_11",
+      "shared": 30,
+      "signed_dot": 30
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_12",
+      "shared": 9,
+      "signed_dot": 9
+    },
+    {
+      "a": "R2PURE_05",
+      "b": "R2PURE_13",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_08",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_09",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_10",
+      "shared": 2,
+      "signed_dot": 0
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_11",
+      "shared": 3,
+      "signed_dot": 3
+    },
+    {
+      "a": "R2PURE_06",
+      "b": "R2PURE_13",
+      "shared": 1,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_08",
+      "shared": 15,
+      "signed_dot": -15
+    },
+    {
+      "a": "R2PURE_07",
+      "b": "R2PURE_11",
+      "shared": 16,
+      "signed_dot": -16
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_10",
+      "shared": 3,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_11",
+      "shared": 7,
+      "signed_dot": 5
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_12",
+      "shared": 2,
+      "signed_dot": 2
+    },
+    {
+      "a": "R2PURE_08",
+      "b": "R2PURE_13",
+      "shared": 4,
+      "signed_dot": -4
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_10",
+      "shared": 25,
+      "signed_dot": 25
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_11",
+      "shared": 7,
+      "signed_dot": -5
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_12",
+      "shared": 9,
+      "signed_dot": 7
+    },
+    {
+      "a": "R2PURE_09",
+      "b": "R2PURE_13",
+      "shared": 1,
+      "signed_dot": -1
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_11",
+      "shared": 17,
+      "signed_dot": -9
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_12",
+      "shared": 11,
+      "signed_dot": 9
+    },
+    {
+      "a": "R2PURE_10",
+      "b": "R2PURE_13",
+      "shared": 3,
+      "signed_dot": 1
+    },
+    {
+      "a": "R2PURE_11",
+      "b": "R2PURE_12",
+      "shared": 11,
+      "signed_dot": 7
+    },
+    {
+      "a": "R2PURE_11",
+      "b": "R2PURE_13",
+      "shared": 4,
+      "signed_dot": 2
+    },
+    {
+      "a": "R2PURE_12",
+      "b": "R2PURE_13",
+      "shared": 16,
+      "signed_dot": -16
+    }
+  ]
+}

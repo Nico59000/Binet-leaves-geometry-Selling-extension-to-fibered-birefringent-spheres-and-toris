@@ -1,0 +1,9 @@
+{
+  "checks": 22,
+  "failed": [],
+  "gate_closed": false,
+  "passed": 22,
+  "phase": "v54 Gate 6 hypertensor strict bridge",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS"
+}

@@ -1,0 +1,31 @@
+{
+  "version": "v50",
+  "predecessor": "v49 CLOSED/APPEND-ONLY",
+  "predecessor_bundle": {
+    "bytes": 63358140,
+    "sha256": "9bd8fc8a9210a80d80eb0a1b1e395081578108e3cd2365ef2288adbda6087606"
+  },
+  "predecessor_atomic_token_sha256": "7f9a2c304cd625af4782a451498fe868760d5f6cd32f4b856dd0a1d1583c89f5",
+  "primary_sources": [
+    "Selling 1874 Crelle 77, pp.143-229",
+    "Selling 1877 JMPA parts I-II",
+    "LOG_0016.pdf / Tafel III inherited from sealed predecessor"
+  ],
+  "method_guards": [
+    "Selling field combinatorics are source-constructed; raster remains validation-only.",
+    "Strict F_Sell^field -> F29_can downstairs remains REFUTED-TYPED; only stacky downstairs / strict four-sheet upstairs are promoted.",
+    "Integral Binet descent differs in H2 by exactly one Z/2 transfer defect at TU/V48; rational descent is exact.",
+    "R2PURE 13-to-17 adapter remains SEPARATED/PENDING-MORPHISM; CHIRES14 beyond radius 4 remains NT."
+  ],
+  "key_artifact_sha256": {
+    "gamma3_radius4_mod4_dual_certificate_v50.json": "ee28153f8ba12487f9426516004ce36eb598da7923ea6838c736c92f516af0a3",
+    "gamma3_radius2_overlap_reversion_audit_v50.json": "6cb50f3afa19655f65b3814c3ffd8020aa07682b260cc80e8f3f1e2d6740eb90",
+    "selling_regular_TU_quotient_v50.json": "b190ad36631c42e4c0fdee6056f3300065add8fb2c9dddf252cbe449d296e2e3",
+    "selling_field_orbigroupoid_v50.json": "645e42f6ac3b4be1992db65524037289407e685b046c3cba3e0e7547c3d8f587",
+    "selling_F29_descent_square_v50.json": "bd76e837486b701e80d899e8a0cf3a3d8322a062074d925aa543435243ac3306",
+    "selling_cover_local_system_descent_v50.json": "59c450001d6d78a2dce714828f643e25451d577ac264d46246ac9a6f72ec0117",
+    "selling_historical_cohomology_Q_v50.json": "fc22379e48c8a77e9cfbeb363cca7822b4800c3c5b412537527c4d4a33c059d5",
+    "selling_historical_cohomology_Z_2primary_audit_v50.json": "9ab1b5c2e5262d857c007c857736c9dac06f519ff613ee812e75257fb02834e0"
+  },
+  "status": "PASS_SOURCE_CONTEXT_TYPED"
+}

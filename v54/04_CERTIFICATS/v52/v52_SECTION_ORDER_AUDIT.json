@@ -1,0 +1,43 @@
+{
+  "version": "v52",
+  "status": "PASS",
+  "pdf_pages": 271,
+  "pdf_pages_by_heading": {
+    "v52": [
+      13,
+      260
+    ],
+    "certification": [
+      13,
+      263
+    ],
+    "conclusion": [
+      13
+    ],
+    "provenance": [
+      13,
+      268
+    ],
+    "bibliography": [
+      13,
+      270
+    ]
+  },
+  "source_order": {
+    "v51": 702224,
+    "v52": 713430,
+    "certification": 723218,
+    "conclusion": 733571,
+    "provenance": 743128,
+    "bibliography": 748955
+  },
+  "v52_before_certification": true,
+  "certification_before_conclusion": true,
+  "conclusion_before_provenance": true,
+  "bibliography_after_provenance": true,
+  "bibliography_physically_final": true,
+  "bibliography_final_pages": [
+    270,
+    271
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": "v42",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v41 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "BSB/HAX/HC/fissure/crossing/wall/field binding",
+      "status": "NT_ZERO_NEW_PROMOTION",
+      "basis": "no new source-certified machine-readable assignment"
+    },
+    {
+      "object": "C2 census on 89 degree-one nodes",
+      "status": "NOT_ACTIVATED_FAIL_CLOSED",
+      "basis": "historical C2 action precondition is absent"
+    },
+    {
+      "object": "R5 envelope point",
+      "status": "PROVEN_GRAPH-CANONICAL_CANDIDATE/NT_HISTORICAL",
+      "basis": "unique automorphism-fixed deletion candidate among five preserving 16 objects, three components and beta1=1; criterion is v42 graph-theoretic"
+    },
+    {
+      "object": "Selling/Gamma 16-17 adapter",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no incidence/groupoid map from R5-deleted witness to 16 oriented Gamma occurrences"
+    },
+    {
+      "object": "52 length-two diamonds in Z[Gamma3(2)]",
+      "status": "PROVEN_EXACT_FOX_CYCLES",
+      "basis": "exact group-ring Fox boundary vanishes for all 52 using faithful 3x3 integral matrix group elements"
+    },
+    {
+      "object": "28 diamonds",
+      "status": "PROVEN_IN_V38_SEED_SUBMODULE",
+      "basis": "exact group-ring coefficient reduction modulo six inverse-relator seeds is zero"
+    },
+    {
+      "object": "24 augmentation-zero diamonds",
+      "status": "PROVEN_NONZERO_GROUP_RING",
+      "basis": "four translated/sign variants of six canonical z_i=(1-g_i)e_ri on nonseed coordinates"
+    },
+    {
+      "object": "six new canonical 4-syzygies",
+      "status": "PROVEN_RELATIVE_TO_V38_SEEDS",
+      "basis": "g_i^2=1 and (1-g_i)D(g_i^2)=0; disjoint relator coordinates"
+    },
+    {
+      "object": "six second syzygies",
+      "status": "PROVEN_IN_EXTENDED_COMPLEX",
+      "basis": "after adjoining f_i with d4(f_i)=z_i, (1+g_i)f_i lies in ker d4"
+    },
+    {
+      "object": "complete Gamma3 resolution",
+      "status": "NT",
+      "basis": "new 4/5-syzygies do not prove completeness"
+    },
+    {
+      "object": "J_s radius-six extension",
+      "status": "PROVEN",
+      "basis": "22183 normal forms and 27024 internal generator-edge transport checks"
+    },
+    {
+      "object": "unique root sign from current relations",
+      "status": "REFUTED-TYPED",
+      "basis": "global J_s -> -J_s commutes with all conjugation constraints and -1 remains outside U_k^+"
+    },
+    {
+      "object": "source-selected Lorentz orientation",
+      "status": "NT",
+      "basis": "requires an additional source mark odd under global sign flip"
+    },
+    {
+      "object": "Field functor and historical H1/H2",
+      "status": "PENDING-MORPHISM / NT_NOT_RECOMPUTED",
+      "basis": "exact Selling 0/1/2-cell compatibility remains open"
+    },
+    {
+      "object": "Roof reversal=transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "prior cycle-type no-go"
+    },
+    {
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no source-equivariant physical phase map"
+    }
+  ],
+  "stratified_reality_guard": "Observed group-ring cycles and graph calculations are kept separate from source-semantic and physical bridge obligations.",
+  "conclusion": "v42 promotes six hidden nonabelian 4-syzygies and six exact second syzygies, while keeping Selling field cohomology, 89 C2 comparison, Gamma completeness, Lorentz orientation and physical phase behind typed gates."
+}

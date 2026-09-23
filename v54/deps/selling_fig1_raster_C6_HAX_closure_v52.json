@@ -1,0 +1,535 @@
+{
+  "version": "v52",
+  "source_predecessor": "v51 CLOSED/APPEND-ONLY",
+  "raster_cycle_source": "selling_raster_central_bold_cycle_gate_v51.json",
+  "six_anchors": [
+    {
+      "id": "RHC0",
+      "kind": "NODE",
+      "node_id": "N054",
+      "xy_px600": [
+        1315.118,
+        2630.529
+      ],
+      "xy_px300": [
+        657.559,
+        1315.2645
+      ],
+      "status": "PROVEN-LOCAL-RIGHT-ANGLE-GERM-v52"
+    },
+    {
+      "id": "RHC1",
+      "kind": "NODE",
+      "node_id": "N066",
+      "xy_px600": [
+        2283.529,
+        2987.294
+      ],
+      "xy_px300": [
+        1141.7645,
+        1493.647
+      ],
+      "status": "PROVEN-LOCAL-RIGHT-ANGLE-GERM-v52"
+    },
+    {
+      "id": "RHC2",
+      "kind": "GAP_A",
+      "between_nodes": [
+        "N072",
+        "N073"
+      ],
+      "xy_px600": [
+        2352.357122169551,
+        3499.9138272012897
+      ],
+      "xy_px300": [
+        1176.1785610847755,
+        1749.9569136006448
+      ],
+      "canonical_fit_px600": [
+        2351.430400530278,
+        3498.479348511226
+      ],
+      "jpeg_registered_fit_px600": [
+        2353.2838438088247,
+        3501.3483058913534
+      ],
+      "cross_image_disagreement_px600": 3.4155773210071914,
+      "status": "PROVEN-UNIQUE-CROSSIMAGE-BRANCH-INTERSECTION"
+    },
+    {
+      "id": "RHC3",
+      "kind": "NODE",
+      "node_id": "N105",
+      "xy_px600": [
+        2522.71,
+        4011.419
+      ],
+      "xy_px300": [
+        1261.355,
+        2005.7095
+      ],
+      "status": "PROVEN-LOCAL-RIGHT-ANGLE-GERM-v52"
+    },
+    {
+      "id": "RHC4",
+      "kind": "GAP_B",
+      "between_nodes": [
+        "N100",
+        "N099"
+      ],
+      "xy_px600": [
+        1957.0,
+        3976.0
+      ],
+      "xy_px300": [
+        978.5,
+        1988.0
+      ],
+      "right_error_deg": 2.0,
+      "status": "PROVEN-UNIQUE-LOCAL-RIGHT-ANGLE-GERM-v52"
+    },
+    {
+      "id": "RHC5",
+      "kind": "NODE",
+      "node_id": "N109",
+      "xy_px600": [
+        1311.579,
+        4056.0
+      ],
+      "xy_px300": [
+        655.7895,
+        2028.0
+      ],
+      "status": "PROVEN-LOCAL-RIGHT-ANGLE-GERM-v52"
+    }
+  ],
+  "gapA_crossimage_fit": {
+    "version": "v52",
+    "method": "cross-image local branch-centerline fit",
+    "canonical_branch_angle_bins_deg": [
+      [
+        75.5,
+        3
+      ],
+      [
+        126.5,
+        3
+      ]
+    ],
+    "jpeg_branch_angle_bins_deg": [
+      [
+        78,
+        4
+      ],
+      [
+        126,
+        4
+      ]
+    ],
+    "canonical_intersection_px600": [
+      2351.430400530278,
+      3498.479348511226
+    ],
+    "userjpeg_intersection_px": [
+      2523.2221146992315,
+      1915.6118285601738
+    ],
+    "userjpeg_intersection_registered_to_canonical_px600": [
+      2353.2838438088247,
+      3501.3483058913534
+    ],
+    "cross_image_disagreement_px600": 3.4155773210071914,
+    "anchor_px600_mean": [
+      2352.357122169551,
+      3499.9138272012897
+    ],
+    "anchor_px300_mean": [
+      1176.1785610847755,
+      1749.9569136006448
+    ],
+    "status": "PASS-CROSS-IMAGE-SAME-PHYSICAL-INTERSECTION"
+  },
+  "gapA_candidate_components_right_error_le_2deg": [
+    {
+      "size": 1,
+      "bbox": [
+        2359,
+        3506,
+        2359,
+        3506
+      ],
+      "centroid": [
+        2359.0,
+        3506.0
+      ],
+      "distance_to_crossimage_fit_px600": 9.009402044865755
+    },
+    {
+      "size": 17,
+      "bbox": [
+        2341,
+        3483,
+        2353,
+        3488
+      ],
+      "centroid": [
+        2345.470588235294,
+        3485.0588235294117
+      ],
+      "distance_to_crossimage_fit_px600": 16.373621582263958
+    },
+    {
+      "size": 2,
+      "bbox": [
+        2364,
+        3524,
+        2365,
+        3524
+      ],
+      "centroid": [
+        2364.5,
+        3524.0
+      ],
+      "distance_to_crossimage_fit_px600": 26.97393560633192
+    }
+  ],
+  "gapA_unique_component_rule": "select the only candidate component consistent with the cross-image branch-centerline intersection within historical registration tolerance",
+  "cyclic_order": [
+    "RHC0",
+    "RHC1",
+    "RHC2",
+    "RHC3",
+    "RHC4",
+    "RHC5"
+  ],
+  "six_raster_axis_arcs": [
+    {
+      "id": "RHAX0",
+      "from": "RHC0",
+      "to": "RHC1",
+      "path": [
+        "S038",
+        "S042"
+      ],
+      "length_px300": 543.244,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    },
+    {
+      "id": "RHAX1",
+      "from": "RHC1",
+      "to": "RHC2",
+      "path": [
+        "S049",
+        "S050",
+        "BRIDGE_A_PRE"
+      ],
+      "length_px300": 258.31012506310594,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    },
+    {
+      "id": "RHAX2",
+      "from": "RHC2",
+      "to": "RHC3",
+      "path": [
+        "BRIDGE_A_POST",
+        "S055",
+        "S068"
+      ],
+      "length_px300": 276.40881047918333,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    },
+    {
+      "id": "RHAX3",
+      "from": "RHC3",
+      "to": "RHC4",
+      "path": [
+        "S081",
+        "S076",
+        "BRIDGE_B_PRE"
+      ],
+      "length_px300": 280.17113595499956,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    },
+    {
+      "id": "RHAX4",
+      "from": "RHC4",
+      "to": "RHC5",
+      "path": [
+        "BRIDGE_B_POST",
+        "S074",
+        "S075",
+        "S080",
+        "S082"
+      ],
+      "length_px300": 310.87013595499957,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    },
+    {
+      "id": "RHAX5",
+      "from": "RHC5",
+      "to": "RHC0",
+      "path": [
+        "S051",
+        "S039"
+      ],
+      "length_px300": 728.895,
+      "status": "PROVEN-RASTER-CYCLE-ARC"
+    }
+  ],
+  "topology": "C6",
+  "source_to_raster_labeling": {
+    "status": "D6-TORSOR/UNFIXED-ABSOLUTE-LABELING",
+    "isomorphism_count": 12,
+    "isomorphisms": [
+      {
+        "orientation": 1,
+        "shift": 0,
+        "centre_map": {
+          "HC0": "RHC0",
+          "HC1": "RHC1",
+          "HC2": "RHC2",
+          "HC3": "RHC3",
+          "HC4": "RHC4",
+          "HC5": "RHC5"
+        },
+        "axis_map": {
+          "HAX0": "RHAX0",
+          "HAX1": "RHAX1",
+          "HAX2": "RHAX2",
+          "HAX3": "RHAX3",
+          "HAX4": "RHAX4",
+          "HAX5": "RHAX5"
+        }
+      },
+      {
+        "orientation": 1,
+        "shift": 1,
+        "centre_map": {
+          "HC0": "RHC1",
+          "HC1": "RHC2",
+          "HC2": "RHC3",
+          "HC3": "RHC4",
+          "HC4": "RHC5",
+          "HC5": "RHC0"
+        },
+        "axis_map": {
+          "HAX0": "RHAX1",
+          "HAX1": "RHAX2",
+          "HAX2": "RHAX3",
+          "HAX3": "RHAX4",
+          "HAX4": "RHAX5",
+          "HAX5": "RHAX0"
+        }
+      },
+      {
+        "orientation": 1,
+        "shift": 2,
+        "centre_map": {
+          "HC0": "RHC2",
+          "HC1": "RHC3",
+          "HC2": "RHC4",
+          "HC3": "RHC5",
+          "HC4": "RHC0",
+          "HC5": "RHC1"
+        },
+        "axis_map": {
+          "HAX0": "RHAX2",
+          "HAX1": "RHAX3",
+          "HAX2": "RHAX4",
+          "HAX3": "RHAX5",
+          "HAX4": "RHAX0",
+          "HAX5": "RHAX1"
+        }
+      },
+      {
+        "orientation": 1,
+        "shift": 3,
+        "centre_map": {
+          "HC0": "RHC3",
+          "HC1": "RHC4",
+          "HC2": "RHC5",
+          "HC3": "RHC0",
+          "HC4": "RHC1",
+          "HC5": "RHC2"
+        },
+        "axis_map": {
+          "HAX0": "RHAX3",
+          "HAX1": "RHAX4",
+          "HAX2": "RHAX5",
+          "HAX3": "RHAX0",
+          "HAX4": "RHAX1",
+          "HAX5": "RHAX2"
+        }
+      },
+      {
+        "orientation": 1,
+        "shift": 4,
+        "centre_map": {
+          "HC0": "RHC4",
+          "HC1": "RHC5",
+          "HC2": "RHC0",
+          "HC3": "RHC1",
+          "HC4": "RHC2",
+          "HC5": "RHC3"
+        },
+        "axis_map": {
+          "HAX0": "RHAX4",
+          "HAX1": "RHAX5",
+          "HAX2": "RHAX0",
+          "HAX3": "RHAX1",
+          "HAX4": "RHAX2",
+          "HAX5": "RHAX3"
+        }
+      },
+      {
+        "orientation": 1,
+        "shift": 5,
+        "centre_map": {
+          "HC0": "RHC5",
+          "HC1": "RHC0",
+          "HC2": "RHC1",
+          "HC3": "RHC2",
+          "HC4": "RHC3",
+          "HC5": "RHC4"
+        },
+        "axis_map": {
+          "HAX0": "RHAX5",
+          "HAX1": "RHAX0",
+          "HAX2": "RHAX1",
+          "HAX3": "RHAX2",
+          "HAX4": "RHAX3",
+          "HAX5": "RHAX4"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 0,
+        "centre_map": {
+          "HC0": "RHC0",
+          "HC1": "RHC5",
+          "HC2": "RHC4",
+          "HC3": "RHC3",
+          "HC4": "RHC2",
+          "HC5": "RHC1"
+        },
+        "axis_map": {
+          "HAX0": "RHAX5",
+          "HAX1": "RHAX4",
+          "HAX2": "RHAX3",
+          "HAX3": "RHAX2",
+          "HAX4": "RHAX1",
+          "HAX5": "RHAX0"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 1,
+        "centre_map": {
+          "HC0": "RHC1",
+          "HC1": "RHC0",
+          "HC2": "RHC5",
+          "HC3": "RHC4",
+          "HC4": "RHC3",
+          "HC5": "RHC2"
+        },
+        "axis_map": {
+          "HAX0": "RHAX0",
+          "HAX1": "RHAX5",
+          "HAX2": "RHAX4",
+          "HAX3": "RHAX3",
+          "HAX4": "RHAX2",
+          "HAX5": "RHAX1"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 2,
+        "centre_map": {
+          "HC0": "RHC2",
+          "HC1": "RHC1",
+          "HC2": "RHC0",
+          "HC3": "RHC5",
+          "HC4": "RHC4",
+          "HC5": "RHC3"
+        },
+        "axis_map": {
+          "HAX0": "RHAX1",
+          "HAX1": "RHAX0",
+          "HAX2": "RHAX5",
+          "HAX3": "RHAX4",
+          "HAX4": "RHAX3",
+          "HAX5": "RHAX2"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 3,
+        "centre_map": {
+          "HC0": "RHC3",
+          "HC1": "RHC2",
+          "HC2": "RHC1",
+          "HC3": "RHC0",
+          "HC4": "RHC5",
+          "HC5": "RHC4"
+        },
+        "axis_map": {
+          "HAX0": "RHAX2",
+          "HAX1": "RHAX1",
+          "HAX2": "RHAX0",
+          "HAX3": "RHAX5",
+          "HAX4": "RHAX4",
+          "HAX5": "RHAX3"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 4,
+        "centre_map": {
+          "HC0": "RHC4",
+          "HC1": "RHC3",
+          "HC2": "RHC2",
+          "HC3": "RHC1",
+          "HC4": "RHC0",
+          "HC5": "RHC5"
+        },
+        "axis_map": {
+          "HAX0": "RHAX3",
+          "HAX1": "RHAX2",
+          "HAX2": "RHAX1",
+          "HAX3": "RHAX0",
+          "HAX4": "RHAX5",
+          "HAX5": "RHAX4"
+        }
+      },
+      {
+        "orientation": -1,
+        "shift": 5,
+        "centre_map": {
+          "HC0": "RHC5",
+          "HC1": "RHC4",
+          "HC2": "RHC3",
+          "HC3": "RHC2",
+          "HC4": "RHC1",
+          "HC5": "RHC0"
+        },
+        "axis_map": {
+          "HAX0": "RHAX4",
+          "HAX1": "RHAX3",
+          "HAX2": "RHAX2",
+          "HAX3": "RHAX1",
+          "HAX4": "RHAX0",
+          "HAX5": "RHAX5"
+        }
+      }
+    ],
+    "guard": "The anonymous raster C6 is proven. Naming its vertices HC0..HC5 and arcs HAX0..HAX5 requires a source-certified origin/orientation such as a P/Q/R/S route anchor; no geometric fit alone fixes this gauge."
+  },
+  "decision": {
+    "sixth_anchor": "PROVEN-UNIQUE-CROSSIMAGE-PHYSICAL-INTERSECTION",
+    "raster_C6": "PROVEN-SOURCE-AWARE-ANONYMOUS-C6",
+    "raster_six_HAX_arcs": "PROVEN-AS-CYCLE-ARCS-UP-TO-D6-LABEL-GAUGE",
+    "62_face_transport": "OPEN-NEXT-GATE-D6-EQUIVARIANT"
+  },
+  "status": "PASS-Raster-C6-CLOSED-UP-TO-D6-GAUGE"
+}

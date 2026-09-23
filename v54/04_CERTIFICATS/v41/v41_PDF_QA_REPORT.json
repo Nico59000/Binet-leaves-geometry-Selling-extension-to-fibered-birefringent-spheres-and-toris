@@ -1,0 +1,38 @@
+{
+  "version": "v41",
+  "status": "PASS",
+  "pdf": "formalisation_feuillets_binet_birefringence_selling_polaire_v41.pdf",
+  "page_count": 225,
+  "final_canonical_sha256": "7444e1010b547cda1cf253241a9981327168b0517b87dfaf07243b72c7e60f3c",
+  "preflight": "PASS_OPENABLE_NOT_ENCRYPTED_NOT_SCANNED",
+  "final_rerender": {
+    "engine": "pdfium",
+    "dpi": 60,
+    "rendered_pages": 225,
+    "automated_scan": {
+      "pages": 225,
+      "dpi": 60,
+      "flagged": [],
+      "min_ink": 0.05560714715644293,
+      "max_border_dark": 0,
+      "max_dark": 0.006291309108210517,
+      "status": "PASS"
+    }
+  },
+  "visual_inspection_precanonical": {
+    "ranges": [
+      "193-204",
+      "205-216",
+      "217-225"
+    ],
+    "result": "PASS_NO_CLIPPING_OVERLAP_BLACK_SQUARES_OR_BROKEN_GLYPHS_OBSERVED"
+  },
+  "canonicalization": {
+    "method": "pypdf clone, metadata removed, fixed trailer ID",
+    "idempotent_second_canonicalization": true,
+    "precanonical_to_final_selected_render_parity_pages": "1,193-225",
+    "selected_page_count": 34,
+    "selected_render_parity": "PASS_PIXEL_IDENTICAL_AT_80_DPI_POPPLER"
+  },
+  "guard": "All 225 canonical pages were rerendered after final canonicalization; the complete new-section/tail ranges had already been visually inspected and 34 representative pages were pixel-compared before/after canonicalization."
+}

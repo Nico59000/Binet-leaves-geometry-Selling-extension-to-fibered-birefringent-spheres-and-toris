@@ -1,0 +1,87 @@
+{
+  "Pascal_p46_global_replay": {
+    "GL3_covariance": {
+      "direct_pascal_reduction_replay": "6/6 exact nontrivial GL3(Z) transforms with nonzero z^4 pivot PASS",
+      "logical_status": "PROVEN: follows from the exact 15-coefficient identity and the source-law GL(3) contravariance of rho",
+      "status": "PASS-EXACT"
+    },
+    "Noether_reference": "rho=D_f(psi)/144",
+    "Pascal_normal_form": "f=alpha+4 beta z+6 gamma z^2+a z^4",
+    "full_15_coefficient_extension": {
+      "contravariant_return": "C_old=T C_red T^T, T=[[1,0,0],[0,1,0],[-d0/a,-d1/a,1]]",
+      "general_form": "f=alpha+4 beta z+6 gamma z^2+4 delta z^3+a z^4",
+      "identity": "rho=(5/2)p_corrected",
+      "reduced_alpha": "alpha-4 beta delta/a+6 gamma delta^2/a^2-3 delta^4/a^3",
+      "reduced_beta": "beta-3 gamma delta/a+2 delta^3/a^2",
+      "reduced_gamma": "gamma-delta^2/a",
+      "reduction": "z_old=z_new-delta/a on the dense open chart a!=0",
+      "six_matrix_entries": "ALL SIX EXACT RESIDUAL NUMERATORS ZERO; rational reduction agrees entrywise with the polynomial Noether target, hence extends globally.",
+      "status": "PROVEN-GLOBAL-POLYNOMIAL-IDENTITY-IN-15-COEFFICIENTS"
+    },
+    "global_scale": "rho=(5/2) p_corrected",
+    "historical_guard": "The calculation identifies the repairs required by the printed p.46 formula under Pascal's calibrated spinta convention. It does not claim that three independent historical editorial mistakes occurred; a single upstream numerical mistake may propagate into several displayed coefficients.",
+    "reduced_13_parameter_identity": {
+      "identity": "rho_reduced-(5/2)p_corrected == 0",
+      "status": "PROVEN-EXACT-SYMBOLIC",
+      "terms_each_side_after_expansion": 223
+    },
+    "repairs": {
+      "numeric_1": {
+        "carrier": "i*h in u3^2 block",
+        "difference": "+1/3",
+        "printed": "-1/10",
+        "required": "+7/30"
+      },
+      "numeric_2": {
+        "carrier": "(alpha,gamma)_2*h in binary-quadratic block",
+        "difference": "+2/5",
+        "printed": "+6/5",
+        "required": "+8/5"
+      },
+      "numeric_3": {
+        "carrier": "(w,gamma)_2*(gamma u)^2 in binary-quadratic block",
+        "difference": "-4/5",
+        "printed": "+16/5",
+        "required": "+12/5"
+      },
+      "typed_completion": {
+        "printed": "+(k,gamma)_2 in the scalar u3^2 coefficient",
+        "required": "K_gamma=((k,gamma)_2,gamma)_2",
+        "status": "PROVEN-TYPING-REPAIR; HISTORICAL-INTENT-NOT-ASSERTED"
+      }
+    },
+    "spinta_normalization": "PROVEN-SOURCE-CALIBRATED/NORMALIZED-TRANSVECTANT",
+    "u3_linear_block": "PRINTED COEFFICIENTS RETAINED EXACTLY: (-4/5,-44/5,28/25,28/15,-8/5)"
+  },
+  "centered_amplitude_adapter": {
+    "Lambda": "Lambda(s)=chi*s/2",
+    "centered_jet": "deltaLambda=(chi/2)(s-s_*)",
+    "control": "mu=gamma_H*deltaLambda=(gamma_H*chi/2)(s-s_*)",
+    "golden_guard": "If the reference co-transports with a q^2 homothety then deltaLambda has weight 2; with fixed reference the transformation is affine, not homogeneous.",
+    "planar_second_moment": "M_D(s)=(s/2) Pi_D",
+    "ray": "s Q_Pas_raw at the polar fixed point",
+    "reference": "Lambda_*=a0/gamma_H; s_*=2*a0/(gamma_H*chi)",
+    "status": "PROVEN-EXACT-CENTERED-JET-ADAPTER",
+    "time_identification": "SEPARATED/NOT-ASSERTED"
+  },
+  "gate": "Gate 6",
+  "gate6_decision": "KEEP-OPEN/PRESEAL",
+  "policy": "SAME-GATE-CONTINUATION/NO-SUBGATE",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "remaining_active_frontiers": [
+    "Fig2 absolute S/Phi raster binding",
+    "Fig3 remains 2/91 unless new individual raster witnesses appear",
+    "R2PURE_13 mixed/nonfree higher-cell remains OPEN/NT",
+    "No new r=4 or B6 search is opened"
+  ],
+  "retained": {
+    "B6": "NOT-OPENED",
+    "D10": "PROVEN-SOURCE-TYPED-UNIQUE",
+    "Fig2": "S/Phi absolute raster binding NT",
+    "Fig3": "2/91 MARKED-RASTER-BOUND; 89/91 NOT-PROPAGATED",
+    "polar_projector": "PROVEN-EXACT",
+    "r4": "NOT-OPENED",
+    "v53": "CLOSED/APPEND-ONLY"
+  },
+  "version": "v54"
+}

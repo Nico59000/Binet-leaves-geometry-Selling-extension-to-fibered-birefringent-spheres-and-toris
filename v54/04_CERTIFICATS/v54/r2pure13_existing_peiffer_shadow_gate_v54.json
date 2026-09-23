@@ -1,0 +1,71 @@
+{
+  "R2PURE_shadow": {
+    "directions": [
+      "CHIRES_01",
+      "CHIRES_02",
+      "CHIRES_03",
+      "CHIRES_04",
+      "CHIRES_05",
+      "CHIRES_06",
+      "CHIRES_07",
+      "CHIRES_08",
+      "CHIRES_09",
+      "CHIRES_10",
+      "CHIRES_11",
+      "CHIRES_12",
+      "CHIRES_13"
+    ],
+    "independent_residual_directions": 13,
+    "scope_guard": "Character-shadow independence proves the thirteen cycles are new modulo M43 after chi-specialization. It does not by itself prove a free rank-13 R-submodule or completeness of the full identity module."
+  },
+  "decision": "REFUTED-TYPED/EXISTING-v43-v44-PEIFFER-FAMILIES-CANNOT-PROMOTE-R2PURE-GROUPOID-ADAPTER",
+  "deduction": "Every currently materialized v43/v44 Peiffer comparison family has zero class in the residual quotient modulo M43, whereas the thirteen R2PURE classes span a 13-dimensional residual image there. Hence no nontrivial relation among the R2PURE residual classes can be supplied by those existing families.",
+  "existing_families": {
+    "M43_pairwise_overlaps": {
+      "complete_resolution": "NT: pairwise cyclic overlaps through cancellation length 4 are absorbed, but higher multi-relator identities and the finite-character residual shadow remain nonzero.",
+      "length_overlap_absorption": {
+        "1": {
+          "absorbed": 1662,
+          "comparison_cycles": 1662,
+          "pairs": 3770,
+          "residual_groups": 2108
+        },
+        "2": {
+          "absorbed": 52,
+          "comparison_cycles": 52,
+          "pairs": 126,
+          "residual_groups": 74
+        },
+        "3": {
+          "absorbed": 4,
+          "comparison_cycles": 4,
+          "pairs": 8,
+          "residual_groups": 4
+        },
+        "4": {
+          "absorbed": 47,
+          "comparison_cycles": 47,
+          "pairs": 48,
+          "residual_groups": 1
+        }
+      }
+    },
+    "v43_second_syzygies": {
+      "complete_5cell_module": "NT",
+      "count": 18
+    },
+    "v44_triple_Peiffer": {
+      "absorbed_by_M43": 248,
+      "comparison_cycles": 248,
+      "new_group_ring_direction_mod_M43": 0,
+      "scope": "ordered cyclic three-relator factorizations with three distinct base relators and positive free cancellation at both sequential joins"
+    }
+  },
+  "guards": [
+    "R2PURE additive whiskering radius<=3 remains REFUTED-TYPED",
+    "B6 NOT-OPENED"
+  ],
+  "open_lane": "A genuinely new higher presentation/mixed Peiffer family outside the currently materialized M43-absorbed census remains OPEN/NT. Radius 4 is not opened merely because current Peiffer families fail.",
+  "phase": "Gate5 source-explicit Peiffer/higher-cell priority gate",
+  "version": "v54"
+}

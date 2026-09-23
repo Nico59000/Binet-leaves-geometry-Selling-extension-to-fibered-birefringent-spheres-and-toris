@@ -1,0 +1,8 @@
+{
+  "version": "v53",
+  "status": "PASS-FORMAL-CONTEXT-LOCK-INHERITED-FROM-SEALED-v52",
+  "predecessor_attestation_sha256": "7069685710baf56dc929404562e72cd97cbb137891b760de5b9668ea7265833d",
+  "document_count": 9,
+  "predecessor_status": "PASS-FORMAL-CONTEXT-LOCK-INHERITED",
+  "rule": "HT+NT append-only; source-derived, adapter, conditional and external claims remain separated; no equality from cardinality or notation."
+}

@@ -1,0 +1,85 @@
+{
+  "version": "v39",
+  "status": "PASS_GUARDED_APPEND_ONLY",
+  "predecessor": "v38 CLOSED/APPEND-ONLY",
+  "claims": [
+    {
+      "object": "Selling Fig.1 source-semantic contract",
+      "status": "PROVEN",
+      "basis": "10 source rules; printed pp.169-170,175,184,190-191"
+    },
+    {
+      "object": "Microscopic historical incidence assignment",
+      "status": "NT",
+      "basis": "schema/matching obstruction: six source axes vs five symmetry candidates; missing semantic labels on nodes/segments/fields"
+    },
+    {
+      "object": "Field-level functor F_Sell^field -> F29_can",
+      "status": "PENDING-MORPHISM",
+      "basis": "0/1/2-cell compatibility not instantiable from current tables"
+    },
+    {
+      "object": "Historical field H1/H2",
+      "status": "NT_NOT_RECOMPUTED",
+      "basis": "blocked by field-functor gate"
+    },
+    {
+      "object": "Six exact Fox 4-cycles",
+      "status": "PROVEN",
+      "basis": "v38 group-ring Fox identities retained"
+    },
+    {
+      "object": "Bounded critical-pair census",
+      "status": "PROVEN_FINITE_CENSUS",
+      "basis": "86 fixed-basepoint oriented words; 396 cyclic basepoint words; exhaustive bare triples"
+    },
+    {
+      "object": "Finite mod-4 character Fox shadow",
+      "status": "PROVEN_FINITE_QUOTIENT_SHADOW",
+      "basis": "all 512 sign characters; rank 9 trivial, rank 8 nontrivial; six seeds not saturating shadow"
+    },
+    {
+      "object": "Full Z[Gamma3(2)] identities-among-relations module",
+      "status": "NT",
+      "basis": "finite quotient/base change is not flat; no promotion from residual shadow"
+    },
+    {
+      "object": "Unpointed oriented projective carrier naturality",
+      "status": "PROVEN",
+      "basis": "15 historical/deck edges, k=1..12, conjugation, reduction, parity and Lie bracket checks"
+    },
+    {
+      "object": "Fixed row-major nine-unit chart under full groupoid",
+      "status": "REFUTED-TYPED",
+      "basis": "preserved only by Q and kappa_12_deck"
+    },
+    {
+      "object": "Constant integral J section",
+      "status": "REFUTED-TYPED",
+      "basis": "preserved by 0/15 edges"
+    },
+    {
+      "object": "Jbar mod2 fixed section",
+      "status": "NOT_GLOBAL",
+      "basis": "preserved only by kappa_12_deck"
+    },
+    {
+      "object": "Roof reversal = matrix transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "basis": "prior v36 no-go retained"
+    },
+    {
+      "object": "Lorentz orientation",
+      "status": "NT",
+      "basis": "no equivariant object-varying section yet"
+    },
+    {
+      "object": "Physical phase",
+      "status": "SEPARATED/PENDING-MORPHISM",
+      "basis": "no physical action/observable morphism"
+    }
+  ],
+  "reality_stratified_guard": "Observed claims and actionable obligations are kept separate; no NT/pending obligation is written as an observed theorem.",
+  "Noether_guard": "Double reduction is methodology/context for overlap control only, not proof of Gamma3 Fox identities.",
+  "conclusion": "v39 advances three carriers without merging them: source-semantic Selling contract, bounded Fox/critical-pair evidence, and unpointed projective groupoid naturality."
+}

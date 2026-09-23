@@ -1,0 +1,19 @@
+v38 — BSB Tafel III witness, Noether double-reduction context, Fox 4-cells, oriented projective ternary bracket
+STATUS BEFORE ROUNDTRIP: PRESEAL
+PARENT: v37 CLOSED / APPEND-ONLY
+PRIMARY GEOMETRIC WITNESS: Tafel-III-fig1.jpg (BSB-derived user-supplied high-quality image)
+PHOTO SHA256: 36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0
+PHOTO/V37 REGISTRATION: 184 SIFT matches; 142 RANSAC inliers; median reprojection 1.339 px at v37 working scale.
+SEGMENT CROSSCHECK: 105 = 97 confirmed + 3 partial + 5 weak; diagnostic only.
+FIELD INCIDENCE: NT; six historical axes / full fields / repetitions / stabilizers not yet exhaustively source-matched.
+FIELD FUNCTOR/H1/H2: PENDING / NOT RECOMPUTED.
+NOETHER 1908: integrated as STRUCTURAL_CONTEXT_ONLY for double reduction / relation-control; no identification with Selling fields or Gamma3 proof.
+GAMMA3: 6 exact Z[Gamma3(2)] Fox 4-cell cycles z_r=e_r+r e_(r^-1), free submodule rank 6; full identity-among-relations module NT.
+HYPERFINE: oriented scalar quotient U_k^+ (u=1 mod3); projective commutator and mod-2 Thomas-Wigner shadow PROVEN for all k algebraically, replay k=1..12; J/-J retained.
+SEPARATIONS: roof reversal != transpose remains REFUTED-TYPED; Lorentz orientation NT; physical de Broglie phase SEPARATED/PENDING-MORPHISM.
+STRATIFIED REALITY: observed/actionable and logical-truth/certification layers explicitly separated.
+VERIFY: 614/614 PASS (383 inherited + 231 v38).
+PDF: 213 pages A4; preflight PASS; 213-page render QA PASS; canonical PDF render pixel-identical to raw compile; canonicalization replay byte-identical from fixed raw source.
+PDF SHA256: d31f8c3fbd7c09e6d6c22daec103af6d5b4bebea2b1fdae9ed2e632dd3e70411
+ZSTD SPLITTER: NOT_TRIGGERED_BELOW_200MiB.
+SAFE SUCCESSOR: close only source-semantic Selling incidence needed for field functor/H1/H2; extend the six Fox cycles toward the full group-ring resolution; test historical-groupoid naturality of P_k^+ before any orientation/phase promotion.

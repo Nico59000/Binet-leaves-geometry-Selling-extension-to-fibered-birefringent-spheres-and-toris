@@ -1,0 +1,15 @@
+{
+  "component_check_events": {
+    "consolidated": 59,
+    "pascal_noether_bridge": 102,
+    "total": 161
+  },
+  "failed": [],
+  "gate": "Gate 6",
+  "gate_closed": false,
+  "orchestrator_checks": 16,
+  "orchestrator_passed": 16,
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "status": "PASS",
+  "version": "v54"
+}

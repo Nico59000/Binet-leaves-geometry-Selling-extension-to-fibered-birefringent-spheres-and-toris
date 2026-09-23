@@ -1,0 +1,26 @@
+{
+  "version": "v47",
+  "status": "PASS",
+  "guards": {
+    "append_only_v46": true,
+    "historical_abstract_C6_source_semantic_only": true,
+    "DAX_graph_no_C6_scope_typed": true,
+    "HC_HAX_raster_embedding_remains_NT": true,
+    "PQRS_semantics_not_raster_binding": true,
+    "C2_89_fail_closed": true,
+    "H12_not_recomputed": true,
+    "radius2_exact_lifts_recomputed_over_Q": true,
+    "13_lifts_typed_as_exact_cycles": true,
+    "character_shadow_independence_not_promoted_to_free_R_module": true,
+    "CHIRES14_no_go_scope_radius2_only": true,
+    "complete_resolution_NT": true,
+    "Singer_stays_separated": true,
+    "R5_refuted_typed_retained": true,
+    "opposite_variance_retained": true,
+    "roof_transpose_refuted_typed_retained": true,
+    "physical_phase_separated": true
+  },
+  "key_selling_result": "The source-level HC/HAX carrier is a six-cycle, but the seven currently detected DAX extent-intersection graph has one isolated trace and only cycles of lengths 4 and 5, so it cannot itself realize the historical six-cycle. Direct plate transcription of the six indicated centres/local dotted branches remains required.",
+  "key_gamma_result": "The exact radius-two coefficient ball has 163 group elements. The exact Fox kernel has dimension 1579 and maps with rank 13 to the 14-dimensional residual character quotient. Thirteen pure exact cycles lift CHIRES_01..13 at minimal radius exactly 2; CHIRES_14=R3b_123 remains zero on every exact radius<=2 cycle.",
+  "no_go_scope": "CHIRES_14 bounded no-go only through coefficient-support radius two; radius>=3 remains open."
+}

@@ -1,0 +1,28 @@
+{
+  "guards": [
+    "This binds the historical carrier symbol rho, not the numerical coefficients of a particular specialized quartic.",
+    "Selling applicability still requires the resulting quadratic Phi(f,rho) to be integral/nondegenerate and have signature (+,--), plus explicit chart/deck data.",
+    "Raw polynomial monomial coefficients must be converted to polarized tensor/divided-power normalization before contraction."
+  ],
+  "renders": {
+    "page24.png": "22d3ac6c329750218e591ce30e13639141f16ce60de5e5f01ca08aed30af491c",
+    "page27.png": "51d350a2778bc8437aa25f41340d77c4be65cdf34715f9d47553913536221eda",
+    "page30.png": "fcfce9b87e92f11d7ffac2623de3f3eb6b0fbba5a429d20857bb932f83026933"
+  },
+  "source_pdf": "10.1515_crll.1908.134.23.pdf",
+  "source_pdf_sha256": "ad9da4266cf035a25c3ca0a27cf87a9c06d9fa980edacae2994b725237532968",
+  "source_reading": {
+    "page23": "v is written in u-variables and explicitly called a Kontravariante 4. Grades der Form f",
+    "page24": "two quadratic forms rho and t are explicitly adjoined as modules; the page displays rho=u_epsilon^2=... and t=t_x^2=...; system becomes mod(s,rho,t)",
+    "page27": "reduction formula ends with u_epsilon^2 = rho (adj. Modul, \u00a77)",
+    "page30": "dual reduction formula ends with a_eta^4 = t (als Modul adjungiert)"
+  },
+  "status": "PROVEN-SOURCE-TYPED-QUADRATIC-MODULE-BINDING",
+  "typing_consequence": {
+    "bridge": "Phi_Noether_to_Selling(f,rho)_{ij}=sum_{k,l} f_{ijkl} rho^{kl}",
+    "bridge_input_C": "C := rho",
+    "rho": "SOURCE-NATIVE-CONTRAVARIANT-QUADRATIC-CANDIDATE Sym^2(V), by the source u-variable contravariant convention",
+    "t": "SOURCE-NATIVE-SECOND-QUADRATIC-MODULE; dual/covariant role retained separately"
+  },
+  "version": "v54"
+}

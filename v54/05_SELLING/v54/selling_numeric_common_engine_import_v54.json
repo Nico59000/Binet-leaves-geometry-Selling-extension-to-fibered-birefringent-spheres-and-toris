@@ -1,0 +1,96 @@
+{
+  "D_gkm": {
+    "R4": [
+      [
+        "-1",
+        "0",
+        "1"
+      ],
+      [
+        "-1",
+        "1",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "failure": null,
+    "guard": "algebraic D_t formulas do not certify an admissible infinite Selling trajectory",
+    "macro_word": "gkm",
+    "status": "REFUTED-TYPED / FINITE-ADMISSIBILITY-WINDOW"
+  },
+  "checkpoint_packaging_audit": {
+    "guard": "the repair is a v54 replay harness alias, not a rewrite of the v0.4 checkpoint archive",
+    "original_test_run": "6 PASS + 2 ERROR due solely to missing outputs/fig1_v50.recompiled.json in checkpoint archive",
+    "repair": "copy archived reference/fig1_v50.recompiled.v02.json byte-for-byte to the test harness expected output path; no mathematical bytes altered",
+    "repaired_test_run": "8/8 PASS",
+    "status": "PROVEN-PACKAGING-GAP/REPAIRED-NONMUTATING-ALIAS"
+  },
+  "exact_features": {
+    "GL3_covariance": "PROVEN-EXACT-BY-TRANSPORT/3-GAUGES",
+    "GL3_test_variants": 3,
+    "universal_12_adjacent_superbase_moves": "PROVEN-IN-CODE",
+    "v50_regular_complex_regression": "PASS-62/123/62 when archived reference output is mounted at expected harness path",
+    "wall_actions": "seed-independent exact integral 6x6 involutions",
+    "wall_coordinate_system": "g,h,k,l=-a-h-k,m=-b-g-k,n=-c-g-h"
+  },
+  "historical_figures": {
+    "Fig1": "historical v53/v52 carrier already closed separately",
+    "Fig2_6_numeric_execution": "NT/PENDING-EXPLICIT-FIGURE-SPECIFIC-SEED-MATRICES-WALL-WORDS-SUBSTITUTIONS",
+    "typed_incidence_functor": "PROVEN in v53 but insufficient by itself for numeric execution"
+  },
+  "kernel_abi": {
+    "historical_adapter_extra_requirements": [
+      "explicit seed matrix or tensor-derived Gram",
+      "explicit wall word/substitution when a transition is claimed",
+      "figure-specific provenance tag"
+    ],
+    "outputs": [
+      "exact wall polynomials/classification",
+      "exact field quotient keys",
+      "GL3 transport",
+      "typed atlas/regular complex when cellular adapter is certified"
+    ],
+    "required_seed_data": [
+      "3x3 symmetric integral indefinite_gram with signature (+,--)",
+      "GL(3,Z) chart_transform",
+      "explicit quotient/deck_generators when used",
+      "classifier/compile bounds",
+      "source provenance"
+    ]
+  },
+  "object": "Common numerical Selling engine kernel imported from Construire outils Python Selling",
+  "source_toolchain": {
+    "archive": "selling_seed2d_toolchain_v0_4_checkpoint.zip",
+    "bytes": 130213,
+    "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+    "sha256": "99624af97f972c1bf1dc1b74fe2cc5b16b1b1fa6ec6d85c2e2f7244e0d577357",
+    "universality_status": "PASS-GL3-COVARIANCE/PARTIAL-UNIVERSALITY"
+  },
+  "status": "PROVEN-EXACT-NUMERICAL-ENGINE-KERNEL/PER-FIGURE-HISTORICAL-SEEDS-PENDING",
+  "synthetic_Qa_depth16": {
+    "Qa_infinitude": "NT",
+    "SCC_sizes": [
+      55,
+      20
+    ],
+    "depth13": 19,
+    "depth14": 15,
+    "depth15": 19,
+    "depth16": 22,
+    "depth17_frontier": 27,
+    "historical_status": "SYNTHETIC-NONHISTORICAL",
+    "new_exact_classes_d13_to_d16": 75,
+    "status": "PASS-EXACT-CHECKPOINT / APPEND-ONLY-NOT-CLOSED-v0.4"
+  },
+  "v54_compatibility_overlay": {
+    "Noether_synthetic_seed_compile": "PASS-CLOSED-EXACT / 1 field / exact topology / fallback 0",
+    "signature_bugfix": "selling_seed2d_v54_signature_overlay_certificate.json",
+    "status": "PROVEN-BUGFIX-OVERLAY/NONDESTRUCTIVE",
+    "v04_tests_after_overlay": "8/8 PASS"
+  },
+  "version": "v54"
+}

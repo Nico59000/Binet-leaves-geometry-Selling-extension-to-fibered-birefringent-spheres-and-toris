@@ -1,0 +1,98 @@
+{
+  "version": "v39",
+  "items": [
+    {
+      "id": "PM39-01",
+      "object": "Selling Fig.1 source-semantic contract",
+      "status": "PROVEN_SOURCE_SEMANTIC_CONTRACT_CLOSED",
+      "next_gate": "No further prose mining required for the current certification schema; future work is targeted geometric retyping/assignment only."
+    },
+    {
+      "id": "PM39-02",
+      "object": "Complete F_Sell^field(Q0) microscopic incidence",
+      "status": "NT_SCHEMA_AND_SOURCE_GEOMETRIC_MATCHING",
+      "next_gate": "Retype/split at least one diagnostic segment to realize six axes, assign historical node types, wall/substitution labels, ordered field boundaries, repetitions and stabilizer words."
+    },
+    {
+      "id": "PM39-03",
+      "object": "Field-level functor F_Sell^field(Q0)->F29_can",
+      "status": "PENDING-MORPHISM_NOT_PROMOTED",
+      "next_gate": "Requires explicit 0/1/2-cell data from PM39-02."
+    },
+    {
+      "id": "PM39-04",
+      "object": "Historical field H1/H2",
+      "status": "NT_BLOCKED_BY_PM39-02_03",
+      "next_gate": "Recompute only after field functor promotion."
+    },
+    {
+      "id": "PM39-05",
+      "object": "Six exact group-ring Fox 4-cycles",
+      "status": "PROVEN_RETAINED",
+      "next_gate": "Seeds retained."
+    },
+    {
+      "id": "PM39-06",
+      "object": "Critical-pair/conjugacy overlap census",
+      "status": "PROVEN_BOUNDED_CENSUS",
+      "next_gate": "Use length-2/3 cyclic overlaps, especially R3b interfaces, only inside a typed crossed-module/Peiffer computation."
+    },
+    {
+      "id": "PM39-07",
+      "object": "Finite mod-4 character Fox shadow",
+      "status": "PROVEN_SIX_SEEDS_NON_SATURATING_SHADOW",
+      "next_gate": "A full Z[Gamma3(2)] resolution is still required; quotient shadow is not promoted to the full module."
+    },
+    {
+      "id": "PM39-08",
+      "object": "Full nonabelian identity-among-relations module",
+      "status": "NT_PENDING_GROUP_RING_RESOLUTION",
+      "next_gate": "Construct a contracting homotopy, crossed-module rewriting system, or equivalent complete resolution."
+    },
+    {
+      "id": "PM39-09",
+      "object": "Oriented projective carrier under Selling/deck groupoid",
+      "status": "PROVEN_UNPOINTED_NATURALITY",
+      "next_gate": "Carrier/tower/bracket naturality closed for the 15-edge witness groupoid."
+    },
+    {
+      "id": "PM39-10",
+      "object": "Pointed nine matrix-unit/roof chart naturality",
+      "status": "REFUTED_FULL_GROUPOID_POINTED_CHART",
+      "next_gate": "Seek a transported rank-one/projective configuration rather than a fixed row-major nine-address."
+    },
+    {
+      "id": "PM39-11",
+      "object": "Constant Thomas-Wigner J direction as groupoid-natural section",
+      "status": "REFUTED_FOR_CONSTANT_SECTION",
+      "next_gate": "A varying equivariant section may still exist; no Lorentz orientation is selected."
+    },
+    {
+      "id": "PM39-12",
+      "object": "Roof reversal = matrix transpose",
+      "status": "REFUTED-TYPED_RETAINED",
+      "next_gate": "Do not identify."
+    },
+    {
+      "id": "PM39-13",
+      "object": "Lorentz orientation / physical phase",
+      "status": "NT_OR_SEPARATED_PENDING",
+      "next_gate": "Requires explicit source-equivariant orientation/action morphism."
+    }
+  ],
+  "counts": {
+    "PROVEN_SOURCE_SEMANTIC_CONTRACT_CLOSED": 1,
+    "NT_SCHEMA_AND_SOURCE_GEOMETRIC_MATCHING": 1,
+    "PENDING-MORPHISM_NOT_PROMOTED": 1,
+    "NT_BLOCKED_BY_PM39-02_03": 1,
+    "PROVEN_RETAINED": 1,
+    "PROVEN_BOUNDED_CENSUS": 1,
+    "PROVEN_SIX_SEEDS_NON_SATURATING_SHADOW": 1,
+    "NT_PENDING_GROUP_RING_RESOLUTION": 1,
+    "PROVEN_UNPOINTED_NATURALITY": 1,
+    "REFUTED_FULL_GROUPOID_POINTED_CHART": 1,
+    "REFUTED_FOR_CONSTANT_SECTION": 1,
+    "REFUTED-TYPED_RETAINED": 1,
+    "NT_OR_SEPARATED_PENDING": 1
+  }
+}

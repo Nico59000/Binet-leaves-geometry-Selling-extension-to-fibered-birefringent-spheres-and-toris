@@ -1,0 +1,21 @@
+{
+  "closure_checks": 77,
+  "closure_checks_passed": 77,
+  "closure_token": "V54_GATE6_CLOSURE_PASS",
+  "combined_evidence_checks": 157,
+  "failed": [],
+  "gate": "Gate 6",
+  "gate_closed": true,
+  "inherited_check_count": 80,
+  "next_frontier": "v54 PREINDUSTRIAL FREEZE",
+  "nonblocking_open_inventory": [
+    "Fig2 absolute S/Phi raster binding remains NT within the present carrier.",
+    "Fig3 89/91 raster edges remain NOT-PROPAGATED absent individual witnesses.",
+    "R2PURE13 2-cell coherence remains NT because the frozen source does not materialize a 2-cell presentation.",
+    "Selling 3D->5D remains CONTEXT/PENDING-MORPHISM."
+  ],
+  "publication_state": "PREINDUSTRIAL-FREEZE-CANDIDATE/NONPUBLISHABLE",
+  "status": "PASS",
+  "v54_closed": false,
+  "version": "v54"
+}

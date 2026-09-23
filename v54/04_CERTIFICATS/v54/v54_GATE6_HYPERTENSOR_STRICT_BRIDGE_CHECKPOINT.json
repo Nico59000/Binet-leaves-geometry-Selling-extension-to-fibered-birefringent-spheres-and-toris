@@ -1,0 +1,114 @@
+{
+  "D10": {
+    "guard": "Normalization factors are relation-compatible gauges, not individually promoted historical identities.",
+    "normalization_gauge": {
+      "(vartheta rho x)^2 / Omega1": "10",
+      "a_rho^2 / C1": "-5",
+      "g / Omega3": "-3",
+      "i_Delta / (A_Delta)": "-3",
+      "s_vartheta^2 / Omega2": "-3",
+      "t / C2": "15/2"
+    },
+    "pairing": {
+      "A_Delta": "i_Delta",
+      "C1": "a_rho^2",
+      "C2": "t",
+      "Omega1": "(vartheta rho x)^2",
+      "Omega2": "s_vartheta^2",
+      "Omega3": "g"
+    },
+    "status": "PROVEN-SOURCE-TYPED-UNIQUE-PAIRING"
+  },
+  "Pascal_Noether_lane_B": {
+    "Q_ind_primitive": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "amplitude_LambdaN": "NOT-DETERMINED-BY-D10-OR-PASCAL-CARRIER",
+    "fixed_Qplus": "diag(2,2,1)",
+    "fixed_traceless": "diag(1/3,1/3,-2/3)=-(1/3) Q_pol for polar axis e3",
+    "polar_projector_status": "PROVEN-EXACT",
+    "positive_correspondent_reduced": "Qplus(x)=diag(2*x^2,2/x^2,1), x != 0",
+    "reduced_seam": "v=(x,1/x,0), projectively v~-v",
+    "signature": [
+      1,
+      2
+    ],
+    "swap_symmetry": "e1<->e2 preserves Q_ind and sends x<->1/x",
+    "unique_projective_swap_fixed_point": "x=+/-1"
+  },
+  "Pascal_p46": {
+    "construction_text": "Pascal computes p by taking a second polar with pole v, then substitutes the alpha coefficients by those of j and v by w; in the displayed transvections x1,x2 are replaced by u2,-u1.",
+    "exact_wrong_coefficient": "NT/NOT-PROMOTED",
+    "next_test": "Calibrate the spinta normalization on one independently printed low-order identity, then replay p46 on several exact specializations and require a stable single-term residual.",
+    "operator_normalization": "PARTIAL-PROVEN; factorial/binomial normalization of every spinta still requires calibration before termwise correction."
+  },
+  "gate": "Gate 6",
+  "gate6_decision": "KEEP-OPEN/PRESEAL",
+  "nucleation_test": {
+    "direct_Pascal_point_to_A2_nucleation": "REFUTED-TYPED",
+    "first_model_threshold": "Lambda_N=a0/gamma; mu=gamma*Lambda_N-a0",
+    "strict_remaining_route": "Pascal/D10 supplies the polar PROJECTOR line; nucleation still needs an independent amplitude/control map to Lambda_N (or mu).",
+    "structured_Selling_from_Qind": {
+      "A2_origin": "NO",
+      "I_S": "-12",
+      "adjugate": [
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -4
+        ]
+      ],
+      "denominator_product": "P(u)=u^2*(u+2)",
+      "genuine_root": "u=2 simple",
+      "original_rational_equation_reduced": "4*(u-2)/(u+2)=0",
+      "quartic_invariants": {
+        "I2": 64,
+        "J3": 1024
+      },
+      "structured_polynomial": "Q(u)=4*u^2*(u-2)",
+      "u0_double_factor": "SPURIOUS-FROM-DENOMINATOR-CLEARING"
+    }
+  },
+  "policy": "SAME-GATE-CONTINUATION/NO-SUBGATE",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "retained": {
+    "B6": "NOT-OPENED",
+    "Fig2": "S/Phi absolute raster binding NT",
+    "Fig3": "2/91 MARKED-RASTER-BOUND; 89/91 NOT-PROPAGATED",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "r4": "NOT-OPENED",
+    "v53": "CLOSED/APPEND-ONLY"
+  },
+  "toric_internal_contraction": {
+    "golden_discrete_sublocus": "c(x)=q^j iff |x|=q^(-j/4) up to x<->1/x, q=phi/2",
+    "planar_block": "diag(2*x^2,2/x^2)",
+    "projective_spectral_adapter": "planar block / max_eigenvalue ~ diag(1,c(x))",
+    "semigroup_status": "PROVEN-EXACT-AS-SPECTRAL/PROJECTIVE-ADAPTER; DYNAMICAL-IDENTIFICATION-NT",
+    "unordered_normalized_contraction_factor": "c(x)=min(x^4,x^-4)=exp(-4*abs(log|x|)) in (0,1]"
+  },
+  "version": "v54"
+}

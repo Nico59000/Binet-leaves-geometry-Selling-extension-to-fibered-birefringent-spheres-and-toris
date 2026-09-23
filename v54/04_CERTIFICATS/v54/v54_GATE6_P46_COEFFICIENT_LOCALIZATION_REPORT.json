@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "normalized spinta low identity",
+    "full symbolic gamma=0 identity rho=(5/2)p_printed",
+    "alpha=0 printed residual equals -2(w,gamma)^2(gamma u)^2",
+    "alpha=0 corrected coefficient 12/5 gives exact identity",
+    "raw Pascal fixed planar block equals (1/2)Pi_D"
+  ],
+  "gate_closed": false,
+  "phase": "v54 Gate 6 p46 coefficient localization",
+  "promotions": {
+    "16/5_to_12/5": "PROVEN-SPECIALIZATION-FORCED / GLOBAL-CANDIDATE",
+    "fixed_ray_amplitude_adapter": "PROVEN-CONSTRUCTED",
+    "gamma0_scale": "PROVEN-EXACT",
+    "spinta_normalization": "PROVEN"
+  },
+  "status": "PASS"
+}

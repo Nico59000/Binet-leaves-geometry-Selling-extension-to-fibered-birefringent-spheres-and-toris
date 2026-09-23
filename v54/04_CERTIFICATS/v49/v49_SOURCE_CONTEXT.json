@@ -1,0 +1,13 @@
+{
+  "version": "v49",
+  "predecessor": "v48 CLOSED/APPEND-ONLY",
+  "primary_sources": [
+    "E. Selling, Ueber die binären und ternären quadratischen Formen, Crelle 77 (1874), pp.143-229",
+    "E. Selling, Des formes quadratiques binaires et ternaires, JMPA 3e serie 3 (1877), parts I-II",
+    "LOG_0016.pdf / Tafel III, hash inherited from sealed v48"
+  ],
+  "formal_context": "HT+NT master governs context freezing; older Annexe/Fusion documents are subordinate when formulations differ.",
+  "v49_method_guard": "Raster is validation-only. Missing field combinatorics, HC/HAX, reflection action, H1/H2, physical phase and Lorentz orientation are never inferred from morphology.",
+  "gamma3_guard": "Failure of the v48 radius-3 dual at radius 4 is not evidence for existence of a lift.",
+  "status": "PASS_SOURCE_CONTEXT_TYPED"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": 31,
+  "passed": 31,
+  "failed": [],
+  "phase": "v54 Gate 6 unified research checkpoint",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "checkpoint_sha256": "39d6836b0ed0667f075e6fa215517b950ae2e1766e6da30a591e62da4656cddd",
+  "verifier_sha256": "a08e2b7e5dc431ef89aea86cdafc79aa0b6b7cf6143ff1433f1eb065cf944856",
+  "gate_closed": false,
+  "reason_open": [
+    "Fig2 unique raster S/Phi binding NT",
+    "Fig3 89/91 raster edges not propagated",
+    "Pascal/Noether lane A exact dictionary/coefficient NT",
+    "R2PURE_13 new mixed/nonfree higher cell not found"
+  ]
+}

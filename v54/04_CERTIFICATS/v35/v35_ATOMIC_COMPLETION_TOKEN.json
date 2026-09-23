@@ -1,0 +1,66 @@
+{
+  "phase": "v35",
+  "status": "CLOSED_APPEND_ONLY",
+  "atomic_contract": {
+    "MATH": "PASS",
+    "VERIFY": "PASS_175_OF_175",
+    "PDF_QA": "PASS",
+    "DETERMINISTIC_SEAL": "PASS",
+    "FRAGMENT_ROUNDTRIP": "NOT_TRIGGERED_BELOW_200MiB",
+    "ZIP_ROUNDTRIP": "PASS",
+    "POSTSEAL_REPLAY": "PASS_BYTE_IDENTICAL"
+  },
+  "artifacts": {
+    "pdf": {
+      "name": "formalisation_feuillets_binet_birefringence_selling_polaire_v35.pdf",
+      "sha256": "21ef3b57d4c777a42780155ff48563bd37f95df51459f0604b36c4ed9c0da962",
+      "pages": 199
+    },
+    "tex": {
+      "name": "formalisation_feuillets_binet_birefringence_selling_polaire_v35.tex",
+      "sha256": "5fd2bf739bb1e4831de578883e84613de4ad706665de6cd6cb19a5b0dfb7f9ab"
+    },
+    "verifier": {
+      "name": "verify_deck_fundamental_phase_v35.py",
+      "sha256": "fa0ee4d850b71d2b97708f2b129d4df8d797ec4f229c4830970b3ab08281e634"
+    },
+    "certificate": {
+      "name": "deck_fundamental_phase_v35_certificate.json",
+      "sha256": "02332630e1be45fae2ccd3d29e2d2cd39f51f9c40ce20141859c3da052561dfc"
+    },
+    "deck_cycles": {
+      "name": "v29_deck_fundamental_cycles_v35.csv",
+      "sha256": "2f3fc7a0b4d7cef429e1c398dbca80e03e2b6d90528a84e60d1cca94a580f58c",
+      "rows": 841
+    },
+    "deck_generators": {
+      "name": "deck_kernel_generators_v35.json",
+      "sha256": "64e00bcaa6960469802f39c5ad6f5984738e546a170afc3e823851856f730e65"
+    },
+    "deck_curvature": {
+      "name": "deck_curvature_identities_v35.json",
+      "sha256": "5553dd5738479d320adf050d50daea92b9cd76b99fcebfd03a826be43cdcb399"
+    },
+    "finite_chart": {
+      "name": "finite_congruence_chart_cohomology_v35.json",
+      "sha256": "4252273a8b1ff6187b0de4bdd02d50888275fc7768626dadd749431fe7def3ca"
+    },
+    "phase_orientation": {
+      "name": "phase_orientation_scale_v35.json",
+      "sha256": "73b746b7560222bfb90be417dd934bc3f172b915755a977f7be6381dfb84123f"
+    },
+    "source_gate": {
+      "name": "selling1877_finite_repetition_gate_v35.json",
+      "sha256": "57e1e7fb6b1950f22006e57c0eb1f1963baca8546c40918a37144c79fe8af635"
+    },
+    "bundle": {
+      "name": "formalisation_feuillets_binet_birefringence_selling_polaire_v35_bundle.zip",
+      "sha256": "3c407861bbfc8fb3b7086c76d0cc94e39bffa307a9ff7f1cebae60daec86bdc6"
+    },
+    "postseal": {
+      "name": "v35_POSTSEAL_REPLAY_REPORT.json",
+      "sha256": "f44abedb9753f1ea52a2447c93bc42caa2faaa0bb27fd9e3501afee0d5a0311f"
+    }
+  },
+  "safe_successor": "v36 -- retain the complete level-2 deck generator family, 841 relative Schreier cells, rank-9 first-order deck curvature, rank-2 normalized even-memory curvature, the contractible canonical 168-object congruence chart and its zero H1/H2, and the Gamma-induced no-go for a pointed U(1) orientation together with the O(2) Real-phase repair; extract or reconstruct the actual finite reduced-field incidence chart of the Selling Q0 example (including all repeated-field identifications and stabilizer labels) and compare it functorially with F29_can rather than identifying them; compute historical Binet/adjoint H1/H2 only on that source-exact chart; determine the relations among the nine Gamma_3(2) deck generators at the relative 3-cell level using the finite level-2 presentation; and seek a source-native pointed orientation only if an additional marked datum breaks Gamma reflection, while de Broglie action normalization and Cube27 remain separated."
+}

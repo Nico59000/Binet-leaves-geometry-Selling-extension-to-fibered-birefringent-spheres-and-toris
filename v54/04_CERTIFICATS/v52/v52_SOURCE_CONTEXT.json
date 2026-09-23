@@ -1,0 +1,95 @@
+{
+  "version": "v52",
+  "status": "PASS",
+  "predecessor": "v51 CLOSED/APPEND-ONLY",
+  "formal_context_status": "PASS-INHERITED-SEALED-v51-FORMAL-CONTEXT-LOCK",
+  "formal_context_document_count": 9,
+  "formal_context_documents": [
+    {
+      "byte_comparison_status": "BYTE-DIFFERENT-SAME-NAMED-SOURCE-REQUIRES-NO-SILENT-SUBSTITUTION",
+      "sha256": "886dac000f876e871560464c09249235204b3d38ca9b7d0f6c1f76712c6e248a",
+      "title": "addendum_sqrt3_hypergeometric_quarterturn_selling_fano_v2_2_hal.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "78cb53f9d910fb429a5bccc9be8f150426b5171d3f1f021a04c8c5d5b1c3ebb5",
+      "title": "Annexe-Heyting-besteod-v5-nt-Semantique-Nf-nt-Interne-externe.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "b5679a84441634c30281353d244920d5fdf7c03bc33fb74c3f4ed1f8c1f9c1f1",
+      "title": "heyting_besteod_htnt_master_hal_v1.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "2f2e9da0ca623a2c55b2850323214eb989d327f418e8b239711901a55f0e7096",
+      "title": "Heyting-Besteod-V5—Fusion-V3.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "a2da5c412be65df212cd7fb653b41a78e1c1e2939700e252c97253ef322bd259",
+      "title": "htnt_functional_logic_addendum.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "d025bf14b7249d4705caf8b0285619a21bab074964fa28cd04bb944cf4a85c10",
+      "title": "pochhammer_shifted_factorial_ternary_roof_hal_v1.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "EXACT-BYTE-MATCH",
+      "sha256": "c84375309edda604746c74e2c240acf0dd913346c3afbfc196f1773bdfcdb1db",
+      "title": "polydivisible_hyperplane_roof_elliptic_selling_progression_v4_3_hal.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "fd505d01e61d916d5a1f39e8bf0327c891366122794e7d383fc325f942054fdb",
+      "title": "positional_reversal_mixed_ternary_hal_v1_1.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    },
+    {
+      "byte_comparison_status": "NO-SEALED-PDF-BYTE-HASH-COMPARATOR",
+      "sha256": "c21762f07d4da95f756d517b70c3c38e540bfc69f4f18886400f3fdc898c1034",
+      "title": "roof_five_slice_four_interface_ternary_frames_hal_v1.pdf",
+      "v52_replay": "INHERITED-BY-SEALED-v51-FORMAL-CONTEXT-ATTESTATION"
+    }
+  ],
+  "formal_context_authority": {
+    "v51_FORMAL_CONTEXT_ATTESTATION.json": "ee1deacfcf37975d98f9701df241171e3d20b1247b8a45030aeb220c660c6a5e",
+    "v51_SOURCE_CONTEXT.json": "263900811653da3e4f0c4a764b6c1a6d04f445949f210733f74ae5414b24a5e6",
+    "v51_SHA256SUMS.txt": "7ee673849a481a876c42b7d5f3f3f7bdf3319d176fcdb51e9075a14014cd0f03",
+    "guard": "The nine source PDFs are not duplicated as new v52 bytes; their hashes/byte-distinction are inherited from the sealed v51 ledger and attestation."
+  },
+  "predecessor_artifacts": {
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v51.pdf": {
+      "bytes": 2419533,
+      "sha256": "be1a134deff2773d50aae9c9bbbc487e51eb160592c3500f69cd42f096916192"
+    },
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v51.tex": {
+      "bytes": 755480,
+      "sha256": "ed358a38ae1a1fed5fe9a69a8cb2e6771323d299aece535fd6352640c6190477"
+    },
+    "formalisation_feuillets_binet_birefringence_selling_polaire_v51_bundle.zip": {
+      "external_sealed_sha256": "d180dd3d801f6af20bcbadfa56a65aaa911dd65779c226ea16c7ae8a974ab47f",
+      "external_bytes": 73792125
+    },
+    "v51_ATOMIC_COMPLETION_TOKEN.json": {
+      "bytes": 3011,
+      "sha256": "59afaebb5481296acbbdac8d6b501c41555a8802b6d76ecb5e1c39f8477200af"
+    }
+  },
+  "source_primary": {
+    "Tafel-III-fig1.jpg": "36fbabf24d710e4bfd570bf05b2dba8350862ffcd02d44efd4f755204653a2b0",
+    "bsb_warp_v37_300.png": "8407b89955e1312f07543f1cd49ae519bec52fe2f2d2d1a1c37e6b38484e4845",
+    "selling_fig1_bsb_photo_gate_v38.json": "b8e04cdb0f28f5b1c5d43e9b4d9117314d7d1e129ddb9ba315a03fbc6172cff9",
+    "P084_candidate_source": "selling_fig1_photo_candidates_pre_v38.geojson",
+    "P084_role": "global-deformation constraint only; not independent per-edge embedding"
+  },
+  "guard": "Formal-context methodology remains inherited and locked. v52 promotes only the source-typed Fig.1 realization proven by the exact PL certificate; cross-carrier separations remain unchanged."
+}

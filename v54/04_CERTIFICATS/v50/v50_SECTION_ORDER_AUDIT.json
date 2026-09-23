@@ -1,0 +1,34 @@
+{
+  "version": "v50",
+  "status": "PASS",
+  "physical_pages": 263,
+  "terminal_order": [
+    "v46",
+    "v47",
+    "v48",
+    "v49",
+    "v50",
+    "Certification HT+NT",
+    "Réponse formelle",
+    "Diagramme",
+    "Conclusion",
+    "Appendice provenance",
+    "Références documentaires"
+  ],
+  "pages": {
+    "v46": 236,
+    "v47": 239,
+    "v48": 243,
+    "v49": 246,
+    "v50": 250,
+    "certification": 255,
+    "response": 257,
+    "diagram": 258,
+    "conclusion": 259,
+    "appendix_provenance": 260,
+    "bibliography_begin": 262,
+    "bibliography_end": 263
+  },
+  "bibliography_physically_final": true,
+  "source_order_guard": "v46-v50 precede certification/conclusion/appendix; no version section occurs after bibliography."
+}

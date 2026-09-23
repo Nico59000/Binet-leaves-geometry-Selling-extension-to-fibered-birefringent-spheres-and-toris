@@ -1,0 +1,1001 @@
+{
+  "decision": {
+    "R2PURE13_to_SellingDeck17_adapter": "SEPARATED/PENDING-MORPHISM",
+    "explicit_noninjective_edge_to_path_functor_on_1_skeleton": "PROVEN-EXISTS/NORMALIZATION-DEPENDENT",
+    "source_2cell_compatibility": "NT/BLOCKED-BY-MISSING-SOURCE-R2PURE-2CELL-PRESENTATION",
+    "source_generator_whiskering_equivariance": "NT; prior literal elementary whiskering permutation action on the 13 objects is REFUTED-TYPED",
+    "target_v29_bigon_compatibility": "PROVEN-AVAILABLE"
+  },
+  "diagnostic_clique_triangles": {
+    "all_images_matrix_identity": true,
+    "count": 107,
+    "status": "PASS-DIAGNOSTIC-ONLY/NOT-PROMOTED-AS-SOURCE-2CELLS"
+  },
+  "guard": "This construction proves existence of a noninjective path-valued quotient of the exact overlap 1-skeleton. It is not promoted to the requested incidence/groupoid adapter because the frozen R2PURE carrier does not supply a 2-cell presentation and the source group-ring whiskering data is not transported nontrivially.",
+  "quotient": {
+    "all_54_target_congruences": "PASS",
+    "edge_images": [
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_02"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K0",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_03"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_04"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K0",
+          "K3"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2",
+          "v29_S1"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_05"
+        ],
+        "source_shared": 9,
+        "source_signed_dot": 9,
+        "target_objects": [
+          "K0",
+          "K4"
+        ],
+        "target_path": [
+          "kappa_12_deck"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_08"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_09"
+        ],
+        "source_shared": 7,
+        "source_signed_dot": 7,
+        "target_objects": [
+          "K0",
+          "K3"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2",
+          "v29_S1"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_10"
+        ],
+        "source_shared": 10,
+        "source_signed_dot": 10,
+        "target_objects": [
+          "K0",
+          "K4"
+        ],
+        "target_path": [
+          "kappa_12_deck"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_11"
+        ],
+        "source_shared": 10,
+        "source_signed_dot": 10,
+        "target_objects": [
+          "K0",
+          "K0"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_12"
+        ],
+        "source_shared": 14,
+        "source_signed_dot": 14,
+        "target_objects": [
+          "K0",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_01",
+          "R2PURE_13"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 0,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_05"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K1",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_06"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K1",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S1^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_08"
+        ],
+        "source_shared": 7,
+        "source_signed_dot": -7,
+        "target_objects": [
+          "K1",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S2"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_10"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K1",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_11"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 0,
+        "target_objects": [
+          "K1",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S1^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_12"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K1",
+          "K1"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_02",
+          "R2PURE_13"
+        ],
+        "source_shared": 3,
+        "source_signed_dot": 3,
+        "target_objects": [
+          "K1",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S2"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_03",
+          "R2PURE_05"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K2",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S2^-1",
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_03",
+          "R2PURE_11"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 0,
+        "target_objects": [
+          "K2",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S2^-1",
+          "v29_S1^-1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_03",
+          "R2PURE_12"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 2,
+        "target_objects": [
+          "K2",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S2^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_03",
+          "R2PURE_13"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K2",
+          "K2"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_04",
+          "R2PURE_07"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K3",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_04",
+          "R2PURE_08"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K3",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_04",
+          "R2PURE_09"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K3",
+          "K3"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_04",
+          "R2PURE_10"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": -2,
+        "target_objects": [
+          "K3",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1",
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 4
+      },
+      {
+        "source": [
+          "R2PURE_04",
+          "R2PURE_12"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": -2,
+        "target_objects": [
+          "K3",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_07"
+        ],
+        "source_shared": 15,
+        "source_signed_dot": -15,
+        "target_objects": [
+          "K4",
+          "K1"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_08"
+        ],
+        "source_shared": 6,
+        "source_signed_dot": 6,
+        "target_objects": [
+          "K4",
+          "K2"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_09"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K4",
+          "K3"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1",
+          "v29_S2",
+          "v29_S1"
+        ],
+        "target_path_length": 4
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_10"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 2,
+        "target_objects": [
+          "K4",
+          "K4"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_11"
+        ],
+        "source_shared": 30,
+        "source_signed_dot": 30,
+        "target_objects": [
+          "K4",
+          "K0"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_12"
+        ],
+        "source_shared": 9,
+        "source_signed_dot": 9,
+        "target_objects": [
+          "K4",
+          "K1"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_05",
+          "R2PURE_13"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K4",
+          "K2"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_06",
+          "R2PURE_08"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_06",
+          "R2PURE_09"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K0",
+          "K3"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2",
+          "v29_S1"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_06",
+          "R2PURE_10"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 0,
+        "target_objects": [
+          "K0",
+          "K4"
+        ],
+        "target_path": [
+          "kappa_12_deck"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_06",
+          "R2PURE_11"
+        ],
+        "source_shared": 3,
+        "source_signed_dot": 3,
+        "target_objects": [
+          "K0",
+          "K0"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_06",
+          "R2PURE_13"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_07",
+          "R2PURE_08"
+        ],
+        "source_shared": 15,
+        "source_signed_dot": -15,
+        "target_objects": [
+          "K1",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S2"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_07",
+          "R2PURE_11"
+        ],
+        "source_shared": 16,
+        "source_signed_dot": -16,
+        "target_objects": [
+          "K1",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S1^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_08",
+          "R2PURE_10"
+        ],
+        "source_shared": 3,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K2",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S2^-1",
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_08",
+          "R2PURE_11"
+        ],
+        "source_shared": 7,
+        "source_signed_dot": 5,
+        "target_objects": [
+          "K2",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S2^-1",
+          "v29_S1^-1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_08",
+          "R2PURE_12"
+        ],
+        "source_shared": 2,
+        "source_signed_dot": 2,
+        "target_objects": [
+          "K2",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S2^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_08",
+          "R2PURE_13"
+        ],
+        "source_shared": 4,
+        "source_signed_dot": -4,
+        "target_objects": [
+          "K2",
+          "K2"
+        ],
+        "target_path": [],
+        "target_path_length": 0
+      },
+      {
+        "source": [
+          "R2PURE_09",
+          "R2PURE_10"
+        ],
+        "source_shared": 25,
+        "source_signed_dot": 25,
+        "target_objects": [
+          "K3",
+          "K4"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1",
+          "v29_S1^-1",
+          "kappa_12_deck"
+        ],
+        "target_path_length": 4
+      },
+      {
+        "source": [
+          "R2PURE_09",
+          "R2PURE_11"
+        ],
+        "source_shared": 7,
+        "source_signed_dot": -5,
+        "target_objects": [
+          "K3",
+          "K0"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1",
+          "v29_S1^-1"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_09",
+          "R2PURE_12"
+        ],
+        "source_shared": 9,
+        "source_signed_dot": 7,
+        "target_objects": [
+          "K3",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1^-1",
+          "v29_S2^-1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_09",
+          "R2PURE_13"
+        ],
+        "source_shared": 1,
+        "source_signed_dot": -1,
+        "target_objects": [
+          "K3",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_10",
+          "R2PURE_11"
+        ],
+        "source_shared": 17,
+        "source_signed_dot": -9,
+        "target_objects": [
+          "K4",
+          "K0"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_10",
+          "R2PURE_12"
+        ],
+        "source_shared": 11,
+        "source_signed_dot": 9,
+        "target_objects": [
+          "K4",
+          "K1"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_10",
+          "R2PURE_13"
+        ],
+        "source_shared": 3,
+        "source_signed_dot": 1,
+        "target_objects": [
+          "K4",
+          "K2"
+        ],
+        "target_path": [
+          "kappa_12_deck^-1",
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 3
+      },
+      {
+        "source": [
+          "R2PURE_11",
+          "R2PURE_12"
+        ],
+        "source_shared": 11,
+        "source_signed_dot": 7,
+        "target_objects": [
+          "K0",
+          "K1"
+        ],
+        "target_path": [
+          "v29_S1"
+        ],
+        "target_path_length": 1
+      },
+      {
+        "source": [
+          "R2PURE_11",
+          "R2PURE_13"
+        ],
+        "source_shared": 4,
+        "source_signed_dot": 2,
+        "target_objects": [
+          "K0",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S1",
+          "v29_S2"
+        ],
+        "target_path_length": 2
+      },
+      {
+        "source": [
+          "R2PURE_12",
+          "R2PURE_13"
+        ],
+        "source_shared": 16,
+        "source_signed_dot": -16,
+        "target_objects": [
+          "K1",
+          "K2"
+        ],
+        "target_path": [
+          "v29_S2"
+        ],
+        "target_path_length": 1
+      }
+    ],
+    "edge_images_using_deck_arrow": 18,
+    "edge_rule": "F(a->b)=p(Fa)^-1 p(Fb) with p(K4)=direct kappa_12_deck; all paths lie in stored K component",
+    "fibres": {
+      "K0": [
+        "R2PURE_01",
+        "R2PURE_06",
+        "R2PURE_11"
+      ],
+      "K1": [
+        "R2PURE_02",
+        "R2PURE_07",
+        "R2PURE_12"
+      ],
+      "K2": [
+        "R2PURE_03",
+        "R2PURE_08",
+        "R2PURE_13"
+      ],
+      "K3": [
+        "R2PURE_04",
+        "R2PURE_09"
+      ],
+      "K4": [
+        "R2PURE_05",
+        "R2PURE_10"
+      ]
+    },
+    "identity_edge_images": 7,
+    "noninjective": true,
+    "normalization": "R2PURE source index modulo 5; existence witness, not claimed canonical",
+    "object_map": {
+      "R2PURE_01": "K0",
+      "R2PURE_02": "K1",
+      "R2PURE_03": "K2",
+      "R2PURE_04": "K3",
+      "R2PURE_05": "K4",
+      "R2PURE_06": "K0",
+      "R2PURE_07": "K1",
+      "R2PURE_08": "K2",
+      "R2PURE_09": "K3",
+      "R2PURE_10": "K4",
+      "R2PURE_11": "K0",
+      "R2PURE_12": "K1",
+      "R2PURE_13": "K2"
+    },
+    "path_length_histogram": {
+      "0": 7,
+      "1": 19,
+      "2": 16,
+      "3": 9,
+      "4": 3
+    }
+  },
+  "source": {
+    "declared_2cell_presentation": "NOT-MATERIALIZED-IN-FROZEN-R2PURE-INPUTS",
+    "definition": "exact shared group-ring coordinate > 0",
+    "objects": 13,
+    "overlap_edges": 54
+  },
+  "status": "PASS-EXPLICIT-NONINJECTIVE-EDGE-TO-PATH-1-SKELETON / 2CELL-WHISKERING-GATE-PENDING",
+  "target": {
+    "component": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4"
+    ],
+    "edges": 5,
+    "v29_bigon": {
+      "chain": [
+        "v29_S1",
+        "v29_S2",
+        "v29_S1",
+        "v29_S2"
+      ],
+      "direct": "kappa_12_deck",
+      "matrix_equality": true,
+      "status": "PROVEN-EXACT-TARGET-2CELL"
+    }
+  },
+  "version": "v54",
+  "whiskering_shadow": {
+    "interpretation": "the simplest exact whiskering-forgetful C2 shadow annihilates all thirteen lifts; it supplies no nonzero Selling/deck invariant.",
+    "odd_relator_augmentation_residuals": 0,
+    "operation": "group words -> identity, coefficients -> mod 2, retain relator label",
+    "rows": 466,
+    "status": "ZERO-ALL-13-LIFTS"
+  }
+}

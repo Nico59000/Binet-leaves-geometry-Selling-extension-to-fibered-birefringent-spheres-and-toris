@@ -1,0 +1,131 @@
+{
+  "combined_checks": 8511,
+  "direct_checks": [
+    {
+      "detail": "",
+      "name": "v50_verifier_returncode",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "v50_verification_pass",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "v51_frontier_verifier_returncode",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "v51_math_55_of_55",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_v51_section",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_retains_v50_section",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_v51_before_certification",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_v52_frontier",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_raster_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_has_global_B5_NT",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_267_pages",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_qa_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_zero_overfull",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_all_page_parity",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "pdf_render_scan_no_flags",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "section_order_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "source_context_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "formal_rigor_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "math_gate_pass",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "raster_binding_not_promoted",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "gamma_global_lift_not_promoted",
+      "pass": true
+    },
+    {
+      "detail": null,
+      "name": "R2PURE17_not_merged",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "frontier_math_checks": 55,
+  "frontier_replay": {
+    "status": "PASS",
+    "stdout_tail": "{\n  \"status\": \"PASS\",\n  \"checks_passed\": 55,\n  \"checks_total\": 55,\n  \"publication_state\": \"MATH-CHECKPOINT/PRESEAL/NONPUBLISHABLE\"\n}\nsha256 c8aa707cd861a52bb7e941c381555fa80aeb2648e063ad893d6ba05f5bfa4be6\n"
+  },
+  "industrial_direct_checks": 18,
+  "new_checks": 73,
+  "new_passed": 73,
+  "predecessor_checks": 8438,
+  "predecessor_replay": {
+    "status": "PASS",
+    "stdout_tail": "e,\n    \"regular_euler_1\": true,\n    \"regular_boundary_square_zero\": true,\n    \"regular_status\": true,\n    \"edge_exact_status\": true,\n    \"edge_orbits_118\": true,\n    \"edge_failures_empty\": true,\n    \"loop80_minus1\": true,\n    \"loop108_minus1\": true,\n    \"F29_strict_down_refuted\": true,\n    \"F29_strict_111_123\": true,\n    \"F29_stack_123\": true,\n    \"F29_stack_62_links\": true,\n    \"descent_square_strict_up\": true,\n    \"descent_square_orbits\": true,\n    \"cover_248_objects\": true,\n    \"cover_492_arrows\": true,\n    \"cover_48_intersheet\": true,\n    \"HQ_status\": true,\n    \"HZ_status\": true,\n    \"HQ_Binet_H1_23\": true,\n    \"HQ_Binet_H2_15\": true,\n    \"HQ_Ad_H1_3\": true,\n    \"HQ_Ad_H2_15\": true,\n    \"HZ_Binet_decision\": true,\n    \"HZ_Ad_decision\": true,\n    \"Binet_TU_transfer_index2\": true,\n    \"Ad_transfer_all_index1\": true,\n    \"preindustrial_math_gates_pass\": true,\n    \"preindustrial_nonpublishable\": true,\n    \"source_has_v50_section\": true,\n    \"source_has_62_123_62\": true,\n    \"source_has_integral_binet\": true,\n    \"source_has_v51_safe_frontier\": true,\n    \"pdf_qa_pass\": true,\n    \"pdf_all_pages_pixel_parity\": true,\n    \"section_order_pass\": true,\n    \"source_context_pass\": true\n  }\n}\n"
+  },
+  "status": "PASS",
+  "version": "v51"
+}

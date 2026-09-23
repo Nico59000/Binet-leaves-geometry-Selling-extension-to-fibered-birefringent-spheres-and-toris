@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "d9549bc72a0653155ff75e57f9a78e690a9f833a766940766d6b3b761b1998c6",
+  "gate": "Gate 6",
+  "next_frontier": "v54 PREINDUSTRIAL FREEZE",
+  "publication_state": "PREINDUSTRIAL-FREEZE-CANDIDATE/NONPUBLISHABLE",
+  "report_sha256": "662df8d1096e02ee24bfce135e1deb097f7d11790cff8955a483e459e0033110",
+  "status": "CLOSED/APPEND-ONLY",
+  "token": "V54_GATE6_CLOSURE_PASS",
+  "v54_closed": false,
+  "verification": "PASS_77_OF_77_CLOSURE + 80_INHERITED = 157_COMBINED_EVIDENCE_CHECKS",
+  "verifier_sha256": "b6d2d6ea0c3ac6cd2cd2416ecfe6874f4d7f3847bc39451108fb436443b69520",
+  "version": "v54"
+}

@@ -1,0 +1,34 @@
+{
+  "gate6": "CLOSED/APPEND-ONLY",
+  "hypertensor": {
+    "centered_amplitude_jet": "PROVEN-EXACT",
+    "polar_projector": "PROVEN-EXACT",
+    "time_identification": "SEPARATED/NOT-ASSERTED"
+  },
+  "math_gate": "PASS-GATES1-6-FROZEN",
+  "pascal_noether": {
+    "GL3": "PASS-EXACT",
+    "identity": "rho=(5/2)p_corrected",
+    "status": "PROVEN-GLOBAL-15-COEFFICIENT-IDENTITY"
+  },
+  "publication_state": "PRESEAL/NONPUBLISHABLE",
+  "r2pure13": {
+    "full_adapter": "SEPARATED/PENDING-MORPHISM",
+    "noninjective_1_skeleton": "PROVEN-EXISTS/NORMALIZATION-DEPENDENT",
+    "object_injective": "REFUTED-TYPED",
+    "source_2cells": "NT/MISSING-SOURCE-PRESENTATION",
+    "strict_edge": "REFUTED-TYPED"
+  },
+  "retained_guards": {
+    "B6": "NOT-OPENED",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "r4": "NOT-OPENED"
+  },
+  "selling": {
+    "Fig2_absolute_binding": "NT/NOT-UNIQUELY-BOUND",
+    "Fig3_direct_raster": "2/91",
+    "Fig3_not_propagated": "89/91",
+    "Fig4_6": "PASS-CLOSED-EXACT"
+  },
+  "version": "v54"
+}

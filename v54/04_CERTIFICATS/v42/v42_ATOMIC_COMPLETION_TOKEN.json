@@ -1,0 +1,20 @@
+{
+  "version": "v42",
+  "status": "ATOMIC_COMPLETION_TOKEN",
+  "publication_state": "CLOSED/APPEND-ONLY",
+  "atomic_conjunction": {
+    "MATH": "PASS",
+    "VERIFY": "PASS",
+    "PDF_QA": "PASS",
+    "SEAL": "PASS",
+    "ROUNDTRIP": "PASS",
+    "POSTSEAL": "PASS"
+  },
+  "checks": "5832/5832 PASS",
+  "pdf_sha256": "e470f22a4cae6a40e09882a175c0a8787a8ec918e82afca79a7500d2c779856e",
+  "tex_sha256": "7420477dd1d8011f5de983a87bcb0066da8927fa90d5edeb8834393c2dab2807",
+  "bundle_sha256": "273ff82adc66b8fe32cc5942e3437744926957e3e0c3764481fe6048f2d59b68",
+  "bundle_members": 171,
+  "bundle_bytes": 37513798,
+  "guard": "No open NT/PENDING/SEPARATED frontier is promoted by closure of the industrial transaction."
+}

@@ -1,0 +1,69 @@
+{
+  "carrier": {
+    "active_GL3_law": "Phi(g.F,g.C)=g^{-T} Phi(F,C) g^{-1}",
+    "map": "Phi(F,C)_{ij}=sum_{k,l} F_{ijkl} C^{kl}",
+    "normalization": "polarized symmetric tensor / divided-power convention; raw monomial coefficient conventions require multiplicity conversion",
+    "selling_passive_basis_law": "with B=g^{-1}, Q -> B^T Q B",
+    "source": "Sym^4(V*) x Sym^2(V)",
+    "target": "Sym^2(V*)"
+  },
+  "compatible_GL3Z_invariants_of_Q": [
+    "determinant",
+    "real inertia/signature",
+    "content ideal",
+    "Smith elementary divisors",
+    "rank mod p"
+  ],
+  "exact_replay": {
+    "checks": 136,
+    "equivariance_cases": 18,
+    "integral_invariant_congruence_cases": 12,
+    "quartic_contravariant_examples": 3,
+    "unimodular_test_matrices": 6
+  },
+  "historical_source_binding": {
+    "C": "rho",
+    "artifact": "noether_quadratic_modules_source_binding_v54.json",
+    "morphism_specialization": "Phi_Noether_to_Selling(f,rho)",
+    "status": "PROVEN-SOURCE-TYPED-QUADRATIC-MODULE-BINDING"
+  },
+  "no_go": {
+    "central_scalar_test": "lambda I gives lambda^(-4d) on homogeneous degree-d polynomial terms but lambda^(-2) on target; 4d=2 has no integer d",
+    "guard": "does not refute rational maps, determinant-twisted maps, or enriched maps with contravariant inputs",
+    "scope": "untwisted polynomial GL(3)-equivariant maps depending on F alone: Sym^4(V*) -> Sym^2(V*)",
+    "status": "REFUTED-TYPED-NONZERO-BARE-POLYNOMIAL-BRIDGE"
+  },
+  "noether_typing": {
+    "exact_historical_symbol_binding": "PROVEN-SOURCE-TYPED-FOR-C=rho; numerical specialization/admissible Selling locus pending",
+    "grading_transport": "if C has coefficient-order r and F has coefficient-order 1, Phi has variable-degree 2 and coefficient-order r+1",
+    "historical_source_support": "Noether explicitly works with invariants/covariants/contravariants, orders/grades, and later adjoins quadratic forms as moduli before reduction to the simultaneous system of two quadratics"
+  },
+  "object": "Selling-Noether enriched GL(3)-equivariant contraction bridge",
+  "selling_engine_replay": {
+    "closed": true,
+    "compiled": "noether_contraction_synthetic_selling_compiled_v54.json",
+    "compiled_sha256": "a81a95295fea5c4a42d2831875d442cb7989063588b55abce911971f8fbd2e0b",
+    "exact_topology": true,
+    "fallback_count": 0,
+    "field_count": 1,
+    "guard": "synthetic ABI witness only; no numerical historical Noether specialization promoted",
+    "overlay": "selling_seed2d_v54_signature_overlay_certificate.json",
+    "seed": "noether_contraction_synthetic_selling_seed_validated_v54.json",
+    "seed_sha256": "ad41dc020c3ee7bc7c1ad9ae0a244a7e7914ad74ceec86409b61e2c766d5c03e",
+    "status": "PASS-CLOSED-EXACT"
+  },
+  "selling_gate": {
+    "admissible_subcarrier": "integral nondegenerate Phi(F,C) with signature (+,--), with explicit chart/deck data supplied separately",
+    "historical_Fig2_6_binding": "NT-NOT-INFERRED"
+  },
+  "status": "PROVEN-EXPLICIT-GL3-EQUIVARIANT-SOURCE-TYPED-CONTRACTION-MORPHISM/SELLING-ADMISSIBLE-LOCUS-PENDING",
+  "synthetic_witness": {
+    "C": "diag(1,-1,-1)",
+    "F": "x1^4+x2^4+x3^4 in polarized tensor normalization",
+    "Phi": "diag(1,-1,-1)",
+    "determinant": 1,
+    "signature": "(+,--)",
+    "status": "PASS-SYNTHETIC/NONHISTORICAL"
+  },
+  "version": "v54"
+}

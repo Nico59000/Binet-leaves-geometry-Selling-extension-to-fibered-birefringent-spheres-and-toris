@@ -1,0 +1,3007 @@
+{
+  "Fig2": {
+    "class_bindings": [
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 0,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:0"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 1,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:1"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 2,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:2"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 3,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:3"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 4,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:4"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 5,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:5"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 6,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:NumericClass:6"
+      },
+      {
+        "binding": "SOURCE-EXACT-ANCHOR",
+        "class": 7,
+        "existing_v53_object": true,
+        "figure_namespace": "Fig2",
+        "object": "SellCommon:Fig2:C3"
+      }
+    ],
+    "direct_raster_bound_edges": 0,
+    "edge_certificates": [
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:000",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:3",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "l"
+        ],
+        "witness_record_ids": [
+          4,
+          9,
+          19,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:001",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 4,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:4",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "l"
+        ],
+        "witness_record_ids": [
+          4,
+          9,
+          19,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig2:QEDGE:002",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:6",
+        "witness_raw_walls": [
+          "g",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          4,
+          9,
+          19,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig2:QEDGE:003",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 4,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:4",
+        "witness_raw_walls": [
+          "h",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          6,
+          20,
+          25
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:004",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:2",
+        "witness_raw_walls": [
+          "k",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          6,
+          20,
+          25
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:005",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:2",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          6,
+          20,
+          25
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig2:QEDGE:006",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:2",
+        "witness_raw_walls": [
+          "h",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          3,
+          8,
+          16,
+          21,
+          24,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:007",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 1,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:1",
+        "witness_raw_walls": [
+          "k",
+          "l",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          3,
+          8,
+          16,
+          21,
+          24,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:008",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:5",
+        "witness_raw_walls": [
+          "k",
+          "l",
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          3,
+          8,
+          16,
+          21,
+          24,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig2:QEDGE:009",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:5",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          2,
+          12,
+          17,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:010",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:0",
+        "witness_raw_walls": [
+          "k",
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          2,
+          12,
+          17,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig2:QEDGE:011",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:6",
+        "witness_raw_walls": [
+          "g",
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          2,
+          12,
+          17,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig2:QEDGE:012",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 1,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:1",
+        "witness_raw_walls": [
+          "h",
+          "l",
+          "n"
+        ],
+        "witness_record_ids": [
+          7,
+          23,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:013",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:0",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          7,
+          23,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:014",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:0",
+        "witness_raw_walls": [
+          "k",
+          "l"
+        ],
+        "witness_record_ids": [
+          7,
+          23,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig2:QEDGE:015",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:2",
+        "witness_raw_walls": [
+          "k",
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          1,
+          10,
+          13,
+          22,
+          28
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:016",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig2:C3",
+        "witness_raw_walls": [
+          "g",
+          "k",
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          1,
+          10,
+          13,
+          22,
+          28
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:017",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:3",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          1,
+          10,
+          13,
+          22,
+          28
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig2:QEDGE:018",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:5",
+        "witness_raw_walls": [
+          "g",
+          "h",
+          "l",
+          "n"
+        ],
+        "witness_record_ids": [
+          1,
+          10,
+          13,
+          22,
+          28
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig2:QEDGE:019",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:0",
+        "witness_raw_walls": [
+          "g",
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          5,
+          11,
+          15,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:020",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:6",
+        "witness_raw_walls": [
+          "h",
+          "k",
+          "l"
+        ],
+        "witness_record_ids": [
+          5,
+          11,
+          15,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:021",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig2:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:3",
+        "witness_raw_walls": [
+          "h",
+          "l",
+          "n"
+        ],
+        "witness_record_ids": [
+          5,
+          11,
+          15,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig2:QEDGE:022",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig2:C3",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:5",
+        "witness_raw_walls": [
+          "g",
+          "n"
+        ],
+        "witness_record_ids": [
+          0,
+          14,
+          18
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig2:QEDGE:023",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig2:C3",
+        "typed_target_object": "SellCommon:Fig2:C3",
+        "witness_raw_walls": [
+          "h"
+        ],
+        "witness_record_ids": [
+          0,
+          14,
+          18
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig2:QEDGE:024",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig2:C3",
+        "typed_target_object": "SellCommon:Fig2:NumericClass:5",
+        "witness_raw_walls": [
+          "k",
+          "l"
+        ],
+        "witness_record_ids": [
+          0,
+          14,
+          18
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig2:QEDGE:025",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig2:C3",
+        "typed_target_object": "SellCommon:Fig2:C3",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          0,
+          14,
+          18
+        ]
+      }
+    ],
+    "root_class": 7,
+    "source_certified_edges": 26,
+    "source_edge_count": 26
+  },
+  "Fig3": {
+    "class_bindings": [
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 0,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:0"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 1,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:1"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 2,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:2"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 3,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:3"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 4,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:4"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 5,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:5"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 6,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:6"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 7,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:7"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 8,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:8"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 9,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:9"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 10,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:10"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 11,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:11"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 12,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:12"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 13,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:13"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 14,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:14"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 15,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:15"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 16,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:16"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 17,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:17"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 18,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:18"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 19,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:19"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 20,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:20"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 21,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:21"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 22,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:22"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 23,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:23"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 24,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:24"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 25,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:25"
+      },
+      {
+        "binding": "V54-NUMERIC-EXTENSION/NO-V53-OBJECT-IDENTIFICATION",
+        "class": 26,
+        "existing_v53_object": false,
+        "figure_namespace": "Fig3",
+        "object": "SellCommon:Fig3:NumericClass:26"
+      }
+    ],
+    "direct_raster_bound_edges": 0,
+    "edge_certificates": [
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:000",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:3",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          19,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:001",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:5",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          19,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:002",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 0,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:0",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:7",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          19,
+          26
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:003",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 5,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:5",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          18
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:004",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:2",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          18
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:005",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 1,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:1",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:2",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          18
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:006",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:2",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          12,
+          24
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:007",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 1,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:1",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          12,
+          24
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:008",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 2,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:2",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:6",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          12,
+          24
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:009",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:6",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          13,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:010",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:0",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          13,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:011",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 3,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:3",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:7",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          13,
+          29
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:012",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 8,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:8",
+        "witness_raw_walls": [
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          11,
+          35
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:013",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 9,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:9",
+        "witness_raw_walls": [
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          11,
+          35
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:014",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 4,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 13,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:4",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:13",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          11,
+          35
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:015",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 1,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:1",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          23
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:016",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:0",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          23
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:017",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 5,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:5",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:0",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          23
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:018",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:3",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          7,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:019",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 10,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:10",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          7,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:020",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 2,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:2",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          7,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:021",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 6,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 9,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:6",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:9",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          7,
+          27
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:022",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 0,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:7",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:0",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          20,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:023",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 8,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:7",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:8",
+        "witness_raw_walls": [
+          "h",
+          "m"
+        ],
+        "witness_record_ids": [
+          20,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:024",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 7,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 3,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:7",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:3",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          20,
+          30
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:025",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 8,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 4,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:8",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:4",
+        "witness_raw_walls": [
+          "g",
+          "n"
+        ],
+        "witness_record_ids": [
+          17,
+          34
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:026",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 8,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 7,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:8",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:7",
+        "witness_raw_walls": [
+          "h",
+          "l"
+        ],
+        "witness_record_ids": [
+          17,
+          34
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:027",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 8,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 12,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:8",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:12",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          17,
+          34
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:028",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 9,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:9",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:6",
+        "witness_raw_walls": [
+          "h",
+          "k"
+        ],
+        "witness_record_ids": [
+          8,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:029",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 9,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 4,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:9",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:4",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          8,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:030",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 9,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 10,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:9",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:10",
+        "witness_raw_walls": [
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          8,
+          31
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:031",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 10,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 10,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:10",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:10",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          4,
+          32
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:032",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 10,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 6,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:10",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:6",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          4,
+          32
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:033",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 10,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 9,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:10",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:9",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          4,
+          32
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:034",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 10,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 11,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:10",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:11",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          4,
+          32
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:035",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 11,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 10,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:11",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:10",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          2,
+          36
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:036",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 11,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 15,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:11",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:15",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          2,
+          36
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:037",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 11,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 14,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:11",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:14",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          2,
+          36
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:038",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 12,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 8,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:12",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:8",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          15,
+          37
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:039",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 12,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 16,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:12",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:16",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          15,
+          37
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:040",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 12,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 23,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:12",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:23",
+        "witness_raw_walls": [
+          "h",
+          "l"
+        ],
+        "witness_record_ids": [
+          15,
+          37
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:041",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 13,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 4,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:13",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:4",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          6,
+          38
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:042",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 13,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 14,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:13",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:14",
+        "witness_raw_walls": [
+          "m",
+          "n"
+        ],
+        "witness_record_ids": [
+          6,
+          38
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:043",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 13,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 22,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:13",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:22",
+        "witness_raw_walls": [
+          "h",
+          "k"
+        ],
+        "witness_record_ids": [
+          6,
+          38
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:044",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 14,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 14,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:14",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:14",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          3,
+          40,
+          45
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:045",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 14,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 13,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:14",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:13",
+        "witness_raw_walls": [
+          "h",
+          "m"
+        ],
+        "witness_record_ids": [
+          3,
+          40,
+          45
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:046",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 14,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 15,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:14",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:15",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          3,
+          40,
+          45
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:047",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 14,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 22,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:14",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:22",
+        "witness_raw_walls": [
+          "h",
+          "m"
+        ],
+        "witness_record_ids": [
+          3,
+          40,
+          45
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:048",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 14,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 11,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:14",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:11",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          3,
+          40,
+          45
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:049",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 15,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 14,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:15",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:14",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          1,
+          39
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:050",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 15,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 19,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:15",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:19",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          1,
+          39
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:051",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 15,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 11,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:15",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:11",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          1,
+          39
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:052",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 15,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 15,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:15",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:15",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          1,
+          39
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:053",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 16,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 23,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:16",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:23",
+        "witness_raw_walls": [
+          "h",
+          "l"
+        ],
+        "witness_record_ids": [
+          9,
+          41
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:054",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 16,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 18,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:16",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:18",
+        "witness_raw_walls": [
+          "h",
+          "l"
+        ],
+        "witness_record_ids": [
+          9,
+          41
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:055",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 16,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 12,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:16",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:12",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          9,
+          41
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:056",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 16,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 22,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:16",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:22",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          9,
+          41
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:057",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 17,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 23,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:17",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:23",
+        "witness_raw_walls": [
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          21,
+          47
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:058",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 17,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 21,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:17",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:21",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          21,
+          47
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:059",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 17,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 25,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:17",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:25",
+        "witness_raw_walls": [
+          "g",
+          "l"
+        ],
+        "witness_record_ids": [
+          21,
+          47
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:060",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 18,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 16,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:18",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:16",
+        "witness_raw_walls": [
+          "g",
+          "h"
+        ],
+        "witness_record_ids": [
+          10,
+          46
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:061",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 18,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 18,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:18",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:18",
+        "witness_raw_walls": [
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          10,
+          46
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:062",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 18,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 22,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:18",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:22",
+        "witness_raw_walls": [
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          10,
+          46
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:063",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 18,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 24,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:18",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:24",
+        "witness_raw_walls": [
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          10,
+          46
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:064",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 19,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 15,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:19",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:15",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          0,
+          44
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:065",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 19,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 19,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:19",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:19",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          0,
+          44
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:066",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 19,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 15,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:19",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:15",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          0,
+          44
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:067",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 19,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 19,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:19",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:19",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          0,
+          44
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:068",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 20,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 20,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:20",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:20",
+        "witness_raw_walls": [
+          "n"
+        ],
+        "witness_record_ids": [
+          28
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:069",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 20,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 25,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:20",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:25",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          28
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:070",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 20,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 26,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:20",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:26",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          28
+        ]
+      },
+      {
+        "canonical_wall": "h",
+        "edge_id": "Fig3:QEDGE:071",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 21,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          3
+        ],
+        "target_class": 17,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:21",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:17",
+        "witness_raw_walls": [
+          "h"
+        ],
+        "witness_record_ids": [
+          22
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:072",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 21,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 21,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:21",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:21",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          22
+        ]
+      },
+      {
+        "canonical_wall": "m",
+        "edge_id": "Fig3:QEDGE:073",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 21,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          2
+        ],
+        "target_class": 25,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:21",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:25",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          22
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:074",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 21,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 24,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:21",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:24",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          22
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:075",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 22,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 14,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:22",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:14",
+        "witness_raw_walls": [
+          "h",
+          "n"
+        ],
+        "witness_record_ids": [
+          5,
+          43
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:076",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 22,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 18,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:22",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:18",
+        "witness_raw_walls": [
+          "h",
+          "l"
+        ],
+        "witness_record_ids": [
+          5,
+          43
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:077",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 22,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 13,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:22",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:13",
+        "witness_raw_walls": [
+          "k",
+          "m"
+        ],
+        "witness_record_ids": [
+          5,
+          43
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:078",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 22,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 16,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:22",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:16",
+        "witness_raw_walls": [
+          "g",
+          "m"
+        ],
+        "witness_record_ids": [
+          5,
+          43
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:079",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 23,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 16,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:23",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:16",
+        "witness_raw_walls": [
+          "g",
+          "h"
+        ],
+        "witness_record_ids": [
+          14,
+          42
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:080",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 23,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 17,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:23",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:17",
+        "witness_raw_walls": [
+          "k",
+          "n"
+        ],
+        "witness_record_ids": [
+          14,
+          42
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:081",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 23,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 12,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:23",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:12",
+        "witness_raw_walls": [
+          "l",
+          "m"
+        ],
+        "witness_record_ids": [
+          14,
+          42
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:082",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 24,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 18,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:24",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:18",
+        "witness_raw_walls": [
+          "n"
+        ],
+        "witness_record_ids": [
+          16
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:083",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 24,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 21,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:24",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:21",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          16
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:084",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 24,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 18,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:24",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:18",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          16
+        ]
+      },
+      {
+        "canonical_wall": "n",
+        "edge_id": "Fig3:QEDGE:085",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 24,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          3
+        ],
+        "target_class": 21,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:24",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:21",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          16
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:086",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 25,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 21,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:25",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:21",
+        "witness_raw_walls": [
+          "l"
+        ],
+        "witness_record_ids": [
+          25
+        ]
+      },
+      {
+        "canonical_wall": "k",
+        "edge_id": "Fig3:QEDGE:087",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 25,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          1,
+          2
+        ],
+        "target_class": 20,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:25",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:20",
+        "witness_raw_walls": [
+          "m"
+        ],
+        "witness_record_ids": [
+          25
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:088",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 25,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 17,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:25",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:17",
+        "witness_raw_walls": [
+          "g"
+        ],
+        "witness_record_ids": [
+          25
+        ]
+      },
+      {
+        "canonical_wall": "g",
+        "edge_id": "Fig3:QEDGE:089",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 26,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          2,
+          3
+        ],
+        "target_class": 20,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:26",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:20",
+        "witness_raw_walls": [
+          "n"
+        ],
+        "witness_record_ids": [
+          33
+        ]
+      },
+      {
+        "canonical_wall": "l",
+        "edge_id": "Fig3:QEDGE:090",
+        "raster_guard": "v52 raster compiler encodes local adjacency/style but no g/h/k/l/m/n wall identity or global quotient-class numbering; source proof is not silently relabelled as pixel proof.",
+        "raster_incidence": "NOT-INDIVIDUALLY-BOUND; FIGURE-SPECIFIC-RASTER-CARRIER-ONLY",
+        "source_class": 26,
+        "source_incidence": "PROVEN-EXACT-HISTORICAL-WALL-ADJACENCY",
+        "source_semantic_wall_pair": [
+          0,
+          1
+        ],
+        "target_class": 20,
+        "typed_source_object": "SellCommon:Fig3:NumericClass:26",
+        "typed_target_object": "SellCommon:Fig3:NumericClass:20",
+        "witness_raw_walls": [
+          "k"
+        ],
+        "witness_record_ids": [
+          33
+        ]
+      }
+    ],
+    "root_class": 19,
+    "source_certified_edges": 91,
+    "source_edge_count": 91
+  },
+  "counts": {
+    "Fig2_classes": 8,
+    "Fig2_edges": 26,
+    "Fig3_classes": 27,
+    "Fig3_edges": 91,
+    "all_source_certified_edges": 117,
+    "direct_raster_bound_edges": 0,
+    "total_quotient_edges": 117
+  },
+  "extension_engine": "SELLING-COMMON-TYPED-INCIDENCE-ENGINE-v53 + V54 NUMERIC-QUOTIENT-STATE sort",
+  "guards": [
+    "No inter-figure object or edge identification is introduced.",
+    "A source-exact wall edge is not promoted to direct raster support unless the raster compiler supplies an explicit wall/class binding.",
+    "The v53 functor remains immutable; v54 only adds namespaced numeric-state objects and morphisms."
+  ],
+  "phase": "Gate5 numeric quotient -> v53 typed functor extension",
+  "raster_policy": {
+    "Fig2_crop_sha256": "2e2a9e6cde110b9c86e5494576ae33e14dfbccbd11cc338d86efccf439fe9c9d",
+    "Fig3_crop_sha256": "b8c2e8c32f77a4e2483609ebfc3ac62275b8a8a5f1cf0c93f9050e51438dc5b9",
+    "decision": "Every quotient edge is source-certified exactly. The current raster transcription certifies only the figure-specific local carrier/style schema, not a canonical wall-name or quotient-class identity for each edge; therefore direct raster edge binding remains NT rather than fabricated."
+  },
+  "status": "PASS-SOURCE-EXACT-NUMERIC-TO-TYPED-EXTENSION/RASTER-EDGE-BINDING-PARTIAL",
+  "typed_anchor_corrections": {
+    "Fig2": "class 7 is source-identical to SellCommon:Fig2:C3 via the v54 historical seed adapter; no other Fig2 class is identified with M2_i/O1_i by cardinality.",
+    "Fig3": "class 19 is the source-exact fissure seed (3,-2,-2)/(1,1,0); it is added as a new Fig3 numeric object and is NOT identified with v53 raster objects A..R. The v54 source correction of boundary L remains separate."
+  },
+  "v53_functor_status": "PROVEN-EXPLICIT-COPRODUCT-FUNCTOR-FIG2-6/PROVENANCE-PRESERVED",
+  "version": "v54"
+}

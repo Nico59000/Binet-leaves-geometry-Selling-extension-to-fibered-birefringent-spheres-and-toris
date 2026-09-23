@@ -1,0 +1,42 @@
+v53 FINAL DELIVERY INDEX
+
+STATE: CLOSED / APPEND-ONLY
+ATOMIC: DOC ∧ MATH ∧ VERIFY ∧ PDF-QA ∧ BUNDLE-TREE ∧ SEAL ∧ DETERMINISTIC-RESEAL ∧ ROUNDTRIP ∧ POSTSEAL = PASS
+VERIFY: 8619/8619 PASS = 8583 inherited v52 + 36 direct v53
+CHIRES14(B5): REFUTED-TYPED by global mod-8 dual obstruction; raw dual replay 956320/956320; B6 NOT-OPENED
+SELLING FIG.2-6: PROVEN-EXPLICIT-COPRODUCT-FUNCTOR-FIG2-6 / PROVENANCE-PRESERVED; 42 objects, 43 morphisms, 3 ordered structures
+FIG.1: retained 123/123 historical realization
+PDF: 274 pages; 0 Overfull; v53 begins p.263; bibliography final pp.273-274
+PDF SHA256: 7db8718e541fab2d9e3ecbb0660c585f348b768ab7deb944d8d164b76bf75f0c
+TEX SHA256: ba2a21715b00962d33e7ca7fe2a55c2928c7759b74d6aea659d04a7bb31b7f6a
+BUNDLE: 1007 members; 199997518 bytes; deterministic reseal and clean-extract rebuild byte-identical
+BUNDLE SHA256: e120360f2bffad1a6eaf869822721c7fb3c515a54558b0ffa5e01a66143df74c
+LEDGER: 1006/1006 before and after POSTSEAL replay
+PARENT v52: 594/594 members byte-exact
+TREE: 10 navigation directories; 35 version mirrors; 125 script mirrors; 192 certificate/report mirrors
+ZSTD-SPLITTER: NOT TRIGGERED (bundle below 200 MiB)
+
+MAIN
+formalisation_feuillets_binet_birefringence_selling_polaire_v53.pdf
+formalisation_feuillets_binet_birefringence_selling_polaire_v53.tex
+formalisation_feuillets_binet_birefringence_selling_polaire_v53_bundle.zip
+verify_field_fox_projective_v53.py
+
+TERMINAL
+v53_POSTSEAL_REPLAY_REPORT.json
+v53_ATOMIC_COMPLETION_TOKEN.json
+v53_DELIVERY_INDEX.txt
+
+NAVIGATION
+00_INDEX/README_FIRST.md
+02_VERSIONS/vNN/
+03_SCRIPTS/vNN/
+04_CERTIFICATS/vNN/
+05_SELLING/
+06_CHIRES/
+07_QA_SEAL/
+08_FORMAL_CONTEXT/
+09_ASSETS/
+
+SAFE SUCCESSOR
+v54 -- retain v53 CLOSED/APPEND-ONLY; construct a numerical common Selling engine only from explicit figure-specific seed matrices/wall words/substitutions; seek an explicit R2PURE13 -> Selling/Deck17 incidence/groupoid morphism or an exact obstruction without cardinality-based merging; keep B6 closed absent an independently justified new question; retain Selling-Noether and Selling 3D-5D CONTEXT/PENDING-MORPHISM until an explicit GL(3)-equivariant morphism is constructed and verified.

@@ -1,0 +1,565 @@
+{
+  "Fig2": {
+    "decision": "ROOT-NUMERIC-ADAPTER-AND-SOURCE-SYMMETRY-PROVEN; GLOBAL-UNIVERSAL-BFS-REMAINS-OPEN",
+    "deck_checks": {
+      "N2a_involution": true,
+      "N2a_preserves_Q": true,
+      "N2b_involution": true,
+      "N2b_preserves_Q": true,
+      "generated_group_order": 6
+    },
+    "interpretation": "The historical figure is a source-local developed patch; failure of the universal adjacent-superbase BFS to close at a budget is not a failure of the historical root adapter. The source deck S3 is exact but insufficient by itself to close the universal BFS.",
+    "plain_superbase_runs": [
+      {
+        "artifact": "fig2_historical_v54.compiled.json",
+        "closed": false,
+        "deck_group_size": 1,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 8,
+        "frontier_slots": [
+          [
+            2,
+            "l"
+          ],
+          [
+            3,
+            "g"
+          ],
+          [
+            3,
+            "l"
+          ],
+          [
+            4,
+            "l"
+          ],
+          [
+            4,
+            "m"
+          ],
+          [
+            5,
+            "k"
+          ],
+          [
+            5,
+            "m"
+          ],
+          [
+            6,
+            "h"
+          ],
+          [
+            6,
+            "k"
+          ],
+          [
+            7,
+            "k"
+          ],
+          [
+            7,
+            "n"
+          ]
+        ],
+        "processed": 8,
+        "quotient_mode": "superbase",
+        "sha256": "8028786b4647aa97488c1a5b70044b8d3569385464a69bb3fd575dd4162a9d3a",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 11
+      },
+      {
+        "artifact": "fig2_historical_v54.m16.compiled.json",
+        "closed": false,
+        "deck_group_size": 1,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 16,
+        "frontier_slots": [
+          [
+            6,
+            "k"
+          ],
+          [
+            7,
+            "k"
+          ],
+          [
+            7,
+            "n"
+          ],
+          [
+            8,
+            "h"
+          ],
+          [
+            8,
+            "k"
+          ],
+          [
+            9,
+            "h"
+          ],
+          [
+            9,
+            "n"
+          ],
+          [
+            10,
+            "m"
+          ],
+          [
+            10,
+            "n"
+          ],
+          [
+            11,
+            "m"
+          ],
+          [
+            11,
+            "n"
+          ],
+          [
+            12,
+            "k"
+          ],
+          [
+            12,
+            "n"
+          ],
+          [
+            13,
+            "h"
+          ],
+          [
+            13,
+            "m"
+          ],
+          [
+            14,
+            "g"
+          ],
+          [
+            14,
+            "k"
+          ],
+          [
+            15,
+            "g"
+          ],
+          [
+            15,
+            "l"
+          ]
+        ],
+        "processed": 16,
+        "quotient_mode": "superbase",
+        "sha256": "c20597e64eb75abc7bd4ff0334aab64b5671699fd1bdffdf8649a5970f4cf310",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 19
+      },
+      {
+        "artifact": "fig2_historical_v54.m32.resume.compiled.json",
+        "closed": false,
+        "deck_group_size": 1,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 32,
+        "frontier_slots": [
+          [
+            16,
+            "l"
+          ],
+          [
+            17,
+            "l"
+          ],
+          [
+            19,
+            "h"
+          ],
+          [
+            19,
+            "l"
+          ],
+          [
+            20,
+            "k"
+          ],
+          [
+            20,
+            "n"
+          ],
+          [
+            21,
+            "h"
+          ],
+          [
+            22,
+            "l"
+          ],
+          [
+            23,
+            "g"
+          ],
+          [
+            23,
+            "l"
+          ],
+          [
+            24,
+            "l"
+          ],
+          [
+            24,
+            "n"
+          ],
+          [
+            26,
+            "l"
+          ],
+          [
+            28,
+            "k"
+          ],
+          [
+            29,
+            "g"
+          ],
+          [
+            29,
+            "m"
+          ],
+          [
+            31,
+            "k"
+          ]
+        ],
+        "processed": 32,
+        "quotient_mode": "superbase",
+        "sha256": "ca68b920527f06dfc8dfbf13a6105e3045ccdda13c2472ebb35860dfba6c757a",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 17
+      }
+    ],
+    "root_Q": [
+      [
+        "1",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "-2",
+        "1"
+      ],
+      [
+        "0",
+        "1",
+        "-2"
+      ]
+    ],
+    "source_deck_generators": {
+      "N2a": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "N2b": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "source_deck_runs": [
+      {
+        "artifact": "fig2_deck.m16.compiled.json",
+        "closed": false,
+        "deck_group_size": 6,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 16,
+        "frontier_slots": [
+          [
+            13,
+            "m"
+          ],
+          [
+            13,
+            "n"
+          ],
+          [
+            14,
+            "m"
+          ],
+          [
+            15,
+            "h"
+          ],
+          [
+            15,
+            "m"
+          ]
+        ],
+        "processed": 16,
+        "quotient_mode": "deck-superbase",
+        "sha256": "f8dc18d8495d2c6db900a2c46dc05b12a80ceaeb55d834b63587506ef6d3901f",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 5
+      },
+      {
+        "artifact": "fig2_deck.m32.resume.compiled.json",
+        "closed": false,
+        "deck_group_size": 6,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 32,
+        "frontier_slots": [
+          [
+            26,
+            "m"
+          ],
+          [
+            27,
+            "k"
+          ],
+          [
+            27,
+            "n"
+          ],
+          [
+            28,
+            "h"
+          ],
+          [
+            28,
+            "m"
+          ],
+          [
+            28,
+            "n"
+          ],
+          [
+            29,
+            "n"
+          ],
+          [
+            30,
+            "l"
+          ],
+          [
+            30,
+            "m"
+          ],
+          [
+            31,
+            "m"
+          ]
+        ],
+        "processed": 32,
+        "quotient_mode": "deck-superbase",
+        "sha256": "acc86a4bdf367dedd37c780b50d203b3e34b196f8e5cda1f769fbc3c0d5879db",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 10
+      }
+    ]
+  },
+  "Fig3_fissure": {
+    "decision": "SOURCE-FISSURE-ROOT-PROVEN; NONTRIVIAL-UNIVERSAL-BFS-OPEN",
+    "interpretation": "The direct doubled boundary anchor is already PASS-CLOSED-EXACT/1-field; the separate fissure control grows under universal BFS and is not promoted to a finite global atlas.",
+    "runs": [
+      {
+        "artifact": "fig3_historical_v54.compiled.json",
+        "closed": false,
+        "deck_group_size": 1,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 8,
+        "frontier_slots": [
+          [
+            2,
+            "l"
+          ],
+          [
+            3,
+            "g"
+          ],
+          [
+            3,
+            "l"
+          ],
+          [
+            4,
+            "g"
+          ],
+          [
+            4,
+            "l"
+          ],
+          [
+            5,
+            "m"
+          ],
+          [
+            6,
+            "h"
+          ],
+          [
+            6,
+            "k"
+          ],
+          [
+            6,
+            "m"
+          ],
+          [
+            7,
+            "h"
+          ],
+          [
+            7,
+            "l"
+          ],
+          [
+            7,
+            "m"
+          ]
+        ],
+        "processed": 8,
+        "quotient_mode": "superbase",
+        "sha256": "02f0df331951a18ec14a1bf348f284b704ca147eefdbe2e8d0840b22d7e35e60",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 12
+      },
+      {
+        "artifact": "fig3_historical_v54.m16.resume.compiled.json",
+        "closed": false,
+        "deck_group_size": 1,
+        "exact_topology": false,
+        "fallback_count": 0,
+        "field_count": 16,
+        "frontier_slots": [
+          [
+            6,
+            "m"
+          ],
+          [
+            7,
+            "h"
+          ],
+          [
+            7,
+            "m"
+          ],
+          [
+            8,
+            "m"
+          ],
+          [
+            9,
+            "n"
+          ],
+          [
+            10,
+            "k"
+          ],
+          [
+            10,
+            "m"
+          ],
+          [
+            10,
+            "n"
+          ],
+          [
+            11,
+            "k"
+          ],
+          [
+            11,
+            "n"
+          ],
+          [
+            12,
+            "k"
+          ],
+          [
+            12,
+            "n"
+          ],
+          [
+            13,
+            "g"
+          ],
+          [
+            13,
+            "k"
+          ],
+          [
+            13,
+            "n"
+          ],
+          [
+            14,
+            "g"
+          ],
+          [
+            14,
+            "l"
+          ],
+          [
+            14,
+            "m"
+          ],
+          [
+            15,
+            "g"
+          ],
+          [
+            15,
+            "l"
+          ],
+          [
+            15,
+            "m"
+          ]
+        ],
+        "processed": 16,
+        "quotient_mode": "superbase",
+        "sha256": "d8136b5a9f816d0a89e31bd84316d2c00a5dacd8cc5cdfae3ca924ac1bfbcea7",
+        "status": "OPEN/TRUNCATED",
+        "unresolved_frontier_slots": 21
+      }
+    ]
+  },
+  "guard": "No max_fields budget is interpreted as a mathematical boundary. Closure requires queue exhaustion modulo an explicitly certified quotient.",
+  "phase": "gate3",
+  "status": "PASS-EXACT-GROWTH-AUDIT/NO-ARTIFICIAL-CLOSURE",
+  "version": "v54"
+}

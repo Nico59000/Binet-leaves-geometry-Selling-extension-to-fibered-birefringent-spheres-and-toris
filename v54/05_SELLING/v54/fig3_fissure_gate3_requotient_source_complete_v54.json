@@ -1,0 +1,506 @@
+{
+  "class_sizes": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "closed": true,
+  "exact_equivalence_certificates": 165,
+  "guards": [
+    "This reuses only exact Gate3 path matrices and exact source-complete automorphism equivalence; no new max_fields search is performed.",
+    "Closure requires every ordinary-wall candidate from every Gate3 exact record to map to an already represented source-Gram class and canonical wall transitions to be deterministic."
+  ],
+  "name": "fig3_fissure_gate3_requotient_source_complete_v54",
+  "nondeterministic_class_wall_targets": [],
+  "old_edge_slots": 165,
+  "old_records": 48,
+  "quotient_edge_slots": 91,
+  "quotient_edges": [
+    {
+      "canonical_wall": "k",
+      "source_class": 0,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 0,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 0,
+      "target_class": 7
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 1,
+      "target_class": 5
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 1,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 1,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 2,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 2,
+      "target_class": 1
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 2,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 3,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 3,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 3,
+      "target_class": 7
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 4,
+      "target_class": 8
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 4,
+      "target_class": 9
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 4,
+      "target_class": 13
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 5,
+      "target_class": 1
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 5,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 5,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 6,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 6,
+      "target_class": 10
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 6,
+      "target_class": 2
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 6,
+      "target_class": 9
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 7,
+      "target_class": 0
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 7,
+      "target_class": 8
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 7,
+      "target_class": 3
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 8,
+      "target_class": 4
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 8,
+      "target_class": 7
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 8,
+      "target_class": 12
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 9,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 9,
+      "target_class": 4
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 9,
+      "target_class": 10
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 10,
+      "target_class": 10
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 10,
+      "target_class": 6
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 10,
+      "target_class": 9
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 10,
+      "target_class": 11
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 11,
+      "target_class": 10
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 11,
+      "target_class": 15
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 11,
+      "target_class": 14
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 12,
+      "target_class": 8
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 12,
+      "target_class": 16
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 12,
+      "target_class": 23
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 13,
+      "target_class": 4
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 13,
+      "target_class": 14
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 13,
+      "target_class": 22
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 14,
+      "target_class": 14
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 14,
+      "target_class": 13
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 14,
+      "target_class": 15
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 14,
+      "target_class": 22
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 14,
+      "target_class": 11
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 15,
+      "target_class": 14
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 15,
+      "target_class": 19
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 15,
+      "target_class": 11
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 15,
+      "target_class": 15
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 16,
+      "target_class": 23
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 16,
+      "target_class": 18
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 16,
+      "target_class": 12
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 16,
+      "target_class": 22
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 17,
+      "target_class": 23
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 17,
+      "target_class": 21
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 17,
+      "target_class": 25
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 18,
+      "target_class": 16
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 18,
+      "target_class": 18
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 18,
+      "target_class": 22
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 18,
+      "target_class": 24
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 19,
+      "target_class": 15
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 19,
+      "target_class": 19
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 19,
+      "target_class": 15
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 19,
+      "target_class": 19
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 20,
+      "target_class": 20
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 20,
+      "target_class": 25
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 20,
+      "target_class": 26
+    },
+    {
+      "canonical_wall": "h",
+      "source_class": 21,
+      "target_class": 17
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 21,
+      "target_class": 21
+    },
+    {
+      "canonical_wall": "m",
+      "source_class": 21,
+      "target_class": 25
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 21,
+      "target_class": 24
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 22,
+      "target_class": 14
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 22,
+      "target_class": 18
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 22,
+      "target_class": 13
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 22,
+      "target_class": 16
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 23,
+      "target_class": 16
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 23,
+      "target_class": 17
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 23,
+      "target_class": 12
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 24,
+      "target_class": 18
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 24,
+      "target_class": 21
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 24,
+      "target_class": 18
+    },
+    {
+      "canonical_wall": "n",
+      "source_class": 24,
+      "target_class": 21
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 25,
+      "target_class": 21
+    },
+    {
+      "canonical_wall": "k",
+      "source_class": 25,
+      "target_class": 20
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 25,
+      "target_class": 17
+    },
+    {
+      "canonical_wall": "g",
+      "source_class": 26,
+      "target_class": 20
+    },
+    {
+      "canonical_wall": "l",
+      "source_class": 26,
+      "target_class": 20
+    }
+  ],
+  "quotient_theorem": "Same canonical transported Gram under superbase relabel iff paths differ by an integral automorphism of F on the left and a superbase relabel on the right; wall labels are transported by the exact induced permutation of the six homogeneous Selling coordinates.",
+  "source_compiled": "/mnt/data/v54_gate3/fig3_fissure_deck.m48.resume.compiled.json",
+  "source_gram_classes": 27,
+  "status": "PASS-CLOSED-EXACT-SOURCE-REQUOTIENT",
+  "unknown": [],
+  "unknown_frontier_after_source_quotient": 0,
+  "version": "v54"
+}

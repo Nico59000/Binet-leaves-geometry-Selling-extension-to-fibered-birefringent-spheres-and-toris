@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "parent_checks": 383,
+  "new_checks": 231,
+  "combined": 614,
+  "failed": [],
+  "photo_support": {
+    "CONFIRMED": 97,
+    "PARTIAL": 3,
+    "WEAK": 5
+  },
+  "fox_4cell_cycles": 6,
+  "binder_levels": 12,
+  "complete_historical_incidence": "NT",
+  "historical_H1_H2": "NT_NOT_RECOMPUTED",
+  "complete_Fox_module": "NT"
+}

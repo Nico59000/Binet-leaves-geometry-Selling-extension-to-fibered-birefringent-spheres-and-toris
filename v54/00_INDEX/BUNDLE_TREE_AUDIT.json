@@ -1,0 +1,23 @@
+{
+  "version": "v53",
+  "status": "PASS",
+  "policy": "NONDESTRUCTIVE_NAVIGATION_LAYER; no legacy root member moved or renamed",
+  "root_files_catalogued": 615,
+  "version_mirrors": 35,
+  "script_mirrors": 125,
+  "certificate_mirrors": 192,
+  "total_files_after_tree": 1005,
+  "total_uncompressed_bytes_after_tree": 199552917,
+  "directories": [
+    "00_INDEX",
+    "01_DOCS",
+    "02_VERSIONS",
+    "03_SCRIPTS",
+    "04_CERTIFICATS",
+    "05_SELLING",
+    "06_CHIRES",
+    "07_QA_SEAL",
+    "08_FORMAL_CONTEXT",
+    "09_ASSETS"
+  ]
+}

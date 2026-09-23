@@ -1,0 +1,18 @@
+{
+  "version": "v53",
+  "status": "PASS",
+  "checks": {
+    "v52_closed_retained": true,
+    "fig1_123_retained": true,
+    "fig2_6_functor_typed_not_numeric": true,
+    "literal_label_collisions_not_merged": true,
+    "chires_dual_not_primal_corrector": true,
+    "chires_all_raw_equations_verified": true,
+    "radius6_not_opened": true,
+    "R2PURE_separated": true,
+    "Selling_Noether_pending": true,
+    "Selling_3D5D_pending": true,
+    "bundle_hierarchy_non_destructive": true
+  },
+  "guard": "No cross-carrier merge or physical interpretation is promoted by v53."
+}

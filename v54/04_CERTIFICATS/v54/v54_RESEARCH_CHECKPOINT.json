@@ -1,0 +1,27 @@
+{
+  "manifest_file": "00_INDEX/v54_RESEARCH_MANIFEST.json",
+  "predecessor": "v53 CLOSED/APPEND-ONLY",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "results": {
+    "B6": "NOT-OPENED",
+    "Noether_historical_quadratic_input": "rho SOURCE-TYPED",
+    "R2PURE13_to_SellingDeck17_enriched_noninjective": "OPEN/NT",
+    "R2PURE13_to_SellingDeck17_object_injective_path_groupoid": "REFUTED-TYPED",
+    "R2PURE13_to_SellingDeck17_strict_edge": "REFUTED-TYPED",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "Selling_Noether": "PROVEN-EXPLICIT-GL3-EQUIVARIANT-SOURCE-TYPED-CONTRACTION-MORPHISM/SELLING-ADMISSIBLE-LOCUS-PENDING",
+    "bare_F_only_polynomial_GL3_bridge": "REFUTED-TYPED",
+    "common_numeric_Selling_kernel": "PROVEN-EXACT/PER-FIGURE-HISTORICAL-SEEDS-PENDING",
+    "selling_seed2d_signature_overlay": "PROVEN-BUGFIX-OVERLAY/NONDESTRUCTIVE"
+  },
+  "safe_next_gate": [
+    "transcribe or derive explicit historical Fig2-6 seed matrices/wall words/substitutions and run them through the imported exact numerical kernel",
+    "compute a source-native numerical specialization of Noether rho for at least one explicit quartic f, form Q=Phi(f,rho), and decide integrality/nondegeneracy/signature (+,--)",
+    "if Q is Selling-admissible, replay the atlas and verify the full GL3 commuting square on the same historical instance",
+    "for R2PURE13->Selling/Deck17, abandon strict edge and object-injective lanes; test only explicitly declared quotient/noninjective edge-to-path functors with 2-cell coherence",
+    "keep B6 closed and Selling 3D->5D pending absent an independent morphism"
+  ],
+  "status": "PASS-MATH-RESEARCH-CHECKPOINT",
+  "verification": "PASS_41_OF_41",
+  "version": "v54"
+}

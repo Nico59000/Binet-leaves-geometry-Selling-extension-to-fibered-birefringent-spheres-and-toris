@@ -1,0 +1,33 @@
+{
+  "version": "v52",
+  "status": "PASS",
+  "checks": {
+    "v51_retained_closed": true,
+    "math_checkpoint_pass": true,
+    "fig1_123_pass": true,
+    "fig1_global_promotion_scoped": true,
+    "e96_seed_exact": true,
+    "fig3_6_typed_fusion_pass": true,
+    "fig3_6_no_cross_relation": true,
+    "fig3_6_labels_separated": true,
+    "Selling_Noether_pending": true,
+    "Selling_3D5D_pending": true,
+    "GL3_bridge_absent": true,
+    "R2PURE17_still_separated": true,
+    "CHIRES_radius6_not_opened": true,
+    "source_contains_v53_frontier": true,
+    "source_contains_exact_negative_checkpoint": true,
+    "append_only_section_order": true,
+    "pdf_qa_pass": true,
+    "no_overfull": true
+  },
+  "decision": "PASS: Fig.1 positive promotion is backed by the exact global PL certificate and source propagation; the failed abrupt-boundary triangulation is retained; Fig3--6 fusion is a typed coproduct; unrelated NT/separated carriers remain unpromoted.",
+  "typed_separations": {
+    "CHIRES14_radius_le5": "retain v51 statuses; do not open radius 6",
+    "R2PURE13_to_SellingDeck17": "SEPARATED/PENDING-MORPHISM",
+    "Binet_H1_Ad_H1_V48_transfer": "SEPARATED",
+    "Selling_Noether_biquadratic": "CONTEXT/PENDING-MORPHISM",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM",
+    "GL3_equivariant_bridge": "NT/NOT-CONSTRUCTED"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Noether_bridge_synthetic_replay": {
+    "chart_global_projective": true,
+    "compiled_status": "PASS-CLOSED-EXACT",
+    "determinant": "1",
+    "exact_topology": true,
+    "fallback_count": 0,
+    "field_count": 1,
+    "guard": "synthetic/nonhistorical; proves ABI compatibility of the enriched contraction output with the Selling engine, not a historical Noether identification",
+    "validated_signature": [
+      1,
+      2,
+      0
+    ]
+  },
+  "append_only_guard": "the archived v0.4 checkpoint ZIP is unchanged; v54 applies the patch only in its replay workspace",
+  "bug": {
+    "failure": "repeated eigenvalues are counted as distinct roots rather than with multiplicity; diag(1,-1,-1) is misreported as (1,1,1)",
+    "original_method": "charpoly.count_roots(-oo,0), count_roots(0,oo)",
+    "scope": "seed signature validation only; historical v50 seed regression was not affected in the replayed corpus"
+  },
+  "fix": {
+    "method": "charpoly.all_roots() with multiplicity and exact is_positive/is_negative/is_zero sign certification",
+    "original_algebra_sha256": "3ec8bbdc9999b4c0b1eb6aa3de28e83fe7a91f7182bc2af7b9526dd35ef57ec0",
+    "patch_file": "selling_seed2d_v54_signature_fix.patch",
+    "patch_sha256": "9284251de3f7ab5aa74588a66477e2d6b0107fcba2037b20e2575738f78f6618"
+  },
+  "object": "selling_seed2d v0.4 exact-inertia compatibility overlay",
+  "regression": {
+    "repeated_spectra": [
+      "diag(1,-1,-1)->(1,2,0)",
+      "diag(2,2,-3)->(2,1,0)",
+      "diag(0,-1,-1)->(0,2,1)"
+    ],
+    "test_log": "v04_tests_v54_overlay_stdout.txt",
+    "v04_test_suite_after_overlay": "8/8 PASS"
+  },
+  "status": "PROVEN-BUGFIX-OVERLAY/NONDESTRUCTIVE",
+  "version": "v54"
+}

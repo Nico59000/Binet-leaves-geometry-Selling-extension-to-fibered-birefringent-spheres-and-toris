@@ -1,0 +1,43 @@
+{
+  "methodological_decisions": [
+    "A max_fields budget is never interpreted as a mathematical fundamental domain.",
+    "For Fig2/Fig3 the next quotient must come from Selling source repetition/self-transformation presentation, not brute BFS truncation.",
+    "The Noether rho=0 verdict is bounded to the two explicitly printed control quartics and does not refute the general bridge.",
+    "Full rank modulo 1000003 certifies full column rank over Q for the declared integer whiskering matrices."
+  ],
+  "parent_research": {
+    "gate1": "41/41 PASS",
+    "gate2": "40/40 PASS"
+  },
+  "phase": "gate3 -- source deck refinement, Noether printed-control audit, R2PURE bounded whiskering obstruction",
+  "predecessor": "v53 CLOSED/APPEND-ONLY",
+  "publication_state": "RESEARCH-CHECKPOINT/PRESEAL/NONPUBLISHABLE",
+  "results": {
+    "B6": "NOT-OPENED",
+    "Fig2_6_historical_numeric_root_adapters": "RETAINED-PROVEN-SOURCE-EXACT-FIVE-OF-FIVE",
+    "Fig2_source_self_symmetry_group": "PROVEN-FINITE-ORDER-6-DECK-GROUP",
+    "Fig2_universal_numeric_BFS": "OPEN/TRUNCATED-EXACT-THROUGH-32; source-deck quotient also OPEN",
+    "Fig3_direct_boundary_anchor": "RETAINED-PASS-CLOSED-EXACT/ONE-FIELD",
+    "Fig3_fissure_source_self_symmetry_group": "PROVEN-FINITE-ORDER-6-DECK-GROUP",
+    "Fig3_fissure_universal_numeric_BFS": "OPEN/TRUNCATED-EXACT-THROUGH-48-WITH-SOURCE-DECK",
+    "Noether_general_GL3_bridge": "RETAINED-PROVEN-EXPLICIT-GL3-EQUIVARIANT",
+    "Noether_nonzero_historical_landing": "OPEN/NT",
+    "Noether_printed_control_pair": "PROVEN-RHO-ZERO-BOTH/SELLING-NONLANDING-FOR-PRINTED-CONTROL-PAIR",
+    "R2PURE_13_constant_Q_relations": "ZERO/RANK-13",
+    "R2PURE_full_groupoid_adapter": "SEPARATED/PENDING-MORPHISM",
+    "R2PURE_left_whiskering_radius_le_2_relation": "REFUTED-TYPED/FULL-COLUMN-RANK-2119-OF-2119",
+    "R2PURE_noninjective_edge_to_path_1_skeleton": "RETAINED-PROVEN-EXISTS/NORMALIZATION-DEPENDENT",
+    "R2PURE_right_whiskering_radius_le_2_relation": "REFUTED-TYPED/FULL-COLUMN-RANK-2119-OF-2119",
+    "Selling_3D_to_5D": "CONTEXT/PENDING-MORPHISM"
+  },
+  "safe_successor": {
+    "Noether": "Search or derive a further source-explicit quartic specialization with rho != 0; absent one, classify the rho!=0 locus algebraically while keeping historical Selling landing NT.",
+    "R2PURE": "Do not revisit strict or radius<=2 additive whiskering lanes; next admissible attacks are coefficient radius >=3, mixed Peiffer relations, or a separately source-materialized higher presentation.",
+    "Selling": "Materialize the source-bounded transformation presentation for Fig2/Fig3 (including the printed repetition substitutions; for Fig3 the Q/R/T/U and Sigma/Gamma/Delta/Lambda systems) and quotient the numerical engine by that presentation rather than by local stabilizers alone.",
+    "guards": [
+      "B6 NOT-OPENED",
+      "Selling 3D->5D CONTEXT/PENDING-MORPHISM"
+    ]
+  },
+  "version": "v54"
+}
